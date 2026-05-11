@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mwgg_igdb"
+version = "2026.05.11"
+description = "IGDB database indexed for MultiworldGG use (No Adults Only)"
+authors = [{name = "MultiworldGG"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Private :: Do Not Upload"
+]
+
+[tool.setuptools]
+py-modules = ["mwgg_igdb"]
