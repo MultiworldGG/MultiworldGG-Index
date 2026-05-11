@@ -9,5 +9,5 @@
     "compatible_version": 7,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.1.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_dsr-0.1.1-py3-none-any.whl#sha256=4b2cb69a84dadcbb394923e0d87fa06186d9bd692e48632356afc6f27955c60c"
+    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_dsr-0.1.1-py3-none-any.whl#sha256=18e3fbfe0000b7668626610e75d55f74263d22f41c8b0661e6b09e42cad3e9d7"
 }
