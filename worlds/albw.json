@@ -8,5 +8,5 @@
     "version": 7,
     "compatible_version": 7,
     "game": "A Link Between Worlds",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_albw-0.2.1-py3-none-any.whl#sha256=64b29b1fb3daaa3b28136b7165bbc0eebcbaff921030667f872704f596d48069"
+    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_albw-0.2.1-py3-none-any.whl#sha256=49f342e2fd7ef33fb2f36606ef02220fa64134d0db8cbdf1c141c184ead7e97c"
 }
