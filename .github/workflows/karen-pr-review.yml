@@ -356,7 +356,7 @@ jobs:
 
       - name: Upload fuzzer artifacts
         if: always() && steps.fuzz.outcome != 'skipped'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: karen-fuzz-output
           path: fuzz_output_all/
@@ -364,7 +364,7 @@ jobs:
 
       - name: Upload Karen artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: karen-review
           path: |
@@ -459,7 +459,7 @@ jobs:
       # Karen approves them — different Apps).
       #
       # Operator setup:
-      #   - vars.KAREN_APP_ID    — Karen's numeric App ID (not secret)
+      #   - vars.KAREN_APP_ID    — Karen's OAuth Client ID (not secret)
       #   - secrets.KAREN_PRIVATE_KEY — full PEM of Karen's private key
       # Without these set, this step is a no-op so the existing
       # human-review-request flow still works.
@@ -476,7 +476,7 @@ jobs:
         uses: actions/create-github-app-token@v1
         continue-on-error: true
         with:
-          app-id: ${{ vars.KAREN_APP_ID }}
+          client-id: ${{ vars.KAREN_APP_ID }}
           private-key: ${{ secrets.KAREN_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: ${{ github.event.repository.name }}
