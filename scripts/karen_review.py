@@ -56,7 +56,7 @@ PR_COMMENT_MARKER = "<!-- karen-pr-review -->"
 DEFAULT_SIZE_CAP_MB = 250
 
 URL_FETCH_TIMEOUT_SECONDS = 10
-URL_USER_AGENT = "MultiworldGG-Index-Karen/1.0 (+https://github.com/lallaria/MultiworldGG-Index)"
+URL_USER_AGENT = "MultiworldGG-Index-Karen/1.0 (+https://github.com/MultiworldGG/MultiworldGG-Index)"
 
 ALL_CHECKS = (
     "schema",

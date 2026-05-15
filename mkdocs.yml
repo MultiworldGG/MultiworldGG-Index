@@ -1,0 +1,41 @@
+site_name: MultiworldGG-Index docs
+site_description: How APWorld authors release their worlds onto MultiworldGG-Index.
+site_url: https://lallaria.github.io/MultiworldGG-Index/
+repo_url: https://github.com/MultiworldGG/MultiworldGG-Index
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
+
+nav:
+  - Home: index.md
+  - Why Oliver opens the PR: why-oliver.md
+  - I want the easiest setup:
+    - easy/index.md
+    - From an Archipelago fork: easy/from-archipelago-fork.md
+    - From a standalone repo: easy/from-standalone-repo.md
+  - I want to write my own pyproject.toml:
+    - advanced/index.md
+    - From an Archipelago fork: advanced/from-archipelago-fork.md
+    - From a standalone repo: advanced/from-standalone-repo.md
+    - Compatibility branches: advanced/compatibility-branches.md
+  - Reference:
+    - archipelago.json schema: reference/archipelago-json.md
+    - Reusable workflows: reference/workflows.md
+    - Troubleshooting: reference/troubleshooting.md
+  - Glossary: glossary.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: true

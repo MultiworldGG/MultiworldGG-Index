@@ -11,3 +11,9 @@ venv/
 
 # Variant-build outputs (rebuilt fresh by daily-release.yml)
 dist/
+
+# MkDocs build output (deployed to gh-pages branch by docs.yml)
+site/
+
+# Local docs venv
+.venv-docs/
