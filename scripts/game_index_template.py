@@ -127,13 +127,50 @@ class _GameIndexClass(object):
         """
         return self.games.get(game_module, {})
 
+    _SEARCHABLE_FIELDS = (
+        "igdb_name", "platforms", "genres", "themes", "keywords", "player_perspectives",
+    )
+
+    def _index_value(self, game_module: str, value) -> None:
+        if value is None:
+            return
+        cleaned = str(value).lower()
+        if not cleaned:
+            return
+        self.search_index = cleaned, game_module
+        for word in cleaned.split():
+            self.search_index = word, game_module
+
     def add_game(self, game_module: str, game_data: dict):
-        """Add a game to the game index"""
+        """Add a game to the game index.
+
+        Mirrors build_variants.build_search_index so a runtime-added custom
+        world is searchable on the same surface as build-time indexed games.
+        Also adds the module to the "popular" set so it shows up when the
+        launcher's search bar is empty (popular is the fallback query).
+
+        TODO: replace "popular" here with a dedicated "always_search" term,
+        and have the empty-search-bar fallback union "popular" + "always_search".
+        """
         self.games = game_module, game_data
         self.game_names = game_data['game_name'], game_module
         self._module_to_name[game_module] = game_data['game_name']
-        for term in game_module.lower().split():
-            self.search_index = term, game_module
+
+        # Empty-search-bar fallback — see TODO above for the proper term.
+        self.search_index = "popular", game_module
+
+        # Display name (full lowercased + each whitespace-split word).
+        self._index_value(game_module, game_data.get('game_name', ''))
+
+        # IGDB-style fields, if the manifest carries them.
+        for field in self._SEARCHABLE_FIELDS:
+            value = game_data.get(field)
+            if isinstance(value, list):
+                for item in value:
+                    if item and not any(c in str(item) for c in "():"):
+                        self._index_value(game_module, item)
+            elif isinstance(value, (str, int, float, bool)) and value:
+                self._index_value(game_module, value)
 
     def get_module_for_game(self, game_name: str, worlds: bool = False):
         """Resolve a display game name to its module apworld.
