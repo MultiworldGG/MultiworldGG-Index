@@ -5,5 +5,5 @@
     ],
     "minimum_ap_version": "0.6.3",
     "world_version": "1.6.0",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_srb2-1.6.0-py3-none-any.whl#sha256=a8c57f4c89aaba07bb2da68b95bc9cf383d73a9356c85a3495b699e24df7d697"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_srb2-1.6.0-py3-none-any.whl#sha256=f186553b664bff9726690fac7f10af6562c2d01667f536225c3946d5cc826bf7"
 }

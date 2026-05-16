@@ -8,5 +8,5 @@
     "igdb_id": 14432,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.0.4",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_tyrian-1.0.4-py3-none-any.whl#sha256=50693d21d90e243144dddd92f6704188a80b90beba476bf87a29f1d3b8ad4d1f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tyrian-1.0.4-py3-none-any.whl#sha256=76ff763fdd5ac91d1c6f26ef444fa5a9827a3abc65f39aea24bb665c8aed4474"
 }

@@ -7,5 +7,5 @@
     "igdb_id": 52006,
     "minimum_ap_version": "0.6.4",
     "world_version": "1.4.0",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_noita-1.4.0-py3-none-any.whl#sha256=97350723a28bebbaa3ea2fabc25c6634f65079959f0ed8b3958204d447dd09a8"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_noita-1.4.0-py3-none-any.whl#sha256=fa54e55bbe472bd9f023a165df7f429fa22de42ba781f5b71046d2c9572b1351"
 }

@@ -6,5 +6,5 @@
     "igdb_id": 192291,
     "minimum_ap_version": "0.6.1",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_lunacid-0.0.1-py3-none-any.whl#sha256=4d1c76bd98e8aeb4ec678ebde0cf0e5a87043e1338e11a0b9b5a635ec13d6ac1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_lunacid-0.0.1-py3-none-any.whl#sha256=32faa80bccbeef573c03648d44ba9cd5b02b96e15d9b35286b95c389c8af1dcf"
 }

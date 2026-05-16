@@ -7,5 +7,5 @@
     "igdb_id": 1178,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.2",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_lufia2ac-0.0.2-py3-none-any.whl#sha256=5961b08d1ef64f7bd4583dff1bbc56744b91918422d096dabbdffd7abcce97a7"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_lufia2ac-0.0.2-py3-none-any.whl#sha256=456e91244dee54915ad0def6bffac99edbccbc2129d3e26741e7f216e4651506"
 }

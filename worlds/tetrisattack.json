@@ -6,5 +6,5 @@
     "igdb_id": 2739,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_tetrisattack-0.0.1-py3-none-any.whl#sha256=104dba76c095bfa4d485cb4599f5f7ac4b31605b93a0253630a6241b3f15382c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tetrisattack-0.0.1-py3-none-any.whl#sha256=740c16f5f4e440d5cb9035285fa76a73beaabf81735dc32f3507ce1bee03b6f7"
 }

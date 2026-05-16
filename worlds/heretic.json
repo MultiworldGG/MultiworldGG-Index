@@ -7,5 +7,5 @@
     "igdb_id": 6362,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.5.2",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_heretic-0.5.2-py3-none-any.whl#sha256=5eef1ed23d199b6ffc0026c8bd8246f0bb76e6227fc5cc645beaf00b61dcd23f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_heretic-0.5.2-py3-none-any.whl#sha256=8404fad2b2255cd555460927f70349ef7fafbaaef18de7f1379d5a249dc17896"
 }

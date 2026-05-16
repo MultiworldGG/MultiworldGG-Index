@@ -9,5 +9,5 @@
     "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_mzm-0.5.3-py3-none-any.whl#sha256=98ffe2ca094ac739342337a2252ec76af22481b23a4e0b7b0d3355a870392563"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mzm-0.5.3-py3-none-any.whl#sha256=b7d31805b94dcce44686452994fece411a0a52a123385f211365072f7fadb313"
 }

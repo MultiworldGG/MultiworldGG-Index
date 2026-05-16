@@ -8,5 +8,5 @@
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_musedash-1.5.32-py3-none-any.whl#sha256=fff81809952d41c50d1925980c8146bbdd8310654201340ac28d23dab81bb257"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_musedash-1.5.32-py3-none-any.whl#sha256=41e9413a68a31894c6bc8c9e279b906ef88c881281489e31a84809d1f56843af"
 }

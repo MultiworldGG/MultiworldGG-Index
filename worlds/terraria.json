@@ -6,5 +6,5 @@
     "igdb_id": 1879,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_terraria-0.0.1-py3-none-any.whl#sha256=2a917840f771d9f4a52ab26ef38fe3dcadfeb65f24bd503dc0d443636f98d8a9"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_terraria-0.0.1-py3-none-any.whl#sha256=7559ece6b65e5fda599dffeeb45c6f639e3566efc0236b367e8829966fe0dd06"
 }

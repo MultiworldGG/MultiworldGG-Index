@@ -7,5 +7,5 @@
     "igdb_id": 23733,
     "minimum_ap_version": "0.6.4",
     "world_version": "4.2.7",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_tunic-4.2.7-py3-none-any.whl#sha256=fb092054bf649b216fbd9e1d495ea56feff30296e45588bf28d55b7bcda23c33"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tunic-4.2.7-py3-none-any.whl#sha256=cca658037637751eebbc7097c7a1be9b1304d58f9212a56e32bb64865cf4c8b4"
 }

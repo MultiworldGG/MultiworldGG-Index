@@ -9,5 +9,5 @@
     "minimum_ap_version": "0.6.5",
     "version": 7,
     "world_version": "1.1.2",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_peggle_deluxe-1.1.2-py3-none-any.whl#sha256=b7875b8d5e04dce29ce9bebc2fb6d43940c67ef479e5926b6769d86cf1c42aa3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_peggle_deluxe-1.1.2-py3-none-any.whl#sha256=240cfa5b1dd2c95aaf6928646eb343f7b38341d0d607302ab75bf6b19d3e95da"
 }

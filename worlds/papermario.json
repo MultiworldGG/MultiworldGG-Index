@@ -6,5 +6,5 @@
     "igdb_id": 3340,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_papermario-0.0.1-py3-none-any.whl#sha256=a1c578f24c61df974cfc7051cf20cfec3186f38496097af741a46df855fd0633"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_papermario-0.0.1-py3-none-any.whl#sha256=e9c9a63c8489490d790e833cfe830ee69f15333b02a5c944d9578bbe794c7c00"
 }

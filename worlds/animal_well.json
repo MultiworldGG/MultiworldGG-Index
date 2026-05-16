@@ -9,5 +9,5 @@
     "igdb_id": 191435,
     "minimum_ap_version": "0.6.4",
     "world_version": "v0.5.5",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_animal_well-0.5.5-py3-none-any.whl#sha256=3017972045923bf3a5b0e036c9f20eaab2f8f86300ec3f60fcad7b1b7b538ef3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_animal_well-0.5.5-py3-none-any.whl#sha256=a83ef4a4a5a14f35d73a3fd634fffbc85655f735486ff36b6a46b990cfd84e15"
 }

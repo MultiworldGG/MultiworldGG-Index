@@ -6,5 +6,5 @@
     "igdb_id": 2899,
     "minimum_ap_version": "0.6.3",
     "world_version": "4.3.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_earthbound-4.3.1-py3-none-any.whl#sha256=d4a1ae57247adb5b48d01aae5af7d8de118129c91ef925c30ee06d64e4c52a25"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_earthbound-4.3.1-py3-none-any.whl#sha256=1ddd5637784b99d6462cc44c3103eb76bc5a4fcab0184fbe4b7a4dd12d6af414"
 }

@@ -6,5 +6,5 @@
     "igdb_id": 0,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=d20ce4c27cf5c8666a267bf1cc58026b32aa83280ec50041f9d3fa8a5b010ef3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=ad0e1fe6fba604b669185931b2c1727cc56e059acedd0a53542d0ddbf5de7021"
 }

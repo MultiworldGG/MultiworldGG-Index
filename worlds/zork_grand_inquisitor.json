@@ -10,5 +10,5 @@
     "minimum_ap_version": "0.6.7",
     "version": 7,
     "world_version": "2.1.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_zork_grand_inquisitor-2.1.1-py3-none-any.whl#sha256=1f891061f1cb417aefb8a15a60f6b1ae593f4c26aac3b5030442605f10754c2c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_zork_grand_inquisitor-2.1.1-py3-none-any.whl#sha256=b610e608b48b355b5019ac2bc1277392d5064d28a32ff44209c4a2b09915cad2"
 }

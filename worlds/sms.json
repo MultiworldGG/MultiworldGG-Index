@@ -9,5 +9,5 @@
     "world_version": "0.6.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_sms-0.6.2-py3-none-any.whl#sha256=4a65dc582581a385e1858acecb4705976311a61bd11b540fb40ed7727eaaa536"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sms-0.6.2-py3-none-any.whl#sha256=5518999477a888a3bad79e9aabe109b7b47691c411fb1391d6a6943fdf3b9391"
 }

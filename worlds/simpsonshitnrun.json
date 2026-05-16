@@ -8,5 +8,5 @@
     "igdb_id": 2844,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.5.4",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_simpsonshitnrun-0.5.4-py3-none-any.whl#sha256=99ddbbc588be3ef67ae8e988d5f9228d56f25cd4e828be511cb4df0b769fe969"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_simpsonshitnrun-0.5.4-py3-none-any.whl#sha256=fac0baede9819e773801b14decbd17377fc7592187b94c97803e1585427d372f"
 }

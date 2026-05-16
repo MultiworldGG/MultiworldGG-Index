@@ -6,5 +6,5 @@
     "igdb_id": 2366,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_xenobladex-0.0.1-py3-none-any.whl#sha256=9eff3b6338c2de8decc8ee8ae6ebaa88d01b5974501115483170e7b31e81bbe0"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_xenobladex-0.0.1-py3-none-any.whl#sha256=dd984a49b069332be8fdfd4b2a5eb79c25b48064dade7c8015e23435ef84c949"
 }

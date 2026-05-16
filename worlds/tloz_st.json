@@ -11,5 +11,5 @@
     "minimum_ap_version": "0.6.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_tloz_st-0.7.6-py3-none-any.whl#sha256=91234071ae456aad84eb00438688dd850e9e2fdd537d9024d40f961a3748e32b"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz_st-0.7.6-py3-none-any.whl#sha256=247b7552cfce26cf65a370786d846e861106203a036fc5034c033afa678ba0a7"
 }

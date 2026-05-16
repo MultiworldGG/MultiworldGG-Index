@@ -7,5 +7,5 @@
     "igdb_id": 11133,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_dark_souls_3-0.0.1-py3-none-any.whl#sha256=14b260259c96fd9679f98d8eded6f8ca05aec4470f5bec4eb758152ef57c248a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dark_souls_3-0.0.1-py3-none-any.whl#sha256=5b9c9da25b3a82eb2e0665bc787011d90fef30603139c079dd2675fadcc087c8"
 }

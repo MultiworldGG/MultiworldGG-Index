@@ -8,5 +8,5 @@
     "minimum_ap_version": "0.6.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_frogmonster-0.2.5-py3-none-any.whl#sha256=34ee6028fc388c68ee244d663dc7b7ef4391768f05ad306ac02fa6142e94ad60"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_frogmonster-0.2.5-py3-none-any.whl#sha256=2b6693b23612fb05dca35c436668a5bc5335cb8038843dba8eb295bdc31f0308"
 }

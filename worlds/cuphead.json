@@ -2,9 +2,9 @@
     "version": 6,
     "compatible_version": 5,
     "game": "Cuphead",
-    "world_version": "0.2.16908799",
+    "world_version": "0.2.16909311",
     "world_version_full": "alpha02i.1",
     "minimum_ap_version": "0.6.0",
     "igdb_id": 9061,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_cuphead-0.2.16908799-py3-none-any.whl#sha256=a8c6502a76d13c7abbbd9c5f633b2324f6b09b180647a54121e8341eb5740f40"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cuphead-0.2.16909311-py3-none-any.whl#sha256=d5efb9a60dbb53aba29eb06bb700c126ca08daba97efc36d249b7f8037a8a773"
 }

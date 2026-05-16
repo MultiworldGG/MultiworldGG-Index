@@ -6,5 +6,5 @@
     "igdb_id": 103341,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=55cf840ef3e7485ef1044df660d55df26035a875bab01de6fa94248cafad4387"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=3afe3bdf997bd90a66dc2b89ee002010b2ca7f04635cadceef8bbc247a077cea"
 }

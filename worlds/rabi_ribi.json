@@ -9,5 +9,5 @@
     "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_rabi_ribi-1.4.7-py3-none-any.whl#sha256=577e04821b6904ff3d50f3162fadd2e5aeaf197ae8cc5a755003d5ec2a184108"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_rabi_ribi-1.4.7-py3-none-any.whl#sha256=6473a5ac35a10a37266eda9f9f09013f79245da9b1686279eb97470e83922845"
 }

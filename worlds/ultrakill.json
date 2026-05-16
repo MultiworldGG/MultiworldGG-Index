@@ -1,6 +1,6 @@
 {
     "game": "ULTRAKILL",
-    "world_version": "3.5.0",
+    "world_version": "3.5.2",
     "authors": [
         "TRPG"
     ],
@@ -8,5 +8,5 @@
     "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_ultrakill-3.5.0-py3-none-any.whl#sha256=a9184cbdf00d169aeec3f75e12498c5d9a988df1b1013a72eca8127ab2b89bd6"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ultrakill-3.5.2-py3-none-any.whl#sha256=abb6694d162a386e187d39cc123a9ae173739dab37a84f754d974cd983a6de08"
 }

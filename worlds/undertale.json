@@ -6,5 +6,5 @@
     "igdb_id": 12517,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_undertale-0.0.1-py3-none-any.whl#sha256=1fb1d7fbc9f2823f3d39c20efaed0b60bbe240f2edb399f7ea23ee98a7dbd9a1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_undertale-0.0.1-py3-none-any.whl#sha256=2cefab28e0696b868c4cc5611308760042fd1753377bca79f31bb8adf964330a"
 }

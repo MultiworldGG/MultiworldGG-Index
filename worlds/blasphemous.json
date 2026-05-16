@@ -6,5 +6,5 @@
     "igdb_id": 26820,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=8938dc3a1189920e7d853e8a620ed70054f4deb31776ac9c6a197f1a73aad0cf"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=446f5b00053f0beac49901047f76ac7a82cef0ad03827f8ddeebc1f84b902a2d"
 }

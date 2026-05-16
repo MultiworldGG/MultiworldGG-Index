@@ -7,5 +7,5 @@
     "igdb_id": 312,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_doom_ii-0.0.1-py3-none-any.whl#sha256=42034a81f4a8253813016bfab06a857e74e4981538153a820e46e6fe2518645c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_doom_ii-0.0.1-py3-none-any.whl#sha256=4f8fed42b9d2d48924301f646b8f983be14a8d622a05b658c66681054a1e6822"
 }

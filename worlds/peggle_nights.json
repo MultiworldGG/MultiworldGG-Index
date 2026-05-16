@@ -9,5 +9,5 @@
     "minimum_ap_version": "0.6.5",
     "version": 7,
     "world_version": "1.0.2",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_peggle_nights-1.0.2-py3-none-any.whl#sha256=e75b63db1fc2798d7fd6018e0edc71fb5af81709624ee996dd1ab98d091662a1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_peggle_nights-1.0.2-py3-none-any.whl#sha256=8a087da38a38c1f2739e8a75639b042382490992211bae1d4e0da5676f34111c"
 }

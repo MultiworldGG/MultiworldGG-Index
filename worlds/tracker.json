@@ -4,5 +4,5 @@
     "game": "Universal Tracker",
     "minimum_ap_version": "0.6.2",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_tracker-0.0.1-py3-none-any.whl#sha256=366d23aa2dbe7d7b2025b536492c38dd6dc70b275bcc67ce073f67f64801b174"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tracker-0.0.1-py3-none-any.whl#sha256=9484f7fdd5647ecfea25c1f23bd087f94c409f59e1bc807e06253e842449769f"
 }

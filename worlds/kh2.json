@@ -6,5 +6,5 @@
     "minimum_ap_version": "0.6.3",
     "world_version": "2.0.0",
     "igdb_id": 1221,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_kh2-2.0.0-py3-none-any.whl#sha256=c79294b0e880e1442f4c1986accbe769e20401fb929a37d3bfc1a60a34299fef"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_kh2-2.0.0-py3-none-any.whl#sha256=c10f679adfef4db671e3416392fd9b700120fb8be9b3fd09ca4b1e867ebb799e"
 }

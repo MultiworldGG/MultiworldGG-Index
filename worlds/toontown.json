@@ -9,5 +9,5 @@
     "minimum_ap_version": "0.6.4",
     "world_version": "0.6.4",
     "repo_url": "https://github.com/toontown-archipelago/toontown-archipelago",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_toontown-0.6.4-py3-none-any.whl#sha256=29b9f98fb29364b25d704d54d72a84d89bb78d6d95352359cebe01a621c5938d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_toontown-0.6.4-py3-none-any.whl#sha256=c9c329b42806bbaf404c85bd1fc67a0d2da6c3b1021f5d16929f588d03e881ca"
 }

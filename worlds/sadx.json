@@ -8,5 +8,5 @@
     "world_version": "1.2.1",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_sadx-1.2.1-py3-none-any.whl#sha256=67cc450f9b76672dae375df138bdebfc98af1698d0197e35c8360ca94783a12c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sadx-1.2.1-py3-none-any.whl#sha256=d691ba493e42c6d088314c55ea514633a0639dfea165301e22c47fe0d10bc6e5"
 }

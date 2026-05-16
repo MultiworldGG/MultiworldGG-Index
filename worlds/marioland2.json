@@ -6,5 +6,5 @@
     "igdb_id": 1071,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=4fcabb496e95c521fb716b1d7c27f2bb3ec0eb5b5d5d441806189b6905926d8d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=1d8bf64e7aacce37657c21cbda41216abd33a8d3f1e0e90868f0d36c0d0a570b"
 }

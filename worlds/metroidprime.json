@@ -10,5 +10,5 @@
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_metroidprime-0.5.3-py3-none-any.whl#sha256=29d48098a051f6c30ac6a7b2d1f644904f0ef6b5b7b646e256a04bc7162f845e"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_metroidprime-0.5.3-py3-none-any.whl#sha256=196d3fe4c3e31a865efbf6dad485b167fa3531b9af03c5fdd179aca9d4c08843"
 }

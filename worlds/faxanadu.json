@@ -6,5 +6,5 @@
     "igdb_id": 1974,
     "minimum_ap_version": "0.6.4",
     "world_version": "0.3.1",
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_faxanadu-0.3.1-py3-none-any.whl#sha256=55df6be1ae1abfb569f37e7a50a6c45da6ab0bde1f1bba345da40cb2732b5bc7"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_faxanadu-0.3.1-py3-none-any.whl#sha256=4e74662e3708402f297904a4f2972266793f5ae1144bb93f32fcbe1f6dffa833"
 }

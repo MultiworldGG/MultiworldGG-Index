@@ -1,11 +1,11 @@
 {
     "game": "Brotato",
-    "world_version": "0.14.1",
+    "world_version": "0.15.0",
     "authors": [
         "Rampaging Hippy"
     ],
     "igdb_id": 199116,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/lallaria/MultiworldGG/releases/download/worlds-seed-2026-05-11/worlds_brotato-0.14.1-py3-none-any.whl#sha256=7cbfa13f8e4f250c049fcc5cbcb61393da58a61adf360fd1c403be517759037f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_brotato-0.15.0-py3-none-any.whl#sha256=e424ca49cb171d609ceadc0cface303f68cd3e58728af58eac01efef4a96adbe"
 }
