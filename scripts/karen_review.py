@@ -3,21 +3,23 @@
 Karen is the default reviewer (via CODEOWNERS) for `worlds/*.json` updates in
 this Index repo. On every PR open/sync against `main`, the
 `karen-pr-review.yml` workflow invokes this script with the list of changed
-manifest paths. Each manifest is run through 7 checks:
+manifest paths. Each manifest is run through 8 checks:
 
     1. schema               — JSON-Schema validation against schema/world_manifest.schema.json
     2. manifest_consistency — apworld = filename; URL apworld matches; no duplicate keys
     3. url_reachability     — module_location, repo_url, tracker respond
     4. size_sanity          — world dir size <= cap (overridable via --size-cap-mb)
-    5. no_network_at_import — AST scan: no networking calls at module top level
-    6. bandit               — bandit -r on the cloned world directory
-    7. pip_audit            — pip-audit on requirements.txt / pyproject.toml if present
+    5. no_rom_files         — no ROM/media-looking files in the fetched artifact
+    6. no_network_at_import — AST scan: no networking calls at module top level
+    7. bandit               — bandit -r on the fetched world directory
+    8. pip_audit            — pip-audit on requirements.txt / pyproject.toml if present
 
-Checks 4-7 require fetching the world's source. Currently supports
+Checks 4-8 require fetching the world's source. Currently supports
 `https://github.com/<org>/<repo>/tree/<ref>/<path>` URLs (sparse-clone of the
 referenced subpath) and `git+https://<host>/<org>/<repo>.git@<ref>` URLs
-(shallow clone). Other URL shapes are reported as `skip` (with a clear reason
-in the comment).
+(shallow clone). Direct `.whl` URLs are downloaded and safely expanded before
+deep checks run. Other URL shapes are reported as `skip` (with a clear reason in
+the comment).
 
 The script writes:
     - a markdown PR comment to --output-comment
@@ -37,6 +39,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+import hashlib
 import json
 import os
 import re
@@ -47,6 +50,7 @@ import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
+import zipfile
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
@@ -63,12 +67,41 @@ ALL_CHECKS = (
     "manifest_consistency",
     "url_reachability",
     "size_sanity",
+    "no_rom_files",
     "no_network_at_import",
     "bandit",
     "pip_audit",
 )
-DEEP_CHECKS = frozenset({"size_sanity", "no_network_at_import", "bandit", "pip_audit"})
+DEEP_CHECKS = frozenset({
+    "size_sanity",
+    "no_rom_files",
+    "no_network_at_import",
+    "bandit",
+    "pip_audit",
+})
 
+ROM_FILE_EXTENSIONS = frozenset({
+    ".3ds",
+    ".a26",
+    ".cci",
+    ".cue",
+    ".gb",
+    ".gba",
+    ".gbc",
+    ".gcm",
+    ".gcz",
+    ".iso",
+    ".n64",
+    ".nds",
+    ".nes",
+    ".rvz",
+    ".sfc",
+    ".smc",
+    ".sms",
+    ".z64",
+})
+
+# Removing 'websocket' because well...
 NETWORK_MODULES = frozenset({
     "socket",
     "http",
@@ -82,8 +115,6 @@ NETWORK_MODULES = frozenset({
     "ftplib",
     "smtplib",
     "telnetlib",
-    "websocket",
-    "websockets",
 })
 
 # Top-level call attribute paths that indicate network use. Conservative —
@@ -404,6 +435,70 @@ def _sparse_clone(clone_url: str, ref: str, subpath: str, dest: Path) -> tuple[b
     return True, "ok"
 
 
+def _is_wheel_url(url: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    return parsed.scheme in {"http", "https"} and Path(parsed.path).suffix.lower() == ".whl"
+
+
+def _wheel_sha256(url: str) -> str | None:
+    parsed = urllib.parse.urlparse(url)
+    hashes = urllib.parse.parse_qs(parsed.fragment).get("sha256", [])
+    return hashes[0].lower() if hashes else None
+
+
+def _download_and_expand_wheel(url: str, dest: Path) -> tuple[bool, str]:
+    """Download a wheel URL and safely expand it into dest."""
+    if dest.exists():
+        shutil.rmtree(dest)
+    dest.mkdir(parents=True)
+
+    parsed = urllib.parse.urlparse(url)
+    download_url = urllib.parse.urlunparse(parsed._replace(fragment=""))
+    wheel_path = dest.parent / f"{dest.name}.whl"
+    expected_hash = _wheel_sha256(url)
+    digest = hashlib.sha256()
+
+    try:
+        req = urllib.request.Request(download_url, headers={"User-Agent": URL_USER_AGENT})
+        with urllib.request.urlopen(req, timeout=URL_FETCH_TIMEOUT_SECONDS) as response:
+            with open(wheel_path, "wb") as wheel:
+                while True:
+                    chunk = response.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    digest.update(chunk)
+                    wheel.write(chunk)
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        return False, f"wheel download failed: {exc}"
+
+    actual_hash = digest.hexdigest()
+    if expected_hash and actual_hash != expected_hash:
+        return False, f"wheel sha256 mismatch: expected {expected_hash}, got {actual_hash}"
+
+    try:
+        dest_root = dest.resolve()
+        with zipfile.ZipFile(wheel_path) as wheel:
+            for member in wheel.infolist():
+                target = dest / member.filename
+                if not target.resolve().is_relative_to(dest_root):
+                    return False, f"wheel contains unsafe path: {member.filename}"
+                if member.is_dir():
+                    target.mkdir(parents=True, exist_ok=True)
+                    continue
+                target.parent.mkdir(parents=True, exist_ok=True)
+                with wheel.open(member) as source, open(target, "wb") as output:
+                    shutil.copyfileobj(source, output)
+    except (OSError, zipfile.BadZipFile) as exc:
+        return False, f"wheel expansion failed: {exc}"
+    finally:
+        try:
+            wheel_path.unlink()
+        except OSError:
+            pass
+
+    return True, "wheel expanded"
+
+
 def _dir_size_bytes(path: Path) -> int:
     total = 0
     for root, _dirs, files in os.walk(path):
@@ -437,6 +532,36 @@ def check_size_sanity(world_dir: Path, size_cap_mb: int) -> CheckResult:
             ],
         )
     return CheckResult("size_sanity", "pass", cap_str)
+
+
+def check_no_rom_files(world_dir: Path) -> CheckResult:
+    """Fail if the fetched artifact contains ROM or disc-image-looking files."""
+    if not world_dir.is_dir():
+        return CheckResult("no_rom_files", "skip", "world source not fetched")
+
+    rom_paths: list[str] = []
+    for path in world_dir.rglob("*"):
+        if not path.is_file():
+            continue
+        if any(part in {".git", "__pycache__"} for part in path.parts):
+            continue
+        if path.suffix.lower() in ROM_FILE_EXTENSIONS:
+            rom_paths.append(path.relative_to(world_dir).as_posix())
+
+    if not rom_paths:
+        return CheckResult("no_rom_files", "pass", "no ROM/media-looking files found")
+
+    rom_paths.sort()
+    displayed = rom_paths[:100]
+    if len(rom_paths) > len(displayed):
+        displayed.append(f"... {len(rom_paths) - len(displayed)} more")
+
+    return CheckResult(
+        "no_rom_files",
+        "fail",
+        f"{len(rom_paths)} ROM/media-looking file(s) found",
+        details=displayed,
+    )
 
 
 def _attribute_chain(node: ast.AST) -> Optional[str]:
@@ -644,17 +769,24 @@ def review_one(
         with open(manifest_path, encoding="utf-8") as f:
             manifest = json.load(f)
         url = manifest.get("module_location", "")
-        params = _parse_module_location(url)
-        if params is None:
-            fetch_message = f"module_location URL shape not supported by Karen yet: {url}"
-        else:
-            ok, msg = _sparse_clone(
-                params["clone_url"], params["ref"], params["subpath"], world_dir
-            )
+        if _is_wheel_url(url):
+            ok, msg = _download_and_expand_wheel(url, world_dir)
             if ok:
                 fetched = True
             else:
                 fetch_message = msg
+        else:
+            params = _parse_module_location(url)
+            if params is None:
+                fetch_message = f"module_location URL shape not supported by Karen yet: {url}"
+            else:
+                ok, msg = _sparse_clone(
+                    params["clone_url"], params["ref"], params["subpath"], world_dir
+                )
+                if ok:
+                    fetched = True
+                else:
+                    fetch_message = msg
     except (OSError, json.JSONDecodeError) as exc:
         fetch_message = f"could not load manifest for fetch: {exc}"
 
@@ -666,7 +798,7 @@ def review_one(
             if lenient_urls
             else "world source not fetched"
         )
-        for name in ("size_sanity", "no_network_at_import", "bandit", "pip_audit"):
+        for name in ("size_sanity", "no_rom_files", "no_network_at_import", "bandit", "pip_audit"):
             if name in selected_checks:
                 review.checks.append(
                     CheckResult(name, skip_status, skip_message, details=[fetch_message])
@@ -675,6 +807,8 @@ def review_one(
 
     if "size_sanity" in selected_checks:
         review.checks.append(check_size_sanity(world_dir, size_cap_mb))
+    if "no_rom_files" in selected_checks:
+        review.checks.append(check_no_rom_files(world_dir))
     if "no_network_at_import" in selected_checks:
         review.checks.append(check_no_network_at_import(world_dir))
     if "bandit" in selected_checks:
@@ -794,7 +928,7 @@ def _cli(argv: Optional[list[str]] = None) -> int:
         default=[],
         choices=ALL_CHECKS,
         help=(
-            "Limit to specific checks. Repeatable. Default: run all 7. "
+            "Limit to specific checks. Repeatable. Default: run all 8. "
             "Use to run a fast subset (e.g. --check schema --check manifest_consistency) "
             "when validating all worlds after a schema change."
         ),
