@@ -5,6 +5,10 @@ repo_url: https://github.com/MultiworldGG/MultiworldGG-Index
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: amber
   features:
     - content.code.copy
     - content.tabs.link
@@ -18,12 +22,10 @@ nav:
   - I want the easiest setup:
     - easy/index.md
     - From an Archipelago fork: easy/from-archipelago-fork.md
-    - From a standalone repo: easy/from-standalone-repo.md
-  - I want to write my own pyproject.toml:
+  - I want the fully custom setup:
     - advanced/index.md
     - From an Archipelago fork: advanced/from-archipelago-fork.md
     - From a standalone repo: advanced/from-standalone-repo.md
-    - Compatibility branches: advanced/compatibility-branches.md
   - Reference:
     - archipelago.json schema: reference/archipelago-json.md
     - Reusable workflows: reference/workflows.md

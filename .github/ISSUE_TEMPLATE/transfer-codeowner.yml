@@ -16,8 +16,8 @@ body:
     id: apworld
     attributes:
       label: APWorld
-      description: Filename stem under `worlds/` (e.g. `clique` for `worlds/clique.json`). Lowercase letters, digits, and underscores only.
-      placeholder: "clique"
+      description: Filename stem under `worlds/` (e.g. `myclgm` for `worlds/myclgm.json`). Lowercase letters, digits, and underscores only.
+      placeholder: "My Cool Game"
     validations:
       required: true
   - type: input
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Current codeowner
       description: GitHub handle currently listed for `worlds/<apworld>.json` in `.github/CODEOWNERS`. Without the leading `@`.
-      placeholder: "alice"
+      placeholder: "Ex-owner-name"
     validations:
       required: true
   - type: input
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Proposed new codeowner
       description: GitHub handle to take over. Must be a real GitHub user (or a team in `org/team` form). Without the leading `@`.
-      placeholder: "bob"
+      placeholder: "New-owner-name"
     validations:
       required: true
   - type: textarea
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Reason for transfer
       description: Optional context. e.g. original author no longer maintaining the world, fork ownership change, account migration.
-      placeholder: "Original author asked me to take over after their account was deleted."
+      placeholder: "Original author asked me to take over."
     validations:
       required: false
   - type: checkboxes
