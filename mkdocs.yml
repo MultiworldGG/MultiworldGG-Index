@@ -1,14 +1,26 @@
 site_name: MultiworldGG-Index docs
 site_description: How APWorld authors release their worlds onto MultiworldGG-Index.
-site_url: https://lallaria.github.io/MultiworldGG-Index/
+site_url: https://multiworldgg.github.io/multiworldgg-index/
 repo_url: https://github.com/MultiworldGG/MultiworldGG-Index
 
 theme:
   name: material
+  logo: assets/logo.png
   palette:
-    scheme: slate
-    primary: deep purple
-    accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: purple
+      accent: orange
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: purple
+      accent: orange
   features:
     - content.code.copy
     - content.tabs.link
@@ -18,7 +30,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Why Oliver opens the PR: why-oliver.md
+  - Why do we Have Oliver: why-oliver.md
   - I want the easiest setup:
     - easy/index.md
     - From an Archipelago fork: easy/from-archipelago-fork.md
