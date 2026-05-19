@@ -10,11 +10,13 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: mwgg_dark
+      primary: custom
       toggle:
         icon: material/weather-sunny
         name: Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: mwgg_light
+      primary: custom
       toggle:
         icon: material/weather-night
         name: Dark mode
@@ -46,6 +48,7 @@ nav:
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
