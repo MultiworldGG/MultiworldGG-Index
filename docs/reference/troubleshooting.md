@@ -18,9 +18,9 @@ Install the GitHub App: <https://github.com/apps/oliver-multiworld-squirrel>.
 After installing, publish the release or re-run the completed release workflow
 from the Actions tab.
 
-**2. The release tag does not include the apworld slug.**
+**2. The release tag does not include the apworld name.**
 Release tags must be `<apworld>-<version>`, for example `myclgm-1.2.0`.
-Oliver parses the apworld slug from the tag prefix.
+Oliver parses the apworld from the tag prefix.
 
 **3. The workflow didn't complete successfully.**
 Go to the Actions tab and check the run. A red check means the workflow
@@ -87,7 +87,7 @@ or re-tag the release as `myclgm-1.1.0` to match the existing
 
 ## Workflow failed: `must be python-entrypoint-reference`
 
-**Cause:** A digit-led apworld slug (e.g. `2048`) causes a Python package
+**Cause:** A digit-led apworld name (e.g. `2048`) causes a Python package
 naming constraint. The entry-point emission in `shape_tree.py` handles this
 automatically in `@v3` — digit-led names skip entry-point emission rather than
 emitting an invalid name.

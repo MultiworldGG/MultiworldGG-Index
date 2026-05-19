@@ -22,7 +22,7 @@ But if you're interested in a little more automation...
       — worlds live at `worlds/<apworld>/` inside a fork of
       `Archipelago`.
 
-    [Get started with the easiest setup](easy/index.md){ .md-button .md-button--primary }
+    [Get started with the easiest setup](easy/index.md)
 
 === "I love automation and know what I want. Give me the components, I got this."
 
@@ -33,7 +33,7 @@ But if you're interested in a little more automation...
     - **[My code lives in a fork of Archipelago](advanced/from-archipelago-fork.md)**
     - **[My code lives in its own standalone repo](advanced/from-standalone-repo.md)**
 
-    [Get started with the advanced setup](advanced/index.md){ .md-button }
+    [Get started with the advanced setup](advanced/index.md)
 
 ---
 
@@ -67,7 +67,7 @@ Players who install MultiworldGG get your world automatically at their next upda
 
 ## Quick links
 
-- [Glossary](glossary.md) — apworld, slug, Oliver, Karen, module_location, and more
+- [Glossary](glossary.md) — apworld, Oliver, Karen, module_location, and more
 - [Troubleshooting](reference/troubleshooting.md) — Oliver didn't open a PR? Workflow failed?
 - [archipelago.json schema reference](reference/archipelago-json.md)
 - [Reusable workflow reference](reference/workflows.md)

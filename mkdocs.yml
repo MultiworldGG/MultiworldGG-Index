@@ -6,27 +6,27 @@ repo_url: https://github.com/MultiworldGG/MultiworldGG-Index
 theme:
   name: material
   logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: mwgg_dark
       toggle:
         icon: material/weather-sunny
         name: Light mode
-      primary: purple
-      accent: orange
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: mwgg_light
       toggle:
         icon: material/weather-night
         name: Dark mode
-      primary: purple
-      accent: orange
   features:
     - content.code.copy
     - content.tabs.link
     - navigation.tabs
     - navigation.expand
     - navigation.indexes
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md

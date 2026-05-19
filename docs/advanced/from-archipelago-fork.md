@@ -77,9 +77,59 @@ fork.
 
 ## Cutting a release
 
-Bump `world_version` in `archipelago.json`, push a tag
-`<apworld>-<version>`, and publish the release on GitHub. The reusable workflow
-reads both `archipelago.json` and your optional `pyproject.toml` automatically.
+Each apworld in your fork has its own `world_version` in its own
+`worlds/<apworld>/archipelago.json` and is released on its own cadence. To
+ship a new version of one apworld:
+
+1. Bump `world_version` in `worlds/<apworld>/archipelago.json` for **that one
+   apworld**.
+2. Push a tag `<apworld>-<version>` (e.g. `wandofgamelon-0.0.1`) at the commit
+   you want to build from. The tag can live on `main` or on a per-game
+   branch — the reusable workflow checks out at the tag's commit either way.
+3. Publish the release on GitHub.
+
+The reusable workflow reads `worlds/<apworld>/archipelago.json` and your
+optional `worlds/<apworld>/pyproject.toml` automatically. Each release event
+builds **only** the apworld whose name prefixes the tag and produces exactly
+one `.whl` + one `.apworld` for it. Other apworlds in the same fork are not
+rebuilt or re-uploaded — they keep their existing versions until you tag and
+release them in turn.
+
+---
+
+## Vendored build tooling (self-contained setup)
+
+If you'd like to add the entire workflow and tool setup yourself, there is a
+release at <https://github.com/MultiworldGG/gen-pymod-release/releases> (look
+for tags matching `apworld-wheel-workflow-*`). Here's the steps to use that:
+
+1. Download `apworld-wheel-workflow-<tag>.zip` from the Releases page.
+2. Unzip it locally — the archive expands into a tree rooted at
+   `.github/workflows/make_pyproject.yml` and
+   `tools/build/{scripts,templates,games.json}`.
+3. Copy those contents into the root of your Archipelago fork. The fork must
+   have `Launcher.py` and `requirements.txt` at the root (i.e. be a full
+   Archipelago source tree).
+4. Edit `tools/build/games.json` once for the fork. It is a lookup table:
+   add **one entry per apworld** in your fork mapping the
+   `worlds/<apworld>/` directory name to the `World.game` display name (the
+   `game` attribute on your Python class). The workflow consults this table
+   per release tag to find the matching apworld's display name; it does not
+   iterate over the table, so adding new entries here never causes other
+   apworlds to be rebuilt.
+5. Commit and push. Then, for each apworld you want to ship, cut a GitHub
+   Release tagged `<apworld>-<version>` (e.g. `wandofgamelon-0.0.1`) matching
+   the `world_version` in **that apworld's** `worlds/<apworld>/archipelago.json`.
+   The tag can live on `main` or on a per-game branch. The bundled workflow
+   runs on `release.published` and builds **only** `worlds/<apworld>/` for
+   the apworld whose name prefixes the tag, uploading exactly one `.whl` and
+   one `.apworld` for that apworld. Other apworlds in the fork are
+   untouched — release them in turn under their own `<apworld>-<version>`
+   tags as they're ready.
+6. After the release assets are attached, either install the
+   Oliver-Multiworld-Squirrel App (which auto-opens the Index PR) or open the
+   `worlds/<apworld>.json` Index PR by hand, pointing `release_location` at the
+   wheel's `browser_download_url#sha256=<hex>`.
 
 ---
 

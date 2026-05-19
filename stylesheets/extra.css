@@ -1,0 +1,231 @@
+[data-md-color-scheme="mwgg_dark"] {
+    /* Color hue - controls overall tone */
+    --md-hue: 210;
+
+    /* Primary colors */
+    --md-primary-fg-color: hsl(291, 53%, 63%);
+    --md-primary-fg-color--light: hsl(291, 57%, 65%);
+    --md-primary-fg-color--dark: hsl(291, 50%, 55%);
+    --md-primary-bg-color: hsla(0, 0%, 0%, 0.87);
+    --md-primary-bg-color--light: hsla(0, 0%, 0%, 0.54);
+
+    /* Default/background colors */
+    --md-default-fg-color: hsla(var(--md-hue), 15%, 90%, 0.82);
+    --md-default-fg-color--light: hsla(var(--md-hue), 15%, 90%, 0.56);
+    --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 90%, 0.32);
+    --md-default-fg-color--lightest: hsla(var(--md-hue), 15%, 90%, 0.12);
+    --md-default-bg-color: hsla(var(--md-hue), 15%, 10%, 1);
+    --md-default-bg-color--light: hsla(var(--md-hue), 15%, 10%, 0.54);
+    --md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 10%, 0.26);
+    --md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 10%, 0.07);
+
+    /* Accent colors (orange) */
+    --md-accent-fg-color: hsl(14, 100%, 65%);
+    --md-accent-fg-color--transparent: hsla(14, 100%, 65%, 0.1);
+    --md-accent-bg-color: hsla(0, 0%, 0%, 0.87);
+    --md-accent-bg-color--light: hsla(0, 0%, 0%, 0.54);
+
+    /* Typeset colors */
+    --md-typeset-color: var(--md-default-fg-color);
+    --md-typeset-a-color: var(--md-primary-fg-color);
+
+    /* Typeset del/ins colors */
+    --md-typeset-del-color: hsla(6, 90%, 60%, 0.15);
+    --md-typeset-ins-color: hsla(150, 90%, 44%, 0.15);
+
+    /* Typeset kbd colors */
+    --md-typeset-kbd-color: hsla(var(--md-hue), 15%, 90%, 0.12);
+    --md-typeset-kbd-accent-color: hsla(var(--md-hue), 15%, 90%, 0.2);
+    --md-typeset-kbd-border-color: hsla(var(--md-hue), 15%, 10%, 1);
+
+    /* Typeset mark color */
+    --md-typeset-mark-color: hsla(219, 100%, 65%, 0.3);
+
+    /* Typeset table colors */
+    --md-typeset-table-color: hsla(var(--md-hue), 15%, 95%, 0.12);
+    --md-typeset-table-color--light: hsla(var(--md-hue), 15%, 95%, 0.035);
+
+    /* Code colors */
+    --md-code-fg-color: hsla(var(--md-hue), 18%, 86%, 0.82);
+    --md-code-bg-color: hsla(var(--md-hue), 15%, 15%, 1);
+    --md-code-bg-color--light: hsla(var(--md-hue), 15%, 15%, 0.9);
+    --md-code-bg-color--lighter: hsla(var(--md-hue), 15%, 15%, 0.54);
+
+    /* Code highlighting colors */
+    --md-code-hl-color: hsla(219, 100%, 65%, 1);
+    --md-code-hl-color--light: hsla(219, 100%, 65%, 0.1);
+
+    /* Code highlighting syntax colors - using custom extended colors */
+    --md-code-hl-number-color: var(--md-extended-color-custom-color3-color);
+    --md-code-hl-special-color: var(--md-extended-color-custom-color4-color);
+    --md-code-hl-function-color: var(--md-extended-color-custom-color5-color);
+    --md-code-hl-constant-color: var(--md-extended-color-custom-color5-color);
+    --md-code-hl-keyword-color: var(--md-extended-color-custom-color4-color);
+    --md-code-hl-string-color: var(--md-extended-color-custom-color2-color);
+    --md-code-hl-name-color: var(--md-code-fg-color);
+    --md-code-hl-operator-color: var(--md-default-fg-color--light);
+    --md-code-hl-punctuation-color: var(--md-default-fg-color--light);
+    --md-code-hl-comment-color: var(--md-default-fg-color--light);
+    --md-code-hl-generic-color: var(--md-default-fg-color--light);
+    --md-code-hl-variable-color: var(--md-default-fg-color--light);
+
+    /* Admonition colors */
+    --md-admonition-fg-color: var(--md-default-fg-color);
+    --md-admonition-bg-color: var(--md-default-bg-color);
+
+    /* Warning colors */
+    --md-warning-fg-color: hsla(0, 0%, 0%, 0.87);
+    --md-warning-bg-color: hsla(60, 100%, 80%, 1);
+
+    /* Footer colors */
+    --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+    --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
+    --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.45);
+    --md-footer-bg-color: hsla(var(--md-hue), 15%, 8%, 0.87);
+    --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 6%, 1);
+
+    /* Shadow depths */
+    --md-shadow-z1:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.05),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.1);
+    --md-shadow-z2:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.25),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.25);
+    --md-shadow-z3:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.4),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.35);
+
+    /* Custom colors preserved */
+    --md-extended-color-custom-color2-color: rgb(253 255 243);
+    --md-extended-color-custom-color2-on-color: rgb(0 0 0);
+    --md-extended-color-custom-color2-color-container: rgb(149 251 2);
+    --md-extended-color-custom-color2-on-color-container: rgb(24 47 0);
+    --md-extended-color-custom-color3-color: rgb(255 237 222);
+    --md-extended-color-custom-color3-on-color: rgb(0 0 0);
+    --md-extended-color-custom-color3-color-container: rgb(255 179 93);
+    --md-extended-color-custom-color3-on-color-container: rgb(21 8 0);
+    --md-extended-color-custom-color4-color: rgb(255 235 239);
+    --md-extended-color-custom-color4-on-color: rgb(0 0 0);
+    --md-extended-color-custom-color4-color-container: rgb(255 171 196);
+    --md-extended-color-custom-color4-on-color-container: rgb(32 0 12);
+    --md-extended-color-custom-color5-color: rgb(255 255 255);
+    --md-extended-color-custom-color5-on-color: rgb(0 0 0);
+    --md-extended-color-custom-color5-color-container: rgb(87 249 246);
+    --md-extended-color-custom-color5-on-color-container: rgb(0 48 47);
+}
+  [data-md-color-scheme="mwgg_light"] {
+    /* Color hue - controls overall tone */
+    --md-hue: 320deg;
+
+    /* Primary colors */
+    --md-primary-fg-color: hsl(291, 53%, 53%);
+    --md-primary-fg-color--light: hsl(291, 57%, 65%);
+    --md-primary-fg-color--dark: hsl(291, 50%, 45%);
+    --md-primary-bg-color: hsla(0, 0%, 100%, 1);
+    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+    /* Default/background colors */
+    --md-default-fg-color: hsla(var(--md-hue), 15%, 15%, 0.87);
+    --md-default-fg-color--light: hsla(var(--md-hue), 15%, 15%, 0.54);
+    --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 15%, 0.32);
+    --md-default-fg-color--lightest: hsla(var(--md-hue), 15%, 15%, 0.12);
+    --md-default-bg-color: hsla(var(--md-hue), 15%, 100%, 1);
+    --md-default-bg-color--light: hsla(var(--md-hue), 15%, 100%, 0.7);
+    --md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 100%, 0.3);
+    --md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 100%, 0.12);
+
+    /* Accent colors (orange) */
+    --md-accent-fg-color: hsl(36, 100%, 45%);
+    --md-accent-fg-color--transparent: hsla(36, 100%, 45%, 0.1);
+    --md-accent-bg-color: hsla(0, 0%, 100%, 1);
+    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
+
+    /* Typeset colors */
+    --md-typeset-color: var(--md-default-fg-color);
+    --md-typeset-a-color: var(--md-primary-fg-color);
+
+    /* Typeset del/ins colors */
+    --md-typeset-del-color: hsla(6, 90%, 60%, 0.15);
+    --md-typeset-ins-color: hsla(150, 90%, 44%, 0.15);
+
+    /* Typeset kbd colors */
+    --md-typeset-kbd-color: hsla(var(--md-hue), 15%, 98%, 1);
+    --md-typeset-kbd-accent-color: hsla(var(--md-hue), 100%, 100%, 1);
+    --md-typeset-kbd-border-color: hsla(var(--md-hue), 15%, 72%, 1);
+
+    /* Typeset mark color */
+    --md-typeset-mark-color: hsla(54, 100%, 62%, 0.5);
+
+    /* Typeset table colors */
+    --md-typeset-table-color: hsla(var(--md-hue), 15%, 0%, 0.12);
+    --md-typeset-table-color--light: hsla(var(--md-hue), 15%, 0%, 0.035);
+
+    /* Code colors */
+    --md-code-fg-color: hsla(var(--md-hue), 15%, 20%, 0.82);
+    --md-code-bg-color: hsla(var(--md-hue), 15%, 96%, 1);
+    --md-code-bg-color--light: hsla(var(--md-hue), 15%, 96%, 0.9);
+    --md-code-bg-color--lighter: hsla(var(--md-hue), 15%, 96%, 0.54);
+
+    /* Code highlighting colors */
+    --md-code-hl-color: hsla(219, 100%, 65%, 1);
+    --md-code-hl-color--light: hsla(219, 100%, 65%, 0.1);
+
+    /* Code highlighting syntax colors - using custom extended colors */
+    --md-code-hl-number-color: var(--md-extended-color-custom-color3-color);
+    --md-code-hl-special-color: var(--md-extended-color-custom-color4-color);
+    --md-code-hl-function-color: var(--md-extended-color-custom-color5-color);
+    --md-code-hl-constant-color: var(--md-extended-color-custom-color5-color);
+    --md-code-hl-keyword-color: var(--md-extended-color-custom-color4-color);
+    --md-code-hl-string-color: var(--md-extended-color-custom-color2-color);
+    --md-code-hl-name-color: var(--md-code-fg-color);
+    --md-code-hl-operator-color: var(--md-default-fg-color--light);
+    --md-code-hl-punctuation-color: var(--md-default-fg-color--light);
+    --md-code-hl-comment-color: var(--md-default-fg-color--light);
+    --md-code-hl-generic-color: var(--md-default-fg-color--light);
+    --md-code-hl-variable-color: var(--md-default-fg-color--light);
+
+    /* Admonition colors */
+    --md-admonition-fg-color: var(--md-default-fg-color);
+    --md-admonition-bg-color: var(--md-default-bg-color);
+
+    /* Warning colors */
+    --md-warning-fg-color: hsla(0, 0%, 0%, 0.87);
+    --md-warning-bg-color: hsla(60, 100%, 80%, 1);
+
+    /* Footer colors */
+    --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+    --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
+    --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.45);
+    --md-footer-bg-color: hsla(var(--md-hue), 15%, 10%, 0.87);
+    --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1);
+
+    /* Shadow depths */
+    --md-shadow-z1:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.05),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.1);
+    --md-shadow-z2:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.1),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.25);
+    --md-shadow-z3:
+      0 0.25rem 0.625rem hsla(0, 0%, 0%, 0.2),
+      0 0 0.0625rem hsla(0, 0%, 0%, 0.35);
+
+    /* Custom colors preserved */
+    --md-extended-color-custom-color2-color: rgb(26 50 0);
+    --md-extended-color-custom-color2-on-color: rgb(255 255 255);
+    --md-extended-color-custom-color2-color-container: rgb(46 82 0);
+    --md-extended-color-custom-color2-on-color-container: rgb(255 255 255);
+    --md-extended-color-custom-color3-color: rgb(67 37 0);
+    --md-extended-color-custom-color3-on-color: rgb(255 255 255);
+    --md-extended-color-custom-color3-color-container: rgb(107 63 0);
+    --md-extended-color-custom-color3-on-color-container: rgb(255 255 255);
+    --md-extended-color-custom-color4-color: rgb(93 0 46);
+    --md-extended-color-custom-color4-on-color: rgb(255 255 255);
+    --md-extended-color-custom-color4-color-container: rgb(146 0 76);
+    --md-extended-color-custom-color4-on-color-container: rgb(255 255 255);
+    --md-extended-color-custom-color5-color: rgb(0 50 49);
+    --md-extended-color-custom-color5-on-color: rgb(255 255 255);
+    --md-extended-color-custom-color5-color-container: rgb(0 82 81);
+    --md-extended-color-custom-color5-on-color-container: rgb(255 255 255);
+}
+  

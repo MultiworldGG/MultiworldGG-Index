@@ -97,7 +97,7 @@ jobs:
 
 | Input | Required | Default | Notes |
 |---|---|---|---|
-| `apworld` | no | `""` | World folder slug under `worlds/`. Ignored on release events, where the slug is parsed from the release tag. Required for manual/non-release dry-runs. |
+| `apworld` | no | `""` | World folder name under `worlds/<apworld>/`. Ignored on release events, where the apworld is parsed from the release tag prefix. Required for manual/non-release dry-runs. |
 | `source-ref` | no | Release tag (on `release` event), else `github.sha` | Git ref of your repo to build from. |
 | `dry-run` | no | `false` | Build and shape the wheel but skip the release-asset upload. Useful for testing the workflow without a real release. |
 
@@ -179,7 +179,7 @@ jobs:
 | `game` | yes | — | The game's display name, exactly as it appears in `archipelago.json`. Passed to `Launcher.py "Build APWorlds" -- "<game>"`. |
 | `mwgg-ref` | no | `"main"` | Ref in canonical `MultiworldGG/MultiworldGG` to check out as the Launcher host. This does not resolve against the caller's fork. Ignored when `from-fork: true`. |
 | `from-fork` | no | `false` | Set to `true` when the caller is an Archipelago fork (a full source tree with its own `Launcher.py` at the root). Skips the canonical MWGG checkout and builds from the caller's tree. `mwgg-ref` is ignored. |
-| `apworld` | no | `""` | World folder slug under `worlds/`. Ignored on release events, where the slug is parsed from the release tag. Required for manual/non-release dry-runs. |
+| `apworld` | no | `""` | World folder name under `worlds/<apworld>/`. Ignored on release events, where the apworld is parsed from the release tag prefix. Required for manual/non-release dry-runs. |
 | `apworld-source-ref` | no | Release tag (on `release` event), else `github.sha` | Your world repo's ref to check out as the world source. |
 | `dry-run` | no | `false` | Build the `.apworld` but skip the release-asset upload. |
 

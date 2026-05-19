@@ -208,9 +208,9 @@ jobs:
       dry-run: ${{ github.event_name == 'workflow_dispatch' }}
 ```
 
-On a release run, the reusable workflows ignore `apworld` and parse the slug
-from the tag prefix. On a manual run, there is no release tag, so `apworld` is
-required and `dry-run: true` avoids uploading release assets.
+On a release run, the reusable workflows ignore the `apworld` input and parse
+the apworld from the tag prefix. On a manual run, there is no release tag, so
+`apworld` is required and `dry-run: true` avoids uploading release assets.
 
 ---
 

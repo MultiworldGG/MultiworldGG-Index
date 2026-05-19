@@ -5,16 +5,10 @@ Terms used throughout this documentation.
 ---
 
 **apworld**
-: A world implementation packaged for MultiworldGG. Can be a loose folder
+: A world implementation packaged for Archipelago & forks. Can be a loose folder
 (`worlds/<apworld>/`) or a zip archive (`.apworld` file). The term "apworld"
 refers to the unit of release, not to a specific file format. See
 [`archipelago.json` schema reference](reference/archipelago-json.md).
-
-**slug**
-: The lowercase Python package identifier for an apworld. Used as the folder
-name (`worlds/<slug>/`), the wheel package name (`worlds.<slug>`), the Index
-manifest filename (`worlds/<slug>.json`), and the release tag prefix
-(`<slug>-<world_version>`). Example: game "My Cool Game" has slug `myclgm`.
 
 **`archipelago.json`**
 : The metadata file that lives at `worlds/<apworld>/archipelago.json` in your
@@ -28,7 +22,7 @@ digest fragment. Written by Oliver into the Index manifest when opening a PR.
 Authors must not write this field themselves. Example:
 `https://github.com/you/repo/releases/download/myclgm-1.0.0/worlds.myclgm-1.0.0-py3-none-any.whl#sha256=<hex>`.
 
-**Oliver** (Oliver-Multiworld-Squirrel)
+**Oliver** (Oliver-the-Multiworld-Squirrel)
 : The GitHub App that watches per-world repos for **published releases** whose
 attached build workflow (`MultiworldGG/gen-pymod-release/.github/workflows/build.yml`)
 has finished and uploaded a `.whl` asset, and automatically opens PRs on the
@@ -40,15 +34,15 @@ with a SHA256 hash so pip verifies the downloaded bytes. See
 
 **Karen**
 : The automated reviewer that runs on every Index PR opened by Oliver. She
-runs seven checks (schema, manifest consistency, URL reachability, size,
+runs eight checks (schema, manifest consistency, URL reachability, size,
 AST scan, bandit, pip-audit) plus CodeQL and a fuzzer run, then posts a
 sticky comment with the results. On all-green, she requests a human CODEOWNER
 review. See [Why Oliver opens the PR](why-oliver.md#what-karen-checks).
 
 **Index**
 : The MultiworldGG-Index repository
-(`https://github.com/MultiworldGG/MultiworldGG-Index`). The canonical source of
-truth for which APWorlds exist, who wrote them, and where to fetch them from.
+(`https://github.com/MultiworldGG/MultiworldGG-Index`). A list of community
+approved APWorlds safe for install, who wrote them, and where to fetch them from.
 Manifest PRs land on the `main` branch; the four orphan branches
 (`game_index_*`) are built from `main` by a scheduled workflow.
 
@@ -69,7 +63,7 @@ depending on the content-rating variant configured for the installation.
 : The automated check suite that Karen runs on every Index PR. Not a
 checklist the author must satisfy before releasing — Karen runs after the
 release is cut and reports what she found. Results are guidance for the human
-CODEOWNER who merges. See [Why Oliver opens the PR](why-oliver.md).
+CODEOWNER and other approvers who merge. See [Why Oliver opens the PR](why-oliver.md).
 
 **wheel (`.whl`)**
 : A pip-installable Python package archive. The `build.yml@v3` reusable
@@ -79,8 +73,6 @@ records in the Index manifest and what the MultiworldGG package manager
 installs.
 
 **`.apworld`**
-: A zip archive containing a world's source files with `version` and
-`compatible_version` fields added to the internal `archipelago.json`. Used
-by players who install worlds directly into their `custom_worlds/` folder.
-Built by the `build-apworld.yml@v3` reusable workflow. Not required for the
-Index release.
+: A zip archive containing a world's source files in a bundle via Archipelago's
+Launcher & build pipeline. These are for installing worlds into the `custom_worlds/`
+for testing and distributing with Archipelago.

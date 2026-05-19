@@ -28,7 +28,7 @@ MultiworldGG launcher and generator use. It must match the `game` attribute on
 your `World` class.
 
 The `game` value (lowercased, spaces replaced with underscores) becomes the
-apworld slug — the filename stem of your `worlds/<apworld>.json` manifest and
+apworld name — the filename stem of your `worlds/<apworld>.json` manifest and
 the name of your wheel package (`worlds.<apworld>`).
 
 ### `world_version`
