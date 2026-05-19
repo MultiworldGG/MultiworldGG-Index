@@ -11,12 +11,14 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: mwgg_dark
       primary: custom
+      accent: pink
       toggle:
         icon: material/weather-sunny
         name: Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: mwgg_light
       primary: custom
+      accent: pink
       toggle:
         icon: material/weather-night
         name: Dark mode

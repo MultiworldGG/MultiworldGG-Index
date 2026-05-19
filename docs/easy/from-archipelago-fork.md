@@ -151,4 +151,4 @@ on.
 | Workflow failed: version mismatch | Tag version and `archipelago.json:world_version` must agree exactly. |
 | Karen left a comment with red checks | Read the check details in the comment; the human CODEOWNER will advise on next steps. |
 
-[Full troubleshooting guide](../reference/troubleshooting.md){ .md-button }
+[Full troubleshooting guide](../reference/troubleshooting.md){ .md-button .md-button--primary }

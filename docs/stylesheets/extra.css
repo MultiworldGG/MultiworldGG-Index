@@ -6,15 +6,12 @@
         /* Indicate that the site is rendered with a dark color scheme */
         color-scheme: dark;
 
-        /* Color hue - controls overall tone */
-        --md-hue: 210;
-
         /* Primary colors */
-        --md-primary-fg-color: hsl(291, 53%, 63%);
+        --md-primary-fg-color: hsl(291, 100%, 26%);
         --md-primary-fg-color--light: hsl(291, 57%, 65%);
         --md-primary-fg-color--dark: hsl(291, 50%, 55%);
-        --md-primary-bg-color: hsla(0, 0%, 0%, 0.87);
-        --md-primary-bg-color--light: hsla(0, 0%, 0%, 0.54);
+        --md-primary-bg-color: hsla(0, 0%, 100%, 0.87);
+        --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.54);
 
         /* Default/background colors */
         --md-default-fg-color: hsla(var(--md-hue), 15%, 90%, 0.82);
@@ -27,14 +24,14 @@
         --md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 14%, 0.07);
 
         /* Accent colors (orange) */
-        --md-accent-fg-color: hsl(14, 100%, 65%);
+        --md-accent-fg-color: hsl(44, 100%, 65%);
         --md-accent-fg-color--transparent: hsla(14, 100%, 65%, 0.1);
         --md-accent-bg-color: hsla(0, 0%, 0%, 0.87);
         --md-accent-bg-color--light: hsla(0, 0%, 0%, 0.54);
 
         /* Typeset colors */
         --md-typeset-color: var(--md-default-fg-color);
-        --md-typeset-a-color: var(--md-primary-fg-color);
+        --md-typeset-a-color: var(--md-primary-fg-color--light);
 
         /* Typeset del/ins colors */
         --md-typeset-del-color: hsla(6, 90%, 60%, 0.15);
@@ -82,7 +79,7 @@
 
         /* Warning colors */
         --md-warning-fg-color: hsla(0, 0%, 0%, 0.87);
-        --md-warning-bg-color: hsla(60, 100%, 80%, 1);
+        --md-warning-bg-color: rgb(137, 226, 53);
 
         /* Footer colors */
         --md-footer-fg-color: hsla(0, 0%, 100%, 1);
@@ -130,12 +127,6 @@
 
 /* mwgg_light theme */
 [data-md-color-scheme="mwgg_light"] {
-    /* Indicate that the site is rendered with a light color scheme */
-    color-scheme: light;
-
-    /* Color hue - controls overall tone */
-    --md-hue: 320deg;
-
     /* Primary colors */
     --md-primary-fg-color: hsl(291, 53%, 53%);
     --md-primary-fg-color--light: hsl(291, 57%, 65%);

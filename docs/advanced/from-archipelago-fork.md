@@ -133,4 +133,4 @@ for tags matching `apworld-wheel-workflow-*`). Here's the steps to use that:
 
 ---
 
-[Troubleshooting](../reference/troubleshooting.md){ .md-button }
+[Troubleshooting](../reference/troubleshooting.md){ .md-button .md-button--primary }
