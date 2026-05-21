@@ -3,8 +3,8 @@
     "authors": [
         "espeon65536"
     ],
-    "world_version": "7.0.0",
+    "world_version": "9.1.0",
     "minimum_ap_version": "0.6.4",
     "igdb_id": 1029,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_oot-7.0.0-py3-none-any.whl#sha256=ec943a440829c7461a2558ef28288a05bbda11fd1d194d1d9f6b332b9cea1910"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_oot-9.1.0-py3-none-any.whl#sha256=743f5149820f4f89815e395c6bd07c5fc7141528ff103e2778378330bfcdc767"
 }
