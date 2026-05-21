@@ -1,12 +1,12 @@
 {
     "game": "HITMAN World of Assassination",
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.8.1",
+    "world_version": "0.8.2",
     "authors": [
         "BenDipp"
     ],
     "igdb_id": 233571,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_hitman_woa-0.8.1-py3-none-any.whl#sha256=695688b8dbe9a6e3e1a5f746006acfdf479d60e4f132c343fc19716d89d1d6d7"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_hitman_woa-0.8.2-py3-none-any.whl#sha256=dad178487e90b6faeb0c5599a689a3e108923776452abbbef24d0e1071e15f12"
 }

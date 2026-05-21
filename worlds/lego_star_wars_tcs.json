@@ -1,6 +1,6 @@
 {
     "game": "Lego Star Wars: The Complete Saga",
-    "world_version": "1.4.3",
+    "world_version": "1.4.4",
     "minimum_ap_version": "0.6.1",
     "_comment_minimum_ap_version": [
         "The apworld uses `World.push_precollected()`, which was added in 0.6.1.",
@@ -14,5 +14,5 @@
     "igdb_id": 2682,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_lego_star_wars_tcs-1.4.3-py3-none-any.whl#sha256=c65eab74e05b0a309a5f53ebb51e1aafdbb56ab3a5f0860b69951e46668b25c0"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_lego_star_wars_tcs-1.4.4-py3-none-any.whl#sha256=313f236e23403b14f2c0bf84808499db16eee0111f5e24de5f667f30174d86d6"
 }
