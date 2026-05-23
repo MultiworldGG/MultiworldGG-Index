@@ -55,10 +55,10 @@ while IFS= read -r manifest_path; do
   (
     cd "$workdir"
 
-    # Download the wheel.
-    wheel_file="${apworld}.whl"
+    # Download the wheel from the manifest's module_location.
     echo "Downloading wheel: ${wheel_url}"
-    curl -sSfL -o "${wheel_file}" "${wheel_url}"
+    curl -sSfLO "${wheel_url}"
+    wheel_file="$(ls -1 *.whl | head -n1)"
 
     # Clone MultiworldGG core.
     git clone --depth 1 --branch "${MWGG_CORE_REF}" "https://github.com/${MWGG_CORE_REPO}.git" core
