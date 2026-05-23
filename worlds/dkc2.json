@@ -1,6 +1,6 @@
 {
     "game": "Donkey Kong Country 2",
-    "world_version": "3.1.1",
+    "world_version": "3.1.2",
     "minimum_ap_version": "0.6.3",
     "authors": [
         "lx5"
@@ -8,5 +8,5 @@
     "igdb_id": 1092,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dkc2-3.1.1-py3-none-any.whl#sha256=f0a45d06613b2cf3b5f105e99cd84fa682de3ff2bf053a6d8faedc2e8246d82d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_dkc2-3.1.2-py3-none-any.whl#sha256=7b7ad7012c18d860a2be5a438106d569e6c52ba2455d11b010e8483d9b62ea80"
 }

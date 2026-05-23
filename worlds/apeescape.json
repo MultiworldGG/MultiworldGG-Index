@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.4",
-    "world_version": "0.9.8",
+    "world_version": "0.9.9",
     "authors": [
         "Thedragon005",
         "IHNN"
@@ -9,5 +9,5 @@
     "version": 7,
     "compatible_version": 7,
     "game": "Ape Escape",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_apeescape-0.9.8-py3-none-any.whl#sha256=81748d98167848d880247552cae0ab941dac2efb1afa9ca87a6f6b8f4a64518d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_apeescape-0.9.9-py3-none-any.whl#sha256=db3ff88a817b6f2c06d3bae5a9056efffa9cd7fcfd10ba4e8f486837ef7e8aec"
 }

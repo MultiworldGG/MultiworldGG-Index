@@ -7,13 +7,6 @@ name: Karen's PR review
 #
 # Triggers on changes to worlds/** or schema/**.
 #
-# Two execution modes:
-#   - manifest-only: full 7-check suite against just the changed manifests.
-#   - schema-changed: fast subset (schema + manifest_consistency only) against
-#     ALL manifests, since schema semantics changed for everyone. Deep checks
-#     (clone + bandit + pip_audit + size + AST) are skipped on this path —
-#     running them across all 229 manifests would take ~30 min.
-
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
@@ -161,23 +154,12 @@ jobs:
           No `worlds/*.json` files in scope for this PR.
           EOF
 
-      # ──────────────────────────────────────────────────────────────────────
-      # CodeQL on the proposed world's source (TODO #2d)
-      #
-      # Clone the git repo referenced by the changed manifest's
-      # `module_location` and run CodeQL's Python analysis against it.
+      # Download the wheel from the changed manifest's `module_location`,
+      # extract it, and run CodeQL's Python analysis against the source.
       # Results upload to the Security tab under `category: world/<apworld>`
       # so they don't collide across PRs.
-      #
-      # Skipped when:
-      #   - target_count is 0 (no manifest changes)
-      #   - schema-only change path (no specific world)
-      #   - module_location is not a pip-installable git+https URL
-      #
-      # PRs are single-world by convention; if multiple manifests are
-      # changed only the first is scanned.
-      # ──────────────────────────────────────────────────────────────────────
-      - name: Clone proposed world source
+
+      - name: Extract proposed world source for CodeQL
         id: world_clone
         if: steps.detect.outputs.target_count != '0'
         run: |
@@ -186,37 +168,27 @@ jobs:
           apworld="$(basename "$manifest_path" .json)"
           module_location="$(jq -r '.module_location // ""' "$manifest_path")"
 
-          if ! echo "$module_location" | grep -qE '^git\+https://'; then
-            echo "::notice::Skipping CodeQL for ${apworld}: module_location is not a git+https URL (got: ${module_location:0:60})"
+          # Strip fragment (sha256=...) for download.
+          wheel_url="${module_location%%#*}"
+
+          if ! echo "$wheel_url" | grep -qE '^https://.*\.whl(\?|$)'; then
+            echo "::notice::Skipping CodeQL for ${apworld}: module_location is not an https:// .whl URL (got: ${module_location:0:60})"
             echo "has_source=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          # Strip the `git+` prefix; split off the optional `#subdirectory=` fragment.
-          url="${module_location#git+}"
-          base="${url%%#*}"
-          fragment=""
-          if [ "$url" != "$base" ]; then
-            fragment="${url#*#}"
-          fi
+          # Download and extract the wheel.
+          workdir="$(mktemp -d)"
+          wheel_file="${apworld}.whl"
+          echo "Downloading wheel: ${wheel_url}"
+          curl -sSfL -o "${workdir}/${wheel_file}" "${wheel_url}"
 
-          # The ref is whatever follows the LAST `@` (which always precedes the ref
-          # in pip's git+https URL grammar). The repo URL is everything before it.
-          repo_url="${base%@*}"
-          ref="${base##*@}"
+          echo "Extracting wheel to ${workdir}/extracted/"
+          mkdir -p "${workdir}/extracted"
+          unzip -q "${workdir}/${wheel_file}" -d "${workdir}/extracted/"
 
-          subdir=""
-          if echo "$fragment" | grep -q '^subdirectory='; then
-            subdir="${fragment#subdirectory=}"
-          fi
-
-          echo "Cloning ${repo_url} @ ${ref} (subdir='${subdir}')"
-          git clone --depth 1 --branch "$ref" "$repo_url" world_src
-
-          src_root="world_src"
-          if [ -n "$subdir" ]; then
-            src_root="world_src/${subdir}"
-          fi
+          # Point CodeQL at the extracted world's source.
+          src_root="${workdir}/extracted"
 
           echo "apworld=${apworld}" >> "$GITHUB_OUTPUT"
           echo "src_root=${src_root}" >> "$GITHUB_OUTPUT"
@@ -235,25 +207,10 @@ jobs:
         with:
           category: world/${{ steps.world_clone.outputs.apworld }}
 
-      # ──────────────────────────────────────────────────────────────────────
-      # Fuzzer (TODO #2b)
-      #
-      # For each changed manifest whose `module_location` is a pip-installable
-      # `git+https://...` URL (i.e. shaped by Oliver's PR-opening flow against
-      # a wheel branch + tag), clone MultiworldGG core, pip-install the
-      # proposed wheel, drop Eijebong/Archipelago-fuzzer's fuzz.py at the
-      # checkout root, and run `python fuzz.py -r N -g <apworld>` against the
-      # proposed world. A non-zero exit fails the job, which gates the
-      # "Karen approves" step below.
-      #
-      # Skipped when:
-      #   - target_count is 0 (nothing to fuzz)
-      #   - schema-only change path (no specific manifests)
-      #   - module_location is a legacy `tree/...` URL (not pip-installable)
-      #
-      # The runs and per-game timeout cap are conservative; tune via the
-      # `karen/fuzz-runs:N` and `karen/fuzz-timeout:N` PR labels if needed.
-      # ──────────────────────────────────────────────────────────────────────
+      # For each changed manifest, download the wheel from its `module_location`
+      # clone MultiworldGG core, extract the wheel into the core's worlds/ directory, drop
+      # Eijebong/Archipelago-fuzzer's fuzz.py at the checkout root, and run
+      # `python fuzz.py -r N -g <apworld>` against the proposed world.
       - name: Fuzz proposed worlds
         id: fuzz
         if: steps.detect.outputs.target_count != '0'
@@ -262,11 +219,11 @@ jobs:
           MWGG_CORE_REF: ${{ vars.MWGG_CORE_REF || 'main' }}
           FUZZER_REPO: Eijebong/Archipelago-fuzzer
           FUZZER_REF: main
-          # MWGG core transitively imports Kivy when fuzz.py loads worlds. Kivy's
-          # built-in arg parser intercepts -r / -m and exits 2 with a usage dump
-          # before the fuzzer's argparse ever runs. Disable it per the fuzzer
-          # README: https://github.com/Eijebong/Archipelago-fuzzer#how-to-run-this
           KIVY_NO_ARGS: "1"
+        run: bash scripts/fuzz_worlds.sh
+
+      - name: Append fuzz results to PR comment
+        if: steps.fuzz.outputs.fuzz_summary != ''
         run: |
           set -euo pipefail
           {
@@ -371,16 +328,7 @@ jobs:
           exit 1
 
       # Tag the PR head as `igdb-pr-<number>` if the PR carries the
-      # "Needs IGDB id" label. The tag is what gets the run into the
-      # `igdb_env` deployment-branch policy on the environment side, so
-      # igdb-pr-lookup.yml can mint IGDB credentials and post candidates.
-      #
-      # Karen is exempt from the org's tag-creation ruleset (push-time block
-      # everyone else); using her installation token is what makes this work.
-      #
-      # Idempotent: skip if the tag already exists. We do NOT force-update
-      # on PR synchronize — this is a convenience hook, not a robust pipeline.
-      # ──────────────────────────────────────────────────────────────────────
+      # "Needs IGDB id" label. 
       - name: Tag PR head if 'Needs IGDB id' label is present
         if: steps.karen_token.outputs.token != '' && always()
         env:
