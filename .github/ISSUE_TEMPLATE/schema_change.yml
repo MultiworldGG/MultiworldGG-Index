@@ -1,27 +1,13 @@
-name: Schema / infra change request
-description: Propose a change to the manifest schema, Karen's checks, the variant build, or the index workflows.
+name: Index infrastructure change request
+description: Propose a change to the index infrastructure, including the manifest schema, Karen's checks, the variant build, or the index workflows.
 title: "[infra] <area>: <short description>"
 labels: ["infra"]
 body:
-  - type: dropdown
-    id: area
-    attributes:
-      label: Area
-      options:
-        - schema/world_manifest.schema.json
-        - scripts/karen_review.py (Karen's checks)
-        - scripts/igdb_game_details.py
-        - scripts/build_variants.py
-        - scripts/manifest.py
-        - .github/workflows/
-        - other
-    validations:
-      required: true
   - type: textarea
     id: motivation
     attributes:
-      label: What's the motivation?
-      description: What use case isn't supported today, or what's incorrect?
+      label: How can we help?
+      description: What use case isn't supported today, or what's not working as expected?
     validations:
       required: true
   - type: textarea
@@ -31,9 +17,4 @@ body:
       description: Concrete description of the change and any backward-compat concerns.
     validations:
       required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives considered
-    validations:
-      required: false
+

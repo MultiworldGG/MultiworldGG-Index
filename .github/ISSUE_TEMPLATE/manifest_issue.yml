@@ -7,23 +7,8 @@ body:
     id: apworld
     attributes:
       label: APWorld
-      description: Filename stem of the affected manifest under `worlds/`
+      description: Filename of your apworld under `worlds/`
       placeholder: "oot"
-    validations:
-      required: true
-  - type: dropdown
-    id: field
-    attributes:
-      label: Affected field
-      options:
-        - game (display name)
-        - igdb_id
-        - module_location
-        - world_version
-        - minimum_ap_version
-        - authors
-        - flags
-        - other
     validations:
       required: true
   - type: textarea
@@ -33,10 +18,4 @@ body:
       placeholder: "Currently `igdb_id: 123`, should be `igdb_id: 456` (IGDB link: ...)"
     validations:
       required: true
-  - type: checkboxes
-    id: confirm
-    attributes:
-      label: Confirm
-      options:
-        - label: I checked the live `worlds/<apworld>.json` on main (not a stale fork or local copy)
-          required: true
+

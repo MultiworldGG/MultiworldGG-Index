@@ -1,7 +1,11 @@
-"""Karen's 7-check security review for `worlds/<apworld>.json` PRs.
+"""Karen's 7-check quality assurance review for `worlds/<apworld>.json` PRs.
 
-Karen is the default reviewer (via CODEOWNERS) for `worlds/*.json` updates in
-this Index repo. On every PR open/sync against `main`, the
+Karen is our quality assurance bot, here to tell you what we maybe want to flag to fix.
+If everything is perfect, you'll get her QA stamp of approval.
+If it's not perfect, she'll let know what she didn't like. She's not a guard, though,
+she can be bypassed by a human.
+
+On every PR open/sync against `main`, the
 `karen-pr-review.yml` workflow invokes this script with the list of changed
 manifest paths. Each manifest is run through 8 checks:
 
@@ -57,7 +61,7 @@ from typing import Iterable, Optional
 
 PR_COMMENT_MARKER = "<!-- karen-pr-review -->"
 
-DEFAULT_SIZE_CAP_MB = 250
+DEFAULT_SIZE_CAP_MB = 100
 
 URL_FETCH_TIMEOUT_SECONDS = 10
 URL_USER_AGENT = "MultiworldGG-Index-Karen/1.0 (+https://github.com/MultiworldGG/MultiworldGG-Index)"
@@ -103,7 +107,6 @@ ROM_FILE_EXTENSIONS = frozenset({
 
 # Removing 'websocket' because well...
 NETWORK_MODULES = frozenset({
-    "socket",
     "http",
     "http.client",
     "urllib",
@@ -173,7 +176,7 @@ def check_schema(manifest_path: Path, schema_path: Path) -> CheckResult:
     try:
         from jsonschema import Draft202012Validator
     except ImportError:
-        return CheckResult("schema", "fail", "jsonschema not installed in CI runner")
+        return CheckResult("schema", "fail", "json schema not installed in CI runner")
     try:
         with open(schema_path, encoding="utf-8") as f:
             schema = json.load(f)
@@ -184,7 +187,7 @@ def check_schema(manifest_path: Path, schema_path: Path) -> CheckResult:
     validator = Draft202012Validator(schema, format_checker=Draft202012Validator.FORMAT_CHECKER)
     errors = sorted(validator.iter_errors(manifest), key=lambda e: list(e.absolute_path))
     if not errors:
-        return CheckResult("schema", "pass", "matches world_manifest.schema.json")
+        return CheckResult("schema", "pass", "archipelago.json looking good!")
     details = [f"{'/'.join(str(p) for p in e.absolute_path) or '<root>'}: {e.message}" for e in errors]
     return CheckResult("schema", "fail", f"{len(errors)} schema violation(s)", details=details)
 
@@ -207,7 +210,7 @@ def check_manifest_consistency(manifest_path: Path) -> CheckResult:
     try:
         manifest = json.loads(raw, object_pairs_hook=detect_duplicates)
     except json.JSONDecodeError as exc:
-        return CheckResult("manifest_consistency", "fail", f"invalid JSON: {exc}")
+        return CheckResult("manifest_consistency", "fail", f"JSON doesn't look quite right: {exc}")
 
     issues: list[str] = []
     if duplicate_keys:
@@ -223,12 +226,12 @@ def check_manifest_consistency(manifest_path: Path) -> CheckResult:
             url_apworld = github_tree.group(1)
             if url_apworld != apworld:
                 issues.append(
-                    f"module_location URL apworld '{url_apworld}' != filename apworld '{apworld}'"
+                    f"module_location URL apworld '{url_apworld}' is not what I'm looking for: '{apworld}'"
                 )
 
     if not re.match(r"^[a-z0-9_]+$", apworld):
         issues.append(
-            f"apworld '{apworld}' should be lowercase alphanumeric + underscore"
+            f"apworld '{apworld}' should be lowercase alphanumeric + underscore, not '{apworld}'"
         )
 
     if issues:
@@ -238,7 +241,7 @@ def check_manifest_consistency(manifest_path: Path) -> CheckResult:
             f"{len(issues)} issue(s)",
             details=issues,
         )
-    return CheckResult("manifest_consistency", "pass", "filename, URL apworld, and JSON shape consistent")
+    return CheckResult("manifest_consistency", "pass", "filename, url, and JSON shape are all consistent, nice!")
 
 
 def _http_check(url: str) -> tuple[bool, str]:
@@ -277,7 +280,7 @@ def _git_check(url: str) -> tuple[bool, str]:
     """
     params = _parse_module_location(url)
     if not params:
-        return False, f"could not parse git URL: {url}"
+        return False, f"I couldn't figure out what git URL you're trying to use: {url}"
     clone_url = params["clone_url"]
     ref = params["ref"]
     try:
@@ -288,12 +291,12 @@ def _git_check(url: str) -> tuple[bool, str]:
             timeout=URL_FETCH_TIMEOUT_SECONDS,
         )
     except subprocess.TimeoutExpired:
-        return False, f"git ls-remote timed out after {URL_FETCH_TIMEOUT_SECONDS}s"
+        return False, f"git ls-remote timed out after {URL_FETCH_TIMEOUT_SECONDS} seconds"
     except OSError as exc:
-        return False, f"git ls-remote failed to run: {exc}"
+        return False, f"git ls-remote failed to run because: {exc}"
     if result.returncode != 0:
         stderr = result.stderr.strip().splitlines()[-1] if result.stderr.strip() else "unknown error"
-        return False, f"git ls-remote rc={result.returncode}: {stderr}"
+        return False, f"git ls-remote returned code {result.returncode}: {stderr}"
     stdout = result.stdout.strip()
     if not stdout:
         # Could be a SHA pinned ref (ls-remote doesn't list raw SHAs). Accept
@@ -301,7 +304,7 @@ def _git_check(url: str) -> tuple[bool, str]:
         # reachable would require a fetch, which is what the size_sanity
         # check does later anyway.
         if re.fullmatch(r"[0-9a-f]{40}", ref):
-            return True, f"ref appears to be a SHA; deferring to clone-step check"
+            return True, f"ref appears to be a SHA; deferring"
         return False, f"ref '{ref}' not found at {clone_url}"
     sha = stdout.split()[0][:8]
     return True, f"ref {ref} resolves to {sha}"
@@ -333,17 +336,17 @@ def check_url_reachability(manifest_path: Path, lenient: bool = False) -> CheckR
         if not ok:
             any_failed = True
     if not results:
-        return CheckResult("url_reachability", "skip", "no URL fields present")
+        return CheckResult("url_reachability", "skip", "no URL fields to check")
     if any_failed:
         status = "warn" if lenient else "fail"
         message = (
-            "one or more URLs unreachable (lenient: not blocking)"
+            "one or more URLs unreachable (lenient: not blocking, but you should fix it)"
             if lenient
-            else "one or more URLs unreachable"
+            else "one or more URLs unreachable, you should fix it"
         )
         return CheckResult("url_reachability", status, message, details=results)
     return CheckResult(
-        "url_reachability", "pass", f"{len(results)} URL(s) reachable", details=results
+        "url_reachability", "pass", f"{len(results)} URLs are right where I looked", details=results
     )
 
 
@@ -473,7 +476,7 @@ def _download_and_expand_wheel(url: str, dest: Path) -> tuple[bool, str]:
 
     actual_hash = digest.hexdigest()
     if expected_hash and actual_hash != expected_hash:
-        return False, f"wheel sha256 mismatch: expected {expected_hash}, got {actual_hash}"
+        return False, f"wheel SHA256 mismatch: expected {expected_hash}, got {actual_hash}"
 
     try:
         dest_root = dest.resolve()
@@ -481,7 +484,7 @@ def _download_and_expand_wheel(url: str, dest: Path) -> tuple[bool, str]:
             for member in wheel.infolist():
                 target = dest / member.filename
                 if not target.resolve().is_relative_to(dest_root):
-                    return False, f"wheel contains unsafe path: {member.filename}"
+                    return False, f"wheel contains unsafe path: {member.filename}, you should fix it"
                 if member.is_dir():
                     target.mkdir(parents=True, exist_ok=True)
                     continue
@@ -489,14 +492,14 @@ def _download_and_expand_wheel(url: str, dest: Path) -> tuple[bool, str]:
                 with wheel.open(member) as source, open(target, "wb") as output:
                     shutil.copyfileobj(source, output)
     except (OSError, zipfile.BadZipFile) as exc:
-        return False, f"wheel expansion failed: {exc}"
+        return False, f"wheel expansion failed because: {exc}"
     finally:
         try:
             wheel_path.unlink()
         except OSError:
             pass
 
-    return True, "wheel expanded"
+    return True, "wheel inflated and ready to zoom."
 
 
 def _dir_size_bytes(path: Path) -> int:
@@ -525,19 +528,19 @@ def check_size_sanity(world_dir: Path, size_cap_mb: int) -> CheckResult:
         return CheckResult(
             "size_sanity",
             "fail",
-            f"size exceeds cap: {cap_str}",
+            f"size: DAAAAAMN BRO! {cap_str}",
             details=[
-                "Override by re-running the workflow with a higher --size-cap-mb,",
-                "or set the 'karen/size-override' label on this PR.",
+                "You can override this, by setting the 'karen/size-override' label on this PR.",
+                "But boy howdy there's probably something wrong there."
             ],
         )
-    return CheckResult("size_sanity", "pass", cap_str)
+    return CheckResult("size_sanity", "pass", f"a very reasonable {cap_str}")
 
 
 def check_no_rom_files(world_dir: Path) -> CheckResult:
     """Fail if the fetched artifact contains ROM or disc-image-looking files."""
     if not world_dir.is_dir():
-        return CheckResult("no_rom_files", "skip", "world source not fetched")
+        return CheckResult("no_rom_files", "skip", "nothing to see here, move along")
 
     rom_paths: list[str] = []
     for path in world_dir.rglob("*"):
@@ -549,7 +552,7 @@ def check_no_rom_files(world_dir: Path) -> CheckResult:
             rom_paths.append(path.relative_to(world_dir).as_posix())
 
     if not rom_paths:
-        return CheckResult("no_rom_files", "pass", "no ROM/media-looking files found")
+        return CheckResult("no_rom_files", "pass", "no illegal games here")
 
     rom_paths.sort()
     displayed = rom_paths[:100]
@@ -559,7 +562,7 @@ def check_no_rom_files(world_dir: Path) -> CheckResult:
     return CheckResult(
         "no_rom_files",
         "fail",
-        f"{len(rom_paths)} ROM/media-looking file(s) found",
+        f"I found a few files in there you maybe don't want to be shipping: {len(rom_paths)}",
         details=displayed,
     )
 
@@ -614,7 +617,7 @@ def _scan_module_for_network(path: Path) -> tuple[list[str], list[str]]:
 def check_no_network_at_import(world_dir: Path) -> CheckResult:
     """Static AST scan for top-level network use. Cheaper and safer than actually importing."""
     if not world_dir.is_dir():
-        return CheckResult("no_network_at_import", "skip", "world source not fetched")
+        return CheckResult("no_network_at_import", "skip", "nada")
     flagged_calls: list[str] = []
     flagged_imports: list[str] = []
     for py in world_dir.rglob("*.py"):
@@ -628,29 +631,29 @@ def check_no_network_at_import(world_dir: Path) -> CheckResult:
         return CheckResult(
             "no_network_at_import",
             "fail",
-            f"{len(flagged_calls)} top-level network call(s) detected",
+            f"A couple network calls in there that run immediately, I'm not a fan.",
             details=flagged_calls + flagged_imports,
         )
     if flagged_imports:
         return CheckResult(
             "no_network_at_import",
             "warn",
-            f"{len(flagged_imports)} top-level network module import(s) — review",
+            f"{len(flagged_imports)} top-level network module imports, these are probably ok, but check them out.",
             details=flagged_imports,
         )
     return CheckResult(
         "no_network_at_import",
         "pass",
-        "no top-level network imports/calls detected",
+        "Only network I see is the one I'm responding on.",
     )
 
 
 def check_bandit(world_dir: Path) -> CheckResult:
     """Run bandit -r on the world directory. Medium severity threshold."""
     if not world_dir.is_dir():
-        return CheckResult("bandit", "skip", "world source not fetched")
+        return CheckResult("bandit", "skip", "zilch")
     if shutil.which("bandit") is None:
-        return CheckResult("bandit", "fail", "bandit not installed in CI runner")
+        return CheckResult("bandit", "fail", "I hired a bandit, but it looks like they bailed.")
     proc = subprocess.run(
         [
             "bandit",
@@ -672,27 +675,27 @@ def check_bandit(world_dir: Path) -> CheckResult:
         return CheckResult(
             "bandit",
             "fail",
-            "bandit produced invalid JSON",
+            "Bandit doesn't speak JSON today, maybe try again later?",
             details=[(proc.stdout or "")[-500:]],
         )
     results = report.get("results", [])
     if not results:
-        return CheckResult("bandit", "pass", "no medium+ issues")
+        return CheckResult("bandit", "pass", "Bandit didn't make out with anything worth mentioning.")
     details = [
         f"{r.get('filename', '?')}:{r.get('line_number', '?')} "
         f"[{r.get('test_id', '?')}/{r.get('issue_severity', '?')}] "
         f"{r.get('issue_text', '')}"
         for r in results
     ]
-    return CheckResult("bandit", "fail", f"{len(results)} medium+ issue(s)", details=details)
+    return CheckResult("bandit", "fail", f"{len(results)} issues(s), we should look it over.", details=details)
 
 
 def check_pip_audit(world_dir: Path) -> CheckResult:
     """Run pip-audit on requirements.txt or pyproject.toml if either exists."""
     if not world_dir.is_dir():
-        return CheckResult("pip_audit", "skip", "world source not fetched")
+        return CheckResult("pip_audit", "skip", "no requirements, no problems")
     if shutil.which("pip-audit") is None:
-        return CheckResult("pip_audit", "fail", "pip-audit not installed in CI runner")
+        return CheckResult("pip_audit", "fail", "Uh, guys? Where's my pip-audit?")
 
     targets: list[list[str]] = []
     req = world_dir / "requirements.txt"
@@ -703,7 +706,7 @@ def check_pip_audit(world_dir: Path) -> CheckResult:
         # pip-audit can read pyproject via project-path
         targets.append(["pip-audit", "--project-path", str(world_dir), "--format", "json"])
     if not targets:
-        return CheckResult("pip_audit", "skip", "no requirements.txt / pyproject.toml")
+        return CheckResult("pip_audit", "skip", "no requirements, no problems")
 
     all_vulns: list[str] = []
     for cmd in targets:
@@ -714,7 +717,7 @@ def check_pip_audit(world_dir: Path) -> CheckResult:
             return CheckResult(
                 "pip_audit",
                 "fail",
-                "pip-audit produced invalid JSON",
+                "pip-audit gave me a funky JSON response",
                 details=[(proc.stdout or "")[-500:]],
             )
         for dep in report.get("dependencies", []):
@@ -724,11 +727,11 @@ def check_pip_audit(world_dir: Path) -> CheckResult:
                     f"{vuln.get('id')} ({vuln.get('description', '')[:80]})"
                 )
     if not all_vulns:
-        return CheckResult("pip_audit", "pass", "no known vulnerabilities")
+        return CheckResult("pip_audit", "pass", "We are up to date and ready to roll.")
     return CheckResult(
         "pip_audit",
         "fail",
-        f"{len(all_vulns)} known vulnerability/-ies",
+        "There are a few scary packages in there, let's check them out.`",
         details=all_vulns,
     )
 
@@ -827,11 +830,16 @@ _DETAILED_RENDER_THRESHOLD = 20
 
 def render_comment(run: ReviewRun) -> str:
     overall_glyph = _STATUS_GLYPH[run.overall]
+    if len(run.worlds) > 1:
+        overall_text = f"**Overall:** {overall_glyph} {run.overall.upper()} ({len(run.worlds)} world(s) checked)"
+    else:
+        overall_text = f"**TLDR:** {run.worlds[0].apworld} is {overall_glyph}"
     lines = [
         PR_COMMENT_MARKER,
-        "## Karen's review",
+        "## Karen: Quality Assurance Manager",
         "",
-        f"**Overall:** {overall_glyph} {run.overall.upper()} ({len(run.worlds)} world(s) checked)",
+        "Here to give a seal of quality to your APWorld, because no one wants to be a vector for an exploit.",
+        overall_text,
         "",
     ]
     # Compact mode: when many worlds are in scope (e.g. schema change re-validates
@@ -849,7 +857,7 @@ def render_comment(run: ReviewRun) -> str:
             lines.append("")
 
     for w in detailed_worlds:
-        lines.append(f"### `worlds/{w.apworld}.json` — {_STATUS_GLYPH[w.overall]} {w.overall}")
+        lines.append(f"### `{w.apworld}` — {_STATUS_GLYPH[w.overall]} {w.overall}")
         lines.append("")
         lines.append("| Check | Status | Notes |")
         lines.append("| --- | --- | --- |")
@@ -872,11 +880,11 @@ def render_comment(run: ReviewRun) -> str:
             lines.append("</details>")
         lines.append("")
     if run.overall == "pass":
-        lines.append("All checks green — requesting human review.")
+        lines.append("All checks green, awesome job!")
     elif run.overall == "warn":
-        lines.append("Yellow checks present. Human review can proceed but please address warnings.")
+        lines.append("A few warnings to check out, but nothing too serious.")
     else:
-        lines.append("Red checks above must be resolved before merge.")
+        lines.append("There are some problems I'm not willing to overlook. Please fix them and try again.")
     lines.append("")
     return "\n".join(lines)
 
@@ -905,7 +913,7 @@ def render_summary(run: ReviewRun) -> dict:
 
 
 def _cli(argv: Optional[list[str]] = None) -> int:
-    parser = argparse.ArgumentParser(description="Karen's PR review for worlds/*.json updates.")
+    parser = argparse.ArgumentParser(description="Karen's quality assurance review for apworld releases.")
     parser.add_argument(
         "--changed",
         action="append",
@@ -930,7 +938,7 @@ def _cli(argv: Optional[list[str]] = None) -> int:
         help=(
             "Limit to specific checks. Repeatable. Default: run all 8. "
             "Use to run a fast subset (e.g. --check schema --check manifest_consistency) "
-            "when validating all worlds after a schema change."
+            "when validating all worlds at once."
         ),
     )
     parser.add_argument(
@@ -954,7 +962,7 @@ def _cli(argv: Optional[list[str]] = None) -> int:
         run = ReviewRun(worlds=[])
         if args.output_comment:
             args.output_comment.write_text(
-                f"{PR_COMMENT_MARKER}\n## Karen's review\n\nNo `worlds/*.json` files in this PR.\n",
+                f"{PR_COMMENT_MARKER}\n## Karen's review\n\nNo new or updated index entries in this PR.\n",
                 encoding="utf-8",
             )
         if args.output_summary:

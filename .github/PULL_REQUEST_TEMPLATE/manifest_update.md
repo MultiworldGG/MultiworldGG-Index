@@ -16,8 +16,8 @@ KAREN_HUMAN_REVIEWERS) approves on green.
 <!-- Filled in by the publishing Action: a diff summary of fields that changed
 since the previous worlds/<apworld>.json on main. -->
 
-## Karen's review
+## Karen's quality review
 
-Karen will post a sticky comment on this PR with the 7-check result. If any
-check is red, fix the underlying issue in the per-world repo and re-publish;
-do not edit `worlds/<apworld>.json` here directly.
+Karen will post a sticky comment on this PR with the 8-check result. She will
+automatically approve the PR if it passes her tests, if not another human will
+need to review it for approval, or you'll need to fix the problems and re-release.

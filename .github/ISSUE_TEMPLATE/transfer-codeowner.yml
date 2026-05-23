@@ -1,5 +1,5 @@
 name: Transfer codeowner of a world
-description: Hand off CODEOWNERS responsibility for a `worlds/<apworld>.json` entry to a different GitHub account.
+description: Hand off CODEOWNERS responsibility for an apworld to a different GitHub account.
 title: "[codeowner-transfer] <apworld>: <current> → <new>"
 labels: ["codeowner-transfer"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Use this template to request that the per-world author listed in `.github/CODEOWNERS`
-        for a specific world be changed to a different GitHub account.
+        for a specific apworld be changed to a different GitHub account.
 
         This issue does **not** auto-edit CODEOWNERS — a maintainer reviews the request and
         applies the change manually. Both the current and the proposed new codeowner should
@@ -17,15 +17,15 @@ body:
     attributes:
       label: APWorld
       description: Filename stem under `worlds/` (e.g. `myclgm` for `worlds/myclgm.json`). Lowercase letters, digits, and underscores only.
-      placeholder: "My Cool Game"
+      placeholder: "myclgm"
     validations:
       required: true
   - type: input
     id: current
     attributes:
       label: Current codeowner
-      description: GitHub handle currently listed for `worlds/<apworld>.json` in `.github/CODEOWNERS`. Without the leading `@`.
-      placeholder: "Ex-owner-name"
+      description: GitHub handle currently listed for `apworld` in `.github/CODEOWNERS`. Without the leading `@`.
+      placeholder: "Malon"
     validations:
       required: true
   - type: input
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Proposed new codeowner
       description: GitHub handle to take over. Must be a real GitHub user (or a team in `org/team` form). Without the leading `@`.
-      placeholder: "New-owner-name"
+      placeholder: "Zelda"
     validations:
       required: true
   - type: textarea
@@ -56,5 +56,5 @@ body:
           required: false
         - label: Edited `.github/CODEOWNERS` and merged the change.
           required: false
-        - label: Notified Oliver's operator if the per-world repo's owner login is also changing (so future PRs derive the right codeowner).
+        - label: Verified that the apworld releases are still working as expected.
           required: false
