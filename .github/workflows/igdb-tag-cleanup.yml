@@ -21,9 +21,8 @@ jobs:
 
     steps:
       - name: Mint Karen's installation token
+        uses: actions/create-github-app-token@v3
         id: karen_token
-        if: vars.KAREN_APP_ID != ''
-        uses: actions/create-github-app-token@v1
         with:
           client-id: ${{ vars.KAREN_APP_ID }}
           private-key: ${{ secrets.KAREN_PRIVATE_KEY }}
