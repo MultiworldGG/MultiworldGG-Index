@@ -5,9 +5,9 @@
         "Phie"
     ],
     "igdb_id": 28545,
-    "world_version": "1.4.7",
+    "world_version": "1.5.1",
     "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_rabi_ribi-1.4.7-py3-none-any.whl#sha256=586dbdb64251fb580bf64040b08748972f9d389bbef75fab4671f1ba282faf42"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-22/worlds_rabi_ribi-1.5.1-py3-none-any.whl#sha256=39a833a369dc719511b151e5957e9f38ab9e81308c9185b973673b72e5fddad8"
 }

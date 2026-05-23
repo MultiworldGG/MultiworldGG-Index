@@ -4,7 +4,7 @@
         "Silasary"
     ],
     "igdb_id": 263344,
-    "world_version": "0.9.0",
+    "world_version": "0.9.1",
     "minimum_ap_version": "0.6.0",
     "changelog": [
         "## 0.8.4",
@@ -30,5 +30,5 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_factorio_saws-0.9.0-py3-none-any.whl#sha256=165db3c248ba47de603d8f95cfd7fe3d58a1ec017a58d41d387689761cad60d3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-22/worlds_factorio_saws-0.9.1-py3-none-any.whl#sha256=3c1ace4e8559de58a6f46128b7710c2ee006dace98c937a8e72ce96983ce1a4b"
 }
