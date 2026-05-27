@@ -5,8 +5,8 @@
     ],
     "igdb_id": 1514,
     "minimum_ap_version": "0.6.3",
-    "world_version": "5.4.4",
+    "world_version": "5.4.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pokemon_crystal-5.4.4-py3-none-any.whl#sha256=e6d214f583c0e485ddf2abbf4dfd1399276853a24c6f8c20d1cca3c14686da70"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-27/worlds_pokemon_crystal-5.4.5-py3-none-any.whl#sha256=6e1ba8a091fbfb2afc904aa830f83e5c4ca070b8c51f8cf500e1eaad7e881407"
 }
