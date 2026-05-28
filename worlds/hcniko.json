@@ -1,6 +1,6 @@
 {
     "game": "Here Comes Niko!",
-    "world_version": "0.8.3",
+    "world_version": "0.8.4",
     "authors": [
         "nieli"
     ],
@@ -8,5 +8,5 @@
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_hcniko-0.8.3-py3-none-any.whl#sha256=34dd1f972e03bb57a79b0e4a32602eccc7935bffae9222eee5f6759756424152"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-27/worlds_hcniko-0.8.4-py3-none-any.whl#sha256=035f39a027c68865591a2a9ecd15562d8d07bcd18caa5eec0d225726b1dfce8c"
 }
