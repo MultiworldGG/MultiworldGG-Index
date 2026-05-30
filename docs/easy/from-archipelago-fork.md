@@ -53,7 +53,7 @@ No `pyproject.toml` is needed. The build workflow synthesizes one from your
 
 Install the app on your repo (it requests read-only permissions):
 
-**<https://github.com/apps/oliver-multiworld-squirrel>**
+**<https://github.com/apps/oliver-the-multiworld-squirrel>**
 
 Click "Install" and select your fork repo. Oliver will see your published
 releases, wait for the build workflow to attach a `.whl` asset, and open Index

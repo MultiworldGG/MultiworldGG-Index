@@ -21,7 +21,7 @@ fork.
 ## One-time setup
 
 1. Install **Oliver-Multiworld-Squirrel** on your fork:
-   <https://github.com/apps/oliver-multiworld-squirrel> - it only needs access
+   <https://github.com/apps/oliver-the-multiworld-squirrel> - it only needs access
    to the repository where your code lives.
 2. Add the reusable workflow jobs to your release workflow. If you want Oliver
    to open the Index PR via its `workflow_run.completed` handler, that workflow

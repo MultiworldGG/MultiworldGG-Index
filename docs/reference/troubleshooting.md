@@ -14,7 +14,7 @@ release whose build workflow has attached a `.whl` asset from
 appeared, work through this list:
 
 **1. Oliver is not installed on your repo.**
-Install the GitHub App: <https://github.com/apps/oliver-multiworld-squirrel>.
+Install the GitHub App: <https://github.com/apps/oliver-the-multiworld-squirrel>.
 After installing, publish the release or re-run the completed release workflow
 from the Actions tab.
 

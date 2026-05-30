@@ -43,7 +43,7 @@ When you cut a GitHub release on your per-world repo:
 
 1. A reusable workflow builds a pip-installable wheel from your `worlds/<apworld>/` directory and attaches it to the release.
 2. **Oliver** (Oliver-the-Multiworld-Squirrel GitHub App) sees your published release, reads the wheel asset URL and its SHA256 digest, and opens a PR on this Index repo that records exactly where your world lives.
-3. **Karen** (Karen-the-Multiworld-Knight GitHub App) runs her security check suite on the PR and posts a summary comment.
+3. **Karen** (Karen-Head-of-Multiworld-QA GitHub App) runs her security check suite on the PR and posts a summary comment.
 4. On green, Karen requests review from a human CODEOWNER, who approves and merges.
 5. The next daily rebuild picks up the merged manifest and publishes it to the `mwgg_igdb` package that the MultiworldGG launcher reads.
 
