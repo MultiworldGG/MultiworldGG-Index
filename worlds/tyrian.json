@@ -7,6 +7,6 @@
     ],
     "igdb_id": 14432,
     "minimum_ap_version": "0.6.3",
-    "world_version": "1.0.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tyrian-1.0.4-py3-none-any.whl#sha256=76ff763fdd5ac91d1c6f26ef444fa5a9827a3abc65f39aea24bb665c8aed4474"
+    "world_version": "1.0.5",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_tyrian-1.0.5-py3-none-any.whl#sha256=8dfabeaf7f6d220ea90a8eae62a23ce994e33557502350ea3ae1c86766537fb5"
 }

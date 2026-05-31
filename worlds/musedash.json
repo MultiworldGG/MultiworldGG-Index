@@ -4,9 +4,9 @@
         "DeamonHunter"
     ],
     "igdb_id": 86316,
-    "world_version": "1.5.32",
+    "world_version": "1.5.33",
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_musedash-1.5.32-py3-none-any.whl#sha256=41e9413a68a31894c6bc8c9e279b906ef88c881281489e31a84809d1f56843af"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_musedash-1.5.33-py3-none-any.whl#sha256=35e741de99aa70effdf581be47f7dc476d3eb806211683d5f552aee9997bc6b6"
 }
