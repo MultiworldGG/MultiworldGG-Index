@@ -76,17 +76,24 @@ while IFS= read -r manifest_path; do
       "https://raw.githubusercontent.com/${FUZZER_REPO}/${FUZZER_REF}/fuzz.py" \
       -o fuzz.py
 
-    # insert fuzz_bootstrap.py so it works on mwgg at line 14 in fuzz.py.
-    # Use absolute path because cwd here is "$workdir/core", not the Index
-    # checkout. GNU sed silently no-ops on a missing read-file, so a bare
-    # relative path would leave fuzz.py un-bootstrapped and crash later with
-    # "mwgg_igdb not found".
+    # Inject fuzz_bootstrap.py immediately BEFORE `from worlds import ...` so the
+    # mwgg_igdb shim + SKIP_ALL_INSTALLS=1 are in place before worlds.* import.
+    # fuzz.py comes from upstream main (a moving target), so anchor on the import
+    # line instead of a hardcoded number. `sed Nr` inserts AFTER line N, so use
+    # (worlds_line - 1) to land just before it. Absolute path because cwd here is
+    # "$workdir/core", not the Index checkout; GNU sed silently no-ops on a
+    # missing read-file, so a bad path would leave fuzz.py un-bootstrapped.
     bootstrap_path="${GITHUB_WORKSPACE}/scripts/fuzz_bootstrap.py"
     if [ ! -f "${bootstrap_path}" ]; then
       echo "::error::fuzz_bootstrap.py not found at ${bootstrap_path}"
       exit 1
     fi
-    sed -i "14r ${bootstrap_path}" fuzz.py
+    worlds_line="$(grep -n '^from worlds import' fuzz.py | head -n1 | cut -d: -f1)"
+    if [ -z "${worlds_line}" ]; then
+      echo "::error::could not find 'from worlds import' in fuzz.py to anchor bootstrap"
+      exit 1
+    fi
+    sed -i "$((worlds_line - 1))r ${bootstrap_path}" fuzz.py
 
     set +e
     timeout 15m python fuzz.py -r "${fuzz_runs}" -t "${fuzz_timeout}" -g "${apworld}" -j "${fuzz_threads}" -n "${fuzz_yamls}"
