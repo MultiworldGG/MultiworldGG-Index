@@ -35,10 +35,15 @@ mkdir -p "${fuzz_output_dir}"
 fuzz_overall=pass
 fuzz_summary=""
 
-while IFS= read -r manifest_path; do
+# Read targets on FD 3, not stdin: inner commands (git clone, python fuzz.py,
+# uv, ...) inherit stdin and any one that reads it would swallow the rest of the
+# list, silently ending the loop after the first world.
+while IFS= read -r manifest_path <&3; do
   [ -z "$manifest_path" ] && continue
   apworld="$(basename "$manifest_path" .json)"
-  module_location="$(jq -r '.module_location // ""' "${GITHUB_WORKSPACE}/${manifest_path}")"
+  # Don't let a malformed/unreadable manifest abort the whole batch under set -e;
+  # an empty module_location falls through to the skip below.
+  module_location="$(jq -r '.module_location // ""' "${GITHUB_WORKSPACE}/${manifest_path}" 2>/dev/null || true)"
 
   # Strip fragment (sha256=...) for download.
   wheel_url="${module_location%%#*}"
@@ -119,16 +124,25 @@ while IFS= read -r manifest_path; do
     fi
   ) || world_exit=$?
   echo "::endgroup::"
-  fuzz_rate=$(jq -r '.stats | ((.failure + .timeout) / .total)' fuzz_output/report.json)
+
+  # fuzz.py writes report.json relative to its cwd ($workdir/core). We're back
+  # in $GITHUB_WORKSPACE now that the subshell exited, so read it by absolute
+  # path. Guard the crash case where fuzz.py never produced a report.
+  report_json="${workdir}/core/fuzz_output/report.json"
+  if [ -f "${report_json}" ]; then
+    fuzz_rate=$(jq -r '.stats | ((.failure + .timeout) / .total * 100)' "${report_json}")
+  else
+    fuzz_rate="n/a"
+  fi
 
   if [ "${world_exit}" -ne 0 ]; then
+    # Sticky: once any world fails, the overall result stays fail.
     fuzz_overall=fail
     fuzz_summary+="- ${apworld}: ❌ jagged, not fuzzy with ${fuzz_rate}% failure rate (see fuzz_output_all/${apworld}-report.json)\n"
   else
     fuzz_summary+="- ${apworld}: ✅ fuzzed with ${fuzz_rate}% failure rate\n"
-    fuzz_overall=pass
   fi
-done < karen-targets.txt
+done 3< karen-targets.txt
 
 # Output for GitHub Actions
 echo "fuzz_overall=${fuzz_overall}" >> "$GITHUB_OUTPUT"
