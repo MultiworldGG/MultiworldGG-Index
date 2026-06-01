@@ -11,6 +11,15 @@ import sysconfig as _bootstrap_sysconfig
 import importlib as _bootstrap_importlib
 from pathlib import Path as _BootstrapPath
 
+# Upstream fuzz.py hand-builds the generation argparse Namespace in
+# call_generate() with a fixed key set and never calls Generate.mystery_argparse,
+# so MWGG core's Generate.main reads host-setting args it never set (e.g.
+# allow_quantity) and raises AttributeError mid-generation. Seed those defaults
+# as Namespace CLASS attributes: the fuzzer's instances inherit them, while real
+# argparse runs still set them per-instance and override. Add drifted args here.
+for _attr, _default in {"allow_quantity": False}.items():
+    setattr(_bootstrap_argparse.Namespace, _attr, _default)
+
 _pre_parser = _bootstrap_argparse.ArgumentParser(add_help=False)
 _pre_parser.add_argument("-g", "--game", action="append", default=[])
 _pre_args, _ = _pre_parser.parse_known_args()
