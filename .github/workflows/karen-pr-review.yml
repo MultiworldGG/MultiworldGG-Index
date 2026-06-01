@@ -230,6 +230,9 @@ jobs:
             echo ""
             echo "### World generation (fuzzer) results"
             printf '%b' "${{ steps.fuzz.outputs.fuzz_summary }}"
+            echo ""
+            echo "_Legend: ✅ generated · ⚠️ no-op (all option-rejected, or ROM/output unavailable on CI) · ❌ failed._"
+            echo "_📦 Per-world reports & failure dumps: download the **karen-fuzz-output** artifact from [this run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})._"
           } >> karen-comment.md
 
       - name: Upload fuzzer artifacts

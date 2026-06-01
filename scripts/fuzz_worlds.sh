@@ -8,11 +8,11 @@
 #   FUZZER_REPO, FUZZER_REF, GITHUB_WORKSPACE, GITHUB_EVENT_PATH
 #
 # Outputs (GITHUB_OUTPUT style):
-#   fuzz_overall, fuzz_summary
+#   fuzz_overall (pass|warn|fail), fuzz_summary
 # Side effects:
-#   On any per-world fuzz failure (>50% fail rate or crash),
-#   ${GITHUB_WORKSPACE}/fuzz_output_all/<apworld>-report.json is preserved
-#   so the codeowner can inspect it.
+#   Every world's full fuzz output (report.json + failure/timeout dumps) is
+#   copied to ${GITHUB_WORKSPACE}/fuzz_output_all/<apworld>/ for the uploaded
+#   artifact, so the codeowner can inspect any verdict.
 
 set -euo pipefail
 
@@ -34,6 +34,34 @@ fuzz_output_dir="${GITHUB_WORKSPACE}/fuzz_output_all"
 mkdir -p "${fuzz_output_dir}"
 fuzz_overall=pass
 fuzz_summary=""
+
+# Classify one world's report.json into pass/warn/fail. Emits:
+#   "<status> <success> <failure> <timeout> <ignored> <rom> <real> <total>"
+# Buckets (per the codeowner's rules):
+#   - timeout or non-ROM failure -> counts as a real failure (red past 50%)
+#   - ROM/output failure (missing base-rom signature) -> warn, never red: it's
+#     an environment limit (no ROM on the runner), not a world bug
+#   - ignored (OptionError) -> warn only when nothing generated; a no-op
+#   - clean generation -> pass
+# `romlike` matches the FileNotFoundError signature ("no such file...") plus a
+# few common console-ROM extensions; extend the alternation as new worlds land.
+CLASSIFY_JQ='
+  def romlike:
+    test("no such file or directory|\\brom\\b|\\.(gba|gbc|gb|sfc|smc|z64|n64|nes|md|gen|iso|bin|pce|nds)([^a-z0-9]|$)"; "i");
+  (.stats.success // 0) as $succ
+  | (.stats.failure // 0) as $fail
+  | (.stats.timeout // 0) as $to
+  | (.stats.ignored // 0) as $ign
+  | (.stats.total   // 0) as $total
+  | [ (.errors // {}) | .[] | to_entries[] | select(.key | test("TimeoutError") | not) ] as $fk
+  | ( [ $fk[] | select(.key | romlike)       | (.value | length) ] | add // 0 ) as $rom
+  | ( [ $fk[] | select(.key | (romlike|not)) | (.value | length) ] | add // 0 ) as $real
+  | ( $to + $real ) as $bad
+  | ( if   ($total > 0) and (($bad / $total) > 0.5)                     then "fail"
+      elif ($succ > 0) and ($to == 0) and ($real == 0) and ($rom == 0) then "pass"
+      else "warn" end ) as $status
+  | "\($status) \($succ) \($fail) \($to) \($ign) \($rom) \($real) \($total)"
+'
 
 # Read targets on FD 3, not stdin: inner commands (git clone, python fuzz.py,
 # uv, ...) inherit stdin and any one that reads it would swallow the rest of the
@@ -105,43 +133,60 @@ while IFS= read -r manifest_path <&3; do
     fuzz_exit=$?
     set -e
 
-    # Each fuzz invocation is `-g <one apworld>`, so report.json's `stats`
-    # block is already scoped to this one world — the threshold check below
-    # is per-world, not group-wide.
-    if [ ! -f fuzz_output/report.json ]; then
-      echo "::error::No report.json for ${apworld} (fuzz.py exit=${fuzz_exit})"
-      exit 1
+    # Preserve the whole per-world output (report.json + failure/timeout dumps)
+    # for the uploaded artifact, whatever the verdict, before $workdir is
+    # reclaimed. Classification happens outside the subshell against this copy.
+    if [ -d fuzz_output ]; then
+      cp -r fuzz_output "${fuzz_output_dir}/${apworld}"
     fi
 
-    fail_pct=$(jq -r '.stats | ((.failure + .timeout) / .total * 100)' fuzz_output/report.json)
-    echo "${apworld}: failure rate = ${fail_pct}%"
-
-    # bash arithmetic can't handle floats — let jq do the comparison.
-    over_threshold=$(jq -r '.stats | ((.failure + .timeout) / .total) > 0.5' fuzz_output/report.json)
-    if [ "${over_threshold}" = "true" ]; then
-      cp fuzz_output/report.json "${fuzz_output_dir}/${apworld}-report.json"
+    # No report at all = fuzz.py crashed or was killed by the 15m wall: a hard
+    # fail, surfaced via world_exit below.
+    if [ ! -f fuzz_output/report.json ]; then
+      echo "::error::No report.json for ${apworld} (fuzz.py exit=${fuzz_exit})"
       exit 1
     fi
   ) || world_exit=$?
   echo "::endgroup::"
 
-  # fuzz.py writes report.json relative to its cwd ($workdir/core). We're back
-  # in $GITHUB_WORKSPACE now that the subshell exited, so read it by absolute
-  # path. Guard the crash case where fuzz.py never produced a report.
-  report_json="${workdir}/core/fuzz_output/report.json"
-  if [ -f "${report_json}" ]; then
-    fuzz_rate=$(jq -r '.stats | ((.failure + .timeout) / .total * 100)' "${report_json}")
+  # Classify from the report we copied into $fuzz_output_dir (it survives the
+  # $workdir removal below). A non-zero subshell or a missing report means
+  # fuzz.py crashed / hit the 15m wall -> hard fail.
+  report_json="${fuzz_output_dir}/${apworld}/report.json"
+  if [ "${world_exit}" -ne 0 ] || [ ! -f "${report_json}" ]; then
+    status=fail
+    detail="crashed or produced no report (exit ${world_exit})"
   else
-    fuzz_rate="n/a"
+    classified="$(jq -r "${CLASSIFY_JQ}" "${report_json}" 2>/dev/null || true)"
+    read -r status s_succ s_fail s_to s_ign s_rom s_real s_total <<< "${classified}"
+    if [ -z "${status}" ]; then
+      status=fail
+      detail="unparseable report.json"
+    else
+      detail="success=${s_succ} timeout=${s_to} fail=${s_real} rom/output=${s_rom} ignored=${s_ign} / ${s_total}"
+    fi
   fi
 
-  if [ "${world_exit}" -ne 0 ]; then
-    # Sticky: once any world fails, the overall result stays fail.
-    fuzz_overall=fail
-    fuzz_summary+="- ${apworld}: ❌ jagged, not fuzzy with ${fuzz_rate}% failure rate (see fuzz_output_all/${apworld}-report.json)\n"
-  else
-    fuzz_summary+="- ${apworld}: ✅ fuzzed with ${fuzz_rate}% failure rate\n"
-  fi
+  case "${status}" in
+    fail)
+      # Sticky: once any world is red, the overall result stays red.
+      fuzz_overall=fail
+      fuzz_summary+="- ${apworld}: ❌ ${detail} (see fuzz_output_all/${apworld}/)\n"
+      ;;
+    warn)
+      # Yellow is a no-op, not a gate: only lift from pass, never mask a fail.
+      [ "${fuzz_overall}" = "pass" ] && fuzz_overall=warn
+      fuzz_summary+="- ${apworld}: ⚠️ no clean generation — ${detail} (see fuzz_output_all/${apworld}/)\n"
+      ;;
+    *)
+      fuzz_summary+="- ${apworld}: ✅ fuzzed clean (${s_succ}/${s_total} generated)\n"
+      ;;
+  esac
+
+  # Reclaim disk before the next world: each iteration leaves a full core clone
+  # + venv (hundreds of MB); a many-world PR would exhaust the runner. The
+  # report + dumps were already copied to $fuzz_output_dir, outside $workdir.
+  rm -rf "${workdir}"
 done 3< karen-targets.txt
 
 # Output for GitHub Actions
