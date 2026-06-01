@@ -1,11 +1,11 @@
 {
     "game": "Schedule I",
     "minimum_ap_version": "0.6.6",
-    "world_version": "3.6.2",
+    "world_version": "3.6.3",
     "authors": [
         "MacH8s"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_schedule_i-3.6.2-py3-none-any.whl#sha256=dc19fc1193befa7fbec1ebf5009cab7264a246ae66591b28db1721c1345466c8"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_schedule_i-3.6.3-py3-none-any.whl#sha256=427929751f01789cc9f0b3a27d394c5b0b110ca5b08c9b722fdb0eb026e49abb"
 }

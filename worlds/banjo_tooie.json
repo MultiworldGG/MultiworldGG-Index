@@ -7,8 +7,8 @@
     ],
     "igdb_id": 3418,
     "minimum_ap_version": "0.6.3",
-    "world_version": "4.11.6",
+    "world_version": "4.12.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_banjo_tooie-4.11.6-py3-none-any.whl#sha256=50ccd1167a25cea9abdb52921a4933396dbe40064188e1ae834e43c9f5bddeec"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_banjo_tooie-4.12.0-py3-none-any.whl#sha256=6fa392d837d29b050d14179d3fba1d339c6fef4d91a4251f93266a8866186338"
 }

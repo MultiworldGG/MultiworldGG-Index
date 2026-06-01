@@ -1,6 +1,6 @@
 {
     "game": "Refunct",
-    "world_version": "1.1.1",
+    "world_version": "1.2.1",
     "minimum_ap_version": "0.6.4",
     "authors": [
         "Spineraks"
@@ -8,5 +8,5 @@
     "igdb_id": 13542,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_refunct-1.1.1-py3-none-any.whl#sha256=e47845c5f7e39804d968e0937238644d10a67a022bd6d093c4cec0f0ff9cefb6"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_refunct-1.2.1-py3-none-any.whl#sha256=8301f8bbf7656f37488aca8251de0e77d9df30fe7030f7534c7a81e33daed3f0"
 }
