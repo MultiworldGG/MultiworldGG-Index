@@ -233,6 +233,7 @@ def validate_generated_index(games_data: dict, search_index: dict[str, set[str]]
 
 def render_template(
     template_path: Path,
+    variant: str,
     games_data: dict[str, dict],
     game_names: dict[str, str],
     search_index: dict[str, set[str]],
@@ -251,6 +252,7 @@ def render_template(
     )
     return (
         template
+        .replace("VARIANT_PLACEHOLDER", variant)
         .replace("GAMES_DATA_PLACEHOLDER", games_data_str)
         .replace("GAMES_NAMES_PLACEHOLDER", game_names_str)
         .replace("SEARCH_INDEX_PLACEHOLDER", search_index_str)
@@ -312,7 +314,7 @@ def build_one_variant(
     if not validate_generated_index(filtered, search_index):
         print(f"Warning: index validation failed for variant '{variant}', continuing")
 
-    rendered = render_template(template_path, filtered, game_names, search_index)
+    rendered = render_template(template_path, variant, filtered, game_names, search_index)
 
     variant_dir = out_dir / variant
     if variant_dir.exists():

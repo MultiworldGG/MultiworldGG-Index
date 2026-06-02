@@ -1,4 +1,6 @@
 # These constants will be generated during build
+__variant__ = "VARIANT_PLACEHOLDER"  # age-rating variant: nr | ao | twelve | sixteen
+
 GAMES_DATA = GAMES_DATA_PLACEHOLDER  # type: ignore  # noqa: F821
 
 GAMES_NAMES = GAMES_NAMES_PLACEHOLDER  # type: ignore  # noqa: F821
