@@ -37,6 +37,16 @@ Usage:
         --size-cap-mb 250 \\
         --output-comment karen-comment.md \\
         --output-summary karen-summary.json
+
+When the caller (e.g. the bot's container) has already downloaded and extracted
+the wheel, pass --world-dir to run the deep checks against that directory
+instead of re-downloading. Only one --changed target is allowed in this mode:
+    python scripts/karen_review.py \\
+        --changed worlds/oot.json \\
+        --schema schema/world_manifest.schema.json \\
+        --size-cap-mb 250 \\
+        --world-dir /path/to/extracted-wheel \\
+        --output-summary scan.json
 """
 
 from __future__ import annotations
@@ -747,7 +757,25 @@ def review_one(
     workdir: Path,
     selected_checks: frozenset[str],
     lenient_urls: bool = False,
+    world_dir_override: Optional[Path] = None,
 ) -> WorldReview:
+    """Review a single manifest.
+
+    When ``world_dir_override`` is given, the download/clone/fetch step is
+    skipped entirely and the deep checks run directly against that already-
+    extracted directory (treated as the expanded wheel's ``world_dir``). This
+    is how the bot's container reuses a wheel it has already downloaded and
+    unzipped, e.g.::
+
+        review_one(
+            Path("worlds/oot.json"),
+            Path("schema/world_manifest.schema.json"),
+            250,
+            Path("/tmp/karen-workdir"),
+            selected_checks=DEEP_CHECKS,
+            world_dir_override=Path("/tmp/extracted"),
+        )
+    """
     apworld = manifest_path.stem
     review = WorldReview(apworld=apworld, manifest_path=str(manifest_path))
 
@@ -763,6 +791,16 @@ def review_one(
     deep_selected = selected_checks & DEEP_CHECKS
     if not deep_selected:
         return review
+
+    # The bot's container may have already downloaded and extracted the wheel.
+    # In that case, point the deep checks straight at it — no re-download.
+    if world_dir_override is not None:
+        world_dir = world_dir_override
+        fetched = world_dir.is_dir()
+        fetch_message = "" if fetched else f"--world-dir not a directory: {world_dir}"
+        return _run_deep_checks(
+            review, world_dir, size_cap_mb, selected_checks, lenient_urls, fetched, fetch_message
+        )
 
     # Try to fetch the world for the deeper checks.
     world_dir = workdir / apworld
@@ -793,6 +831,23 @@ def review_one(
     except (OSError, json.JSONDecodeError) as exc:
         fetch_message = f"could not load manifest for fetch: {exc}"
 
+    return _run_deep_checks(
+        review, world_dir, size_cap_mb, selected_checks, lenient_urls, fetched, fetch_message
+    )
+
+
+def _run_deep_checks(
+    review: WorldReview,
+    world_dir: Path,
+    size_cap_mb: int,
+    selected_checks: frozenset[str],
+    lenient_urls: bool,
+    fetched: bool,
+    fetch_message: str,
+) -> WorldReview:
+    """Append the selected deep checks to ``review``, running them against
+    ``world_dir``. When ``fetched`` is False the deep checks are recorded as
+    skipped (or pass-with-note in lenient mode) with ``fetch_message``."""
     if not fetched:
         # Mark deeper checks as skipped (lenient mode: pass-with-note instead).
         skip_status = "pass" if lenient_urls else "skip"
@@ -950,9 +1005,22 @@ def _cli(argv: Optional[list[str]] = None) -> int:
             "transition when canonical URLs aren't populated yet."
         ),
     )
+    parser.add_argument(
+        "--world-dir",
+        type=Path,
+        default=None,
+        help=(
+            "Run the deep checks against this already-extracted wheel directory "
+            "instead of downloading/cloning. Only valid with a single --changed "
+            "target (the bot's container reviews one world at a time)."
+        ),
+    )
     parser.add_argument("--output-comment", type=Path, default=None)
     parser.add_argument("--output-summary", type=Path, default=None)
     args = parser.parse_args(argv)
+
+    if args.world_dir is not None and len(args.changed) > 1:
+        parser.error("--world-dir is only valid with a single --changed target")
 
     selected_checks = frozenset(args.check) if args.check else frozenset(ALL_CHECKS)
 
@@ -991,6 +1059,7 @@ def _cli(argv: Optional[list[str]] = None) -> int:
                     workdir,
                     selected_checks=selected_checks,
                     lenient_urls=args.lenient_urls,
+                    world_dir_override=args.world_dir,
                 )
             )
 

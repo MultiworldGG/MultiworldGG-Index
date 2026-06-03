@@ -33,11 +33,17 @@ with a SHA256 hash so pip verifies the downloaded bytes. See
 [Why Oliver opens the PR](why-oliver.md).
 
 **Karen**
-: The automated reviewer that runs on every Index PR opened by Oliver. She
-runs eight checks (schema, manifest consistency, URL reachability, size,
-AST scan, bandit, pip-audit) plus CodeQL and a fuzzer run, then posts a
-sticky comment with the results. On all-green, she requests a human CODEOWNER
-review. See [Why Oliver opens the PR](why-oliver.md#what-karen-checks).
+: The automated reviewer that runs on every Index PR opened by Oliver. On the
+runner she runs the fast manifest checks (schema, manifest consistency, URL
+reachability) and bases her `APPROVE` on those alone. The heavier
+security/quality work — size, ROM scan, AST scan, bandit, pip-audit, a ruff
+quality lint, and a generation fuzz — runs asynchronously in a sandboxed
+container the MultiworldGG bot spawns against the sha256-verified wheel, and is
+reported via the separate required `Karen / fuzz` Check Run. The
+`karen/fuzz-runs:<N>`, `karen/fuzz-timeout:<sec>`, and `karen/size-cap-mb:<N>`
+PR labels tune that bot run. Karen posts a sticky comment with both sets of
+results; on all-green fast checks she requests a human CODEOWNER review. See
+[Why Oliver opens the PR](why-oliver.md#what-karen-checks).
 
 **Index**
 : The MultiworldGG-Index repository
@@ -60,10 +66,12 @@ during the daily release. Installed from one of the four orphan branches
 depending on the content-rating variant configured for the installation.
 
 **Karen review**
-: The automated check suite that Karen runs on every Index PR. Not a
-checklist the author must satisfy before releasing — Karen runs after the
-release is cut and reports what she found. Results are guidance for the human
-CODEOWNER and other approvers who merge. See [Why Oliver opens the PR](why-oliver.md).
+: The automated check suite that runs on every Index PR — Karen's fast manifest
+checks on the runner, plus the bot's asynchronous sandboxed scan gated by the
+`Karen / fuzz` Check Run. Not a checklist the author must satisfy before
+releasing — it runs after the release is cut and reports what it found. Results
+are guidance for the human CODEOWNER and other approvers who merge. See
+[Why Oliver opens the PR](why-oliver.md).
 
 **wheel (`.whl`)**
 : A pip-installable Python package archive. The `build.yml@v3` reusable

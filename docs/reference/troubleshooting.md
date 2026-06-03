@@ -101,9 +101,17 @@ it is a bug in the workflow. Open an issue on
 ## Karen left a comment with red checks
 
 Karen posts a sticky review comment on the Index PR with a table showing which
-checks passed, warned, or failed. A red check does not automatically block
-merge — the human CODEOWNER decides whether to merge, ask for a fix, or
-override.
+checks passed, warned, or failed. The fast manifest checks (`schema`,
+`manifest_consistency`, `url_reachability`) run on the runner and drive Karen's
+own `APPROVE`. The deeper scans (`bandit`, `pip_audit`, `no_network_at_import`,
+`size_sanity`, the ruff lint, and the generation fuzz) run asynchronously in the
+bot's sandbox and are reported via the separate `Karen / fuzz` Check Run — see
+[the next section](#the-karen-fuzz-check-is-pending-or-failed) for that one.
+
+A red fast check does not automatically block merge — the human CODEOWNER
+decides whether to merge, ask for a fix, or override. (The `Karen / fuzz` gate
+is the exception: it is a required status and does block merge until green or
+overridden.)
 
 Red checks are guidance, not a wall. If Karen flags something and you're not
 sure what to do, ask in the PR comment thread. The CODEOWNER will advise.
@@ -113,10 +121,49 @@ Common red checks and their causes:
 | Check | Common cause |
 |---|---|
 | `url_reachability` | The `module_location` URL is not yet reachable (e.g. release was just published, asset CDN propagation lag). Usually resolves on PR re-synchronise. |
-| `bandit` | `subprocess` with `shell=True`, `exec()`, hardcoded credentials, or similar. Karen reports the specific line numbers. |
+| `bandit` | `subprocess` with `shell=True`, `exec()`, hardcoded credentials, or similar. The report names the specific line numbers. |
 | `pip_audit` | A declared dependency has a known CVE. Upgrade the dep in `pyproject.toml` and cut a new release. |
 | `no_network_at_import` | A top-level `import requests` or `urllib.request.urlopen()` call at module scope. Move network calls inside functions. |
 | `size_sanity` | World source exceeds the size cap (default 250 MB). A human CODEOWNER can apply the `karen/size-cap-mb:<N>` label to the PR to raise the cap for this specific world. |
+
+---
+
+## The `Karen / fuzz` check is pending or failed
+
+The security/quality scan — bandit, pip-audit, the ruff quality lint, and the
+generation fuzz — does not run on the GitHub Actions runner. It runs
+asynchronously in a hardened container that the **MultiworldGG GitHub bot**
+spawns for your PR, against the sha256-verified wheel. Its outcome is reported
+as a dedicated **`Karen / fuzz`** Check Run, which is a required status in
+branch protection: the PR cannot merge until it is green (or a maintainer
+overrides it).
+
+**`Karen / fuzz` is pending (yellow).**
+The bot is still working. Spinning up the sandbox, downloading and verifying the
+wheel, and running the fuzz rounds takes longer than Karen's fast manifest
+checks, so it is normal for `Karen / fuzz` to sit pending for a while after
+Karen has already posted her green fast-check comment. No action needed — wait
+for it to resolve. If it never resolves, the bot may not be installed or may be
+backlogged; a maintainer can check the bot's status.
+
+**`Karen / fuzz` failed (red).**
+The scan found something. Open the report to see what:
+
+- **Karen's sticky comment** has a fenced section near the bottom where the bot
+  writes its findings (the bandit hits, pip-audit CVEs, ruff lint, and the
+  per-world fuzz verdict). This is the fastest place to read what failed.
+- **The `Karen / fuzz` Check Run** itself (the *Details* link next to the check
+  on the PR's checks list) carries the full scan log and any attached output.
+
+Fix the underlying issue (see the cause table in the section above for bandit /
+pip-audit / network-at-import), cut a new release, and the bot re-runs the scan
+on the updated PR. The `karen/fuzz-runs:<N>` and `karen/fuzz-timeout:<sec>`
+labels let a maintainer tune how many generation rounds the bot runs and how
+long it may take; `karen/size-cap-mb:<N>` raises the size cap for the run.
+
+If the failure looks like a CI-environment limitation rather than a real world
+bug (for example, a generation step that needs a base ROM the sandbox doesn't
+have), say so in the PR thread — a maintainer can weigh in or override the gate.
 
 ---
 
