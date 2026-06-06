@@ -1,12 +1,5 @@
 {
-    "game": "Muse Dash",
-    "authors": [
-        "DeamonHunter"
-    ],
-    "igdb_id": 86316,
-    "world_version": "1.5.33",
-    "minimum_ap_version": "0.6.3",
-    "compatible_version": 7,
-    "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_musedash-1.5.33-py3-none-any.whl#sha256=35e741de99aa70effdf581be47f7dc476d3eb806211683d5f552aee9997bc6b6"
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-06/worlds_musedash-1.5.33-py3-none-any.whl#sha256=3f6f2ec1cd9f7b0938c92f107e6740d63191bb34efa8d2a439eabe7d0f7d7cc2",
+  "disk_space_mb": 1,
+  "igdb_id": 86316
 }
