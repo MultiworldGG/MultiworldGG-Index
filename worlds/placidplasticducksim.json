@@ -1,10 +1,5 @@
 {
-    "game": "Placid Plastic Duck Simulator",
-    "authors": [
-        "SW_CreeperKing"
-    ],
-    "igdb_id": 204122,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.3.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_placidplasticducksim-0.3.0-py3-none-any.whl#sha256=4752cf0531fcb25b2a0a58646698608d4000340141393c0832aef89caba3684c"
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-06/worlds_placidplasticducksim-0.3.2-py3-none-any.whl#sha256=4ffa3487a1ec00df194ff9c8705da657af121c93fba034f5a9a4cb046e9948fa",
+  "disk_space_mb": 1,
+  "igdb_id": 204122
 }
