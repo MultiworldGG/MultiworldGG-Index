@@ -219,7 +219,7 @@ jobs:
                 index_repo: $index_repo,
                 pr_number: $pr_number,
                 head_sha: $head_sha,
-                check_run_name: "Karen\'s Isolated QA Checks",
+                check_run_name: "Isolated QA Checks",
                 comment_marker: "<!-- karen-pr-review -->",
                 fuzz: { runs: $fuzz_runs, timeout_s: $fuzz_timeout, yamls: "1-10", threads: 10 },
                 scan: { size_cap_mb: $size_cap },
@@ -246,7 +246,7 @@ jobs:
           # Create the required `Karen / fuzz` context immediately so the PR
           # shows it as pending; the bot transitions it to its final state.
           gh api -X POST repos/${{ github.repository }}/check-runs \
-            -f name="Karen\'s Isolated QA Checks" \
+            -f name='Isolated QA Checks' \
             -f head_sha='${{ github.event.pull_request.head.sha }}' \
             -f status=queued
 
