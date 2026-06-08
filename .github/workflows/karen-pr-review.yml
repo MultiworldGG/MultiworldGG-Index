@@ -148,7 +148,8 @@ jobs:
       # The heavyweight wheel scanning + world fuzzing run in a sandboxed bot,
       # not on this runner. Build a repository_dispatch payload describing the
       # changed worlds and hand it off; the bot reports back via the
-      # `Karen / fuzz` Check Run and splices results into the sticky comment.
+      # `Isolated QA Checks` Check Run and posts its results in its OWN sticky
+      # comment (marker karen-isolated-qa), separate from Karen's manifest review.
       - name: Build fuzz dispatch payload
         id: build_payload
         if: steps.detect.outputs.target_count != '0'
@@ -208,6 +209,7 @@ jobs:
             --arg index_repo "${{ github.repository }}" \
             --argjson pr_number "${{ github.event.pull_request.number }}" \
             --arg head_sha "${{ github.event.pull_request.head.sha }}" \
+            --arg manifest_status "${{ steps.karen.outputs.overall }}" \
             --argjson fuzz_runs "${fuzz_runs}" \
             --argjson fuzz_timeout "${fuzz_timeout}" \
             --argjson size_cap "${size_cap}" \
@@ -220,7 +222,8 @@ jobs:
                 pr_number: $pr_number,
                 head_sha: $head_sha,
                 check_run_name: "Isolated QA Checks",
-                comment_marker: "<!-- karen-pr-review -->",
+                comment_marker: "<!-- karen-isolated-qa -->",
+                manifest_status: $manifest_status,
                 fuzz: { runs: $fuzz_runs, timeout_s: $fuzz_timeout, yamls: "1-3", threads: 10 },
                 scan: { size_cap_mb: $size_cap },
                 worlds: $worlds
@@ -259,21 +262,6 @@ jobs:
             karen-comment.md
             karen-summary.json
           if-no-files-found: warn
-
-      # karen_review.py owns the comment body, so append a placeholder fenced
-      # region the bot can splice its sandbox fuzz/scan results into. Only when
-      # a fuzz job was actually dispatched.
-      - name: Add fuzz placeholder to sticky comment
-        if: steps.build_payload.outputs.world_count != '' && steps.build_payload.outputs.world_count != '0'
-        run: |
-          set -euo pipefail
-          [ -f karen-comment.md ] || exit 0
-          {
-            echo ""
-            echo "<!-- karen-fuzz:start -->"
-            echo "Sandbox fuzz/scan: running…"
-            echo "<!-- karen-fuzz:end -->"
-          } >> karen-comment.md
 
       - name: Post or update sticky PR comment
         if: steps.karen_token.outputs.token != '' && always()
@@ -378,9 +366,16 @@ jobs:
             -f sha="${HEAD_SHA}"
           echo "Created tag ${tag} at ${HEAD_SHA}"
 
-      - name: Karen submits APPROVE on green
+      # Karen's review is split by path: when a fuzz job was dispatched, the BOT
+      # submits her final APPROVE/REQUEST_CHANGES AFTER the isolated checks finish
+      # (see GitHubLib fuzz_dispatch.ts / fuzz/review.ts), gating on both the
+      # manifest verdict and the fuzz rollup. We only review synchronously here on
+      # the no-fuzz path (schema-only / non-wheel worlds), where there are no
+      # isolated checks to wait for.
+      - name: Karen submits APPROVE on green (no-fuzz path only)
         if: |
           steps.karen_token.outputs.token != '' &&
+          (steps.build_payload.outputs.world_count == '' || steps.build_payload.outputs.world_count == '0') &&
           (steps.karen.outputs.overall == 'pass' || steps.karen_schema_only.outputs.overall == 'pass')
         env:
           GH_TOKEN: ${{ steps.karen_token.outputs.token }}
@@ -390,11 +385,13 @@ jobs:
           set -euo pipefail
           gh api -X POST "repos/${REPO}/pulls/${PR_NUMBER}/reviews" \
             -f event=APPROVE \
-            -f body="APPROVED: Manifest checks passed, awesome job! Note: the sandbox fuzz/scan runs as a separate required check (\`Karen / fuzz\`) and must also be green before merge."
+            -f body="APPROVED: Manifest checks passed, awesome job!"
 
-      - name: Karen submits REQUEST_CHANGES on red
+      - name: Karen submits REQUEST_CHANGES on red (no-fuzz path only)
+        # Same split as APPROVE: when fuzz ran, the bot owns the final verdict.
         if: |
           steps.karen_token.outputs.token != '' &&
+          (steps.build_payload.outputs.world_count == '' || steps.build_payload.outputs.world_count == '0') &&
           (
             (steps.karen.outputs.exit != '' && steps.karen.outputs.exit != '0') ||
             (steps.karen_schema_only.outputs.exit != '' && steps.karen_schema_only.outputs.exit != '0')

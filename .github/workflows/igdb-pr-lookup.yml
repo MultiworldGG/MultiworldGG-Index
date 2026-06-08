@@ -83,7 +83,8 @@ jobs:
           echo "Changed worlds:"
           cat pr-targets.txt || true
 
-      - name: Run IGDB lookup per apworld
+      - name: Run IGDB lookup per apworld (only those missing igdb_id)
+        id: lookup
         if: steps.detect.outputs.target_count != '0'
         env:
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
@@ -91,17 +92,28 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p igdb-actions
+          # Most manifests already carry an igdb_id; only spend an IGDB lookup on
+          # the worlds actually missing one (a multi-world PR may touch dozens that
+          # are already tagged).
+          missing=0
           while IFS= read -r path; do
             [ -z "$path" ] && continue
             apworld="$(basename "$path" .json)"
+            if [ -n "$(jq -r '.igdb_id // empty' "$path")" ]; then
+              echo "::notice::${apworld} already has an igdb_id; skipping lookup."
+              continue
+            fi
+            missing=$((missing + 1))
             python scripts/igdb_pr_lookup.py \
               --apworld "$apworld" \
               --head "$path" \
               --output "igdb-actions/${apworld}.md"
           done < pr-targets.txt
+          echo "missing_count=${missing}" >> "$GITHUB_OUTPUT"
+          echo "Worlds missing igdb_id: ${missing}"
 
       - name: Build sticky PR comment
-        if: steps.detect.outputs.target_count != '0'
+        if: steps.lookup.outputs.missing_count != '' && steps.lookup.outputs.missing_count != '0'
         run: |
           set -euo pipefail
           {
@@ -118,7 +130,7 @@ jobs:
           } > igdb-comment.md
 
       - name: Post or update sticky PR comment
-        if: steps.detect.outputs.target_count != '0'
+        if: steps.lookup.outputs.missing_count != '' && steps.lookup.outputs.missing_count != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ steps.pr.outputs.number }}
