@@ -15,7 +15,6 @@
 
 # Per-world manifests (the high-volume PR target — Karen validates first).
 worlds/oot.json                         @TreZc0
-worlds/*.json                           @lallaria
 
 # Schema is load-bearing for every PR; require explicit owner review.
 schema/                                 @lallaria
