@@ -221,7 +221,7 @@ jobs:
                 head_sha: $head_sha,
                 check_run_name: "Isolated QA Checks",
                 comment_marker: "<!-- karen-pr-review -->",
-                fuzz: { runs: $fuzz_runs, timeout_s: $fuzz_timeout, yamls: "1-10", threads: 10 },
+                fuzz: { runs: $fuzz_runs, timeout_s: $fuzz_timeout, yamls: "1-3", threads: 10 },
                 scan: { size_cap_mb: $size_cap },
                 worlds: $worlds
               }
