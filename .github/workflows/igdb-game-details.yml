@@ -38,15 +38,30 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     # Pulls IGDB_CLIENT_ID / IGDB_CLIENT_SECRET from the `igdb_env`
-    # environment, which is restricted to the `main` branch. PR runs and
-    # feature-branch dispatches cannot reach the secrets.
+    # environment, which is restricted to the `main` branch and `*igdb*`
+    # tags. PR runs and feature-branch dispatches cannot reach the secrets.
     environment: igdb_env
 
     steps:
+      # The push to main below has to clear the `main-protection` ruleset
+      # (PR-only, required checks, signatures). Karen is the only app with
+      # contents:write (Oliver is contents:read) and is a bypass actor on
+      # that ruleset, so the push runs on her installation token rather than
+      # the workflow's GITHUB_TOKEN. Same mint pattern as karen-pr-review.yml.
+      - name: Mint Karen's installation token
+        uses: actions/create-github-app-token@v3
+        id: karen_token
+        with:
+          client-id: ${{ vars.KAREN_APP_ID }}
+          private-key: ${{ secrets.KAREN_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
       - name: Checkout main
         uses: actions/checkout@v6
         with:
           fetch-depth: 2   # need parent commit to diff against
+          token: ${{ steps.karen_token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -118,12 +133,10 @@ jobs:
 
       - name: Commit game details back to main
         if: steps.detect.outputs.mode != 'none'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "karen-head-of-multiworld-qa[bot]"
+          git config user.email "281437399+karen-head-of-multiworld-qa[bot]@users.noreply.github.com"
 
           if git diff --quiet output/igdb_game_details.json; then
             echo "no changes to igdb_game_details.json"
