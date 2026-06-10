@@ -113,7 +113,7 @@ jobs:
           fi
 
           python scripts/igdb_game_details.py "${args[@]}" \
-            --game details-path output/igdb_game_details.json \
+            --game-details-path output/igdb_game_details.json \
             --worlds-dir worlds
 
       - name: Commit game details back to main
