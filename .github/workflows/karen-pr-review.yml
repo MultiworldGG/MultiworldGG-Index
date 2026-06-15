@@ -54,7 +54,8 @@ jobs:
       - name: Install Karen's deps
         run: |
           python -m pip install --upgrade pip
-          python -m pip install jsonschema
+          # uv for the pip_audit check (`uv audit` of each wheel's declared deps).
+          python -m pip install jsonschema uv
 
       - name: Detect changed manifests
         id: detect
@@ -92,13 +93,15 @@ jobs:
             [ -n "$path" ] && args+=("--changed" "$path")
           done < karen-targets.txt
 
-          # Fast manifest-only checks on the runner; wheel download, size_sanity,
-          # bandit, pip-audit and fuzzing all move to the sandboxed bot.
+          # Manifest checks + the dependency audit run here on the networked
+          # runner; size_sanity, no_rom_files, no_network, bandit and fuzzing run
+          # in the sandboxed (offline) bot. pip_audit fetches each changed wheel
+          # and `uv audit`s its declared deps — it can't run in the offline sandbox.
           set +e
           python scripts/karen_review.py \
             "${args[@]}" \
             --schema schema/world_manifest.schema.json \
-            --check schema --check manifest_consistency --check url_reachability \
+            --check schema --check manifest_consistency --check url_reachability --check pip_audit \
             --output-comment karen-comment.md \
             --output-summary karen-summary.json
           karen_exit=$?

@@ -16,7 +16,7 @@ manifest paths. Each manifest is run through 8 checks:
     5. no_rom_files         — no ROM/media-looking files in the fetched artifact
     6. no_network_at_import — AST scan: no networking calls at module top level
     7. bandit               — bandit -r on the fetched world directory
-    8. pip_audit            — pip-audit on requirements.txt / pyproject.toml if present
+    8. pip_audit            — uv audit on the wheel's METADATA Requires-Dist deps
 
 Checks 4-8 require fetching the world's source. Currently supports
 `https://github.com/<org>/<repo>/tree/<ref>/<path>` URLs (sparse-clone of the
@@ -700,49 +700,103 @@ def check_bandit(world_dir: Path) -> CheckResult:
     return CheckResult("bandit", "fail", f"{len(results)} issues(s), we should look it over.", details=details)
 
 
+def _parse_metadata_deps(metadata_path: Path) -> tuple[list[str], str]:
+    """Read Requires-Dist + Requires-Python from a wheel's METADATA.
+
+    Environment markers (``; python_version >= "3.8"``) are dropped — we audit
+    the package regardless of whether the marker applies (conservative, and it
+    keeps the specifier safe to embed in a TOML string, which markers' double
+    quotes would otherwise break). De-duplicated, order-preserving. ([], "") on
+    any read error.
+    """
+    deps: list[str] = []
+    requires_python = ""
+    try:
+        text = metadata_path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return [], ""
+    for line in text.splitlines():
+        if line == "":
+            break  # RFC822 headers end at the first blank line (long description follows)
+        if line.startswith("Requires-Dist:"):
+            spec = line[len("Requires-Dist:"):].split(";", 1)[0].strip()
+            if spec:
+                deps.append(spec)
+        elif line.startswith("Requires-Python:"):
+            requires_python = line[len("Requires-Python:"):].strip()
+    seen: set[str] = set()
+    uniq = [d for d in deps if not (d in seen or seen.add(d))]
+    return uniq, requires_python
+
+
 def check_pip_audit(world_dir: Path) -> CheckResult:
-    """Run pip-audit on requirements.txt or pyproject.toml if either exists."""
+    """Audit the wheel's declared dependencies (METADATA Requires-Dist) with
+    ``uv audit``.
+
+    The sandboxed fuzz container is ``--network none``, so the old in-sandbox
+    pip-audit was perpetually skipped. This check runs on the networked CI runner
+    instead (karen-pr-review.yml), reading the deps out of the fetched wheel's
+    ``*.dist-info/METADATA`` and auditing them via a PEP 723 inline-deps script.
+    """
     if not world_dir.is_dir():
-        return CheckResult("pip_audit", "skip", "no requirements, no problems")
-    if shutil.which("pip-audit") is None:
-        return CheckResult("pip_audit", "fail", "Uh, guys? Where's my pip-audit?")
+        return CheckResult("pip_audit", "skip", "world source not fetched")
+    metadata = next(iter(world_dir.glob("*.dist-info/METADATA")), None) or next(
+        iter(world_dir.rglob("*.dist-info/METADATA")), None
+    )
+    if metadata is None:
+        return CheckResult("pip_audit", "pass", "no wheel metadata found; nothing to audit")
+    deps, requires_python = _parse_metadata_deps(metadata)
+    if not deps:
+        return CheckResult("pip_audit", "pass", "no declared dependencies to audit")
+    if shutil.which("uv") is None:
+        return CheckResult("pip_audit", "skip", "uv not available to run the audit")
 
-    targets: list[list[str]] = []
-    req = world_dir / "requirements.txt"
-    pyproj = world_dir / "pyproject.toml"
-    if req.is_file():
-        targets.append(["pip-audit", "-r", str(req), "--format", "json"])
-    if pyproj.is_file() and not req.is_file():
-        # pip-audit can read pyproject via project-path
-        targets.append(["pip-audit", "--project-path", str(world_dir), "--format", "json"])
-    if not targets:
-        return CheckResult("pip_audit", "skip", "no requirements, no problems")
+    # PEP 723 inline-metadata script so `uv audit --script` audits exactly these deps.
+    lines = ["# /// script"]
+    if requires_python:
+        lines.append(f'# requires-python = "{requires_python}"')
+    lines.append("# dependencies = [")
+    lines += [f'#   "{d}",' for d in deps]
+    lines += ["# ]", "# ///", "pass"]
+    script_path = world_dir / "_karen_audit.py"
+    try:
+        script_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        proc = subprocess.run(
+            ["uv", "audit", "--preview-features", "audit", "--script", str(script_path)],
+            capture_output=True, text=True, timeout=180,
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return CheckResult("pip_audit", "skip", f"audit could not run: {exc}")
+    finally:
+        script_path.unlink(missing_ok=True)
 
-    all_vulns: list[str] = []
-    for cmd in targets:
-        proc = subprocess.run(cmd, capture_output=True, text=True)
-        try:
-            report = json.loads(proc.stdout) if proc.stdout else {}
-        except json.JSONDecodeError:
-            return CheckResult(
-                "pip_audit",
-                "fail",
-                "pip-audit gave me a funky JSON response",
-                details=[(proc.stdout or "")[-500:]],
-            )
-        for dep in report.get("dependencies", []):
-            for vuln in dep.get("vulns", []):
-                all_vulns.append(
-                    f"{dep.get('name')}=={dep.get('version')}: "
-                    f"{vuln.get('id')} ({vuln.get('description', '')[:80]})"
-                )
-    if not all_vulns:
-        return CheckResult("pip_audit", "pass", "We are up to date and ready to roll.")
+    out = f"{proc.stdout or ''}\n{proc.stderr or ''}"
+    low = out.lower()
+    if proc.returncode == 0:
+        return CheckResult(
+            "pip_audit", "pass", f"{len(deps)} dependency(ies) audited, no known advisories."
+        )
+    # `uv audit` flags both known vulnerabilities AND malware ("adverse project
+    # statuses"). Any recognizable advisory report is a finding; a non-zero exit
+    # with NO report is a resolution/tool error (advisory only, must not block).
+    if "found " in low or "vulnerabilit" in low or "adverse" in low:
+        summary = next((ln.strip() for ln in out.splitlines() if ln.strip().startswith("Found ")), "")
+        details = [
+            ln.strip()
+            for ln in out.splitlines()
+            if ln.strip().startswith("- ") or (" has " in ln and ("vulnerabilit" in ln or "advisor" in ln))
+        ][:25]
+        return CheckResult(
+            "pip_audit",
+            "fail",
+            summary or f"{len(deps)} dependency(ies) have known advisories, let's look them over.",
+            details=details or [out.strip()[-500:]],
+        )
     return CheckResult(
         "pip_audit",
-        "fail",
-        "There are a few scary packages in there, let's check them out.`",
-        details=all_vulns,
+        "skip",
+        "audit could not complete (dependency resolution failed?)",
+        details=[out.strip()[-500:]],
     )
 
 
