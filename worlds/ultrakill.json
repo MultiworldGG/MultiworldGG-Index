@@ -1,12 +1,12 @@
 {
     "game": "ULTRAKILL",
-    "world_version": "3.5.2",
+    "world_version": "3.5.3",
     "authors": [
         "TRPG"
     ],
-    "igdb_id": 124333,
-    "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ultrakill-3.5.2-py3-none-any.whl#sha256=abb6694d162a386e187d39cc123a9ae173739dab37a84f754d974cd983a6de08"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-15/worlds_ultrakill-3.5.3-py3-none-any.whl#sha256=08dbe0fabc3e9e7c9cf5c0456a0af2119266d7f5df166ebf07fcbb78d6e5f1ab",
+    "disk_space_mb": 1,
+    "igdb_id": 124333
 }
