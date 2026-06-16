@@ -776,10 +776,26 @@ def check_pip_audit(world_dir: Path) -> CheckResult:
         return CheckResult(
             "pip_audit", "pass", f"{len(deps)} dependency(ies) audited, no known advisories."
         )
+    # A dep that isn't on PyPI (e.g. a private/runtime-only package) makes uv
+    # unable to resolve, so it can't audit anything. That's not a security
+    # finding — warn so the maintainer sees it, but never block the suite.
+    if (
+        "no solution found" in low
+        or "not found in the package registry" in low
+        or "unsatisfiable" in low
+        or "failed to resolve" in low
+    ):
+        missing = re.findall(r"`?([\w.\-]+)`? was not found in the package registry", out)
+        note = (
+            f"couldn't audit: {', '.join(sorted(set(missing)))} not on PyPI"
+            if missing
+            else "couldn't audit: dependency resolution failed"
+        )
+        return CheckResult("pip_audit", "warn", note, details=[out.strip()[-500:]])
     # `uv audit` flags both known vulnerabilities AND malware ("adverse project
-    # statuses"). Any recognizable advisory report is a finding; a non-zero exit
-    # with NO report is a resolution/tool error (advisory only, must not block).
-    if "found " in low or "vulnerabilit" in low or "adverse" in low:
+    # statuses"). Match its real report line ("Found N known vulnerabilities ...")
+    # precisely so a resolver message ("No solution found") can't trip it.
+    if re.search(r"found \d+ known", low) or "adverse project status" in low:
         summary = next((ln.strip() for ln in out.splitlines() if ln.strip().startswith("Found ")), "")
         details = [
             ln.strip()
@@ -792,10 +808,11 @@ def check_pip_audit(world_dir: Path) -> CheckResult:
             summary or f"{len(deps)} dependency(ies) have known advisories, let's look them over.",
             details=details or [out.strip()[-500:]],
         )
+    # Any other non-zero exit is a tool/runtime hiccup, not a finding — warn only.
     return CheckResult(
         "pip_audit",
-        "skip",
-        "audit could not complete (dependency resolution failed?)",
+        "warn",
+        "audit could not complete (uv exited non-zero with no advisory report)",
         details=[out.strip()[-500:]],
     )
 
