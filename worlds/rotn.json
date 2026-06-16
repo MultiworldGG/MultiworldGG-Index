@@ -3,10 +3,11 @@
     "authors": [
         "studkid"
     ],
-    "igdb_id": 214492,
-    "compatible_version": 7,
     "version": 7,
-    "world_version": "0.12.0",
+    "compatible_version": 7,
+    "world_version": "0.13.0",
     "minimum_ap_version": "0.6.3",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_rotn-0.12.0-py3-none-any.whl#sha256=cf8ce2a63034da5e70a6992e0356ba018860bb80fbf3671562a09e409a786e43"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-15/worlds_rotn-0.13.0-py3-none-any.whl#sha256=6fbeb1ee8ef5f3b3311207662dac6217e4e341ba561f0f6c5de99a62a5ee0303",
+    "disk_space_mb": 1,
+    "igdb_id": 214492
 }
