@@ -1,0 +1,13 @@
+{
+  "game": "The Grinch",
+  "authors": [
+    "MarioSpore",
+    "SomeJakeGuy"
+  ],
+  "world_version": "1.5.8",
+  "minimum_ap_version": "0.6.7",
+  "version": 7,
+  "compatible_version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-15/worlds_grinch-1.5.8-py3-none-any.whl#sha256=390012eb3f121dde460eaf102ca91d8a5a0d528469b00831cbc19df30196dabe",
+  "disk_space_mb": 1
+}
