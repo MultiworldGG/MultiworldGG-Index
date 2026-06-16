@@ -3,8 +3,9 @@
     "authors": [
         "GraymonDgt"
     ],
-    "igdb_id": 341762,
     "minimum_ap_version": "0.6.3",
-    "world_version": "1.6.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-06/worlds_srb2-1.7.0-py3-none-any.whl#sha256=0751400399eaf3914dbe1b4c10f61b01923fc3884e94fe37dda525e89fa2c31b"
+    "world_version": "1.7.2",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-15/worlds_srb2-1.7.2-py3-none-any.whl#sha256=7e1aa2360107d03ac23dd5ffb33375df17ce0af5684a878844dced97da52d831",
+    "disk_space_mb": 1,
+    "igdb_id": 341762
 }
