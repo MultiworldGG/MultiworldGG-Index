@@ -1,11 +1,11 @@
-# Advanced setup — from a standalone repo
+# Custom Automated — from a standalone repo
 
 This page is for authors whose world lives in its own repository and who want
 to provide their own `pyproject.toml`, call the reusable workflows from an
 existing release workflow, or ship more than one world from the same repo.
 
-The easy path does not cover the standalone-repo shape — this advanced page is
-the maintained path for that layout.
+The Standard Automated path does not cover the standalone-repo shape — this
+Custom Automated page is the maintained path for that layout.
 
 ---
 

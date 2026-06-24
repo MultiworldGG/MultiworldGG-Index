@@ -1,12 +1,12 @@
-# Advanced setup — from an Archipelago fork
+# Custom Automated — from an Archipelago fork
 
 This page is for authors whose world lives inside a fork of `Archipelago`, and
 who want a custom `pyproject.toml` or a custom caller workflow.
 
 The package rules and reusable workflow inputs are the same as the
-[standalone-repo advanced setup](from-standalone-repo.md). The only difference
-is where your world folder lives: still `worlds/<apworld>/`, but inside your
-fork.
+[standalone-repo Custom Automated setup](from-standalone-repo.md). The only
+difference is where your world folder lives: still `worlds/<apworld>/`, but
+inside your fork.
 
 ---
 
@@ -69,7 +69,7 @@ the source of truth.
 
 ## `pyproject.toml`
 
-See [Advanced setup from a standalone repo — Good `pyproject.toml`](from-standalone-repo.md#good-pyprojecttoml)
+See [Custom Automated from a standalone repo — Good `pyproject.toml`](from-standalone-repo.md#good-pyprojecttoml)
 for the recommended file. Place it at `worlds/<apworld>/pyproject.toml` in your
 fork.
 
@@ -127,9 +127,9 @@ for tags matching `apworld-wheel-workflow-*`). Here's the steps to use that:
    untouched — release them in turn under their own `<apworld>-<version>`
    tags as they're ready.
 6. After the release assets are attached, either install the
-   Oliver-Multiworld-Squirrel App (which auto-opens the Index PR) or open the
-   `worlds/<apworld>.json` Index PR by hand, pointing `release_location` at the
-   wheel's `browser_download_url#sha256=<hex>`.
+   Oliver-Multiworld-Squirrel App (which auto-opens the Index PR) or
+   [open the Index PR by hand](../faq.md#can-i-skip-oliver-and-open-the-index-pr-myself),
+   pointing `module_location` at the wheel's `browser_download_url#sha256=<hex>`.
 
 ---
 

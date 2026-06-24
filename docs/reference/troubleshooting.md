@@ -13,6 +13,13 @@ release whose build workflow has attached a `.whl` asset from
 `MultiworldGG/gen-pymod-release/.github/workflows/build.yml`. If no PR
 appeared, work through this list:
 
+!!! note "On the Basic Manual path?"
+    If you built and attached the `.whl` by hand (no workflow), the "re-run the
+    workflow" fixes below mean "re-build the `.whl` locally and re-upload it." Item
+    2 (tag format) does not apply — Oliver identifies your world from the attached
+    `<apworld>.apworld` asset, so the fix there is to confirm that asset is present
+    on the release.
+
 **1. Oliver is not installed on your repo.**
 Install the GitHub App: <https://github.com/apps/oliver-the-multiworld-squirrel>.
 After installing, publish the release or re-run the completed release workflow

@@ -1,7 +1,7 @@
-# Easy setup — from an Archipelago fork
+# Standard Automated — from an Archipelago fork
 
 This page is for authors whose world lives at `worlds/<apworld>/` inside a fork
-of `MultiworldGG/MultiworldGG` (or an older `ArchipelagoMW/Archipelago` fork).
+of `MultiworldGG/MultiworldGG` or `ArchipelagoMW/Archipelago`.
 
 ---
 

@@ -35,17 +35,21 @@ extra_css:
 nav:
   - Home: index.md
   - Why do we Have Oliver: why-oliver.md
-  - I want the easiest setup:
-    - easy/index.md
-    - From an Archipelago fork: easy/from-archipelago-fork.md
-  - I want the fully custom setup:
-    - advanced/index.md
-    - From an Archipelago fork: advanced/from-archipelago-fork.md
-    - From a standalone repo: advanced/from-standalone-repo.md
+  - Basic Manual:
+    - manual/index.md
+    - From an Archipelago fork: manual/from-archipelago-fork.md
+  - Standard Automated:
+    - standard/index.md
+    - From an Archipelago fork: standard/from-archipelago-fork.md
+  - Custom Automated:
+    - custom/index.md
+    - From an Archipelago fork: custom/from-archipelago-fork.md
+    - From a standalone repo: custom/from-standalone-repo.md
   - Reference:
     - archipelago.json schema: reference/archipelago-json.md
     - Reusable workflows: reference/workflows.md
     - Troubleshooting: reference/troubleshooting.md
+  - FAQ: faq.md
   - Glossary: glossary.md
 
 markdown_extensions:
