@@ -61,7 +61,7 @@ GAME_DETAILS_FIELDS = (
 # APWorlds whose game name implies adult content regardless of IGDB age rating.
 # Originally inlined in tools/game_indexing/igdb.py; kept for parity until a
 # better tagging mechanism exists.
-AO_NAME_HINTS = ("hunie")
+AO_NAME_HINTS = ("sex", "hunie")
 
 # Default game details row for original / hint worlds (igdb_id == 0 or missing).
 DEFAULT_ORIGINAL_WORLD_ENTRY = {
