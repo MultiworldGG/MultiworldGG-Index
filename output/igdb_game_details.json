@@ -8460,29 +8460,70 @@
         "release_date": 825379200
     },
     "portal2": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "72",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rs4.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arsj0.png",
         "key_art_url": "",
         "game_name": "Portal 2",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Portal 2",
+        "age_rating": "12",
+        "rating": [
+            "Mild Language",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
         "genres": [
-            "Multiplayer"
+            "Platform",
+            "Puzzle",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
         "platforms": [
-            "Archipelago"
+            "PlayStation 3",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox 360",
+            "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "You lost your memory, you are alone in a world full of danger, and your mission is survive using your mind. The only way to get out from this hell is.....Hi i'm GLAdOS, and welcome to the amazing world of portal 2, here i will expose you to a lot of tests, and try to k.. help Aperture Science envolve in a new era.\nYour job is advance in the levels i propose and get better and better, you will have an portal gun to help you, and remember nothing is impossible if you try, and try again and again and again....\nThe puzzles are waiting for you!",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "robots",
+            "elves",
+            "female protagonist",
+            "steam",
+            "fairy",
+            "achievements",
+            "artificial intelligence",
+            "sequel",
+            "steam achievements",
+            "digital distribution",
+            "anthropomorphism",
+            "alternate costumes",
+            "bink video",
+            "motion blur",
+            "young protagonist",
+            "a.i. companion",
+            "male antagonist",
+            "xbox one backwards compatibility",
+            "dimension travel",
+            "linear gameplay",
+            "ambient music",
+            "first-person platforming",
+            "monster capturing",
+            "developer commentary",
+            "a.i. construct",
+            "another world",
+            "renderware",
+            "avatar awards"
         ],
-        "release_date": ""
+        "release_date": 1303084800
     },
     "powerwashsimulator": {
         "igdb_id": "138590",
@@ -8771,29 +8812,104 @@
         "release_date": 1068508800
     },
     "rac3": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "1773",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1oyn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t7h.png",
         "key_art_url": "",
         "game_name": "Ratchet and Clank 3",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Ratchet & Clank: Up Your Arsenal",
+        "age_rating": "7",
+        "rating": [
+            "Animated Blood",
+            "Crude Humor",
+            "Fantasy Violence",
+            "Suggestive Themes",
+            "Use of Tobacco",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
         "genres": [
-            "Multiplayer"
+            "Shooter",
+            "Platform",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
         "platforms": [
-            "Archipelago"
+            "PlayStation 2"
         ],
-        "storyline": "",
+        "storyline": "The third-installment invades the online universe with new, explosive weapons and unique gadgets that are out of this constellation. Ratchet and Clank return to planet Veldin, (the setting of the original Ratchet & Clank) where they’ve been called upon by the president of the galaxy to stop Dr. Nefarious as he plots to exterminate all organic life. Together with the Q-Force and Captain Qwark, Ratchet and Clank set off on another intergalactic quest to uncover the schemes of the sinister Dr. Nefarious and save the galaxy again!",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "pirates",
+            "exploration",
+            "minigames",
+            "mascot",
+            "upgradable weapons",
+            "robots",
+            "slot machine",
+            "run and gun",
+            "action-adventure",
+            "backtracking",
+            "online",
+            "building",
+            "hacking",
+            "artificial intelligence",
+            "teleportation",
+            "wall jump",
+            "good vs evil",
+            "boss fight",
+            "explosion",
+            "anthropomorphism",
+            "platform exclusive",
+            "playstation trophies",
+            "60 fps on consoles",
+            "voice acting",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "skill points in game",
+            "upgradeable weapons",
+            "cameo appearance",
+            "collectibles",
+            "non-player character",
+            "checkpoints",
+            "save file unlockables",
+            "black market",
+            "auto-aim",
+            "environmental puzzles",
+            "stat tracking",
+            "unreliable narrator",
+            "falling sequence",
+            "video game characters that play video games",
+            "cheat code",
+            "konami code",
+            "moving platforms",
+            "destructible environment",
+            "anti-hero",
+            "gliding",
+            "mirror mode",
+            "planet",
+            "new game plus",
+            "cutscene menu",
+            "combat-based platformer",
+            "fictional currencies",
+            "potential love interest",
+            "running gag",
+            "rail shooting segment",
+            "big head mode",
+            "adamantium",
+            "greatest hits",
+            "comic relief",
+            "metagame",
+            "damage over time",
+            "planet destruction",
+            "male protagonist"
         ],
-        "release_date": ""
+        "release_date": 1099353600
     },
     "raft": {
         "igdb_id": "27082",
@@ -9484,29 +9600,48 @@
         "release_date": 1280188800
     },
     "schedule_i": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "328373",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9adi.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3sas.png",
         "key_art_url": "",
         "game_name": "Schedule I",
-        "igdb_name": "",
-        "age_rating": "MW",
+        "igdb_name": "Schedule I",
+        "age_rating": "NR",
         "rating": [],
-        "player_perspectives": [],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
         "genres": [
-            "Multiplayer"
+            "Simulator",
+            "Strategy",
+            "Indie"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Open world"
+        ],
         "platforms": [
-            "Archipelago"
+            "PC (Microsoft Windows)"
         ],
-        "storyline": "",
+        "storyline": "The player arrives in Hyland Point after their uncle Nelson is arrested by police and their RV is destroyed by a rival cartel called the Benzies. Left with nothing but a motel room, the player begins building a drug operation from scratch while receiving guidance from Nelson over payphone calls from prison. As the player's enterprise grows, the Benzies continue to threaten and attack, forcing a choice between paying tribute to the cartel or fighting back to reclaim the city territory by territory.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "drugs",
+            "3d",
+            "police",
+            "crafting",
+            "gambling",
+            "driving",
+            "management",
+            "blackjack",
+            "action-adventure",
+            "building",
+            "crime",
+            "base building",
+            "skateboarding",
+            "automation"
         ],
-        "release_date": ""
+        "release_date": 1742774400
     },
     "seaofthieves": {
         "igdb_id": "11137",
@@ -11928,29 +12063,70 @@
         "release_date": 1182556800
     },
     "tloz_st": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "1038",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3oj6.png",
         "artwork_url": "",
         "key_art_url": "",
         "game_name": "Spirit Tracks",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "The Legend of Zelda: Spirit Tracks",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
         "genres": [
-            "Multiplayer"
+            "Puzzle",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
         "platforms": [
-            "Archipelago"
+            "Wii U",
+            "Nintendo DS"
         ],
-        "storyline": "",
+        "storyline": "Apprentice engineer Link is ready to travel to Hyrule Castle and receive his engineer's license. During the ceremony, Zelda slips Link a note warning him not to trust the Chancellor and to help her reach the Spirit Tower. The land's Spirit Tracks, mystical railway tracks that cover the land, have been disappearing and she suspects that the Chancellor is the cause. While heading to the Tower, the Chancellor intercepts them and proves Zelda's suspicions right: he casts a magic spell on her, splitting her body from her soul. Link and Zelda must work together to return Zelda to normal and save Hyrule once again.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "pirates",
+            "action-adventure",
+            "fairy",
+            "backtracking",
+            "multiple endings",
+            "campaign",
+            "princess",
+            "silent protagonist",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "world map",
+            "human",
+            "polygonal 3d",
+            "damsel in distress",
+            "collectibles",
+            "touch controls",
+            "virtual console",
+            "disorientation zone",
+            "young protagonist",
+            "treasure chest",
+            "real-time combat",
+            "coming of age",
+            "cartography",
+            "second person perspective",
+            "monomyth",
+            "ds microphone use",
+            "in-game anti-piracy effects",
+            "pax 2009",
+            "gamescom 2009",
+            "male protagonist",
+            "wii u virtual console",
+            "bees",
+            "sword sorcery",
+            "nintendo ds tag mode"
         ],
-        "release_date": ""
+        "release_date": 1260144000
     },
     "tmc": {
         "igdb_id": "1035",
@@ -12850,29 +13026,52 @@
         "release_date": 1263168000
     },
     "vampire_survivors": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "186725",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4bzv.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1cnh.png",
         "key_art_url": "",
         "game_name": "Vampire Survivors",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Vampire Survivors",
+        "age_rating": "12",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
         "genres": [
-            "Multiplayer"
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie",
+            "Arcade"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Survival"
+        ],
         "platforms": [
-            "Archipelago"
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "Vampire Survivors is nominally set in rural Italy in 2021. Hordes of monsters summoned by the evil Bisconte Draculó (a villain inspired by Count Dracula) ravage the land, prompting the Belpaese family and other heroic survivors to take it upon themselves to hunt down and defeat Draculó. This quest takes them through monster-infested locales such as a cursed forest, a haunted library, an abandoned dairy plant, an ominous tower, and an otherworldly chapel, culminating in a battle against an Eldritch otherworldly being referred to as \"The Directer\". Despite the game's title, the characters do not fight any vampires in the story.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "pixel graphics",
+            "increasing difficulty",
+            "roguelite",
+            "bullet heaven",
+            "danmaku"
         ],
-        "release_date": ""
+        "release_date": 1643673600
     },
     "waffles": {
         "igdb_id": "1070",
