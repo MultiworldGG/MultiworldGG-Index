@@ -106,7 +106,7 @@
         "key_art_url": "",
         "game_name": "Adventure",
         "igdb_name": "Adventure",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -134,7 +134,7 @@
         "key_art_url": "",
         "game_name": "Against the Storm",
         "igdb_name": "Against the Storm",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Alcohol Reference",
             "Use of Tobacco",
@@ -177,7 +177,7 @@
         "key_art_url": "",
         "game_name": "A Hat in Time",
         "igdb_name": "A Hat in Time",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Blood",
             "Fantasy Violence"
@@ -233,7 +233,7 @@
         "key_art_url": "",
         "game_name": "A Link Between Worlds",
         "igdb_name": "The Legend of Zelda: A Link Between Worlds",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -321,7 +321,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2x.png",
         "game_name": "A Link to the Past",
         "igdb_name": "The Legend of Zelda: A Link to the Past",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence",
             "Mild Animated Violence"
@@ -505,11 +505,11 @@
     "animal_well": {
         "igdb_id": "191435",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hdh.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1gce.png",
-        "key_art_url": "",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64ln.png",
         "game_name": "ANIMAL WELL",
         "igdb_name": "Animal Well",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -558,7 +558,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3scq.png",
         "game_name": "Ape Escape",
         "igdb_name": "Ape Escape",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Mild Animated Violence"
         ],
@@ -695,7 +695,7 @@
         "key_art_url": "",
         "game_name": "Aquaria",
         "igdb_name": "Aquaria",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -782,7 +782,7 @@
         "key_art_url": "",
         "game_name": "An Untitled Story",
         "igdb_name": "An Untitled Story",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -864,7 +864,7 @@
         "key_art_url": "",
         "game_name": "Banjo-Tooie",
         "igdb_name": "Banjo-Tooie",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Crude Humor",
             "Animated Violence",
@@ -960,7 +960,7 @@
         "key_art_url": "",
         "game_name": "Battle for Bikini Bottom",
         "igdb_name": "SpongeBob SquarePants: Battle for Bikini Bottom",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Comic Mischief"
         ],
@@ -1044,7 +1044,7 @@
         "key_art_url": "",
         "game_name": "Blasphemous",
         "igdb_name": "Blasphemous",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood and Gore",
             "Violence",
@@ -1129,7 +1129,7 @@
         "key_art_url": "",
         "game_name": "Bomb Rush Cyberfunk",
         "igdb_name": "Bomb Rush Cyberfunk",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Language",
             "Violence",
@@ -1219,7 +1219,7 @@
         "key_art_url": "",
         "game_name": "Bumper Stickers",
         "igdb_name": "Bumper Stickers Archipelago Edition",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [],
         "genres": [
@@ -1245,7 +1245,7 @@
         "key_art_url": "",
         "game_name": "Candy Box 2",
         "igdb_name": "Candy Box 2",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Text"
@@ -1279,7 +1279,7 @@
         "key_art_url": "",
         "game_name": "Cat Quest",
         "igdb_name": "Cat Quest",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Fantasy Violence"
         ],
@@ -1315,7 +1315,7 @@
         "key_art_url": "",
         "game_name": "Choo-Choo Charles",
         "igdb_name": "Choo-Choo Charles",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Violence",
             "Blood"
@@ -1356,7 +1356,7 @@
         "key_art_url": "",
         "game_name": "Celeste",
         "igdb_name": "Celeste",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Alcohol Reference",
             "Fantasy Violence",
@@ -1424,7 +1424,7 @@
         "key_art_url": "",
         "game_name": "Celeste 64",
         "igdb_name": "Celeste 64: Fragments of the Mountain",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -1457,7 +1457,7 @@
         "key_art_url": "",
         "game_name": "Celeste (Open World)",
         "igdb_name": "Celeste",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Alcohol Reference",
             "Fantasy Violence",
@@ -1525,7 +1525,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar54tp.png",
         "game_name": "Chained Echoes",
         "igdb_name": "Chained Echoes",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Strong Language",
             "Suggestive Themes",
@@ -1618,7 +1618,7 @@
         "key_art_url": "",
         "game_name": "Civilization VI",
         "igdb_name": "Sid Meier's Civilization IV",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Violence"
         ],
@@ -1747,7 +1747,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar532q.png",
         "game_name": "CrossCode",
         "igdb_name": "CrossCode",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Language"
@@ -1798,7 +1798,7 @@
         "key_art_url": "",
         "game_name": "Crystal Project",
         "igdb_name": "Crystal Project",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Blood",
             "Partial Nudity",
@@ -1853,7 +1853,7 @@
         "key_art_url": "",
         "game_name": "Chrono Trigger Jets of Time",
         "igdb_name": "Chrono Trigger",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Animated Blood",
             "Mild Fantasy Violence",
@@ -1891,7 +1891,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar60f9.png",
         "game_name": "Cuphead",
         "igdb_name": "Cuphead",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Use of Alcohol and Tobacco",
             "Mild Language",
@@ -1920,7 +1920,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "Not applicable (minimal narrative, boss-rush focused).",
         "keywords": [
             "pirates",
             "ghosts",
@@ -2004,7 +2004,7 @@
         "key_art_url": "",
         "game_name": "Castlevania 64",
         "igdb_name": "Castlevania",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Animated Blood",
             "Animated Violence"
@@ -2113,7 +2113,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nqf.png",
         "game_name": "Castlevania: Dawn of Sorrow",
         "igdb_name": "Castlevania: Dawn of Sorrow",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Blood and Gore"
@@ -2233,7 +2233,7 @@
         "key_art_url": "",
         "game_name": "Castlevania - Circle of the Moon",
         "igdb_name": "Castlevania: Circle of the Moon",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Violence",
             "Animated Blood"
@@ -2297,7 +2297,7 @@
         "key_art_url": "",
         "game_name": "Dark Souls II",
         "igdb_name": "Dark Souls II",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood and Gore",
             "Partial Nudity",
@@ -2320,7 +2320,7 @@
             "PC (Microsoft Windows)",
             "Xbox 360"
         ],
-        "storyline": "",
+        "storyline": "The kingdom of Drangleic, once prosperous under King Vendrick, has crumbled over the ages. War between humans and giants, the king's unexplained disappearance, and the spreading Undead Curse have reduced the land to ruin. The player takes the role of an undead traveler who arrives in Drangleic seeking a cure for their affliction, drawn by the faint hope that something in this decaying kingdom might reverse the curse that condemns them to an endless cycle of death and hollowing.",
         "keywords": [
             "medieval",
             "brutal",
@@ -2393,7 +2393,7 @@
         "key_art_url": "",
         "game_name": "Dark Souls III",
         "igdb_name": "Dark Souls III",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood",
             "Violence"
@@ -2457,7 +2457,7 @@
         "key_art_url": "",
         "game_name": "Diddy Kong Racing",
         "igdb_name": "Diddy Kong Racing",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person",
@@ -2517,7 +2517,7 @@
         "key_art_url": "",
         "game_name": "Donkey Kong 64",
         "igdb_name": "Donkey Kong 64",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Animated Violence"
         ],
@@ -2601,6 +2601,7 @@
             "color cartridges",
             "retroachievements",
             "controller pak",
+            "nintendo switch online - expansion pack",
             "nintendo gateway system",
             "nintendo 64 exclusive",
             "nintendo 64 expansion pak required"
@@ -2614,7 +2615,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar407t.png",
         "game_name": "Donkey Kong Country",
         "igdb_name": "Donkey Kong Country",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -2732,7 +2733,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3okv.png",
         "game_name": "Donkey Kong Country 2",
         "igdb_name": "Donkey Kong Country 2: Diddy's Kong Quest",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -2969,7 +2970,7 @@
         "key_art_url": "",
         "game_name": "DLCQuest",
         "igdb_name": "DLC Quest",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -3013,7 +3014,7 @@
         "key_art_url": "",
         "game_name": "Don't Starve Together",
         "igdb_name": "Don't Starve Together",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Crude Humor",
             "Fantasy Violence"
@@ -3122,7 +3123,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nqk.png",
         "game_name": "DOOM II",
         "igdb_name": "Doom II: Hell on Earth",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Violence",
             "Blood and Gore"
@@ -3131,8 +3132,7 @@
             "First person"
         ],
         "genres": [
-            "Shooter",
-            "Puzzle"
+            "Shooter"
         ],
         "themes": [
             "Action",
@@ -3244,7 +3244,7 @@
         "key_art_url": "",
         "game_name": "DORONKO WANKO",
         "igdb_name": "Doronko Wanko",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [],
         "genres": [
@@ -3272,7 +3272,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4dxo.png",
         "game_name": "DREDGE",
         "igdb_name": "Dredge",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Use of Tobacco",
             "Mild Violence"
@@ -3333,7 +3333,7 @@
         "key_art_url": "",
         "game_name": "Dark Souls Remastered",
         "igdb_name": "Dark Souls: Remastered",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood and Gore",
             "Partial Nudity",
@@ -3375,7 +3375,7 @@
         "key_art_url": "",
         "game_name": "Digimon World",
         "igdb_name": "Digimon World 4",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Fantasy Violence"
         ],
@@ -3424,7 +3424,7 @@
         "key_art_url": "",
         "game_name": "EarthBound",
         "igdb_name": "EarthBound",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [],
         "player_perspectives": [
             "First person",
@@ -3448,7 +3448,7 @@
             "Game Boy Advance",
             "Super Famicom"
         ],
-        "storyline": "The story begins when Ness is awakened by a meteor that has plummeted to the earth near his home, whereupon he proceeds to investigate the crash site. When Ness gets to the crash site he discovers a police roadblock and Pokey Minch, his friend and neighbor, who tells him to go home. Later, Ness is woken up again by Pokey knocking at his door, demanding help to find his brother Picky.\n\nThey find him near the meteor sleeping behind a tree and wake him up. Then the three encounter an insect from the meteor named Buzz Buzz who informs Ness that he is from the future where the \"universal cosmic destroyer\", Giygas, dominates the planet. Buzz Buzz senses great potential in Ness and instructs him to embark on a journey to seek out and record the melodies of eight \"sanctuaries,\" unite his own powers with the Earth's and gain the strength required to confront Giygas.",
+        "storyline": "The story begins when Ness is awakened by a meteor that has plummeted to the earth near his home, whereupon he proceeds to investigate the crash site. When Ness arrives at the crash site, he finds a police roadblock and Pokey Minch, his friend and neighbor, who tells him to go home. Later, Ness is woken up again by Pokey knocking at his door, demanding help to find his brother Picky.\n\nThey find him asleep behind a tree near the meteor and wake him. Then the three encounter an insect from the meteor named Buzz Buzz, who informs Ness that he is from the future, where the \"universal cosmic destroyer\" Giygas dominates the planet. Buzz Buzz senses great potential in Ness and instructs him to embark on a journey to seek out and record the melodies of eight \"sanctuaries,\" unite his own powers with the Earth's, and gain the strength required to confront Giygas.",
         "keywords": [
             "aliens",
             "ghosts",
@@ -3534,7 +3534,7 @@
         "key_art_url": "",
         "game_name": "Ender Lilies",
         "igdb_name": "Ender Lilies: Quietus of the Knights",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Violence",
             "Blood"
@@ -3581,7 +3581,7 @@
         "key_art_url": "",
         "game_name": "Factorio",
         "igdb_name": "Factorio",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Blood",
             "Violence"
@@ -3630,7 +3630,7 @@
         "key_art_url": "",
         "game_name": "Factorio - Space Age Without Space",
         "igdb_name": "Factorio: Space Age",
-        "age_rating": "AO",
+        "age_rating": "T",
         "rating": [
             "Violence",
             "Blood"
@@ -3669,7 +3669,7 @@
         "key_art_url": "",
         "game_name": "Faxanadu",
         "igdb_name": "Faxanadu",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence",
             "Use of Tobacco"
@@ -3716,11 +3716,11 @@
     "ff1": {
         "igdb_id": "385",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2xv8.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vi4.png",
-        "key_art_url": "",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6646.png",
         "game_name": "Final Fantasy",
         "igdb_name": "Final Fantasy",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -3766,7 +3766,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5x71.png",
         "game_name": "Final Fantasy IV Free Enterprise",
         "igdb_name": "Final Fantasy II",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence",
             "Mild Suggestive Themes"
@@ -3805,7 +3805,7 @@
         "key_art_url": "",
         "game_name": "Final Fantasy Mystic Quest",
         "igdb_name": "Final Fantasy: Mystic Quest",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -3865,7 +3865,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3on9.png",
         "game_name": "Final Fantasy Tactics Advance",
         "igdb_name": "Final Fantasy Tactics Advance",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence",
             "Alcohol Reference"
@@ -4001,7 +4001,7 @@
         "key_art_url": "",
         "game_name": "Yu-Gi-Oh! Forbidden Memories",
         "igdb_name": "Yu-Gi-Oh! Forbidden Memories",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Violence"
         ],
@@ -4042,7 +4042,7 @@
         "key_art_url": "",
         "game_name": "Frogmonster",
         "igdb_name": "Frogmonster",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -4104,7 +4104,7 @@
         "key_art_url": "",
         "game_name": "Getting Over It",
         "igdb_name": "Getting Over It with Bennett Foddy",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [],
         "player_perspectives": [
             "Third person",
@@ -4160,7 +4160,7 @@
         "key_art_url": "",
         "game_name": "Golden Sun The Lost Age",
         "igdb_name": "Golden Sun: The Lost Age",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Violence"
         ],
@@ -4266,7 +4266,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3m4s.png",
         "game_name": "Hades",
         "igdb_name": "Hades",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Language",
             "Alcohol Reference",
@@ -4330,7 +4330,7 @@
         "key_art_url": "",
         "game_name": "Here Comes Niko!",
         "igdb_name": "Here Comes Niko!",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -4437,7 +4437,7 @@
         "key_art_url": "",
         "game_name": "Heretic",
         "igdb_name": "Heretic",
-        "age_rating": "AO",
+        "age_rating": "M",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -4492,7 +4492,7 @@
         "key_art_url": "",
         "game_name": "HITMAN World of Assassination",
         "igdb_name": "Hitman World of Assassination",
-        "age_rating": "AO",
+        "age_rating": "18",
         "rating": [
             "Drug Reference",
             "Intense Violence",
@@ -4542,7 +4542,7 @@
         "key_art_url": "",
         "game_name": "Hollow Knight",
         "igdb_name": "Hollow Knight",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Mild Blood"
@@ -4711,7 +4711,7 @@
         "key_art_url": "",
         "game_name": "Hylics 2",
         "igdb_name": "Hylics 2",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person",
@@ -4835,7 +4835,7 @@
         "key_art_url": "",
         "game_name": "Inscryption Beta",
         "igdb_name": "Inscryption",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood",
             "Strong Language",
@@ -4881,7 +4881,7 @@
         "key_art_url": "",
         "game_name": "Into the Breach",
         "igdb_name": "Into the Breach",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Animated Blood",
             "Fantasy Violence",
@@ -4931,7 +4931,7 @@
         "key_art_url": "",
         "game_name": "Jak and Daxter: The Precursor Legacy",
         "igdb_name": "Jak and Daxter: The Precursor Legacy",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Mild Suggestive Themes"
@@ -5046,7 +5046,7 @@
         "key_art_url": "",
         "game_name": "Kirby 64 - The Crystal Shards",
         "igdb_name": "Kirby 64: The Crystal Shards",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -5105,7 +5105,7 @@
         "key_art_url": "",
         "game_name": "Kirby's Dream Land 3",
         "igdb_name": "Kirby's Dream Land 3",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -5151,7 +5151,7 @@
         "key_art_url": "",
         "game_name": "Kingdom Hearts",
         "igdb_name": "Kingdom Hearts",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Violence",
             "Cartoon Violence"
@@ -5260,7 +5260,7 @@
         "key_art_url": "",
         "game_name": "Kingdom Hearts 2",
         "igdb_name": "Kingdom Hearts II",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Blood",
             "Violence",
@@ -5278,8 +5278,6 @@
             "Fantasy"
         ],
         "platforms": [
-            "PlayStation 3",
-            "PlayStation 4",
             "PlayStation 2"
         ],
         "storyline": "One year after the events of Kingdom Hearts: Chain of Memories, Sora, Donald and Goofy awaken in Twilight Town. Bent on the quest to find Riku and King Mickey Mouse, the three begin their journey. However, they soon discover that while they have been asleep, the Heartless are back. Not only that, but new enemies also showed up during their absence. Sora, Donald and Goofy set off on a quest to rid the world of the Heartless once more, uncovering the many secrets that linger about Ansem and the mysterious Organization XIII.",
@@ -5334,7 +5332,7 @@
         "key_art_url": "",
         "game_name": "Kindergarten 2",
         "igdb_name": "Kindergarten 2",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [],
         "genres": [
@@ -5442,7 +5440,7 @@
         "key_art_url": "",
         "game_name": "Landstalker - The Treasures of King Nole",
         "igdb_name": "Landstalker",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -5492,7 +5490,7 @@
         "key_art_url": "",
         "game_name": "Lego Star Wars: The Complete Saga",
         "igdb_name": "LEGO Star Wars: The Complete Saga",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Fantasy Violence",
             "Crude Humor",
@@ -5593,7 +5591,7 @@
         "key_art_url": "",
         "game_name": "Lethal Company",
         "igdb_name": "Lethal Company",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -5639,7 +5637,7 @@
         "key_art_url": "",
         "game_name": "Lingo",
         "igdb_name": "Lingo",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -5674,7 +5672,7 @@
         "key_art_url": "",
         "game_name": "Lufia II: Ancient Cave",
         "igdb_name": "Lufia II: Rise of the Sinistrals",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Mild Animated Violence"
         ],
@@ -5705,7 +5703,7 @@
         "key_art_url": "",
         "game_name": "Luigi's Mansion",
         "igdb_name": "Luigi's Mansion",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -5766,7 +5764,7 @@
         "key_art_url": "",
         "game_name": "Lunacid",
         "igdb_name": "Lunacid",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -5795,7 +5793,7 @@
         "key_art_url": "",
         "game_name": "Madou Monogatari Hanamaru Daiyouchienji",
         "igdb_name": "Madou Monogatari: Hanamaru Daiyouchienji",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Third person",
@@ -5825,7 +5823,7 @@
         "key_art_url": "",
         "game_name": "Mario Kart Double Dash",
         "igdb_name": "Mario Kart: Double Dash!!",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Cartoon Violence"
         ],
@@ -5871,7 +5869,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4079.png",
         "game_name": "Super Mario Land 2",
         "igdb_name": "Super Mario Land 2: 6 Golden Coins",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -5914,7 +5912,7 @@
         "key_art_url": "",
         "game_name": "Hatsune Miku Project Diva Mega Mix+",
         "igdb_name": "Hatsune Miku: Project Diva Mega Mix",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Blood",
             "Sexual Themes",
@@ -5943,7 +5941,7 @@
         "key_art_url": "",
         "game_name": "Meritous",
         "igdb_name": "Meritous",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -5966,7 +5964,7 @@
         "key_art_url": "",
         "game_name": "The Messenger",
         "igdb_name": "The Messenger",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Language",
@@ -6011,7 +6009,7 @@
         "key_art_url": "",
         "game_name": "Metroid Fusion",
         "igdb_name": "Metroid Fusion",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence",
             "Violence"
@@ -6121,7 +6119,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3qxy.png",
         "game_name": "Metroid Prime",
         "igdb_name": "Metroid Prime",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Violence"
         ],
@@ -6141,7 +6139,7 @@
         "platforms": [
             "Nintendo GameCube"
         ],
-        "storyline": "",
+        "storyline": "After receiving a distress signal from a Space Pirate frigate in orbit, bounty hunter Samus Aran boards the vessel and discovers the Pirates have been conducting biological experiments. When the frigate is destroyed, Samus pursues her nemesis Ridley to the surface of the planet Tallon IV, where she uncovers the remains of the Chozo civilization and the source of a toxic substance called Phazon that is corrupting the planet's ecosystem.",
         "keywords": [
             "aliens",
             "pirates",
@@ -6248,7 +6246,7 @@
         "key_art_url": "",
         "game_name": "Minecraft",
         "igdb_name": "Minecraft: Java Edition",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -6423,7 +6421,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar406i.png",
         "game_name": "Mario Kart 64",
         "igdb_name": "Mario Kart 64",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -6508,7 +6506,7 @@
         "key_art_url": "",
         "game_name": "Mario & Luigi Superstar Saga",
         "igdb_name": "Mario & Luigi: Superstar Saga",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -6596,7 +6594,7 @@
         "key_art_url": "",
         "game_name": "Mega Man 2",
         "igdb_name": "Mega Man II",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -6670,7 +6668,7 @@
         "key_art_url": "",
         "game_name": "Mega Man 3",
         "igdb_name": "Mega Man 3",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Cartoon Violence"
         ],
@@ -6751,7 +6749,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p8l.png",
         "game_name": "Majora's Mask Recompiled",
         "igdb_name": "The Legend of Zelda: Majora's Mask",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Animated Violence",
             "Cartoon Violence"
@@ -6825,7 +6823,7 @@
         "key_art_url": "",
         "game_name": "MegaMan Battle Network 3",
         "igdb_name": "Mega Man Battle Network 3 Blue",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -6853,11 +6851,11 @@
     "mmx3": {
         "igdb_id": "1743",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co55pa.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar2oxu.png",
-        "key_art_url": "",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64rj.png",
         "game_name": "Mega Man X3",
         "igdb_name": "Mega Man X3",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Animated Violence"
         ],
@@ -6925,7 +6923,7 @@
         "key_art_url": "",
         "game_name": "Momodora Moonlit Farewell",
         "igdb_name": "Momodora: Moonlit Farewell",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Blood",
@@ -6962,7 +6960,7 @@
         "key_art_url": "",
         "game_name": "Monster Sanctuary",
         "igdb_name": "Monster Sanctuary",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Mild Blood",
@@ -7004,7 +7002,7 @@
         "key_art_url": "",
         "game_name": "Muse Dash",
         "igdb_name": "Muse Dash",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Sexual Themes",
             "Mild Blood",
@@ -7060,7 +7058,7 @@
         "key_art_url": "",
         "game_name": "Metroid: Zero Mission",
         "igdb_name": "Metroid: Zero Mission",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -7133,7 +7131,7 @@
         "key_art_url": "",
         "game_name": "Nine Sols",
         "igdb_name": "Nine Sols",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood and Gore",
             "Use of Alcohol",
@@ -7183,7 +7181,7 @@
         "key_art_url": "",
         "game_name": "Noita",
         "igdb_name": "Noita",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -7220,7 +7218,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2s.png",
         "game_name": "Ocarina of Time",
         "igdb_name": "The Legend of Zelda: Ocarina of Time",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Violence"
         ],
@@ -7369,7 +7367,7 @@
         "key_art_url": "",
         "game_name": "OpenRCT2",
         "igdb_name": "OpenRCT2",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -7416,7 +7414,7 @@
         "key_art_url": "",
         "game_name": "Ori and the Will of the Wisps",
         "igdb_name": "Ori and the Will of the Wisps",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -7451,7 +7449,7 @@
         "key_art_url": "",
         "game_name": "Ori and the Blind Forest",
         "igdb_name": "Ori and the Blind Forest",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -7513,7 +7511,7 @@
         "key_art_url": "",
         "game_name": "Old School Runescape",
         "igdb_name": "Old School RuneScape",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Crude Humor",
             "Fantasy Violence",
@@ -7553,7 +7551,7 @@
         "key_art_url": "",
         "game_name": "osu!",
         "igdb_name": "Osu!",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Auditory"
@@ -7605,7 +7603,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nua.png",
         "game_name": "Outer Wilds",
         "igdb_name": "Outer Wilds",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Alcohol Reference"
@@ -7649,7 +7647,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4tvb.png",
         "game_name": "Overcooked! 2",
         "igdb_name": "Overcooked! 2",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -7676,7 +7674,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "In the Onion Kingdom, a culinary crisis unfolds as hordes of zombie toast, known as the Unbread, rise and threaten the land. The kingdom calls upon its team of chefs to travel across its diverse regions, battling through increasingly dangerous kitchens in an effort to stop the Unbread menace and save their world from being overrun.",
         "keywords": [
             "cooking",
             "you can pet the dog",
@@ -7718,7 +7716,7 @@
         "key_art_url": "",
         "game_name": "Paper Mario",
         "igdb_name": "Paper Mario",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Comic Mischief"
         ],
@@ -7817,7 +7815,7 @@
         "key_art_url": "",
         "game_name": "PEAK",
         "igdb_name": "Peak",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [],
         "genres": [
@@ -7843,7 +7841,7 @@
         "key_art_url": "",
         "game_name": "Peaks of Yore",
         "igdb_name": "Peaks of Yore",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -7872,7 +7870,7 @@
         "key_art_url": "",
         "game_name": "Peggle Deluxe",
         "igdb_name": "Peggle Deluxe",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -7896,7 +7894,7 @@
         "key_art_url": "",
         "game_name": "Peggle Nights",
         "igdb_name": "Peggle Nights",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -7933,7 +7931,7 @@
         "key_art_url": "",
         "game_name": "Phoenotopia: Awakening",
         "igdb_name": "Phoenotopia: Awakening",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence",
             "Mild Language",
@@ -7981,7 +7979,7 @@
         "key_art_url": "",
         "game_name": "Pinball FX3",
         "igdb_name": "Pinball FX3",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Language",
             "Fantasy Violence"
@@ -8037,7 +8035,7 @@
         "key_art_url": "",
         "game_name": "Placid Plastic Duck Simulator",
         "igdb_name": "Placid Plastic Duck Simulator",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person",
@@ -8080,7 +8078,7 @@
         "key_art_url": "",
         "game_name": "Pokemon Mystery Dungeon Explorers of Sky",
         "igdb_name": "Pokémon Mystery Dungeon: Explorers of Sky",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Cartoon Violence"
         ],
@@ -8117,7 +8115,7 @@
         "key_art_url": "",
         "game_name": "Path of Exile",
         "igdb_name": "Path of Exile",
-        "age_rating": "AO",
+        "age_rating": "18",
         "rating": [
             "Intense Violence",
             "Blood and Gore",
@@ -8176,7 +8174,7 @@
         "key_art_url": "",
         "game_name": "Pokemon Crystal",
         "igdb_name": "Pokémon Crystal Version",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric",
@@ -8281,7 +8279,7 @@
         "key_art_url": "",
         "game_name": "Pokemon Emerald",
         "igdb_name": "Pokémon Emerald Version",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric",
@@ -8384,7 +8382,7 @@
         "key_art_url": "",
         "game_name": "Pokemon FireRed and LeafGreen",
         "igdb_name": "Pokémon LeafGreen Version",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Simulated Gambling",
             "Mild Fantasy Violence"
@@ -8423,11 +8421,11 @@
     "pokemon_rb": {
         "igdb_id": "1561",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5pi4.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1krw.png",
-        "key_art_url": "",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5mxx.png",
         "game_name": "Pokemon Red and Blue",
         "igdb_name": "Pokémon Red Version",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric",
@@ -8493,7 +8491,7 @@
         "key_art_url": "",
         "game_name": "Powerwash Simulator",
         "igdb_name": "PowerWash Simulator",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -8540,7 +8538,7 @@
         "key_art_url": "",
         "game_name": "Pseudoregalia",
         "igdb_name": "Pseudoregalia: Jam Ver.",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -8572,7 +8570,7 @@
         "key_art_url": "",
         "game_name": "Quake 1",
         "igdb_name": "Quake",
-        "age_rating": "AO",
+        "age_rating": "T",
         "rating": [
             "Animated Blood and Gore",
             "Animated Violence"
@@ -8678,7 +8676,7 @@
         "key_art_url": "",
         "game_name": "Rabi-Ribi",
         "igdb_name": "Rabi-Ribi",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Suggestive Themes",
@@ -8743,7 +8741,7 @@
         "key_art_url": "",
         "game_name": "Ratchet & Clank 2",
         "igdb_name": "Ratchet & Clank: Going Commando",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Animated Blood",
             "Comic Mischief",
@@ -8841,7 +8839,7 @@
         "key_art_url": "",
         "game_name": "Refunct",
         "igdb_name": "Refunct",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "First person"
@@ -8879,7 +8877,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4owf.png",
         "game_name": "Resident Evil 2 Remake",
         "igdb_name": "Resident Evil 2",
-        "age_rating": "AO",
+        "age_rating": "18",
         "rating": [
             "Strong Language",
             "Intense Violence",
@@ -8928,7 +8926,7 @@
         "key_art_url": "",
         "game_name": "Resident Evil 3 Remake",
         "igdb_name": "Resident Evil 3",
-        "age_rating": "AO",
+        "age_rating": "18",
         "rating": [
             "Intense Violence",
             "Strong Language",
@@ -8987,7 +8985,7 @@
         "key_art_url": "",
         "game_name": "Rimworld",
         "igdb_name": "RimWorld",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood",
             "Suggestive Themes",
@@ -9031,7 +9029,7 @@
         "key_art_url": "",
         "game_name": "Rogue Legacy",
         "igdb_name": "Rogue Legacy",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Crude Humor"
@@ -9160,7 +9158,7 @@
         "key_art_url": "",
         "game_name": "Risk of Rain",
         "igdb_name": "Risk of Rain",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Alcohol Reference",
             "Fantasy Violence",
@@ -9229,7 +9227,7 @@
         "key_art_url": "",
         "game_name": "Risk of Rain 2",
         "igdb_name": "Risk of Rain 2",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Blood",
             "Drug Reference",
@@ -9273,7 +9271,7 @@
         "key_art_url": "",
         "game_name": "Rift of the Necrodancer",
         "igdb_name": "Rift of the NecroDancer",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [],
         "player_perspectives": [
             "Side view",
@@ -9319,7 +9317,7 @@
         "key_art_url": "",
         "game_name": "Sonic Adventure 2 Battle",
         "igdb_name": "Sonic Adventure 2: Battle",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Mild Lyrics",
             "Violence"
@@ -9350,7 +9348,7 @@
         "key_art_url": "",
         "game_name": "Sonic Adventure DX",
         "igdb_name": "Sonic Adventure: Sonic Adventure DX Upgrade",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Animated Violence"
         ],
@@ -9379,7 +9377,7 @@
         "key_art_url": "",
         "game_name": "Satisfactory",
         "igdb_name": "Satisfactory",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Fantasy Violence"
         ],
@@ -9401,7 +9399,7 @@
             "PC (Microsoft Windows)",
             "PlayStation 5"
         ],
-        "storyline": "",
+        "storyline": "An unnamed Pioneer employed by the megacorporation FICSIT Inc. is dropped from orbit onto the surface of an alien planet designated MASSAGE-2(AB)b. The drop pod malfunctions, and the Pioneer barely survives the landing, awakening with no memories. Guided by FICSIT's artificial intelligence, ADA, the Pioneer learns she is one of few to have landed successfully in the region. ADA instructs her to begin constructing infrastructure for \"\"Project Assembly,\"\" described only as part of a larger initiative called the Save the Day Program, intended to rescue Earth from an unspecified catastrophe.\n\nAs the Pioneer builds deeper into the planet's wilderness, she discovers mysterious alien artifacts that trigger strange mental contact with an unknown intelligence. Something on this world is trying to communicate, and the true nature of both the planet and FICSIT's mission may be more complex than a simple resource extraction operation.",
         "keywords": [
             "crafting",
             "base building",
@@ -9416,7 +9414,7 @@
         "key_art_url": "",
         "game_name": "Saving Princess",
         "igdb_name": "Saving Princess",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -9468,7 +9466,7 @@
             "PC (Microsoft Windows)",
             "Mac"
         ],
-        "storyline": "",
+        "storyline": "Jim Raynor, a marshal turned rebel, leads a vigilante crusade against the Terran Dominion and its ruler Arcturus Mengsk. Haunted by betrayal and the memory of allies lost, Raynor operates on the fringes of space, building his forces and searching for a way to bring down the regime.\n\nWhen old promises and new threats converge, Raynor is drawn into a conflict that stretches beyond the politics of the Dominion, forcing him to confront enemies both human and alien in a war that will determine the fate of the sector.",
         "keywords": [
             "aliens",
             "skill-based",
@@ -9561,7 +9559,7 @@
         "key_art_url": "",
         "game_name": "shapez",
         "igdb_name": "Shapez",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -9595,7 +9593,7 @@
         "key_art_url": "",
         "game_name": "Shivers",
         "igdb_name": "Shivers",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Realistic Blood and Gore",
             "Realistic Blood"
@@ -9628,7 +9626,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4l4d.png",
         "game_name": "A Short Hike",
         "igdb_name": "A Short Hike",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric"
@@ -9733,7 +9731,7 @@
         "key_art_url": "",
         "game_name": "The Simpsons Hit And Run",
         "igdb_name": "The Simpsons: Hit & Run",
-        "age_rating": "AO",
+        "age_rating": "T",
         "rating": [
             "Comic Mischief",
             "Mild Language",
@@ -9828,7 +9826,7 @@
         "key_art_url": "",
         "game_name": "The Sims 4",
         "igdb_name": "The Sims 4",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Sexual Themes",
             "Crude Humor",
@@ -9884,7 +9882,7 @@
         "key_art_url": "",
         "game_name": "Sly Cooper and the Thievius Raccoonus",
         "igdb_name": "Sly Cooper and the Thievius Raccoonus",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -9970,7 +9968,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7j.png",
         "game_name": "Super Metroid",
         "igdb_name": "Super Metroid",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -10044,7 +10042,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
         "game_name": "Super Mario 64",
         "igdb_name": "Super Mario 64",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -10119,7 +10117,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
         "game_name": "SM64 Romhack",
         "igdb_name": "Super Mario 64",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -10194,7 +10192,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7j.png",
         "game_name": "Super Metroid Map Rando",
         "igdb_name": "Super Metroid",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -10268,7 +10266,7 @@
         "key_art_url": "",
         "game_name": "Super Mario Odyssey",
         "igdb_name": "Super Mario Odyssey",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Cartoon Violence",
             "Comic Mischief"
@@ -10346,7 +10344,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nb8.png",
         "game_name": "Super Mario Sunshine",
         "igdb_name": "Super Mario Sunshine",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Comic Mischief"
         ],
@@ -10457,7 +10455,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nae.png",
         "game_name": "Super Mario World",
         "igdb_name": "Super Mario World",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -10557,7 +10555,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5du7.png",
         "game_name": "Secret of Evermore",
         "igdb_name": "Secret of Evermore",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Mild Animated Violence"
         ],
@@ -10599,7 +10597,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4lch.png",
         "game_name": "Sonic Heroes",
         "igdb_name": "Sonic Heroes",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -10675,7 +10673,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar52ms.png",
         "game_name": "Symphony of the Night",
         "igdb_name": "Castlevania: Symphony of the Night",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Animated Blood and Gore",
             "Animated Violence",
@@ -10804,7 +10802,7 @@
         "key_art_url": "",
         "game_name": "Slay the Spire",
         "igdb_name": "Slay the Spire II",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -10904,7 +10902,7 @@
         "key_art_url": "",
         "game_name": "Sonic Robo Blast 2",
         "igdb_name": "Sonic Robo Blast 2",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Third person"
@@ -10957,7 +10955,7 @@
             "Wii",
             "Wii U"
         ],
-        "storyline": "Born on an island suspended in the sky, a young man called Link accepts his destiny to venture to the world below to save his childhood friend Zelda after being kidnapped and brought to an abandoned land.",
+        "storyline": "In the floating island community of Skyloft, a young knight-in-training named Link lives above an endless sea of clouds, unaware of the surface world below. When his childhood friend Zelda is swept away by a mysterious dark tornado and pulled beneath the cloud barrier, Link is drawn to a sacred sword hidden within a statue of the goddess. The blade's spirit, Fi, reveals Link is the prophesied hero destined to confront a rising evil. He must descend to the long-abandoned surface lands to find Zelda before the self-proclaimed Demon Lord Ghirahim can use her to revive his imprisoned master, the ancient Demon King Demise, whose return would threaten all existence.",
         "keywords": [
             "medieval",
             "prequel",
@@ -11092,7 +11090,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4yuh.png",
         "game_name": "Stardew Valley",
         "igdb_name": "Stardew Valley",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Mild Blood",
@@ -11217,7 +11215,7 @@
         "key_art_url": "",
         "game_name": "Subnautica",
         "igdb_name": "Subnautica",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Language",
             "Fantasy Violence"
@@ -11268,7 +11266,7 @@
         "key_art_url": "",
         "game_name": "Star Wars Episode I Racer",
         "igdb_name": "Star Wars: Episode I - Racer",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -11317,7 +11315,7 @@
         "key_art_url": "",
         "game_name": "The Binding of Isaac Repentance",
         "igdb_name": "The Binding of Isaac: Repentance",
-        "age_rating": "AO",
+        "age_rating": "16",
         "rating": [
             "Blood and Gore",
             "Crude Humor",
@@ -11345,7 +11343,7 @@
         "key_art_url": "",
         "game_name": "Terraria",
         "igdb_name": "Terraria",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Suggestive Themes",
             "Blood and Gore",
@@ -11489,7 +11487,7 @@
         "key_art_url": "",
         "game_name": "Tetris Attack",
         "igdb_name": "Tetris Attack",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -11519,7 +11517,7 @@
         "key_art_url": "",
         "game_name": "Timespinner",
         "igdb_name": "Timespinner",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Sexual Themes",
@@ -11578,7 +11576,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2o.png",
         "game_name": "The Legend of Zelda",
         "igdb_name": "The Legend of Zelda",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -11657,7 +11655,7 @@
         "key_art_url": "",
         "game_name": "The Legend of Zelda - Oracle of Ages",
         "igdb_name": "The Legend of Zelda: Oracle of Ages",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -11745,7 +11743,7 @@
         "key_art_url": "",
         "game_name": "The Legend of Zelda - Oracle of Seasons",
         "igdb_name": "The Legend of Zelda: Oracle of Seasons",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Violence"
         ],
@@ -11842,7 +11840,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2i.png",
         "game_name": "The Legend of Zelda - Phantom Hourglass",
         "igdb_name": "The Legend of Zelda: Phantom Hourglass",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -11961,7 +11959,7 @@
         "key_art_url": "",
         "game_name": "The Minish Cap",
         "igdb_name": "The Legend of Zelda: The Minish Cap",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -12103,7 +12101,7 @@
         "key_art_url": "",
         "game_name": "Toontown",
         "igdb_name": "Toontown Online",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Cartoon Violence",
             "Comic Mischief"
@@ -12143,7 +12141,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p34.png",
         "game_name": "Twilight Princess",
         "igdb_name": "The Legend of Zelda: Twilight Princess",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Fantasy Violence",
             "Animated Blood"
@@ -12201,7 +12199,7 @@
         "key_art_url": "",
         "game_name": "Trackmania",
         "igdb_name": "Trackmania",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "First person",
@@ -12277,7 +12275,7 @@
         "key_art_url": "",
         "game_name": "Paper Mario: The Thousand-Year Door",
         "igdb_name": "Paper Mario: The Thousand-Year Door",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [],
         "genres": [
@@ -12298,7 +12296,7 @@
         "key_art_url": "",
         "game_name": "TUNIC",
         "igdb_name": "Tunic",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -12374,7 +12372,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p3f.png",
         "game_name": "The Wind Waker",
         "igdb_name": "The Legend of Zelda: The Wind Waker",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Violence"
         ],
@@ -12421,7 +12419,7 @@
         "key_art_url": "",
         "game_name": "Tyrian",
         "igdb_name": "Tyrian 2000",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [
             "Animated Violence"
         ],
@@ -12459,7 +12457,7 @@
         "key_art_url": "",
         "game_name": "UFO 50",
         "igdb_name": "UFO 50",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Blood",
             "Violence",
@@ -12505,7 +12503,7 @@
         "key_art_url": "",
         "game_name": "ULTRAKILL",
         "igdb_name": "Ultrakill",
-        "age_rating": "AO",
+        "age_rating": "M",
         "rating": [
             "Violence",
             "Blood and Gore"
@@ -12561,7 +12559,7 @@
         "key_art_url": "",
         "game_name": "Undertale",
         "igdb_name": "Undertale",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Mild Blood",
             "Mild Language",
@@ -12776,7 +12774,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nae.png",
         "game_name": "SMW: Spicy Mycena Waffles",
         "igdb_name": "Super Mario World",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -12845,7 +12843,7 @@
         "key_art_url": "",
         "game_name": "Wargroove",
         "igdb_name": "Wargroove",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -12883,7 +12881,7 @@
         "key_art_url": "",
         "game_name": "Wargroove 2",
         "igdb_name": "Wargroove",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Fantasy Violence"
         ],
@@ -12921,7 +12919,7 @@
         "key_art_url": "",
         "game_name": "The Witness",
         "igdb_name": "The Witness",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Alcohol Reference"
         ],
@@ -12993,7 +12991,7 @@
         "key_art_url": "",
         "game_name": "Wario Land",
         "igdb_name": "Wario Land: Super Mario Land 3",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -13026,7 +13024,7 @@
         "key_art_url": "",
         "game_name": "Wario Land 4",
         "igdb_name": "Wario Land 4",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Comic Mischief"
         ],
@@ -13127,7 +13125,7 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4q0s.png",
         "game_name": "Xenoblade X",
         "igdb_name": "Xenoblade Chronicles X",
-        "age_rating": "AO",
+        "age_rating": "12",
         "rating": [
             "Suggestive Themes",
             "Use of Alcohol",
@@ -13233,7 +13231,7 @@
         "key_art_url": "",
         "game_name": "Yoshi's Island",
         "igdb_name": "Super Mario World 2: Yoshi's Island",
-        "age_rating": "AO",
+        "age_rating": "E",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -13274,7 +13272,7 @@
         "key_art_url": "",
         "game_name": "Yu-Gi-Oh! 2006",
         "igdb_name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [],
         "player_perspectives": [
             "Bird view / Isometric",
@@ -13306,7 +13304,7 @@
         "key_art_url": "",
         "game_name": "Yu-Gi-Oh! Dungeon Dice Monsters",
         "igdb_name": "Yu-Gi-Oh! Dungeon Dice Monsters",
-        "age_rating": "AO",
+        "age_rating": "3",
         "rating": [
             "Mild Violence"
         ],
@@ -13347,7 +13345,7 @@
         "key_art_url": "",
         "game_name": "Zelda II: The Adventure of Link",
         "igdb_name": "Zelda II: The Adventure of Link",
-        "age_rating": "AO",
+        "age_rating": "7",
         "rating": [
             "Mild Fantasy Violence"
         ],
@@ -13446,7 +13444,7 @@
         "key_art_url": "",
         "game_name": "Zillion",
         "igdb_name": "Zillion",
-        "age_rating": "AO",
+        "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
             "Side view"
@@ -13477,7 +13475,7 @@
         "key_art_url": "",
         "game_name": "Zork Grand Inquisitor",
         "igdb_name": "Zork: Grand Inquisitor",
-        "age_rating": "AO",
+        "age_rating": "T",
         "rating": [
             "Comic Mischief",
             "Suggestive Themes",
