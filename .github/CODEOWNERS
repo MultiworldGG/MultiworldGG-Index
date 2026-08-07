@@ -29,3 +29,4 @@ scripts/                                @lallaria
 # IGDB game details data is updated by the igdb-game-details.yml bot on every merge;
 # owner reviews any out-of-band human edits.
 output/igdb_game_details.json             @lallaria
+worlds/fnafb1.json @MWGGTESTING-Scrungip
