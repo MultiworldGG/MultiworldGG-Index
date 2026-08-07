@@ -1,0 +1,14 @@
+{
+  "game": "Five Nights at Fuckboy's",
+  "authors": [
+    "Scrungip",
+    "EggSlashEther"
+  ],
+  "minimum_ap_version": "0.6.7",
+  "world_version": "1.1.0",
+  "repo_url": "https://github.com/Scrungip/FNaFBAP",
+  "version": 7,
+  "compatible_version": 7,
+  "module_location": "https://github.com/Scrungip/FNaFBAP/releases/download/fnafb1-1.1.0/worlds_fnafb1-1.1.0-py3-none-any.whl#sha256=844656fb649b9ff1ead4b25a2a9e533041c06b88cffa3fc29812e7a2e7bd3ad8",
+  "disk_space_mb": 1
+}
