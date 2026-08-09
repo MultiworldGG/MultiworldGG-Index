@@ -4035,6 +4035,36 @@
         ],
         "release_date": 944697600
     },
+    "fnafb1": {
+        "igdb_id": "170035",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3tqa.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Five Nights at Fuckboy's",
+        "igdb_name": "Five Nights at F***boy's: Final Mix",
+        "age_rating": "NR",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Visual Novel"
+        ],
+        "themes": [
+            "Fantasy",
+            "Horror",
+            "Thriller",
+            "Comedy",
+            "Romance"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)"
+        ],
+        "storyline": "You control Freddy, who decided he wants to have a RADICAL NIGHT OF HARDCORE DEBAUCHERY, and the surveillance cameras of the pizzeria are the only thing standing in his way. With the help of Bonnie, Chica, and Foxy, Freddy must destroy the cameras so he can have the time of his life.",
+        "keywords": [],
+        "release_date": 1425945600
+    },
     "frogmonster": {
         "igdb_id": "187372",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7l4c.png",
