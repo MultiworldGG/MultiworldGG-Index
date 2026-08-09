@@ -13,19 +13,15 @@
 # Catch-all: repo owner reviews anything not matched below.
 *                                       @lallaria
 
-# Per-world manifests (the high-volume PR target — Karen validates first).
-worlds/oot.json                         @TreZc0
-worlds/sims4.json                       @benny-dreamly
-
-# Schema is load-bearing for every PR; require explicit owner review.
 schema/                                 @lallaria
-
-# Index build/release tooling.
 scripts/                                @lallaria
-
-# CI definitions and repo meta.
 .github/                                @lallaria
 
 # IGDB game details data is updated by the igdb-game-details.yml bot on every merge;
 # owner reviews any out-of-band human edits.
 output/igdb_game_details.json             @lallaria
+
+# Per-world archipelago.json manifests.
+worlds/oot.json                         @TreZc0
+worlds/sims4.json                       @benny-dreamly
+worlds/fnafb1.json                      @Scrungip
