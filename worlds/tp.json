@@ -3,8 +3,11 @@
     "authors": [
         "WritingHusky"
     ],
-    "igdb_id": 134014,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.3.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_tp-0.3.2-py3-none-any.whl#sha256=c47f0835487f8cacc40ce0209e039cf0ed5923d43b144144c0254cac145c9b46"
+    "minimum_ap_version": "0.5.0",
+    "world_version": "0.3.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tp-0.3.0-py3-none-any.whl#sha256=65bb423df3d39d6036daef19e753fd475fea48ac0b249b11491aa53a1cb0fb3f",
+    "disk_space_mb": 1,
+    "igdb_id": 134014
 }
