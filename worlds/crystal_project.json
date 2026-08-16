@@ -3,10 +3,11 @@
     "authors": [
         "Dragons but also Rabbits, FabulaFey, Emerassi"
     ],
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.16.0",
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.17.0",
     "compatible_version": 7,
     "version": 7,
-    "igdb_id": 181444,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_crystal_project-0.16.0-py3-none-any.whl#sha256=a09afe436407e26448fe2d663bde358129906b4bab34cd338b032a14515d399f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_crystal_project-0.17.0-py3-none-any.whl#sha256=b3a334f214c3ec59bbc2530cb54197e15ffa43c18e57731626850ce1bd992cc2",
+    "disk_space_mb": 1,
+    "igdb_id": 181444
 }
