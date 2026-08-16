@@ -2,15 +2,16 @@
     "compatible_version": 7,
     "version": 7,
     "game": "Ratchet and Clank 3",
-    "igdb_id": 1773,
-    "world_version": "0.5.3",
+    "world_version": "0.6.0",
     "minimum_ap_version": "0.5.0",
     "authors": [
         "AmondoVagyok",
         "Myth197",
         "Taoshi",
-        "Yuxia228",
+        "yuxia228",
         "1theory"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_rac3-0.5.3-py3-none-any.whl#sha256=4c6a17f32d90ba4ad80af0db9f61ad317dd933b584af749962244e47989e21aa"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_rac3-0.6.0-py3-none-any.whl#sha256=d4caa77ac01fc636a644ee3546cacda197f19d2807a560eb56a3d818a6e7cbfe",
+    "disk_space_mb": 3,
+    "igdb_id": 1773
 }
