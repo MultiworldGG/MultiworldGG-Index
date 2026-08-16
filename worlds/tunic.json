@@ -4,8 +4,11 @@
         "silent-destroyer",
         "ScipioWright"
     ],
-    "igdb_id": 23733,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "4.2.7",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tunic-4.2.7-py3-none-any.whl#sha256=cca658037637751eebbc7097c7a1be9b1304d58f9212a56e32bb64865cf4c8b4"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "5.0.1",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tunic-5.0.1-py3-none-any.whl#sha256=e21aedba0c3ee316b16b6848432d48e4d4b7ec1050f3edb4b5db7a0e12dc349c",
+    "disk_space_mb": 1,
+    "igdb_id": 23733
 }
