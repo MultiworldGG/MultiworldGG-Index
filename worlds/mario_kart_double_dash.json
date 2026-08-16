@@ -1,12 +1,13 @@
 {
     "game": "Mario Kart Double Dash",
     "minimum_ap_version": "0.6.0",
-    "world_version": "0.3.2",
+    "world_version": "1.0.1",
     "authors": [
         "aXu_AP"
     ],
-    "igdb_id": 2344,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_mario_kart_double_dash-0.3.2-py3-none-any.whl#sha256=dd08c78a17111082e93af6af52e3cc66badf083bb3aadaa80d78a7dd159d72dd"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_mario_kart_double_dash-1.0.1-py3-none-any.whl#sha256=cd7d864e6e9161622f942180696ec7eb9f85a2e5a6d17052e9259dc28db8c4c7",
+    "disk_space_mb": 1,
+    "igdb_id": 2344
 }
