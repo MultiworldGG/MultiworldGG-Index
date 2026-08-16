@@ -1,0 +1,18 @@
+{
+  "game": "DELTARUNE",
+  "world_version": "2.0.6",
+  "minimum_ap_version": "0.6.7",
+  "authors": [
+    "Mewlif",
+    "theemeraldsword85",
+    "Tenebrosful",
+    "Vintagix",
+    "Deadzi",
+    "Charaster",
+    "Potato"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_deltarune-2.0.6-py3-none-any.whl#sha256=cb7bbcaf39967778018b0ffa5321bd0a8efd5e2ad1e2413f9fece66c5e5619be",
+  "disk_space_mb": 5
+}
