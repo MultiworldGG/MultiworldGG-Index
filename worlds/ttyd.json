@@ -3,10 +3,11 @@
     "authors": [
         "jamesbrq"
     ],
-    "igdb_id": 3349,
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.9.1",
+    "world_version": "0.12.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_ttyd-0.9.1-py3-none-any.whl#sha256=380e78744086299e244caa70da605cf032066fb18ac31da0ab355f9dba18c42c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_ttyd-0.12.0-py3-none-any.whl#sha256=8b3700c3fbc3904c6be44f850e70443a2bb53121fca2194d3ec87bfb5d03144d",
+    "disk_space_mb": 3,
+    "igdb_id": 3349
 }
