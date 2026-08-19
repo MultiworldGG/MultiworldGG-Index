@@ -317,7 +317,7 @@
     "alttp": {
         "igdb_id": "1026",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3vzn.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t8b.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t8c.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2x.png",
         "game_name": "A Link to the Past",
         "igdb_name": "The Legend of Zelda: A Link to the Past",
@@ -462,6 +462,31 @@
         ],
         "release_date": 690681600
     },
+    "alttpr": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "The Legend of Zelda: A Link to the Past",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "am2r": {
         "igdb_id": "27238",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4oe6.png",
@@ -505,7 +530,7 @@
     "animal_well": {
         "igdb_id": "191435",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hdh.png",
-        "artwork_url": "",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar67fm.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64ln.png",
         "game_name": "ANIMAL WELL",
         "igdb_name": "Animal Well",
@@ -749,6 +774,31 @@
             "plot twist"
         ],
         "release_date": 1196985600
+    },
+    "archipelaballs": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Archipelaballs",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "archipidle": {
         "igdb_id": "",
@@ -1743,7 +1793,7 @@
     "crosscode": {
         "igdb_id": "35282",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co28wy.png",
-        "artwork_url": "",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68ts.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar532q.png",
         "game_name": "CrossCode",
         "igdb_name": "CrossCode",
@@ -2450,6 +2500,31 @@
         ],
         "release_date": 1458777600
     },
+    "deltarune": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DELTARUNE",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "diddy_kong_racing": {
         "igdb_id": "2723",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wgj.png",
@@ -2729,7 +2804,7 @@
     "dkc2": {
         "igdb_id": "1092",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co217m.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4088.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4086.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3okv.png",
         "game_name": "Donkey Kong Country 2",
         "igdb_name": "Donkey Kong Country 2: Diddy's Kong Quest",
@@ -3116,6 +3191,31 @@
         ],
         "release_date": 755481600
     },
+    "doom_1993_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DOOM 1993 (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "doom_ii": {
         "igdb_id": "312",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6iip.png",
@@ -3236,6 +3336,31 @@
             "male protagonist"
         ],
         "release_date": 780883200
+    },
+    "doom_ii_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DOOM II (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "doronko_wanko": {
         "igdb_id": "290647",
@@ -4102,6 +4227,31 @@
         ],
         "release_date": 1712016000
     },
+    "funi_raccoon": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Funi Raccoon Game",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "generic": {
         "igdb_id": "",
         "cover_url": "",
@@ -4182,6 +4332,56 @@
             "replayability"
         ],
         "release_date": 1512518400
+    },
+    "gl": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Gauntlet Legends",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
+    "grinch": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "The Grinch",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "gstla": {
         "igdb_id": "1173",
@@ -4353,6 +4553,31 @@
         ],
         "release_date": 1600300800
     },
+    "hades2rogue": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Hades2Rogue",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "hcniko": {
         "igdb_id": "142405",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2o6i.png",
@@ -4514,6 +4739,31 @@
             "dial-up wide area network game operation"
         ],
         "release_date": 788140800
+    },
+    "heretic_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Heretic (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "hitman_woa": {
         "igdb_id": "233571",
@@ -4861,8 +5111,8 @@
     "inscryption_beta": {
         "igdb_id": "139090",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co401c.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar123g.png",
-        "key_art_url": "",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6c9e.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6dh3.png",
         "game_name": "Inscryption Beta",
         "igdb_name": "Inscryption",
         "age_rating": "16",
@@ -5747,7 +5997,8 @@
             "Comedy"
         ],
         "platforms": [
-            "Nintendo GameCube"
+            "Nintendo GameCube",
+            "Nintendo 3DS"
         ],
         "storyline": "One day, Luigi received an unexpected message: You've won a huge mansion! Naturally, He[sic] got very excited and called his brother, Mario. \"Mario? It's me, Luigi. I won myself a big mansion! Meet me there and we'll celebrate, what do you say?\"\n\nLuigi tried to follow the map to his new mansion, but the night was dark, and he became hopelessly lost in an eerie forest along the way. Finally, he came upon a gloomy mansion on the edge of the woods. According to the map, this mansion seemed to be the one Luigi was looking for. As soon as Luigi set foot in the mansion, he started to feel nervous. Mario, who should have arrived first, was nowhere to be seen. Not only that, but there were ghosts in the mansion!\n\nSuddenly, a ghost lunged at Luigi! \"Mario! Help meee!\" That's when a strange old man with a vacuum cleaner on his back appeared out of nowhere! This strange fellow managed to rescue Luigi from the ghosts, then the two of them escaped...\n\nIt just so happened that the old man, Professor Elvin Gadd, who lived near the house, was researching his favorite subject, ghosts. Luigi told Professor E. Gadd that his brother Mario was missing, so the Professor decided to give Luigi two inventions that would help him search for his brother.\n\nLuigi's not exactly known for his bravery. Can he get rid of all the prank-loving ghosts and find Mario?",
         "keywords": [
@@ -5963,6 +6214,31 @@
         "storyline": "",
         "keywords": [],
         "release_date": 1581552000
+    },
+    "melee": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Super Smash Bros. Melee",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "meritous": {
         "igdb_id": "78479",
@@ -7200,6 +7476,7 @@
             "steam achievements",
             "steam cloud",
             "steam leaderboards",
+            "soulslike",
             "steam families"
         ],
         "release_date": 1716940800
@@ -7439,7 +7716,7 @@
     },
     "ori_wotw": {
         "igdb_id": "37001",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2e1l.png",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cocjl7.png",
         "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar89s.png",
         "key_art_url": "",
         "game_name": "Ori and the Will of the Wisps",
@@ -8001,6 +8278,31 @@
             "zelda-like"
         ],
         "release_date": 1597881600
+    },
+    "pikuniku": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Pikuniku",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "pinball_fx3": {
         "igdb_id": "41051",
@@ -9584,7 +9886,7 @@
     "sc2": {
         "igdb_id": "239",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1tnn.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/hrlspaxbr5en04afvnox.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/quwrneuc9810sa6hxsjo.png",
         "key_art_url": "",
         "game_name": "Starcraft 2",
         "igdb_name": "StarCraft II: Wings of Liberty",
@@ -10040,6 +10342,31 @@
         ],
         "release_date": 1409616000
     },
+    "skul": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Skul: The Hero Slayer",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "sly1": {
         "igdb_id": "1798",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1p0r.png",
@@ -10278,7 +10605,7 @@
     "sm64hacks": {
         "igdb_id": "1074",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co721v.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar57hy.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nab.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
         "game_name": "SM64 Romhack",
         "igdb_name": "Super Mario 64",
@@ -10354,7 +10681,7 @@
         "igdb_id": "1103",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5osy.png",
         "artwork_url": "",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7j.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7i.png",
         "game_name": "Super Metroid Map Rando",
         "igdb_name": "Super Metroid",
         "age_rating": "7",
@@ -12501,7 +12828,7 @@
         "platforms": [
             "Nintendo GameCube"
         ],
-        "storyline": "",
+        "storyline": "In the seaside town of Rogueport, Princess Peach acquires a mysterious treasure map said to point to a great fortune hidden behind the fabled Thousand-Year Door, sealed beneath ruins built atop a town that sank long ago. Peach sends the map to Mario, but she is soon kidnapped by an alien group called the X-Nauts who are after the same treasure. Mario travels to Rogueport and learns that the map reveals the locations of seven Crystal Stars needed to open the door. Gathering allies along the way, he sets out to collect the stars, rescue the princess, and uncover the secret of what lies behind the Thousand-Year Door.",
         "keywords": [
             "ghosts",
             "dinosaurs",
@@ -12701,7 +13028,8 @@
             "Fantasy"
         ],
         "platforms": [
-            "Nintendo GameCube"
+            "Nintendo GameCube",
+            "Wii U"
         ],
         "storyline": "Set hundreds of years after the events of Ocarina of Time, The Wind Waker finds the hero Link living with his grandmother on the Outset Island, one of the many small islands lost amidst the waters of the Great Sea. On his tenth birthday, Link encounters a giant bird carrying a girl. He rescues the girl, but as a result his own sister is taken away by the bird. The girl is a pirate captain named Tetra, who agrees to help Link find and rescue his sister. During the course of their journey, the two of them realize that a powerful, legendary evil is active again, and must find a way to stop him.",
         "keywords": [
