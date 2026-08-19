@@ -1,10 +1,13 @@
 {
     "game": "VVVVVV",
+    "world_version": "0.5.1",
     "authors": [
         "N00byKing"
     ],
-    "igdb_id": 1990,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_v6-0.0.1-py3-none-any.whl#sha256=3018cc92f2152f7d3e54356c905bac0720f6d5c05475832d92049e7acfb4c87c"
+    "minimum_ap_version": "0.5.1",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_v6-0.5.1-py3-none-any.whl#sha256=5b82b9b04b225889c27397885f5e951144a673c059b731df77dc60e4f2085b30",
+    "disk_space_mb": 1,
+    "igdb_id": 1990
 }

@@ -1,10 +1,14 @@
 {
     "game": "Xenoblade X",
     "authors": [
-        "Maragon"
+        "Maragon",
+        "Nina"
     ],
-    "igdb_id": 2366,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_xenobladex-0.0.1-py3-none-any.whl#sha256=dd984a49b069332be8fdfd4b2a5eb79c25b48064dade7c8015e23435ef84c949"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.2.3",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_xenobladex-0.2.3-py3-none-any.whl#sha256=151c6ca9285ee8be9fc241ca8e799af499b8c24cc16604589fac0d7a1b2afa8f",
+    "disk_space_mb": 1,
+    "igdb_id": 2366
 }

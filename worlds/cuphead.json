@@ -1,10 +1,19 @@
 {
-    "version": 6,
-    "compatible_version": 5,
+    "version": 7,
+    "compatible_version": 7,
     "game": "Cuphead",
-    "world_version": "0.2.16909311",
-    "world_version_full": "alpha02i.1",
-    "minimum_ap_version": "0.6.0",
+    "authors": [
+        "JKLeckr"
+    ],
+    "license": "MPL-2.0",
+    "repo_url": "https://github.com/JKLeckr/Archipelago-cuphead",
+    "flags": [
+        "supports_deathlink"
+    ],
     "igdb_id": 9061,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cuphead-0.2.16909311-py3-none-any.whl#sha256=d5efb9a60dbb53aba29eb06bb700c126ca08daba97efc36d249b7f8037a8a773"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.2.20020715",
+    "world_friendly_version": "alpha03h.5",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_cuphead-0.2.20020715-py3-none-any.whl#sha256=b7e81c4b3e34365544ed44218aa0e0dea9db4c75b3b6dda3bec6d495cc3dbbcc",
+    "disk_space_mb": 1
 }
