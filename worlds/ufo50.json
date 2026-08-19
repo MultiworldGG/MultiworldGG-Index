@@ -1,13 +1,11 @@
 {
     "game": "UFO 50",
-    "authors": [
-        "LeonarthCG",
-        "ScipioWright"
-    ],
-    "igdb_id": 54555,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.2.1",
+    "authors": [],
+    "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_ufo50-0.2.1-py3-none-any.whl#sha256=4c5f72db134c7b1aa8861e868b2d206844308ac10703d39fc76dac676f5ff8c6"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_ufo50-0.2.1-py3-none-any.whl#sha256=8cdecf31d935b8120aa10301aa81dbd7b647dd7a6aa9d9e8e46b1093bd354056",
+    "disk_space_mb": 1,
+    "igdb_id": 54555
 }
