@@ -1,13 +1,10 @@
 {
     "game": "Sonic Adventure 2 Battle",
-    "authors": [
-        "PoryGone",
-        "RaspberrySpaceJam"
-    ],
-    "igdb_id": 192194,
-    "minimum_ap_version": "0.6.3",
-    "world_version": "2.4.3",
+    "world_version": "0.0.1",
+    "authors": [],
     "version": 7,
     "compatible_version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sa2b-2.4.3-py3-none-any.whl#sha256=e7000cd65041b348727635d03ff3447c195a0d29e480749a185342c4b2661909"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sa2b-0.0.1-py3-none-any.whl#sha256=65e45be6295140ea84458d66774134dd9d93be753f3336b25daa58927febaadd",
+    "disk_space_mb": 1,
+    "igdb_id": 192194
 }
