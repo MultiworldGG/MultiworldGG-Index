@@ -1,9 +1,11 @@
 {
     "game": "Into the Breach",
-    "igdb_id": 27117,
-    "minimum_ap_version": "0.6.0",
     "world_version": "0.15.18",
+    "authors": [],
+    "minimum_ap_version": "0.6.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_into_the_breach-0.15.18-py3-none-any.whl#sha256=90ec54c66effee7739988516709d8ddf6c1b03df5fefaa4dae1ce68ad5897e1e"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_into_the_breach-0.15.18-py3-none-any.whl#sha256=59094c8b01bcbfe3c5d4f3a7cbeef5978b7abaa2a8d6969cffe571002e7d155c",
+    "disk_space_mb": 1,
+    "igdb_id": 27117
 }
