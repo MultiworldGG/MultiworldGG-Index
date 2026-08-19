@@ -1,11 +1,10 @@
 {
+    "game": "Ori and the Blind Forest",
+    "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "game": "Ori and the Blind Forest",
-    "authors": [
-        "Gray"
-    ],
-    "igdb_id": 7344,
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_oribf-0.0.2-py3-none-any.whl#sha256=a283da82e3459b1ab048c5f05c15bc5d2fe131a9d621f284eb85c789ad5c2f7f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_oribf-0.0.1-py3-none-any.whl#sha256=f640e0eb8868f98fb5228c4c56f22c0ef40b5331d8a3d9592b2850a6dd9ec299",
+    "disk_space_mb": 1,
+    "igdb_id": 7344
 }
