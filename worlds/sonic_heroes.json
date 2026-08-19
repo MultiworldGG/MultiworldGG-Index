@@ -7,6 +7,7 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sonic_heroes-2.1.0-py3-none-any.whl#sha256=f8a505df34905841c032a186c974761fed536513b425c9bf2261a34b841ff264",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sonic_heroes-2.1.0-py3-none-any.whl#sha256=0dd5cc6af35bef7d069d6bcea143b58f005fe4099da92a314e1eb86291fb5cdb",
+    "disk_space_mb": 1,
     "igdb_id": 4156
 }
