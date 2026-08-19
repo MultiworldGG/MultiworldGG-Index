@@ -1,12 +1,10 @@
 {
     "game": "Pokemon Red and Blue",
-    "authors": [
-        "Alchav"
-    ],
-    "igdb_id": 1561,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pokemon_rb-0.0.1-py3-none-any.whl#sha256=098feec961d4dede62a1cc126722aea729f9c4acea39e36d8c9b541addb8f49a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_pokemon_rb-0.0.1-py3-none-any.whl#sha256=45ffaa246407d5fb7a7ba5c1f3ab2f23dfbec6df540d303d9f1350f3a8148a9c",
+    "disk_space_mb": 1,
+    "igdb_id": 1561
 }
