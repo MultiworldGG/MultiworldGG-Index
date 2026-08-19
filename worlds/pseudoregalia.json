@@ -1,13 +1,11 @@
 {
     "game": "Pseudoregalia",
-    "authors": [
-        "LittleMeowMeow",
-        "qwint"
-    ],
-    "igdb_id": 259465,
-    "minimum_ap_version": "0.6.2",
     "world_version": "0.10.2",
+    "authors": [],
+    "minimum_ap_version": "0.6.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pseudoregalia-0.10.2-py3-none-any.whl#sha256=7ff567cf07180ba6505976415e8814d9190198776efbfe9295b4520709487ba5"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_pseudoregalia-0.10.2-py3-none-any.whl#sha256=4388ae03dc132e992130baf16cfcb287ebae98dd1787362980038b3734cc0d92",
+    "disk_space_mb": 1,
+    "igdb_id": 259465
 }
