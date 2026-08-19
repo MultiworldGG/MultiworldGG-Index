@@ -2,12 +2,14 @@
     "game": "Trackmania",
     "authors": [
         "SerialBoxes",
-        "Kaito Sinclaire"
+        "Kaito Sinclaire",
+        "BREZ"
     ],
-    "igdb_id": 133807,
     "minimum_ap_version": "0.6.0",
     "world_version": "1.3.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_trackmania-1.3.2-py3-none-any.whl#sha256=b83457d0fdc90f5a10e3a0ad03a605db2aa84620d3fe7770e9e4a48723bcfab3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_trackmania-1.3.2-py3-none-any.whl#sha256=5895e6c1aff0e4d23b7977598899f651aecc76cb58506ec68c4002b73ec9b17e",
+    "disk_space_mb": 1,
+    "igdb_id": 133807
 }
