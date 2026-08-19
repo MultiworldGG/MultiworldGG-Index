@@ -1,10 +1,13 @@
 {
     "game": "Overcooked! 2",
+    "world_version": "0.0.1",
     "authors": [
         "toasterparty"
     ],
-    "igdb_id": 103341,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=3afe3bdf997bd90a66dc2b89ee002010b2ca7f04635cadceef8bbc247a077cea"
+    "minimum_ap_version": "0.3.8",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=286dbf9c56f6bb4ef5a395a24caa12ade5414eb88319dac0f9ae54169a844c2b",
+    "disk_space_mb": 1,
+    "igdb_id": 103341
 }
