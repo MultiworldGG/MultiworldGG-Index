@@ -7,7 +7,7 @@
     "version": 7,
     "compatible_version": 7,
     "game": "A Link Between Worlds",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_albw-0.3.2-py3-none-any.whl#sha256=21fd107c24b0fb11dd35fbd89c3076d8d65feeb403944c2a6157050daf878ba8",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_albw-0.3.2-py3-none-any.whl#sha256=066688cc528284798cf9516207ee38c5ef87d27ea721382d6fb510d11910e3aa",
     "disk_space_mb": 6,
     "igdb_id": 2909
 }
