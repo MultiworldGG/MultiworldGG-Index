@@ -1,10 +1,13 @@
 {
     "game": "Wario Land",
+    "world_version": "0.0.1",
     "authors": [
         "rand0"
     ],
-    "igdb_id": 1072,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_wl-0.0.1-py3-none-any.whl#sha256=dc08f9f27db936ad107d4e603bbdee96a3dfb99cefb1a9206f871942f5a96d76"
+    "minimum_ap_version": "0.4.3",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_wl-0.0.1-py3-none-any.whl#sha256=f333aebf99c60dc6aab8adfae94e8d404b9d4400a02ce5de836b8b8c40726e6d",
+    "disk_space_mb": 1,
+    "igdb_id": 1072
 }
