@@ -5,6 +5,7 @@
     ],
     "minimum_ap_version": "0.6.6",
     "world_version": "1.0.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_saving_princess-1.0.0-py3-none-any.whl#sha256=8bb881b1dd913d370c232ac3ae788c1e6a6a12d66eecfeb68e854ca957a095fd",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_saving_princess-1.0.0-py3-none-any.whl#sha256=2a6e50a68394b40ac921d1981a5d8653052b6f9c4b6e1793f50f0968e8a566b7",
+    "disk_space_mb": 1,
     "igdb_id": 358859
 }
