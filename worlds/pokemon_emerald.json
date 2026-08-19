@@ -5,6 +5,7 @@
     "authors": [
         "Zunawe"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pokemon_emerald-2.5.0-py3-none-any.whl#sha256=afdf45d6c503b117dd5179b3c2e14f3846cb66929ce1b9b97600d905152ab82e",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_pokemon_emerald-2.5.0-py3-none-any.whl#sha256=592b1c90f040d5d4f6907c65b7de3926642b807070863cac481b61045ab75cd7",
+    "disk_space_mb": 1,
     "igdb_id": 1517
 }
