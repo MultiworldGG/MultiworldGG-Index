@@ -8,7 +8,7 @@
     "game": "Dark Souls Remastered",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_dsr-0.2.4-py3-none-any.whl#sha256=6f82cc725cdcfca724ff6cac92c29b2cac5b292fb59d270d664267b2226d2fc6",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_dsr-0.2.4-py3-none-any.whl#sha256=af5181c8eea42fc2aa019614710c14612b555d9a6f3e91c34d10fb42d7ecc251",
     "disk_space_mb": 1,
     "igdb_id": 81085
 }
