@@ -8,6 +8,7 @@
         "Evilwb",
         "JacobMIX"
     ],
-    "igdb_id": 1770,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_rac2-0.6.4-py3-none-any.whl#sha256=047c3cb320f51665d25745fe6fae27d8ea9efbac8bc9ca73e1ce6160ac8a0f93"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_rac2-0.6.4-py3-none-any.whl#sha256=e20d48febeae003404ad320b184bc309923baccb4f8fa7453db375de4b993b23",
+    "disk_space_mb": 1,
+    "igdb_id": 1770
 }
