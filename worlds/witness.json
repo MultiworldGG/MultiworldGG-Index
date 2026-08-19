@@ -1,11 +1,12 @@
 {
     "game": "The Witness",
-    "igdb_id": 5601,
     "minimum_ap_version": "0.6.4",
     "world_version": "8.0.0",
     "authors": [
         "NewSoupVi",
         "blastron"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_witness-8.0.0-py3-none-any.whl#sha256=ba3bb61b440171de06f6bbb6900ce6a593172bb401a7d078333f98afb9c1bb74"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_witness-8.0.0-py3-none-any.whl#sha256=a53376eb7667a2695a7f36e8e060be6a0eeb643e522016b0ac1b780041bb62ae",
+    "disk_space_mb": 1,
+    "igdb_id": 5601
 }
