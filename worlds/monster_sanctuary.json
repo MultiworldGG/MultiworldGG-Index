@@ -1,10 +1,13 @@
 {
     "game": "Monster Sanctuary",
+    "world_version": "0.0.1",
     "authors": [
         "Saagael"
     ],
-    "igdb_id": 89594,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_monster_sanctuary-0.0.1-py3-none-any.whl#sha256=04899247af206913485f1aa9234b79fb85dc30ef95680135667e99602da0348a"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_monster_sanctuary-0.0.1-py3-none-any.whl#sha256=a2ad6a6be7e1dc2f73f22c0f860e1d6f5b5e43f100985aa381ffe90ba940b2f2",
+    "disk_space_mb": 1,
+    "igdb_id": 89594
 }
