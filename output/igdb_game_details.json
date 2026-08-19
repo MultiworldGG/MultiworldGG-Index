@@ -11800,6 +11800,31 @@
         ],
         "release_date": 926985600
     },
+    "taylorswift": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Taylor Swift Discography",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "tboir": {
         "igdb_id": "310643",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8kxf.png",
