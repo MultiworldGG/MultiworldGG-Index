@@ -8,6 +8,6 @@
   "minimum_ap_version": "0.6.7",
   "version": 7,
   "compatible_version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_grinch-1.6.1-py3-none-any.whl#sha256=e882fde304db0bf66bf4c222c69f84647087730f97c8b7fbf77cc0f877941aee",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_grinch-1.6.1-py3-none-any.whl#sha256=2abbaeff337ee37effc6af0bd5edf8cae7e961947baca90fcebc714e2fba9b2e",
   "disk_space_mb": 1
 }
