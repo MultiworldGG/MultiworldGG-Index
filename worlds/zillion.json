@@ -1,10 +1,13 @@
 {
     "game": "Zillion",
+    "world_version": "0.0.1",
     "authors": [
         "beauxq"
     ],
-    "igdb_id": 18141,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_zillion-0.0.2-py3-none-any.whl#sha256=d0fd3a835fff2926d91fa1e231d36538ff27923d339be5f53abcbe97c7a8cd5a"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_zillion-0.0.1-py3-none-any.whl#sha256=5f6ecc264207a18e63c5e0683148c746e73ef1a142cddd42be827ec32a71701d",
+    "disk_space_mb": 1,
+    "igdb_id": 18141
 }
