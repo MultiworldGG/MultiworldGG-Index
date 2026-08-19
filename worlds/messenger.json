@@ -3,10 +3,10 @@
     "authors": [
         "alwaysintreble"
     ],
-    "igdb_id": 71628,
-    "world_version": "0.0.2",
-    "minimum_ap_version": "0.6.4",
+    "world_version": "0.16.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_messenger-0.0.2-py3-none-any.whl#sha256=d1b63a652e405e24ae7dcecfb457d120066e4ffb051df6afd684b58af91e5b02"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_messenger-0.16.0-py3-none-any.whl#sha256=311bc7b2c23a017d5936e6b2faabcef9a7c84f7ce1ad17248fc75be17a527139",
+    "disk_space_mb": 1,
+    "igdb_id": 71628
 }

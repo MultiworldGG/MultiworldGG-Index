@@ -1,0 +1,10 @@
+{
+  "game": "Hades2Rogue",
+  "minimum_ap_version": "0.6.4",
+  "world_version": "0.9.3",
+  "authors": [
+    "BrittisH39"
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_hades2rogue-0.9.3-py3-none-any.whl#sha256=8a7b5eb6d24ec03ca8028308f64a02cf1637f259662237a6fe794a42891d9d05",
+  "disk_space_mb": 1
+}

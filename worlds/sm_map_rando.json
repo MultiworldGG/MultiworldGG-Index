@@ -1,10 +1,13 @@
 {
     "game": "Super Metroid Map Rando",
+    "minimum_ap_version": "0.6.6",
+    "world_version": "0.119.3",
     "authors": [
         "lordlou"
     ],
-    "igdb_id": 1103,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sm_map_rando-0.0.1-py3-none-any.whl#sha256=4db9192517777f76de37fdf40ba954833ef33d3517241cb272701c540b4ef5d6"
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sm_map_rando-0.119.3-py3-none-any.whl#sha256=76fa96ec4aaac26b335cf91e22fb3a2b234b06118d3678ca9028a60c4eeb25f5",
+    "disk_space_mb": 8,
+    "igdb_id": 1103
 }

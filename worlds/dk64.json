@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.5",
-    "world_version": "1.5.7",
+    "world_version": "1.5.8",
     "authors": [
         "2dos",
         "AlmostSeagull",
@@ -11,9 +11,10 @@
         "PoryGone",
         "Umed"
     ],
-    "igdb_id": 1096,
     "version": 7,
     "compatible_version": 7,
     "game": "Donkey Kong 64",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-09/worlds_dk64-1.5.7-py3-none-any.whl#sha256=770dd6cbb2464e5f4785c2507f7cfc015abe7f723a9b1b87d14db31b9412a55d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_dk64-1.5.8-py3-none-any.whl#sha256=d5028fee6630551307b83c6229ed432e5dbe4aa29154bff1ec4e006392e26eae",
+    "disk_space_mb": 28,
+    "igdb_id": 1096
 }

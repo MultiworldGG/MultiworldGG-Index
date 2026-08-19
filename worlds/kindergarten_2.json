@@ -3,8 +3,11 @@
     "authors": [
         "Kaito Kid"
     ],
-    "igdb_id": 118637,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_kindergarten_2-0.0.2-py3-none-any.whl#sha256=b29f6da7143a8dcc8b10b5b0312c92ea4293717e82fc6407f81fa016b6320782"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "1.0.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_kindergarten_2-1.0.0-py3-none-any.whl#sha256=c5e6f131adfb30ba5bd4b7b789a2ca81742d295d48d1ca49961a26011fec37ef",
+    "disk_space_mb": 1,
+    "igdb_id": 118637
 }

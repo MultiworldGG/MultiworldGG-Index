@@ -6,10 +6,11 @@
         "TheChiefMoose",
         "LMFinish"
     ],
-    "igdb_id": 2485,
     "minimum_ap_version": "0.6.6",
-    "world_version": "0.6.0",
+    "world_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_luigismansion-0.6.0-py3-none-any.whl#sha256=4a03c7bbc9d407ff7525d132e0a5f08e7a585b108d055a229a50b7f67be6fd12"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_luigismansion-0.6.4-py3-none-any.whl#sha256=70948bf2e8cea8c703a60ee2bbe9d8baa97b367e6d719a2ea363ab2ffd2588f2",
+    "disk_space_mb": 1,
+    "igdb_id": 2485
 }

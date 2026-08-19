@@ -1,13 +1,14 @@
 {
     "game": "Inscryption Beta",
     "minimum_ap_version": "0.6.4",
-    "world_version": "1.4.2",
+    "world_version": "1.4.5",
     "authors": [
         "DrBibop",
         "Glowbuzz"
     ],
-    "igdb_id": 139090,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_inscryption_beta-1.4.2-py3-none-any.whl#sha256=409d79e062f11955464b3f5944a8e462405103a0bc975913caa493028ba63454"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_inscryption_beta-1.4.5-py3-none-any.whl#sha256=08d34cd748c78eab230170c843de8c3de111a69aebe390ebd531c128417c01ad",
+    "disk_space_mb": 1,
+    "igdb_id": 139090
 }
