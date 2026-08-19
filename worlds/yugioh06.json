@@ -1,10 +1,13 @@
 {
     "game": "Yu-Gi-Oh! 2006",
+    "world_version": "0.0.1",
     "authors": [
         "Rensen3"
     ],
-    "igdb_id": 49377,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yugioh06-0.0.1-py3-none-any.whl#sha256=caefd2dddad052ecae81d4b0e190011a1f1da8c136804491edeea48b5dcc7fb6"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_yugioh06-0.0.1-py3-none-any.whl#sha256=3969251ff232dddb8a92377f26acb171857d1d56883b48f9817952cb3b5d9744",
+    "disk_space_mb": 1,
+    "igdb_id": 49377
 }
