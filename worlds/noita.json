@@ -4,8 +4,9 @@
         "Heinermann",
         "ScipioWright"
     ],
-    "igdb_id": 52006,
     "minimum_ap_version": "0.6.4",
     "world_version": "1.4.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_noita-1.4.0-py3-none-any.whl#sha256=fa54e55bbe472bd9f023a165df7f429fa22de42ba781f5b71046d2c9572b1351"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_noita-1.4.0-py3-none-any.whl#sha256=1f0a888ccb1838deed47256e6430d0febd68ca6b742798071f27fc90a49c01fe",
+    "disk_space_mb": 1,
+    "igdb_id": 52006
 }
