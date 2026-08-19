@@ -1,10 +1,13 @@
 {
     "game": "Mario Kart 64",
+    "world_version": "0.0.1",
     "authors": [
         "Edsploration"
     ],
-    "igdb_id": 2342,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mk64-0.0.1-py3-none-any.whl#sha256=0ef1d631fe535ea047d0fce8a965fda16484ec22c62c8ac8bd71025a14706bdb"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_mk64-0.0.1-py3-none-any.whl#sha256=a9b7b925fe41126f154fcab44dfb05d2b68c8a7f479f20067894fdd219bcca72",
+    "disk_space_mb": 1,
+    "igdb_id": 2342
 }
