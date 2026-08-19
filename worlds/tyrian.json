@@ -5,8 +5,9 @@
     "authors": [
         "Kaito Sinclaire"
     ],
-    "igdb_id": 14432,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.0.5",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_tyrian-1.0.5-py3-none-any.whl#sha256=8dfabeaf7f6d220ea90a8eae62a23ce994e33557502350ea3ae1c86766537fb5"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_tyrian-1.0.5-py3-none-any.whl#sha256=f1fc365f0b910d39eb8c2353363cdba80190ae49b776b417001f5727eb16ed67",
+    "disk_space_mb": 1,
+    "igdb_id": 14432
 }
