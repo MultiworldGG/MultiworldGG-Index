@@ -6,8 +6,9 @@
         "ArsonAssassin",
         "Uroogla"
     ],
-    "igdb_id": 1578,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_spyro3-1.3.5-py3-none-any.whl#sha256=b5fb80cc3243811bcefe51ce5996596952ae6500a23966deb12e07b218c6e541"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_spyro3-1.3.5-py3-none-any.whl#sha256=e5215119304078da1f6b2fdf741ecbceffb5e7f8f0b247f9be5544781e7ecc45",
+    "disk_space_mb": 1,
+    "igdb_id": 1578
 }
