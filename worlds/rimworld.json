@@ -1,12 +1,10 @@
 {
     "game": "Rimworld",
-    "authors": [
-        "Phantom Of Ares"
-    ],
-    "igdb_id": 9789,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "1.2.5",
+    "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_rimworld-1.2.5-py3-none-any.whl#sha256=3c612743678ade7e2368d8e25fc59dd42609476e9a0792413e609b8d4cfe66fa"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_rimworld-0.0.1-py3-none-any.whl#sha256=faee923ada68d9de693c57a90f0038364adeeaba284fc327209c31c631eac1ae",
+    "disk_space_mb": 1,
+    "igdb_id": 9789
 }
