@@ -1,10 +1,13 @@
 {
     "game": "Super Mario 64",
+    "world_version": "0.0.1",
     "authors": [
         "N00byKing"
     ],
-    "igdb_id": 1074,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_sm64ex-0.0.1-py3-none-any.whl#sha256=1f0949a24807a507012571ccc5b495571f9cc4639f4310320ac85a65232e3cbd"
+    "minimum_ap_version": "0.3.5",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sm64ex-0.0.1-py3-none-any.whl#sha256=2f6d8abf529fa8b48afdae24ac95acb505650fdc680d4c6d00ed63a4d3a6aad8",
+    "disk_space_mb": 1,
+    "igdb_id": 1074
 }
