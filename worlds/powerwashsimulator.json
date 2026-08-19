@@ -5,8 +5,9 @@
     "authors": [
         "SW_CreeperKing"
     ],
-    "igdb_id": 138590,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_powerwashsimulator-0.5.14-py3-none-any.whl#sha256=59e90e7852bb9e492cece5f03c04e66e3602b788714a4ae0db4cbf3cb0fe486f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_powerwashsimulator-0.5.14-py3-none-any.whl#sha256=5223a4a8a8fe4bd1e826faf105af498a1ff396c195d818e527036980dfc74274",
+    "disk_space_mb": 1,
+    "igdb_id": 138590
 }
