@@ -1,10 +1,13 @@
 {
     "game": "Undertale",
+    "world_version": "0.0.1",
     "authors": [
         "jonloveslegos"
     ],
-    "igdb_id": 12517,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_undertale-0.0.1-py3-none-any.whl#sha256=7fa16067070abaa01414d21af1be3f3a3ffa849f49437d7828fd4213c97648b5"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_undertale-0.0.1-py3-none-any.whl#sha256=fef1fe97a71435d536866370888b1f43b7a596e2fca82f157d8d489604dd6024",
+    "disk_space_mb": 1,
+    "igdb_id": 12517
 }
