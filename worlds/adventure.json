@@ -1,10 +1,13 @@
 {
     "game": "Adventure",
+    "world_version": "0.0.1",
     "authors": [
         "JusticePS"
     ],
-    "igdb_id": 12239,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.8",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_adventure-0.0.8-py3-none-any.whl#sha256=7f264bb9e4859e887f912f3a9e93efa016df106dd8288109c81e6764122e9896"
+    "minimum_ap_version": "0.3.9",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_adventure-0.0.1-py3-none-any.whl#sha256=9fdcf9179d7edcb7a2b28178a0e652be69839004e0ad24ddc63147a6e3bfbf59",
+    "disk_space_mb": 1,
+    "igdb_id": 12239
 }
