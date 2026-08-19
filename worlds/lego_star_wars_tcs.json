@@ -11,8 +11,9 @@
     "authors": [
         "Mysteryem"
     ],
-    "igdb_id": 2682,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_lego_star_wars_tcs-1.4.4-py3-none-any.whl#sha256=6efbc6fbb4fe9ded4becbdfe11edc9f558f60a3c075c95bcd448bf72bb402851"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_lego_star_wars_tcs-1.4.4-py3-none-any.whl#sha256=5797020787a310939b9aa4f7f1f717b892a24bf6f5ccebdb79cd0cf1db45caa2",
+    "disk_space_mb": 1,
+    "igdb_id": 2682
 }
