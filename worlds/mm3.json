@@ -3,8 +3,9 @@
     "authors": [
         "Silvris"
     ],
-    "igdb_id": 1716,
     "world_version": "0.1.8",
     "minimum_ap_version": "0.6.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mm3-0.1.8-py3-none-any.whl#sha256=79a8974a1c93d6705852de3ffd9d6261ff6dccdce81d1382f3bccb312c9a8094"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_mm3-0.1.8-py3-none-any.whl#sha256=5d532e7668f08079e100b6077e3fff9f3e97fa6fe3528f21427ba800de497916",
+    "disk_space_mb": 1,
+    "igdb_id": 1716
 }
