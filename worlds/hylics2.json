@@ -1,10 +1,13 @@
 {
     "game": "Hylics 2",
+    "world_version": "0.0.1",
     "authors": [
         "TRPG"
     ],
-    "igdb_id": 98469,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_hylics2-0.0.1-py3-none-any.whl#sha256=561cc968354c9a73e4e9962222f02734c52ea565c201bfd690f5c6748cea25ae"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_hylics2-0.0.1-py3-none-any.whl#sha256=4e02b74e5250ce3b424a3df9bee357fd10be4abca7508ef2132ddcf8483b9d46",
+    "disk_space_mb": 1,
+    "igdb_id": 98469
 }
