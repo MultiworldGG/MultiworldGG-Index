@@ -5,7 +5,10 @@
     "authors": [
         "Ishigh"
     ],
+    "license": "MIT",
+    "repo_url": "https://github.com/Ishigh1/Archipelago/tree/2048",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_2048-1.1.2-py3-none-any.whl#sha256=bf5f71614f8697bf3ad3f4d5fbdbc0b9be97ddfa18d51c7bde81cff81ee1ac31"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_2048-1.1.2-py3-none-any.whl#sha256=9f38969dfcd10a043a40714e65ec69b201e65747001622f323ae00f4307a1603",
+    "disk_space_mb": 1
 }
