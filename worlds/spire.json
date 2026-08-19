@@ -1,13 +1,14 @@
 {
     "game": "Slay the Spire",
-    "minimum_ap_version": "0.6.1",
+    "minimum_ap_version": "0.6.2",
     "world_version": "2.3.5",
     "authors": [
         "Platano Bailando",
         "KonoTyran"
     ],
-    "igdb_id": 296831,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_spire-2.3.5-py3-none-any.whl#sha256=97aeb7267340bd32c33719f18187d654479216cb256a77135541573b969ecba2"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_spire-2.3.5-py3-none-any.whl#sha256=8a37973a633a7dc041c57687bded94a3fafe0def3645eaf035b7e67f009b7568",
+    "disk_space_mb": 1,
+    "igdb_id": 296831
 }
