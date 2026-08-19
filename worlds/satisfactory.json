@@ -4,8 +4,9 @@
         "Jarno",
         "Robb"
     ],
-    "igdb_id": 90558,
     "minimum_ap_version": "0.6.3",
     "world_version": "2.3.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_satisfactory-2.3.1-py3-none-any.whl#sha256=a172998844e95bd330df0ac6835ab9ea4ad189e40b071324d8ba004cddd6e3e4"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_satisfactory-2.3.1-py3-none-any.whl#sha256=3f84f305751ef272cc3d3285d4d3fe030249bd41098ae98777ec3d2cba060d29",
+    "disk_space_mb": 1,
+    "igdb_id": 90558
 }
