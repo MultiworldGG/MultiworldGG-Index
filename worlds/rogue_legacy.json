@@ -1,10 +1,13 @@
 {
     "game": "Rogue Legacy",
+    "world_version": "0.0.1",
     "authors": [
         "Phar"
     ],
-    "igdb_id": 3221,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.3.7",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_rogue_legacy-0.3.7-py3-none-any.whl#sha256=5916d854d394e4fb07c539a1fb645305e2f2638e9e9840cea0237c1fd81bafc4"
+    "minimum_ap_version": "0.3.5",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_rogue_legacy-0.0.1-py3-none-any.whl#sha256=de4cea36effffa865cbfddfaf2bba0154d9d2a865f0c959f24b6915dfc4db29c",
+    "disk_space_mb": 1,
+    "igdb_id": 3221
 }
