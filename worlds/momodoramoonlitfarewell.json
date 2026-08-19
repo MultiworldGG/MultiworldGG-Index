@@ -1,10 +1,13 @@
 {
     "game": "Momodora Moonlit Farewell",
+    "world_version": "0.0.1",
     "authors": [
         "alditto"
     ],
-    "igdb_id": 188088,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_momodoramoonlitfarewell-0.0.1-py3-none-any.whl#sha256=e9a5d3bc576e89f7b6440f7aeb919cc20cf61acaee130d7ab61e0d2ecb95e186"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_momodoramoonlitfarewell-0.0.1-py3-none-any.whl#sha256=cd6a0ad6379b23a0f04f98f1a7086c81e692dbeb9f100a2f18d8be033e8afce9",
+    "disk_space_mb": 1,
+    "igdb_id": 188088
 }
