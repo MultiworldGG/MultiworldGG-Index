@@ -1,10 +1,13 @@
 {
     "game": "Getting Over It",
+    "world_version": "0.0.1",
     "authors": [
         "Slimey"
     ],
-    "igdb_id": 72373,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_getting_over_it-0.0.1-py3-none-any.whl#sha256=5deb56e00b68f136ceb0296cc627c16eda8ee0233058c12772fea44c87ce9ed3"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_getting_over_it-0.0.1-py3-none-any.whl#sha256=28a4ac97e6bfdd1f6d0481f252985398064b37f7eed97cc6281327a53c45601b",
+    "disk_space_mb": 1,
+    "igdb_id": 72373
 }
