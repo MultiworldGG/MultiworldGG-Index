@@ -4,10 +4,11 @@
         "Dinopony",
         "Ishigh"
     ],
-    "igdb_id": 1032,
     "minimum_ap_version": "0.6.7",
     "world_version": "20.1.13",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz_oos-20.1.13-py3-none-any.whl#sha256=987e73ce3b4640febc04f274fc35d06119491142a051fbdd90f0dda8df8dbfa9"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_tloz_oos-20.1.13-py3-none-any.whl#sha256=ead6969b988618312dfcb09701751c7308bd318327f0572c2e18c23df94e9492",
+    "disk_space_mb": 1,
+    "igdb_id": 1032
 }
