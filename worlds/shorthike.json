@@ -1,11 +1,14 @@
 {
     "game": "A Short Hike",
+    "world_version": "0.0.1",
     "authors": [
         "chandler05",
         "BrandenEK"
     ],
-    "igdb_id": 116753,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_shorthike-0.0.1-py3-none-any.whl#sha256=bcc7b4c54839792cb5ddbe10734b9f4cfdae22769f6b8a9d2c19c759e7eb8bc3"
+    "minimum_ap_version": "0.4.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_shorthike-0.0.1-py3-none-any.whl#sha256=137707f809ad946bdf449d070f7c8a21328e119c12f44ade070222e20df2be39",
+    "disk_space_mb": 1,
+    "igdb_id": 116753
 }
