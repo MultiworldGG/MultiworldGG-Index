@@ -3,8 +3,9 @@
     "authors": [
         "KewlioMZX"
     ],
-    "igdb_id": 78479,
     "world_version": "1.0.0",
     "minimum_ap_version": "0.6.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_meritous-1.0.0-py3-none-any.whl#sha256=7c0ddf292e6b1101cecc059f5121ac5d0238f3de8c496d3637416a7376889429"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_meritous-1.0.0-py3-none-any.whl#sha256=2a65348aafd62218d73238b349131425bbf0e8bbbcda790a22ee4761f638a573",
+    "disk_space_mb": 1,
+    "igdb_id": 78479
 }
