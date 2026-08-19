@@ -1,10 +1,13 @@
 {
     "game": "ArchipIDLE",
+    "world_version": "0.0.1",
     "authors": [
         "LegendaryLinux"
     ],
-    "igdb_id": 0,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_archipidle-0.0.1-py3-none-any.whl#sha256=5eb84c35fc8b84f7edcbf8f96f4ff0f2f0365eb60edc8f45af423215c91ea882"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_archipidle-0.0.1-py3-none-any.whl#sha256=170b67f976b9f324a2168d0a99967fea88f74a13b978a7e65aa44dc925f40d42",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }
