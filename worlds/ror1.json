@@ -1,10 +1,13 @@
 {
     "game": "Risk of Rain",
+    "world_version": "0.0.1",
     "authors": [
         "studkid"
     ],
-    "igdb_id": 3173,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ror1-0.0.1-py3-none-any.whl#sha256=b6720113129cfff6bf6de31aa739fd44555b5abb8937c470c3c4d43419d31ba2"
+    "minimum_ap_version": "0.5.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_ror1-0.0.1-py3-none-any.whl#sha256=4657747e38936017442c30eb4cbfe37e2981f860434201e5817c62654e2f63e0",
+    "disk_space_mb": 1,
+    "igdb_id": 3173
 }
