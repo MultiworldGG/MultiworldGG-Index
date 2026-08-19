@@ -1,10 +1,10 @@
 {
     "game": "Final Fantasy",
+    "world_version": "1.0.0",
     "authors": [
         "Rosalie"
     ],
-    "igdb_id": 385,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "1.0.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ff1-1.0.0-py3-none-any.whl#sha256=2ca609cc77acb4b224b58317de019478e5fd6f7d6800bb64a65f9873bec8abe0"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_ff1-1.0.0-py3-none-any.whl#sha256=1908e2132b9445cbfde2cd13aadaa3a0d6e5c36a85a7e5af34aa6e74a1bc8957",
+    "disk_space_mb": 1,
+    "igdb_id": 385
 }
