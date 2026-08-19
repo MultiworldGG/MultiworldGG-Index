@@ -1,11 +1,14 @@
 {
-    "game": "Lufia II: Ancient Cave",
+    "game": "Lufia II Ancient Cave",
+    "world_version": "0.0.1",
     "authors": [
         "el-u",
         "word_fcuk"
     ],
-    "igdb_id": 1178,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_lufia2ac-0.0.2-py3-none-any.whl#sha256=456e91244dee54915ad0def6bffac99edbccbc2129d3e26741e7f216e4651506"
+    "minimum_ap_version": "0.4.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_lufia2ac-0.0.1-py3-none-any.whl#sha256=b925e7734ab1a4cff37a5a9208b7961eb4f225f867a2338e2f102568e3c3adf9",
+    "disk_space_mb": 1,
+    "igdb_id": 1178
 }
