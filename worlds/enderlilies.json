@@ -1,10 +1,13 @@
 {
     "game": "Ender Lilies",
+    "world_version": "0.0.1",
     "authors": [
         "Trexounay"
     ],
-    "igdb_id": 138858,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_enderlilies-0.0.1-py3-none-any.whl#sha256=2046ba68cb5e237b94e24b007fd27e56fcf55a218c52af2c06fca25adfe9e226"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_enderlilies-0.0.1-py3-none-any.whl#sha256=3e20098f5411daa00bdf9cc045dc8da1db374205a49dd9a4a639ff8809bf6389",
+    "disk_space_mb": 1,
+    "igdb_id": 138858
 }
