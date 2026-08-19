@@ -5,10 +5,11 @@
         "g0goTBC",
         "Austin"
     ],
-    "igdb_id": 3418,
-    "minimum_ap_version": "0.6.3",
-    "world_version": "4.12.0",
+    "minimum_ap_version": "0.6.7",
+    "world_version": "4.13.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_banjo_tooie-4.12.0-py3-none-any.whl#sha256=7b056e1bd57fa2e94748b7821e2dd944d490bdfb915887c1e08d2d952c14e7b2"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_banjo_tooie-4.13.0-py3-none-any.whl#sha256=d2338c819b78896d8bb9d0ba2f1f796f557d76d78ab305d5a6dae2d78f4a8ff2",
+    "disk_space_mb": 1,
+    "igdb_id": 3418
 }

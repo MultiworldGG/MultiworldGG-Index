@@ -1,0 +1,20 @@
+{
+  "__apdoom": {
+    "definitions": "heretic_beta/heretic.game.json",
+    "full_name": "(Beta) Heretic",
+    "iwad": "HERETIC.WAD",
+    "short_name": "heretic"
+  },
+  "authors": [
+    "Daivuk",
+    "Kaito Sinclaire",
+    "Forsaken Angel"
+  ],
+  "compatible_version": 7,
+  "game": "Heretic (Beta)",
+  "minimum_ap_version": "0.6.3",
+  "version": 7,
+  "world_version": "2.0.20260629",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_heretic_beta-2.0.20260629-py3-none-any.whl#sha256=f90b04187c889b4b481a8796d9f63926e960a089c3973f9a1e609f62c8159044",
+  "disk_space_mb": 1
+}

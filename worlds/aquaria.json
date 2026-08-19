@@ -1,10 +1,11 @@
 {
     "game": "Aquaria",
     "authors": [
-        "tioui"
+        "Tioui"
     ],
-    "igdb_id": 7406,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_aquaria-0.0.1-py3-none-any.whl#sha256=4a7d63215005d068220e72eb4478cdeed68a470a996be08ced03af3e12149995"
+    "world_version": "1.5.2",
+    "minimum_ap_version": "0.6.0",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_aquaria-1.5.2-py3-none-any.whl#sha256=e7ca5db6bf2dbc8273c97bd3286a122fe901ca602f976cd815cef87f28d33574",
+    "disk_space_mb": 1,
+    "igdb_id": 7406
 }

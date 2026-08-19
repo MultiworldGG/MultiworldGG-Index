@@ -3,10 +3,11 @@
     "authors": [
         "ClassicSpeed"
     ],
-    "igdb_id": 192114,
     "minimum_ap_version": "0.6.3",
-    "world_version": "1.2.1",
+    "world_version": "1.2.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sadx-1.2.1-py3-none-any.whl#sha256=d691ba493e42c6d088314c55ea514633a0639dfea165301e22c47fe0d10bc6e5"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sadx-1.2.2-py3-none-any.whl#sha256=d9ced58b0a348e113a0607cda783466fc790dd88f68562361f50b68c70850a66",
+    "disk_space_mb": 4,
+    "igdb_id": 192114
 }

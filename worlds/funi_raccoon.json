@@ -1,0 +1,12 @@
+{
+  "game": "Funi Raccoon Game",
+  "minimum_ap_version": "0.6.7",
+  "world_version": "1.6.1",
+  "authors": [
+    "Jeffdev"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_funi_raccoon-1.6.1-py3-none-any.whl#sha256=ab92a7008dcc0473505dabbb4a7d3caef667e7cbfcdd54bd17f30609ba38eff8",
+  "disk_space_mb": 1
+}

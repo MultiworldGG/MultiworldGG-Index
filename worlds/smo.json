@@ -1,10 +1,14 @@
 {
     "game": "Super Mario Odyssey",
     "authors": [
-        "Kgamer77"
+        "Kgamer77",
+        "Adi"
     ],
-    "igdb_id": 26758,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_smo-0.0.1-py3-none-any.whl#sha256=11860c67a421c5d95164e85d1ee5f6ddcde434aa0a7b3cb9bf703d1561b0ce20"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "1.7.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_smo-1.7.4-py3-none-any.whl#sha256=ddf7214858201ff834ae8553c9d354171758d982fc3ca2f6b4095b5fa9789b26",
+    "disk_space_mb": 1,
+    "igdb_id": 26758
 }

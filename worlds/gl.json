@@ -1,0 +1,10 @@
+{
+  "game": "Gauntlet Legends",
+  "authors": [
+    "jamesbrq"
+  ],
+  "minimum_ap_version": "0.6.6",
+  "world_version": "2.1.7",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_gl-2.1.7-py3-none-any.whl#sha256=ad59a3e279461b70cd964affa152487b2f6d2da3ba7a81e751ff353bd3173d01",
+  "disk_space_mb": 1
+}
