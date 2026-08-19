@@ -1,10 +1,9 @@
 {
     "game": "Mega Man 2",
-    "authors": [
-        "Silvris"
-    ],
-    "igdb_id": 1734,
     "world_version": "0.3.3",
+    "authors": [],
     "minimum_ap_version": "0.6.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mm2-0.3.3-py3-none-any.whl#sha256=2149875bd30dfbcdc261ba554fc9fab98cf28e721a5d656b6a6d068fd707e678"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_mm2-0.3.3-py3-none-any.whl#sha256=14fb8696983860c3eefcf2401b3aedbf8f0887e9ce91b44d8479a3b3acbac900",
+    "disk_space_mb": 1,
+    "igdb_id": 1734
 }
