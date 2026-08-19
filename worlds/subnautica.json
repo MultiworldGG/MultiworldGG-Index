@@ -1,10 +1,13 @@
 {
     "game": "Subnautica",
+    "world_version": "0.0.1",
     "authors": [
         "Berserker66"
     ],
-    "igdb_id": 9254,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.5.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_subnautica-0.5.2-py3-none-any.whl#sha256=1b59aa48e70aac8b2f7b8485c80f4ea6fc2cfb499d1003211c946908b55f1134"
+    "minimum_ap_version": "0.6.2",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_subnautica-0.0.1-py3-none-any.whl#sha256=e94c3f7938d5958f15959f745d56d42d04597e1bbf260eeb34d3e5f084f6bce8",
+    "disk_space_mb": 1,
+    "igdb_id": 9254
 }
