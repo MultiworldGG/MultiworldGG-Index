@@ -1,10 +1,13 @@
 {
     "game": "Super Mario Land 2",
+    "world_version": "0.0.1",
     "authors": [
         "Alchav"
     ],
-    "igdb_id": 1071,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=1d8bf64e7aacce37657c21cbda41216abd33a8d3f1e0e90868f0d36c0d0a570b"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=22cf6343c0a0e5b4b4689616c3143497c366dd3c2ec43d567102c26a9d3462ab",
+    "disk_space_mb": 1,
+    "igdb_id": 1071
 }
