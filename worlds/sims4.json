@@ -1,16 +1,13 @@
 {
   "game": "The Sims 4",
-  "world_version": "2.0.0",
-  "authors": [],
-  "world_version_full": "2.0.0",
+  "world_version": "2.0.1",
+  "world_version_full": "2.0.1",
   "contributors": [
     "mrsummer360",
     "itsmisscactus",
     "silasary"
   ],
-  "compatible_version": 7,
-  "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sims4-2.0.0-py3-none-any.whl#sha256=77407dfc9ce8584e376d3a3e6be7cfb4777c0bac2a5eb7bbf8519d772f397d20",
+  "module_location": "https://github.com/Simsipelago/Archipelago/releases/download/2.0.1/worlds_sims4-2.0.1-py3-none-any.whl#sha256=60843c28740747adcbc9d7ebb0d4fae47aaba2bf827e1b1e662874df6f09e7e5",
   "disk_space_mb": 1,
   "igdb_id": 3212
 }
