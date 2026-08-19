@@ -1,6 +1,5 @@
 {
     "game": "Vampire Survivors",
-    "igdb_id": 186725,
     "minimum_ap_version": "0.6.5",
     "world_version": "0.3.2",
     "authors": [
@@ -8,5 +7,7 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_vampire_survivors-0.3.2-py3-none-any.whl#sha256=679bc2a9cb5df4279d232470ec020a931d2f0bc471d3e53a71571bf3dc57462a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_vampire_survivors-0.3.2-py3-none-any.whl#sha256=f8fbb57d4667e4ef67df6e8ac29fa707a7e4ae47f73cf3cd4f1990fd549f9a33",
+    "disk_space_mb": 1,
+    "igdb_id": 186725
 }
