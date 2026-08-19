@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_poe-2.2.1-py3-none-any.whl#sha256=4bbf1f909e40a3017822fbb4ce278a5af444f43b3d40c1181966c746648b39f1",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_poe-2.2.1-py3-none-any.whl#sha256=a34f0b822ff2ff86df2d29782aa542a69b51fc364db4b1ce6a477610f14b8591",
     "disk_space_mb": 1,
     "igdb_id": 1911
 }
