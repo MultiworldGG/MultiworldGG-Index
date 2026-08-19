@@ -3,10 +3,11 @@
     "authors": [
         "Pink Switch"
     ],
-    "igdb_id": 1136,
     "minimum_ap_version": "0.6.3",
     "world_version": "2.0.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cv_dos-2.0.0-py3-none-any.whl#sha256=4608e758b9b7cf8c6df875dd3acd76dcfa4973a735a41866d62ba4822d9e9f8e"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_cv_dos-2.0.0-py3-none-any.whl#sha256=63bb6553cf8d82db28c6001c4c5e836ceb86d3ce23ac0bf64c27ea835c8a2582",
+    "disk_space_mb": 1,
+    "igdb_id": 1136
 }
