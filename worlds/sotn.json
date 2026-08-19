@@ -1,13 +1,13 @@
 {
     "game": "Symphony of the Night",
     "world_version": "0.8.16",
-    "minimum_ap_version": "0.6.0",
     "authors": [
         "fdelduque"
     ],
-    "igdb_id": 1128,
-    "compatible_version": 7,
+    "minimum_ap_version": "0.6.0",
+    "compatible_version": 6,
     "build_version": 6,
-    "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_sotn-0.8.16-py3-none-any.whl#sha256=1a9f7c58c996055a2d4d6f8f8451b8c9e6bd6579c6ddf9a71e1b86650e3ee0d3"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sotn-0.8.16-py3-none-any.whl#sha256=5d0b1f8a033a470034756c4570db1ec6097277dc1e046d3cb3c7a63decd63366",
+    "disk_space_mb": 1,
+    "igdb_id": 1128
 }
