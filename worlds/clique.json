@@ -1,10 +1,13 @@
 {
     "game": "Clique",
+    "world_version": "0.0.1",
     "authors": [
         "Phar"
     ],
-    "igdb_id": 0,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_clique-0.0.1-py3-none-any.whl#sha256=f5669cc27c6ee41d90465b1bdc5aeae67d2d2281b0125292a7ba66111d943b80"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_clique-0.0.1-py3-none-any.whl#sha256=feb25f06cd65185a7baa05ed8f13e7e7c722d3bc206c6795857e5f397ef30fbf",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }
