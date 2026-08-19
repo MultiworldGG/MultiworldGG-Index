@@ -1,12 +1,13 @@
 {
     "game": "OpenRCT2",
-    "world_version": "0.1.20",
+    "world_version": "0.1.22",
     "authors": [
         "Crazycolbster",
         "Die4Ever"
     ],
-    "igdb_id": 80720,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_openrct2-0.1.20-py3-none-any.whl#sha256=6d8c05a0b4e5c5a79a47a11dd795b455ec0d11f1d1433e162934cec306daa6af"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_openrct2-0.1.22-py3-none-any.whl#sha256=4edab059befbcdea35c1af92bf29b9a78b606c12a049d4e018ddc7013eaae5b4",
+    "disk_space_mb": 2,
+    "igdb_id": 80720
 }

@@ -1,10 +1,10 @@
 {
     "game": "Sly Cooper and the Thievius Raccoonus",
-    "authors": [
-        "Philiard"
-    ],
-    "igdb_id": 1798,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_sly1-0.0.1-py3-none-any.whl#sha256=f06143a0a952879dab98d8a3543f9b061d8ef0378380bab832cee5614e4f1f83"
+    "world_version": "0.3.5",
+    "authors": [],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sly1-0.3.5-py3-none-any.whl#sha256=092265c4346f431fbc6fb78f0a109bcdc65145e679dd100992ce10f6a2247486",
+    "disk_space_mb": 1,
+    "igdb_id": 1798
 }

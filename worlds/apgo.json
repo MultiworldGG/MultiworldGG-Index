@@ -4,8 +4,11 @@
         "Kaito Kid",
         "aki665"
     ],
-    "igdb_id": 0,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_apgo-0.0.1-py3-none-any.whl#sha256=828ca3c1a24f5587dc5c8581fce9de2601cbc3c7725757dc915af7e2015e5477"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.7.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_apgo-0.7.0-py3-none-any.whl#sha256=7bd1f55c7b74e04170e30a50e3ffce4ed3dcd4e3cd28088a36b2bcb806b86cd4",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }

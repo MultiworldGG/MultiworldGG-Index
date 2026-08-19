@@ -3,8 +3,11 @@
     "authors": [
         "Daivuk"
     ],
-    "igdb_id": 1974,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.3.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_faxanadu-0.3.1-py3-none-any.whl#sha256=4e74662e3708402f297904a4f2972266793f5ae1144bb93f32fcbe1f6dffa833"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.3.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_faxanadu-0.3.0-py3-none-any.whl#sha256=0d92ee0e918b10e24710744346f1784c925facb02b749217c5f9dbf7749c5203",
+    "disk_space_mb": 1,
+    "igdb_id": 1974
 }

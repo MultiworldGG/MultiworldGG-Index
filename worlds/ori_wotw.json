@@ -3,10 +3,11 @@
     "authors": [
         "Satisha"
     ],
-    "igdb_id": 37001,
-    "world_version": "0.5.4",
+    "world_version": "0.6.4",
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-09/worlds_ori_wotw-0.5.5-py3-none-any.whl#sha256=3680c310c0fd65acf84deff67414ddf778c32f3041bdc9018d51ebb7e7959cce"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_ori_wotw-0.6.4-py3-none-any.whl#sha256=e6cf4cecdbb3825a2efe88d5041a6e8eb8cfe81e8cdeca79788bc066ed7c766e",
+    "disk_space_mb": 1,
+    "igdb_id": 37001
 }

@@ -3,10 +3,11 @@
     "authors": [
         "Battlecats59"
     ],
-    "igdb_id": 534,
-    "minimum_ap_version": "0.6.5",
-    "world_version": "0.5.5",
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.5.6",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_ss-0.5.5-py3-none-any.whl#sha256=fe9bcabc176adaadf66328c19601b17f1c953dee9666e3f185d210d3e906ae18"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_ss-0.5.6-py3-none-any.whl#sha256=26883c19f74a73345abe9f80b480a382c960ec1666d65609bd0bb51fcad27797",
+    "disk_space_mb": 1,
+    "igdb_id": 534
 }

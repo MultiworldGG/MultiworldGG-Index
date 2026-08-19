@@ -5,6 +5,7 @@
     "authors": [
         "NewSoupVi"
     ],
-    "igdb_id": 0,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_apquest-2.0.0-py3-none-any.whl#sha256=9848d003a72ba5f2c3bb38beba3531acf795acd0c4aca8d602270e5e6b7aaa1c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_apquest-2.0.0-py3-none-any.whl#sha256=a6dd05abf805b166be3f5a3b86720d9d016cf332f42906ccc7acbac31e30b5a2",
+    "disk_space_mb": 6,
+    "igdb_id": 0
 }

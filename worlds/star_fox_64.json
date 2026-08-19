@@ -3,8 +3,11 @@
     "authors": [
         "Austin"
     ],
-    "igdb_id": 2591,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_star_fox_64-0.0.1-py3-none-any.whl#sha256=bb1cf3dec8c83c0318a562c9fdebe2466f4b661e51b988561235f7d82d733d02"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "0.4.1",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_star_fox_64-0.4.1-py3-none-any.whl#sha256=22ba61e85fef017d8cfe501610cae7cc93e5b2df0ac004168bce6993bf9c3267",
+    "disk_space_mb": 1,
+    "igdb_id": 2591
 }

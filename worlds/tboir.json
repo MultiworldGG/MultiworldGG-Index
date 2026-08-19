@@ -1,12 +1,13 @@
 {
     "game": "The Binding of Isaac Repentance",
-    "world_version": "0.3.0",
-    "minimum_ap_version": "0.6.4",
+    "world_version": "0.4.3",
+    "minimum_ap_version": "0.6.7",
     "authors": [
         "NaveTK"
     ],
-    "igdb_id": 310643,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tboir-0.3.0-py3-none-any.whl#sha256=789b042c9f2b36669df4fef36991c37382484daa54b4692cfae0a734cdf55041"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tboir-0.4.3-py3-none-any.whl#sha256=6b95b5fcf28db23cf50f005c287c5e28e49d8ef5ac880e6262f79133e3231d8e",
+    "disk_space_mb": 1,
+    "igdb_id": 310643
 }

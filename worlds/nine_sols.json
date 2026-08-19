@@ -1,12 +1,11 @@
 {
     "game": "Nine Sols",
-    "authors": [
-        "Ixrec"
-    ],
-    "igdb_id": 194821,
+    "world_version": "0.6.2",
+    "authors": [],
     "minimum_ap_version": "0.6.4",
-    "world_version": "0.5.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_nine_sols-0.5.2-py3-none-any.whl#sha256=46bb817d6b5a20dc9c0dcd55477ef0116549824eff981cefd97e699ed1da6ba7"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_nine_sols-0.6.2-py3-none-any.whl#sha256=e6bc071f055dfcd69c395613f8b723ee8237f5ab1142a856161562942d12cb0c",
+    "disk_space_mb": 5,
+    "igdb_id": 194821
 }

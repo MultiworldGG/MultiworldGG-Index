@@ -1,12 +1,13 @@
 {
     "game": "Battle for Bikini Bottom",
-    "minimum_ap_version": "0.6.2",
+    "minimum_ap_version": "0.6.7",
     "world_version": "1.2.5",
     "authors": [
         "Cyb3R"
     ],
-    "igdb_id": 2765,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_bfbb-1.2.5-py3-none-any.whl#sha256=2e0545cb5e3896f237be014694d2ae41646875192211b2bae48cf4f22f3cd1a1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_bfbb-1.2.5-py3-none-any.whl#sha256=764bffd1545554e043e658fbb0b56dc9763aa8385b9c7f5ac1ee1bd139cc6d70",
+    "disk_space_mb": 24,
+    "igdb_id": 2765
 }

@@ -1,0 +1,20 @@
+{
+  "__apdoom": {
+    "definitions": "doom_1993_beta/doom.game.json",
+    "full_name": "(Beta) DOOM (1993)",
+    "iwad": "DOOM.WAD",
+    "short_name": "doom"
+  },
+  "authors": [
+    "Daivuk",
+    "Kaito Sinclaire",
+    "Devil's Advocado"
+  ],
+  "compatible_version": 7,
+  "game": "DOOM 1993 (Beta)",
+  "minimum_ap_version": "0.6.3",
+  "version": 7,
+  "world_version": "2.0.20260629",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_doom_1993_beta-2.0.20260629-py3-none-any.whl#sha256=bee7437d287341e50a6524c9d8c7027464a916a58b34945a50978b1f71d312c2",
+  "disk_space_mb": 1
+}
