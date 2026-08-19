@@ -1,12 +1,11 @@
 {
+    "game": "Simpsons Hit and Run",
+    "world_version": "0.5.4",
+    "authors": [],
+    "minimum_ap_version": "0.6.0",
     "compatible_version": 7,
     "version": 7,
-    "game": "The Simpsons Hit And Run",
-    "authors": [
-        "Caesius"
-    ],
-    "igdb_id": 2844,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.5.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_simpsonshitnrun-0.5.4-py3-none-any.whl#sha256=fac0baede9819e773801b14decbd17377fc7592187b94c97803e1585427d372f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_simpsonshitnrun-0.5.4-py3-none-any.whl#sha256=89725dc71b3f9bb78e6074f3e095ec3a6ea6c5222170a250ebe2a57c50954539",
+    "disk_space_mb": 1,
+    "igdb_id": 2844
 }
