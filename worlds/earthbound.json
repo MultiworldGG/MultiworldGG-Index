@@ -3,8 +3,9 @@
     "authors": [
         "Pink Switch"
     ],
-    "igdb_id": 2899,
     "minimum_ap_version": "0.6.3",
     "world_version": "4.3.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_earthbound-4.3.1-py3-none-any.whl#sha256=1ddd5637784b99d6462cc44c3103eb76bc5a4fcab0184fbe4b7a4dd12d6af414"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_earthbound-4.3.1-py3-none-any.whl#sha256=0973599768c304f9a0b884921bdd12e4ff39c7a2f94b45ffd6b471eb2087291c",
+    "disk_space_mb": 1,
+    "igdb_id": 2899
 }
