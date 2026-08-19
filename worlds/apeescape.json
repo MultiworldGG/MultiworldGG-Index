@@ -5,9 +5,10 @@
         "Thedragon005",
         "IHNN"
     ],
-    "igdb_id": 3762,
     "version": 7,
     "compatible_version": 7,
     "game": "Ape Escape",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_apeescape-0.9.9-py3-none-any.whl#sha256=db3ff88a817b6f2c06d3bae5a9056efffa9cd7fcfd10ba4e8f486837ef7e8aec"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_apeescape-0.9.9-py3-none-any.whl#sha256=6ea54c5309d871ab2577f4b0f6b5ed35b5c9cb32d81df04d3aa9a6741b3fb9d3",
+    "disk_space_mb": 1,
+    "igdb_id": 3762
 }
