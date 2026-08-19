@@ -1,10 +1,13 @@
 {
     "game": "Super Metroid",
+    "world_version": "0.0.1",
     "authors": [
         "lordlou"
     ],
-    "igdb_id": 1103,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sm-0.0.2-py3-none-any.whl#sha256=e805bab4c446ff0e34202b0dc40cde055d57513d71b610e8ef5384bc814dc8f7"
+    "minimum_ap_version": "0.2.6",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sm-0.0.1-py3-none-any.whl#sha256=3f537c10ad97fef2364abce6502525f9f18c0d63279ae1b16e24aaa233eaaef6",
+    "disk_space_mb": 1,
+    "igdb_id": 1103
 }
