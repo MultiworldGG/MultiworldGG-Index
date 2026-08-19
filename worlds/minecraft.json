@@ -8,6 +8,7 @@
         "KonoTyran",
         "JacobMIX"
     ],
-    "igdb_id": 121,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_minecraft-0.1.7-py3-none-any.whl#sha256=29e493fef46a43d6381ee6130dc3e5e05e262a613cb524d58a28d4de97588f0c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_minecraft-0.1.7-py3-none-any.whl#sha256=04c5a2204a345f94cb06beb8ae9c284ad6c9d99c3cb8ccd193f1ed5e899d1d80",
+    "disk_space_mb": 1,
+    "igdb_id": 121
 }
