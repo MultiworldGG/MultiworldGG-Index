@@ -3,8 +3,9 @@
     "authors": [
         "Gicu"
     ],
-    "igdb_id": 1219,
     "minimum_ap_version": "0.6.3",
     "world_version": "0.11.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_kh1-0.11.0-py3-none-any.whl#sha256=046d3984f601d105b5ecd396d97c847e9cbe700cbaadfef4b3898331e258a061"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_kh1-0.11.0-py3-none-any.whl#sha256=c2578cd79a1e203455a3ac10c1292873dfcbfa77e0867ef2e7c366e40e4b32b2",
+    "disk_space_mb": 1,
+    "igdb_id": 1219
 }
