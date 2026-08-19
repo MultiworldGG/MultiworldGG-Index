@@ -4,8 +4,9 @@
     "authors": [
         "Rampaging Hippy"
     ],
-    "igdb_id": 199116,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_brotato-0.15.0-py3-none-any.whl#sha256=e424ca49cb171d609ceadc0cface303f68cd3e58728af58eac01efef4a96adbe"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_brotato-0.15.0-py3-none-any.whl#sha256=17de5aa7eed7b9dd96d03db86aca068bfb8f1c4c5dcf15fd1601badae8eb5004",
+    "disk_space_mb": 1,
+    "igdb_id": 199116
 }
