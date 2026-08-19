@@ -1,10 +1,13 @@
 {
     "game": "Terraria",
+    "world_version": "0.0.1",
     "authors": [
         "Seldom-SE"
     ],
-    "igdb_id": 1879,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_terraria-0.0.1-py3-none-any.whl#sha256=7559ece6b65e5fda599dffeeb45c6f639e3566efc0236b367e8829966fe0dd06"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_terraria-0.0.1-py3-none-any.whl#sha256=afd5682594ce5ef9d428927e6e3f4caa957c0f615c46d064c8ca6f8f65945ff4",
+    "disk_space_mb": 1,
+    "igdb_id": 1879
 }
