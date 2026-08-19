@@ -1,9 +1,10 @@
 {
     "game": "Balatro",
+    "world_version": "0.0.1",
     "authors": [
         "Burndi"
     ],
-    "igdb_id": 251833,
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_balatro-0.0.2-py3-none-any.whl#sha256=292b6a2e568c19b0defa1ed77d1a328ad1d16b7926324a75dccb82988aa1e6d1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_balatro-0.0.1-py3-none-any.whl#sha256=dec1dd1713fa2717845c11a8877a02e5bd680dad33b456dfedcf78dd8275f272",
+    "disk_space_mb": 1,
+    "igdb_id": 251833
 }
