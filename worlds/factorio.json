@@ -1,10 +1,13 @@
 {
     "game": "Factorio",
+    "world_version": "0.0.1",
     "authors": [
         "Berserker66"
     ],
-    "igdb_id": 7046,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_factorio-0.0.2-py3-none-any.whl#sha256=97f0baf408c0e58f2eb40b99c6a5cb372e05ec77e49013da903df376e1ab8d30"
+    "minimum_ap_version": "0.6.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_factorio-0.0.1-py3-none-any.whl#sha256=16ef70062e5ac4fcaa849d29a3b3bcb27d2aca69a29c70772369afd52df78134",
+    "disk_space_mb": 2,
+    "igdb_id": 7046
 }
