@@ -1,10 +1,13 @@
 {
     "game": "Blasphemous",
+    "world_version": "0.0.1",
     "authors": [
         "TRPG"
     ],
-    "igdb_id": 26820,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=446f5b00053f0beac49901047f76ac7a82cef0ad03827f8ddeebc1f84b902a2d"
+    "minimum_ap_version": "0.4.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=516be71126ca09fc4a9858ee6327d04e6bd55799833bc5798128bbffd3052b3f",
+    "disk_space_mb": 1,
+    "igdb_id": 26820
 }
