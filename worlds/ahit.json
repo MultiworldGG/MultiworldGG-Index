@@ -1,10 +1,13 @@
 {
     "game": "A Hat in Time",
+    "world_version": "0.0.1",
     "authors": [
         "CookieCat45"
     ],
-    "igdb_id": 6705,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_ahit-0.0.1-py3-none-any.whl#sha256=11531317acc1708b5cf476e8892e37129a2bbe9893ba32473bd1f0469c4f1d45"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_ahit-0.0.1-py3-none-any.whl#sha256=04035502f728413908449aee04614aa143799c971e74ad43c4b0d877b85b15e4",
+    "disk_space_mb": 1,
+    "igdb_id": 6705
 }
