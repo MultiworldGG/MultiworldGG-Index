@@ -4,10 +4,11 @@
         "MrsMarinaRose",
         "Joshark"
     ],
-    "igdb_id": 1075,
     "minimum_ap_version": "0.6.5",
     "world_version": "0.6.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_sms-0.6.2-py3-none-any.whl#sha256=59239e989a8b5645baf66dcba0deea7b81199dd8d4ceed8ee31dcfed97e93a8f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_sms-0.6.2-py3-none-any.whl#sha256=3a22db64b99931ed0b79539286786a31b4773f0d198dcadfba46651b76cf0b5d",
+    "disk_space_mb": 1,
+    "igdb_id": 1075
 }
