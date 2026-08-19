@@ -5,10 +5,11 @@
         "Electro15",
         "UltiNaruto"
     ],
-    "igdb_id": 1105,
     "world_version": "0.5.4",
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_metroidprime-0.5.4-py3-none-any.whl#sha256=1ca36b2bceeb81ca7668a795fea079696d768ea10fc3d9c25f73be2f6ea64856"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_metroidprime-0.5.4-py3-none-any.whl#sha256=2e90ac8e3db3a2179e9f7f624171c8c9c653c22ab9a1c91e23048a67b8ac2a84",
+    "disk_space_mb": 1,
+    "igdb_id": 1105
 }
