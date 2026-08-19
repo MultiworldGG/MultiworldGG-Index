@@ -5,8 +5,9 @@
     "authors": [
         "Silvris"
     ],
-    "igdb_id": 2713,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_k64-0.3.2-py3-none-any.whl#sha256=8b7575bb21f133eb51c2417d063e592d269145af7fad2a79b21117f2abb07e86"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_k64-0.3.2-py3-none-any.whl#sha256=716ad75600ab06baadc18ef392f7d05032882bbfd0c61d4a51db790afe50c10f",
+    "disk_space_mb": 1,
+    "igdb_id": 2713
 }
