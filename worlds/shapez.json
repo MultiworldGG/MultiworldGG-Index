@@ -1,10 +1,13 @@
 {
     "game": "shapez",
+    "world_version": "0.0.1",
     "authors": [
         "Slimey"
     ],
-    "igdb_id": 134826,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_shapez-0.0.1-py3-none-any.whl#sha256=c4c8378d37669e32a027299fdf44623c1c5d1f4b0dacd6ad4f520643b00713f9"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_shapez-0.0.1-py3-none-any.whl#sha256=b6359ba788a0bfea89da92fd4a3e49b167862c9d5fa7cf4a896d58f89d606ebc",
+    "disk_space_mb": 1,
+    "igdb_id": 134826
 }
