@@ -5,9 +5,11 @@
     "compatible_version": 7,
     "flags": [],
     "game": "Pinball FX3",
-    "igdb_id": 41051,
+    "idgb_id": 41051,
     "minimum_ap_version": "0.6.7",
     "version": 7,
     "world_version": "1.3.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pinball_fx3-1.3.0-py3-none-any.whl#sha256=6566ef9281e6a8d7d10905414289d7a191e859bf14795ad84c035475994454bb"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-19/worlds_pinball_fx3-1.3.0-py3-none-any.whl#sha256=e3a7cfffa1e0d17c2298ae47fbce45b36e59c404e188bd1bbd71b55d9288526d",
+    "disk_space_mb": 2,
+    "igdb_id": 41051
 }
