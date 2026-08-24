@@ -1,10 +1,13 @@
 {
     "game": "Celeste",
+    "world_version": "0.0.1",
     "authors": [
         "doshyw"
     ],
-    "igdb_id": 26226,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_celeste-0.0.1-py3-none-any.whl#sha256=683a97e8512218c7c541e4db7846ba4e1ba94e9e0bb9bb9da9112551156ff5d7"
+    "minimum_ap_version": "0.4.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_celeste-0.0.1-py3-none-any.whl#sha256=a8ebcecf6dddb94a84196731845758d524bc5af248e99f2e15798167925643cf",
+    "disk_space_mb": 1,
+    "igdb_id": 26226
 }
