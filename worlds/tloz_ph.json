@@ -1,6 +1,6 @@
 {
     "game": "The Legend of Zelda - Phantom Hourglass",
-    "world_version": "0.9.3",
+    "world_version": "0.9.6",
     "authors": [
         "carrotinator",
         "Tanker50207",
@@ -10,9 +10,10 @@
         "1313e",
         "Catzador"
     ],
-    "igdb_id": 1037,
-    "minimum_ap_version": "0.6.0",
+    "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_tloz_ph-0.9.3-py3-none-any.whl#sha256=7e9a2951b9841e6f068f8eed795f4c64898b64da44b8d805a0a2a595455bdc70"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tloz_ph-0.9.6-py3-none-any.whl#sha256=f2b4ad7e67aa626df66424e6235734c4255f25b0c2d3fb235bff3f22d6daa9f4",
+    "disk_space_mb": 3,
+    "igdb_id": 1037
 }
