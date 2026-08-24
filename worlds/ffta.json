@@ -1,10 +1,13 @@
 {
     "game": "Final Fantasy Tactics Advance",
+    "world_version": "0.0.1",
     "authors": [
         "spicynun"
     ],
-    "igdb_id": 414,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ffta-0.0.1-py3-none-any.whl#sha256=9932c9cfd92d1d8d37df4ab2a1f9fddb433c078f101cddda696465dd8543edbc"
+    "minimum_ap_version": "0.4.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffta-0.0.1-py3-none-any.whl#sha256=98a7d361459a411652d6a2684618d2b797237fd1239cd4d9c2eeb8a52b46bb93",
+    "disk_space_mb": 1,
+    "igdb_id": 414
 }
