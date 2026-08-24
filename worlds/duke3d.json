@@ -1,0 +1,12 @@
+{
+  "game": "Duke Nukem 3D",
+  "world_version": "0.0.1",
+  "authors": [
+    "rand(0)"
+  ],
+  "minimum_ap_version": "0.6.7",
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_duke3d-0.0.1-py3-none-any.whl#sha256=5c16728e785b4d974dd9dc61484c7d5a41d408f854de9ecf0bae82259c218957",
+  "disk_space_mb": 1
+}
