@@ -1,10 +1,10 @@
 {
     "game": "Flipwitch Forbidden Sex Hex",
-    "authors": [
-        "Albrekka"
-    ],
-    "igdb_id": 361419,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_flipwitch-0.0.1-py3-none-any.whl#sha256=92bce8f804b00b1c02d6453c28196b85fa6429dff11013e6d62ca8bbeed91523"
+    "authors": [],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_flipwitch-0.0.1-py3-none-any.whl#sha256=173758ffe42c30c81c60598b146cb2d374fe38f9537a4cb6fdb1bcac4a18a386",
+    "disk_space_mb": 1,
+    "igdb_id": 361419
 }
