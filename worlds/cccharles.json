@@ -1,10 +1,13 @@
 {
     "game": "Choo-Choo Charles",
+    "world_version": "0.0.1",
     "authors": [
         "Yaranorgoth"
     ],
-    "igdb_id": 173432,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cccharles-0.0.1-py3-none-any.whl#sha256=c712786f7689d2f215b6a7d3e8a7e3f82c8d7eeb49f97d8bfb5955811cf06e8c"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cccharles-0.0.1-py3-none-any.whl#sha256=d8be1a24b18f730e1f365ee29d6fe9d37f758cf11071a9c7e512f091b5f133ef",
+    "disk_space_mb": 1,
+    "igdb_id": 173432
 }
