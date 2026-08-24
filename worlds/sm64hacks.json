@@ -7,7 +7,7 @@
     "game": "SM64 Romhack",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sm64hacks-1.1.7-py3-none-any.whl#sha256=f6c3e75a4426c498527d97d78e4ad11c4f032c0a4efc2f888ee0ddeb525e23e1",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sm64hacks-1.1.7-py3-none-any.whl#sha256=9177a10a9b8f17a878395c2abfbb1871c4f7e23469c317537fb914f5ad7fc743",
     "disk_space_mb": 1,
     "igdb_id": 1074
 }
