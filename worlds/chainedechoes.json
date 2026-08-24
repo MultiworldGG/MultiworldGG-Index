@@ -1,10 +1,13 @@
 {
     "game": "Chained Echoes",
+    "world_version": "0.0.1",
     "authors": [
         "SergioAlonso"
     ],
-    "igdb_id": 117271,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_chainedechoes-0.0.1-py3-none-any.whl#sha256=fd66112ee2612837571b4b587ecfd59194d773637060a25cefe08cc2bf90a51a"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_chainedechoes-0.0.1-py3-none-any.whl#sha256=53040553fa8e63e38b13c6fb16908dc429288caeb2fb47be75d9b571ab7df4f8",
+    "disk_space_mb": 1,
+    "igdb_id": 117271
 }
