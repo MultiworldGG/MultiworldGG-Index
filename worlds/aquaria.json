@@ -5,7 +5,7 @@
     ],
     "world_version": "1.5.2",
     "minimum_ap_version": "0.6.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_aquaria-1.5.2-py3-none-any.whl#sha256=e7ca5db6bf2dbc8273c97bd3286a122fe901ca602f976cd815cef87f28d33574",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_aquaria-1.5.2-py3-none-any.whl#sha256=0a70e1a6c6f087a59e734712501ed74fd728288bd589891c0dbfbc9c57c51690",
     "disk_space_mb": 1,
     "igdb_id": 7406
 }
