@@ -1,10 +1,13 @@
 {
     "game": "Castlevania 64",
+    "world_version": "0.0.1",
     "authors": [
         "LiquidCat64"
     ],
-    "igdb_id": 1130,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cv64-0.0.2-py3-none-any.whl#sha256=8b6b31f6738e17d48ac7bc0e76f373e6eaa09e6dc7923c57b5fcc47b0dd6a13c"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cv64-0.0.1-py3-none-any.whl#sha256=7f79c40701bf156a50f50c8e357b3a14ae4208290be588d9300533d2366ed531",
+    "disk_space_mb": 1,
+    "igdb_id": 1130
 }
