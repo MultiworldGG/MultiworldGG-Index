@@ -1,10 +1,13 @@
 {
     "game": "Peaks of Yore",
+    "world_version": "0.0.1",
     "authors": [
         "c0der23"
     ],
-    "igdb_id": 238690,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_peaks_of_yore-0.0.1-py3-none-any.whl#sha256=838c7730b548f635671d69f2bdd6d528c64a5fc8734dbe2ae99723ef79ae072a"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_peaks_of_yore-0.0.1-py3-none-any.whl#sha256=73663ee9f94412546aad3d3f5fd74e6b44771a60dfdd47692537240e2db4f6f0",
+    "disk_space_mb": 1,
+    "igdb_id": 238690
 }
