@@ -1,10 +1,13 @@
 {
     "game": "MegaMan Battle Network 3",
+    "world_version": "0.0.1",
     "authors": [
         "digiholic"
     ],
-    "igdb_id": 1758,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_mmbn3-0.0.1-py3-none-any.whl#sha256=b03804c2f28c3103d6a4954550e0fe868fe2f10b8947e32cd1cf025b8938b1fe"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_mmbn3-0.0.1-py3-none-any.whl#sha256=224c5967e2c511899b5f116f7d41269fa80a30cdfbcc2fbc4050c07f31d0d9dd",
+    "disk_space_mb": 1,
+    "igdb_id": 1758
 }
