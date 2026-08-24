@@ -1,12 +1,10 @@
 {
     "game": "An Untitled Story",
-    "authors": [
-        "ThatOneGuy27"
-    ],
-    "igdb_id": 72926,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_aus-0.0.1-py3-none-any.whl#sha256=f6bdd618890ef4b5bdf7e0418b6deee11c7354fa383022a7af6c570d6dd01ed1"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_aus-0.0.1-py3-none-any.whl#sha256=92a5d474011bea97f8c4013bee16aa9d96c44c2b48830318598d6af5339e182f",
+    "disk_space_mb": 1,
+    "igdb_id": 72926
 }
