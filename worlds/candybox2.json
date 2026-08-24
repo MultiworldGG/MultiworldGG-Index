@@ -1,14 +1,15 @@
 {
     "game": "Candy Box 2",
-    "world_version": "1.20260210.1",
+    "world_version": "1.20260822.1",
     "minimum_ap_version": "0.6.0",
     "authors": [
         "Victor Tran",
         "Aren Merzoian"
     ],
-    "world_version_full": "20260210-1",
+    "world_version_full": "20260822-1",
     "compatible_version": 7,
     "version": 7,
-    "igdb_id": 62779,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_candybox2-1.20260210.1-py3-none-any.whl#sha256=c6488227cd957dbd004657b039d12ab9d3cdb487f782c901d55006d05c242324"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_candybox2-1.20260822.1-py3-none-any.whl#sha256=57cb0fbc22cba12f3924b97e7dd21119c01704c41cba96253a578f4d4694cef9",
+    "disk_space_mb": 1,
+    "igdb_id": 62779
 }
