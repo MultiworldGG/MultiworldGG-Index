@@ -1,11 +1,12 @@
 {
     "game": "Against the Storm",
-    "world_version": "1.2.0",
+    "world_version": "1.2.1",
     "authors": [
         "Ryguy9999"
     ],
-    "igdb_id": 147519,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_against_the_storm-1.2.0-py3-none-any.whl#sha256=1a8074c6f695f1705d807f44479c674c2e61cf5c481332f913070edaa1a7e52d"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_against_the_storm-1.2.1-py3-none-any.whl#sha256=6bd9b8c461a8d35bc2bcce0014c2d5e5d1293b13c0438061fe929419c2b7a88d",
+    "disk_space_mb": 1,
+    "igdb_id": 147519
 }
