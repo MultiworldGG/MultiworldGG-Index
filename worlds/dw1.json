@@ -1,10 +1,13 @@
 {
     "game": "Digimon World",
+    "world_version": "0.0.1",
     "authors": [
         "ArsonAssassin"
     ],
-    "igdb_id": 3878,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dw1-0.0.1-py3-none-any.whl#sha256=1a4fc4efc6763a588949ab8dbf04012125bd385dc5cd69e597ce91ff76a68389"
+    "minimum_ap_version": "0.6.2",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dw1-0.0.1-py3-none-any.whl#sha256=c2a8c4a914f30c6b6c81390b1ec02ffa00244792eb4bd47079411dc9a132fac1",
+    "disk_space_mb": 1,
+    "igdb_id": 3878
 }
