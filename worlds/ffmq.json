@@ -1,12 +1,10 @@
 {
+    "game": "Final Fantasy Mystic Quest",
+    "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "game": "Final Fantasy Mystic Quest",
-    "authors": [
-        "Alchav"
-    ],
-    "igdb_id": 415,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ffmq-0.0.2-py3-none-any.whl#sha256=bc41b63a1fb88df740700044cf23f56441a478a1bb95d8ef9666522f63e81a3e"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffmq-0.0.1-py3-none-any.whl#sha256=166b9e3921c8f5c8bdda14fd191f3e97bd71ce0ca844d379d7e21a372923b8bf",
+    "disk_space_mb": 1,
+    "igdb_id": 415
 }
