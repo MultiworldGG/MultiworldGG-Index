@@ -7,7 +7,7 @@
     "world_version": "0.12.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_ttyd-0.12.0-py3-none-any.whl#sha256=8b3700c3fbc3904c6be44f850e70443a2bb53121fca2194d3ec87bfb5d03144d",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ttyd-0.12.0-py3-none-any.whl#sha256=6e2d87e461c4c70204be618210eb0cadda2090a8841e2184d86e17ee8805c5fb",
     "disk_space_mb": 3,
     "igdb_id": 3349
 }
