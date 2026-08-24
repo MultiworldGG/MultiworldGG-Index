@@ -1,10 +1,13 @@
 {
     "game": "ChecksFinder",
+    "world_version": "0.0.1",
     "authors": [
         "SunCatMC"
     ],
-    "igdb_id": 0,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=14cdf84b53cffeca77b131437597b70c2d9e8bca5d4a941758ef226ccdab9f61"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=c6abd117f37c1b299f711136e2f623fa4fbefcd8aa2570747cd923618c90166b",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }
