@@ -3,8 +3,11 @@
     "authors": [
         "rand(0)"
     ],
-    "igdb_id": 333,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.2.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_quake-0.2.2-py3-none-any.whl#sha256=5b096021a5012473b64e69e197c477409a9f7a4a33a0434fbe63763749c14919"
+    "minimum_ap_version": "0.6.7",
+    "world_version": "1.1.8",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_quake-1.1.8-py3-none-any.whl#sha256=0fdfd080e6d8a5dab8ae73e1c5f68cf47ae07fd39098a2323be1783c006e439a",
+    "disk_space_mb": 1,
+    "igdb_id": 333
 }
