@@ -1,10 +1,10 @@
 {
     "game": "Celeste (Open World)",
-    "authors": [
-        "PoryGone"
-    ],
-    "igdb_id": 26226,
-    "minimum_ap_version": "0.6.3",
-    "world_version": "1.0.7",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_celeste_open_world-1.0.7-py3-none-any.whl#sha256=7be2e92bc05c0df6d2ed2571655af50ea6a62ff3087780c3657a222d2c947bff"
+    "world_version": "0.0.1",
+    "authors": [],
+    "version": 7,
+    "compatible_version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_celeste_open_world-0.0.1-py3-none-any.whl#sha256=9f092be72121be03bf53aabeca084b757fabf6771e8936a7c55989cd5e99f6ae",
+    "disk_space_mb": 1,
+    "igdb_id": 26226
 }
