@@ -1,11 +1,14 @@
 {
     "game": "DLCQuest",
+    "world_version": "0.0.1",
     "authors": [
         "axe-y",
         "Kaito Kid"
     ],
-    "igdb_id": 3004,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dlcquest-0.0.1-py3-none-any.whl#sha256=bc77f742186f8e1f985bc709f007ad8405a02d9308da67aaf5efe9b2e723dd72"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dlcquest-0.0.1-py3-none-any.whl#sha256=0ab75ccbbb8410aa9df08aeb95796a57b8b9a3941d13561e150825f229cebf5c",
+    "disk_space_mb": 1,
+    "igdb_id": 3004
 }

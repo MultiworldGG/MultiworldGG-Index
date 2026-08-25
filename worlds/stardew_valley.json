@@ -6,10 +6,9 @@
         "Witchybun (Mod Support)",
         "Exempt-Medic (Proofreading)"
     ],
-    "igdb_id": 17000,
     "minimum_ap_version": "0.6.4",
-    "world_version": "7.4.4",
-    "compatible_version": 7,
-    "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-06/worlds_stardew_valley-7.4.4-py3-none-any.whl#sha256=30c41ba6e52f32bb45d5063a464f6c98e22b9a1c035c6474e18339499499e931"
+    "world_version": "7.4.25",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_stardew_valley-7.4.25-py3-none-any.whl#sha256=2dd45d81c9712ef905142acf8c2162c72b618f83574053218b08f099373fbb40",
+    "disk_space_mb": 1,
+    "igdb_id": 17000
 }

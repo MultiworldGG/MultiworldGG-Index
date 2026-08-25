@@ -1,10 +1,13 @@
 {
     "game": "Civilization VI",
+    "world_version": "0.0.1",
     "authors": [
         "hesto2"
     ],
-    "igdb_id": 293,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=ae15f4d8da3745aa67afaf56cc604bde46c74b190179bdbb70de4f747ece1399"
+    "minimum_ap_version": "0.4.5",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=bfacb2ef21c2a7b83a72cc67e1c3eca731c5f5b535d09c50dcdf9edb575c2610",
+    "disk_space_mb": 1,
+    "igdb_id": 293
 }

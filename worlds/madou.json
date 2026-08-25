@@ -1,10 +1,10 @@
 {
     "game": "Madou Monogatari Hanamaru Daiyouchienji",
-    "authors": [
-        "Albrekkae"
-    ],
-    "igdb_id": 110397,
-    "minimum_ap_version": "0.6.3",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_madou-0.0.1-py3-none-any.whl#sha256=3f7fb8f28719e5a5c5a26dcab1b7abb9fdf79481849b40fea939d39418aabc74"
+    "authors": [],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_madou-0.0.1-py3-none-any.whl#sha256=75f33d8e119060f7dd2a3db82d87ae18b89ae067e770338b21d461090b4f2040",
+    "disk_space_mb": 1,
+    "igdb_id": 110397
 }

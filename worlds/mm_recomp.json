@@ -1,10 +1,16 @@
 {
     "game": "Majora's Mask Recompiled",
-    "authors": [
-        "LittleCube"
-    ],
-    "igdb_id": 1030,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mm_recomp-0.0.1-py3-none-any.whl#sha256=fa1e970aefbc492a469afb94d6b2925fba5cb1513426efc262b524299d578034"
+    "authors": [
+        "LittleCube",
+        "ThatHypedPerson",
+        "PixelShake92",
+        "Muervo_"
+    ],
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_mm_recomp-0.0.1-py3-none-any.whl#sha256=f3646206ce45baddbc2e3ee7131b3e38b7b49018cd6ec6b17eb41ac577a6fa05",
+    "disk_space_mb": 1,
+    "igdb_id": 1030
 }

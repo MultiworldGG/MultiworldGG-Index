@@ -5,9 +5,10 @@
         "threeandthree"
     ],
     "minimum_ap_version": "0.6.4",
-    "world_version": "13.4.3",
+    "world_version": "13.4.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_ladx_beta-13.4.3-py3-none-any.whl#sha256=75846a2e87455f0b2a0453c5e67aac014c753b76fa8634aa49c926a4c58b30ed",
-    "disk_space_mb": 1
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ladx_beta-13.4.5-py3-none-any.whl#sha256=d4bb02185973def8308a432b1c98be01f310f10c5b11abaf808d07e558a2362a",
+    "disk_space_mb": 1,
+    "igdb_id": 1028
 }

@@ -1,12 +1,12 @@
 {
     "game": "Yu-Gi-Oh! Forbidden Memories",
+    "world_version": "0.0.1",
     "authors": [
         "sg4e"
     ],
-    "igdb_id": 4108,
     "compatible_version": 7,
     "version": 7,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_fm-0.0.1-py3-none-any.whl#sha256=fde59c487ff2197c6ad437422cea1b1d3c4e774e0f61156865c4538742686c41"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_fm-0.0.1-py3-none-any.whl#sha256=811d125c50097578a612e1525b53156f0cf69ed3f2f2b57fac518e76203c9e2d",
+    "disk_space_mb": 1,
+    "igdb_id": 4108
 }

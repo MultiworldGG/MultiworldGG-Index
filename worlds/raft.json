@@ -1,10 +1,13 @@
 {
     "game": "Raft",
+    "world_version": "0.0.1",
     "authors": [
         "SunnyBat"
     ],
-    "igdb_id": 27082,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.3.6",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_raft-0.3.6-py3-none-any.whl#sha256=b220356c856995d3f4d3008ab83ab6733b73673fc414c854343a4d17930a3c47"
+    "minimum_ap_version": "0.3.4",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_raft-0.0.1-py3-none-any.whl#sha256=fc6a6c1989ac9a7b525e2790a9eb8eb41808d36cbd967cba06d7de59002cb589",
+    "disk_space_mb": 1,
+    "igdb_id": 27082
 }

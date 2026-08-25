@@ -1,10 +1,10 @@
 {
     "game": "Metroid Fusion",
-    "authors": [
-        "Rosalie"
-    ],
-    "igdb_id": 1104,
-    "minimum_ap_version": "0.6.4",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_metroidfusion-0.0.1-py3-none-any.whl#sha256=e46a104031413ea167d064ff33fe7398c60dc2c0c96bd812de775f47d256da93"
+    "authors": [],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_metroidfusion-0.0.1-py3-none-any.whl#sha256=6d59800566875c5b1e01e28cad8023eff71e11ad0812c6034075d4aa7c0a447b",
+    "disk_space_mb": 1,
+    "igdb_id": 1104
 }

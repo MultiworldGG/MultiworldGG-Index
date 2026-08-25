@@ -1,10 +1,13 @@
 {
     "game": "Castlevania - Circle of the Moon",
+    "world_version": "0.0.1",
     "authors": [
         "LiquidCat64"
     ],
-    "igdb_id": 1132,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cvcotm-0.0.1-py3-none-any.whl#sha256=67d4e1b75748f00cb116d163633cffd3acc56bc53abe8bb8d5f436ce890b5c4b"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cvcotm-0.0.1-py3-none-any.whl#sha256=53b27d68650093ff76c9d7b032f1831235b7bddce56f8992169c7a7452068778",
+    "disk_space_mb": 1,
+    "igdb_id": 1132
 }

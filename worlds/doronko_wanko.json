@@ -1,10 +1,13 @@
 {
     "game": "DORONKO WANKO",
+    "world_version": "0.0.1",
     "authors": [
         "Vendily"
     ],
-    "igdb_id": 290647,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_doronko_wanko-0.0.1-py3-none-any.whl#sha256=af70803d5f68a2bf780acc087c7d9adb9456fd89db2316a7534052246810bd7b"
+    "minimum_ap_version": "0.6.7",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_doronko_wanko-0.0.1-py3-none-any.whl#sha256=e1c51b94161eff7e74d48a1bf783703267efda8a6813fc270efa416bd2ae5102",
+    "disk_space_mb": 1,
+    "igdb_id": 290647
 }

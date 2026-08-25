@@ -1,10 +1,13 @@
 {
     "game": "Star Wars Episode I Racer",
+    "world_version": "0.0.1",
     "authors": [
         "Johnny Hamcobbler"
     ],
-    "igdb_id": 154,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_swr-0.0.1-py3-none-any.whl#sha256=015fff1e864b04eabae2852a21ff4f4288af44ac9c8aa21af5325238a835336b"
+    "minimum_ap_version": "0.6.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_swr-0.0.1-py3-none-any.whl#sha256=5c376ae74c706d6fefc5cfccba4b76e9cca43f65b33dabc233940254a6ed53d8",
+    "disk_space_mb": 1,
+    "igdb_id": 154
 }

@@ -1,10 +1,10 @@
 {
     "game": "Lunacid",
-    "authors": [
-        "Albrekka"
-    ],
-    "igdb_id": 192291,
-    "minimum_ap_version": "0.6.1",
     "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_lunacid-0.0.1-py3-none-any.whl#sha256=32faa80bccbeef573c03648d44ba9cd5b02b96e15d9b35286b95c389c8af1dcf"
+    "authors": [],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_lunacid-0.0.1-py3-none-any.whl#sha256=ea329320f8bc470487ad3120bb3e2e759f33f814e9b32123a875763a831c3b56",
+    "disk_space_mb": 5,
+    "igdb_id": 192291
 }

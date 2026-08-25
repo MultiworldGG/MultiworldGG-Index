@@ -1,12 +1,10 @@
 {
+    "game": "Chrono Trigger Jets of Time",
+    "world_version": "0.0.1",
+    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "game": "Chrono Trigger Jets of Time",
-    "authors": [
-        "Anguirel"
-    ],
-    "igdb_id": 20398,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ctjot-0.0.2-py3-none-any.whl#sha256=e1caf5604d8ff5b039321667388b2fa296a8883cde35392d195baa12a5b9140a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ctjot-0.0.1-py3-none-any.whl#sha256=e6b201ab178e17e262d8fd8e26d1fe4e99b3e06ae4c9ba1fa5bf793365f3f2d9",
+    "disk_space_mb": 1,
+    "igdb_id": 20398
 }
