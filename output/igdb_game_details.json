@@ -204,7 +204,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "A Hat in Time is a colorful 3D platformer starring Hat Kid, a young alien girl journeying home aboard her spaceship. Her trip is derailed when a dispute with a passing planet's Mafia bursts open her ship's door, scattering her precious Time Pieces, the magical hourglasses that fuel her vessel, across the world below. Now stranded, Hat Kid must explore vibrant and varied lands to recover the lost Time Pieces one by one. Along the way she meets a cast of quirky characters and rivals, solving puzzles and leaping through obstacle-filled worlds in her quest to gather every last hourglass and finally continue her voyage.",
         "keywords": [
             "time travel",
             "spaceship",
@@ -1090,7 +1090,7 @@
     "blasphemous": {
         "igdb_id": "26820",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob0xj.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6zd.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68m4.png",
         "key_art_url": "",
         "game_name": "Blasphemous",
         "igdb_name": "Blasphemous",
@@ -1403,7 +1403,7 @@
         "igdb_id": "26226",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9dh.png",
         "artwork_url": "",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ga3.png",
         "game_name": "Celeste",
         "igdb_name": "Celeste",
         "age_rating": "7",
@@ -1442,6 +1442,7 @@
             "rock climbing",
             "difficult",
             "female protagonist",
+            "side-scrolling",
             "cute",
             "atmospheric",
             "pixel art",
@@ -1462,8 +1463,11 @@
             "precision platforming",
             "the game awards - best independent game - winner",
             "the game awards - game of the year - nominee",
+            "sidescroller",
+            "lgbtq",
             "transgender protagonist",
-            "previously on - stadia pro"
+            "previously on - stadia pro",
+            "precision platformer"
         ],
         "release_date": 1516838400
     },
@@ -1504,7 +1508,7 @@
         "igdb_id": "26226",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9dh.png",
         "artwork_url": "",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ga3.png",
         "game_name": "Celeste (Open World)",
         "igdb_name": "Celeste",
         "age_rating": "7",
@@ -1543,6 +1547,7 @@
             "rock climbing",
             "difficult",
             "female protagonist",
+            "side-scrolling",
             "cute",
             "atmospheric",
             "pixel art",
@@ -1563,8 +1568,11 @@
             "precision platforming",
             "the game awards - best independent game - winner",
             "the game awards - game of the year - nominee",
+            "sidescroller",
+            "lgbtq",
             "transgender protagonist",
-            "previously on - stadia pro"
+            "previously on - stadia pro",
+            "precision platformer"
         ],
         "release_date": 1516838400
     },
@@ -1793,7 +1801,7 @@
     "crosscode": {
         "igdb_id": "35282",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co28wy.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68ts.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6ghz.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar532q.png",
         "game_name": "CrossCode",
         "igdb_name": "CrossCode",
@@ -1825,7 +1833,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "A girl named Lea awakens aboard a cargo ship with no memory of her past. A man called Sergey Asimov tells her that the key to recovering her lost memories is to play CrossWorlds, a sprawling massively multiplayer online game. Almost as soon as she enters, Lea is set upon by a mysterious figure known as the Blue Avatar and is forced to flee deeper into the game's world. There she befriends a fellow player named Emilie, and together the two set out to explore CrossWorlds, eventually joining a guild called the First Scholars. As Lea ventures through the vast virtual realm and pieces together fragments of who she once was, she is drawn toward the unsettling secrets hidden behind both the game and her own forgotten identity.",
         "keywords": [
             "cyberpunk",
             "16-bit",
@@ -2279,7 +2287,7 @@
     "cvcotm": {
         "igdb_id": "1132",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobcr5.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vgm.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vgn.png",
         "key_art_url": "",
         "game_name": "Castlevania - Circle of the Moon",
         "igdb_name": "Castlevania: Circle of the Moon",
@@ -2501,29 +2509,62 @@
         "release_date": 1458777600
     },
     "deltarune": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "171233",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9m71.png",
         "artwork_url": "",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3rhq.png",
         "game_name": "DELTARUNE",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Deltarune",
+        "age_rating": "12",
+        "rating": [
+            "Suggestive Themes",
+            "Mild Blood",
+            "Fantasy Violence",
+            "Language",
+            "Drug Reference",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
         "genres": [
-            "Multiplayer"
+            "Music",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure",
+            "Indie"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Mystery"
+        ],
         "platforms": [
-            "Archipelago"
+            "PlayStation 4",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "Kris and their classmate Susie fall into an unknown place called the \"Dark World\" where they meet Ralsei, who informs them that they are prophesied, in the legend of Delta Rune, to be heroes that save the world.\n\nDeltarune's full game will consist of seven chapters, each where Kris, Susie, and Ralsei either fight or act their way through Dark Worlds. Kris, being the only one who can seal the \"Dark Fountain\", is the party leader. They can command the other party members in battles, though some commands would seem forced to others. The SOUL, a heart-shaped object, is controlled by the player and is in Kris's body, leaving Kris's actions mostly up to the player.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "2d",
+            "bullet hell",
+            "pixel art",
+            "pixel graphics",
+            "dog",
+            "xbox controller support for pc",
+            "steam cloud",
+            "dualshock 4 support for pc",
+            "controller support",
+            "steam families",
+            "dualsense support for pc"
         ],
-        "release_date": ""
+        "release_date": 1748995200
     },
     "diddy_kong_racing": {
         "igdb_id": "2723",
@@ -3492,6 +3533,172 @@
             "interconnected-world"
         ],
         "release_date": 1527033600
+    },
+    "duke3d": {
+        "igdb_id": "342",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1y7x.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Duke Nukem 3D",
+        "igdb_name": "Duke Nukem 3D",
+        "age_rating": "16",
+        "rating": [
+            "Animated Blood",
+            "Animated Violence",
+            "Suggestive Themes",
+            "Animated Blood and Gore",
+            "Violence",
+            "Strong Sexual Content",
+            "Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter",
+            "Puzzle"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
+        ],
+        "storyline": "Returning to Earth in his space cruiser hoping for a vacation, action hero Duke Nukem is shot down over Los Angeles by unknown attackers. As he sends out a distress signal, he learns that aliens are invading the city and have mutated the local police. With his plans ruined, Duke ejects and vows to do whatever it takes to stop the invasion, fighting his way through a besieged city and beyond as he uncovers the scope of the alien threat.",
+        "keywords": [
+            "aliens",
+            "helicopter",
+            "bloody",
+            "mascot",
+            "parody",
+            "2.5d",
+            "open-source",
+            "run and gun",
+            "ufo",
+            "karaoke",
+            "chicken",
+            "dolphin",
+            "spaceship",
+            "flight",
+            "steam",
+            "achievements",
+            "online",
+            "traps",
+            "shareware",
+            "artificial intelligence",
+            "steam trading cards",
+            "dancing",
+            "worm",
+            "easter egg",
+            "dog",
+            "nudity",
+            "teleportation",
+            "swimming",
+            "playstation network",
+            "alien invasion",
+            "one-man army",
+            "darkness",
+            "boss fight",
+            "sexual content",
+            "explosion",
+            "steam achievements",
+            "digital distribution",
+            "playstation trophies",
+            "voice acting",
+            "scatological humor",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "game reference",
+            "rat",
+            "sequel is in a different genre",
+            "white noise",
+            "profanity",
+            "pregnancy",
+            "hologram",
+            "fake in-game advertising",
+            "corpse",
+            "homage box art",
+            "4 player co-op",
+            "sprinting mechanics",
+            "falling damage",
+            "saving the world",
+            "pax west 2016",
+            "xbox live",
+            "melee",
+            "real-time combat",
+            "underwater gameplay",
+            "stat tracking",
+            "in-game map editor",
+            "secret area",
+            "vision obstruction",
+            "walking through walls",
+            "difficulty level",
+            "shaky camera",
+            "self-referential humor",
+            "female antagonist",
+            "quicksaving",
+            "quickloading",
+            "movie reference",
+            "inconvenient malfunction",
+            "steam play",
+            "falling sequence",
+            "arcade cabinet",
+            "cheat code",
+            "conveyor belt",
+            "destructible environment",
+            "banned",
+            "sequence breaking",
+            "interactive environments",
+            "anti-hero",
+            "difficulty achievement",
+            "controversy",
+            "surveillance camera",
+            "submarine",
+            "mod support",
+            "multiplayer lan",
+            "team deathmatch",
+            "voice chat",
+            "meme origin",
+            "gore system",
+            "scripted events",
+            "vent crawling",
+            "dual wielding",
+            "pinball machine",
+            "bots",
+            "in-game advertising",
+            "severed limbs",
+            "arrival by crash landing",
+            "secret achievements",
+            "alien abduction",
+            "zoom platform",
+            "optional censorship",
+            "retrievable traps",
+            "behind the waterfall",
+            "hidden room",
+            "god mode",
+            "crash landing",
+            "escape from exploding building",
+            "reciting movie lines",
+            "secret areas within secret areas",
+            "missile launcher",
+            "ranked match",
+            "greatest hits",
+            "removed from gog.com",
+            "pc to console port",
+            "online multiplayer achievements",
+            "multiplayer via serial cable",
+            "promo vhs",
+            "source port",
+            "dial-up wide area network game operation",
+            "male protagonist"
+        ],
+        "release_date": 829872000
     },
     "dw1": {
         "igdb_id": "3878",
@@ -5380,7 +5587,7 @@
     },
     "kdl3": {
         "igdb_id": "3720",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9xr.png",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cocikz.png",
         "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kr4.png",
         "key_art_url": "",
         "game_name": "Kirby's Dream Land 3",
@@ -5689,29 +5896,86 @@
         "release_date": 1998
     },
     "ladx_beta": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "1028",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nnt.png",
         "artwork_url": "",
         "key_art_url": "",
         "game_name": "Links Awakening DX Beta",
-        "igdb_name": "",
-        "age_rating": "MW",
+        "igdb_name": "The Legend of Zelda: Link's Awakening",
+        "age_rating": "E",
         "rating": [],
-        "player_perspectives": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
         "genres": [
-            "Multiplayer"
+            "Puzzle",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
         "platforms": [
-            "Archipelago"
+            "Game Boy"
         ],
-        "storyline": "",
+        "storyline": "After the events of A Link to the Past, the hero Link travels by ship to other countries to train for further threats. After being attacked at sea, Link's ship sinks and he finds himself stranded on Koholint Island. He awakens to see a beautiful woman looking down at him and soon learns the island has a giant egg on top of a mountain that the Wind Fish inhabits deep inside. Link is told to awaken the wind fish and all will be answered, so he sets out on another quest.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "magic",
+            "mascot",
+            "prequel",
+            "death",
+            "maze",
+            "chicken",
+            "action-adventure",
+            "backtracking",
+            "undead",
+            "campaign",
+            "princess",
+            "pixel art",
+            "amnesia",
+            "dreams",
+            "silent protagonist",
+            "sword & sorcery",
+            "darkness",
+            "owl",
+            "boss fight",
+            "single-player only",
+            "monkey",
+            "pictographic level design",
+            "human",
+            "super game boy enhancement",
+            "shopping",
+            "bow and arrow",
+            "breaking the fourth wall",
+            "collectibles",
+            "disorientation zone",
+            "non-player character",
+            "treasure chest",
+            "side quests",
+            "grapple",
+            "castaway",
+            "real-time combat",
+            "robbery",
+            "moving platforms",
+            "theft",
+            "tentacles",
+            "interquel",
+            "fetch quests",
+            "kidnapping",
+            "poisoning",
+            "dream sequence",
+            "flip screen",
+            "another world",
+            "greatest hits",
+            "comic relief",
+            "damage over time",
+            "monomyth",
+            "nintendo gateway system",
+            "dungeon",
+            "bees"
         ],
-        "release_date": ""
+        "release_date": 739324800
     },
     "landstalker": {
         "igdb_id": "15072",
@@ -5950,7 +6214,7 @@
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9mg3.png",
         "artwork_url": "",
         "key_art_url": "",
-        "game_name": "Lufia II: Ancient Cave",
+        "game_name": "Lufia II Ancient Cave",
         "igdb_name": "Lufia II: Rise of the Sinistrals",
         "age_rating": "E",
         "rating": [
@@ -6055,8 +6319,10 @@
             "Indie"
         ],
         "themes": [
+            "Action",
             "Fantasy",
-            "Horror"
+            "Horror",
+            "Open world"
         ],
         "platforms": [
             "PC (Microsoft Windows)"
@@ -7814,8 +8080,8 @@
     "osrs": {
         "igdb_id": "79824",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1mo1.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6ki.png",
-        "key_art_url": "",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6cez.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6cen.png",
         "game_name": "Old School Runescape",
         "igdb_name": "Old School RuneScape",
         "age_rating": "16",
@@ -9639,7 +9905,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "After a space freighter is attacked and crashes onto a strange, uncharted planet, a lone survivor is left stranded amid its hostile wilds. Cut off and hunted by the world's ever-growing swarms of monsters, the survivor must scavenge the ship's scattered cargo for gear and fight to stay alive. With danger mounting the longer they linger, the survivor races to locate a teleporter and find a way off the deadly planet before its horrors overwhelm them.",
         "keywords": [
             "roguelike",
             "8-bit style",
@@ -10457,7 +10723,7 @@
         "igdb_id": "1103",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5osy.png",
         "artwork_url": "",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7j.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7i.png",
         "game_name": "Super Metroid",
         "igdb_name": "Super Metroid",
         "age_rating": "7",
@@ -10530,7 +10796,7 @@
     "sm64ex": {
         "igdb_id": "1074",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co721v.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar57hy.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nab.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
         "game_name": "Super Mario 64",
         "igdb_name": "Super Mario 64",
@@ -13115,6 +13381,38 @@
             "gog preservation program"
         ],
         "release_date": 939254400
+    },
+    "ucg": {
+        "igdb_id": "323318",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coce3e.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Uncanny Cat Golf",
+        "igdb_name": "Uncanny Cat Golf",
+        "age_rating": "NR",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Sport"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "golf",
+            "memes",
+            "cat"
+        ],
+        "release_date": 1783814400
     },
     "ufo50": {
         "igdb_id": "54555",
