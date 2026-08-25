@@ -8,5 +8,6 @@
   "compatible_version": 7,
   "version": 7,
   "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ucg-1.0.3-py3-none-any.whl#sha256=9f8c73599a12df855651f3de5c44659c78d828ac61f4fa71a9ddb0bd40244e88",
-  "disk_space_mb": 1
+  "disk_space_mb": 1,
+  "igdb_id": 323318
 }
