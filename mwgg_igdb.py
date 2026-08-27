@@ -1,0 +1,36601 @@
+# These constants will be generated during build
+__variant__ = "sixteen"  # age-rating variant: nr | ao | twelve | sixteen
+
+GAMES_DATA = {
+    "2048": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "2048",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.2048",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_2048-1.1.2-py3-none-any.whl#sha256=bf5f71614f8697bf3ad3f4d5fbdbc0b9be97ddfa18d51c7bde81cff81ee1ac31",
+        "components": [
+            {
+                "name": "2048 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "against_the_storm": {
+        "igdb_id": "147519",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaazl.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3kre.png",
+        "key_art_url": "",
+        "game_name": "Against the Storm",
+        "igdb_name": "Against the Storm",
+        "age_rating": "12",
+        "rating": [
+            "Alcohol Reference",
+            "Use of Tobacco",
+            "Language",
+            "Fantasy Violence",
+            "Mild Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Real Time Strategy (RTS)",
+            "Simulator",
+            "Strategy",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Nintendo Switch"
+        ],
+        "storyline": "The rain is your ally and the greatest enemy. It cycles in three seasons requiring you to stay flexible and adapt to changing conditions. In Drizzle, the season of regrowth, natural resources replenish themselves, and it\u2019s time for construction and planting crops. The Clearance is the season of harvest, expansion, and preparations for the last, most unforgiving season of them all. A true test of your city\u2019s strength comes with the Storm when bolts of lightning tear the sky, nothing grows and resources are scarce.",
+        "keywords": [
+            "base building",
+            "city builder",
+            "roguelite",
+            "colony simulator"
+        ],
+        "release_date": 1701993600,
+        "entry_point_module": "worlds.against_the_storm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_against_the_storm-1.2.1-py3-none-any.whl#sha256=6bd9b8c461a8d35bc2bcce0014c2d5e5d1293b13c0438061fe929419c2b7a88d"
+    },
+    "ahit": {
+        "igdb_id": "6705",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob1uc.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar75x.png",
+        "key_art_url": "",
+        "game_name": "A Hat in Time",
+        "igdb_name": "A Hat in Time",
+        "age_rating": "7",
+        "rating": [
+            "Blood",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "A Hat in Time is a colorful 3D platformer starring Hat Kid, a young alien girl journeying home aboard her spaceship. Her trip is derailed when a dispute with a passing planet's Mafia bursts open her ship's door, scattering her precious Time Pieces, the magical hourglasses that fuel her vessel, across the world below. Now stranded, Hat Kid must explore vibrant and varied lands to recover the lost Time Pieces one by one. Along the way she meets a cast of quirky characters and rivals, solving puzzles and leaping through obstacle-filled worlds in her quest to gather every last hourglass and finally continue her voyage.",
+        "keywords": [
+            "time travel",
+            "spaceship",
+            "female protagonist",
+            "action-adventure",
+            "cute",
+            "snow",
+            "wall jump",
+            "3d platformer",
+            "swimming",
+            "crowdfunding - kickstarter",
+            "steam greenlight",
+            "crowdfunding",
+            "mafia",
+            "collectibles",
+            "crowd funded",
+            "pax east 2014",
+            "collection marathon"
+        ],
+        "release_date": 1507161600,
+        "entry_point_module": "worlds.ahit",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ahit-0.0.1-py3-none-any.whl#sha256=20d659fbfa7478cc14b43618d48cdf9d5e589ac9c3c84435003060faf16e286b",
+        "components": [
+            {
+                "name": "A Hat in Time Client",
+                "type": "client"
+            }
+        ]
+    },
+    "albw": {
+        "igdb_id": "2909",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3p0j.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ik2135senrlemf2iz0us.png",
+        "key_art_url": "",
+        "game_name": "A Link Between Worlds",
+        "igdb_name": "The Legend of Zelda: A Link Between Worlds",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Historical",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Nintendo 3DS"
+        ],
+        "storyline": "After capturing Princess Zelda and escaping through a rift into the parallel world of Lorule, the evil sorcerer Yuga plan to use the power of the Seven Mages to resurrect the demon king Ganon. The young adventurer Link is called out to restore peace to the kingdom of Hyrule and is granted the ability to merge into walls after obtaining a magic bracelet from the eccentric merchant Ravio, which allows him to reach previously inaccessible areas and travel between the worlds of Hyrule and Lorule.",
+        "keywords": [
+            "medieval",
+            "magic",
+            "minigames",
+            "kingdom",
+            "prequel",
+            "2.5d",
+            "archery",
+            "action-adventure",
+            "fairy",
+            "parallel worlds",
+            "bird",
+            "princess",
+            "snow",
+            "sequel",
+            "swimming",
+            "sword & sorcery",
+            "darkness",
+            "digital distribution",
+            "anthropomorphism",
+            "polygonal 3d",
+            "bow and arrow",
+            "damsel in distress",
+            "upgradeable weapons",
+            "collectibles",
+            "disorientation zone",
+            "descendants of other characters",
+            "save point",
+            "treasure chest",
+            "stereoscopic 3d",
+            "side quests",
+            "potion",
+            "real-time combat",
+            "infinite ammo",
+            "in-game achievements",
+            "self-referential humor",
+            "multiple gameplay perspectives",
+            "pax prime 2013",
+            "gamescom 2013",
+            "rpg elements",
+            "mercenary",
+            "coming of age",
+            "unlockable difficulty level",
+            "interquel",
+            "dimension travel",
+            "d.i.c.e. awards 2014",
+            "androgyny",
+            "fast traveling",
+            "context sensitive",
+            "reversible cover art",
+            "play coin support",
+            "living inventory",
+            "game developers choice awards 2014",
+            "bees",
+            "streetpass support"
+        ],
+        "release_date": 1385078400,
+        "entry_point_module": "worlds.albw",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_albw-0.3.2-py3-none-any.whl#sha256=21fd107c24b0fb11dd35fbd89c3076d8d65feeb403944c2a6157050daf878ba8",
+        "components": [
+            {
+                "name": "A Link Between Worlds Client",
+                "type": "client"
+            }
+        ]
+    },
+    "alttp": {
+        "igdb_id": "1026",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3vzn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t8c.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2x.png",
+        "game_name": "A Link to the Past",
+        "igdb_name": "The Legend of Zelda: A Link to the Past",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence",
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Satellaview",
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "The wizard Agahnim has been abducting descendants of the seven sages, intent on using their power to obliterate the barrier leading to the Dark World. One of the descendants happens to be Princess Zelda, who informs Link of her plight. Armed with a trusty sword and shield, Link begins a journey that will take him through treacherous territory.",
+        "keywords": [
+            "ghosts",
+            "wizards",
+            "magic",
+            "mascot",
+            "prequel",
+            "death",
+            "maze",
+            "archery",
+            "action-adventure",
+            "fairy",
+            "parallel worlds",
+            "backtracking",
+            "undead",
+            "campaign",
+            "princess",
+            "portals",
+            "pixel art",
+            "easter egg",
+            "teleportation",
+            "dwarves",
+            "sequel",
+            "level selection",
+            "giant insects",
+            "silent protagonist",
+            "swimming",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "power glove",
+            "block puzzle",
+            "single-player only",
+            "monkey",
+            "nintendo power",
+            "world map",
+            "human",
+            "shopping",
+            "bow and arrow",
+            "damsel in distress",
+            "rat",
+            "collectibles",
+            "virtual console",
+            "disorientation zone",
+            "non-player character",
+            "4 player co-op",
+            "young protagonist",
+            "ice stage",
+            "escort mission",
+            "treasure chest",
+            "saving the world",
+            "side quests",
+            "potion",
+            "grapple",
+            "real-time combat",
+            "secret area",
+            "vision obstruction",
+            "shielded enemies",
+            "walking through walls",
+            "shaky camera",
+            "multi-phase boss",
+            "liberation",
+            "mercenary",
+            "coming of age",
+            "conveyor belt",
+            "villain",
+            "recurring boss",
+            "been here before",
+            "sleeping",
+            "merchants",
+            "multiple enemy boss fights",
+            "interquel",
+            "dimension travel",
+            "valuable garbage",
+            "fetch quests",
+            "competitive co-op",
+            "griefing",
+            "kidnapping",
+            "poisoning",
+            "time paradox",
+            "fast traveling",
+            "context sensitive",
+            "living inventory",
+            "falling object",
+            "status effects",
+            "slideshow cutscene",
+            "hidden room",
+            "no wrong choice",
+            "timeskip",
+            "another world",
+            "plane shifting",
+            "retroactive achievements",
+            "greatest hits",
+            "damage over time",
+            "monomyth",
+            "buddy system",
+            "contest-driven development",
+            "played for charity",
+            "male protagonist",
+            "broadcast",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "satellaview view-limited games",
+            "satellaview demo/trial release",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo gateway system",
+            "battery save",
+            "bees",
+            "player's choice",
+            "sword sorcery",
+            "technical feature - snes mode 7"
+        ],
+        "release_date": 690681600,
+        "entry_point_module": "worlds.alttp",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_alttp-5.1.0-py3-none-any.whl#sha256=12110c487e90383ef8effc1c9958a3691c7a5845a7381cefbac147b67e19bfc9",
+        "components": [
+            {
+                "name": "LttP Adjuster",
+                "type": "adjuster",
+                "description": "Customize your ALttPR experience with sprites, color palettes, and more"
+            }
+        ]
+    },
+    "alttpr": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "The Legend of Zelda: A Link to the Past",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.alttpr",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_alttpr-1.3.2-py3-none-any.whl#sha256=6e147a6555f4da2cac92db8d71caae7b863246972b64d6b57ba0b29e54633e5d"
+    },
+    "animal_well": {
+        "igdb_id": "191435",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hdh.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar67fm.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6hqf.png",
+        "game_name": "ANIMAL WELL",
+        "igdb_name": "Animal Well",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Survival",
+            "Mystery"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Nintendo Switch"
+        ],
+        "storyline": "It is dark. It is lonely. You don't belong in this world. It's not that it\u2019s a hostile world... it's just... not yours. As you uncover its secrets, the world grows on you. It takes on a feel of familiarity, yet you know that you've only probed the surface. The more you discover, the more you realize how much more there is to discover. Secrets leading to more secrets. You recall the feeling of zooming closer and closer in on a very high-resolution photo. As you hone your focus, the world betrays its secrets.",
+        "keywords": [
+            "exploration",
+            "retro",
+            "dark",
+            "2d",
+            "metroidvania",
+            "cute",
+            "atmospheric",
+            "pixel art",
+            "surreal",
+            "pixel graphics",
+            "relaxing",
+            "controller support"
+        ],
+        "release_date": 1715212800,
+        "entry_point_module": "worlds.animal_well",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_animal_well-0.5.3-py3-none-any.whl#sha256=0ca29ede2bb9f179f837f22c538863c1eb80c3db9cb420386e5ca9aefded2759",
+        "components": [
+            {
+                "name": "ANIMAL WELL Client",
+                "type": "client"
+            }
+        ]
+    },
+    "apeescape": {
+        "igdb_id": "3762",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2gzc.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3scq.png",
+        "game_name": "Ape Escape",
+        "igdb_name": "Ape Escape",
+        "age_rating": "E",
+        "rating": [
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PlayStation",
+            "PlayStation Portable"
+        ],
+        "storyline": "The doctors trustfull test apes have escaped and it's up to you to get out there and retrieve all of them.",
+        "keywords": [
+            "anime",
+            "dinosaurs",
+            "time travel",
+            "collecting",
+            "minigames",
+            "multiple endings",
+            "amnesia",
+            "easter egg",
+            "playstation network",
+            "boss fight",
+            "digital distribution",
+            "anthropomorphism",
+            "monkey",
+            "voice acting",
+            "mind control",
+            "human",
+            "polygonal 3d",
+            "psone classics",
+            "collectibles",
+            "original soundtrack release",
+            "pocketstation support",
+            "playstation tv support",
+            "moving platforms",
+            "vore",
+            "spiky-haired protagonist",
+            "time trials",
+            "adapted to - anime",
+            "second person perspective",
+            "greatest hits",
+            "backwards compatibility",
+            "playstation underground",
+            "rc vehicle"
+        ],
+        "release_date": 930009600,
+        "entry_point_module": "worlds.apeescape",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_apeescape-0.9.10-py3-none-any.whl#sha256=1f98ed610e19d69314c129209f10af528ffc783333432bad8870460c41a8cc45"
+    },
+    "apgo": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Archipela-Go!",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.apgo",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_apgo-0.7.0-py3-none-any.whl#sha256=52963c048f926b3964d14add8382e5531318354f785bdd280143006784bdbce2"
+    },
+    "apquest": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "APQuest",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.apquest",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_apquest-2.0.0-py3-none-any.whl#sha256=e524ef1de484bee70788293511390b53c1421f86ae98cbce5d52d95955b40d9e",
+        "components": [
+            {
+                "name": "APQuest Client",
+                "type": "client"
+            }
+        ]
+    },
+    "archipelaballs": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Archipelaballs",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.archipelaballs",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_archipelaballs-1.0.1-py3-none-any.whl#sha256=a42af9a79625976754d1abda7a4112ce3b4a2ae92636d0b9cd63f55f42573a20"
+    },
+    "archipidle": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "ArchipIDLE",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.archipidle",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_archipidle-0.0.1-py3-none-any.whl#sha256=1842c62d484100195b75f18ae0de96d745c9085cb432a7531cd4ff46e3364664"
+    },
+    "balatro": {
+        "igdb_id": "251833",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9f4g.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4m0g.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4m0c.png",
+        "game_name": "Balatro",
+        "igdb_name": "Balatro",
+        "age_rating": "12",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Indie",
+            "Card & Board Game"
+        ],
+        "themes": [],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Nintendo Switch 2",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "poker",
+            "roguelike",
+            "clowns",
+            "collecting card game - ccg",
+            "collaboration",
+            "the game awards - best debut indie game - winner",
+            "the game awards - best game direction - nominee",
+            "the game awards - best independent game - winner",
+            "the game awards - best mobile game - winner",
+            "the game awards - game of the year - nominee",
+            "available on - apple arcade"
+        ],
+        "release_date": 1708387200,
+        "entry_point_module": "worlds.balatro",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_balatro-0.0.1-py3-none-any.whl#sha256=3924d1f257c285a4f7a4e53063b2116d06818e7896a163586211df9439db6405"
+    },
+    "banjo_tooie": {
+        "igdb_id": "3418",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6c1w.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar7us.png",
+        "key_art_url": "",
+        "game_name": "Banjo-Tooie",
+        "igdb_name": "Banjo-Tooie",
+        "age_rating": "3",
+        "rating": [
+            "Crude Humor",
+            "Animated Violence",
+            "Comic Mischief",
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Quiz/Trivia",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo 64"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "dinosaurs",
+            "animals",
+            "collecting",
+            "animal protagonist",
+            "flight",
+            "action-adventure",
+            "witches",
+            "bird",
+            "backtracking",
+            "achievements",
+            "easter egg",
+            "sequel",
+            "talking animals",
+            "swimming",
+            "boss fight",
+            "digital distribution",
+            "anthropomorphism",
+            "split-screen multiplayer",
+            "protagonist's name in the title",
+            "breaking the fourth wall",
+            "cameo appearance",
+            "collectibles",
+            "ice stage",
+            "character growth",
+            "underwater gameplay",
+            "games with gold",
+            "female antagonist",
+            "inconvenient malfunction",
+            "rpg elements",
+            "cheat code",
+            "villain",
+            "recurring boss",
+            "invisible wall",
+            "shape-shifting",
+            "temporary invincibility",
+            "vore",
+            "dynamic soundtrack",
+            "game console",
+            "gliding",
+            "food-themed stage",
+            "regenerating health",
+            "cross-dressing",
+            "fan service",
+            "button mashing",
+            "aggressive door-opening",
+            "game cartridge",
+            "camel",
+            "fictional currencies",
+            "skull for a head",
+            "greatest hits",
+            "collection marathon",
+            "gibberish",
+            "nintendo 64",
+            "promo vhs",
+            "game boy camera",
+            "lgbtq+",
+            "retroachievements",
+            "rumble pak",
+            "nintendo switch online - expansion pack",
+            "nintendo 64 exclusive"
+        ],
+        "release_date": 974678400,
+        "entry_point_module": "worlds.banjo_tooie",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_banjo_tooie-4.13.0-py3-none-any.whl#sha256=d2338c819b78896d8bb9d0ba2f1f796f557d76d78ab305d5a6dae2d78f4a8ff2",
+        "components": [
+            {
+                "name": "Banjo-Tooie Client",
+                "type": "client"
+            }
+        ]
+    },
+    "bfbb": {
+        "igdb_id": "2765",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3iyp.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Battle for Bikini Bottom",
+        "igdb_name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+        "age_rating": "3",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Xbox",
+            "Nintendo GameCube",
+            "PlayStation 2"
+        ],
+        "storyline": "The game revolves around the theme of robots invading Bikini Bottom, SpongeBob's hometown. The robots were created by Plankton, the evil genius owner of the Chum Bucket, who has built a new machine called the Duplicatotron 3000 to produce an army ofjeremih to take over the world using these robots, but only after he creates them does he realizes that the switch on the Duplicatotron has accidentally been switched to \"Don't Obey\" and the robots quickly kick him out of the Chum Bucket before taking over it.\n\nSpongeBob and Patrick were playing with toy robots and wish they would with real robots. Patrick uses his \"magic wishing shell\" to make their wish come true, hoping they will show up tomorrow. SpongeBob wakes up to find that his house has been trashed after thinking he wants to play with a robot. He wanders through the house for a while and receives a fax from Mr. Krabs, stating that he would give SpongeBob a golden spatula for every certain amount of shiny objects he collects for him. Outside, SpongeBob finds a disappointed Plankton, who weaves a tale of lies to the hero, claiming that the robots showed up out of nowhere and kicked him out. Fooled by the diminutive villain, SpongeBob embarks on a perilous quest to find golden spatulas, get rid of the robots, trading shiny objects to Mr. Krabs for golden spatulas, searching for Patrick's stolen socks (that had been taken by the robots) who will give him golden spatulas if he brings back ten socks, and getting Plankton back into the Chum Bucket, including bungee jumping, bubble blowing, learning new bubble moves from Bubble Buddy, and traveling through dreams amongst others.",
+        "keywords": [
+            "underwater",
+            "robots",
+            "compilation",
+            "based on - tv show",
+            "kid friendly",
+            "talking animals",
+            "3d platformer",
+            "squirrel",
+            "cartoony",
+            "licensed game",
+            "anthropomorphism",
+            "platform exclusive",
+            "voice acting",
+            "protagonist's name in the title",
+            "bink video",
+            "octopus",
+            "crab",
+            "moving platforms",
+            "starfish",
+            "tie-in",
+            "greatest hits",
+            "renderware",
+            "xbox 360 backwards compatibility",
+            "based on - cartoons",
+            "2000s",
+            "spongebob",
+            "multiple playable characters"
+        ],
+        "release_date": 1067558400,
+        "entry_point_module": "worlds.bfbb",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_bfbb-1.2.5-py3-none-any.whl#sha256=764bffd1545554e043e658fbb0b56dc9763aa8385b9c7f5ac1ee1bd139cc6d70",
+        "components": [
+            {
+                "name": "Battle for Bikini Bottom Client",
+                "type": "client"
+            }
+        ]
+    },
+    "bksim": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "BKSimulator",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.bksim",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_bksim-1.0.2-py3-none-any.whl#sha256=b33611c7acc81e35347ed9b11c4c40dc2f54fa7cf952b63836def08f6eb5b306"
+    },
+    "blasphemous": {
+        "igdb_id": "26820",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob0xj.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68m4.png",
+        "key_art_url": "",
+        "game_name": "Blasphemous",
+        "igdb_name": "Blasphemous",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Violence",
+            "Nudity"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Horror"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "A foul curse has fallen upon the land of Cvstodia and all its inhabitants - it is simply known as The Miracle.\n\nPlay as The Penitent One - a sole survivor of the massacre of the \u2018Silent Sorrow\u2019. Trapped in an endless cycle of death and rebirth, it\u2019s down to you to free the world from this terrible fate and reach the origin of your anguish.",
+        "keywords": [
+            "retro",
+            "bloody",
+            "2d",
+            "gothic",
+            "metroidvania",
+            "dark fantasy",
+            "difficult",
+            "side-scrolling",
+            "crossover",
+            "religion",
+            "achievements",
+            "gore",
+            "steam trading cards",
+            "pixel art",
+            "nudity",
+            "religious",
+            "melee combat",
+            "silent protagonist",
+            "2d platformer",
+            "violent",
+            "great soundtrack",
+            "steam achievements",
+            "xbox controller support for pc",
+            "single-player only",
+            "steam cloud",
+            "parrying",
+            "moving platforms",
+            "religious themes",
+            "brutality",
+            "remote play",
+            "soulslike",
+            "male protagonist",
+            "gothic horror",
+            "you can pet the dog",
+            "steam deck",
+            "lore rich",
+            "interconnected-world",
+            "character skin",
+            "steam families",
+            "sidescroller",
+            "previously on - utomik",
+            "available on - blacknut"
+        ],
+        "release_date": 1568073600,
+        "entry_point_module": "worlds.blasphemous",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=ca333d82eb7d3b0740587220087410454a06702eb23818f0333a9e59a99adc43"
+    },
+    "bomb_rush_cyberfunk": {
+        "igdb_id": "135940",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6ya8.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arzj0.png",
+        "key_art_url": "",
+        "game_name": "Bomb Rush Cyberfunk",
+        "igdb_name": "Bomb Rush Cyberfunk",
+        "age_rating": "12",
+        "rating": [
+            "Language",
+            "Violence",
+            "Suggestive Themes",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Sport",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Start your own cypher and dance, paint, trick, face off with the cops and stake your claim to the extrusions and cavities of a sprawling metropolis in an alternate future set to the musical brainwaves of Hideki Naganuma.",
+        "keywords": [
+            "3d platformer",
+            "great soundtrack",
+            "spiritual successor",
+            "skating"
+        ],
+        "release_date": 1692316800,
+        "entry_point_module": "worlds.bomb_rush_cyberfunk",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_bomb_rush_cyberfunk-1.0.6-py3-none-any.whl#sha256=1c331a94f93c0255edeba17ffdf64ab657daaedd33e298f64cb7aba78cdfed6a"
+    },
+    "brotato": {
+        "igdb_id": "199116",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaauv.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1m88.png",
+        "key_art_url": "",
+        "game_name": "Brotato",
+        "igdb_name": "Brotato",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Fighting",
+            "Shooter",
+            "Role-playing (RPG)",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Survival"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "A spaceship from Potato World crashes onto an alien planet. The sole survivor: Brotato, the only potato capable of handling 6 weapons at the same time. Waiting to be rescued by his mates, Brotato must survive in this hostile environment.",
+        "keywords": [
+            "arena shooter",
+            "roguelite"
+        ],
+        "release_date": 1679961600,
+        "entry_point_module": "worlds.brotato",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_brotato-0.15.0-py3-none-any.whl#sha256=e424ca49cb171d609ceadc0cface303f68cd3e58728af58eac01efef4a96adbe"
+    },
+    "cat_quest": {
+        "igdb_id": "36597",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1qlq.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arab6.png",
+        "key_art_url": "",
+        "game_name": "Cat Quest",
+        "igdb_name": "Cat Quest",
+        "age_rating": "3",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [],
+        "release_date": 1502150400,
+        "entry_point_module": "worlds.cat_quest",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cat_quest-0.3.0-py3-none-any.whl#sha256=4352408c6294bcec966e42014cc070f6771834892e9e994e27c2ae829b9cec1c"
+    },
+    "cccharles": {
+        "igdb_id": "173432",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co62bw.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1fol.png",
+        "key_art_url": "",
+        "game_name": "Choo-Choo Charles",
+        "igdb_name": "Choo-Choo Charles",
+        "age_rating": "16",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Survival",
+            "Open world"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "In Choo-Choo Charles you're given the task of eradicating a monster known by the locals as \"Charles\". Nobody knows where he came from, but they know why; to eat the flesh of puny humans. You have a small yellow train, with a map, mounted machine gun, and an exquisite collection of bobble-heads on the dashboard. You'll use this train to get from place to place, while you complete missions for the townspeople, or loot scraps from around the island. Over time you\u2019ll use your scraps to upgrade your train\u2019s speed, armor, and damage. You\u2019ll grow your arsenal, and (hopefully) become an unstoppable force, ready to take on the great and mighty Charles.",
+        "keywords": [
+            "dark",
+            "forest"
+        ],
+        "release_date": 1670544000,
+        "entry_point_module": "worlds.cccharles",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cccharles-0.0.1-py3-none-any.whl#sha256=d8be1a24b18f730e1f365ee29d6fe9d37f758cf11071a9c7e512f091b5f133ef"
+    },
+    "celeste": {
+        "igdb_id": "26226",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9dh.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ga3.png",
+        "game_name": "Celeste",
+        "igdb_name": "Celeste",
+        "age_rating": "7",
+        "rating": [
+            "Alcohol Reference",
+            "Fantasy Violence",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Google Stadia",
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Set on a fictional version of Mount Celeste, it follows a young woman named Madeline who attempts to climb the mountain, and must face her inner demons in her quest to reach the summit.",
+        "keywords": [
+            "exploration",
+            "retro",
+            "psychological exploration",
+            "2d",
+            "rock climbing",
+            "difficult",
+            "female protagonist",
+            "side-scrolling",
+            "cute",
+            "atmospheric",
+            "pixel art",
+            "snow",
+            "pixel graphics",
+            "anxiety",
+            "transgender",
+            "story rich",
+            "great soundtrack",
+            "mental health",
+            "digital distribution",
+            "pax west 2017",
+            "puzzle platformer",
+            "depression",
+            "the game awards - best score or music - nominee",
+            "lgbtq+",
+            "conversation",
+            "precision platforming",
+            "the game awards - best independent game - winner",
+            "the game awards - game of the year - nominee",
+            "sidescroller",
+            "lgbtq",
+            "transgender protagonist",
+            "previously on - stadia pro",
+            "precision platformer"
+        ],
+        "release_date": 1516838400,
+        "entry_point_module": "worlds.celeste",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_celeste-0.0.1-py3-none-any.whl#sha256=a8ebcecf6dddb94a84196731845758d524bc5af248e99f2e15798167925643cf"
+    },
+    "celeste_open_world": {
+        "igdb_id": "26226",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9dh.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ga3.png",
+        "game_name": "Celeste (Open World)",
+        "igdb_name": "Celeste",
+        "age_rating": "7",
+        "rating": [
+            "Alcohol Reference",
+            "Fantasy Violence",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Google Stadia",
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Set on a fictional version of Mount Celeste, it follows a young woman named Madeline who attempts to climb the mountain, and must face her inner demons in her quest to reach the summit.",
+        "keywords": [
+            "exploration",
+            "retro",
+            "psychological exploration",
+            "2d",
+            "rock climbing",
+            "difficult",
+            "female protagonist",
+            "side-scrolling",
+            "cute",
+            "atmospheric",
+            "pixel art",
+            "snow",
+            "pixel graphics",
+            "anxiety",
+            "transgender",
+            "story rich",
+            "great soundtrack",
+            "mental health",
+            "digital distribution",
+            "pax west 2017",
+            "puzzle platformer",
+            "depression",
+            "the game awards - best score or music - nominee",
+            "lgbtq+",
+            "conversation",
+            "precision platforming",
+            "the game awards - best independent game - winner",
+            "the game awards - game of the year - nominee",
+            "sidescroller",
+            "lgbtq",
+            "transgender protagonist",
+            "previously on - stadia pro",
+            "precision platformer"
+        ],
+        "release_date": 1516838400,
+        "entry_point_module": "worlds.celeste_open_world",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_celeste_open_world-0.0.1-py3-none-any.whl#sha256=9f092be72121be03bf53aabeca084b757fabf6771e8936a7c55989cd5e99f6ae"
+    },
+    "chainedechoes": {
+        "igdb_id": "117271",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co544u.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar54tp.png",
+        "game_name": "Chained Echoes",
+        "igdb_name": "Chained Echoes",
+        "age_rating": "16",
+        "rating": [
+            "Strong Language",
+            "Suggestive Themes",
+            "Sexual Themes"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Strategy",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Follow a group of heroes as they explore a land filled to the brim with charming characters, fantastic landscapes and vicious foes. Can you bring peace to a continent where war has been waged for generations and betrayal lurks around every corner?",
+        "keywords": [
+            "story driven",
+            "jrpg",
+            "turn-based rpg",
+            "party-based rpg"
+        ],
+        "release_date": 1670457600,
+        "entry_point_module": "worlds.chainedechoes",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_chainedechoes-0.0.1-py3-none-any.whl#sha256=53040553fa8e63e38b13c6fb16908dc429288caeb2fb47be75d9b571ab7df4f8"
+    },
+    "chatipelago": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Chatipelago",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.chatipelago",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_chatipelago-0.0.1-py3-none-any.whl#sha256=b6c7af456c9ca88b8d323f3b249a493e18505863321ae1a7647fc8dd8439709b"
+    },
+    "checksfinder": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "ChecksFinder",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.checksfinder",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=c6abd117f37c1b299f711136e2f623fa4fbefcd8aa2570747cd923618c90166b",
+        "components": [
+            {
+                "name": "ChecksFinder Client",
+                "type": "client"
+            }
+        ]
+    },
+    "civ_6": {
+        "igdb_id": "293",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rjp.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6uy.png",
+        "key_art_url": "",
+        "game_name": "Civilization VI",
+        "igdb_name": "Sid Meier's Civilization IV",
+        "age_rating": "12",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Turn-based strategy (TBS)"
+        ],
+        "themes": [
+            "Fantasy",
+            "Historical",
+            "Educational",
+            "4X (explore, expand, exploit, and exterminate)"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "murder",
+            "world domination",
+            "construction",
+            "turn-based",
+            "military",
+            "deer",
+            "spaceship",
+            "management",
+            "religion",
+            "farming",
+            "war",
+            "diplomacy",
+            "steam",
+            "micromanagement",
+            "multiple endings",
+            "tank",
+            "slavery",
+            "grid-based movement",
+            "capitalism",
+            "economy",
+            "sequel",
+            "mining",
+            "taoism",
+            "city builder",
+            "digital distribution",
+            "voice acting",
+            "famous quotes",
+            "bink video",
+            "loot gathering",
+            "non-player character",
+            "buddhism",
+            "resource gathering",
+            "moral decisions",
+            "royalty",
+            "in-game map editor",
+            "historical figures in fictional settings",
+            "steam play",
+            "crab",
+            "catapult",
+            "developer cameo",
+            "christianity",
+            "wraparound world",
+            "commerce",
+            "atheism",
+            "communism",
+            "nuclear bomb",
+            "gamersgate",
+            "content editor",
+            "games on demand",
+            "mod support",
+            "tech trees",
+            "alternate reality",
+            "ambient music",
+            "colony",
+            "historical inaccuracy",
+            "barbarians",
+            "anarchism",
+            "invented language",
+            "naval warfare",
+            "slip cover packaging",
+            "biblical quotes",
+            "nuclear war",
+            "judaism",
+            "supply and demand",
+            "hinduism",
+            "nomads",
+            "bronze age",
+            "macromanagement",
+            "interactive achievement awards 2006",
+            "political"
+        ],
+        "release_date": 1130198400,
+        "entry_point_module": "worlds.civ_6",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=bfacb2ef21c2a7b83a72cc67e1c3eca731c5f5b535d09c50dcdf9edb575c2610",
+        "components": [
+            {
+                "name": "Civ6 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "clique": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Clique",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.clique",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_clique-0.0.1-py3-none-any.whl#sha256=7556d60c0d2fdf82fccf17ecc51455dd4ba221150c0caab040651a8b29a3af94"
+    },
+    "crosscode": {
+        "igdb_id": "35282",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co28wy.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6ghz.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar532q.png",
+        "game_name": "CrossCode",
+        "igdb_name": "CrossCode",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Language"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Shooter",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "A girl named Lea awakens aboard a cargo ship with no memory of her past. A man called Sergey Asimov tells her that the key to recovering her lost memories is to play CrossWorlds, a sprawling massively multiplayer online game. Almost as soon as she enters, Lea is set upon by a mysterious figure known as the Blue Avatar and is forced to flee deeper into the game's world. There she befriends a fellow player named Emilie, and together the two set out to explore CrossWorlds, eventually joining a guild called the First Scholars. As Lea ventures through the vast virtual realm and pieces together fragments of who she once was, she is drawn toward the unsettling secrets hidden behind both the game and her own forgotten identity.",
+        "keywords": [
+            "cyberpunk",
+            "16-bit",
+            "action-adventure",
+            "pixel art",
+            "crowdfunding - kickstarter",
+            "crowdfunding",
+            "digital distribution",
+            "pre-release public testing",
+            "a.i. companion",
+            "crowd funded",
+            "twin stick control"
+        ],
+        "release_date": 1537401600,
+        "entry_point_module": "worlds.crosscode",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_crosscode-0.9.7-py3-none-any.whl#sha256=be9ba09f0c41c5451d845ab5a893e76d61349984aceb1ed5a2eb9f5dc2563987"
+    },
+    "crystal_project": {
+        "igdb_id": "181444",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co48fv.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar19k4.png",
+        "key_art_url": "",
+        "game_name": "Crystal Project",
+        "igdb_name": "Crystal Project",
+        "age_rating": "7",
+        "rating": [
+            "Mild Blood",
+            "Partial Nudity",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Tactical",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Mystery"
+        ],
+        "platforms": [
+            "Linux",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "Explore the world, find Crystals, and fulfill the prophecy to bring balance to the land of Sequoia.\n\n...Or maybe you'd rather spend your time collecting neat equipment and artifacts? Or tame strange creatures and fill out all the entries in your archive? Or perhaps you'd rather hunt down every monster and conquer the world's toughest bosses. Or maybe you'd rather travel to the farthest reaches of the land and uncover the world's greatest mysteries.\n\nThe choice is yours, as it should be! Or is it? They say that those who stray out of line will be punished, killed, or worse. Maybe it's for your own good that you stick to collecting Crystals, just like everyone else. But where would the adventure be in that?",
+        "keywords": [
+            "character customization",
+            "3d",
+            "metroidvania",
+            "jrpg",
+            "voxel",
+            "class-based",
+            "atmospheric",
+            "pixel graphics",
+            "non-linear",
+            "party-based",
+            "turn-based combat",
+            "collectathon",
+            "party-based rpg"
+        ],
+        "release_date": 1648684800,
+        "entry_point_module": "worlds.crystal_project",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_crystal_project-0.17.0-py3-none-any.whl#sha256=b3a334f214c3ec59bbc2530cb54197e15ffa43c18e57731626850ce1bd992cc2"
+    },
+    "ctjot": {
+        "igdb_id": "20398",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobzr6.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Chrono Trigger Jets of Time",
+        "igdb_name": "Chrono Trigger",
+        "age_rating": "12",
+        "rating": [
+            "Animated Blood",
+            "Mild Fantasy Violence",
+            "Suggestive Themes",
+            "Use of Alcohol"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Nintendo DS"
+        ],
+        "storyline": "",
+        "keywords": [
+            "time travel",
+            "magic",
+            "time machine",
+            "touch controls",
+            "science-fantasy"
+        ],
+        "release_date": 1227139200,
+        "entry_point_module": "worlds.ctjot",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ctjot-0.0.1-py3-none-any.whl#sha256=e6b201ab178e17e262d8fd8e26d1fe4e99b3e06ae4c9ba1fa5bf793365f3f2d9"
+    },
+    "cuphead": {
+        "igdb_id": "9061",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co62ao.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar60f9.png",
+        "game_name": "Cuphead",
+        "igdb_name": "Cuphead",
+        "age_rating": "7",
+        "rating": [
+            "Use of Alcohol and Tobacco",
+            "Mild Language",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Not applicable (minimal narrative, boss-rush focused).",
+        "keywords": [
+            "pirates",
+            "ghosts",
+            "retro",
+            "shoot 'em up",
+            "magic",
+            "2d",
+            "shark",
+            "1930s",
+            "robots",
+            "run and gun",
+            "side-scrolling",
+            "skeleton",
+            "steam",
+            "bird",
+            "achievements",
+            "multiple endings",
+            "local co-op",
+            "dancing",
+            "snake",
+            "dice",
+            "singing",
+            "hand-drawn",
+            "boss fight",
+            "explosion",
+            "digital distribution",
+            "pax west 2017",
+            "anthropomorphism",
+            "platform exclusive",
+            "train level",
+            "playing cards",
+            "dualshock 4 support for pc",
+            "voice acting",
+            "protagonist's name in the title",
+            "cat",
+            "windows store",
+            "xbox play anywhere",
+            "xbox one x enhanced",
+            "shopping",
+            "bow and arrow",
+            "transforming boss",
+            "original soundtrack release",
+            "unlockables",
+            "color separation",
+            "moral decisions",
+            "pax east 2016",
+            "xbox live",
+            "octopus",
+            "vision obstruction",
+            "parrying",
+            "multi-phase boss",
+            "violent plants",
+            "conveyor belt",
+            "starfish",
+            "unlockable difficulty level",
+            "auto-scrolling levels",
+            "temporary invincibility",
+            "multiple enemy boss fights",
+            "cartoon violence",
+            "boss assistance",
+            "food-themed stage",
+            "x-ray damage",
+            "the game awards - best score or music - nominee",
+            "the game awards 2017",
+            "best debut indie game: nominee - 2017 (the game awards)",
+            "the game awards - nominee",
+            "the game awards - best action game - nominee",
+            "the game awards - best art direction - nominee",
+            "the game awards - best art direction - winner",
+            "the game awards - best debut indie game - nominee",
+            "the game awards - best debut indie game - winner",
+            "the game awards - best independent game - nominee",
+            "the game awards - best independent game - winner"
+        ],
+        "release_date": 1506643200,
+        "entry_point_module": "worlds.cuphead",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cuphead-0.2.20020810-py3-none-any.whl#sha256=864d5d4f3c9f3b5116f5d6fe36eca4e643eba22138e646fd3b28fa91a447e941"
+    },
+    "cv64": {
+        "igdb_id": "1130",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5geb.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Castlevania 64",
+        "igdb_name": "Castlevania",
+        "age_rating": "12",
+        "rating": [
+            "Animated Blood",
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Hack and slash/Beat 'em up",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Horror"
+        ],
+        "platforms": [
+            "Nintendo 64"
+        ],
+        "storyline": "Castlevania games debut on the N64 this is the first Castlevania game in 3D. However, the goal of the game remains the same: defeat Dracula and his monsters. The player can choose to be Reinhardt Schneider with traditional whip or Carrie Fernandez who uses magic. A new feature is the presence of an in-game clock that switches time from day to night.",
+        "keywords": [
+            "ghosts",
+            "motorcycle",
+            "exploration",
+            "bloody",
+            "vampire",
+            "magic",
+            "summoning support",
+            "death",
+            "horse",
+            "maze",
+            "female protagonist",
+            "action-adventure",
+            "religion",
+            "witches",
+            "multiple protagonists",
+            "backtracking",
+            "multiple endings",
+            "undead",
+            "traps",
+            "revenge",
+            "dog",
+            "teleportation",
+            "good vs evil",
+            "bats",
+            "day/night cycle",
+            "boss fight",
+            "explosion",
+            "anthropomorphism",
+            "alternate costumes",
+            "character select screen",
+            "voice acting",
+            "human",
+            "polygonal 3d",
+            "shopping",
+            "upgradeable weapons",
+            "loot gathering",
+            "transforming boss",
+            "skeletons",
+            "werewolves",
+            "special attacks",
+            "unlockables",
+            "non-player character",
+            "descendants of other characters",
+            "save point",
+            "ice stage",
+            "falling damage",
+            "unstable platforms",
+            "melee",
+            "real-time combat",
+            "male antagonist",
+            "instant kill",
+            "optional boss",
+            "difficulty level",
+            "scary children",
+            "christianity",
+            "moving platforms",
+            "vampire hunter",
+            "sadism",
+            "weapons swap",
+            "plot twist",
+            "recurring character",
+            "frankenstein's monster",
+            "ambient music",
+            "new protagonist in sequel",
+            "poisoning",
+            "drawbridge",
+            "time paradox",
+            "combat-based platformer",
+            "orphan",
+            "rotating platforms",
+            "male protagonist",
+            "retroachievements",
+            "controller pak",
+            "controller pak required",
+            "nintendo 64 exclusive"
+        ],
+        "release_date": 917308800,
+        "entry_point_module": "worlds.cv64",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cv64-0.0.1-py3-none-any.whl#sha256=7f79c40701bf156a50f50c8e357b3a14ae4208290be588d9300533d2366ed531"
+    },
+    "cv_dos": {
+        "igdb_id": "1136",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9z0.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nqf.png",
+        "game_name": "Castlevania: Dawn of Sorrow",
+        "igdb_name": "Castlevania: Dawn of Sorrow",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Blood and Gore"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Horror"
+        ],
+        "platforms": [
+            "Nintendo DS"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "monsters",
+            "bloody",
+            "gravity",
+            "vampire",
+            "magic",
+            "grinding",
+            "collecting",
+            "metroidvania",
+            "summoning support",
+            "death",
+            "horse",
+            "female protagonist",
+            "side-scrolling",
+            "witches",
+            "multiple protagonists",
+            "bird",
+            "dracula",
+            "backtracking",
+            "multiple endings",
+            "undead",
+            "traps",
+            "blocks",
+            "dancing",
+            "snow",
+            "wolf",
+            "mud",
+            "easter egg",
+            "dog",
+            "nudity",
+            "teleportation",
+            "sequel",
+            "good vs evil",
+            "bats",
+            "puppet",
+            "rituals",
+            "boss fight",
+            "explosion",
+            "throwing weapons",
+            "clowns",
+            "playing cards",
+            "leveling up",
+            "world map",
+            "cat",
+            "shopping",
+            "bow and arrow",
+            "transforming boss",
+            "werewolves",
+            "touch controls",
+            "original soundtrack release",
+            "non-player character",
+            "descendants of other characters",
+            "panther",
+            "save point",
+            "potion",
+            "melee",
+            "in-game map editor",
+            "secret area",
+            "optional boss",
+            "difficulty level",
+            "multi-phase boss",
+            "subtitled silence",
+            "yeti",
+            "rpg elements",
+            "violent plants",
+            "moving platforms",
+            "punctuation mark above head",
+            "vampire hunter",
+            "sequence breaking",
+            "villain",
+            "starfish",
+            "tentacles",
+            "merchants",
+            "completion percentage",
+            "frankenstein's monster",
+            "regenerating health",
+            "sex change",
+            "new game plus",
+            "iron maiden",
+            "fast traveling",
+            "status effects",
+            "on-the-fly character switching",
+            "swarming enemies",
+            "soul steal",
+            "collective conciousness",
+            "male protagonist",
+            "fan translation - portuguese"
+        ],
+        "release_date": 1124928000,
+        "entry_point_module": "worlds.cv_dos",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cv_dos-2.0.0-py3-none-any.whl#sha256=4608e758b9b7cf8c6df875dd3acd76dcfa4973a735a41866d62ba4822d9e9f8e"
+    },
+    "cvcotm": {
+        "igdb_id": "1132",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobcr5.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vgn.png",
+        "key_art_url": "",
+        "game_name": "Castlevania - Circle of the Moon",
+        "igdb_name": "Castlevania: Circle of the Moon",
+        "age_rating": "12",
+        "rating": [
+            "Mild Violence",
+            "Animated Blood"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Horror"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "Taking place in 1830, Circle of the Moon is set in one of the fictional universes of the Castlevania series. The premise of the original series is the eternal conflict between the vampire hunters of the Belmont clan and the immortal vampire Dracula. Circle of the Moon's protagonist, however, is Nathan Graves, whose parents died a decade ago to banish Dracula. Morris Baldwin, who helped in Dracula's banishment, trained him to defeat Dracula and the monsters; Morris ultimately chose him as his successor and gave him the \"Hunter Whip\", to the displeasure of Hugh, Morris' son who trained alongside him.\n\nAt an old castle, Camilla, a minion of Dracula, revives him, only to be interrupted by the arrival of Morris, Nathan, and Hugh. Before they are able to banish him again, Dracula destroys the floor under Nathan and Hugh, causing them to plummet down a long tunnel. Surviving the fall and wishing to find his father, Hugh leaves Nathan behind. Nathan proceeds to search the castle for his mentor. Along the way, he learns that at the next full moon, Morris' soul will be used to return Dracula to full power. He also periodically encounters Hugh, who becomes more hostile as the game progresses. Eventually, Nathan encounters Camilla, who hints that she and Dracula are responsible for the changes in his personality. Nathan vanquishes Camilla in her true form and meets up with Hugh once more. Upon seeing him, Hugh immediately attacks him with the goal of proving himself to his father through Nathan's defeat; Nathan, however, realizes that Dracula is controlling Hugh. Nathan defeats him, and Dracula's control over Hugh breaks. Confessing that he doubted his self-worth when Nathan was chosen as successor, Hugh tasks him with Morris' rescue.\n\nArriving at the ceremonial room, Nathan confronts Dracula, who confirms that he had tampered with Hugh's soul to cause the changes in his personality. They begin to fight and halfway through, Dracula teleports away to gain his full power. Hugh then frees his father and tasks Nathan with Dracula's banishment. Nathan continues the battle and defeats Dracula; escaping the collapsing castle, he reunites with Morris and Hugh. Nathan is declared a master vampire hunter by Morris. Hugh vows to retrain under Morris due to his failure.",
+        "keywords": [
+            "gravity",
+            "vampire",
+            "magic",
+            "metroidvania",
+            "death",
+            "horse",
+            "action-adventure",
+            "backtracking",
+            "wolf",
+            "wall jump",
+            "bats",
+            "boss fight",
+            "leveling up",
+            "skeletons",
+            "virtual console",
+            "launch titles",
+            "non-player character",
+            "save point",
+            "minotaurs",
+            "unstable platforms",
+            "melee",
+            "multi-phase boss",
+            "female antagonist",
+            "moving platforms",
+            "vampire hunter",
+            "villain",
+            "soul steal",
+            "roman mythology",
+            "male protagonist",
+            "wii u virtual console",
+            "fan translation - portuguese"
+        ],
+        "release_date": 985132800,
+        "entry_point_module": "worlds.cvcotm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cvcotm-0.0.1-py3-none-any.whl#sha256=53b27d68650093ff76c9d7b032f1831235b7bddce56f8992169c7a7452068778"
+    },
+    "dark_souls_2": {
+        "igdb_id": "2368",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobysr.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/rhcizq2gzlkfyhjowlcb.png",
+        "key_art_url": "",
+        "game_name": "Dark Souls II",
+        "igdb_name": "Dark Souls II",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Partial Nudity",
+            "Violence",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PC (Microsoft Windows)",
+            "Xbox 360"
+        ],
+        "storyline": "The kingdom of Drangleic, once prosperous under King Vendrick, has crumbled over the ages. War between humans and giants, the king's unexplained disappearance, and the spreading Undead Curse have reduced the land to ruin. The player takes the role of an undead traveler who arrives in Drangleic seeking a cure for their affliction, drawn by the faint hope that something in this decaying kingdom might reverse the curse that condemns them to an endless cycle of death and hollowing.",
+        "keywords": [
+            "medieval",
+            "brutal",
+            "dark",
+            "magic",
+            "3d",
+            "metroidvania",
+            "death",
+            "action-adventure",
+            "achievements",
+            "undead",
+            "traps",
+            "sequel",
+            "good vs evil",
+            "sword & sorcery",
+            "giants",
+            "boss fight",
+            "throwing weapons",
+            "spider",
+            "playstation trophies",
+            "customizable characters",
+            "customization",
+            "leveling up",
+            "human",
+            "bow and arrow",
+            "upgradeable weapons",
+            "non-player character",
+            "retail games with steam activation",
+            "checkpoints",
+            "treasure chest",
+            "saving the world",
+            "side quests",
+            "downloadable content",
+            "player vs player",
+            "melee",
+            "real-time combat",
+            "parrying",
+            "rpg elements",
+            "mercenary",
+            "canonical death",
+            "consolation achievements",
+            "british accent",
+            "tokyo game show 2013",
+            "multiple enemy boss fights",
+            "boss assistance",
+            "sliding down ladders",
+            "sex change",
+            "new game plus",
+            "fire manipulation",
+            "blacksmith",
+            "dual wielding",
+            "status effects",
+            "hidden room",
+            "persistent world",
+            "souls as currency",
+            "soul steal",
+            "undead pirates",
+            "old-fashioned english",
+            "pyromancer",
+            "soulslike",
+            "realtime 3d",
+            "interconnected-world"
+        ],
+        "release_date": 1394496000,
+        "entry_point_module": "worlds.dark_souls_2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dark_souls_2-0.0.1-py3-none-any.whl#sha256=c5bc6cc63e3ca2660aea1dac81659895470d6093e2cd290b279408fcc202cdbe"
+    },
+    "dark_souls_3": {
+        "igdb_id": "11133",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9ed.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4ko8.png",
+        "key_art_url": "",
+        "game_name": "Dark Souls III",
+        "igdb_name": "Dark Souls III",
+        "age_rating": "16",
+        "rating": [
+            "Blood",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One"
+        ],
+        "storyline": "Set in the Kingdom of Lothric, a bell has rung to signal that the First Flame, responsible for maintaining the Age of Fire, is dying out. As has happened many times before, the coming of the Age of Dark produces the undead: cursed beings that rise after death. The Age of Fire can be prolonged by linking the fire, a ritual in which great lords and heroes sacrifice their souls to rekindle the First Flame. However, Prince Lothric, the chosen linker for this age, abandoned his duty and decided to watch the flame die from afar. The bell is the last hope for the Age of Fire, resurrecting previous Lords of Cinder (heroes who linked the flame in past ages) to attempt to link the fire again; however, all but one Lord shirk their duty. Meanwhile, Sulyvahn, a sorcerer from the Painted World of Ariandel, wrongfully proclaims himself Pontiff and seizes power over Irithyll of the Boreal Valley and the returning Anor Londo cathedral from Dark Souls as a tyrant.\n\nThe Ashen One, an Undead who failed to become a Lord of Cinder and thus called an Unkindled, rises and must link the fire by returning Prince Lothric and the defiant Lords of Cinder to their thrones in Firelink Shrine. The Lords include the Abyss Watchers, a legion of warriors sworn by the Old Wolf's Blood which linked their souls into one to protect the land from the Abyss and ultimately locked in an endless battle between each other; Yhorm the Giant, who sacrificed his life for a nation conquered by his ancestor; and Aldrich, who became a Lord of Cinder despite his ravenous appetite for both men and gods. Lothric was raised to link the First Flame but neglected his duties and chose to watch the fire fade instead.\n\nOnce the Ashen One succeeds in returning Lothric and the Lords of Cinder to their thrones, they travel to the ruins of the Kiln of the First Flame. There, they encounter the Soul of Cinder, an amalgamation of all the former Lords of Cinder. Upon defeat, the player can attempt to link the fire or access three other optional endings unlocked by the player's in-game decisions. These include summoning the Fire Keeper to extinguish the flame and begin an age of Dark or killing her in a sudden change of heart. A fourth ending consists of the Ashen One taking the flame for their own, becoming the Lord of Hollows.",
+        "keywords": [
+            "medieval",
+            "3d",
+            "dark fantasy",
+            "death",
+            "action-adventure",
+            "online",
+            "sequel",
+            "sword & sorcery",
+            "customizable characters",
+            "bink video",
+            "human",
+            "playstation experience 2015",
+            "pick your gender",
+            "downloadable content",
+            "parrying",
+            "d.i.c.e. awards 2017",
+            "crab",
+            "pax prime 2015",
+            "canonical death",
+            "british accent",
+            "camera control",
+            "sliding down ladders",
+            "new game plus",
+            "entering world in a painting",
+            "the game awards - nominee",
+            "the game awards 2016",
+            "best role playing game: nominee - 2016 (the game awards)",
+            "soulslike",
+            "realtime 3d",
+            "the game awards - best roleplaying game - nominee",
+            "interconnected-world"
+        ],
+        "release_date": 1458777600,
+        "entry_point_module": "worlds.dark_souls_3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dark_souls_3-0.0.1-py3-none-any.whl#sha256=8d96beaa118d3920cc8e2e5334f84807a9e5fa282c529434001a3f6e58176844"
+    },
+    "deltarune": {
+        "igdb_id": "171233",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9m71.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3rhq.png",
+        "game_name": "DELTARUNE",
+        "igdb_name": "Deltarune",
+        "age_rating": "12",
+        "rating": [
+            "Suggestive Themes",
+            "Mild Blood",
+            "Fantasy Violence",
+            "Language",
+            "Drug Reference",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Music",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Mystery"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "Kris and their classmate Susie fall into an unknown place called the \"Dark World\" where they meet Ralsei, who informs them that they are prophesied, in the legend of Delta Rune, to be heroes that save the world.\n\nDeltarune's full game will consist of seven chapters, each where Kris, Susie, and Ralsei either fight or act their way through Dark Worlds. Kris, being the only one who can seal the \"Dark Fountain\", is the party leader. They can command the other party members in battles, though some commands would seem forced to others. The SOUL, a heart-shaped object, is controlled by the player and is in Kris's body, leaving Kris's actions mostly up to the player.",
+        "keywords": [
+            "2d",
+            "bullet hell",
+            "pixel art",
+            "pixel graphics",
+            "dog",
+            "humor",
+            "xbox controller support for pc",
+            "steam cloud",
+            "dualshock 4 support for pc",
+            "branching storyline",
+            "self-referential humor",
+            "game with chapters",
+            "controller support",
+            "bullet grazing",
+            "steam families",
+            "dualsense support for pc"
+        ],
+        "release_date": 1748995200,
+        "entry_point_module": "worlds.deltarune",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_deltarune-2.1.3-py3-none-any.whl#sha256=1f43b19d839c4712dab58fe0565c9d5fe0b174f92293ad356b4fd341c93aedfc",
+        "components": [
+            {
+                "name": "DELTARUNE Client",
+                "type": "client"
+            }
+        ]
+    },
+    "diddy_kong_racing": {
+        "igdb_id": "2723",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wgj.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6bjr.png",
+        "key_art_url": "",
+        "game_name": "Diddy Kong Racing",
+        "igdb_name": "Diddy Kong Racing",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Racing"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo 64"
+        ],
+        "storyline": "Timber the Tiger's parents picked a fine time to go on vacation. When they come back they're going to be faced with an island trashed by the spiteful space bully Wizpig - unless the local animals can do something about it! So join Diddy Kong as he teams up with Timber the Tiger Pipsy the Mouse and Taj the Genie in an epic racing adventure unlike anything you've ever experienced before! This unique game blends adventure and racing like no other game! Roam anywhere you want on the island by car plane or hovercraft! An enormous amount of single-player and multi-player modes! Feel the action when you use the N64 Rumble Pak and save your times on the N64 Controller Pak!",
+        "keywords": [
+            "vehicular combat",
+            "go-kart",
+            "flight",
+            "crossover",
+            "snow",
+            "grand prix",
+            "high score",
+            "talking animals",
+            "airplane",
+            "vehicle combat",
+            "anthropomorphism",
+            "monkey",
+            "split-screen multiplayer",
+            "mascot sports",
+            "combat racing",
+            "player vs player",
+            "secret area",
+            "mirrored maps",
+            "mid-development ip split",
+            "starting grid",
+            "time trials",
+            "bots",
+            "behind the waterfall",
+            "greatest hits",
+            "promo vhs",
+            "interactive achievement awards 1998",
+            "retroachievements",
+            "rumble pak",
+            "diddy kong",
+            "controller pak",
+            "fan translation - portuguese",
+            "nintendo 64 exclusive"
+        ],
+        "release_date": 880070400,
+        "entry_point_module": "worlds.diddy_kong_racing",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_diddy_kong_racing-1.1.4-py3-none-any.whl#sha256=1d241edf355fd8f2ca88c71f809e45eb1ccdab7554f4f53121d57c543d2d71c1",
+        "components": [
+            {
+                "name": "Diddy Kong Racing Client",
+                "type": "client"
+            }
+        ]
+    },
+    "dk64": {
+        "igdb_id": "1096",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co289i.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kpl.png",
+        "key_art_url": "",
+        "game_name": "Donkey Kong 64",
+        "igdb_name": "Donkey Kong 64",
+        "age_rating": "7",
+        "rating": [
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "",
+        "keywords": [
+            "gravity",
+            "photography",
+            "minigames",
+            "guitar playing",
+            "death",
+            "fairy",
+            "multiple protagonists",
+            "multiple endings",
+            "artificial intelligence",
+            "jungle",
+            "camera",
+            "level selection",
+            "giant insects",
+            "high score",
+            "day/night cycle",
+            "hip-hop",
+            "boss fight",
+            "death match",
+            "digital distribution",
+            "anthropomorphism",
+            "monkey",
+            "split-screen multiplayer",
+            "game critics awards",
+            "character select screen",
+            "gorilla",
+            "protagonist's name in the title",
+            "developer voice acting",
+            "boxer",
+            "polygonal 3d",
+            "upgradeable weapons",
+            "loot gathering",
+            "collectibles",
+            "sequel is in a different genre",
+            "virtual console",
+            "original soundtrack release",
+            "descendants of other characters",
+            "character growth",
+            "real-time combat",
+            "bundled with peripherals",
+            "pack-in game",
+            "video game characters that play video games",
+            "moving platforms",
+            "recurring boss",
+            "starfish",
+            "invisible wall",
+            "franchise reboot",
+            "predecessor included",
+            "western games based on japanese ips",
+            "over 100% completion",
+            "completion percentage",
+            "mine cart sequence",
+            "invisibility",
+            "hidden character",
+            "musicians",
+            "foreshadowing",
+            "ape",
+            "tomboy",
+            "greatest hits",
+            "collection marathon",
+            "metagame",
+            "color cartridges",
+            "retroachievements",
+            "controller pak",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "nintendo 64 expansion pak required"
+        ],
+        "release_date": 943228800,
+        "entry_point_module": "worlds.dk64",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_dk64-1.5.8-py3-none-any.whl#sha256=d5028fee6630551307b83c6229ed432e5dbe4aa29154bff1ec4e006392e26eae",
+        "components": [
+            {
+                "name": "DK64 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "dkc": {
+        "igdb_id": "1090",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co70qn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar407k.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar407t.png",
+        "game_name": "Donkey Kong Country",
+        "igdb_name": "Donkey Kong Country",
+        "age_rating": "7",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "On a dark and stormy night in Donkey Kong Island, Diddy Kong, Donkey Kong's nephew has taken the weighty responsibility of guarding DK's precious banana hoard for one night, as a part of his \"hero training\". DK entrusts Diddy with protecting the hoard until midnight, when he would be relieved, while DK himself goes to sleep as he is tired.\n\nEverything seems to go smoothly in the hoard until Diddy hears some noises. Diddy hears some voices outside and gets scared, asking who's there. King K. Rool, who had commanded his Kremling minions to steal the bananas. Two ropes drop from above and suddenly two Kritters appear. Diddy cartwheels them both easily, but then a Krusha (Klump in the instruction booklet) comes in as backup. As Diddy is not strong enough to defeat Krusha by himself, he is overpowered and defeated by the Kremling. The lizars seal Diddy inside a barrel and then throw it in the bushes.\nDonkey's grandfather, Cranky Kong, rushes inside the treehouse to tell Donkey Kong to wake up so he may tell him what happened. He then tells Donkey to check his Banana Cave. Donkey Kong is infuriated, exclaiming that the Kremlings will pay for stealing his banana hoard and kidnapping his little buddy. Donkey goes on to say that he will hunt every corner of the island for his bananas back.",
+        "keywords": [
+            "gravity",
+            "shark",
+            "death",
+            "2.5d",
+            "frog",
+            "flight",
+            "side-scrolling",
+            "animal-based",
+            "multiple protagonists",
+            "overworld",
+            "tropical",
+            "jungle",
+            "snow",
+            "snake",
+            "giant insects",
+            "high score",
+            "talking animals",
+            "silent protagonist",
+            "swimming",
+            "donkey kong",
+            "darkness",
+            "boss fight",
+            "digital distribution",
+            "anthropomorphism",
+            "bonus stage",
+            "monkey",
+            "throwing weapons",
+            "rhinoceros",
+            "nintendo power",
+            "world map",
+            "gorilla",
+            "protagonist's name in the title",
+            "crocodile",
+            "breaking the fourth wall",
+            "collectibles",
+            "virtual console",
+            "original soundtrack release",
+            "descendants of other characters",
+            "save point",
+            "ice stage",
+            "checkpoints",
+            "unstable platforms",
+            "real-time combat",
+            "underwater gameplay",
+            "instant kill",
+            "secret area",
+            "level select map",
+            "animal companions",
+            "fuel management",
+            "moving platforms",
+            "recurring boss",
+            "jellyfish",
+            "water level",
+            "franchise reboot",
+            "auto-scrolling levels",
+            "western games based on japanese ips",
+            "speedrun",
+            "boss assistance",
+            "not-so-bad guys",
+            "villain turned good",
+            "over 100% completion",
+            "mine cart sequence",
+            "monarchy",
+            "ambient music",
+            "resized enemy",
+            "adapted to - tv show",
+            "on-the-fly character switching",
+            "trilogy",
+            "ape",
+            "cliffhanger",
+            "fictional currencies",
+            "secret areas within secret areas",
+            "false death",
+            "pre-rendered backgrounds",
+            "greatest hits",
+            "armadillo",
+            "animal weaponry",
+            "buddy system",
+            "promo vhs",
+            "retroachievements",
+            "diddy kong",
+            "wii virtual console",
+            "cranky kong",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "nintendo gateway system",
+            "battery save",
+            "player's choice"
+        ],
+        "release_date": 785116800,
+        "entry_point_module": "worlds.dkc",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dkc-1.2.2-py3-none-any.whl#sha256=de03adf975ba63ef8f32a5dde36f639c3a28ca841013f20da5f77f88e5c56bc0",
+        "components": [
+            {
+                "name": "DKC Manager",
+                "type": "adjuster"
+            }
+        ]
+    },
+    "dkc2": {
+        "igdb_id": "1092",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co217m.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4086.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3okv.png",
+        "game_name": "Donkey Kong Country 2",
+        "igdb_name": "Donkey Kong Country 2: Diddy's Kong Quest",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "It was a relaxing, sunny day on Donkey Kong Island. Funky Kong is seen surfing and then falling off his board. He asked for Donkey Kong to join him, but the hero simply continues lounging. Cranky Kong goes up to him and complains how he never took breaks, \"whisking off maidens and throwing barrels seven days a week\", but Donkey ignores him, confident that he is a hero and that King K. Rool is gone for good. Cranky soon leaves.\n\nMeanwhile, above, Kaptain K. Rool, aboard his vessel, The Flying Krock, commands his minions to invade the island and take Donkey captive so that his next attempt at stealing the banana hoard will not be a failure and the hero will never mess with his plans again. Donkey, still lounging, did not notice the attack until Kutlasses ambushed him and took him prisoner. Kaptain K. Rool assures Donkey Kong that he will never see his precious island or his friends again.\n\nLater and back on the island, Diddy, Dixie and Cranky Kong find Donkey missing, along with a note. It reads:\nHah-arrrrh! We have got the big monkey! If you want him back, you scurvy dogs, you'll have to hand over the banana hoard!\nKaptain K. Rool\nAt this point, Wrinkly, Funky and Swanky Kong come to the scene. Cranky suggests to give up the hoard, but Diddy insists that Donkey Kong would be furious if he lost his bananas after all trouble recovering them at the last time. Diddy and Dixie Kong ride to Crocodile Isle via Enguarde the Swordfish, and then start their quest.",
+        "keywords": [
+            "pirates",
+            "ghosts",
+            "gravity",
+            "guitar playing",
+            "frog",
+            "amusement park",
+            "female protagonist",
+            "animal protagonist",
+            "side-scrolling",
+            "animal-based",
+            "multiple protagonists",
+            "overworld",
+            "multiple endings",
+            "dancing",
+            "sequel",
+            "level selection",
+            "giant insects",
+            "high score",
+            "talking animals",
+            "silent protagonist",
+            "climbing",
+            "swimming",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "digital distribution",
+            "anthropomorphism",
+            "bonus stage",
+            "monkey",
+            "rhinoceros",
+            "spider",
+            "nintendo power",
+            "world map",
+            "gorilla",
+            "crocodile",
+            "cat",
+            "breaking the fourth wall",
+            "game reference",
+            "cameo appearance",
+            "collectibles",
+            "virtual console",
+            "original soundtrack release",
+            "descendants of other characters",
+            "save point",
+            "sprinting mechanics",
+            "young protagonist",
+            "ice stage",
+            "checkpoints",
+            "underwater gameplay",
+            "instant kill",
+            "secret area",
+            "level select map",
+            "optional boss",
+            "animal companions",
+            "multi-phase boss",
+            "self-referential humor",
+            "liberation",
+            "recurring boss",
+            "starfish",
+            "water level",
+            "auto-scrolling levels",
+            "temporary invincibility",
+            "western games based on japanese ips",
+            "boss assistance",
+            "completion percentage",
+            "mine cart sequence",
+            "ambient music",
+            "resized enemy",
+            "fireworks",
+            "bonus game",
+            "on-the-fly character switching",
+            "trilogy",
+            "ape",
+            "fictional currencies",
+            "porcupine",
+            "dark second act",
+            "pre-rendered backgrounds",
+            "greatest hits",
+            "in-game anti-piracy effects",
+            "animal weaponry",
+            "buddy system",
+            "male protagonist",
+            "retroachievements",
+            "wii virtual console",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo gateway system",
+            "battery save",
+            "player's choice"
+        ],
+        "release_date": 816912000,
+        "entry_point_module": "worlds.dkc2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_dkc2-3.1.4-py3-none-any.whl#sha256=10548a35214d8add565726e34bd6faa52102599ea71a75507b32dd1f2a056966",
+        "components": [
+            {
+                "name": "DKC2 Manager",
+                "type": "adjuster"
+            }
+        ]
+    },
+    "dkc2_trivia": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DKC2 Trivia Database",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.dkc2_trivia",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dkc2_trivia-0.2.0-py3-none-any.whl#sha256=8f03173ba2a2163627d2ef1a72ea1ed4315180724c2e6897cc767f741af0e1f1"
+    },
+    "dktoluca": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Donkey Kong Toluca",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.dktoluca",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dktoluca-1.0.1-py3-none-any.whl#sha256=5a758f9993c09024d3b6f3385b394ddbf916f260629a1dd276e3e6b3a39bdb14"
+    },
+    "dontstarvetogether": {
+        "igdb_id": "17832",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaaqp.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5m2.png",
+        "key_art_url": "",
+        "game_name": "Don't Starve Together",
+        "igdb_name": "Don't Starve Together",
+        "age_rating": "12",
+        "rating": [
+            "Crude Humor",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Survival",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "Discover and explore a massive procedurally generated and biome-rich world with countless resources and threats. Whether you stick to the surface world, go spelunking in the caves, dive deeper into the Ancient Archive, or set sail for the Lunar islands, it will be a long time before you run out of things to do.\n\nSeasonal bosses, wandering menaces, lurking shadow creatures, and plenty of flora and fauna ready to turn you into a spooky ghost.\n\nPlow fields and sow seeds to grow the farm of your dreams. Tend to your crops to help your fellow survivors stay fed and ready for the challenges to come.\n\nProtect yourself, your friends, and everything you have managed to gather, because you can be sure, somebody or something is going to want it back.\n\nEnter a strange and unexplored world full of odd creatures, hidden dangers, and ancient secrets. Gather resources to craft items and build structures that match your survival style. Play your way as you unravel the mysteries of \"The Constant\".\n\nCooperate with your friends in a private game, or find new friends online. Work with other players to survive the harsh environment, or strike out on your own.\n\nDo whatever it takes, but most importantly, Don't Starve.",
+        "keywords": [
+            "2d",
+            "crafting",
+            "difficult",
+            "steampunk",
+            "online co-op",
+            "action-adventure",
+            "funny",
+            "atmospheric",
+            "survival horror",
+            "sequel",
+            "digital distribution",
+            "pax west 2017",
+            "dualshock 4 support for pc",
+            "pax west 2016",
+            "online multiplayer achievements",
+            "open world survival craft",
+            "netflix games",
+            "bees"
+        ],
+        "release_date": 1461196800,
+        "entry_point_module": "worlds.dontstarvetogether",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_dontstarvetogether-1.3.2-py3-none-any.whl#sha256=f10f439e0d9215cb4a468f43688e3400c0a5c111ea578593a5f2482a704093fb",
+        "components": [
+            {
+                "name": "Don't Starve Together Client",
+                "type": "client"
+            }
+        ]
+    },
+    "doom_1993": {
+        "igdb_id": "673",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5rav.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar2fxj.png",
+        "key_art_url": "",
+        "game_name": "DOOM 1993",
+        "igdb_name": "Doom",
+        "age_rating": "16",
+        "rating": [
+            "Intense Violence",
+            "Blood and Gore",
+            "Violence",
+            "Animated Violence",
+            "Animated Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Horror"
+        ],
+        "platforms": [
+            "Windows Mobile",
+            "PC-9800 Series",
+            "Linux",
+            "DOS"
+        ],
+        "storyline": "The player takes the role of a marine (unnamed to further represent the person playing), \"one of Earth's toughest, hardened in combat and trained for action\", who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless.\n\nSuddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies\n\nA military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.",
+        "keywords": [
+            "2.5d",
+            "maze",
+            "futuristic",
+            "compilation",
+            "demons",
+            "shareware",
+            "silent protagonist",
+            "one-man army",
+            "melee",
+            "real-time combat",
+            "developer cameo",
+            "invisibility",
+            "no longer banned",
+            "lost soul",
+            "dial-up wide area network game operation"
+        ],
+        "release_date": 755481600,
+        "entry_point_module": "worlds.doom_1993",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_doom_1993-0.0.1-py3-none-any.whl#sha256=c6151ff17582c6af2f8e5bc2160e16566f8827bffc935ee8362bc3221f83c3cb"
+    },
+    "doom_1993_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DOOM 1993 (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.doom_1993_beta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_doom_1993_beta-2.0.20260629-py3-none-any.whl#sha256=bee7437d287341e50a6524c9d8c7027464a916a58b34945a50978b1f71d312c2"
+    },
+    "doom_ii": {
+        "igdb_id": "312",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6iip.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68g.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nqk.png",
+        "game_name": "DOOM II",
+        "igdb_name": "Doom II: Hell on Earth",
+        "age_rating": "16",
+        "rating": [
+            "Violence",
+            "Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Horror"
+        ],
+        "platforms": [
+            "PC-9800 Series",
+            "Tapwave Zodiac",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
+        ],
+        "storyline": "Immediately following the events in Doom, the player once again assumes the role of the unnamed space marine. After defeating the demon invasion of the Mars moon bases and returning from Hell, Doomguy finds that Earth has also been invaded by the demons, who have killed billions of people.\n\nThe humans who survived the attack have developed a plan to build massive spaceships which will carry the remaining survivors into space. Once the ships are ready, the survivors prepare to evacuate Earth. Unfortunately, Earth's only ground spaceport gets taken over by the demons, who place a flame barrier over it, preventing any ships from leaving.",
+        "keywords": [
+            "post-apocalyptic",
+            "hell",
+            "bloody",
+            "death",
+            "2.5d",
+            "run and gun",
+            "hand-to-hand combat",
+            "demons",
+            "steam",
+            "achievements",
+            "multiple endings",
+            "online",
+            "traps",
+            "artificial intelligence",
+            "easter egg",
+            "teleportation",
+            "sequel",
+            "heavy metal",
+            "no jumping",
+            "one-man army",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "radiation",
+            "death match",
+            "digital distribution",
+            "voice acting",
+            "developer voice acting",
+            "demon invasion",
+            "human",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "game reference",
+            "wasd movement",
+            "corpse",
+            "4 player co-op",
+            "unstable platforms",
+            "melee",
+            "real-time combat",
+            "stat tracking",
+            "secret area",
+            "invisible enemy",
+            "walking through walls",
+            "optional boss",
+            "difficulty level",
+            "nonexistent light source",
+            "jump scare moment",
+            "quicksaving",
+            "rock music",
+            "developer cameo",
+            "digital rights management",
+            "leaderboard",
+            "sequence breaking",
+            "difficulty achievement",
+            "controversy",
+            "temporary invincibility",
+            "mod support",
+            "dimension travel",
+            "boss assistance",
+            "voice chat",
+            "over 100% completion",
+            "griefing",
+            "camping",
+            "invisibility",
+            "jumping puzzle",
+            "first-person platforming",
+            "nazis",
+            "satanism",
+            "outside of the map",
+            "hidden room",
+            "god mode",
+            "secret areas within secret areas",
+            "another world",
+            "no-reticle aiming",
+            "ranked match",
+            "blamed for real life murders",
+            "selective invincibility",
+            "pc to console port",
+            "easy mode",
+            "online multiplayer achievements",
+            "avatar awards",
+            "multiplayer via serial cable",
+            "lost soul",
+            "source port",
+            "dial-up wide area network game operation",
+            "male protagonist"
+        ],
+        "release_date": 780883200,
+        "entry_point_module": "worlds.doom_ii",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_doom_ii-0.0.1-py3-none-any.whl#sha256=4f8fed42b9d2d48924301f646b8f983be14a8d622a05b658c66681054a1e6822"
+    },
+    "doom_ii_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "DOOM II (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.doom_ii_beta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_doom_ii_beta-2.0.20260629-py3-none-any.whl#sha256=acd257d1aa9149d1a2e4580ffe721cfc26d3bf41e984bdad5cba806f711a7374"
+    },
+    "doronko_wanko": {
+        "igdb_id": "290647",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7zj5.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar2t55.png",
+        "key_art_url": "",
+        "game_name": "DORONKO WANKO",
+        "igdb_name": "Doronko Wanko",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Simulator"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "dog",
+            "pomeranian"
+        ],
+        "release_date": 1711411200,
+        "entry_point_module": "worlds.doronko_wanko",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_doronko_wanko-0.0.1-py3-none-any.whl#sha256=e1c51b94161eff7e74d48a1bf783703267efda8a6813fc270efa416bd2ae5102"
+    },
+    "dredge": {
+        "igdb_id": "164867",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9kyk.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4dxp.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4dxo.png",
+        "game_name": "DREDGE",
+        "igdb_name": "Dredge",
+        "age_rating": "12",
+        "rating": [
+            "Use of Tobacco",
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Simulator",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Open world",
+            "Mystery"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Starting from your new home in the remote archipelago, \u2018The Marrows\u2019, take to the water and scour the depths for curious collectables and over 125 deep sea denizens. Explore each area while completing quests and visiting neighbouring island regions \u2013 each with their own unique opportunities, inhabitants, and secrets.",
+        "keywords": [
+            "exploration",
+            "psychological horror",
+            "3d",
+            "fishing",
+            "stylized",
+            "lovecraftian",
+            "sailing",
+            "psychological",
+            "story rich",
+            "upgradable equipment",
+            "steam achievements",
+            "digital distribution",
+            "physical release",
+            "boat",
+            "trawling",
+            "previously on - prime gaming",
+            "available on - luna plus",
+            "apple design awards",
+            "available on - luna gog"
+        ],
+        "release_date": 1680134400,
+        "entry_point_module": "worlds.dredge",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dredge-0.5.0-py3-none-any.whl#sha256=e8c0dcd3c52c6997b6e37371e79ad043c6fb1679d75117a0da52bc5d6129445c"
+    },
+    "dsr": {
+        "igdb_id": "81085",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobazz.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar9u6.png",
+        "key_art_url": "",
+        "game_name": "Dark Souls Remastered",
+        "igdb_name": "Dark Souls: Remastered",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Partial Nudity",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Everlasting Dragons once ruled over the world during the \"Age of Ancients.\" A primordial fire known as the First Flame manifests in the world, establishing a distinction between life and death, and light and dark. A being known as Gwyn happens upon the First Flame and along with his allies use their new power to destroy the dragons and take control over the world, while the Furtive Pygmy is said to be forgotten, and thus begins the \"Age of Fire.\" Over time, as the First Flame begins to fade while humans rise in power, Gwyn sacrifices himself to prolong the Age of Fire. The main story takes place towards the end of this second Age of Fire, at which point humanity is said to be afflicted with an undead curse related to a symbol on their bodies known as the Darksign. Those humans afflicted with the undead curse perpetually resurrect after death until they eventually lose their minds, a process referred to as \"hollowing\".",
+        "keywords": [
+            "magic",
+            "3d",
+            "dragon",
+            "undead",
+            "secret areas within secret areas",
+            "soulslike",
+            "interconnected-world"
+        ],
+        "release_date": 1527033600,
+        "entry_point_module": "worlds.dsr",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dsr-0.2.5-py3-none-any.whl#sha256=8abcc5e07855b5ffdcdb7c0127c487c60326104a8e84b6f09cc7b5b53054a509"
+    },
+    "duke3d": {
+        "igdb_id": "342",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1y7x.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Duke Nukem 3D",
+        "igdb_name": "Duke Nukem 3D",
+        "age_rating": "16",
+        "rating": [
+            "Animated Blood",
+            "Animated Violence",
+            "Suggestive Themes",
+            "Animated Blood and Gore",
+            "Violence",
+            "Strong Sexual Content",
+            "Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter",
+            "Puzzle"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
+        ],
+        "storyline": "Returning to Earth in his space cruiser hoping for a vacation, action hero Duke Nukem is shot down over Los Angeles by unknown attackers. As he sends out a distress signal, he learns that aliens are invading the city and have mutated the local police. With his plans ruined, Duke ejects and vows to do whatever it takes to stop the invasion, fighting his way through a besieged city and beyond as he uncovers the scope of the alien threat.",
+        "keywords": [
+            "aliens",
+            "helicopter",
+            "bloody",
+            "mascot",
+            "parody",
+            "2.5d",
+            "open-source",
+            "run and gun",
+            "ufo",
+            "karaoke",
+            "chicken",
+            "dolphin",
+            "spaceship",
+            "flight",
+            "steam",
+            "achievements",
+            "online",
+            "traps",
+            "shareware",
+            "artificial intelligence",
+            "steam trading cards",
+            "dancing",
+            "worm",
+            "easter egg",
+            "dog",
+            "nudity",
+            "teleportation",
+            "swimming",
+            "playstation network",
+            "alien invasion",
+            "one-man army",
+            "darkness",
+            "boss fight",
+            "sexual content",
+            "explosion",
+            "steam achievements",
+            "digital distribution",
+            "playstation trophies",
+            "voice acting",
+            "scatological humor",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "game reference",
+            "rat",
+            "sequel is in a different genre",
+            "white noise",
+            "profanity",
+            "pregnancy",
+            "hologram",
+            "fake in-game advertising",
+            "corpse",
+            "homage box art",
+            "4 player co-op",
+            "sprinting mechanics",
+            "falling damage",
+            "saving the world",
+            "pax west 2016",
+            "xbox live",
+            "melee",
+            "real-time combat",
+            "underwater gameplay",
+            "stat tracking",
+            "in-game map editor",
+            "secret area",
+            "vision obstruction",
+            "walking through walls",
+            "difficulty level",
+            "shaky camera",
+            "self-referential humor",
+            "female antagonist",
+            "quicksaving",
+            "quickloading",
+            "movie reference",
+            "inconvenient malfunction",
+            "steam play",
+            "falling sequence",
+            "arcade cabinet",
+            "cheat code",
+            "conveyor belt",
+            "destructible environment",
+            "banned",
+            "sequence breaking",
+            "interactive environments",
+            "anti-hero",
+            "difficulty achievement",
+            "controversy",
+            "surveillance camera",
+            "submarine",
+            "mod support",
+            "multiplayer lan",
+            "team deathmatch",
+            "voice chat",
+            "meme origin",
+            "gore system",
+            "scripted events",
+            "vent crawling",
+            "dual wielding",
+            "pinball machine",
+            "bots",
+            "in-game advertising",
+            "severed limbs",
+            "arrival by crash landing",
+            "secret achievements",
+            "alien abduction",
+            "zoom platform",
+            "optional censorship",
+            "retrievable traps",
+            "behind the waterfall",
+            "hidden room",
+            "god mode",
+            "crash landing",
+            "escape from exploding building",
+            "reciting movie lines",
+            "secret areas within secret areas",
+            "missile launcher",
+            "ranked match",
+            "greatest hits",
+            "removed from gog.com",
+            "pc to console port",
+            "online multiplayer achievements",
+            "multiplayer via serial cable",
+            "promo vhs",
+            "source port",
+            "dial-up wide area network game operation",
+            "male protagonist"
+        ],
+        "release_date": 829872000,
+        "entry_point_module": "worlds.duke3d",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_duke3d-0.0.1-py3-none-any.whl#sha256=5c16728e785b4d974dd9dc61484c7d5a41d408f854de9ecf0bae82259c218957"
+    },
+    "dw1": {
+        "igdb_id": "3878",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2dyy.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Digimon World",
+        "igdb_name": "Digimon World 4",
+        "age_rating": "E",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Xbox",
+            "Nintendo GameCube",
+            "PlayStation 2"
+        ],
+        "storyline": "The Yamato Server disappears after the X-Virus attacks, and the Doom Server has taken it's place. It's up to the you and up to 3 of your friends, the Digital Security Guard (D.S.G.) to venture into the Doom Server, discover the source of the virus and deal with the infection before it can infect the Home server.\n\nYou will venture into the Dry Lands stop the virus from spreading, into the Venom Jungle to stop the Dread Note from launching and then the Machine Pit to destroy the final boss.\n\nAfter finishing the game for the first time, you unlock Hard mode, where the enemies are stronger, but you keep all of your levels, equipment and digivolutions. Do it again, and you unlock the hardest difficulty, Very Hard.",
+        "keywords": [
+            "anime",
+            "evolution",
+            "breeding",
+            "virtual pet",
+            "based on - tv show",
+            "sequel",
+            "boss fight",
+            "based on - anime",
+            "licensed game",
+            "leveling up",
+            "voice acting",
+            "polygonal 3d",
+            "shopping",
+            "non-player character",
+            "tie-in",
+            "digivolution"
+        ],
+        "release_date": 1104969600,
+        "entry_point_module": "worlds.dw1",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_dw1-0.0.1-py3-none-any.whl#sha256=c2a8c4a914f30c6b6c81390b1ec02ffa00244792eb4bd47079411dc9a132fac1"
+    },
+    "earthbound": {
+        "igdb_id": "2899",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6v07.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1gd3.png",
+        "key_art_url": "",
+        "game_name": "EarthBound",
+        "igdb_name": "EarthBound",
+        "age_rating": "12",
+        "rating": [],
+        "player_perspectives": [
+            "First person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction",
+            "Drama"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Game Boy Advance",
+            "Super Famicom"
+        ],
+        "storyline": "The story begins when Ness is awakened by a meteor that has plummeted to the earth near his home, whereupon he proceeds to investigate the crash site. When Ness arrives at the crash site, he finds a police roadblock and Pokey Minch, his friend and neighbor, who tells him to go home. Later, Ness is woken up again by Pokey knocking at his door, demanding help to find his brother Picky.\n\nThey find him asleep behind a tree near the meteor and wake him. Then the three encounter an insect from the meteor named Buzz Buzz, who informs Ness that he is from the future, where the \"universal cosmic destroyer\" Giygas dominates the planet. Buzz Buzz senses great potential in Ness and instructs him to embark on a journey to seek out and record the melodies of eight \"sanctuaries,\" unite his own powers with the Earth's, and gain the strength required to confront Giygas.",
+        "keywords": [
+            "aliens",
+            "ghosts",
+            "martial arts",
+            "dinosaurs",
+            "time travel",
+            "2d",
+            "invasion",
+            "16-bit",
+            "turn-based",
+            "20th century",
+            "1990s",
+            "robots",
+            "mummy",
+            "ufo",
+            "female protagonist",
+            "insanity",
+            "religion",
+            "multiple protagonists",
+            "psychic abilities",
+            "apocalypse",
+            "satire",
+            "time machine",
+            "teleportation",
+            "pizza",
+            "good vs evil",
+            "cult",
+            "alien invasion",
+            "meditation",
+            "darkness",
+            "nintendo power",
+            "leveling up",
+            "corrupt government",
+            "damsel in distress",
+            "party system",
+            "virtual console",
+            "descendants of other characters",
+            "save point",
+            "young protagonist",
+            "robot protagonist",
+            "saving the world",
+            "royalty",
+            "male antagonist",
+            "self-referential humor",
+            "real-time waiting",
+            "submarine",
+            "new protagonist in sequel",
+            "kidnapping",
+            "fire manipulation",
+            "escaping imprisonment",
+            "censored version",
+            "status effects",
+            "prince",
+            "cryokinesis",
+            "psychics",
+            "corruption",
+            "white magic",
+            "exploring yourself",
+            "year x",
+            "in-game anti-piracy effects",
+            "male protagonist",
+            "retroachievements",
+            "shigesato itoi",
+            "fan translation - english",
+            "fan translation - polish",
+            "fan translation - brazilian portuguese",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "battery save",
+            "fan translation - spanish",
+            "fan translation - italian",
+            "fan translation - russian",
+            "fan translation - french",
+            "fan translation - german"
+        ],
+        "release_date": 777945600,
+        "entry_point_module": "worlds.earthbound",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_earthbound-4.3.1-py3-none-any.whl#sha256=1ddd5637784b99d6462cc44c3103eb76bc5a4fcab0184fbe4b7a4dd12d6af414"
+    },
+    "enderlilies": {
+        "igdb_id": "138858",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9s9e.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar96z.png",
+        "key_art_url": "",
+        "game_name": "Ender Lilies",
+        "igdb_name": "Ender Lilies: Quietus of the Knights",
+        "age_rating": "12",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Once upon a time, in the End's Kingdom, the Dying Rain suddenly started to fall, transforming all living things it touched into bloodthirsty corpses. Following this tragedy, the kingdom quickly fell into chaos and soon, no one remained. The rain, as if cursed, would never stop falling on the land. In the depths of a forsaken church, Lily opens her eyes...",
+        "keywords": [
+            "post-apocalyptic",
+            "metroidvania",
+            "dark fantasy",
+            "female protagonist",
+            "forest",
+            "witches",
+            "castle",
+            "boss fight",
+            "soulslike",
+            "conversation"
+        ],
+        "release_date": 1624233600,
+        "entry_point_module": "worlds.enderlilies",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_enderlilies-0.0.1-py3-none-any.whl#sha256=c4bd8b6bf8ca76378100ec88be39047811e63d06f56a07372ba3419ff8620c79"
+    },
+    "factorio": {
+        "igdb_id": "7046",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1tfy.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Factorio",
+        "igdb_name": "Factorio",
+        "age_rating": "7",
+        "rating": [
+            "Blood",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction",
+            "Survival",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Linux",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "You crash land on an alien planet and must research a way to get yourself a rocket out of the planet. Defend yourself from the natives who dislike the pollution your production generates.",
+        "keywords": [
+            "aliens",
+            "crafting",
+            "indiegogo",
+            "steam",
+            "crowdfunding - kickstarter",
+            "digital distribution",
+            "steam cloud",
+            "pre-release public testing",
+            "resource gathering",
+            "downloadable content",
+            "mod support",
+            "automation"
+        ],
+        "release_date": 1597363200,
+        "entry_point_module": "worlds.factorio",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_factorio-0.0.1-py3-none-any.whl#sha256=b5897fdea8eaef1074215e71c18bfc3e1cdebb8b1ccb5f09f39857ffc5affe00",
+        "components": [
+            {
+                "name": "Factorio Client",
+                "type": "client"
+            }
+        ]
+    },
+    "factorio_saws": {
+        "igdb_id": "263344",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co91k3.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3845.png",
+        "key_art_url": "",
+        "game_name": "Factorio - Space Age Without Space",
+        "igdb_name": "Factorio: Space Age",
+        "age_rating": "T",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction",
+            "Survival",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Linux",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "crafting",
+            "automation"
+        ],
+        "release_date": 1729468800,
+        "entry_point_module": "worlds.factorio_saws",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_factorio_saws-0.9.4-py3-none-any.whl#sha256=5636ec9b6cf502136560356143b2977ec37074272802362fd1fad6ddea0596e3",
+        "components": [
+            {
+                "name": "Factorio - Space Age Without Space Client",
+                "type": "client"
+            }
+        ]
+    },
+    "faxanadu": {
+        "igdb_id": "1974",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5jif.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vkf.png",
+        "key_art_url": "",
+        "game_name": "Faxanadu",
+        "igdb_name": "Faxanadu",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence",
+            "Use of Tobacco"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Wii",
+            "Family Computer",
+            "Nintendo Entertainment System"
+        ],
+        "storyline": "The player-controlled protagonist of is an unidentified wanderer. He has no name, though the Japanese version allows the player to choose one. The game begins when he approaches Eolis, his hometown, after an absence to find it in disrepair and virtually abandoned. Worse still, the town is under attack by Dwarves.The Elven king explains that the Elf fountain water, their life source, has stopped and provides the protagonist with 1500 golds, the games currency, to prepare for his journey to uncover the cause.As the story unfolds, it is revealed that Elves and Dwarfs lived in harmony among the World Tree until The Evil One emerged from a fallen meteorite. The Evil One then transformed the Dwarves into monsters against their will and set them against the Elves. The Dwarf King, Grieve, swallowed his magical sword before he was transformed, hiding it in his own body to prevent The Evil One from acquiring it. It is only with this sword that The Evil One can be destroyed.His journey takes him to four overworld areas: The tree's buttress, the inside of the trunk, the tree's branches and finally the Dwarves' mountain stronghold.",
+        "keywords": [
+            "magic",
+            "metroidvania",
+            "backtracking",
+            "licensed game",
+            "save point",
+            "spellcaster",
+            "bread",
+            "cheat code",
+            "temporary invincibility",
+            "merchants",
+            "time stopping",
+            "nameless protagonist",
+            "black magic",
+            "wii virtual console",
+            "fan translation - english",
+            "fan translation - portuguese"
+        ],
+        "release_date": 564105600,
+        "entry_point_module": "worlds.faxanadu",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_faxanadu-0.3.0-py3-none-any.whl#sha256=c8846611d5e5fa2bac939a46c6e136d7104c978a377034d19684cb90cea68999"
+    },
+    "ff1": {
+        "igdb_id": "385",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2xv8.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6646.png",
+        "game_name": "Final Fantasy",
+        "igdb_name": "Final Fantasy",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Kids"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Wii",
+            "Family Computer",
+            "Wii U",
+            "Nintendo Entertainment System"
+        ],
+        "storyline": "The story follows four youths called the Light Warriors, who each carry one of their world's four elemental orbs which have been darkened by the four Elemental Fiends. Together, they quest to defeat these evil forces, restore light to the orbs, and save their world.",
+        "keywords": [
+            "jrpg",
+            "licensed game",
+            "wii virtual console",
+            "fan translation - english",
+            "fan translation - esperanto",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - latin",
+            "battery save"
+        ],
+        "release_date": 566784000,
+        "entry_point_module": "worlds.ff1",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ff1-1.0.0-py3-none-any.whl#sha256=2ca609cc77acb4b224b58317de019478e5fd6f7d6800bb64a65f9873bec8abe0"
+    },
+    "ff4fe": {
+        "igdb_id": "387",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2y6s.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5x71.png",
+        "game_name": "Final Fantasy IV Free Enterprise",
+        "igdb_name": "Final Fantasy II",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence",
+            "Mild Suggestive Themes"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii"
+        ],
+        "storyline": "",
+        "keywords": [
+            "jrpg",
+            "retroachievements",
+            "wii virtual console",
+            "regional port",
+            "battery save",
+            "fan translation - thai"
+        ],
+        "release_date": 690854400,
+        "entry_point_module": "worlds.ff4fe",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ff4fe-0.0.1-py3-none-any.whl#sha256=a43686409ca3d9a2c4d344522212d46e102eebe4dd8444c600045179f9893c94"
+    },
+    "ffmq": {
+        "igdb_id": "415",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2y0b.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21za.png",
+        "key_art_url": "",
+        "game_name": "Final Fantasy Mystic Quest",
+        "igdb_name": "Final Fantasy: Mystic Quest",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "Super Famicom"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "casual",
+            "ninja",
+            "turn-based",
+            "jrpg",
+            "mummy",
+            "overworld",
+            "party-based combat",
+            "undead",
+            "sword & sorcery",
+            "possession",
+            "boss fight",
+            "explosion",
+            "transforming boss",
+            "party system",
+            "virtual console",
+            "minotaurs",
+            "multi-phase boss",
+            "rock music",
+            "franchise reboot",
+            "basilisks",
+            "fictional currencies",
+            "linear overworld",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console"
+        ],
+        "release_date": 718243200,
+        "entry_point_module": "worlds.ffmq",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffmq-0.0.1-py3-none-any.whl#sha256=166b9e3921c8f5c8bdda14fd191f3e97bd71ce0ca844d379d7e21a372923b8bf"
+    },
+    "ffta": {
+        "igdb_id": "414",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob8fn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kju.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3on9.png",
+        "game_name": "Final Fantasy Tactics Advance",
+        "igdb_name": "Final Fantasy Tactics Advance",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence",
+            "Alcohol Reference"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Tactical"
+        ],
+        "themes": [
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ninja",
+            "magic",
+            "grinding",
+            "turn-based",
+            "summoning support",
+            "jrpg",
+            "death",
+            "permadeath",
+            "management",
+            "overworld",
+            "party-based combat",
+            "backtracking",
+            "class-based",
+            "turn-based tactics",
+            "snow",
+            "grid-based movement",
+            "sequel",
+            "warriors",
+            "explosion",
+            "single-player only",
+            "tactical turn-based combat",
+            "bow and arrow",
+            "breaking the fourth wall",
+            "party system",
+            "virtual console",
+            "non-player character",
+            "melee",
+            "blindness",
+            "stat tracking",
+            "female antagonist",
+            "rock music",
+            "coming of age",
+            "law",
+            "healer",
+            "been here before",
+            "franchise reboot",
+            "summoners",
+            "mana",
+            "androgyny",
+            "random encounter",
+            "elementalist",
+            "basilisks",
+            "hidden character",
+            "airship",
+            "fictional currencies",
+            "white magic",
+            "class change",
+            "gender exclusive equipment",
+            "damage over time",
+            "level scaling",
+            "pom-pom",
+            "interactive achievement awards 2004",
+            "male protagonist",
+            "wii u virtual console"
+        ],
+        "release_date": 1045180800,
+        "entry_point_module": "worlds.ffta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffta-0.0.1-py3-none-any.whl#sha256=98a7d361459a411652d6a2684618d2b797237fd1239cd4d9c2eeb8a52b46bb93"
+    },
+    "ffvcd": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Final Fantasy V Career Day",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.ffvcd",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffvcd-0.0.1-py3-none-any.whl#sha256=c6e3309293e65479db35350088b40db477b5c9c9698aa48a82241f1562120363"
+    },
+    "fm": {
+        "igdb_id": "4108",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1ui5.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Yu-Gi-Oh! Forbidden Memories",
+        "igdb_name": "Yu-Gi-Oh! Forbidden Memories",
+        "age_rating": "E",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Card & Board Game"
+        ],
+        "themes": [
+            "Fantasy",
+            "Historical"
+        ],
+        "platforms": [
+            "PlayStation"
+        ],
+        "storyline": "The game begins in ancient Egypt, with Prince Atem sneaking out of the palace to see his friends, Jono and Teana, at the dueling grounds. While there, they witness a ceremony performed by the mages, which is darker than the ceremonies that they normally perform. After the ceremony, Atem duels one of the priests, named Seto, and defeats him.\n\nWhen Atem returns to the palace, he is quickly sent to bed by Simon Muran, his tutor and advisor. As Simon walks away, he is informed by a guard that the high priest Heishin has invaded the palace, using a strange magic. Muran searches for Heishin. When Muran finds him, Heishin tells Muran that he has found the Dark Power, then uses the Millennium Rod to blast Muran. When Heishin finds Atem, he threatens to kill the Egyptian king and queen if he does not hand over the Millennium Puzzle. Muran appears behind Heishin and tells Atem to smash the puzzle. Atem obeys, and Muran seals himself and Atem inside the puzzle, to wait for someone to reassemble it.\n\nFive thousand years later, Yugi Mutou reassembles the puzzle. He speaks to Atem in the puzzle, and Atem gives Yugi six blank cards. Not sure what they are for, he carries them into a Dueling Tournament. After he defeats one of the duelists, one of the cards is filled with a Millennium item. Realizing what the cards are for, Yugi completes the tournament and fills all six cards with Millennium items. This allows Atem to return to his time.\n\nOnce in his own time, Muran tells Atem of what has happened since he was sealed away. Heishin and the mages have taken control of the kingdom with the Millennium items, and that the only way to free the kingdom is to recover the items from the mages guarding them. After passing this on, Muran dies.\n\nAfter he catches up with Jono and Teana, he goes to the destroyed palace and searches it. He finds Seto, who gives him a map with the locations of the mages and the Millennium items, and asks him to defeat the mages.\n\nAfter Atem recovers all of the Millennium items but one, Seto leads him to Heishin, who holds the Millennium Rod. Atem defeats Heishin, but discovers that Seto has the Millennium Rod, and merely wanted to use Atem to gather the items in one place. Atem duels Seto for the items and defeats him, but after the duel, Heishin grabs the items and uses them to summon the DarkNite. Hoping to use the DarkNite to destroy his enemies, he doesn't have the item to prove his authority and as a result, the DarkNite instead turns Heishin into a card. Heishin now turned into a playing card, DarkNite now mocks Heishin before incinerating the card. After Atem shows that he had the Millennium Items, DarkNite challenges him to a duel. Atem defeats him, and he transforms into Nitemare, who challenges Atem again. Atem defeats him again, and Nitemare begrudgingly returns from where he came. Atem then is able to take the throne and lead his people in peace.",
+        "keywords": [
+            "anime",
+            "turn-based",
+            "summoning support",
+            "based on - tv show",
+            "licensed game",
+            "card based combat",
+            "non-player character",
+            "card collection",
+            "fusion",
+            "tie-in"
+        ],
+        "release_date": 944697600,
+        "entry_point_module": "worlds.fm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_fm-0.0.1-py3-none-any.whl#sha256=811d125c50097578a612e1525b53156f0cf69ed3f2f2b57fac518e76203c9e2d"
+    },
+    "funi_raccoon": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Funi Raccoon Game",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.funi_raccoon",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_funi_raccoon-1.6.1-py3-none-any.whl#sha256=ab92a7008dcc0473505dabbb4a7d3caef667e7cbfcdd54bd17f30609ba38eff8"
+    },
+    "getting_over_it": {
+        "igdb_id": "72373",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3wl5.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6y0.png",
+        "key_art_url": "",
+        "game_name": "Getting Over It",
+        "igdb_name": "Getting Over It with Bennett Foddy",
+        "age_rating": "E",
+        "rating": [],
+        "player_perspectives": [
+            "Third person",
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Simulator",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Comedy"
+        ],
+        "platforms": [
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac"
+        ],
+        "storyline": "Climb up an enormous mountain with nothing but a hammer and a pot.",
+        "keywords": [
+            "casual",
+            "psychological horror",
+            "physics",
+            "difficult",
+            "space",
+            "steam",
+            "funny",
+            "dark humor",
+            "vertical platforming",
+            "story rich",
+            "great soundtrack",
+            "digital distribution",
+            "single-player only",
+            "developer voice acting",
+            "qwoplike",
+            "humble bundle",
+            "male protagonist",
+            "humble original",
+            "philosophical",
+            "replayability"
+        ],
+        "release_date": 1512518400,
+        "entry_point_module": "worlds.getting_over_it",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_getting_over_it-0.0.1-py3-none-any.whl#sha256=585eb6f478a13e99e09918bd9c1f934e99624b5d4ef12e129862c1d63db80ab2"
+    },
+    "gl": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Gauntlet Legends",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.gl",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_gl-2.1.7-py3-none-any.whl#sha256=ad59a3e279461b70cd964affa152487b2f6d2da3ba7a81e751ff353bd3173d01",
+        "components": [
+            {
+                "name": "Gauntlet Legends Client",
+                "type": "client"
+            }
+        ]
+    },
+    "grinch": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "The Grinch",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.grinch",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_grinch-1.6.1-py3-none-any.whl#sha256=e882fde304db0bf66bf4c222c69f84647087730f97c8b7fbf77cc0f877941aee"
+    },
+    "gstla": {
+        "igdb_id": "1173",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co25rt.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kpa.png",
+        "key_art_url": "",
+        "game_name": "Golden Sun The Lost Age",
+        "igdb_name": "Golden Sun: The Lost Age",
+        "age_rating": "7",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "\"It is the dawn of a new age...And the heroes of Golden Sun have been abandoned. Now, the world is falling into darkness. A new band of adventurers is the world's final hope...but they may also be its doom. Pursued by the heroes of the original Golden Sun, they must race to complete their quest before the world becomes lost to the ages.\"",
+        "keywords": [
+            "anime",
+            "magic",
+            "minigames",
+            "turn-based",
+            "summoning support",
+            "death",
+            "overworld",
+            "party-based combat",
+            "psychic abilities",
+            "explorable world",
+            "snow",
+            "sequel",
+            "silent protagonist",
+            "alchemy",
+            "boss fight",
+            "leveling up",
+            "human",
+            "party system",
+            "werewolves",
+            "virtual console",
+            "save point",
+            "treasure chest",
+            "potion",
+            "melee",
+            "optional boss",
+            "post-credits plot twist",
+            "rock music",
+            "been here before",
+            "unlockable difficulty level",
+            "sleeping",
+            "character import",
+            "not-so-bad guys",
+            "villain turned good",
+            "androgyny",
+            "ancient advanced civilization technology",
+            "random encounter",
+            "new game plus",
+            "fire manipulation",
+            "earth manipulation",
+            "battle screen",
+            "behind the waterfall",
+            "trilogy",
+            "cryokinesis",
+            "class change",
+            "gender exclusive equipment",
+            "rogue protagonist",
+            "wii u virtual console",
+            "nintendo switch online - expansion pack"
+        ],
+        "release_date": 1025222400,
+        "entry_point_module": "worlds.gstla",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_gstla-0.2.3-py3-none-any.whl#sha256=2dd9a35ad47ae22e55de41fcdaf3d64e9303da0af51491ae7d2c3c67d5ba543f"
+    },
+    "hades": {
+        "igdb_id": "113112",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9kr.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3m4q.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3m4s.png",
+        "game_name": "Hades",
+        "igdb_name": "Hades",
+        "age_rating": "12",
+        "rating": [
+            "Mild Language",
+            "Alcohol Reference",
+            "Violence",
+            "Suggestive Themes",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Drama"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Zagreus, the son of Hades, has discovered that his mother, which he was led to believe was Nyx, Night Incarnate, is actually someone else, and is outside Hell. He is now attempting to escape his father's domain, with the help of the other gods of Olympus, in an attempt to find his real mother.",
+        "keywords": [
+            "greek mythology",
+            "roguelike",
+            "difficult",
+            "mythology",
+            "supernatural",
+            "stylized",
+            "dungeon crawler",
+            "story rich",
+            "the game awards - best score or music - nominee",
+            "roguelite",
+            "netflix",
+            "you can pet the dog",
+            "the game awards - best action game - winner",
+            "the game awards - best art direction - nominee",
+            "the game awards - best game direction - nominee",
+            "the game awards - best independent game - winner",
+            "the game awards - best narrative - nominee",
+            "the game awards - best performance - nominee",
+            "the game awards - game of the year - nominee",
+            "weapons"
+        ],
+        "release_date": 1600300800,
+        "entry_point_module": "worlds.hades",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_hades-0.16.3-py3-none-any.whl#sha256=c238ac38625e4f9e3b4f9281df6cca7dfcd15b679f696232cbb66729877e18ed",
+        "components": [
+            {
+                "name": "Hades Client",
+                "type": "client"
+            }
+        ]
+    },
+    "hades2rogue": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Hades2Rogue",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.hades2rogue",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_hades2rogue-0.9.3-py3-none-any.whl#sha256=6bc552b613add3d39a061d855bb1243debafa03790f9e1067e614d1f63164d73",
+        "components": [
+            {
+                "name": "Hades 2 Rogue Client",
+                "type": "client"
+            }
+        ]
+    },
+    "hcniko": {
+        "igdb_id": "142405",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2o6i.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arz25.png",
+        "key_art_url": "",
+        "game_name": "Here Comes Niko!",
+        "igdb_name": "Here Comes Niko!",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "pool",
+            "exploration",
+            "animals",
+            "detective",
+            "3d",
+            "minigames",
+            "fishing",
+            "beach volleyball",
+            "frog",
+            "air dasher",
+            "trains",
+            "deer",
+            "female protagonist",
+            "dragon",
+            "crossover",
+            "nature",
+            "forest",
+            "stylized",
+            "achievements",
+            "cute",
+            "cartoon graphics",
+            "season winter",
+            "pixel art",
+            "snow",
+            "camera",
+            "dog",
+            "social issues",
+            "relaxing",
+            "high score",
+            "talking animals",
+            "3d platformer",
+            "swimming",
+            "giraffe",
+            "memes",
+            "colorful",
+            "mental health",
+            "steam achievements",
+            "xbox controller support for pc",
+            "steam cloud",
+            "anthropomorphism",
+            "game reference",
+            "photo mode",
+            "secret area",
+            "vending machine interaction",
+            "crab",
+            "corporation",
+            "behind the waterfall",
+            "controller support",
+            "japanese culture",
+            "fruits",
+            "game within a game",
+            "single ending",
+            "virtual pet simulation",
+            "collectathon",
+            "highscore",
+            "2d art",
+            "underground",
+            "mushroom",
+            "puns",
+            "season summer",
+            "flowers",
+            "axolotl",
+            "capybara",
+            "beach",
+            "ice cream",
+            "social media",
+            "lighthouse",
+            "fish",
+            "butterfly",
+            "graffiti",
+            "possum",
+            "alien",
+            "steam families",
+            "hidden secrets",
+            "lgbtq"
+        ],
+        "release_date": 1627948800,
+        "entry_point_module": "worlds.hcniko",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-27/worlds_hcniko-0.8.4-py3-none-any.whl#sha256=035f39a027c68865591a2a9ecd15562d8d07bcd18caa5eec0d225726b1dfce8c"
+    },
+    "heretic_beta": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Heretic (Beta)",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.heretic_beta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_heretic_beta-2.0.20260629-py3-none-any.whl#sha256=f90b04187c889b4b481a8796d9f63926e960a089c3973f9a1e609f62c8159044"
+    },
+    "hk": {
+        "igdb_id": "14593",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobfzp.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3ptm.png",
+        "key_art_url": "",
+        "game_name": "Hollow Knight",
+        "igdb_name": "Hollow Knight",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Blood"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Linux",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Wii U",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Beneath the fading town of Dirtmouth sleeps a vast, ancient kingdom. Many are drawn beneath the surface, searching for riches, or glory, or answers to old secrets.\n\nAs the enigmatic Knight, you\u2019ll traverse the depths, unravel its mysteries and conquer its evils.",
+        "keywords": [
+            "dark",
+            "sword",
+            "skill-based",
+            "2d",
+            "metroidvania",
+            "insects",
+            "action-adventure",
+            "steam",
+            "achievements",
+            "steam trading cards",
+            "explorable world",
+            "atmospheric",
+            "giant insects",
+            "silent protagonist",
+            "crowdfunding - kickstarter",
+            "hand-drawn",
+            "crowdfunding",
+            "2d platformer",
+            "boss fight",
+            "steam achievements",
+            "xbox controller support for pc",
+            "controller recommendation",
+            "crowd funded",
+            "shielded enemies",
+            "parrying",
+            "merchants",
+            "fast traveling",
+            "creature compendium",
+            "the game awards 2017",
+            "best debut indie game: nominee - 2017 (the game awards)",
+            "the game awards - nominee",
+            "controller support",
+            "the game awards - best debut indie game - nominee",
+            "interconnected-world",
+            "armed bugs",
+            "money",
+            "shop keeper",
+            "sidescroller",
+            "available on - luna plus",
+            "available on - luna gog"
+        ],
+        "release_date": 1487894400,
+        "entry_point_module": "worlds.hk",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-22/worlds_hk-1.1.2-py3-none-any.whl#sha256=daf12153b2c07a75d1da70421d9bec6600c83d8a16fc441d47499278a468c2c9"
+    },
+    "inscryption_beta": {
+        "igdb_id": "139090",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co401c.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6c9e.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6dh3.png",
+        "game_name": "Inscryption Beta",
+        "igdb_name": "Inscryption",
+        "age_rating": "16",
+        "rating": [
+            "Blood",
+            "Strong Language",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Strategy",
+            "Adventure",
+            "Indie",
+            "Card & Board Game"
+        ],
+        "themes": [
+            "Horror",
+            "Mystery"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "From the creator of Pony Island and The Hex comes the latest mind melting, self-destructing love letter to video games. Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...\nIn Inscryption you will...\n\nAcquire a deck of woodland creature cards by draft, surgery, and self mutilation\nUnlock the secrets lurking behind the walls of Leshy's cabin\nEmbark on an unexpected and deeply disturbing odyssey",
+        "keywords": [
+            "weird",
+            "deck-building",
+            "roguelike deckbuilder"
+        ],
+        "release_date": 1634601600,
+        "entry_point_module": "worlds.inscryption_beta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_inscryption_beta-1.5.3-py3-none-any.whl#sha256=0268621ffae1683312bcbf4c3d198bd99c2bc9dd377b8fa18df794c3b71308b3"
+    },
+    "into_the_breach": {
+        "igdb_id": "27117",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2gjp.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar85n.png",
+        "key_art_url": "",
+        "game_name": "Into the Breach",
+        "igdb_name": "Into the Breach",
+        "age_rating": "12",
+        "rating": [
+            "Animated Blood",
+            "Fantasy Violence",
+            "Language",
+            "Mild Language",
+            "Mild Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Simulator",
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction"
+        ],
+        "platforms": [
+            "Google Stadia",
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "monsters",
+            "mech",
+            "roguelike",
+            "mecha",
+            "randomly generated dungeons",
+            "previously on - stadia pro"
+        ],
+        "release_date": 1519689600,
+        "entry_point_module": "worlds.into_the_breach",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_into_the_breach-0.15.18-py3-none-any.whl#sha256=90ec54c66effee7739988516709d8ddf6c1b03df5fefaa4dae1ce68ad5897e1e"
+    },
+    "jakanddaxter": {
+        "igdb_id": "1528",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1w7q.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/yvqffc6igxmvpzokkkf2.png",
+        "key_art_url": "",
+        "game_name": "Jak and Daxter: The Precursor Legacy",
+        "igdb_name": "Jak and Daxter: The Precursor Legacy",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Suggestive Themes"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Racing",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy",
+            "Open world"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PlayStation 2"
+        ],
+        "storyline": "The opening sequence of the game features Jak and Daxter in a speedboat headed for Misty Island, an area prohibited by their watch over Samos. Upon arriving to the island, Daxter had second thoughts about straying from the village. The two perch on a large skeleton to observe a legion of lurkers crowded around two dark figures, Gol and Maia, who were commanding the lurkers to \"deal harshly with anyone who strays from the village,\" and to search for any precursor artifacts and eco near Sandover Village.[4] After the secret observation, Jak and Daxter continue searching the island. Daxter trips on a dark eco canister which he tosses to Jak after expressing his dislike for the item, and as Jak caught the object it lit up. Shortly afterwards a bone armor lurker suddenly confronted the two, where Jak threw the dark eco canister at the lurker, killing it, but inadvertently knocked Daxter into a dark eco silo behind him. When Daxter reemerged, he was in the form of an ottsel, and upon realizing the transformation he began to panic.",
+        "keywords": [
+            "exploration",
+            "mascot",
+            "shark",
+            "frog",
+            "backtracking",
+            "artificial intelligence",
+            "snow",
+            "teleportation",
+            "silent protagonist",
+            "climbing",
+            "swimming",
+            "day/night cycle",
+            "playstation network",
+            "boss fight",
+            "single-player only",
+            "anthropomorphism",
+            "platform exclusive",
+            "playstation trophies",
+            "60 fps on consoles",
+            "world map",
+            "voice acting",
+            "protagonist's name in the title",
+            "language selection",
+            "polygonal 3d",
+            "breaking the fourth wall",
+            "cameo appearance",
+            "collectibles",
+            "descendants of other characters",
+            "save point",
+            "ice stage",
+            "checkpoints",
+            "auto-saving",
+            "useable vehicles",
+            "coming of age",
+            "moving platforms",
+            "destructible environment",
+            "temporary invincibility",
+            "vore",
+            "spiky-haired protagonist",
+            "ancient advanced civilization technology",
+            "time paradox",
+            "superpowers",
+            "combat-based platformer",
+            "invented language",
+            "trilogy",
+            "running gag",
+            "running towards the screen",
+            "dynamic difficulty",
+            "big head mode",
+            "greatest hits",
+            "comic relief",
+            "damage over time",
+            "ps2 classics",
+            "game developers choice awards 2002",
+            "male protagonist"
+        ],
+        "release_date": 1007337600,
+        "entry_point_module": "worlds.jakanddaxter",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_jakanddaxter-1.2.0-py3-none-any.whl#sha256=8bb2338710fcaa9e583bc202409229786c499a54902ff5897609ce69464e5e35",
+        "components": [
+            {
+                "name": "Jak and Daxter Client",
+                "type": "client"
+            }
+        ]
+    },
+    "jigsaw": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Jigsaw",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.jigsaw",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_jigsaw-0.10.0-py3-none-any.whl#sha256=a7980b4e2746118e001ddd20797de228c609c99cc35cfcdc24aabf8a5d1d7553"
+    },
+    "k64": {
+        "igdb_id": "2713",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wcz.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1krk.png",
+        "key_art_url": "",
+        "game_name": "Kirby 64 - The Crystal Shards",
+        "igdb_name": "Kirby 64: The Crystal Shards",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "On the planet of Ripple Star, lives a group of kind and peaceful fairies. The planet itself is protected from danger by the power of the great Crystal, which watches over Ripple Star. This power, however, draws the attention of Dark Matter, who wishes to use the great Crystal for its own evil agenda. Its gigantic mass attacks and searches for the Crystal, blackening the sky and sending the fairies into panic. In response to the threat Dark Matter presents, the queen of Ripple Star orders a fairy named Ribbon to take the Crystal to a safe place. Ribbon tries to fly away with the Crystal in tow, but is stopped by three orbs sent by Dark Matter. The Crystal shatters into 74 shards, scattered throughout several planets, and Ribbon crashes onto Planet Popstar. Kirby finds one shard and gives it to Ribbon, whereupon the two set out to find the others. Once Kirby and his friends collect every Crystal Shard and defeat Miracle Matter, Dark Matter flees Ripple Star and explodes. The victory is cut short, however, as the Crystal detects a powerful presence of Dark Matter energy within the Fairy Queen and expels it from her, manifesting over the planet to create Dark Star. Kirby and his friends infiltrate Dark Star, and King Dedede launches them up to challenge 02. Kirby and Ribbon, armed with their Shard Gun, destroyed 02 and the Dark Star.",
+        "keywords": [
+            "minigames",
+            "mascot",
+            "2.5d",
+            "hamster",
+            "side-scrolling",
+            "fairy",
+            "multiple endings",
+            "kid friendly",
+            "silent protagonist",
+            "boss fight",
+            "anthropomorphism",
+            "polygonal 3d",
+            "virtual console",
+            "non-player character",
+            "melee",
+            "moving platforms",
+            "shape-shifting",
+            "auto-scrolling levels",
+            "vore",
+            "sliding down ladders",
+            "whale",
+            "fireworks",
+            "collection marathon",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "battery save"
+        ],
+        "release_date": 953856000,
+        "entry_point_module": "worlds.k64",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_k64-0.3.2-py3-none-any.whl#sha256=8b7575bb21f133eb51c2417d063e592d269145af7fad2a79b21117f2abb07e86"
+    },
+    "kdl3": {
+        "igdb_id": "3720",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cocikz.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kr4.png",
+        "key_art_url": "",
+        "game_name": "Kirby's Dream Land 3",
+        "igdb_name": "Kirby's Dream Land 3",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "Super Famicom"
+        ],
+        "storyline": "",
+        "keywords": [
+            "mascot",
+            "hamster",
+            "side-scrolling",
+            "dreams",
+            "protagonist's name in the title",
+            "virtual console",
+            "melee",
+            "asymmetric co-op",
+            "shape-shifting",
+            "whale",
+            "trilogy",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "snes enhancement chip - sa1"
+        ],
+        "release_date": 880588800,
+        "entry_point_module": "worlds.kdl3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_kdl3-0.0.1-py3-none-any.whl#sha256=84254e2bf764b15ed7e251214b5f379a1dddf4da3d4bcb957a43c408b8142cf1"
+    },
+    "kh1": {
+        "igdb_id": "1219",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co30zf.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ndukilf3lsqrhnntwc6w.png",
+        "key_art_url": "",
+        "game_name": "Kingdom Hearts",
+        "igdb_name": "Kingdom Hearts",
+        "age_rating": "7",
+        "rating": [
+            "Violence",
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 2"
+        ],
+        "storyline": "When his world is destroyed and his friends mysteriously disappear, a young boy named Sora is thrust into a quest to find his missing friends and prevent the armies of darkness from destroying many other worlds. During his quest, he meets many characters from classic Disney films and a handful from the Final Fantasy video game series.",
+        "keywords": [
+            "pirates",
+            "grinding",
+            "minigames",
+            "summoning support",
+            "death",
+            "cricket",
+            "action-adventure",
+            "crossover",
+            "halloween",
+            "backtracking",
+            "multiple endings",
+            "princess",
+            "swimming",
+            "sword & sorcery",
+            "boss fight",
+            "cartoony",
+            "single-player only",
+            "anthropomorphism",
+            "playstation trophies",
+            "alternate costumes",
+            "leveling up",
+            "voice acting",
+            "cat",
+            "polygonal 3d",
+            "damsel in distress",
+            "love triangle",
+            "licensed soundtrack",
+            "party system",
+            "original soundtrack release",
+            "vehicle customization",
+            "save point",
+            "young protagonist",
+            "potion",
+            "melee",
+            "real-time combat",
+            "underwater gameplay",
+            "a.i. companion",
+            "stat tracking",
+            "unbeatable enemies",
+            "optional boss",
+            "multi-phase boss",
+            "japanese games based on western ips",
+            "destructible environment",
+            "villain",
+            "recurring boss",
+            "water level",
+            "invisible wall",
+            "item combination",
+            "summoners",
+            "plot twist",
+            "unskippable cutscene",
+            "power of friendship",
+            "villain turned good",
+            "spiky-haired protagonist",
+            "teenager",
+            "gliding",
+            "weapon workshops",
+            "finishing move",
+            "button mashing",
+            "random encounter",
+            "whale",
+            "black magic",
+            "point of no return",
+            "fictional currencies",
+            "tomboy",
+            "dark past",
+            "j-pop",
+            "reluctant hero",
+            "greatest hits",
+            "megaphone",
+            "white magic",
+            "comic relief",
+            "planet destruction",
+            "easy mode",
+            "pom-pom",
+            "international version",
+            "game developers choice awards 2003"
+        ],
+        "release_date": 1032220800,
+        "entry_point_module": "worlds.kh1",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_kh1-0.11.0-py3-none-any.whl#sha256=046d3984f601d105b5ecd396d97c847e9cbe700cbaadfef4b3898331e258a061",
+        "components": [
+            {
+                "name": "KH1 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "kh2": {
+        "igdb_id": "1221",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co30t1.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/jejzoffj4addmz0kff4y.png",
+        "key_art_url": "",
+        "game_name": "Kingdom Hearts 2",
+        "igdb_name": "Kingdom Hearts II",
+        "age_rating": "12",
+        "rating": [
+            "Mild Blood",
+            "Violence",
+            "Use of Alcohol"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 2"
+        ],
+        "storyline": "One year after the events of Kingdom Hearts: Chain of Memories, Sora, Donald and Goofy awaken in Twilight Town. Bent on the quest to find Riku and King Mickey Mouse, the three begin their journey. However, they soon discover that while they have been asleep, the Heartless are back. Not only that, but new enemies also showed up during their absence. Sora, Donald and Goofy set off on a quest to rid the world of the Heartless once more, uncovering the many secrets that linger about Ansem and the mysterious Organization XIII.",
+        "keywords": [
+            "mickey mouse",
+            "goofy",
+            "donald duck"
+        ],
+        "release_date": 1135209600,
+        "entry_point_module": "worlds.kh2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_kh2-2.0.0-py3-none-any.whl#sha256=948df8aac6d4e9cccace31df448165b1179c1adda458cf06707c9701a90c5b23",
+        "components": [
+            {
+                "name": "KH2 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "ladx_beta": {
+        "igdb_id": "1028",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nnt.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6dmu.png",
+        "key_art_url": "",
+        "game_name": "Links Awakening DX Beta",
+        "igdb_name": "The Legend of Zelda: Link's Awakening",
+        "age_rating": "E",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Game Boy"
+        ],
+        "storyline": "After the events of A Link to the Past, the hero Link travels by ship to other countries to train for further threats. After being attacked at sea, Link's ship sinks and he finds himself stranded on Koholint Island. He awakens to see a beautiful woman looking down at him and soon learns the island has a giant egg on top of a mountain that the Wind Fish inhabits deep inside. Link is told to awaken the wind fish and all will be answered, so he sets out on another quest.",
+        "keywords": [
+            "magic",
+            "mascot",
+            "prequel",
+            "death",
+            "maze",
+            "chicken",
+            "action-adventure",
+            "backtracking",
+            "undead",
+            "campaign",
+            "princess",
+            "pixel art",
+            "amnesia",
+            "dreams",
+            "silent protagonist",
+            "sword & sorcery",
+            "darkness",
+            "owl",
+            "boss fight",
+            "single-player only",
+            "monkey",
+            "pictographic level design",
+            "human",
+            "super game boy enhancement",
+            "shopping",
+            "bow and arrow",
+            "breaking the fourth wall",
+            "collectibles",
+            "disorientation zone",
+            "non-player character",
+            "treasure chest",
+            "side quests",
+            "grapple",
+            "castaway",
+            "real-time combat",
+            "robbery",
+            "moving platforms",
+            "theft",
+            "tentacles",
+            "interquel",
+            "fetch quests",
+            "kidnapping",
+            "poisoning",
+            "dream sequence",
+            "flip screen",
+            "another world",
+            "greatest hits",
+            "comic relief",
+            "damage over time",
+            "monomyth",
+            "nintendo gateway system",
+            "dungeon",
+            "bees"
+        ],
+        "release_date": 739324800,
+        "entry_point_module": "worlds.ladx_beta",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ladx_beta-13.4.5-py3-none-any.whl#sha256=d4bb02185973def8308a432b1c98be01f310f10c5b11abaf808d07e558a2362a",
+        "components": [
+            {
+                "name": "Links Awakening DX Beta Client",
+                "type": "client"
+            }
+        ]
+    },
+    "landstalker": {
+        "igdb_id": "15072",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2kb9.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar30jm.png",
+        "key_art_url": "",
+        "game_name": "Landstalker - The Treasures of King Nole",
+        "igdb_name": "Landstalker",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Linux",
+            "Wii",
+            "Sega Mega Drive/Genesis",
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "action-adventure",
+            "steam",
+            "fairy",
+            "treasure hunt",
+            "leveling up",
+            "virtual console",
+            "real-time combat",
+            "sega channel",
+            "onlive",
+            "archeology",
+            "wii virtual console",
+            "nintendo switch online - expansion pack",
+            "fan translation - spanish",
+            "fan translation - italian",
+            "fan translation - korean",
+            "fan translation - french"
+        ],
+        "release_date": 720403200,
+        "entry_point_module": "worlds.landstalker",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_landstalker-1.8.7-py3-none-any.whl#sha256=4ba5905d2a49f2f1a5afaccadb4da81d6c1914f1bad8b6ab7dd76613b6ada40a"
+    },
+    "lego_star_wars_tcs": {
+        "igdb_id": "2682",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1qrr.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arp30.png",
+        "key_art_url": "",
+        "game_name": "Lego Star Wars: The Complete Saga",
+        "igdb_name": "LEGO Star Wars: The Complete Saga",
+        "age_rating": "3",
+        "rating": [
+            "Fantasy Violence",
+            "Crude Humor",
+            "Cartoon Violence",
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy",
+            "Kids"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "Wii",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Xbox 360"
+        ],
+        "storyline": "The game retells the story of the six-film Skywalker Saga through comedic, dialogue-free cutscenes rendered in Lego form. Its levels span the full arc of the saga, beginning with the Trade Federation's blockade and negotiations above the planet Naboo and continuing through to the Rebel assault on the second Death Star near the forest moon of Endor. Along the way, players step into the roles of the saga's many heroes and villains as the conflict between the galaxy's factions unfolds.",
+        "keywords": [
+            "aliens",
+            "ghosts",
+            "gravity",
+            "robots",
+            "star wars",
+            "flight",
+            "steam",
+            "multiple protagonists",
+            "based on - movie",
+            "achievements",
+            "princess",
+            "kid friendly",
+            "snow",
+            "high score",
+            "boss fight",
+            "explosion",
+            "licensed game",
+            "playstation trophies",
+            "alternate costumes",
+            "customizable characters",
+            "60 fps on consoles",
+            "character select screen",
+            "polygonal 3d",
+            "shopping",
+            "motion control",
+            "humble bundle",
+            "pregnancy",
+            "based on - brand",
+            "character creation",
+            "melee",
+            "grapple",
+            "stormtrooper",
+            "games with gold",
+            "wilhelm scream",
+            "liberation",
+            "rpg elements",
+            "respawning",
+            "galactic civil war",
+            "destructible environment",
+            "planet jumping",
+            "villain",
+            "changing sides",
+            "xbox one backwards compatibility",
+            "tie-in",
+            "games on demand",
+            "drop-in drop-out",
+            "x-wing",
+            "playable boss",
+            "on-the-fly character switching",
+            "fictional currencies",
+            "impossible to lose",
+            "respawn justification",
+            "bounty hunting",
+            "evil empire",
+            "hero turned evil",
+            "planet destruction",
+            "galactic empire",
+            "sixaxis support",
+            "b-wing",
+            "previously on - xbox gamepass"
+        ],
+        "release_date": 1194307200,
+        "entry_point_module": "worlds.lego_star_wars_tcs",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_lego_star_wars_tcs-1.4.4-py3-none-any.whl#sha256=6efbc6fbb4fe9ded4becbdfe11edc9f558f60a3c075c95bcd448bf72bb402851",
+        "components": [
+            {
+                "name": "Lego Star Wars: The Complete Saga Client",
+                "type": "client"
+            }
+        ]
+    },
+    "lufia2ac": {
+        "igdb_id": "1178",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9mg3.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Lufia II Ancient Cave",
+        "igdb_name": "Lufia II: Rise of the Sinistrals",
+        "age_rating": "E",
+        "rating": [
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle",
+            "Role-playing (RPG)"
+        ],
+        "themes": [
+            "Fantasy"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Super Famicom"
+        ],
+        "storyline": "",
+        "keywords": [
+            "retroachievements"
+        ],
+        "release_date": 793584000,
+        "entry_point_module": "worlds.lufia2ac",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_lufia2ac-0.0.1-py3-none-any.whl#sha256=d7d5f0f057ac557b187b3657a002a7582212be2405ee0478d2f6d5489fb2b0d6"
+    },
+    "luigismansion": {
+        "igdb_id": "2485",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wr1.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3fnc.png",
+        "key_art_url": "",
+        "game_name": "Luigi's Mansion",
+        "igdb_name": "Luigi's Mansion",
+        "age_rating": "E",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo GameCube",
+            "Nintendo 3DS"
+        ],
+        "storyline": "One day, Luigi received an unexpected message: You've won a huge mansion! Naturally, He[sic] got very excited and called his brother, Mario. \"Mario? It's me, Luigi. I won myself a big mansion! Meet me there and we'll celebrate, what do you say?\"\n\nLuigi tried to follow the map to his new mansion, but the night was dark, and he became hopelessly lost in an eerie forest along the way. Finally, he came upon a gloomy mansion on the edge of the woods. According to the map, this mansion seemed to be the one Luigi was looking for. As soon as Luigi set foot in the mansion, he started to feel nervous. Mario, who should have arrived first, was nowhere to be seen. Not only that, but there were ghosts in the mansion!\n\nSuddenly, a ghost lunged at Luigi! \"Mario! Help meee!\" That's when a strange old man with a vacuum cleaner on his back appeared out of nowhere! This strange fellow managed to rescue Luigi from the ghosts, then the two of them escaped...\n\nIt just so happened that the old man, Professor Elvin Gadd, who lived near the house, was researching his favorite subject, ghosts. Luigi told Professor E. Gadd that his brother Mario was missing, so the Professor decided to give Luigi two inventions that would help him search for his brother.\n\nLuigi's not exactly known for his bravery. Can he get rid of all the prank-loving ghosts and find Mario?",
+        "keywords": [
+            "ghosts",
+            "haunted house",
+            "3d",
+            "death",
+            "action-adventure",
+            "supernatural",
+            "darkness",
+            "boss fight",
+            "single-player only",
+            "platform exclusive",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "launch titles",
+            "descendants of other characters",
+            "save point",
+            "treasure chest",
+            "stereoscopic 3d",
+            "invisible enemy",
+            "ghostbusting",
+            "fan service",
+            "new game plus",
+            "italian accent",
+            "exorcism",
+            "reluctant hero",
+            "greatest hits",
+            "male protagonist",
+            "haunted",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "interconnected-world",
+            "mansion",
+            "player's choice",
+            "ghost"
+        ],
+        "release_date": 1000425600,
+        "entry_point_module": "worlds.luigismansion",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_luigismansion-0.6.4-py3-none-any.whl#sha256=70948bf2e8cea8c703a60ee2bbe9d8baa97b367e6d719a2ea363ab2ffd2588f2",
+        "components": [
+            {
+                "name": "Luigi's Mansion Client",
+                "type": "client"
+            }
+        ]
+    },
+    "mario_kart_double_dash": {
+        "igdb_id": "2344",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7ndu.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3k91.png",
+        "key_art_url": "",
+        "game_name": "Mario Kart Double Dash",
+        "igdb_name": "Mario Kart: Double Dash!!",
+        "age_rating": "3",
+        "rating": [
+            "Mild Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Racing",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Kids"
+        ],
+        "platforms": [
+            "Nintendo GameCube"
+        ],
+        "storyline": "",
+        "keywords": [
+            "go-kart",
+            "grand prix",
+            "battle mode",
+            "yoshi",
+            "mario",
+            "donkey kong",
+            "pax prime 2014",
+            "game console",
+            "hidden character",
+            "wario",
+            "luigi",
+            "multiple playable characters",
+            "diddy kong",
+            "princess peach",
+            "king boo",
+            "nintendo gateway system"
+        ],
+        "release_date": 1068163200,
+        "entry_point_module": "worlds.mario_kart_double_dash",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_mario_kart_double_dash-1.0.1-py3-none-any.whl#sha256=cd7d864e6e9161622f942180696ec7eb9f85a2e5a6d17052e9259dc28db8c4c7",
+        "components": [
+            {
+                "name": "Mario Kart Double Dash Client",
+                "type": "client"
+            }
+        ]
+    },
+    "marioland2": {
+        "igdb_id": "1071",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7gxg.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4079.png",
+        "game_name": "Super Mario Land 2",
+        "igdb_name": "Super Mario Land 2: 6 Golden Coins",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Game Boy"
+        ],
+        "storyline": "Danger! Danger!\n\nWhile I was away crusading against the mystery alien Tatanga in Sarasa Land, an evil creep took over my castle and put the people of Mario Land under his control with a magic spell. This intruder goes by the name of Wario. He mimics my appearance, and has tried to steal my castle many times. It seems he has succeeded this time.\n\nWario has scattered the 6 Golden Coins from my castle all over Mario Land. These Golden Coins are guarded by those under Wario's spell. Without these coins, we can't get into the castle to deal with Wario. We must collect the 6 coins, attack Wario in the castle, and save everybody!\n\nIt\u2019s time to set out on our mission!!",
+        "keywords": [
+            "slot machine",
+            "space",
+            "castle",
+            "mario",
+            "turtle",
+            "battle",
+            "super game boy enhancement",
+            "virtual console",
+            "whale",
+            "bunny",
+            "wario",
+            "nintendo switch online",
+            "nintendo 3ds virtual console",
+            "wario as a villain",
+            "stage selection",
+            "nintendo gateway system"
+        ],
+        "release_date": 719625600,
+        "entry_point_module": "worlds.marioland2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=b671b166c7b72ba2acc28bc98dbe88adfe1c3083aa1e427060199229041086c6"
+    },
+    "megamix": {
+        "igdb_id": "120278",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coa4vr.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/araan.png",
+        "key_art_url": "",
+        "game_name": "Hatsune Miku Project Diva Mega Mix+",
+        "igdb_name": "Hatsune Miku: Project Diva Mega Mix",
+        "age_rating": "12",
+        "rating": [
+            "Blood",
+            "Sexual Themes",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Side view"
+        ],
+        "genres": [
+            "Music",
+            "Arcade"
+        ],
+        "themes": [],
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [],
+        "release_date": 1581552000,
+        "entry_point_module": "worlds.megamix",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_megamix-1.5.1-py3-none-any.whl#sha256=f83f246d93b96e06e89983b50032d5c50340cb0aeb6b95a3d4238dd6d6471bfe",
+        "components": [
+            {
+                "name": "Mega Mix JSON Generator",
+                "type": "adjuster"
+            }
+        ]
+    },
+    "melee": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Super Smash Bros. Melee",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.melee",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_melee-2.0.0-py3-none-any.whl#sha256=2d4e8b388471b20efbb9d2a7c73bbe3db21a7faa0d8a3cfcac452a3512c51b44",
+        "components": [
+            {
+                "name": "Super Smash Bros. Melee Client",
+                "type": "client"
+            }
+        ]
+    },
+    "messenger": {
+        "igdb_id": "71628",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob1th.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/iveud3ofup2sukkri0pc.png",
+        "key_art_url": "",
+        "game_name": "The Messenger",
+        "igdb_name": "The Messenger",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Language",
+            "Crude Humor"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "In a village of ninjas, an ancient prophecy foretells that a \"Western Hero\" will one day arrive to save them from the demons that plague the land. When the Demon King attacks, the promised hero appears and repels him, then entrusts a young ninja with a sacred scroll \u2014 naming him the Messenger and charging him to carry it east, to the top of a distant mountain. Aided along the way by a mysterious blue-robed shopkeeper, the Messenger sets out across a perilous world, his simple delivery gradually drawing him into a far greater struggle that spans centuries and bends time itself.",
+        "keywords": [
+            "retro",
+            "ninja",
+            "2d",
+            "metroidvania",
+            "difficult",
+            "pixel graphics",
+            "8-bit"
+        ],
+        "release_date": 1535587200,
+        "entry_point_module": "worlds.messenger",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_messenger-0.16.0-py3-none-any.whl#sha256=311bc7b2c23a017d5936e6b2faabcef9a7c84f7ce1ad17248fc75be17a527139",
+        "components": [
+            {
+                "name": "The Messenger",
+                "type": "client",
+                "description": "Launch The Messenger.\nInstalls and checks for updates for the randomizer."
+            }
+        ]
+    },
+    "metroidfusion": {
+        "igdb_id": "1104",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3w49.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vh6.png",
+        "key_art_url": "",
+        "game_name": "Metroid Fusion",
+        "igdb_name": "Metroid Fusion",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "The game begins with Samus Aran acting as a bodyguard for the Biologic's research team on planet SR388. Eventually, a Hornoad confronts them and is killed by Samus. However, a globular yellow organism (an X) emerges from the Hornoad as it is destroyed and enters Samus's body.\nFeeling no initial effects, Samus continues escorting the researchers and completes the assignment. On the way back to the laboratory, however, Samus loses consciousness, and her gunship crashes into an asteroid belt. The ship's emergency systems automatically ejected Samus' escape pod, saving her from the crash, but her gunship is completely destroyed. Samus is quickly attended to by a medical crew, who discover that the creature that entered her body on SR388 was actually a parasitic organism that they soon named X.\n\nSamus Infected 2\nSamus, infected by the X Parasites.\nThe organic components of Samus's Power Suit had become so integrated with her system that it could not be removed while she was unconscious. Large portions of her infected suit had to be surgically removed, dramatically altering its appearance. However, the X in Samus's central nervous system were too embedded to be removed safely; Samus's chances of survival were lower than one percent.\nMetroids are the only known predator of the X; however, since Samus destroyed all the Metroids on SR388 in a previous mission, the X were able to multiply unchecked. Seeing this as the key to curing her, doctors proposed using a Metroid cell from Samus' dead Baby Metroid to make an anti-X vaccine. Apparently, the Federation had managed to preserve a cell culture from the Baby that saved Samus while she was on Zebes a second time. The serum was prepared and injected without delay, completely eradicating the X. There were, however, two side effects: Samus could no longer be hurt by normal X and could even absorb them to replenish health and ammunition, but she also inherited the Metroids' vulnerability to cold.\n\nUpon recovering, Samus is sent to investigate an explosion on the Biologic Space Laboratories research station, where the specimens from SR388 and the infected pieces of her Power Suit are being held. Once she arrives at the station, Samus immediately heads to the Quarantine Bay, where she encounters and kills a Hornoad that has been infected by an X parasite. Samus speaks with her new gunship's computer (whom she has named \"Adam\", as it reminds her of a former CO) and learns that the specimens brought back by the field team have become infected by the X. The computer also reveals that the X can use the DNA of its prey to create a perfect copy, meaning any organic life on the station may also be infected.\n\nSA-X 1\nThe SA-X.\nAs she continues to explore the station, Samus discovers that the X have used the infected portions of her Power Suit to create a copy of Samus herself, dubbed the SA-X (or Samus Aran-X). Since the SA-X arose from Samus's fully-upgraded Power Suit, it has all of her powered-up abilities, as evidenced by it using a Power Bomb to escape the Quarantine Bay. By exploding the bomb, the SA-X also destroyed the capsules holding the X specimens, releasing them all into the station. Well into her investigation of the station, Samus stumbles upon the facility's Restricted Lab. Here, she finds dozens of infant Metroids and several more Metroids in various stages of maturity, all in stasis; these were the results of a cloning project of which Samus was not previously aware. Shortly after Samus discovers them, the SA-X attempts to destroy its predators, but its plan backfires: the Metroids break free and the emergency fail-safes are activated as a result. Samus barely escapes before the lab locks down completely and is jettisoned from the station, exploding over SR388.\nAfter the incident at the Restricted Lab, Samus speaks with her ship's computer, who is angry about the discovery and subsequent destruction of the Metroids. The computer explains that the Federation had been secretly working on a Metroid breeding program, for \"peaceful applications\". The computer reveals that the station's SRX environment, a replica of the SR388 ecosystem, was ideal for raising Alpha, Gamma, Zeta, and even Omega Metroids. The research uncovered techniques for rapid growth, allowing an infant grow into an Omega Metroid in mere days. Unfortunately, the SA-X had been tracking Samus down and followed her to the lab's location. Much to Samus's surprise, the computer also mentions that the SA-X has been reproducing asexually and there are no fewer than 10 aboard the station.\n\nLater, the computer tells Samus that she has caused enough damage and instructs her to leave the rest of the investigation to the Federation. Apparently, the Federation has taken an interest in the X and SA-X and believe that this life-form has endless applications. Samus, having seen the SA-X's destructive capabilities firsthand, is strongly against this. She is convinced that the X will overwhelm the Federation troops as soon as they land, absorbing their powers and knowledge in the process. If this happens, they could easily spread throughout the galaxy and \"galactic civilization will end.\"\n\nAs an alternative, Samus decides to activate the station's self-destruct mechanism in order to destroy the X, risking her own life in the process. However, her ship's computer has locked Samus in a Navigation Room, as the Federation has ordered it to keep her confined until their arrival. Desperate, Samus yells at the computer: \"Don't let them do this. Can't you see what will happen, Adam?\" Puzzled at the use of the name, the computer inquires as to who this Adam was. Samus reveals that he had been her previous commanding officer and had died saving her life. Apparently moved by Samus's revelation, the computer agrees with the plan, and suggests that if Samus were to alter the station's orbit, then she might be able to include the planet in the explosion, thus ensuring the destruction of the X on planet SR388 as well as those on the station. At this point, Samus realizes that her ship's computer truly is Adam Malkovich, whose personality had been uploaded to a computer prior to his death.\n\nSamus hurries to the Operations Room, where she is confronted by an SA-X. She manages to defeat it, but its Core-X escapes before she can absorb it. Ignoring its escape, Samus initiates the self-destruct sequence and hurries back to her ship. However, she finds the docking bay in ruins and her ship gone. Before she can react to the situation, an Omega Metroid appears, apparently having escaped from the Restricted Lab before its destruction and grown to full size in record time. Samus possesses no weapon capable of damaging the Metroid, and a single swipe of its claw reduces her energy reserves to one unit. As the Omega Metroid prepares to finish her off, the SA-X returns, and attacks the Metroid with its Ice Beam, injuring it. However, it was greatly weakened from its fight with Samus and is quickly defeated by the Metroid. This time, the Core-X hovers over Samus, allowing her to absorb it and obtain the \"Unnamed Suit\" as well as the Ice Beam and restoring her genetic condition to its pre-vaccine state. Using her regained abilities, Samus fights and kills the Omega Metroid after a fierce struggle. After the battle, Samus's ship reenters the bay, having been piloted by the computer, Adam, and the same Etecoons and Dachoras she saved on the previous mission to Zebes and later on the Habitation Deck.\n\nAs Samus leaves the station, it is shown crashing into SR388, destroying both the station and the planet, ridding the universe of the X forever.\n\nReflecting on her actions, Samus doubts people will understand why she destroyed the X, nor will they realize the danger that was barely averted. Samus believes she will be held responsible for defying the Federation, but Adam comforts her, telling her: \"Do not worry. One of them will understand. One of them must.\" A final reflection, Samus goes on to say: \"we are all bound by our experiences. They are the limits of our consciousness. But in the end, the human soul will ever reach for the truth... This is what Adam taught me.\"",
+        "keywords": [
+            "aliens",
+            "pirates",
+            "exploration",
+            "gravity",
+            "metroidvania",
+            "death",
+            "robots",
+            "spaceship",
+            "female protagonist",
+            "action-adventure",
+            "side-scrolling",
+            "backtracking",
+            "time limit",
+            "traps",
+            "pixel art",
+            "easter egg",
+            "wall jump",
+            "one-man army",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "countdown timer",
+            "alternate costumes",
+            "human",
+            "mission briefing",
+            "upgradeable weapons",
+            "breaking the fourth wall",
+            "transforming boss",
+            "bull",
+            "original soundtrack release",
+            "non-player character",
+            "corpse",
+            "save point",
+            "ice stage",
+            "melee",
+            "underwater gameplay",
+            "instant kill",
+            "secret area",
+            "infinite ammo",
+            "unbeatable enemies",
+            "multi-phase boss",
+            "nonexistent light source",
+            "self-referential humor",
+            "subtitled silence",
+            "inconvenient malfunction",
+            "rpg elements",
+            "violent plants",
+            "scientist",
+            "villain",
+            "recurring boss",
+            "surveillance camera",
+            "speedrun",
+            "plot twist",
+            "super speed",
+            "completion percentage",
+            "weapon modification",
+            "splash damage",
+            "ambient music",
+            "fan service",
+            "scripted events",
+            "my nintendo",
+            "falling object",
+            "slideshow cutscene",
+            "connectivity",
+            "foreshadowing",
+            "hidden room",
+            "a.i. construct",
+            "persistent enemy",
+            "monologue",
+            "isolation",
+            "nintendo 3ds ambassador program",
+            "interactive achievement awards 2003",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack"
+        ],
+        "release_date": 1037491200,
+        "entry_point_module": "worlds.metroidfusion",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_metroidfusion-0.0.1-py3-none-any.whl#sha256=6d59800566875c5b1e01e28cad8023eff71e11ad0812c6034075d4aa7c0a447b"
+    },
+    "metroidprime": {
+        "igdb_id": "1105",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3w4w.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ldmc7gvchecxihaozbqm.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3qxy.png",
+        "game_name": "Metroid Prime",
+        "igdb_name": "Metroid Prime",
+        "age_rating": "12",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Open world"
+        ],
+        "platforms": [
+            "Nintendo GameCube"
+        ],
+        "storyline": "After receiving a distress signal from a Space Pirate frigate in orbit, bounty hunter Samus Aran boards the vessel and discovers the Pirates have been conducting biological experiments. When the frigate is destroyed, Samus pursues her nemesis Ridley to the surface of the planet Tallon IV, where she uncovers the remains of the Chozo civilization and the source of a toxic substance called Phazon that is corrupting the planet's ecosystem.",
+        "keywords": [
+            "aliens",
+            "pirates",
+            "ghosts",
+            "exploration",
+            "bloody",
+            "gravity",
+            "metroidvania",
+            "death",
+            "spaceship",
+            "female protagonist",
+            "action-adventure",
+            "steam",
+            "backtracking",
+            "time limit",
+            "multiple endings",
+            "artificial intelligence",
+            "snow",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "countdown timer",
+            "60 fps on consoles",
+            "world map",
+            "polygonal 3d",
+            "damsel in distress",
+            "upgradeable weapons",
+            "transforming boss",
+            "sequel is in a different genre",
+            "original soundtrack release",
+            "non-player character",
+            "hologram",
+            "save point",
+            "ice stage",
+            "falling damage",
+            "unstable platforms",
+            "titular antagonist",
+            "auto-aim",
+            "grapple",
+            "real-time combat",
+            "environmental puzzles",
+            "underwater gameplay",
+            "invisible enemy",
+            "vision obstruction",
+            "difficulty level",
+            "multiple gameplay perspectives",
+            "post-credits plot twist",
+            "pack-in game",
+            "mercenary",
+            "violent plants",
+            "moving platforms",
+            "sequence breaking",
+            "unlockable difficulty level",
+            "shape-shifting",
+            "predecessor included",
+            "tentacles",
+            "no dialogue",
+            "western games based on japanese ips",
+            "particle system",
+            "speedrun",
+            "boss assistance",
+            "beetle",
+            "fetch quests",
+            "rivalry",
+            "completion percentage",
+            "linear gameplay",
+            "meme origin",
+            "ancient advanced civilization technology",
+            "ambient music",
+            "camera shift",
+            "first-person platforming",
+            "optional lore",
+            "reversible cover art",
+            "disc streaming",
+            "acrobatics",
+            "creature compendium",
+            "swarming enemies",
+            "trilogy",
+            "connectivity",
+            "foreshadowing",
+            "sequel by a different developer",
+            "cliffhanger",
+            "escape from exploding building",
+            "elevators that mask loading times",
+            "greatest hits",
+            "taste of power",
+            "isolation",
+            "bafta games award",
+            "wave attack",
+            "motion-sensor bomb",
+            "visor reflection",
+            "interactive achievement awards 2003",
+            "game developers choice awards 2003",
+            "retroachievements",
+            "nintendo gateway system",
+            "player's choice"
+        ],
+        "release_date": 1037491200,
+        "entry_point_module": "worlds.metroidprime",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_metroidprime-0.5.4-py3-none-any.whl#sha256=1ca36b2bceeb81ca7668a795fea079696d768ea10fc3d9c25f73be2f6ea64856",
+        "components": [
+            {
+                "name": "Metroid Prime Client",
+                "type": "client"
+            }
+        ]
+    },
+    "minecraft": {
+        "igdb_id": "121",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coa77e.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5fs7.png",
+        "key_art_url": "",
+        "game_name": "Minecraft",
+        "igdb_name": "Minecraft: Java Edition",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person",
+            "Virtual Reality"
+        ],
+        "genres": [
+            "Simulator",
+            "Adventure"
+        ],
+        "themes": [
+            "Fantasy",
+            "Survival",
+            "Sandbox",
+            "Kids",
+            "Open world"
+        ],
+        "platforms": [
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "Minecraft: Java Edition (previously known as Minecraft) is the original version of Minecraft, developed by Mojang Studios for Windows, macOS, and Linux. Notch began development on May 10, 2009, publicly releasing Minecraft on May 17, 2009. The full release of the game was on November 18, 2011, at MINECON 2011.",
+        "keywords": [
+            "zombies",
+            "monsters",
+            "animals",
+            "character customization",
+            "sword",
+            "3d",
+            "construction",
+            "fishing",
+            "crafting",
+            "creative",
+            "pvp",
+            "death",
+            "procedural generation",
+            "permadeath",
+            "voxel",
+            "resource management",
+            "horse",
+            "archery",
+            "chicken",
+            "dolphin",
+            "hand-to-hand combat",
+            "action-adventure",
+            "skeleton",
+            "farming",
+            "trading",
+            "witches",
+            "bird",
+            "achievements",
+            "online",
+            "traps",
+            "blocks",
+            "snow",
+            "wolf",
+            "dog",
+            "billiards",
+            "mining",
+            "cross-platform multiplayer",
+            "swimming",
+            "day/night cycle",
+            "inventory management",
+            "falling blocks",
+            "potions",
+            "copyright infringement",
+            "darkness",
+            "snowman",
+            "sheep",
+            "explosion",
+            "digital distribution",
+            "pax west 2017",
+            "split-screen multiplayer",
+            "spider",
+            "pig",
+            "pre-release public testing",
+            "customization",
+            "cat",
+            "cow",
+            "language selection",
+            "windows store",
+            "polygonal 3d",
+            "bow and arrow",
+            "loot gathering",
+            "skeletons",
+            "deliberately retro",
+            "samsung gear vr support",
+            "original soundtrack release",
+            "wasd movement",
+            "humble bundle",
+            "resource gathering",
+            "falling damage",
+            "treasure chest",
+            "character creation",
+            "stereoscopic 3d",
+            "downloadable content",
+            "potion",
+            "auto-saving",
+            "real-time combat",
+            "octopus",
+            "difficulty level",
+            "in-game achievement menu",
+            "internet culture reference",
+            "multiple gameplay perspectives",
+            "movie reference",
+            "rpg elements",
+            "pax prime 2014",
+            "gamescom 2014",
+            "randomly generated maps",
+            "floating island",
+            "bread",
+            "leaderboard",
+            "anaglyph 3d",
+            "sleeping",
+            "suicide",
+            "igf awards",
+            "never-ending",
+            "mod support",
+            "high definition graphics",
+            "voice chat",
+            "meme origin",
+            "splash damage",
+            "world building",
+            "poisoning",
+            "fire manipulation",
+            "lumberjack",
+            "workbench mechanics",
+            "music creation",
+            "pax east 2012",
+            "pax prime 2012",
+            "text dialogue",
+            "status effects",
+            "fully customizable controls",
+            "camel",
+            "breaking through windows",
+            "dynamic difficulty",
+            "pax prime 2011",
+            "lunar cycle",
+            "game developers choice awards 2011",
+            "played for charity",
+            "automation",
+            "bunny",
+            "fruits",
+            "interior design",
+            "twitch integration",
+            "dolphins",
+            "mushroom",
+            "food",
+            "beach",
+            "rabbits",
+            "ocean",
+            "bees",
+            "vegetables",
+            "thunderstorm",
+            "logic",
+            "axe",
+            "boat",
+            "books",
+            "dynamic weather",
+            "coral",
+            "coral reef"
+        ],
+        "release_date": 1321574400,
+        "entry_point_module": "worlds.minecraft",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_minecraft-0.1.7-py3-none-any.whl#sha256=29e493fef46a43d6381ee6130dc3e5e05e262a613cb524d58a28d4de97588f0c",
+        "components": [
+            {
+                "name": "Minecraft Client",
+                "type": "client"
+            }
+        ]
+    },
+    "mk64": {
+        "igdb_id": "2342",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co67hm.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar406h.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar406i.png",
+        "game_name": "Mario Kart 64",
+        "igdb_name": "Mario Kart 64",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Racing",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Kids",
+            "Party"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "",
+        "keywords": [
+            "vehicular combat",
+            "go-kart",
+            "crossover",
+            "princess",
+            "artificial intelligence",
+            "drifting",
+            "snow",
+            "grand prix",
+            "sequel",
+            "high score",
+            "bats",
+            "turtle",
+            "vehicle combat",
+            "explosion",
+            "death match",
+            "anthropomorphism",
+            "monkey",
+            "throwing weapons",
+            "split-screen multiplayer",
+            "character select screen",
+            "game title announcer",
+            "ranking system",
+            "polygonal 3d",
+            "virtual console",
+            "mascot sports",
+            "ice stage",
+            "combat racing",
+            "mirrored maps",
+            "difficulty level",
+            "unlockable difficulty level",
+            "invisible wall",
+            "trophies",
+            "temporary invincibility",
+            "starting grid",
+            "team deathmatch",
+            "mirror mode",
+            "overweight character",
+            "time trials",
+            "upgradeable vehicles",
+            "bots",
+            "arcade driving physics",
+            "italian accent",
+            "falling object",
+            "ape",
+            "sudden death",
+            "music speed up",
+            "greatest hits",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "player's choice"
+        ],
+        "release_date": 850521600,
+        "entry_point_module": "worlds.mk64",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_mk64-0.0.1-py3-none-any.whl#sha256=4330b2499da502bdb2bc0666bd9c1f96585cfbf0f0d230f41306f772ef29c6e7"
+    },
+    "mlss": {
+        "igdb_id": "3351",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coba9f.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vh3.png",
+        "key_art_url": "",
+        "game_name": "Mario & Luigi Superstar Saga",
+        "igdb_name": "Mario & Luigi: Superstar Saga",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "virus",
+            "turn-based",
+            "multiple protagonists",
+            "bromance",
+            "undead",
+            "princess",
+            "camera",
+            "giant insects",
+            "high score",
+            "silent protagonist",
+            "mario",
+            "easy",
+            "turtle",
+            "boss fight",
+            "spiritual successor",
+            "digital distribution",
+            "single-player only",
+            "anthropomorphism",
+            "super-ness",
+            "protagonist's name in the title",
+            "broken english",
+            "shopping",
+            "breaking the fourth wall",
+            "transforming boss",
+            "party system",
+            "collectibles",
+            "virtual console",
+            "save point",
+            "tag teaming",
+            "royalty",
+            "multi-phase boss",
+            "self-referential humor",
+            "inconvenient malfunction",
+            "rpg elements",
+            "tentacles",
+            "vore",
+            "unskippable tutorial",
+            "boomerang bros.",
+            "donut block",
+            "fireworks",
+            "maple syrup",
+            "italian accent",
+            "battle screen",
+            "hammer bros.",
+            "wiggler",
+            "prince",
+            "reluctant hero",
+            "wave attack",
+            "interactive battle system",
+            "luigi",
+            "multiple playable characters",
+            "princess peach",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "game boy advance link cable support",
+            "game boy player rumble support"
+        ],
+        "release_date": 1069027200,
+        "entry_point_module": "worlds.mlss",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mlss-1.10.2-py3-none-any.whl#sha256=cc3b50d0e5ce4d81d4cdefe1ca34e02ca6af7846e207fae54c3634abe0ebb85a"
+    },
+    "mm2": {
+        "igdb_id": "1734",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5572.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vk8.png",
+        "key_art_url": "",
+        "game_name": "Mega Man 2",
+        "igdb_name": "Mega Man II",
+        "age_rating": "7",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Game Boy"
+        ],
+        "storyline": "Even after his crushing defeat at the hands of Mega Man during the events of Mega Man: Dr. Wily's Revenge, Dr. Wily was already planning his next scheme. If he could get his hands on the time machine (named Time Skimmer in the American manual) that was being developed at the Time-Space Research Laboratory (named Chronos Institute in the American manual), he thought he just might be able to change the past.\n\nAfter stealing the time machine, Wily had wanted to set out immediately on a trip across time, but had to put an emergency brake down on his plans when he discovered that the time machine had a serious flaw.\n\nMeanwhile, Dr. Light had been dispatched to the time-space laboratory to investigate. With the help of Rush\u2019s super-sense of smell, he was able to deduce that it was none other than Dr. Wily behind the theft. Having a bad feeling about the incident, Dr. Light quickly called upon Mega Man and Rush to search out Dr. Wily\u2019s whereabouts.",
+        "keywords": [
+            "mascot",
+            "future",
+            "death",
+            "robots",
+            "flight",
+            "side-scrolling",
+            "pixel art",
+            "sequel",
+            "mad scientist",
+            "high score",
+            "8-bit",
+            "boss fight",
+            "explosion",
+            "floating blocks",
+            "protagonist's name in the title",
+            "super game boy enhancement",
+            "psone classics",
+            "upgradeable weapons",
+            "transforming boss",
+            "virtual console",
+            "checkpoints",
+            "robot protagonist",
+            "underwater gameplay",
+            "male antagonist",
+            "instant kill",
+            "difficulty level",
+            "playstation tv support",
+            "cheat code",
+            "moving platforms",
+            "conveyor belt",
+            "villain",
+            "water level",
+            "misrepresentative box art",
+            "book adaptation",
+            "time stopping",
+            "fictional currencies",
+            "greatest hits",
+            "selective invincibility",
+            "monomyth",
+            "year x",
+            "contest-driven development",
+            "male protagonist",
+            "nintendo switch online",
+            "nintendo 3ds virtual console",
+            "fan translation - portuguese"
+        ],
+        "release_date": 693187200,
+        "entry_point_module": "worlds.mm2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mm2-0.3.3-py3-none-any.whl#sha256=2149875bd30dfbcdc261ba554fc9fab98cf28e721a5d656b6a6d068fd707e678"
+    },
+    "mm3": {
+        "igdb_id": "1716",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co55ce.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3p52.png",
+        "key_art_url": "",
+        "game_name": "Mega Man 3",
+        "igdb_name": "Mega Man 3",
+        "age_rating": "7",
+        "rating": [
+            "Mild Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Arcade",
+            "Nintendo 3DS",
+            "Wii",
+            "Family Computer",
+            "Wii U",
+            "Nintendo Entertainment System"
+        ],
+        "storyline": "",
+        "keywords": [
+            "mascot",
+            "death",
+            "robots",
+            "doctor",
+            "flight",
+            "side-scrolling",
+            "pixel art",
+            "sequel",
+            "level selection",
+            "mad scientist",
+            "high score",
+            "8-bit",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "floating blocks",
+            "robot dog",
+            "protagonist's name in the title",
+            "psone classics",
+            "transforming boss",
+            "virtual console",
+            "checkpoints",
+            "robot protagonist",
+            "underwater gameplay",
+            "asymmetric co-op",
+            "playstation tv support",
+            "falling sequence",
+            "cheat code",
+            "moving platforms",
+            "villain",
+            "recurring boss",
+            "multiple enemy boss fights",
+            "jumping puzzle",
+            "on-site procurement",
+            "falling object",
+            "fictional currencies",
+            "monomyth",
+            "year x",
+            "contest-driven development",
+            "male protagonist",
+            "wii virtual console",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - tagalog",
+            "nes game pak - mmc3"
+        ],
+        "release_date": 654480000,
+        "entry_point_module": "worlds.mm3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mm3-0.1.8-py3-none-any.whl#sha256=79a8974a1c93d6705852de3ffd9d6261ff6dccdce81d1382f3bccb312c9a8094"
+    },
+    "mm_recomp": {
+        "igdb_id": "1030",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3pah.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3p8m.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p8l.png",
+        "game_name": "Majora's Mask Recompiled",
+        "igdb_name": "The Legend of Zelda: Majora's Mask",
+        "age_rating": "12",
+        "rating": [
+            "Animated Violence",
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Horror",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "64DD",
+            "Wii U"
+        ],
+        "storyline": "After the events of The Legend of Zelda: Ocarina of Time, Link departs on his horse Epona in the Lost Woods and is assaulted by an imp named Skull Kid who dons a mysterious mask, accompanied by the fairies Tael and Tatl. Skull Kid turns Link into a small plant-like creature known as Deku Scrub and takes away his horse and his magical ocarina. Shortly afterward, Tatl joins Link and agrees to help him revert to his native form. A meeting with a wandering mask salesman reveals that the Skull Kid is wearing Majora's Mask, an ancient item used in hexing rituals, which calls forth a menacing moon hovering over the land of Termina. Link has exactly three days to find a way to prevent this from happening.",
+        "keywords": [
+            "psychological horror",
+            "surrealism",
+            "time travel",
+            "photography",
+            "archery",
+            "action-adventure",
+            "fairy",
+            "sequel",
+            "day/night cycle",
+            "sword & sorcery",
+            "tragedy",
+            "owl",
+            "motion blur",
+            "descendants of other characters",
+            "sprinting mechanics",
+            "young protagonist",
+            "auto-aim",
+            "interactive environments",
+            "shape-shifting",
+            "interquel",
+            "dimension travel",
+            "boss assistance",
+            "meme origin",
+            "day-based narrative",
+            "living inventory",
+            "detective mode",
+            "another world",
+            "music speed up",
+            "dark second act",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "battery save",
+            "nintendo 64 expansion pak required"
+        ],
+        "release_date": 956793600,
+        "entry_point_module": "worlds.mm_recomp",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_mm_recomp-0.0.1-py3-none-any.whl#sha256=f3646206ce45baddbc2e3ee7131b3e38b7b49018cd6ec6b17eb41ac577a6fa05"
+    },
+    "mmbn3": {
+        "igdb_id": "1758",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co203k.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kmf.png",
+        "key_art_url": "",
+        "game_name": "MegaMan Battle Network 3",
+        "igdb_name": "Mega Man Battle Network 3 Blue",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Real Time Strategy (RTS)",
+            "Role-playing (RPG)",
+            "Tactical"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "futuristic"
+        ],
+        "release_date": 1039132800,
+        "entry_point_module": "worlds.mmbn3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_mmbn3-0.0.1-py3-none-any.whl#sha256=224c5967e2c511899b5f116f7d41269fa80a30cdfbcc2fbc4050c07f31d0d9dd",
+        "components": [
+            {
+                "name": "MMBN3 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "mmx3": {
+        "igdb_id": "1743",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co55pa.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64rj.png",
+        "game_name": "Mega Man X3",
+        "igdb_name": "Mega Man X3",
+        "age_rating": "7",
+        "rating": [
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Legacy Mobile Device",
+            "Super Famicom"
+        ],
+        "storyline": "Zero, who had returned as an irregular hunter, became the commander of the Zero Special Forces Unit and continued to sweep up irregulars together with X, who was active as the commander of the 17th Elite Unit, and other hunters in the unit.\nAt the same time, Dr. Doppler, a scientist-type repliloid, conducted research that revealed the fact that the computer virus \"Sigma Virus\" was the cause of irregularities, developed a special antibody virus, and proposed that it be injected into repliloids. As a result, the number of irregularities decreased. Furthermore, Dr. Doppler declared that he would build \"Doppeltown,\" a peaceful city where humans and replicants could coexist, and he gained the support of both humans and replicants.\nA few months later, however, Doppler and his Repliroids, who had been exposed to the antibody virus mentioned above, rebelled. The Irregular Hunters recognized Doppler and the participants in the rebellion as irregulars, and X and Zero were ordered to go into action.",
+        "keywords": [
+            "cyberpunk",
+            "death",
+            "robots",
+            "run and gun",
+            "futuristic",
+            "side-scrolling",
+            "multiple protagonists",
+            "multiple endings",
+            "sequel",
+            "level selection",
+            "high score",
+            "wall jump",
+            "boss fight",
+            "explosion",
+            "rhinoceros",
+            "protagonist's name in the title",
+            "upgradeable weapons",
+            "transforming boss",
+            "virtual console",
+            "checkpoints",
+            "robot protagonist",
+            "gravity control",
+            "underwater gameplay",
+            "betrayal",
+            "post-credits plot twist",
+            "moving platforms",
+            "fictional currencies",
+            "male protagonist",
+            "retroachievements",
+            "fan translation - english",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese"
+        ],
+        "release_date": 817689600,
+        "entry_point_module": "worlds.mmx3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mmx3-0.0.1-py3-none-any.whl#sha256=2de76f65c567b5bc1e1c56f333764d3c95153be5ccc9a564d0bcdfef0fa16814"
+    },
+    "momodoramoonlitfarewell": {
+        "igdb_id": "188088",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7mxs.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1rhx.png",
+        "key_art_url": "",
+        "game_name": "Momodora Moonlit Farewell",
+        "igdb_name": "Momodora: Moonlit Farewell",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Blood",
+            "Suggestive Themes"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Nintendo Switch"
+        ],
+        "storyline": "Momodora: Moonlit Farewell presents the account of the greatest calamity to befall the village of Koho, five years after the events of Momodora III. Once the toll of an ominous bell is heard, the village is soon threatened by a demon invasion.\n\nThe village's matriarch sends Momo Reinol, their most capable priestess, to investigate the bell and find the bellringer responsible for summoning demons. It is their hope that by finding the culprit, they will also be able to secure the village's safety, and most importantly, the sacred Lun Tree's, a source of life and healing for Koho...",
+        "keywords": [
+            "metroidvania",
+            "pixel graphics"
+        ],
+        "release_date": 1704931200,
+        "entry_point_module": "worlds.momodoramoonlitfarewell",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_momodoramoonlitfarewell-0.0.1-py3-none-any.whl#sha256=6ca4ccda27313a7af0a8f72298919424cd8e3efb9e14c2dde88acca9cd4090b1"
+    },
+    "monster_sanctuary": {
+        "igdb_id": "89594",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1q3q.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar88x.png",
+        "key_art_url": "",
+        "game_name": "Monster Sanctuary",
+        "igdb_name": "Monster Sanctuary",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Blood",
+            "Tobacco Reference"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "metroidvania"
+        ],
+        "release_date": 1607299200,
+        "entry_point_module": "worlds.monster_sanctuary",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_monster_sanctuary-0.0.1-py3-none-any.whl#sha256=09644c999faa430115a834b81e4907178d71fa088b0dff75a7defcf2ad29bd59"
+    },
+    "musedash": {
+        "igdb_id": "86316",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6h43.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5um.png",
+        "key_art_url": "",
+        "game_name": "Muse Dash",
+        "igdb_name": "Muse Dash",
+        "age_rating": "12",
+        "rating": [
+            "Sexual Themes",
+            "Mild Blood",
+            "Mild Lyrics",
+            "Fantasy Violence",
+            "Suggestive Themes"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Music",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "anime",
+            "casual",
+            "2d",
+            "side-scrolling",
+            "steam",
+            "achievements",
+            "cute",
+            "nudity",
+            "steam achievements",
+            "digital distribution",
+            "music and rhythm",
+            "steam cloud",
+            "unlockables",
+            "difficulty level",
+            "unlockable difficulty level",
+            "unlockable characters",
+            "highscore",
+            "nintendo switch eshop"
+        ],
+        "release_date": 1529020800,
+        "entry_point_module": "worlds.musedash",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_musedash-1.5.35-py3-none-any.whl#sha256=4f19e37e3f6274a73fbae5aa820a6614d3219095ae7189f9229c5c0878b85f8e"
+    },
+    "mzm": {
+        "igdb_id": "1107",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1vci.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1vh5.png",
+        "key_art_url": "",
+        "game_name": "Metroid: Zero Mission",
+        "igdb_name": "Metroid: Zero Mission",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "pirates",
+            "gravity",
+            "collecting",
+            "metroidvania",
+            "death",
+            "upgradable weapons",
+            "maze",
+            "spaceship",
+            "female protagonist",
+            "side-scrolling",
+            "backtracking",
+            "multiple endings",
+            "pixel art",
+            "wall jump",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "countdown timer",
+            "upgradeable weapons",
+            "virtual console",
+            "unlockables",
+            "save point",
+            "difficulty level",
+            "rpg elements",
+            "sequence breaking",
+            "unlockable difficulty level",
+            "predecessor included",
+            "rivalry",
+            "completion percentage",
+            "ambient music",
+            "foreshadowing",
+            "isolation",
+            "motion-sensor bomb",
+            "spike video game awards 2004",
+            "interactive achievement awards 2005",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "interconnected-world"
+        ],
+        "release_date": 1076284800,
+        "entry_point_module": "worlds.mzm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mzm-0.5.3-py3-none-any.whl#sha256=b7d31805b94dcce44686452994fece411a0a52a123385f211365072f7fadb313"
+    },
+    "nine_sols": {
+        "igdb_id": "194821",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4l2s.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1jha.png",
+        "key_art_url": "",
+        "game_name": "Nine Sols",
+        "igdb_name": "Nine Sols",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Use of Alcohol",
+            "Language",
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "In New Kunlun, hero Yi has awakened the 9 rulers of this forsaken realm. To defeat the 9 Sols in the deserted city.\n\n\u201cBecomes one with the way of Tao\u2026\u201d\n\nNew Kunlun, the Solarian\u2019s last sanctuary, has remained quiet for centuries. Inside this vast realm, the ancient gods left mortals with a promised land that is forever protected by the sacred rituals, yet the truth of this world remains unknown to most. Everything changes when Yi, a long forgotten hero from the past, is awoken by a human child.\n\nFollow Yi on his vengeful quest against the 9 Sols, formidable rulers of this forsaken realm, and obliterate any obstacles blocking your way in Sekiro-lite style combat. Explore in unique \u201cTaopunk\u201d setting that blends cyberpunk elements with Taoism and far eastern mythology. Unravel the mysteries of an ancient alien race and learn about the fate of mankind.",
+        "keywords": [
+            "2d",
+            "metroidvania",
+            "hand-drawn",
+            "steam achievements",
+            "steam cloud",
+            "steam leaderboards",
+            "soulslike",
+            "steam families"
+        ],
+        "release_date": 1716940800,
+        "entry_point_module": "worlds.nine_sols",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_nine_sols-0.6.2-py3-none-any.whl#sha256=d96e77e82a119e9e1f77b052b602f5915f39ac3371f1a32176140883f05b9b91"
+    },
+    "oot": {
+        "igdb_id": "1029",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nnx.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3p2v.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2s.png",
+        "game_name": "Ocarina of Time",
+        "igdb_name": "The Legend of Zelda: Ocarina of Time",
+        "age_rating": "12",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "64DD",
+            "Wii U"
+        ],
+        "storyline": "A young boy named Link was raised in the village of the elf-like Kokiri people. One day a fairy named Navi introduces him to the village's guardian, the Great Deku Tree. It appears that a mysterious man has cursed the tree, and Link is sent to the Hyrule Castle to find out more. Princess Zelda tells Link that Ganondorf, the leader of the Gerudo tribe, seeks to obtain the Triforce, a holy relic that grants immense power to the one who possesses it. Link must do everything in his power to obtain the Triforce before Ganondorf does, and save Hyrule.",
+        "keywords": [
+            "gravity",
+            "time travel",
+            "minigames",
+            "prequel",
+            "death",
+            "elves",
+            "horse",
+            "archery",
+            "chicken",
+            "horse racing",
+            "time manipulation",
+            "action-adventure",
+            "religion",
+            "fairy",
+            "parallel worlds",
+            "backtracking",
+            "apocalypse",
+            "undead",
+            "campaign",
+            "princess",
+            "dog",
+            "sequel",
+            "silent protagonist",
+            "swimming",
+            "day/night cycle",
+            "sword & sorcery",
+            "easy",
+            "islam",
+            "heroes",
+            "owl",
+            "horse riding",
+            "boss fight",
+            "block puzzle",
+            "digital distribution",
+            "single-player only",
+            "countdown timer",
+            "world map",
+            "polygonal 3d",
+            "bow and arrow",
+            "damsel in distress",
+            "game reference",
+            "cameo appearance",
+            "collectibles",
+            "emulation",
+            "disorientation zone",
+            "descendants of other characters",
+            "sprinting mechanics",
+            "young protagonist",
+            "ice stage",
+            "falling damage",
+            "character growth",
+            "side quests",
+            "auto-aim",
+            "grapple",
+            "real-time combat",
+            "underwater gameplay",
+            "a.i. companion",
+            "walking through walls",
+            "quicksaving",
+            "mercenary",
+            "coming of age",
+            "sequence breaking",
+            "british accent",
+            "villain",
+            "been here before",
+            "water level",
+            "invisible wall",
+            "controversy",
+            "plot twist",
+            "boss assistance",
+            "alternate reality",
+            "teenager",
+            "mirror mode",
+            "androgyny",
+            "animal cruelty",
+            "cross-dressing",
+            "women in refrigerators syndrome",
+            "age progression",
+            "resized enemy",
+            "trail of death",
+            "drawbridge",
+            "time paradox",
+            "fast traveling",
+            "censored version",
+            "context sensitive",
+            "living inventory",
+            "detective mode",
+            "acrobatics",
+            "contextual controller rumble",
+            "timeskip",
+            "strafe-jumping",
+            "tragic hero",
+            "retroactive achievements",
+            "horse archery",
+            "tiered exploration",
+            "old-fashioned english",
+            "damage over time",
+            "bafta games award",
+            "played for charity",
+            "fake interactivity",
+            "color cartridges",
+            "male protagonist",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - latin",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "battery save",
+            "media type - cartridge",
+            "media type - digital file",
+            "media - nintendo 64 game pak"
+        ],
+        "release_date": 911606400,
+        "entry_point_module": "worlds.oot",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_oot-9.1.0-py3-none-any.whl#sha256=e76765ca700a24816901db86d1019156c6c71e2514c28279f70a84d376193128",
+        "components": [
+            {
+                "name": "Ocarina of Time Client",
+                "type": "client"
+            },
+            {
+                "name": "Ocarina of Time Adjuster",
+                "type": "adjuster"
+            }
+        ]
+    },
+    "ori_wotw": {
+        "igdb_id": "37001",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cocjl7.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar89s.png",
+        "key_art_url": "",
+        "game_name": "Ori and the Will of the Wisps",
+        "igdb_name": "Ori and the Will of the Wisps",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "The little spirit Ori is no stranger to peril, but when a fateful flight puts the owlet Ku in harm\u2019s way, it will take more than bravery to bring a family back together, heal a broken land, and discover Ori\u2019s true destiny. From the creators of the acclaimed action-platformer Ori and the Blind Forest comes the highly anticipated sequel. Embark on an all-new adventure in a vast world filled with new friends and foes that come to life in stunning, hand-painted artwork. Set to a fully orchestrated original score, Ori and the Will of the Wisps continues the Moon Studios tradition of tightly crafted platforming action and deeply emotional storytelling.",
+        "keywords": [
+            "xbox play anywhere",
+            "xbox one x enhanced"
+        ],
+        "release_date": 1583798400,
+        "entry_point_module": "worlds.ori_wotw",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ori_wotw-0.6.3-py3-none-any.whl#sha256=c18a06dc25d57f9838549cc9865fbb6d96a1a80846dca8e531787c546d663a9f"
+    },
+    "oribf": {
+        "igdb_id": "7344",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1y41.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/argmx.png",
+        "key_art_url": "",
+        "game_name": "Ori and the Blind Forest",
+        "igdb_name": "Ori and the Blind Forest",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Thriller"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Ori, the protagonist of the game, falls from the Spirit Tree and is adopted by Naru, who raises Ori as her own. When a disastrous event occurs causing the forest to wither and Naru to die, Ori is left to explore the forest. Ori eventually encounters Sein, who begins to guide Ori on an adventure to restore the forest through the recovery of the light of three main elements supporting the balance of the forest: waters, winds and warmth.",
+        "keywords": [
+            "metroidvania",
+            "forest",
+            "steam",
+            "achievements",
+            "steam trading cards",
+            "wall jump",
+            "steam achievements",
+            "digital distribution",
+            "xbox controller support for pc",
+            "single-player only",
+            "steam cloud",
+            "spider",
+            "platform exclusive",
+            "60 fps on consoles",
+            "controller recommendation",
+            "windows store",
+            "puzzle platformer",
+            "original soundtrack release",
+            "unstable platforms",
+            "wilhelm scream",
+            "rpg elements",
+            "pax prime 2014",
+            "gamescom 2014",
+            "d.i.c.e. awards 2016",
+            "coming of age",
+            "game developers choice awards 2016",
+            "pax east 2015",
+            "balance platforms"
+        ],
+        "release_date": 1426032000,
+        "entry_point_module": "worlds.oribf",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_oribf-0.0.1-py3-none-any.whl#sha256=a75bf3a0ac96f233466906ac9be611f491edc9c9f03ebe1d34963fb5b0a1312d"
+    },
+    "osrs": {
+        "igdb_id": "79824",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1mo1.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6cez.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6cen.png",
+        "game_name": "Old School Runescape",
+        "igdb_name": "Old School RuneScape",
+        "age_rating": "16",
+        "rating": [
+            "Crude Humor",
+            "Fantasy Violence",
+            "Use of Alcohol",
+            "Users Interact"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Text"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Fantasy",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "grinding",
+            "raiding"
+        ],
+        "release_date": 1361491200,
+        "entry_point_module": "worlds.osrs",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_osrs-0.0.1-py3-none-any.whl#sha256=4e9443f7c41696ea1f25bae3cf14e8c618304411a940794af9f40480e7f5da31"
+    },
+    "outer_wilds": {
+        "igdb_id": "11737",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co65ac.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nua.png",
+        "game_name": "Outer Wilds",
+        "igdb_name": "Outer Wilds",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Alcohol Reference"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Simulator",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Open world",
+            "Mystery"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Welcome to the Space Program! You're the newest recruit of Outer Wilds Ventures, a fledgling space program searching for answers in a strange, constantly evolving solar system. What lurks in the heart of the ominous Dark Bramble? Who built the alien ruins on the Moon? Can the endless time loop be stopped? Answers await you in the most dangerous reaches of space.\n\nThe planets of Outer Wilds are packed with hidden locations that change with the passage of time. Visit an underground city of before it's swallowed by sand, or explore the surface of a planet as it crumbles beneath your feet. Every secret is guarded by hazardous environments and natural catastrophes.\n\nStrap on your hiking boots, check your oxygen levels, and get ready to venture into space. Use a variety of unique gadgets to probe your surroundings, track down mysterious signals, decipher ancient alien writing, and roast the perfect marshmallow.",
+        "keywords": [
+            "space simulation",
+            "exploration",
+            "time travel",
+            "astronaut"
+        ],
+        "release_date": 1559001600,
+        "entry_point_module": "worlds.outer_wilds",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_outer_wilds-1.2.2-py3-none-any.whl#sha256=210302935c6019b46000cf56902d8afc2d47f3bbc21fe5e0cbc27e681c6bf81c"
+    },
+    "overcooked2": {
+        "igdb_id": "103341",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coasbb.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar89w.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4tvb.png",
+        "game_name": "Overcooked! 2",
+        "igdb_name": "Overcooked! 2",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Tactical",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Kids",
+            "Party"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "In the Onion Kingdom, a culinary crisis unfolds as hordes of zombie toast, known as the Unbread, rise and threaten the land. The kingdom calls upon its team of chefs to travel across its diverse regions, battling through increasingly dangerous kitchens in an effort to stop the Unbread menace and save their world from being overrun.",
+        "keywords": [
+            "cooking",
+            "you can pet the dog",
+            "the game awards - best family game - winner",
+            "available on - luna plus",
+            "available on - luna gog"
+        ],
+        "release_date": 1533600000,
+        "entry_point_module": "worlds.overcooked2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=e75c2d63d09f2d2f063cf4223eb49c41791440d001e62ba198ac9a9cccffad5e"
+    },
+    "paint": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Paint",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.paint",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_paint-0.6.1-py3-none-any.whl#sha256=97aa91ce00e0a546a1d2eba6225ae916734904d869003a70284e5494cb8efa5b"
+    },
+    "papermario": {
+        "igdb_id": "3340",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1qda.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Paper Mario",
+        "igdb_name": "Paper Mario",
+        "age_rating": "3",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "gravity",
+            "mascot",
+            "turn-based",
+            "death",
+            "maze",
+            "gambling",
+            "undead",
+            "princess",
+            "dialogue trees",
+            "slavery",
+            "easter egg",
+            "high score",
+            "silent protagonist",
+            "turn-based combat",
+            "turtle",
+            "snowman",
+            "boss fight",
+            "spiritual successor",
+            "anthropomorphism",
+            "customization",
+            "leveling up",
+            "human",
+            "damsel in distress",
+            "breaking the fourth wall",
+            "transforming boss",
+            "party system",
+            "collectibles",
+            "virtual console",
+            "non-player character",
+            "save point",
+            "melee",
+            "unbeatable enemies",
+            "self-referential humor",
+            "moving platforms",
+            "villain",
+            "recurring boss",
+            "level cap",
+            "sleeping",
+            "tentacles",
+            "temporary invincibility",
+            "vore",
+            "boss assistance",
+            "not-so-bad guys",
+            "poisoning",
+            "invisibility",
+            "fire manipulation",
+            "surprising character switches",
+            "escaping imprisonment",
+            "battle screen",
+            "hammer bros.",
+            "restoration",
+            "camel",
+            "persistent enemy",
+            "greatest hits",
+            "interactive battle system",
+            "turn-based rpg",
+            "retroachievements",
+            "wii virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "battery save"
+        ],
+        "release_date": 965952000,
+        "entry_point_module": "worlds.papermario",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_papermario-0.0.1-py3-none-any.whl#sha256=10b8fbe712064263554bf6ab5ad3e126576daf834a9b962e3610c640eb9af366"
+    },
+    "peggle_nights": {
+        "igdb_id": "14813",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coalcm.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar23bl.png",
+        "key_art_url": "",
+        "game_name": "Peggle Nights",
+        "igdb_name": "Peggle Nights",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle"
+        ],
+        "themes": [],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "steam",
+            "abstract",
+            "high score",
+            "talking animals",
+            "block-breaking",
+            "floating blocks",
+            "pictographic level design",
+            "ea app",
+            "steam play",
+            "color blind assist",
+            "fireworks",
+            "remote play"
+        ],
+        "release_date": 1220400000,
+        "entry_point_module": "worlds.peggle_nights",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_peggle_nights-1.2.0-py3-none-any.whl#sha256=fbe61e28a84ccb9ea013b88ed8f01a1f68ca8d8f237b74d8e0e48f262193656c",
+        "components": [
+            {
+                "name": "Peggle Nights Client",
+                "type": "client"
+            }
+        ]
+    },
+    "phoa": {
+        "igdb_id": "136805",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2n5s.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arc27.png",
+        "key_art_url": "",
+        "game_name": "Phoenotopia: Awakening",
+        "igdb_name": "Phoenotopia: Awakening",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Language",
+            "Use of Alcohol",
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "The story follows the adventures of a girl named Gale, who sets out into the world to find out what happened to her village after a mysterious object descends from the sky and abducts almost everyone. Gale embarks on an epic quest that takes her to many different locations, solving puzzles, finding friends, and battling ferocious enemies, in order to find answers.",
+        "keywords": [
+            "metroidvania",
+            "fishing",
+            "cooking",
+            "side-scrolling",
+            "world map",
+            "zelda-like"
+        ],
+        "release_date": 1597881600,
+        "entry_point_module": "worlds.phoa",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_phoa-0.4.0-py3-none-any.whl#sha256=d9ab158bdf5c674ae7d7f3b4d4440b208f3fd9a37a577538c8d42b2eed71d410"
+    },
+    "pikuniku": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Pikuniku",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.pikuniku",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_pikuniku-0.3.1-py3-none-any.whl#sha256=2de336c8c67821902b539266ef2ab604b9c93ad3872576216f01134aa9fb3b08"
+    },
+    "pinball_fx3": {
+        "igdb_id": "41051",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rio.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar97y.png",
+        "key_art_url": "",
+        "game_name": "Pinball FX3",
+        "igdb_name": "Pinball FX3",
+        "age_rating": "12",
+        "rating": [
+            "Mild Language",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Simulator",
+            "Pinball",
+            "Arcade"
+        ],
+        "themes": [
+            "Fantasy",
+            "Science fiction"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "pinball",
+            "steam",
+            "achievements",
+            "online",
+            "free-to-play",
+            "tournament",
+            "steam achievements",
+            "digital distribution",
+            "steam cloud",
+            "xenomorph",
+            "genie",
+            "leveling up",
+            "voice acting",
+            "xbox play anywhere",
+            "digital pinball",
+            "downloadable content",
+            "xbox live",
+            "octopus",
+            "leaderboard",
+            "predator",
+            "xbox live local multiplayer"
+        ],
+        "release_date": 1506384000,
+        "entry_point_module": "worlds.pinball_fx3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pinball_fx3-1.3.0-py3-none-any.whl#sha256=6566ef9281e6a8d7d10905414289d7a191e859bf14795ad84c035475994454bb",
+        "components": [
+            {
+                "name": "Pinball FX3 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "placidplasticducksim": {
+        "igdb_id": "204122",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4yq5.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1oc8.png",
+        "key_art_url": "",
+        "game_name": "Placid Plastic Duck Simulator",
+        "igdb_name": "Placid Plastic Duck Simulator",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Music",
+            "Puzzle",
+            "Simulator"
+        ],
+        "themes": [
+            "Comedy",
+            "Sandbox",
+            "Kids",
+            "Party"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "pool",
+            "casual",
+            "physics",
+            "duck",
+            "pop culture reference",
+            "immersive"
+        ],
+        "release_date": 1657065600,
+        "entry_point_module": "worlds.placidplasticducksim",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-06/worlds_placidplasticducksim-0.3.2-py3-none-any.whl#sha256=4ffa3487a1ec00df194ff9c8705da657af121c93fba034f5a9a4cb046e9948fa"
+    },
+    "pmd_eos": {
+        "igdb_id": "2323",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7ovf.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kc2.png",
+        "key_art_url": "",
+        "game_name": "Pokemon Mystery Dungeon Explorers of Sky",
+        "igdb_name": "Pok\u00e9mon Mystery Dungeon: Explorers of Sky",
+        "age_rating": "3",
+        "rating": [
+            "Mild Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)"
+        ],
+        "themes": [
+            "Fantasy",
+            "Kids"
+        ],
+        "platforms": [
+            "Wii U",
+            "Nintendo DS"
+        ],
+        "storyline": "",
+        "keywords": [
+            "time travel",
+            "roguelike",
+            "jrpg",
+            "dungeon crawler",
+            "monster capturing",
+            "retroachievements"
+        ],
+        "release_date": 1240012800,
+        "entry_point_module": "worlds.pmd_eos",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pmd_eos-0.3.2-py3-none-any.whl#sha256=7da3737a5b0b5d6dc68a1edcfdfdf9d92c5a4ce5d0ab4ebb6e06750f5e0aa929"
+    },
+    "pokemon_crystal": {
+        "igdb_id": "1514",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5pil.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1ox5.png",
+        "key_art_url": "",
+        "game_name": "Pokemon Crystal",
+        "igdb_name": "Pok\u00e9mon Crystal Version",
+        "age_rating": "12",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Kids"
+        ],
+        "platforms": [
+            "Game Boy Color",
+            "Nintendo 3DS"
+        ],
+        "storyline": "",
+        "keywords": [
+            "exploration",
+            "anime",
+            "evolution",
+            "poker",
+            "collecting",
+            "pikachu",
+            "minigames",
+            "turn-based",
+            "breeding",
+            "slot machine",
+            "gambling",
+            "kid friendly",
+            "teleportation",
+            "bats",
+            "day/night cycle",
+            "rock paper scissors",
+            "boss fight",
+            "attributes",
+            "leveling up",
+            "world map",
+            "shopping",
+            "party system",
+            "virtual console",
+            "non-player character",
+            "sprinting mechanics",
+            "character growth",
+            "character creation",
+            "side quests",
+            "pick your gender",
+            "potion",
+            "melee",
+            "wigglytuff",
+            "coming of age",
+            "commerce",
+            "scientist",
+            "punctuation mark above head",
+            "been here before",
+            "sleeping",
+            "tentacles",
+            "nurse",
+            "animal cruelty",
+            "poisoning",
+            "victory music",
+            "random encounter",
+            "fire manipulation",
+            "earth manipulation",
+            "battle screen",
+            "nameless protagonist",
+            "adapted to - anime",
+            "status effects",
+            "snorlax",
+            "seadra",
+            "rhydon",
+            "rhyhorn",
+            "totodile",
+            "real time game clock",
+            "clefable",
+            "parasect",
+            "drowzee",
+            "chansey",
+            "weezing",
+            "octillery",
+            "fictional currencies",
+            "lost in translation",
+            "legendary pok\u00e9mon",
+            "gym leader",
+            "damage over time",
+            "fisherman",
+            "custom ui",
+            "color cartridges",
+            "unknown species",
+            "monster tamer",
+            "nintendo 3ds virtual console",
+            "nintendo 64 transfer pak"
+        ],
+        "release_date": 976752000,
+        "entry_point_module": "worlds.pokemon_crystal",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-27/worlds_pokemon_crystal-5.4.5-py3-none-any.whl#sha256=6e1ba8a091fbfb2afc904aa830f83e5c4ca070b8c51f8cf500e1eaad7e881407"
+    },
+    "pokemon_emerald": {
+        "igdb_id": "1517",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1zhr.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21y7.png",
+        "key_art_url": "",
+        "game_name": "Pokemon Emerald",
+        "igdb_name": "Pok\u00e9mon Emerald Version",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Kids"
+        ],
+        "platforms": [
+            "Game Boy Advance"
+        ],
+        "storyline": "Both Team Magma and Team Aqua are featured as the villainous teams, each stirring trouble at different stages in the game. The objective of each team, to awaken Groudon and Kyogre, respectively, is eventually fulfilled.\nRayquaza is prominent plot-wise, awakened in order to stop the destructive battle between Groudon and Kyogre. It is now the one out of the three ancient Pok\u00e9mon that can be caught prior to the Elite Four challenge, while still at the same place and at the same high level as in Ruby and Sapphire.",
+        "keywords": [
+            "exploration",
+            "anime",
+            "evolution",
+            "collecting",
+            "pikachu",
+            "minigames",
+            "turn-based",
+            "breeding",
+            "slot machine",
+            "gambling",
+            "bird",
+            "kid friendly",
+            "teleportation",
+            "giant insects",
+            "silent protagonist",
+            "rock paper scissors",
+            "boss fight",
+            "attributes",
+            "leveling up",
+            "shopping",
+            "party system",
+            "sprinting mechanics",
+            "tag teaming",
+            "character creation",
+            "side quests",
+            "pick your gender",
+            "potion",
+            "melee",
+            "coming of age",
+            "commerce",
+            "punctuation mark above head",
+            "recurring boss",
+            "tentacles",
+            "evil organization",
+            "one-handed gameplay",
+            "game console",
+            "animal cruelty",
+            "poisoning",
+            "victory music",
+            "random encounter",
+            "fire manipulation",
+            "burning",
+            "earth manipulation",
+            "fast traveling",
+            "battle screen",
+            "monster capturing",
+            "nameless protagonist",
+            "adapted to - anime",
+            "creature compendium",
+            "status effects",
+            "connectivity",
+            "rhydon",
+            "rhyhorn",
+            "real time game clock",
+            "rattata",
+            "clefable",
+            "parasect",
+            "drowzee",
+            "octillery",
+            "fictional currencies",
+            "psychics",
+            "legendary pok\u00e9mon",
+            "gym leader",
+            "damage over time",
+            "e-reader",
+            "fisherman",
+            "gamecube",
+            "custom ui",
+            "color cartridges",
+            "fan translation - portuguese",
+            "nintendo e-reader",
+            "game boy advance link cable support"
+        ],
+        "release_date": 1095292800,
+        "entry_point_module": "worlds.pokemon_emerald",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pokemon_emerald-2.5.0-py3-none-any.whl#sha256=afdf45d6c503b117dd5179b3c2e14f3846cb66929ce1b9b97600d905152ab82e"
+    },
+    "pokemon_frlg": {
+        "igdb_id": "1516",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1zip.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Pokemon FireRed and LeafGreen",
+        "igdb_name": "Pok\u00e9mon LeafGreen Version",
+        "age_rating": "3",
+        "rating": [
+            "Simulated Gambling",
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction",
+            "Kids"
+        ],
+        "platforms": [
+            "Game Boy Advance",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "monsters",
+            "collecting",
+            "trading",
+            "science",
+            "e-reader",
+            "nintendo e-reader",
+            "game boy advance link cable support"
+        ],
+        "release_date": 1075334400,
+        "entry_point_module": "worlds.pokemon_frlg",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_pokemon_frlg-1.1.0-py3-none-any.whl#sha256=325385dc1784d5b22da0b24cdba87af7ed4f63cf624d791caebd3d26bb653935"
+    },
+    "pokemon_rb": {
+        "igdb_id": "1561",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5pi4.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5mxx.png",
+        "game_name": "Pokemon Red and Blue",
+        "igdb_name": "Pok\u00e9mon Red Version",
+        "age_rating": "12",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Turn-based strategy (TBS)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Kids",
+            "Open world"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Game Boy"
+        ],
+        "storyline": "The player character starts out in Pallet Town. When the player character tries to leave the town without a Pok\u00e9mon of their own, they are stopped in the nick of time by Professor Oak, who invites them to his lab. There, he gives them a Pok\u00e9mon of their own and a Pok\u00e9dex, telling them about his dream to make a complete guide on every Pok\u00e9mon in the world. After the player character battles their rival and leaves the lab, they are entitled to win every Gym Badge, compete in the Pok\u00e9mon League, and fulfill Oak's dream by catching every Pok\u00e9mon.",
+        "keywords": [
+            "collecting",
+            "super game boy enhancement",
+            "virtual console",
+            "game boy link cable support",
+            "nintendo 3ds virtual console",
+            "fan translation - portuguese",
+            "nintendo gateway system",
+            "nintendo 64 transfer pak"
+        ],
+        "release_date": 825379200,
+        "entry_point_module": "worlds.pokemon_rb",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_pokemon_rb-0.0.1-py3-none-any.whl#sha256=c3628a3f21d1c724e6be2b789ed6f80580a9414f03bca428e651fa981f26623e"
+    },
+    "portal2": {
+        "igdb_id": "72",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rs4.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arsj0.png",
+        "key_art_url": "",
+        "game_name": "Portal 2",
+        "igdb_name": "Portal 2",
+        "age_rating": "12",
+        "rating": [
+            "Mild Language",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox 360",
+            "Nintendo Switch"
+        ],
+        "storyline": "You lost your memory, you are alone in a world full of danger, and your mission is survive using your mind. The only way to get out from this hell is.....Hi i'm GLAdOS, and welcome to the amazing world of portal 2, here i will expose you to a lot of tests, and try to k.. help Aperture Science envolve in a new era.\nYour job is advance in the levels i propose and get better and better, you will have an portal gun to help you, and remember nothing is impossible if you try, and try again and again and again....\nThe puzzles are waiting for you!",
+        "keywords": [
+            "robots",
+            "elves",
+            "female protagonist",
+            "steam",
+            "fairy",
+            "achievements",
+            "artificial intelligence",
+            "sequel",
+            "steam achievements",
+            "digital distribution",
+            "anthropomorphism",
+            "alternate costumes",
+            "bink video",
+            "motion blur",
+            "young protagonist",
+            "a.i. companion",
+            "male antagonist",
+            "xbox one backwards compatibility",
+            "dimension travel",
+            "linear gameplay",
+            "ambient music",
+            "first-person platforming",
+            "monster capturing",
+            "developer commentary",
+            "a.i. construct",
+            "another world",
+            "renderware",
+            "avatar awards"
+        ],
+        "release_date": 1303084800,
+        "entry_point_module": "worlds.portal2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_portal2-0.8.0-py3-none-any.whl#sha256=0856be169884176dd041271b82402be4688e5cb0392528f767e506da7d006bc0",
+        "components": [
+            {
+                "name": "Portal 2 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "powerwashsimulator": {
+        "igdb_id": "138590",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7gek.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4q9x.png",
+        "key_art_url": "",
+        "game_name": "Powerwash Simulator",
+        "igdb_name": "PowerWash Simulator",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Simulator",
+            "Indie"
+        ],
+        "themes": [
+            "Business",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "You're looking to start a business \u2013 but what? You decide power washing is super satisfying and you'd like to turn it into a full time gig. You put your good friend Harper Shaw, a bargain hunter and auction lot buyer up to the task of finding you the perfect vehicle for your new enterprise.\n\nThrough completing various jobs, you get to know the citizens of Muckingham, the small town in which the game is set, helping wash away their various problems. Figuratively... and literally!\n\nThe first client you are introduced to is Cal, Harper Shaw's new disgruntled neighbour. They are a volcanologist, who\u2019s moved back into town to study Mount Rushless, the local volcano, and to help look after his ageing parents. He's so worked up as he bought a house without even looking at a picture of the back garden. He thinks the previous owners might have even owned rhinos it's that dirty...",
+        "keywords": [
+            "3d",
+            "online co-op",
+            "funny",
+            "atmospheric",
+            "relaxing",
+            "story rich",
+            "family friendly",
+            "colorful",
+            "realism",
+            "vehicles",
+            "immersive",
+            "wholesome",
+            "cozy"
+        ],
+        "release_date": 1657756800,
+        "entry_point_module": "worlds.powerwashsimulator",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_powerwashsimulator-0.5.14-py3-none-any.whl#sha256=59e90e7852bb9e492cece5f03c04e66e3602b788714a4ae0db4cbf3cb0fe486f"
+    },
+    "quake": {
+        "igdb_id": "333",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9bg9.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arhee.png",
+        "key_art_url": "",
+        "game_name": "Quake 1",
+        "igdb_name": "Quake",
+        "age_rating": "T",
+        "rating": [
+            "Animated Blood and Gore",
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Horror"
+        ],
+        "platforms": [
+            "Zeebo",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS",
+            "Amiga",
+            "Sega Saturn",
+            "Legacy Mobile Device"
+        ],
+        "storyline": "The player takes the role of a protagonist known as Ranger who was sent into a portal in order to stop an enemy code-named \"Quake\". The government had been experimenting with teleportation technology and developed a working prototype called a \"Slipgate\"; the mysterious Quake compromised the Slipgate by connecting it with its own teleportation system, using it to send death squads to the \"Human\" dimension in order to test the martial capabilities of Humanity.",
+        "keywords": [
+            "aliens",
+            "arena",
+            "bloody",
+            "medieval",
+            "pvp",
+            "death",
+            "voxel",
+            "open-source",
+            "run and gun",
+            "steam",
+            "backtracking",
+            "lovecraftian",
+            "gore",
+            "shareware",
+            "portals",
+            "arena shooter",
+            "capture the flag",
+            "castle",
+            "silent protagonist",
+            "swimming",
+            "one-man army",
+            "clan",
+            "user generated content",
+            "explosion",
+            "spiritual successor",
+            "ogres",
+            "death match",
+            "geometry",
+            "digital distribution",
+            "steam cloud",
+            "human",
+            "polygonal 3d",
+            "original soundtrack release",
+            "wasd movement",
+            "extreme violence",
+            "auto-aim",
+            "player vs player",
+            "melee",
+            "real-time combat",
+            "underwater gameplay",
+            "quicksaving",
+            "mercenary",
+            "moving platforms",
+            "temporary invincibility",
+            "vore",
+            "mod support",
+            "multiplayer lan",
+            "speedrun",
+            "griefing",
+            "camping",
+            "splash damage",
+            "gore system",
+            "invisibility",
+            "first-person platforming",
+            "elevator ambush",
+            "god mode",
+            "secret areas within secret areas",
+            "alien languages",
+            "strafe-jumping",
+            "no-reticle aiming",
+            "machinima",
+            "novint falcon support",
+            "pc to console port",
+            "no longer banned",
+            "multiplayer via serial cable",
+            "source port",
+            "eldritch horror",
+            "retroachievements"
+        ],
+        "release_date": 835401600,
+        "entry_point_module": "worlds.quake",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_quake-1.1.8-py3-none-any.whl#sha256=0fdfd080e6d8a5dab8ae73e1c5f68cf47ae07fd39098a2323be1783c006e439a"
+    },
+    "rabi_ribi": {
+        "igdb_id": "28545",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4eck.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arb6h.png",
+        "key_art_url": "",
+        "game_name": "Rabi-Ribi",
+        "igdb_name": "Rabi-Ribi",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Suggestive Themes",
+            "Partial Nudity"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation Vita",
+            "Nintendo Switch"
+        ],
+        "storyline": "The main character is Erina, formerly a normal rabbit who became transformed into a human bunny girl, and awakens in an unknown place. Shortly after she is magically sent back to Rabi Rabi Island, her home island. Lost and confused, searching for her master is the best thing to understand what's going on. Along the way, Erina befriends Ribbon, a fairy seeking freedom and independence and becomes Erina's sidekick.",
+        "keywords": [
+            "exploration",
+            "anime",
+            "wizards",
+            "magic",
+            "2d",
+            "metroidvania",
+            "rabbit",
+            "difficult",
+            "bullet hell",
+            "female protagonist",
+            "action-adventure",
+            "labyrinth",
+            "fairy",
+            "cute",
+            "pixel graphics",
+            "manic shooter",
+            "crowdfunding",
+            "colorful",
+            "great soundtrack",
+            "magical girl",
+            "steam achievements",
+            "battle",
+            "bunny",
+            "conversation",
+            "magician",
+            "level up",
+            "doujin game"
+        ],
+        "release_date": 1453939200,
+        "entry_point_module": "worlds.rabi_ribi",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_rabi_ribi-1.5.1-py3-none-any.whl#sha256=69fb5923050fcf59b0fc769945035e99120c21d5b679dbca7133f17fb5d284a7",
+        "components": [
+            {
+                "name": "Rabi-Ribi Client",
+                "type": "client"
+            }
+        ]
+    },
+    "rac2": {
+        "igdb_id": "1770",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co230n.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Ratchet & Clank 2",
+        "igdb_name": "Ratchet & Clank: Going Commando",
+        "age_rating": "7",
+        "rating": [
+            "Animated Blood",
+            "Comic Mischief",
+            "Fantasy Violence",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 2"
+        ],
+        "storyline": "Having defeated Chairman Drek in their last intergalactic adventure, Ratchet and Clank find themselves returning to a more sedate lifestyle. That is, until they are approached by Abercrombie Fizzwidget, the CRO of Megacorp, who needs the duo to track down the company\u2019s most promising experimental project, which has been stolen by a mysterious masked figure. Initially, the mission seemed like a Sunday stroll in the park, but we soon find our heroes entangled in a colossal struggle for control of the galaxy. Along the way, the duo unleashes some of the coolest weapons and gadgets ever invented upon the most dangerous foes they have ever faced. Ratchet and Clanks set out to destroy anything and anyone who stands in their way of discovering the secrets that lie behind \u201cThe Experiment.\u201d",
+        "keywords": [
+            "upgradable weapons"
+        ],
+        "release_date": 1068508800,
+        "entry_point_module": "worlds.rac2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_rac2-0.6.4-py3-none-any.whl#sha256=047c3cb320f51665d25745fe6fae27d8ea9efbac8bc9ca73e1ce6160ac8a0f93",
+        "components": [
+            {
+                "name": "Ratchet & Clank 2 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "rac3": {
+        "igdb_id": "1773",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1oyn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t7h.png",
+        "key_art_url": "",
+        "game_name": "Ratchet and Clank 3",
+        "igdb_name": "Ratchet & Clank: Up Your Arsenal",
+        "age_rating": "7",
+        "rating": [
+            "Animated Blood",
+            "Crude Humor",
+            "Fantasy Violence",
+            "Suggestive Themes",
+            "Use of Tobacco",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 2"
+        ],
+        "storyline": "The third-installment invades the online universe with new, explosive weapons and unique gadgets that are out of this constellation. Ratchet and Clank return to planet Veldin, (the setting of the original Ratchet & Clank) where they\u2019ve been called upon by the president of the galaxy to stop Dr. Nefarious as he plots to exterminate all organic life. Together with the Q-Force and Captain Qwark, Ratchet and Clank set off on another intergalactic quest to uncover the schemes of the sinister Dr. Nefarious and save the galaxy again!",
+        "keywords": [
+            "pirates",
+            "exploration",
+            "minigames",
+            "mascot",
+            "upgradable weapons",
+            "robots",
+            "slot machine",
+            "run and gun",
+            "action-adventure",
+            "backtracking",
+            "online",
+            "building",
+            "hacking",
+            "artificial intelligence",
+            "teleportation",
+            "wall jump",
+            "good vs evil",
+            "boss fight",
+            "explosion",
+            "anthropomorphism",
+            "platform exclusive",
+            "playstation trophies",
+            "60 fps on consoles",
+            "voice acting",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "skill points in game",
+            "upgradeable weapons",
+            "cameo appearance",
+            "collectibles",
+            "non-player character",
+            "checkpoints",
+            "save file unlockables",
+            "black market",
+            "auto-aim",
+            "environmental puzzles",
+            "stat tracking",
+            "unreliable narrator",
+            "falling sequence",
+            "video game characters that play video games",
+            "cheat code",
+            "konami code",
+            "moving platforms",
+            "destructible environment",
+            "anti-hero",
+            "gliding",
+            "mirror mode",
+            "planet",
+            "new game plus",
+            "cutscene menu",
+            "combat-based platformer",
+            "fictional currencies",
+            "potential love interest",
+            "running gag",
+            "rail shooting segment",
+            "big head mode",
+            "adamantium",
+            "greatest hits",
+            "comic relief",
+            "metagame",
+            "damage over time",
+            "planet destruction",
+            "male protagonist"
+        ],
+        "release_date": 1099353600,
+        "entry_point_module": "worlds.rac3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_rac3-0.6.0-py3-none-any.whl#sha256=d4caa77ac01fc636a644ee3546cacda197f19d2807a560eb56a3d818a6e7cbfe",
+        "components": [
+            {
+                "name": "Ratchet and Clank 3 Client",
+                "type": "client",
+                "description": "Launch the Client for connecting to Ratchet and Clank 3 [PlayStation 2]"
+            }
+        ]
+    },
+    "raft": {
+        "igdb_id": "27082",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1xdc.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ardgp.png",
+        "key_art_url": "",
+        "game_name": "Raft",
+        "igdb_name": "Raft",
+        "age_rating": "12",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Simulator",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Survival"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)",
+            "PlayStation 5"
+        ],
+        "storyline": "Trapped on a small raft with nothing but a hook made of old plastic, players awake on a vast, blue ocean totally alone and with no land in sight! With a dry throat and an empty stomach, survival will not be easy!\n\nResources are tough to come by at sea: Players will have to make sure to catch whatever debris floats by using their trusty hook and when possible, scavenge the reefs beneath the waves and the islands above. However, thirst and hunger is not the only danger in the ocean\u2026 watch out for the man-eating shark determined to end your voyage!",
+        "keywords": [
+            "shark",
+            "crafting",
+            "bees"
+        ],
+        "release_date": 1655683200,
+        "entry_point_module": "worlds.raft",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_raft-0.0.1-py3-none-any.whl#sha256=fc6a6c1989ac9a7b525e2790a9eb8eb41808d36cbd967cba06d7de59002cb589"
+    },
+    "refunct": {
+        "igdb_id": "13542",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5s15.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arb0x.png",
+        "key_art_url": "",
+        "game_name": "Refunct",
+        "igdb_name": "Refunct",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "parkour",
+            "abstract",
+            "relaxing",
+            "3d platformer",
+            "great soundtrack"
+        ],
+        "release_date": 1444953600,
+        "entry_point_module": "worlds.refunct",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_refunct-1.5.0-py3-none-any.whl#sha256=0d3a2b6ef63cbe18e6818f6ec99058d8a8679034771376256732257ed2947fac"
+    },
+    "rimworld": {
+        "igdb_id": "9789",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaaqj.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ardhk.png",
+        "key_art_url": "",
+        "game_name": "Rimworld",
+        "igdb_name": "RimWorld",
+        "age_rating": "16",
+        "rating": [
+            "Blood",
+            "Suggestive Themes",
+            "Violence",
+            "Use of Drugs and Alcohol"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Real Time Strategy (RTS)",
+            "Simulator",
+            "Strategy",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction",
+            "Survival"
+        ],
+        "platforms": [
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "RimWorld follows three survivors from a crashed space liner as they build a colony on a frontier world at the rim of known space. Inspired by the space western vibe of Firefly, the deep simulation of Dwarf Fortress, and the epic scale of Dune and Warhammer 40,000.\n\nManage colonists' moods, needs, thoughts, individual wounds, and illnesses. Engage in deeply-simulated small-team gunplay. Fashion structures, weapons, and apparel from metal, wood, stone, cloth, or exotic, futuristic materials. Fight pirate raiders, hostile tribes, rampaging animals and ancient killing machines. Discover a new generated world each time you play. Build colonies in biomes ranging from desert to jungle to tundra, each with unique flora and fauna. Manage and develop colonists with unique backstories, traits, and skills. Learn to play easily with the help of an intelligent and unobtrusive AI tutor.",
+        "keywords": [
+            "western",
+            "management",
+            "base building",
+            "crowdfunding - kickstarter",
+            "pre-release public testing",
+            "mod support",
+            "colony simulator"
+        ],
+        "release_date": 1539734400,
+        "entry_point_module": "worlds.rimworld",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_rimworld-0.0.1-py3-none-any.whl#sha256=39fdb33f4f5aaf44f686f3158698d794fe9a6595b8311e0f96cc42d43b8fa8a5"
+    },
+    "rogue_legacy": {
+        "igdb_id": "3221",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co27fi.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ard4c.png",
+        "key_art_url": "",
+        "game_name": "Rogue Legacy",
+        "igdb_name": "Rogue Legacy",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Crude Humor"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "exploration",
+            "medieval",
+            "ninja",
+            "magic",
+            "minigames",
+            "16-bit",
+            "roguelike",
+            "metroidvania",
+            "death",
+            "procedural generation",
+            "permadeath",
+            "elves",
+            "horse",
+            "gambling",
+            "time manipulation",
+            "female protagonist",
+            "flight",
+            "action-adventure",
+            "side-scrolling",
+            "steam",
+            "multiple protagonists",
+            "bird",
+            "time limit",
+            "traps",
+            "steam trading cards",
+            "pixel art",
+            "wolf",
+            "pixel graphics",
+            "easter egg",
+            "teleportation",
+            "phobia",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "steam achievements",
+            "digital distribution",
+            "xbox controller support for pc",
+            "countdown timer",
+            "clowns",
+            "60 fps on consoles",
+            "bow and arrow",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "game reference",
+            "randomly generated dungeons",
+            "unlockables",
+            "non-player character",
+            "profanity",
+            "descendants of other characters",
+            "cross buy",
+            "treasure chest",
+            "royalty",
+            "potion",
+            "xbox live",
+            "stat tracking",
+            "secret area",
+            "shielded enemies",
+            "multi-phase boss",
+            "nonexistent light source",
+            "movie reference",
+            "pax prime 2013",
+            "cross-save",
+            "playstation tv support",
+            "violent plants",
+            "randomly generated maps",
+            "canonical death",
+            "punctuation mark above head",
+            "evolving title screen",
+            "disorientation",
+            "temporary invincibility",
+            "onlive",
+            "boss assistance",
+            "psn play",
+            "new game plus",
+            "color blindness",
+            "fire manipulation",
+            "jumping puzzle",
+            "paladins",
+            "blacksmith",
+            "resized enemy",
+            "trail of death",
+            "runes",
+            "iron maiden",
+            "drawbridge",
+            "lgbtq+",
+            "male protagonist"
+        ],
+        "release_date": 1372291200,
+        "entry_point_module": "worlds.rogue_legacy",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_rogue_legacy-0.0.1-py3-none-any.whl#sha256=161e0c44c909d501c0e313a1ee043c2e1940ef72870fdff4ad271d4b5125a8a8"
+    },
+    "ror1": {
+        "igdb_id": "3173",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2k2z.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ard5n.png",
+        "key_art_url": "",
+        "game_name": "Risk of Rain",
+        "igdb_name": "Risk of Rain",
+        "age_rating": "7",
+        "rating": [
+            "Alcohol Reference",
+            "Fantasy Violence",
+            "Mild Blood",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Role-playing (RPG)",
+            "Hack and slash/Beat 'em up",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction",
+            "Survival"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "After a space freighter is attacked and crashes onto a strange, uncharted planet, a lone survivor is left stranded amid its hostile wilds. Cut off and hunted by the world's ever-growing swarms of monsters, the survivor must scavenge the ship's scattered cargo for gear and fight to stay alive. With danger mounting the longer they linger, the survivor races to locate a teleporter and find a way off the deadly planet before its horrors overwhelm them.",
+        "keywords": [
+            "roguelike",
+            "8-bit style",
+            "permadeath",
+            "difficult",
+            "steam",
+            "time limit",
+            "steam trading cards",
+            "pixel art",
+            "random level generation",
+            "crowdfunding - kickstarter",
+            "steam greenlight",
+            "crowdfunding",
+            "boss fight",
+            "xbox controller support for pc",
+            "bow and arrow",
+            "crowd funded",
+            "in-game achievement menu",
+            "in-game achievements",
+            "pax prime 2014",
+            "consolation achievements",
+            "igf awards",
+            "arrival by crash landing",
+            "infinite spawn",
+            "roguelite"
+        ],
+        "release_date": 1383868800,
+        "entry_point_module": "worlds.ror1",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ror1-0.0.1-py3-none-any.whl#sha256=fe7a10c1e09c093dfd5c7d75fc715f20fe0b61e49894836f5afe2713e2792a0b"
+    },
+    "ror2": {
+        "igdb_id": "28512",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaavb.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar758.png",
+        "key_art_url": "",
+        "game_name": "Risk of Rain 2",
+        "igdb_name": "Risk of Rain 2",
+        "age_rating": "12",
+        "rating": [
+            "Blood",
+            "Drug Reference",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Shooter",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Survival"
+        ],
+        "platforms": [
+            "Google Stadia",
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Risk of Rain 2 follows the crew of UES: Safe Travels as they try to find UES: Contact Light and any survivors along their path. They have to try and survive the hostile wildlife and environment as difficulty increases over time, navigating Petrichor V via the teleporters strewn across the entire planet. The crew loop endlessly through many distinct environments, but end upon the moon to defeat the final boss.\n\nWith each run, you\u2019ll learn the patterns of your foes, and even the longest odds can be overcome with enough skill. A unique scaling system means both you and your foes limitlessly increase in power over the course of a game\u2013what once was a bossfight will in time become a common enemy.\n\nMyriad survivors, items, enemies, and bosses return to Risk 2, and many new ones are joining the fight. Brand new survivors like the Artificer and MUL-T debut alongside classic survivors such as the Engineer, Huntress, and\u2013of course\u2013the Commando. With over 75 items to unlock and exploit, each run will keep you cleverly strategizing your way out of sticky situations.",
+        "keywords": [
+            "bullet hell",
+            "roguelite",
+            "looter shooter",
+            "previously on - stadia pro"
+        ],
+        "release_date": 1597104000,
+        "entry_point_module": "worlds.ror2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ror2-1.5.0-py3-none-any.whl#sha256=aa0a71319bddf4276956e5e64c7c04f466f05c56a317569c639f25806c2fd3b7"
+    },
+    "rotn": {
+        "igdb_id": "214492",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co94p5.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3ego.png",
+        "key_art_url": "",
+        "game_name": "Rift of the Necrodancer",
+        "igdb_name": "Rift of the NecroDancer",
+        "age_rating": "12",
+        "rating": [],
+        "player_perspectives": [
+            "Side view",
+            "Auditory"
+        ],
+        "genres": [
+            "Music",
+            "Role-playing (RPG)",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "level editor",
+            "minigames",
+            "female protagonist",
+            "cute",
+            "cartoon graphics",
+            "steam trading cards",
+            "global leaderboards",
+            "colorful",
+            "steam achievements",
+            "music and rhythm",
+            "steam cloud",
+            "steam workshop",
+            "steam families",
+            "nextfest october 2024"
+        ],
+        "release_date": 1738713600,
+        "entry_point_module": "worlds.rotn",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_rotn-0.15.0-py3-none-any.whl#sha256=7efeffa74c0138f169f88c55562f32479df0c053fbb2eff313c7a1f7dc1202d0"
+    },
+    "sa2b": {
+        "igdb_id": "192194",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5p3o.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1h09.png",
+        "key_art_url": "",
+        "game_name": "Sonic Adventure 2 Battle",
+        "igdb_name": "Sonic Adventure 2: Battle",
+        "age_rating": "E",
+        "rating": [
+            "Mild Lyrics",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PC (Microsoft Windows)",
+            "Xbox 360"
+        ],
+        "storyline": "",
+        "keywords": [],
+        "release_date": 1349136000,
+        "entry_point_module": "worlds.sa2b",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sa2b-0.0.1-py3-none-any.whl#sha256=9767b145751ab1879c4d902fdd294002cac8d9f74c0e2e83ee33e6d4a2d4f59a"
+    },
+    "sadx": {
+        "igdb_id": "192114",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4iln.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1nly.png",
+        "key_art_url": "",
+        "game_name": "Sonic Adventure DX",
+        "igdb_name": "Sonic Adventure: Sonic Adventure DX Upgrade",
+        "age_rating": "E",
+        "rating": [
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PC (Microsoft Windows)",
+            "Xbox 360"
+        ],
+        "storyline": "Doctor Robotnik seeks a new way to defeat his longtime nemesis Sonic and conquer the world. During his research, he learns about an entity called Chaos\u2014a creature that, thousands of years ago, helped to protect the Chao and the all-powerful Master Emerald, which balances the power of the seven Chaos Emeralds. When a tribe of echidnas sought to steal the power of the Emeralds, breaking the harmony they had with the Chao, Chaos retaliated by using the Emeralds' power to transform into a monstrous beast, Perfect Chaos, and wipe them out. Before it could destroy the world, Tikal, a young echidna who befriended Chaos, imprisoned it in the Master Emerald along with herself. Eggman releases Chaos and Sonic and his friends must act against Eggman's plans and prevent the monster from becoming more powerful.",
+        "keywords": [],
+        "release_date": 1283299200,
+        "entry_point_module": "worlds.sadx",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sadx-1.2.2-py3-none-any.whl#sha256=d9ced58b0a348e113a0607cda783466fc790dd88f68562361f50b68c70850a66"
+    },
+    "satisfactory": {
+        "igdb_id": "90558",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8tfy.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar57j.png",
+        "key_art_url": "",
+        "game_name": "Satisfactory",
+        "igdb_name": "Satisfactory",
+        "age_rating": "3",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Simulator",
+            "Strategy",
+            "Adventure"
+        ],
+        "themes": [
+            "Science fiction",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PC (Microsoft Windows)",
+            "PlayStation 5"
+        ],
+        "storyline": "An unnamed Pioneer employed by the megacorporation FICSIT Inc. is dropped from orbit onto the surface of an alien planet designated MASSAGE-2(AB)b. The drop pod malfunctions, and the Pioneer barely survives the landing, awakening with no memories. Guided by FICSIT's artificial intelligence, ADA, the Pioneer learns she is one of few to have landed successfully in the region. ADA instructs her to begin constructing infrastructure for \"\"Project Assembly,\"\" described only as part of a larger initiative called the Save the Day Program, intended to rescue Earth from an unspecified catastrophe.\n\nAs the Pioneer builds deeper into the planet's wilderness, she discovers mysterious alien artifacts that trigger strange mental contact with an unknown intelligence. Something on this world is trying to communicate, and the true nature of both the planet and FICSIT's mission may be more complex than a simple resource extraction operation.",
+        "keywords": [
+            "crafting",
+            "base building",
+            "factory"
+        ],
+        "release_date": 1725926400,
+        "entry_point_module": "worlds.satisfactory",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_satisfactory-2.3.1-py3-none-any.whl#sha256=2da06b971872b703af74e08602033043a1e3ddc7a45fd05490f155e957408d51"
+    },
+    "sc2": {
+        "igdb_id": "239",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1tnn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/quwrneuc9810sa6hxsjo.png",
+        "key_art_url": "",
+        "game_name": "Starcraft 2",
+        "igdb_name": "StarCraft II: Wings of Liberty",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Language",
+            "Suggestive Themes",
+            "Use of Alcohol and Tobacco",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Real Time Strategy (RTS)",
+            "Strategy"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Warfare"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "Jim Raynor, a marshal turned rebel, leads a vigilante crusade against the Terran Dominion and its ruler Arcturus Mengsk. Haunted by betrayal and the memory of allies lost, Raynor operates on the fringes of space, building his forces and searching for a way to bring down the regime.\n\nWhen old promises and new threats converge, Raynor is drawn into a conflict that stretches beyond the politics of the Dominion, forcing him to confront enemies both human and alien in a war that will determine the fate of the sector.",
+        "keywords": [
+            "aliens",
+            "skill-based",
+            "competitive",
+            "space",
+            "esports",
+            "human",
+            "side quests",
+            "mercenary",
+            "never-ending",
+            "cutscene menu",
+            "battle.net",
+            "phoenix"
+        ],
+        "release_date": 1280188800,
+        "entry_point_module": "worlds.sc2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sc2-4.0.0-py3-none-any.whl#sha256=a299defff8400be608e3478a57ca1b9925698f58922ffe6a0fed3e5ba38bda98",
+        "components": [
+            {
+                "name": "Starcraft 2 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "shivers": {
+        "igdb_id": "12477",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7a5z.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/aruss.png",
+        "key_art_url": "",
+        "game_name": "Shivers",
+        "igdb_name": "Shivers",
+        "age_rating": "7",
+        "rating": [
+            "Realistic Blood and Gore",
+            "Realistic Blood"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Point-and-click",
+            "Puzzle",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Horror"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)"
+        ],
+        "storyline": "",
+        "keywords": [
+            "scummvm compatible"
+        ],
+        "release_date": 820368000,
+        "entry_point_module": "worlds.shivers",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_shivers-2.7.5-py3-none-any.whl#sha256=f3525170d999d24d579400d299dd36e81b49b6dd5dac050a1aab5acf01de6331"
+    },
+    "shorthike": {
+        "igdb_id": "116753",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6e83.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar58k0.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4l4d.png",
+        "game_name": "A Short Hike",
+        "igdb_name": "A Short Hike",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "The main character is Claire, a young anthropomorphic bird who travels to Hawk Peak Provincial Park, where her Aunt May works as a ranger, to spend days off. However, Claire cannot get cellphone reception unless she reaches the top of the peak, and is expecting an important call. For this reason, she decides to reach the highest point in the park.",
+        "keywords": [
+            "exploration",
+            "casual",
+            "character customization",
+            "3d",
+            "fishing",
+            "volleyball",
+            "beach volleyball",
+            "rock climbing",
+            "goat",
+            "female protagonist",
+            "animal protagonist",
+            "flight",
+            "nature",
+            "forest",
+            "treasure hunt",
+            "stylized",
+            "bird",
+            "pixelated",
+            "flying",
+            "achievements",
+            "time limit",
+            "child protagonist",
+            "short",
+            "wall climbing",
+            "cute",
+            "walking simulator",
+            "funny",
+            "atmospheric",
+            "snow",
+            "pixel graphics",
+            "relaxing",
+            "boat racing",
+            "emotional",
+            "low-poly",
+            "3d platformer",
+            "climbing",
+            "family friendly",
+            "great soundtrack",
+            "steam achievements",
+            "xbox controller support for pc",
+            "steam cloud",
+            "steam leaderboards",
+            "anthropomorphism",
+            "dualshock 4 support for pc",
+            "controller recommendation",
+            "young protagonist",
+            "treasure chest",
+            "gliding",
+            "camping",
+            "text dialogue",
+            "fully customizable controls",
+            "controller support",
+            "beautiful",
+            "short game",
+            "cozy",
+            "steam deck",
+            "season summer",
+            "digging",
+            "lighthouse",
+            "fish",
+            "possum",
+            "summer",
+            "steam families",
+            "hidden secrets",
+            "time",
+            "boat",
+            "cloud saves",
+            "dualsense support for pc",
+            "cozy adventure",
+            "subtitles",
+            "closed captions",
+            "collection log"
+        ],
+        "release_date": 1564444800,
+        "entry_point_module": "worlds.shorthike",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_shorthike-0.0.1-py3-none-any.whl#sha256=875d48bd34d66c2c60b0499a2885274c1a5940d2598ee925c67b6a4eaec04cfb"
+    },
+    "simpsonshitnrun": {
+        "igdb_id": "2844",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2uk7.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6gap.png",
+        "game_name": "The Simpsons Hit And Run",
+        "igdb_name": "The Simpsons: Hit & Run",
+        "age_rating": "T",
+        "rating": [
+            "Comic Mischief",
+            "Mild Language",
+            "Violence",
+            "Crude Humor",
+            "Alcohol Reference",
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Racing",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Open world"
+        ],
+        "platforms": [
+            "Xbox",
+            "Nintendo GameCube",
+            "PC (Microsoft Windows)",
+            "PlayStation 2"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "ghosts",
+            "driving",
+            "christmas",
+            "halloween",
+            "time limit",
+            "cartoon graphics",
+            "drifting",
+            "wall jump",
+            "cartoony",
+            "fixed camera",
+            "explosion",
+            "licensed game",
+            "split-screen multiplayer",
+            "countdown timer",
+            "alternate costumes",
+            "clowns",
+            "voice acting",
+            "corrupt government",
+            "bink video",
+            "human",
+            "polygonal 3d",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "collectibles",
+            "unlockables",
+            "white noise",
+            "non-player character",
+            "fake in-game advertising",
+            "young protagonist",
+            "holiday themes",
+            "useable vehicles",
+            "stat tracking",
+            "vending machine interaction",
+            "video game characters that play video games",
+            "destructible environment",
+            "punctuation mark above head",
+            "been here before",
+            "controversy",
+            "tie-in",
+            "surveillance camera",
+            "car accident",
+            "spiky-haired protagonist",
+            "overweight character",
+            "fireworks",
+            "propaganda",
+            "alien abduction",
+            "game cartridge",
+            "car chase",
+            "police chase",
+            "catch phrase",
+            "greatest hits",
+            "xbox 360 backwards compatibility",
+            "lgbtq+",
+            "male protagonist"
+        ],
+        "release_date": 1063670400,
+        "entry_point_module": "worlds.simpsonshitnrun",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_simpsonshitnrun-0.5.4-py3-none-any.whl#sha256=fac0baede9819e773801b14decbd17377fc7592187b94c97803e1585427d372f",
+        "components": [
+            {
+                "name": "Simpsons Hit & Run Client",
+                "type": "client"
+            }
+        ]
+    },
+    "sims4": {
+        "igdb_id": "3212",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3h3l.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ary47.png",
+        "key_art_url": "",
+        "game_name": "The Sims 4",
+        "igdb_name": "The Sims 4",
+        "age_rating": "12",
+        "rating": [
+            "Sexual Themes",
+            "Crude Humor",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Simulator"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Comedy",
+            "Sandbox",
+            "Romance"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One"
+        ],
+        "storyline": "Choose how Sims look, act, and dress. Determine how they\u2019ll live out each day. Design and build incredible homes for every family, then decorate with your favorite furnishings and d\u00e9cor. Travel to different neighborhoods where you can meet other Sims and learn about their lives. Discover beautiful locations with distinctive environments, and go on spontaneous adventures. Manage the ups and downs of Sims\u2019 everyday lives and see what happens when you play out realistic or fantastical scenarios. Tell your stories your way while developing relationships, pursuing careers and life aspirations, and immersing yourself in an extraordinary game where the possibilities are endless.",
+        "keywords": [
+            "life simulation",
+            "casual",
+            "character customization",
+            "management",
+            "cute",
+            "building",
+            "funny",
+            "relaxing",
+            "family friendly",
+            "time management",
+            "cartoony",
+            "realism",
+            "immersive",
+            "lgbtq+",
+            "social simulation",
+            "you can pet the dog"
+        ],
+        "release_date": 1409616000,
+        "entry_point_module": "worlds.sims4",
+        "module_location": "https://github.com/Simsipelago/Archipelago/releases/download/2.0.1/worlds_sims4-2.0.1-py3-none-any.whl#sha256=60843c28740747adcbc9d7ebb0d4fae47aaba2bf827e1b1e662874df6f09e7e5",
+        "components": [
+            {
+                "name": "The Sims 4 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "skul": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Skul: The Hero Slayer",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.skul",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_skul-1.0.2-py3-none-any.whl#sha256=f72052f9d2e441f1d15d2b2ff7f7f31ee35809889e8486489cf1a76d4d4bb754"
+    },
+    "sly1": {
+        "igdb_id": "1798",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1p0r.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Sly Cooper and the Thievius Raccoonus",
+        "igdb_name": "Sly Cooper and the Thievius Raccoonus",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Stealth",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 2"
+        ],
+        "storyline": "Sly Cooper comes from a long line of master thieves (the Cooper Clan) who only steal from other criminals, thus making them vigilantes. The Cooper family's heirloom, an ancient book by the name The Thievius Raccoonus, records all the secret moves and techniques from every member in the clan. On his 8th birthday, Sly was supposed to inherit the book and learn all of his family's ancient secrets which was supposed to help him become a master thief, however, a group of thugs by the name \"The Fiendish Five\" (led by Clockwerk, who is the arch-nemesis of the family clan) attack the Cooper household and kills Sly's parents and stole all of the pages from the Thievius Raccoonus. After that, the ruthless gang go their separate ways to commit dastardly crimes around the world. Sly is sent to an orphanage where he meets and teams up and forms a gang with two guys who become his lifelong best friends, Bentley, a technician, inventor and a talented mathematical hacker with encyclopedic knowledge who plays the role as the brains of the gang, and Murray, a huge husky cowardly guy with a ginormous appetite who plays the role as the brawns and the getaway driver of the gang. The three leave the orphanage together at age 16 to start their lives becoming international vigilante criminals together, naming themselves \"The Cooper Gang\". Sly swears one day to avenge his family and track down the Fiendish Five and steal back the Thievius Raccoonus. Two years later, the Cooper Gang head to Paris, France, to infiltrate Itnerpol (a police headquarters) in order to find the secret police file which stores details and information about the Fiendish Five but during the heist they are ambushed by Inspector Carmelita Fox (towards whom Sly develops a romantic attraction), a police officer who is affiliated with Interpol and is after the Cooper Gang. The gang manage to steal the police file and successfully escapes from her and the rest of the cops. With the secret police file finally in their hands, the Cooper Gang manage to track down the Fiendish Five.",
+        "keywords": [
+            "ghosts",
+            "thief",
+            "mascot",
+            "death",
+            "espionage",
+            "bullet time",
+            "building",
+            "artificial intelligence",
+            "crime",
+            "snake",
+            "dog",
+            "fox",
+            "talking animals",
+            "climbing",
+            "turtle",
+            "mosquito",
+            "boss fight",
+            "anthropomorphism",
+            "spider",
+            "platform exclusive",
+            "60 fps on consoles",
+            "voice acting",
+            "protagonist's name in the title",
+            "crocodile",
+            "language selection",
+            "polygonal 3d",
+            "animal antagonist",
+            "skeletons",
+            "collectibles",
+            "descendants of other characters",
+            "checkpoints",
+            "unstable platforms",
+            "stereoscopic 3d",
+            "melee",
+            "moving platforms",
+            "destructible environment",
+            "theft",
+            "dynamic soundtrack",
+            "stealth kill",
+            "gliding",
+            "grind",
+            "comic book cutscene",
+            "invisibility",
+            "surprising character switches",
+            "time trials",
+            "fireworks",
+            "hippopotamus",
+            "developer commentary",
+            "trilogy",
+            "orphan",
+            "rotating platforms",
+            "greatest hits",
+            "interactive achievement awards 2003",
+            "game developers choice awards 2003",
+            "rc vehicle"
+        ],
+        "release_date": 1032739200,
+        "entry_point_module": "worlds.sly1",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sly1-0.3.5-py3-none-any.whl#sha256=092265c4346f431fbc6fb78f0a109bcdc65145e679dd100992ce10f6a2247486",
+        "components": [
+            {
+                "name": "Sly 1 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "sm": {
+        "igdb_id": "1103",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5osy.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7i.png",
+        "game_name": "Super Metroid",
+        "igdb_name": "Super Metroid",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Thriller"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "After Samus completed her mission and eradicated the entire Metroid population on SR388 as commanded by the Galactic Federation (sans the Metroid Hatchling, which she nicknamed \"Baby\"), she brought the Hatchling to the Ceres Space Colony for research. However, shortly after she left, she received a distress signal from the Station and returned to investigate.\n\nWhen Samus arrives at the Space Science Academy where the Baby was being studied, she finds all the scientists slaughtered and the containment unit that held the Baby missing. Upon further exploration of the Station, she finds the Baby in a small capsule. As she approaches, Ridley appears and grabs the capsule. After a brief battle, Samus repels Ridley, and he activates a self-destruct sequence to destroy Ceres.\n\nAfter escaping the explosion, Ridley flees to Zebes, and Samus goes after him.",
+        "keywords": [
+            "aliens",
+            "exploration",
+            "2d",
+            "16-bit",
+            "metroidvania",
+            "time manipulation",
+            "female protagonist",
+            "action-adventure",
+            "side-scrolling",
+            "time limit",
+            "pixel art",
+            "wall jump",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "countdown timer",
+            "nintendo power",
+            "damsel in distress",
+            "virtual console",
+            "save point",
+            "unstable platforms",
+            "real-time combat",
+            "secret area",
+            "multi-phase boss",
+            "liberation",
+            "mercenary",
+            "sequence breaking",
+            "scripted events",
+            "isolation",
+            "nintendo switch online",
+            "wii virtual console",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "nintendo gateway system",
+            "battery save",
+            "interconnected-world",
+            "player's choice"
+        ],
+        "release_date": 764035200,
+        "entry_point_module": "worlds.sm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sm-0.0.1-py3-none-any.whl#sha256=27798ca6cedf78a43d144fdaa2adf0ef4a313edb71d75c996ba4a05c592c5915"
+    },
+    "sm64ex": {
+        "igdb_id": "1074",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co721v.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nab.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
+        "game_name": "Super Mario 64",
+        "igdb_name": "Super Mario 64",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "On a bright, sunny day in the Mushroom Kingdom, Mario goes to visit the princess but finds her castle eerily empty. Leaping through pictures hanging from the walls, he enters 15 magical worlds in a quest to collect the 120 Power Stars pilfered by evil Bowser and save the day. The game's vast worlds teem with daunting obstacle courses, hidden items, puzzles, and more than 30 types of enemies. Take advantage of Mario's large selection of moves, including running, jumping, swimming, stomping, punching, and even backward somersaulting! Special caps give him short-lived powers, including the ability to fly.",
+        "keywords": [
+            "animals",
+            "3d",
+            "1990s",
+            "penguin",
+            "rabbit",
+            "flying",
+            "snow",
+            "wall jump",
+            "3d platformer",
+            "climbing",
+            "swimming",
+            "snowman",
+            "digital distribution",
+            "super-ness",
+            "sprinting mechanics",
+            "real-time combat",
+            "underwater gameplay",
+            "moving platforms",
+            "giant environment",
+            "speedrun",
+            "linear gameplay",
+            "donut block",
+            "my nintendo",
+            "wiggler",
+            "entering world in a painting",
+            "nintendo 64",
+            "male protagonist",
+            "retroachievements",
+            "wii virtual console",
+            "princess peach",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "jump game",
+            "battery save",
+            "coins",
+            "fandub - brazilian portuguese",
+            "player's choice",
+            "jumping",
+            "media type - cartridge",
+            "media type - digital file",
+            "media - nintendo 64 game pak"
+        ],
+        "release_date": 835488000,
+        "entry_point_module": "worlds.sm64ex",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sm64ex-0.0.1-py3-none-any.whl#sha256=1fa6b1ca6bd43da6fd1caf49e8279112bdc4a864f3e4f875d2f857a3a86ef66b"
+    },
+    "sm64hacks": {
+        "igdb_id": "1074",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co721v.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nab.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3na7.png",
+        "game_name": "SM64 Romhack",
+        "igdb_name": "Super Mario 64",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "On a bright, sunny day in the Mushroom Kingdom, Mario goes to visit the princess but finds her castle eerily empty. Leaping through pictures hanging from the walls, he enters 15 magical worlds in a quest to collect the 120 Power Stars pilfered by evil Bowser and save the day. The game's vast worlds teem with daunting obstacle courses, hidden items, puzzles, and more than 30 types of enemies. Take advantage of Mario's large selection of moves, including running, jumping, swimming, stomping, punching, and even backward somersaulting! Special caps give him short-lived powers, including the ability to fly.",
+        "keywords": [
+            "animals",
+            "3d",
+            "1990s",
+            "penguin",
+            "rabbit",
+            "flying",
+            "snow",
+            "wall jump",
+            "3d platformer",
+            "climbing",
+            "swimming",
+            "snowman",
+            "digital distribution",
+            "super-ness",
+            "sprinting mechanics",
+            "real-time combat",
+            "underwater gameplay",
+            "moving platforms",
+            "giant environment",
+            "speedrun",
+            "linear gameplay",
+            "donut block",
+            "my nintendo",
+            "wiggler",
+            "entering world in a painting",
+            "nintendo 64",
+            "male protagonist",
+            "retroachievements",
+            "wii virtual console",
+            "princess peach",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "jump game",
+            "battery save",
+            "coins",
+            "fandub - brazilian portuguese",
+            "player's choice",
+            "jumping",
+            "media type - cartridge",
+            "media type - digital file",
+            "media - nintendo 64 game pak"
+        ],
+        "release_date": 835488000,
+        "entry_point_module": "worlds.sm64hacks",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sm64hacks-1.1.7-py3-none-any.whl#sha256=9177a10a9b8f17a878395c2abfbb1871c4f7e23469c317537fb914f5ad7fc743"
+    },
+    "sm_map_rando": {
+        "igdb_id": "1103",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5osy.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5p7i.png",
+        "game_name": "Super Metroid Map Rando",
+        "igdb_name": "Super Metroid",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Thriller"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "After Samus completed her mission and eradicated the entire Metroid population on SR388 as commanded by the Galactic Federation (sans the Metroid Hatchling, which she nicknamed \"Baby\"), she brought the Hatchling to the Ceres Space Colony for research. However, shortly after she left, she received a distress signal from the Station and returned to investigate.\n\nWhen Samus arrives at the Space Science Academy where the Baby was being studied, she finds all the scientists slaughtered and the containment unit that held the Baby missing. Upon further exploration of the Station, she finds the Baby in a small capsule. As she approaches, Ridley appears and grabs the capsule. After a brief battle, Samus repels Ridley, and he activates a self-destruct sequence to destroy Ceres.\n\nAfter escaping the explosion, Ridley flees to Zebes, and Samus goes after him.",
+        "keywords": [
+            "aliens",
+            "exploration",
+            "2d",
+            "16-bit",
+            "metroidvania",
+            "time manipulation",
+            "female protagonist",
+            "action-adventure",
+            "side-scrolling",
+            "time limit",
+            "pixel art",
+            "wall jump",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "countdown timer",
+            "nintendo power",
+            "damsel in distress",
+            "virtual console",
+            "save point",
+            "unstable platforms",
+            "real-time combat",
+            "secret area",
+            "multi-phase boss",
+            "liberation",
+            "mercenary",
+            "sequence breaking",
+            "scripted events",
+            "isolation",
+            "nintendo switch online",
+            "wii virtual console",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "nintendo gateway system",
+            "battery save",
+            "interconnected-world",
+            "player's choice"
+        ],
+        "release_date": 764035200,
+        "entry_point_module": "worlds.sm_map_rando",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_sm_map_rando-0.119.3-py3-none-any.whl#sha256=c8ca1380d1e01d7d20ce3d7a857fc1df88c7248684a27274217cb85c77521038"
+    },
+    "smo": {
+        "igdb_id": "26758",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1mxf.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4mb8.png",
+        "key_art_url": "",
+        "game_name": "Super Mario Odyssey",
+        "igdb_name": "Super Mario Odyssey",
+        "age_rating": "7",
+        "rating": [
+            "Cartoon Violence",
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Nintendo Switch 2",
+            "Nintendo Switch"
+        ],
+        "storyline": "Bowser has kidnapped Princess Peach once again, but this time, he plans to force her into a royal wedding! Mario sets off on a globe-trotting adventure beyond the Mushroom Kingdom, teaming up with Cappy, a mysterious hat-shaped spirit from the Cap Kingdom whose sister Tiara was also taken by Bowser.\n\nTogether, they travel across vast and colorful kingdoms aboard the airship Odyssey, collecting Power Moons to fuel their journey. Using Cappy\u2019s powers, Mario can \u201ccapture\u201d enemies, objects, and creatures to gain their abilities, from a Goomba stack to a mighty T-Rex.\n\nFrom the bustling streets of New Donk City to the frozen peaks of the Snow Kingdom, Mario and Cappy must chase Bowser across the world to stop his forced wedding and rescue Peach and Tiara before it\u2019s too late.",
+        "keywords": [
+            "dinosaurs",
+            "underwater",
+            "3d",
+            "rabbit",
+            "dragon",
+            "dog",
+            "sequel",
+            "wall jump",
+            "amiibo",
+            "3d platformer",
+            "swimming",
+            "2d platformer",
+            "pax west 2017",
+            "game critics awards",
+            "platform exclusive",
+            "alternate costumes",
+            "protagonist's name in the title",
+            "motion control",
+            "deliberately retro",
+            "photo mode",
+            "tyrannosaurus rex",
+            "checkpoints",
+            "treasure chest",
+            "downloadable content",
+            "underwater gameplay",
+            "hammer bros.",
+            "wiggler",
+            "sphinx",
+            "behind the waterfall",
+            "entering world in a painting",
+            "running towards the screen",
+            "the game awards - best score or music - nominee",
+            "the game awards 2017",
+            "the game awards - nominee",
+            "cranky kong",
+            "the game awards - best action-adventure game - nominee",
+            "the game awards - best audio design - nominee",
+            "the game awards - best family game - nominee",
+            "the game awards - best family game - winner",
+            "the game awards - best game direction - nominee",
+            "the game awards - game of the year - nominee",
+            "beach",
+            "swimsuits",
+            "desert"
+        ],
+        "release_date": 1509062400,
+        "entry_point_module": "worlds.smo",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_smo-1.7.4-py3-none-any.whl#sha256=1b8959822100d5a28091078cb59698fe689def611a154ee72d3ef8e148f8e61b",
+        "components": [
+            {
+                "name": "Adi's Unofficial Super Mario Odyssey Client",
+                "type": "client"
+            }
+        ]
+    },
+    "sms": {
+        "igdb_id": "1075",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob8q1.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nbc.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nb8.png",
+        "game_name": "Super Mario Sunshine",
+        "igdb_name": "Super Mario Sunshine",
+        "age_rating": "3",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Sandbox"
+        ],
+        "platforms": [
+            "Nintendo GameCube"
+        ],
+        "storyline": "Close your eyes and imagine\u2026soothing sunshine accompanied by the sound of waves gently breaking on the shore. High above, seagulls turn lazy circles in a clear blue sky. This is Isle Delfino.\n\nFar from the hustle and bustle of the Mushroom Kingdom, this island resort glitters like a gem in the waters of a southern sea.\n\nMario, Peach, and an entourage of Toads have come to Isle Delfino to relax and unwind. At least, that\u2019s their plan\u2026but when they arrive, they find things have gone horribly wrong...\n\nAccording to the island inhabitants, the person responsible for the mess has a round nose, a thick mustache, and a cap\u2026\n\nWhat? But\u2026that sounds like Mario!!\n\nThe islanders are saying that Mario's mess has polluted the island and caused their energy source, the Shine Sprites, to vanish.\n\nNow the falsely accused Mario has promised to clean up the island, but...how?\n\nNever fear! FLUDD, the latest invention from Gadd Science, Inc., can help Mario tidy up the island, take on baddies, and lend a nozzle in all kinds of sticky situations.\n\nCan Mario clean the island, capture the villain, and clear his good name? It\u2019s time for another Mario adventure to get started!",
+        "keywords": [
+            "ghosts",
+            "dinosaurs",
+            "3d",
+            "parkour",
+            "death",
+            "robots",
+            "action-adventure",
+            "time limit",
+            "mud",
+            "sequel",
+            "level selection",
+            "giant insects",
+            "high score",
+            "wall jump",
+            "yoshi",
+            "3d platformer",
+            "climbing",
+            "swimming",
+            "mario",
+            "turtle",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "anthropomorphism",
+            "platform exclusive",
+            "super-ness",
+            "alternate costumes",
+            "voice acting",
+            "protagonist's name in the title",
+            "broken english",
+            "human",
+            "polygonal 3d",
+            "damsel in distress",
+            "collectibles",
+            "descendants of other characters",
+            "sprinting mechanics",
+            "unstable platforms",
+            "real-time combat",
+            "underwater gameplay",
+            "male antagonist",
+            "parrot",
+            "violent plants",
+            "falling sequence",
+            "moving platforms",
+            "been here before",
+            "water level",
+            "sleeping",
+            "tentacles",
+            "speech synthesis",
+            "boss assistance",
+            "super speed",
+            "linear gameplay",
+            "gliding",
+            "regenerating health",
+            "kidnapping",
+            "burning",
+            "swinging platforms",
+            "sleeping enemies",
+            "giant squid",
+            "italian accent",
+            "wiggler",
+            "acrobatics",
+            "foreshadowing",
+            "verticality",
+            "sea monster",
+            "rotating platforms",
+            "greatest hits",
+            "collection marathon",
+            "surgery in game",
+            "framing",
+            "played for charity",
+            "retroachievements",
+            "dinosaur riding",
+            "princess peach",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "clouds",
+            "beach",
+            "player's choice",
+            "jumping"
+        ],
+        "release_date": 1027036800,
+        "entry_point_module": "worlds.sms",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_sms-0.6.2-py3-none-any.whl#sha256=59239e989a8b5645baf66dcba0deea7b81199dd8d4ceed8ee31dcfed97e93a8f",
+        "components": [
+            {
+                "name": "Super Mario Sunshine Client",
+                "type": "client"
+            }
+        ]
+    },
+    "smw": {
+        "igdb_id": "1070",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8lo8.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nai.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nae.png",
+        "game_name": "Super Mario World",
+        "igdb_name": "Super Mario World",
+        "age_rating": "7",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Arcade",
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
+        "keywords": [
+            "dinosaurs",
+            "princess",
+            "yoshi",
+            "mario",
+            "digital distribution",
+            "bonus stage",
+            "damsel in distress",
+            "virtual console",
+            "nintendo super system",
+            "super mario world",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "dinosaur riding",
+            "playable character - luigi",
+            "fan translation - polish",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - chinese",
+            "nintendo gateway system",
+            "battery save",
+            "fan translation - spanish",
+            "fan translation - italian",
+            "fan translation - korean",
+            "fan translation - french",
+            "fan translation - galician",
+            "fan translation - romanian",
+            "fan translation - welsh",
+            "fan translation - greek",
+            "fan translation - indonesian",
+            "fan translation - dutch",
+            "fan translation - finnish",
+            "fan translation - catalan",
+            "fan translation - german",
+            "player's choice"
+        ],
+        "release_date": 659145600,
+        "entry_point_module": "worlds.smw",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_smw-0.0.1-py3-none-any.whl#sha256=2469ba34e2f19ae4bf5d391154dc70af014344442ba954195394bef4e6fa92a8"
+    },
+    "soe": {
+        "igdb_id": "1359",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8kz6.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5du7.png",
+        "game_name": "Secret of Evermore",
+        "igdb_name": "Secret of Evermore",
+        "age_rating": "E",
+        "rating": [
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Historical"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System"
+        ],
+        "storyline": "In Dr. Sidney Ruffleberg's old, decaying mansion, a boy and his dog stumble upon a mysterious machine. By sheer accident they are propelled into Evermore, a one-time utopia that now has become a confounding and deadly world. A world of prehistoric jungles, ancient civilizations, medieval kingdoms and futuristic cities. During his odyssey, the boy must master a variety of weapons, learn to harness the forces of alchemy, and make powerful allies to battle Evermore's diabolical monsters. What's more, his dog masters shape-changing to aid the quest. But even if they can muster enough skill and courage, even if they can uncover the mysterious clues, they can only find their way home by discovering the Secret of Evermore.",
+        "keywords": [
+            "medieval",
+            "futuristic",
+            "egypt",
+            "trading",
+            "prehistoric",
+            "dog",
+            "giant insects",
+            "robot dog",
+            "sprinting mechanics",
+            "mana",
+            "ambient music"
+        ],
+        "release_date": 813888000,
+        "entry_point_module": "worlds.soe",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_soe-0.50.1-py3-none-any.whl#sha256=bd0a9dfa57e9c8441f8368e08b49c577aaede476cf4273ca53ff2e64563fc253"
+    },
+    "sonic_heroes": {
+        "igdb_id": "4156",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9olx.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4l4o.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4lch.png",
+        "game_name": "Sonic Heroes",
+        "igdb_name": "Sonic Heroes",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Xbox",
+            "PlayStation 3",
+            "Nintendo GameCube",
+            "PC (Microsoft Windows)",
+            "PlayStation 2"
+        ],
+        "storyline": "Dr. Eggman has come back to challenge Sonic and crew again to defeat his new scheme. Sonic the Hedgehog, Miles \"Tails\" Prower, and Knuckles the Echidna gladly accept and race off to tackle the doctor's latest plan. Meanwhile, Rouge the Bat swings in on one of Eggman's old fortresses and discovers Shadow the Hedgehog encapsuled. After an odd encounter, Rouge, Shadow, and E-123 Omega join up to find out what happened to Shadow and to get revenge on Eggman.\nAt a resort, Amy Rose looks at an ad that shows Sonic in it with Chocola and Froggy, Cheese's and Big's best friends respectively. After getting over boredom, Amy, Cream the Rabbit, and Big the Cat decide to find Sonic and get what they want back. Elsewhere, in a run down building, the Chaotix Detective Agency receive a package that contains a walkie-talkie. Tempting them, Vector the Crocodile, Espio the Chameleon and Charmy Bee decide to work for this mysterious person, so they can earn some money.",
+        "keywords": [
+            "3d",
+            "parkour",
+            "robots",
+            "rabbit",
+            "multiple protagonists",
+            "achievements",
+            "amnesia",
+            "high score",
+            "3d platformer",
+            "transformation",
+            "explosion",
+            "anthropomorphism",
+            "bonus stage",
+            "split-screen multiplayer",
+            "60 fps on consoles",
+            "voice acting",
+            "protagonist's name in the title",
+            "licensed soundtrack",
+            "hedgehog",
+            "multiple storylines",
+            "collectibles",
+            "original soundtrack release",
+            "checkpoints",
+            "rock music",
+            "moving platforms",
+            "clone",
+            "temporary invincibility",
+            "super speed",
+            "spiky-haired protagonist",
+            "teenager",
+            "grind",
+            "on-the-fly character switching",
+            "greatest hits",
+            "greek alphabet",
+            "renderware",
+            "motion-sensor bomb",
+            "xbox 360 backwards compatibility",
+            "sonic",
+            "metal sonic",
+            "shadow the hedgehog",
+            "cream the rabbit",
+            "retroachievements"
+        ],
+        "release_date": 1072742400,
+        "entry_point_module": "worlds.sonic_heroes",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_sonic_heroes-2.1.0-py3-none-any.whl#sha256=f8a505df34905841c032a186c974761fed536513b425c9bf2261a34b841ff264"
+    },
+    "sotn": {
+        "igdb_id": "1128",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co53m8.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1nj5.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar52ms.png",
+        "game_name": "Symphony of the Night",
+        "igdb_name": "Castlevania: Symphony of the Night",
+        "age_rating": "12",
+        "rating": [
+            "Animated Blood and Gore",
+            "Animated Violence",
+            "Violence",
+            "Blood and Gore",
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Horror",
+            "Open world"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PlayStation",
+            "PlayStation Portable",
+            "Xbox 360"
+        ],
+        "storyline": "The game's story takes place during the year 1797, 5 years after the events of Rondo of Blood and begins with Richter Belmont's defeat of Count Dracula, mirroring the end of the former game. However, despite Dracula being defeated, Richter vanishes without a trace. Castlevania rises again five years later, and while there are no Belmonts to storm the castle, Alucard, the son of Dracula, awakens from his self-induced sleep, and decides to investigate what transpired during his slumber.\n\nMeanwhile, Maria Renard, Richter's sister-in-law, enters Castlevania herself to search for the missing Richter. She assists Alucard multiple times throughout the game.",
+        "keywords": [
+            "ghosts",
+            "bloody",
+            "gravity",
+            "vampire",
+            "magic",
+            "2d",
+            "metroidvania",
+            "death",
+            "horse",
+            "action-adventure",
+            "side-scrolling",
+            "multiple protagonists",
+            "dracula",
+            "backtracking",
+            "achievements",
+            "multiple endings",
+            "undead",
+            "pixel art",
+            "wolf",
+            "nudity",
+            "pizza",
+            "bats",
+            "day/night cycle",
+            "playstation network",
+            "rituals",
+            "boss fight",
+            "explosion",
+            "digital distribution",
+            "single-player only",
+            "leveling up",
+            "broken english",
+            "human",
+            "polygonal 3d",
+            "psone classics",
+            "shopping",
+            "transforming boss",
+            "skeletons",
+            "special attacks",
+            "original soundtrack release",
+            "non-player character",
+            "descendants of other characters",
+            "panther",
+            "save point",
+            "playstation plus",
+            "minotaurs",
+            "melee",
+            "real-time combat",
+            "a.i. companion",
+            "secret area",
+            "mirrored maps",
+            "optional boss",
+            "multi-phase boss",
+            "rock music",
+            "rpg elements",
+            "playstation tv support",
+            "moving platforms",
+            "digital rights management",
+            "leaderboard",
+            "vampire hunter",
+            "sequence breaking",
+            "villain",
+            "anti-hero",
+            "harder versions of earlier levels",
+            "xbox one backwards compatibility",
+            "shape-shifting",
+            "speedrun",
+            "villain turned good",
+            "over 100% completion",
+            "completion percentage",
+            "meme origin",
+            "androgyny",
+            "surprising character switches",
+            "creature compendium",
+            "petrification",
+            "behind the waterfall",
+            "bad parents",
+            "tragic hero",
+            "biblical quotes",
+            "crucifix",
+            "greatest hits",
+            "soul steal",
+            "metagame",
+            "taste of power",
+            "isolation",
+            "direct continuation",
+            "backwards compatibility",
+            "playstation underground",
+            "male protagonist",
+            "fan translation - english",
+            "interconnected-world"
+        ],
+        "release_date": 858816000,
+        "entry_point_module": "worlds.sotn",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_sotn-0.8.16-py3-none-any.whl#sha256=1a9f7c58c996055a2d4d6f8f8451b8c9e6bd6579c6ddf9a71e1b86650e3ee0d3"
+    },
+    "spyro3": {
+        "igdb_id": "1578",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7t4m.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Spyro 3",
+        "igdb_name": "Spyro: Year of the Dragon",
+        "age_rating": "7",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PlayStation 3",
+            "PlayStation",
+            "PlayStation Portable"
+        ],
+        "storyline": "The game follows the titular purple dragon Spyro as he travels to the Forgotten Worlds after 150 magical dragon eggs are stolen from the land of the dragons by an evil sorceress.",
+        "keywords": [
+            "minigames",
+            "mascot",
+            "extreme sports",
+            "flight",
+            "multiple protagonists",
+            "level selection",
+            "swimming",
+            "sword & sorcery",
+            "boss fight",
+            "sheep",
+            "anthropomorphism",
+            "bonus stage",
+            "protagonist's name in the title",
+            "polygonal 3d",
+            "psone classics",
+            "skill points in game",
+            "game reference",
+            "cameo appearance",
+            "collectibles",
+            "non-humanoid protagonist",
+            "playstation plus",
+            "treasure chest",
+            "auto-saving",
+            "real-time combat",
+            "moving platforms",
+            "vore",
+            "gliding",
+            "time trials",
+            "trilogy",
+            "big head mode",
+            "greatest hits",
+            "in-game anti-piracy effects",
+            "playstation underground",
+            "male protagonist"
+        ],
+        "release_date": 971136000,
+        "entry_point_module": "worlds.spyro3",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_spyro3-1.3.5-py3-none-any.whl#sha256=b5fb80cc3243811bcefe51ce5996596952ae6500a23966deb12e07b218c6e541"
+    },
+    "ss": {
+        "igdb_id": "534",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5wrj.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ljw0b0vf53aj3puyalvh.png",
+        "key_art_url": "",
+        "game_name": "Skyward Sword",
+        "igdb_name": "The Legend of Zelda: Skyward Sword",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Animated Blood",
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Historical",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii",
+            "Wii U"
+        ],
+        "storyline": "In the floating island community of Skyloft, a young knight-in-training named Link lives above an endless sea of clouds, unaware of the surface world below. When his childhood friend Zelda is swept away by a mysterious dark tornado and pulled beneath the cloud barrier, Link is drawn to a sacred sword hidden within a statue of the goddess. The blade's spirit, Fi, reveals Link is the prophesied hero destined to confront a rising evil. He must descend to the long-abandoned surface lands to find Zelda before the self-proclaimed Demon Lord Ghirahim can use her to revive his imprisoned master, the ancient Demon King Demise, whose return would threaten all existence.",
+        "keywords": [
+            "medieval",
+            "prequel",
+            "archery",
+            "action-adventure",
+            "campaign",
+            "princess",
+            "silent protagonist",
+            "day/night cycle",
+            "sword & sorcery",
+            "single-player only",
+            "game critics awards",
+            "platform exclusive",
+            "human",
+            "polygonal 3d",
+            "bow and arrow",
+            "damsel in distress",
+            "motion control",
+            "motion blur",
+            "potion",
+            "auto-aim",
+            "real-time combat",
+            "subtitled silence",
+            "mercenary",
+            "violent plants",
+            "floating island",
+            "power of friendship",
+            "mine cart sequence",
+            "androgyny",
+            "ancient advanced civilization technology",
+            "age progression",
+            "new game plus",
+            "context sensitive",
+            "living inventory",
+            "behind the waterfall",
+            "running towards the screen",
+            "motion plus required",
+            "monomyth",
+            "1-to-1 motion control",
+            "motion plus support",
+            "pax prime 2011",
+            "eb games expo australia",
+            "spike video game awards 2011",
+            "gamescom 2010",
+            "voices in the wii remote"
+        ],
+        "release_date": 1321574400,
+        "entry_point_module": "worlds.ss",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ss-0.5.6-py3-none-any.whl#sha256=fd43242273c6c600b0c06283433db899bf6c534b3e35dc85d1bad3536afe22e6",
+        "components": [
+            {
+                "name": "Skyward Sword Client",
+                "type": "client"
+            }
+        ]
+    },
+    "star_fox_64": {
+        "igdb_id": "2591",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob8pu.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21z9.png",
+        "key_art_url": "",
+        "game_name": "Star Fox 64",
+        "igdb_name": "Star Fox 64",
+        "age_rating": "7",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Shooter"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "Wii U"
+        ],
+        "storyline": "Mad scientist Andross arises as the emperor of Venom and declares war on the entire Lylat System, starting with Corneria. General Pepper sends in the Star Fox team to protect the key planets of the Lylat System and stop Dr. Andross.",
+        "keywords": [
+            "rail shooter",
+            "gravity",
+            "death",
+            "robots",
+            "frog",
+            "spaceship",
+            "flight",
+            "space battle",
+            "multiple endings",
+            "artificial intelligence",
+            "on-rails",
+            "wolf",
+            "dog",
+            "fox",
+            "talking animals",
+            "pilot",
+            "boss fight",
+            "anthropomorphism",
+            "split-screen multiplayer",
+            "pig",
+            "voice acting",
+            "polygonal 3d",
+            "transforming boss",
+            "virtual console",
+            "original soundtrack release",
+            "descendants of other characters",
+            "branching storyline",
+            "a.i. companion",
+            "secret area",
+            "difficulty level",
+            "bundled with peripherals",
+            "post-credits plot twist",
+            "villain",
+            "auto-scrolling levels",
+            "banter during gameplay",
+            "meme origin",
+            "shoot the core",
+            "greatest hits",
+            "promo vhs",
+            "retroachievements",
+            "rumble pak",
+            "wii virtual console",
+            "wii u virtual console",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "nintendo 64 exclusive",
+            "player's choice"
+        ],
+        "release_date": 862099200,
+        "entry_point_module": "worlds.star_fox_64",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_star_fox_64-0.4.1-py3-none-any.whl#sha256=c6f3cf23bbf724dc772dca887a3bc9ce43d046c602943d8b709d0a23ea792249",
+        "components": [
+            {
+                "name": "Star Fox 64 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "stardew_valley": {
+        "igdb_id": "17000",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coa93h.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4yuh.png",
+        "game_name": "Stardew Valley",
+        "igdb_name": "Stardew Valley",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Mild Blood",
+            "Mild Language",
+            "Simulated Gambling",
+            "Use of Tobacco",
+            "Use of Alcohol",
+            "Use of Alcohol and Tobacco"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Simulator",
+            "Strategy",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Business",
+            "Sandbox",
+            "Romance"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "Nintendo Switch 2",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Wii U",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "You\u2019ve inherited your grandfather\u2019s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won\u2019t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town\u2019s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+        "keywords": [
+            "monsters",
+            "animals",
+            "character customization",
+            "sword",
+            "minigames",
+            "2d",
+            "fishing",
+            "crafting",
+            "cooking",
+            "chicken",
+            "farming",
+            "fairy",
+            "achievements",
+            "steam trading cards",
+            "upgrade",
+            "season winter",
+            "pixel art",
+            "snow",
+            "pixel graphics",
+            "billiards",
+            "duck",
+            "relaxing",
+            "mining",
+            "agriculture",
+            "mermaid",
+            "day/night cycle",
+            "upgradable equipment",
+            "steam achievements",
+            "xbox controller support for pc",
+            "steam cloud",
+            "pig",
+            "customizable characters",
+            "cow",
+            "deliberately retro",
+            "pax west 2016",
+            "video game characters that play video games",
+            "arcade cabinet",
+            "aquarium",
+            "seasons",
+            "foraging",
+            "the game awards - nominee",
+            "the game awards 2016",
+            "controller support",
+            "adult protagonist",
+            "dating simulation",
+            "pixel art game",
+            "interior design",
+            "plant",
+            "underground",
+            "season summer",
+            "food",
+            "the game awards - best independent game - nominee",
+            "beach",
+            "easter",
+            "ocean",
+            "coffee",
+            "vegetables",
+            "festival",
+            "fish",
+            "health",
+            "monster",
+            "season spring",
+            "sea",
+            "steam families",
+            "money",
+            "season fall",
+            "alcohol",
+            "planting",
+            "upgrades",
+            "collection log",
+            "cave",
+            "available on - google play pass",
+            "stamina",
+            "available on - luna gog"
+        ],
+        "release_date": 1456444800,
+        "entry_point_module": "worlds.stardew_valley",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_stardew_valley-7.4.25-py3-none-any.whl#sha256=2dd45d81c9712ef905142acf8c2162c72b618f83574053218b08f099373fbb40",
+        "components": [
+            {
+                "name": "Stardew Valley Tracker",
+                "type": "client"
+            }
+        ]
+    },
+    "subnautica": {
+        "igdb_id": "9254",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coa938.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar56k.png",
+        "key_art_url": "",
+        "game_name": "Subnautica",
+        "igdb_name": "Subnautica",
+        "age_rating": "7",
+        "rating": [
+            "Mild Language",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Virtual Reality"
+        ],
+        "genres": [
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction",
+            "Survival",
+            "Open world"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Nintendo Switch 2",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "SteamVR",
+            "PlayStation 5",
+            "Mac",
+            "Oculus Rift",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "You have crash-landed on an alien ocean world, and the only way to go is down. Subnautica's oceans range from sun drenched shallow coral reefs to treacherous deep-sea trenches, lava fields, and bio-luminescent underwater rivers. Manage your oxygen supply as you explore kelp forests, plateaus, reefs, and winding cave systems. The water teems with life: Some of it helpful, much of it harmful.\n\nAfter crash landing in your Life Pod, the clock is ticking to find water, food, and to develop the equipment you need to explore. Collect resources from the ocean around you. Craft diving gear, lights, habitat modules, and submersibles. Venture deeper and further form to find rarer resources, allowing you to craft more advanced items.",
+        "keywords": [
+            "exploration",
+            "underwater",
+            "swimming",
+            "aquatic",
+            "underwater gameplay",
+            "pax east 2014",
+            "submarine"
+        ],
+        "release_date": 1516665600,
+        "entry_point_module": "worlds.subnautica",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_subnautica-0.0.1-py3-none-any.whl#sha256=7b17cbf7303b167a85c4e4228290c3cda568784df821c8155b2aa319f9f157a5"
+    },
+    "swr": {
+        "igdb_id": "154",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3wj7.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar8f0.png",
+        "key_art_url": "",
+        "game_name": "Star Wars Episode I Racer",
+        "igdb_name": "Star Wars: Episode I - Racer",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Racing"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Nintendo 64",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch",
+            "Dreamcast"
+        ],
+        "storyline": "",
+        "keywords": [
+            "robots",
+            "star wars",
+            "based on - movie",
+            "anti-gravity racing",
+            "licensed game",
+            "split-screen multiplayer",
+            "rivalry",
+            "future sport",
+            "greatest hits",
+            "rumble cartridge",
+            "two controllers for one player",
+            "interactive achievement awards 2000",
+            "retroachievements"
+        ],
+        "release_date": 926985600,
+        "entry_point_module": "worlds.swr",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_swr-0.0.1-py3-none-any.whl#sha256=5c376ae74c706d6fefc5cfccba4b76e9cca43f65b33dabc233940254a6ed53d8"
+    },
+    "taylorswift": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Taylor Swift Discography",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.taylorswift",
+        "module_location": "https://github.com/benny-dreamly/Archipelago/releases/download/ts-1.1.0/worlds_taylorswift-1.1.0-py3-none-any.whl#sha256=02fdb3a956149092d25809fdce4905f487e86d8559499163f7655a15cad08de3"
+    },
+    "tboir": {
+        "igdb_id": "310643",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8kxf.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar335q.png",
+        "key_art_url": "",
+        "game_name": "The Binding of Isaac Repentance",
+        "igdb_name": "The Binding of Isaac: Repentance",
+        "age_rating": "16",
+        "rating": [
+            "Blood and Gore",
+            "Crude Humor",
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Shooter",
+            "Indie"
+        ],
+        "themes": [],
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [],
+        "release_date": 1635897600,
+        "entry_point_module": "worlds.tboir",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tboir-0.4.3-py3-none-any.whl#sha256=6b95b5fcf28db23cf50f005c287c5e28e49d8ef5ac880e6262f79133e3231d8e",
+        "components": [
+            {
+                "name": "Isaac Client",
+                "type": "client"
+            }
+        ]
+    },
+    "terraria": {
+        "igdb_id": "1879",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coaamg.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5kn.png",
+        "key_art_url": "",
+        "game_name": "Terraria",
+        "igdb_name": "Terraria",
+        "age_rating": "12",
+        "rating": [
+            "Mild Suggestive Themes",
+            "Blood and Gore",
+            "Use of Alcohol",
+            "Cartoon Violence",
+            "Suggestive Themes",
+            "Violence",
+            "Blood",
+            "Alcohol Reference"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Simulator",
+            "Strategy",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction",
+            "Horror",
+            "Survival",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Google Stadia",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Linux",
+            "Nintendo 3DS",
+            "Windows Phone",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Wii U",
+            "PlayStation Vita",
+            "Xbox 360",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "exploration",
+            "magic",
+            "2d",
+            "construction",
+            "fishing",
+            "crafting",
+            "death",
+            "procedural generation",
+            "mummy",
+            "rabbit",
+            "flight",
+            "action-adventure",
+            "steam",
+            "fairy",
+            "undead",
+            "steam trading cards",
+            "pixel art",
+            "snow",
+            "worm",
+            "teleportation",
+            "mining",
+            "climbing",
+            "swimming",
+            "bats",
+            "day/night cycle",
+            "sword & sorcery",
+            "playstation network",
+            "squirrel",
+            "alchemy",
+            "terraria",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "steam achievements",
+            "timer",
+            "digital distribution",
+            "steam cloud",
+            "split-screen multiplayer",
+            "platform exclusive",
+            "playstation trophies",
+            "clowns",
+            "customizable characters",
+            "human",
+            "bow and arrow",
+            "loot gathering",
+            "goblins",
+            "skeletons",
+            "deliberately retro",
+            "randomly generated dungeons",
+            "google play game services",
+            "original soundtrack release",
+            "non-player character",
+            "off-tv play",
+            "playstation plus",
+            "ice stage",
+            "falling damage",
+            "treasure chest",
+            "nintendo network",
+            "pick your gender",
+            "black market",
+            "melee",
+            "two screen multiplayer",
+            "wii u pro controller support",
+            "wii remote support on wii u",
+            "wii nunchuk support on wii u",
+            "new nintendo 3ds enhanced",
+            "underwater gameplay",
+            "optional boss",
+            "games with gold",
+            "pax prime 2013",
+            "ps3 & vita cross-play",
+            "violent plants",
+            "floating island",
+            "item combination",
+            "never-ending",
+            "merchants",
+            "mana",
+            "gamescom 2015",
+            "local and online players together",
+            "workbench mechanics",
+            "you can pet the dog",
+            "interior design",
+            "bees",
+            "previously on - stadia pro"
+        ],
+        "release_date": 1305504000,
+        "entry_point_module": "worlds.terraria",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_terraria-0.0.1-py3-none-any.whl#sha256=5f3afe6114367a4d7e7dd5544fa0be4498d8e499b207544adc0863c168c4bcfa"
+    },
+    "tetrisattack": {
+        "igdb_id": "2739",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2w6k.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Tetris Attack",
+        "igdb_name": "Tetris Attack",
+        "age_rating": "E",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle"
+        ],
+        "themes": [
+            "Action",
+            "Kids"
+        ],
+        "platforms": [
+            "Super Nintendo Entertainment System"
+        ],
+        "storyline": "The story mode takes place in the world of Yoshi's Island, where Bowser and his minions have cursed all of Yoshi's friends. Playing as Yoshi, the player must defeat each of his friends in order to remove the curse. Once all friends have been freed, the game proceeds to a series of Bowser's minions, and then to Bowser himself. During these final matches, the player can select Yoshi or any of his friends to play out the stage.",
+        "keywords": [
+            "competitive",
+            "retroachievements",
+            "nintendo gateway system"
+        ],
+        "release_date": 838857600,
+        "entry_point_module": "worlds.tetrisattack",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tetrisattack-0.4.3-py3-none-any.whl#sha256=3eab809a8e0dd2f21fa670ffbbb43219fae058c596a5b711c1e55a35bd4c1eb3"
+    },
+    "timespinner": {
+        "igdb_id": "28952",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co24ag.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar9y3.png",
+        "key_art_url": "",
+        "game_name": "Timespinner",
+        "igdb_name": "Timespinner",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Sexual Themes",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "With her family murdered in front of her and the ancient Timespinner device destroyed, Lunais is suddenly transported into a unknown world, stranded with seemingly no hope of return. Using her power to control time, Lunais vows to take her revenge on the evil Lachiem Empire, but sometimes the course of history isn\u2019t quite as black and white as it seems...",
+        "keywords": [
+            "time travel",
+            "metroidvania",
+            "time manipulation",
+            "female protagonist",
+            "action-adventure",
+            "revenge",
+            "pixel art",
+            "crowdfunding - kickstarter",
+            "steam greenlight",
+            "crowdfunding",
+            "digital distribution",
+            "pre-release public testing",
+            "deliberately retro",
+            "crowd funded",
+            "pax prime 2015",
+            "merchants",
+            "evil empire",
+            "lgbtq+",
+            "speedrun mode"
+        ],
+        "release_date": 1537833600,
+        "entry_point_module": "worlds.timespinner",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_timespinner-1.38.1-py3-none-any.whl#sha256=f13cf9edb19f4239c9e850933fc28e57997499f290e8488a79f194ba1e63d813"
+    },
+    "tloz": {
+        "igdb_id": "1022",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1uii.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar14l3.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2o.png",
+        "game_name": "The Legend of Zelda",
+        "igdb_name": "The Legend of Zelda",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
+        "platforms": [
+            "Family Computer Disk System",
+            "Nintendo 3DS",
+            "Wii",
+            "Family Computer",
+            "Wii U",
+            "Nintendo Entertainment System"
+        ],
+        "storyline": "In one of the darkest times in the Kingdom of Hyrule, a young boy named Link takes on an epic quest to restore the fragmented Triforce of Wisdom and save the Princess Zelda from the clutches of the evil Ganon.",
+        "keywords": [
+            "8-bit style",
+            "fairy",
+            "overworld",
+            "zelda",
+            "meme origin",
+            "the legend of zelda",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "fan translation - english",
+            "fan translation - polish",
+            "fan translation - brazilian portuguese",
+            "fan translation - esperanto",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - latin",
+            "fan translation - chinese",
+            "dungeon",
+            "battery save",
+            "fan translation - spanish",
+            "fan translation - italian",
+            "fan translation - korean",
+            "fan translation - french",
+            "fan translation - tagalog",
+            "fan translation - galician",
+            "fan translation - romanian",
+            "fan translation - greek",
+            "fan translation - ancient greek",
+            "fan translation - indonesian",
+            "fan translation - arabic",
+            "fan translation - irish",
+            "fan translation - dutch",
+            "fan translation - norwegian",
+            "fan translation - german",
+            "fan translation - swedish",
+            "famicom microphone",
+            "nes game pak - mmc1",
+            "media type - cartridge",
+            "media - nes game pak",
+            "media - family computer cassette",
+            "media type - digital file",
+            "media type - floppy disk",
+            "fan translation - toki pona"
+        ],
+        "release_date": 509328000,
+        "entry_point_module": "worlds.tloz",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz-1.0.0-py3-none-any.whl#sha256=b45b672410764c2d638fd210452e07385409e84239e0491a8a4424502a562168"
+    },
+    "tloz_ooa": {
+        "igdb_id": "1041",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2tw1.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar31ph.png",
+        "key_art_url": "",
+        "game_name": "The Legend of Zelda - Oracle of Ages",
+        "igdb_name": "The Legend of Zelda: Oracle of Ages",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Game Boy Color",
+            "Nintendo 3DS"
+        ],
+        "storyline": "A pall of Darkness has fallen over the land of Labrynna. The Sorceress of Shadows has captured the Oracle of Ages and is using her power to do evil. Link has been summoned to help and must travel back and forth in time to stop the Sorceress of Shadows and return Labrynna to its former glory.",
+        "keywords": [
+            "pirates",
+            "ghosts",
+            "time travel",
+            "minigames",
+            "prequel",
+            "death",
+            "rabbit",
+            "action-adventure",
+            "witches",
+            "fairy",
+            "undead",
+            "campaign",
+            "princess",
+            "dancing",
+            "silent protagonist",
+            "climbing",
+            "swimming",
+            "sword & sorcery",
+            "possession",
+            "boss fight",
+            "explosion",
+            "block puzzle",
+            "single-player only",
+            "anthropomorphism",
+            "pictographic level design",
+            "shopping",
+            "damsel in distress",
+            "virtual console",
+            "disorientation zone",
+            "non-player character",
+            "descendants of other characters",
+            "young protagonist",
+            "save file unlockables",
+            "side quests",
+            "real-time combat",
+            "shielded enemies",
+            "walking through walls",
+            "shaky camera",
+            "female antagonist",
+            "multiple gameplay perspectives",
+            "conveyor belt",
+            "punctuation mark above head",
+            "sequence breaking",
+            "villain",
+            "interquel",
+            "new game plus",
+            "jumping puzzle",
+            "time paradox",
+            "context sensitive",
+            "status effects",
+            "behind the waterfall",
+            "two-handed weapons",
+            "plane shifting",
+            "male protagonist",
+            "nintendo switch online",
+            "nintendo 3ds virtual console",
+            "nintendo gateway system",
+            "adapted to - manga"
+        ],
+        "release_date": 983232000,
+        "entry_point_module": "worlds.tloz_ooa",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tloz_ooa-1.0.2-py3-none-any.whl#sha256=97237eef3b3e20671bb25910466188d9cd6efefa1053a7349273ee0630cd7245"
+    },
+    "tloz_oos": {
+        "igdb_id": "1032",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2tw0.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar31pk.png",
+        "key_art_url": "",
+        "game_name": "The Legend of Zelda - Oracle of Seasons",
+        "igdb_name": "The Legend of Zelda: Oracle of Seasons",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Game Boy Color",
+            "Nintendo 3DS"
+        ],
+        "storyline": "The land of Holodrum is slowly withering. Onox, the General of Darkness, has imprisoned the Oracle of Seasons and is draining the very life out of the land. With the seasons in tumult and the forces of evil running rampant, the world looks for a hero... and finds Link. His quest won't be easy - he'll have to master the seasons themselves if he's to turn back the evil tide.",
+        "keywords": [
+            "pirates",
+            "time travel",
+            "magic",
+            "grinding",
+            "mascot",
+            "prequel",
+            "death",
+            "gardening",
+            "action-adventure",
+            "witches",
+            "fairy",
+            "backtracking",
+            "multiple endings",
+            "undead",
+            "campaign",
+            "princess",
+            "portals",
+            "pixel art",
+            "dog",
+            "teleportation",
+            "silent protagonist",
+            "climbing",
+            "sword & sorcery",
+            "boss fight",
+            "block puzzle",
+            "digital distribution",
+            "single-player only",
+            "anthropomorphism",
+            "world map",
+            "pictographic level design",
+            "cat",
+            "shopping",
+            "bow and arrow",
+            "damsel in distress",
+            "transforming boss",
+            "collectibles",
+            "virtual console",
+            "disorientation zone",
+            "non-player character",
+            "young protagonist",
+            "save file unlockables",
+            "treasure chest",
+            "side quests",
+            "potion",
+            "real-time combat",
+            "secret area",
+            "walking through walls",
+            "multi-phase boss",
+            "multiple gameplay perspectives",
+            "villain",
+            "interquel",
+            "fetch quests",
+            "poisoning",
+            "new game plus",
+            "trail of death",
+            "context sensitive",
+            "status effects",
+            "two-handed weapons",
+            "seasons",
+            "plane shifting",
+            "reversed controls",
+            "damage over time",
+            "nintendo switch online",
+            "nintendo 3ds virtual console",
+            "nintendo gateway system",
+            "adapted to - manga"
+        ],
+        "release_date": 983232000,
+        "entry_point_module": "worlds.tloz_oos",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz_oos-20.1.13-py3-none-any.whl#sha256=987e73ce3b4640febc04f274fc35d06119491142a051fbdd90f0dda8df8dbfa9",
+        "components": [
+            {
+                "name": "TLOZ Oracle sprite editor",
+                "type": "tool",
+                "description": "An UI to extract and manipulates Link's sprite in Oracle of Seasons and Ages.\nEditing the sprite should be done with an external program."
+            }
+        ]
+    },
+    "tloz_ph": {
+        "igdb_id": "1037",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3ocu.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/atulchizv5c4ezn2gjob.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2i.png",
+        "game_name": "The Legend of Zelda - Phantom Hourglass",
+        "igdb_name": "The Legend of Zelda: Phantom Hourglass",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii U",
+            "Nintendo DS"
+        ],
+        "storyline": "Many months have passed since the events of The Legend of Zelda: The Wind Waker, and Link, Tetra and Tetra\u2019s band of pirates have set sail in search of new lands. They come across a patch of ocean covered in a dense fog, in which they discover an abandoned ship. Tetra falls into danger when she explores the ship alone, and Link falls into the ocean when he attempts to rescue her. When he washes up unconscious on the shores of a mysterious island, he is awakened by the sound of a fairy\u2019s voice. With the aid of this fairy, he sets off to find Tetra \u2013 and his way back to the seas he once knew.",
+        "keywords": [
+            "pirates",
+            "exploration",
+            "minigames",
+            "mascot",
+            "death",
+            "action-adventure",
+            "fairy",
+            "backtracking",
+            "time limit",
+            "campaign",
+            "princess",
+            "sailing",
+            "amnesia",
+            "silent protagonist",
+            "easy",
+            "link",
+            "boss fight",
+            "single-player only",
+            "countdown timer",
+            "game critics awards",
+            "world map",
+            "human",
+            "polygonal 3d",
+            "shopping",
+            "bow and arrow",
+            "damsel in distress",
+            "transforming boss",
+            "collectibles",
+            "touch controls",
+            "virtual console",
+            "young protagonist",
+            "treasure chest",
+            "saving the world",
+            "side quests",
+            "potion",
+            "grapple",
+            "real-time combat",
+            "nintendo wi-fi connection",
+            "pack-in game",
+            "moving platforms",
+            "been here before",
+            "boss assistance",
+            "fetch quests",
+            "gesture-based controls",
+            "time stopping",
+            "fast traveling",
+            "context sensitive",
+            "nameless protagonist",
+            "cartography",
+            "second person perspective",
+            "naval warfare",
+            "comic relief",
+            "damage over time",
+            "dead multiplayer",
+            "monomyth",
+            "ds microphone use",
+            "friend codes",
+            "interactive achievement awards 2008",
+            "spike video game awards 2007",
+            "game developers choice awards 2008",
+            "fan translation - portuguese",
+            "bees",
+            "nintendo ds tag mode"
+        ],
+        "release_date": 1182556800,
+        "entry_point_module": "worlds.tloz_ph",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tloz_ph-0.9.6-py3-none-any.whl#sha256=f2b4ad7e67aa626df66424e6235734c4255f25b0c2d3fb235bff3f22d6daa9f4"
+    },
+    "tloz_st": {
+        "igdb_id": "1038",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3oj6.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Spirit Tracks",
+        "igdb_name": "The Legend of Zelda: Spirit Tracks",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii U",
+            "Nintendo DS"
+        ],
+        "storyline": "Apprentice engineer Link is ready to travel to Hyrule Castle and receive his engineer's license. During the ceremony, Zelda slips Link a note warning him not to trust the Chancellor and to help her reach the Spirit Tower. The land's Spirit Tracks, mystical railway tracks that cover the land, have been disappearing and she suspects that the Chancellor is the cause. While heading to the Tower, the Chancellor intercepts them and proves Zelda's suspicions right: he casts a magic spell on her, splitting her body from her soul. Link and Zelda must work together to return Zelda to normal and save Hyrule once again.",
+        "keywords": [
+            "pirates",
+            "action-adventure",
+            "fairy",
+            "backtracking",
+            "multiple endings",
+            "campaign",
+            "princess",
+            "silent protagonist",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "world map",
+            "human",
+            "polygonal 3d",
+            "damsel in distress",
+            "collectibles",
+            "touch controls",
+            "virtual console",
+            "disorientation zone",
+            "young protagonist",
+            "treasure chest",
+            "real-time combat",
+            "coming of age",
+            "cartography",
+            "second person perspective",
+            "monomyth",
+            "ds microphone use",
+            "in-game anti-piracy effects",
+            "pax 2009",
+            "gamescom 2009",
+            "male protagonist",
+            "wii u virtual console",
+            "bees",
+            "sword sorcery",
+            "nintendo ds tag mode"
+        ],
+        "release_date": 1260144000,
+        "entry_point_module": "worlds.tloz_st",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tloz_st-0.8.2-py3-none-any.whl#sha256=7197a0f1c34451229cbffaedc0b372543847e4500596b81085300b2e2804ebad"
+    },
+    "tmc": {
+        "igdb_id": "1035",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nsk.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/k549wqp7tdykmirucr0v.png",
+        "key_art_url": "",
+        "game_name": "The Minish Cap",
+        "igdb_name": "The Legend of Zelda: The Minish Cap",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "While at a festival with Princess Zelda, Link encounters a mysterious mage called Vaati who turns the princess to stone. Helpless to stop them, Link is asked by the king to meet with a race of tiny people known as the Minish, who may be able to help with their predicament. On his travels, Link teams up with a talking cap called Ezlo, who is able to shrink Link to the size of a Minish so that he can meet with them. With his newfound abilities, Link must save the kingdom from Vaati's menace.",
+        "keywords": [
+            "ghosts",
+            "magic",
+            "mascot",
+            "prequel",
+            "death",
+            "maze",
+            "mummy",
+            "gambling",
+            "action-adventure",
+            "witches",
+            "fairy",
+            "bird",
+            "backtracking",
+            "time limit",
+            "undead",
+            "traps",
+            "campaign",
+            "princess",
+            "pixel art",
+            "dog",
+            "teleportation",
+            "silent protagonist",
+            "climbing",
+            "swimming",
+            "sword & sorcery",
+            "possession",
+            "darkness",
+            "boss fight",
+            "trainer",
+            "explosion",
+            "digital distribution",
+            "single-player only",
+            "anthropomorphism",
+            "countdown timer",
+            "world map",
+            "cat",
+            "language selection",
+            "shopping",
+            "bow and arrow",
+            "damsel in distress",
+            "upgradeable weapons",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "transforming boss",
+            "game reference",
+            "collectibles",
+            "virtual console",
+            "disorientation zone",
+            "descendants of other characters",
+            "young protagonist",
+            "ice stage",
+            "treasure chest",
+            "unstable platforms",
+            "saving the world",
+            "side quests",
+            "royalty",
+            "potion",
+            "melee",
+            "grapple",
+            "real-time combat",
+            "secret area",
+            "unbeatable enemies",
+            "shielded enemies",
+            "shaky camera",
+            "multi-phase boss",
+            "nonexistent light source",
+            "coming of age",
+            "falling sequence",
+            "bread",
+            "moving platforms",
+            "theft",
+            "punctuation mark above head",
+            "sequence breaking",
+            "villain",
+            "been here before",
+            "sleeping",
+            "clone",
+            "vore",
+            "multiple enemy boss fights",
+            "boss assistance",
+            "unskippable cutscene",
+            "fetch quests",
+            "recurring character",
+            "gliding",
+            "flashback",
+            "poisoning",
+            "resized enemy",
+            "drawbridge",
+            "fast traveling",
+            "living inventory",
+            "falling object",
+            "restoration",
+            "status effects",
+            "behind the waterfall",
+            "foreshadowing",
+            "orphan",
+            "sneaking mission",
+            "plane shifting",
+            "selective invincibility",
+            "conga line party",
+            "damage over time",
+            "monomyth",
+            "played for charity",
+            "nintendo 3ds ambassador program",
+            "male protagonist",
+            "fan translation - polish",
+            "fan translation - brazilian portuguese",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "fan translation - russian"
+        ],
+        "release_date": 1099526400,
+        "entry_point_module": "worlds.tmc",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tmc-0.3.1-py3-none-any.whl#sha256=8925d1433ce52e516bbc143702221694684feb8f99c91fd1b5c43a2546ee320e"
+    },
+    "toontown": {
+        "igdb_id": "25326",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co28yv.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Toontown",
+        "igdb_name": "Toontown Online",
+        "age_rating": "3",
+        "rating": [
+            "Cartoon Violence",
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)"
+        ],
+        "themes": [
+            "Comedy",
+            "Open world"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "Toontown Online's story centers on an ongoing battle between a population of cartoon animals known as the Toons and a collection of business-minded robots known as the Cogs who are trying to take over the town. Players would choose and customize their own toon and go on to complete Toontasks, play mini-games, and fight the Cogs.",
+        "keywords": [
+            "minigames",
+            "go-kart",
+            "online",
+            "free-to-play",
+            "licensed game",
+            "minigame collection",
+            "discontinued mmo",
+            "persistent world",
+            "big head mode"
+        ],
+        "release_date": 1054512000,
+        "entry_point_module": "worlds.toontown",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_toontown-0.19.6-py3-none-any.whl#sha256=2b1594c724c6b6394269bcf2d8521c3620b3329ac6a280f15245670d65899779"
+    },
+    "tp": {
+        "igdb_id": "134014",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3w1h.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21yd.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p34.png",
+        "game_name": "Twilight Princess",
+        "igdb_name": "The Legend of Zelda: Twilight Princess",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Animated Blood"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii"
+        ],
+        "storyline": "Link, a young farm boy whose tasks consist of herding goats to watching children in Ordon village, is asked by the mayor to run an errand in Castle Town. But things went strange that day: the land becomes dark and strange creatures appear from another world called the Twilight Realm which turns most people into ghosts. Unlike the others, Link transforms into a wolf but is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.",
+        "keywords": [
+            "zelda",
+            "motion control"
+        ],
+        "release_date": 1163894400,
+        "entry_point_module": "worlds.tp",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tp-0.3.0-py3-none-any.whl#sha256=71ac869a77ca0dff1764c8de1d676c0089b363db0e3b0aaa556e45533a128071",
+        "components": [
+            {
+                "name": "Twilight Princess Client",
+                "type": "client"
+            }
+        ]
+    },
+    "trackmania": {
+        "igdb_id": "133807",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobh9g.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar58yt.png",
+        "key_art_url": "",
+        "game_name": "Trackmania",
+        "igdb_name": "Trackmania",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "First person",
+            "Third person"
+        ],
+        "genres": [
+            "Racing",
+            "Sport",
+            "Arcade"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Xbox One"
+        ],
+        "storyline": "",
+        "keywords": [
+            "underwater",
+            "cars",
+            "level editor",
+            "3d",
+            "competitive",
+            "physics",
+            "vehicle simulation",
+            "pvp",
+            "driving",
+            "flight",
+            "stylized",
+            "flying",
+            "online",
+            "campaign",
+            "local co-op",
+            "esports",
+            "drifting",
+            "free-to-play",
+            "tournament",
+            "global leaderboards",
+            "time trial",
+            "user generated content",
+            "time attack",
+            "timer",
+            "xbox controller support for pc",
+            "polygonal 3d",
+            "vehicle customization",
+            "trophy system",
+            "underwater gameplay",
+            "in-game map editor",
+            "leaderboard",
+            "trophies",
+            "time trials",
+            "controller support",
+            "vehicles",
+            "competitve",
+            "esport",
+            "tournaments",
+            "map creation",
+            "character skin",
+            "jets",
+            "time",
+            "available on - luna plus"
+        ],
+        "release_date": 1593561600,
+        "entry_point_module": "worlds.trackmania",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_trackmania-1.3.2-py3-none-any.whl#sha256=b83457d0fdc90f5a10e3a0ad03a605db2aa84620d3fe7770e9e4a48723bcfab3",
+        "components": [
+            {
+                "name": "Trackmania Client",
+                "type": "client"
+            }
+        ]
+    },
+    "ttyd": {
+        "igdb_id": "3349",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co25us.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21zk.png",
+        "key_art_url": "",
+        "game_name": "Paper Mario: The Thousand-Year Door",
+        "igdb_name": "Paper Mario: The Thousand-Year Door",
+        "age_rating": "7",
+        "rating": [
+            "Mild Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo GameCube"
+        ],
+        "storyline": "In the seaside town of Rogueport, Princess Peach acquires a mysterious treasure map said to point to a great fortune hidden behind the fabled Thousand-Year Door, sealed beneath ruins built atop a town that sank long ago. Peach sends the map to Mario, but she is soon kidnapped by an alien group called the X-Nauts who are after the same treasure. Mario travels to Rogueport and learns that the map reveals the locations of seven Crystal Stars needed to open the door. Gathering allies along the way, he sets out to collect the stars, rescue the princess, and uncover the secret of what lies behind the Thousand-Year Door.",
+        "keywords": [
+            "ghosts",
+            "dinosaurs",
+            "gravity",
+            "detective",
+            "magic",
+            "mascot",
+            "turn-based",
+            "death",
+            "2.5d",
+            "maze",
+            "cooking",
+            "backtracking",
+            "undead",
+            "princess",
+            "blocks",
+            "dialogue trees",
+            "slavery",
+            "easter egg",
+            "sequel",
+            "high score",
+            "yoshi",
+            "silent protagonist",
+            "turn-based combat",
+            "bats",
+            "turtle",
+            "boss fight",
+            "anthropomorphism",
+            "platform exclusive",
+            "train level",
+            "alternate costumes",
+            "professional wrestler",
+            "leveling up",
+            "human",
+            "polygonal 3d",
+            "damsel in distress",
+            "upgradeable weapons",
+            "breaking the fourth wall",
+            "transforming boss",
+            "party system",
+            "collectibles",
+            "non-player character",
+            "save point",
+            "treasure chest",
+            "character growth",
+            "side quests",
+            "royalty",
+            "using dialogue to avoid combat",
+            "melee",
+            "secret area",
+            "unbeatable enemies",
+            "self-referential humor",
+            "parrot",
+            "violent plants",
+            "floating island",
+            "moving platforms",
+            "real-time waiting",
+            "villain",
+            "recurring boss",
+            "level cap",
+            "sleeping",
+            "tentacles",
+            "temporary invincibility",
+            "vore",
+            "boss assistance",
+            "evil organization",
+            "unskippable cutscene",
+            "fetch quests",
+            "not-so-bad guys",
+            "linear gameplay",
+            "gliding",
+            "boomerang bros.",
+            "kidnapping",
+            "poisoning",
+            "in-game e-mail",
+            "fire manipulation",
+            "resized enemy",
+            "surprising character switches",
+            "sleeping enemies",
+            "battle screen",
+            "hammer bros.",
+            "counter system",
+            "restoration",
+            "creature compendium",
+            "foreshadowing",
+            "moat",
+            "sealing your own fate",
+            "hidden room",
+            "dark second act",
+            "greatest hits",
+            "interactive battle system",
+            "ship deck battle",
+            "interactive achievement awards 2005",
+            "turn-based rpg",
+            "dinosaur riding",
+            "nintendo gateway system",
+            "interconnected-world"
+        ],
+        "release_date": 1090454400,
+        "entry_point_module": "worlds.ttyd",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ttyd-0.12.0-py3-none-any.whl#sha256=6e2d87e461c4c70204be618210eb0cadda2090a8841e2184d86e17ee8805c5fb",
+        "components": [
+            {
+                "name": "TTYD Client",
+                "type": "client",
+                "description": "Open the Paper Mario: The Thousand-Year Door client."
+            }
+        ]
+    },
+    "tunic": {
+        "igdb_id": "23733",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/td1t8kb33gyo8mvhl2pc.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arklp.png",
+        "key_art_url": "",
+        "game_name": "TUNIC",
+        "igdb_name": "Tunic",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Tunic is an action adventure game about a small fox in a big world, who must explore the countryside, fight monsters, and discover secrets. Crafted to evoke feelings of classic action adventure games, Tunic will challenge the player with unique items, skillful combat techniques, and arcane mysteries as our hero forges their way through an intriguing new world.",
+        "keywords": [
+            "exploration",
+            "sword",
+            "3d",
+            "difficult",
+            "forest",
+            "stylized",
+            "achievements",
+            "cute",
+            "atmospheric",
+            "fox",
+            "melee combat",
+            "non-linear",
+            "family friendly",
+            "colorful",
+            "great soundtrack",
+            "steam achievements",
+            "battle",
+            "digital distribution",
+            "xbox controller support for pc",
+            "steam cloud",
+            "pax west 2017",
+            "anthropomorphism",
+            "pax west 2016",
+            "melee",
+            "secret area",
+            "cheat code",
+            "new game plus",
+            "controller support",
+            "soulslike",
+            "speedrun mode",
+            "bombs",
+            "shield",
+            "health",
+            "steam families",
+            "hidden secrets",
+            "cloud saves",
+            "stamina"
+        ],
+        "release_date": 1647388800,
+        "entry_point_module": "worlds.tunic",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tunic-5.0.1-py3-none-any.whl#sha256=e21aedba0c3ee316b16b6848432d48e4d4b7ec1050f3edb4b5db7a0e12dc349c"
+    },
+    "tww": {
+        "igdb_id": "1033",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3ohz.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/i7k5nlgcqgpahxwy1vgj.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p3f.png",
+        "game_name": "The Wind Waker",
+        "igdb_name": "The Legend of Zelda: The Wind Waker",
+        "age_rating": "7",
+        "rating": [
+            "Violence"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Nintendo GameCube"
+        ],
+        "storyline": "Set hundreds of years after the events of Ocarina of Time, The Wind Waker finds the hero Link living with his grandmother on the Outset Island, one of the many small islands lost amidst the waters of the Great Sea. On his tenth birthday, Link encounters a giant bird carrying a girl. He rescues the girl, but as a result his own sister is taken away by the bird. The girl is a pirate captain named Tetra, who agrees to help Link find and rescue his sister. During the course of their journey, the two of them realize that a powerful, legendary evil is active again, and must find a way to stop him.",
+        "keywords": [
+            "archery",
+            "action-adventure",
+            "fairy",
+            "sailing",
+            "day/night cycle",
+            "sword & sorcery",
+            "motion blur",
+            "auto-aim",
+            "escaping imprisonment",
+            "living inventory",
+            "connectivity",
+            "retroachievements",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system",
+            "dungeon",
+            "player's choice"
+        ],
+        "release_date": 1039737600,
+        "entry_point_module": "worlds.tww",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tww-3.0.0-py3-none-any.whl#sha256=cc94783a6bf705dde625c7d1a58f8fc87c6431df720a7c2716f1351573a17f98",
+        "components": [
+            {
+                "name": "The Wind Waker Client",
+                "type": "client"
+            }
+        ]
+    },
+    "tyrian": {
+        "igdb_id": "14432",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2zg1.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Tyrian",
+        "igdb_name": "Tyrian 2000",
+        "age_rating": "E",
+        "rating": [
+            "Animated Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Shooter",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
+        ],
+        "storyline": "",
+        "keywords": [
+            "shoot 'em up",
+            "christmas",
+            "freeware",
+            "pixel art",
+            "vertical scrolling",
+            "gog preservation program"
+        ],
+        "release_date": 939254400,
+        "entry_point_module": "worlds.tyrian",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-31/worlds_tyrian-1.0.5-py3-none-any.whl#sha256=8dfabeaf7f6d220ea90a8eae62a23ce994e33557502350ea3ae1c86766537fb5"
+    },
+    "ufo50": {
+        "igdb_id": "54555",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co24v0.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1udh.png",
+        "key_art_url": "",
+        "game_name": "UFO 50",
+        "igdb_name": "UFO 50",
+        "age_rating": "12",
+        "rating": [
+            "Blood",
+            "Violence",
+            "Simulated Gambling",
+            "Use of Drugs"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Strategy",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Nintendo Switch"
+        ],
+        "storyline": "",
+        "keywords": [
+            "8-bit style",
+            "compilation",
+            "digital distribution",
+            "pax west 2017",
+            "deliberately retro",
+            "game collection"
+        ],
+        "release_date": 1726617600,
+        "entry_point_module": "worlds.ufo50",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-20/worlds_ufo50-0.2.1-py3-none-any.whl#sha256=4c5f72db134c7b1aa8861e868b2d206844308ac10703d39fc76dac676f5ff8c6",
+        "components": [
+            {
+                "name": "UFO 50",
+                "type": "client"
+            }
+        ]
+    },
+    "undertale": {
+        "igdb_id": "12517",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob1t2.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4vc.png",
+        "key_art_url": "",
+        "game_name": "Undertale",
+        "igdb_name": "Undertale",
+        "age_rating": "12",
+        "rating": [
+            "Mild Blood",
+            "Mild Language",
+            "Use of Tobacco",
+            "Simulated Gambling",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Horror",
+            "Comedy",
+            "Drama"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "\"A long time ago, two races ruled peacefully over the Earth: HUMANS and MONSTERS. One day, a terrible war broke out between the two races. After a long battle, the humans were victorious. They sealed the monsters underground with a magical spell.\n\nIn the year 201X, a small child scales Mt. Ebott. It is said that those who climb the mountain never return.\n\nSeeking refuge from the rainy weather, the child enters a cave and discovers an enormous hole.\n\nMoving closer to get a better look... the child falls in.\n\nNow, our story begins.\"",
+        "keywords": [
+            "retro",
+            "psychological horror",
+            "dark",
+            "2d",
+            "parody",
+            "turn-based",
+            "shmup",
+            "bullet hell",
+            "village",
+            "backtracking",
+            "child protagonist",
+            "multiple endings",
+            "cute",
+            "funny",
+            "satire",
+            "pixel art",
+            "pixel graphics",
+            "unique battle system",
+            "crowdfunding - kickstarter",
+            "story rich",
+            "manic shooter",
+            "great soundtrack",
+            "boss fight",
+            "choices matter",
+            "battle",
+            "anthropomorphism",
+            "leveling up",
+            "breaking the fourth wall",
+            "skeletons",
+            "original soundtrack release",
+            "moral decisions",
+            "using dialogue to avoid combat",
+            "optional boss",
+            "pacifist playthrough",
+            "plot twist",
+            "fast traveling",
+            "genocide",
+            "defense",
+            "conversation",
+            "you can pet the dog",
+            "postmodernism",
+            "replayability",
+            "surreal comedy"
+        ],
+        "release_date": 1442275200,
+        "entry_point_module": "worlds.undertale",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_undertale-0.0.1-py3-none-any.whl#sha256=db3371309328a69ce4a991f3d1b798af6ef7373b716f935003d2123fd672f3ed",
+        "components": [
+            {
+                "name": "Undertale Client",
+                "type": "client"
+            }
+        ]
+    },
+    "v6": {
+        "igdb_id": "1990",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4ieg.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/arct2.png",
+        "key_art_url": "",
+        "game_name": "VVVVVV",
+        "igdb_name": "VVVVVV",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence",
+            "Mild Language"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Science fiction"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Ouya",
+            "Linux",
+            "Nintendo 3DS",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "PlayStation Vita",
+            "Nintendo Switch"
+        ],
+        "storyline": "A spaceship with six crew members - Viridian, Victoria, Vitellary, Vermillion, Verdigris, and Violet - suddenly encountered mysterious trouble while underway.\nThe group escapes by means of a teleportation device, but for some reason all the crew members are sent to different places.\nViridian, the protagonist, must find the other crew members and escape from this mysterious labyrinth...",
+        "keywords": [
+            "ghosts",
+            "exploration",
+            "retro",
+            "gravity",
+            "level editor",
+            "2d",
+            "metroidvania",
+            "death",
+            "old school",
+            "spaceship",
+            "space",
+            "labyrinth",
+            "steam",
+            "achievements",
+            "steam trading cards",
+            "pixel art",
+            "pixel graphics",
+            "elephant",
+            "teleportation",
+            "no jumping",
+            "2d platformer",
+            "steam achievements",
+            "digital distribution",
+            "xbox controller support for pc",
+            "single-player only",
+            "steam cloud",
+            "developed by one person",
+            "world map",
+            "deliberately retro",
+            "collectibles",
+            "original soundtrack release",
+            "unlockables",
+            "humble bundle",
+            "save point",
+            "playstation plus",
+            "escort mission",
+            "checkpoints",
+            "unstable platforms",
+            "stereoscopic 3d",
+            "gravity control",
+            "instant kill",
+            "steam play",
+            "respawning",
+            "moving platforms",
+            "wraparound world",
+            "auto-scrolling levels",
+            "one-handed gameplay",
+            "time trials",
+            "flash game origin",
+            "flip screen",
+            "warping",
+            "remote play",
+            "controller support",
+            "male protagonist",
+            "conversation",
+            "precision platforming",
+            "minimalist",
+            "steam families"
+        ],
+        "release_date": 1263168000,
+        "entry_point_module": "worlds.v6",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_v6-0.5.1-py3-none-any.whl#sha256=a6d9225730f5e91a70f5fd95386fb0e86ffdd088798e5e22fe1ee6dba0372ee7"
+    },
+    "vampire_survivors": {
+        "igdb_id": "186725",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4bzv.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1cnh.png",
+        "key_art_url": "",
+        "game_name": "Vampire Survivors",
+        "igdb_name": "Vampire Survivors",
+        "age_rating": "12",
+        "rating": [
+            "Violence",
+            "Blood"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Survival"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Linux",
+            "Android",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Vampire Survivors is nominally set in rural Italy in 2021. Hordes of monsters summoned by the evil Bisconte Dracul\u00f3 (a villain inspired by Count Dracula) ravage the land, prompting the Belpaese family and other heroic survivors to take it upon themselves to hunt down and defeat Dracul\u00f3. This quest takes them through monster-infested locales such as a cursed forest, a haunted library, an abandoned dairy plant, an ominous tower, and an otherworldly chapel, culminating in a battle against an Eldritch otherworldly being referred to as \"The Directer\". Despite the game's title, the characters do not fight any vampires in the story.",
+        "keywords": [
+            "pixel graphics",
+            "increasing difficulty",
+            "roguelite",
+            "bullet heaven",
+            "danmaku"
+        ],
+        "release_date": 1643673600,
+        "entry_point_module": "worlds.vampire_survivors",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_vampire_survivors-0.3.2-py3-none-any.whl#sha256=679bc2a9cb5df4279d232470ec020a931d2f0bc471d3e53a71571bf3dc57462a"
+    },
+    "waffles": {
+        "igdb_id": "1070",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8lo8.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nai.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nae.png",
+        "game_name": "SMW: Spicy Mycena Waffles",
+        "igdb_name": "Super Mario World",
+        "age_rating": "7",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Arcade",
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
+        ],
+        "storyline": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
+        "keywords": [
+            "dinosaurs",
+            "princess",
+            "yoshi",
+            "mario",
+            "digital distribution",
+            "bonus stage",
+            "damsel in distress",
+            "virtual console",
+            "nintendo super system",
+            "super mario world",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "dinosaur riding",
+            "playable character - luigi",
+            "fan translation - polish",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "fan translation - chinese",
+            "nintendo gateway system",
+            "battery save",
+            "fan translation - spanish",
+            "fan translation - italian",
+            "fan translation - korean",
+            "fan translation - french",
+            "fan translation - galician",
+            "fan translation - romanian",
+            "fan translation - welsh",
+            "fan translation - greek",
+            "fan translation - indonesian",
+            "fan translation - dutch",
+            "fan translation - finnish",
+            "fan translation - catalan",
+            "fan translation - german",
+            "player's choice"
+        ],
+        "release_date": 659145600,
+        "entry_point_module": "worlds.waffles",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_waffles-1.3.10-py3-none-any.whl#sha256=1a41fb6e3d40d79b0d833e659962b95d375da4637a3b7ee80adb5689b6d13cd8",
+        "components": [
+            {
+                "name": "Waffles Manager",
+                "type": "adjuster"
+            }
+        ]
+    },
+    "wargroove": {
+        "igdb_id": "27441",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hgb.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar9ii.png",
+        "key_art_url": "",
+        "game_name": "Wargroove",
+        "igdb_name": "Wargroove",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Tactical",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Warfare"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Wargroove is a modern take on the simple yet deep turn-based tactical gameplay popularised in the 2000s by handheld games such as Advance Wars. As big fans of those games we were disappointed to find that nothing in this genre was available on current generation platforms and set out to fill the gap ourselves. Wargroove aims to recreate the charm and accessibility of the titles that inspired it whilst bringing modern technology into the formula. This modern focus allows for higher resolution pixel art, robust online play and deep modding capability, ultimately creating the most complete experience for Advance Wars and TBS fans.",
+        "keywords": [
+            "level editor",
+            "pixel art"
+        ],
+        "release_date": 1546387200,
+        "entry_point_module": "worlds.wargroove",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_wargroove-1.0.0-py3-none-any.whl#sha256=b52754edbe28cd0d54f35c3730c97a0669cf0d1969f51d953022d110c938c664",
+        "components": [
+            {
+                "name": "Wargroove Client",
+                "type": "client"
+            }
+        ]
+    },
+    "wargroove2": {
+        "igdb_id": "27441",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hgb.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar9ii.png",
+        "key_art_url": "",
+        "game_name": "Wargroove 2",
+        "igdb_name": "Wargroove",
+        "age_rating": "7",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Tactical",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Warfare"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Wargroove is a modern take on the simple yet deep turn-based tactical gameplay popularised in the 2000s by handheld games such as Advance Wars. As big fans of those games we were disappointed to find that nothing in this genre was available on current generation platforms and set out to fill the gap ourselves. Wargroove aims to recreate the charm and accessibility of the titles that inspired it whilst bringing modern technology into the formula. This modern focus allows for higher resolution pixel art, robust online play and deep modding capability, ultimately creating the most complete experience for Advance Wars and TBS fans.",
+        "keywords": [
+            "level editor",
+            "pixel art"
+        ],
+        "release_date": 1546387200,
+        "entry_point_module": "worlds.wargroove2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_wargroove2-1.1.10-py3-none-any.whl#sha256=450fddd63394ddc40a6c4a2351d1bb59ce105e3a43c983349e7761e412b6c833",
+        "components": [
+            {
+                "name": "Wargroove 2 Client",
+                "type": "client"
+            }
+        ]
+    },
+    "witness": {
+        "igdb_id": "5601",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3hih.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1cly.png",
+        "key_art_url": "",
+        "game_name": "The Witness",
+        "igdb_name": "The Witness",
+        "age_rating": "3",
+        "rating": [
+            "Alcohol Reference"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Science fiction",
+            "Open world",
+            "Mystery"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "PC (Microsoft Windows)",
+            "iOS",
+            "Mac",
+            "Xbox One"
+        ],
+        "storyline": "You wake up, alone, on a strange island full of puzzles that will challenge and surprise you.\n\nYou don't remember who you are, and you don't remember how you got here, but there's one thing you can do: explore the island in hope of discovering clues, regaining your memory, and somehow finding your way home.",
+        "keywords": [
+            "exploration",
+            "procedural generation",
+            "maze",
+            "steam",
+            "backtracking",
+            "time limit",
+            "multiple endings",
+            "amnesia",
+            "low-poly",
+            "hexagon",
+            "easy",
+            "darkness",
+            "steam achievements",
+            "digital distribution",
+            "single-player only",
+            "voice acting",
+            "famous quotes",
+            "bink video",
+            "polygonal 3d",
+            "pop culture reference",
+            "game reference",
+            "full motion video",
+            "auto-saving",
+            "useable vehicles",
+            "environmental puzzles",
+            "stat tracking",
+            "secret area",
+            "audio logs",
+            "inconvenient malfunction",
+            "no hud",
+            "puzzle games with stories",
+            "simon says",
+            "pax prime 2010",
+            "the game awards - nominee",
+            "the game awards 2016",
+            "the game awards - best independent game - nominee"
+        ],
+        "release_date": 1453766400,
+        "entry_point_module": "worlds.witness",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_witness-8.0.0-py3-none-any.whl#sha256=f11fceead4b5dfa61646c0f6f0c9c8ad767e7af7c0071fa1ba0ad95cb255f998"
+    },
+    "wl": {
+        "igdb_id": "1072",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co216h.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kik.png",
+        "key_art_url": "",
+        "game_name": "Wario Land",
+        "igdb_name": "Wario Land: Super Mario Land 3",
+        "age_rating": "3",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Game Boy"
+        ],
+        "storyline": "",
+        "keywords": [
+            "virtual console",
+            "wario",
+            "nintendo 3ds virtual console",
+            "nintendo gateway system"
+        ],
+        "release_date": 759110400,
+        "entry_point_module": "worlds.wl",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_wl-0.0.1-py3-none-any.whl#sha256=92d46d9acc70ecddee3634ddb1959d978b60e962f2e9bdd6a114887846a541e8"
+    },
+    "wl4": {
+        "igdb_id": "1699",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wpx.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kt5.png",
+        "key_art_url": "",
+        "game_name": "Wario Land 4",
+        "igdb_name": "Wario Land 4",
+        "age_rating": "3",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "ghosts",
+            "anime",
+            "minigames",
+            "flight",
+            "egypt",
+            "time limit",
+            "multiple endings",
+            "blocks",
+            "portals",
+            "pixel art",
+            "sequel",
+            "mad scientist",
+            "high score",
+            "swimming",
+            "boss fight",
+            "digital distribution",
+            "countdown timer",
+            "cat",
+            "transforming boss",
+            "collectibles",
+            "virtual console",
+            "sprinting mechanics",
+            "ice stage",
+            "treasure chest",
+            "melee",
+            "unbeatable enemies",
+            "female antagonist",
+            "moving platforms",
+            "sequence breaking",
+            "anti-hero",
+            "pinball stage",
+            "disorientation",
+            "domino",
+            "unskippable cutscene",
+            "sliding down ladders",
+            "super strength",
+            "book adaptation",
+            "overweight character",
+            "nintendo 3ds ambassador program",
+            "male protagonist",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo switch online - expansion pack",
+            "nintendo gateway system"
+        ],
+        "release_date": 998352000,
+        "entry_point_module": "worlds.wl4",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_wl4-3.3.3-py3-none-any.whl#sha256=9b3f3d229aeed1f5fdf3fb78edd1a5fe35d482bf225e31cc6cd12bfb6b00c46a"
+    },
+    "wordipelago": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Wordipelago",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.wordipelago",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_wordipelago-1.0.1-py3-none-any.whl#sha256=05b3a78e91480ffbe48e0b78f3025240b7f04287b0aa980f8abeb4f5a218fbb2"
+    },
+    "xenobladex": {
+        "igdb_id": "2366",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/coavor.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4q0s.png",
+        "game_name": "Xenoblade X",
+        "igdb_name": "Xenoblade Chronicles X",
+        "age_rating": "12",
+        "rating": [
+            "Suggestive Themes",
+            "Use of Alcohol",
+            "Language",
+            "Violence",
+            "Animated Blood"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Sandbox",
+            "Open world"
+        ],
+        "platforms": [
+            "Wii U"
+        ],
+        "storyline": "Xenoblade Chronicles X opens as humanity, warned of its impending destruction in the crossfire between two warring alien races, constructs interstellar arks to escape Earth. However, only a few arks escape the destruction, including the White Whale ark. Two years after launching, the White Whale is attacked and transported to Mira. During the crash-landing, the Lifehold\u2014a device containing the majority of the human colonists\u2014is separated from the White Whale, with lifepods containing colonists being scattered across Mira. The avatar is awoken from a lifepod by Elma and brought back to New Los Angeles. While suffering from amnesia, the avatar joins BLADE, working with Elma and Lin to recover more lifepods and search for the Lifehold. During their missions across Mira, BLADE encounters multiple alien races, learning that those attacking them are part of the Ganglion coalition, an alliance of races led by the Ganglion race, who are intent on destroying humanity.",
+        "keywords": [
+            "aliens",
+            "mech",
+            "murder",
+            "construction",
+            "robots",
+            "flight",
+            "action-adventure",
+            "online",
+            "mecha",
+            "amnesia",
+            "day/night cycle",
+            "spiritual successor",
+            "customizable characters",
+            "voice acting",
+            "polygonal 3d",
+            "loot gathering",
+            "party system",
+            "touch controls",
+            "4 player co-op",
+            "off-tv play",
+            "nintendo network",
+            "side quests",
+            "questing",
+            "real-time combat",
+            "useable vehicles",
+            "wii u pro controller support",
+            "optional touch control",
+            "betrayal",
+            "asymmetric co-op",
+            "pax prime 2015",
+            "daily content",
+            "squad tactics",
+            "quest tracking",
+            "gamescom 2015",
+            "censored version",
+            "reversible cover art",
+            "text dialogue",
+            "verticality",
+            "quest hub",
+            "class change",
+            "keyboard and mouse support for consoles",
+            "the game awards - nominee",
+            "the game awards 2016",
+            "best role playing game: nominee - 2016 (the game awards)",
+            "the game awards - best roleplaying game - nominee"
+        ],
+        "release_date": 1430265600,
+        "entry_point_module": "worlds.xenobladex",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_xenobladex-0.2.4-py3-none-any.whl#sha256=d2250cc575fd86b02ec03275a30a1ae87460487020fd845697f3506c9d2e49cc",
+        "components": [
+            {
+                "name": "Xenoblade X Client",
+                "type": "client"
+            }
+        ]
+    },
+    "yachtdice": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Yacht Dice",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": "2025",
+        "entry_point_module": "worlds.yachtdice",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yachtdice-2.3.3-py3-none-any.whl#sha256=64979343c743fc377f9dc1e6673fa1632fb81a96b848c08a305637c0fdde8b72"
+    },
+    "yoshisisland": {
+        "igdb_id": "1073",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2kn9.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1gep.png",
+        "key_art_url": "",
+        "game_name": "Yoshi's Island",
+        "igdb_name": "Super Mario World 2: Yoshi's Island",
+        "age_rating": "E",
+        "rating": [],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Kids"
+        ],
+        "platforms": [
+            "Satellaview",
+            "Super Nintendo Entertainment System",
+            "Super Famicom"
+        ],
+        "storyline": "A stork carrying the infant Mario Brothers is attacked by Kamek the Magikoopa, who steals Baby Luigi and knocks Baby Mario out of the sky. Baby Mario lands on Yoshi's Island on the back of Yoshi himself. With the help of his seven other Yoshi friends, Yoshi must traverse the island to safely reunite Baby Mario with his brother and get the babies to their parents.",
+        "keywords": [
+            "dinosaurs",
+            "side-scrolling",
+            "yoshi",
+            "digital distribution",
+            "kidnapping",
+            "broadcast",
+            "nintendo switch online",
+            "fan translation - portuguese",
+            "super fx",
+            "battery save",
+            "player's choice"
+        ],
+        "release_date": 807580800,
+        "entry_point_module": "worlds.yoshisisland",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yoshisisland-1.0.0-py3-none-any.whl#sha256=ebdfd5d3fa0d8e1b9290aa1321884a4083555715c4b2ae1440fd6e871aa4c637"
+    },
+    "yugioh06": {
+        "igdb_id": "49377",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7yau.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Yu-Gi-Oh! 2006",
+        "igdb_name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Text"
+        ],
+        "genres": [
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Card & Board Game"
+        ],
+        "themes": [
+            "Fantasy",
+            "Survival"
+        ],
+        "platforms": [
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "monsters",
+            "duel"
+        ],
+        "release_date": 1140652800,
+        "entry_point_module": "worlds.yugioh06",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_yugioh06-0.0.1-py3-none-any.whl#sha256=079892021f08b047cf56f198e00318e21bb88befed42f876a1279327642223aa"
+    },
+    "yugiohddm": {
+        "igdb_id": "49211",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5ztw.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Yu-Gi-Oh! Dungeon Dice Monsters",
+        "igdb_name": "Yu-Gi-Oh! Dungeon Dice Monsters",
+        "age_rating": "3",
+        "rating": [
+            "Mild Violence"
+        ],
+        "player_perspectives": [
+            "First person",
+            "Bird view / Isometric"
+        ],
+        "genres": [
+            "Puzzle",
+            "Strategy",
+            "Turn-based strategy (TBS)",
+            "Card & Board Game"
+        ],
+        "themes": [
+            "Fantasy"
+        ],
+        "platforms": [
+            "Game Boy Advance"
+        ],
+        "storyline": "Dungeon Dice Monsters is the newest addition to the Yu-Gi-Oh! universe. As featured in the Dungeon Dice Monsters story arc in the animated television series, players collect and fight with dice inscribed with mystical powers and magic in order to defeat their opponents. Enter a dozen different tournaments and ultimately faceoff against the scheming creator of Dungeon Dice Monsters, Duke Devlin.",
+        "keywords": [
+            "anime",
+            "based on - tv show",
+            "based on - anime",
+            "licensed game",
+            "platform exclusive",
+            "language selection",
+            "shopping",
+            "card collection",
+            "merchants"
+        ],
+        "release_date": 985132800,
+        "entry_point_module": "worlds.yugiohddm",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yugiohddm-0.3.3-py3-none-any.whl#sha256=46de08b56bf441ee6edd60d4363ee48e4f5c3ffb509a192eac0155be3e55835f"
+    },
+    "zelda2": {
+        "igdb_id": "1025",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1uje.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar14l5.png",
+        "key_art_url": "",
+        "game_name": "Zelda II: The Adventure of Link",
+        "igdb_name": "Zelda II: The Adventure of Link",
+        "age_rating": "7",
+        "rating": [
+            "Mild Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Role-playing (RPG)",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Family Computer Disk System",
+            "Nintendo 3DS",
+            "Wii",
+            "Wii U",
+            "Nintendo Entertainment System"
+        ],
+        "storyline": "Several years after the events of The Legend of Zelda, Link has just turned sixteen and discovers a strange birthmark on his hand. With the help of Impa, Zelda's nursemaid, Link learns that this mark is the key to unlock a secret room where Princess Zelda lies sleeping. When young, Princess Zelda was given knowledge of the Triforce of power which was used to rule the kingdom of Hyrule, but when a magician unsuccessfully tried to find out about the Triforce from Zelda, he put her into an eternal sleep. In his grief, the prince placed Zelda in this room hoping she may wake some day. He ordered all female children in the royal household to be named Zelda from this point on, so the tragedy would not be forgotten. Now, to bring Princess Zelda back, Link must locate all the pieces of the Triforce which have been hidden throughout the land.",
+        "keywords": [
+            "magic",
+            "collecting",
+            "2d",
+            "metroidvania",
+            "death",
+            "difficult",
+            "action-adventure",
+            "side-scrolling",
+            "leveling",
+            "fairy",
+            "overworld",
+            "campaign",
+            "pixel art",
+            "sequel",
+            "silent protagonist",
+            "bats",
+            "8-bit",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "single-player only",
+            "spider",
+            "leveling up",
+            "human",
+            "damsel in distress",
+            "sequel is in a different genre",
+            "virtual console",
+            "young protagonist",
+            "unstable platforms",
+            "saving the world",
+            "potion",
+            "real-time combat",
+            "secret area",
+            "rpg elements",
+            "villain",
+            "fetch quests",
+            "meme origin",
+            "new game plus",
+            "status effects",
+            "persistent world",
+            "dark second act",
+            "monomyth",
+            "played for charity",
+            "color cartridges",
+            "power glove support",
+            "nintendo 3ds ambassador program",
+            "male protagonist",
+            "nintendo switch online",
+            "wii virtual console",
+            "fan translation - polish",
+            "fan translation - esperanto",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - latin",
+            "battery save",
+            "adapted to - manga",
+            "fan translation - korean",
+            "fan translation - tagalog",
+            "fan translation - galician",
+            "fan translation - romanian",
+            "fan translation - norwegian",
+            "sword sorcery",
+            "fan translation - turkish"
+        ],
+        "release_date": 537580800,
+        "entry_point_module": "worlds.zelda2",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_zelda2-1.0.1-py3-none-any.whl#sha256=29ce53809fab46eb90e2e97766e2ab24cab074b6c49a5a9209740146117624df"
+    },
+    "zork_grand_inquisitor": {
+        "igdb_id": "1955",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2kql.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Zork Grand Inquisitor",
+        "igdb_name": "Zork: Grand Inquisitor",
+        "age_rating": "T",
+        "rating": [
+            "Comic Mischief",
+            "Suggestive Themes",
+            "Use of Alcohol and Tobacco"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Point-and-click",
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Fantasy",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)",
+            "Mac"
+        ],
+        "storyline": "",
+        "keywords": [
+            "magic",
+            "full motion video",
+            "faceless protagonist",
+            "scummvm compatible"
+        ],
+        "release_date": 878256000,
+        "entry_point_module": "worlds.zork_grand_inquisitor",
+        "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_zork_grand_inquisitor-2.2.0-py3-none-any.whl#sha256=807d4d2f8c5258d4a063fcb9d09dc5d9eb03dfb698962c9cf9a19e82693cb06d",
+        "components": [
+            {
+                "name": "Zork Grand Inquisitor Client",
+                "type": "client"
+            }
+        ]
+    }
+}  # type: ignore  # noqa: F821
+
+GAMES_NAMES = {
+    "2048": "2048",
+    "Against the Storm": "against_the_storm",
+    "A Hat in Time": "ahit",
+    "A Link Between Worlds": "albw",
+    "A Link to the Past": "alttp",
+    "The Legend of Zelda: A Link to the Past": "alttpr",
+    "ANIMAL WELL": "animal_well",
+    "Ape Escape": "apeescape",
+    "Archipela-Go!": "apgo",
+    "APQuest": "apquest",
+    "Archipelaballs": "archipelaballs",
+    "ArchipIDLE": "archipidle",
+    "Balatro": "balatro",
+    "Banjo-Tooie": "banjo_tooie",
+    "Battle for Bikini Bottom": "bfbb",
+    "BKSimulator": "bksim",
+    "Blasphemous": "blasphemous",
+    "Bomb Rush Cyberfunk": "bomb_rush_cyberfunk",
+    "Brotato": "brotato",
+    "Cat Quest": "cat_quest",
+    "Choo-Choo Charles": "cccharles",
+    "Celeste": "celeste",
+    "Celeste (Open World)": "celeste_open_world",
+    "Chained Echoes": "chainedechoes",
+    "Chatipelago": "chatipelago",
+    "ChecksFinder": "checksfinder",
+    "Civilization VI": "civ_6",
+    "Clique": "clique",
+    "CrossCode": "crosscode",
+    "Crystal Project": "crystal_project",
+    "Chrono Trigger Jets of Time": "ctjot",
+    "Cuphead": "cuphead",
+    "Castlevania 64": "cv64",
+    "Castlevania: Dawn of Sorrow": "cv_dos",
+    "Castlevania - Circle of the Moon": "cvcotm",
+    "Dark Souls II": "dark_souls_2",
+    "Dark Souls III": "dark_souls_3",
+    "DELTARUNE": "deltarune",
+    "Diddy Kong Racing": "diddy_kong_racing",
+    "Donkey Kong 64": "dk64",
+    "Donkey Kong Country": "dkc",
+    "Donkey Kong Country 2": "dkc2",
+    "DKC2 Trivia Database": "dkc2_trivia",
+    "Donkey Kong Toluca": "dktoluca",
+    "Don't Starve Together": "dontstarvetogether",
+    "DOOM 1993": "doom_1993",
+    "DOOM 1993 (Beta)": "doom_1993_beta",
+    "DOOM II": "doom_ii",
+    "DOOM II (Beta)": "doom_ii_beta",
+    "DORONKO WANKO": "doronko_wanko",
+    "DREDGE": "dredge",
+    "Dark Souls Remastered": "dsr",
+    "Duke Nukem 3D": "duke3d",
+    "Digimon World": "dw1",
+    "EarthBound": "earthbound",
+    "Ender Lilies": "enderlilies",
+    "Factorio": "factorio",
+    "Factorio - Space Age Without Space": "factorio_saws",
+    "Faxanadu": "faxanadu",
+    "Final Fantasy": "ff1",
+    "Final Fantasy IV Free Enterprise": "ff4fe",
+    "Final Fantasy Mystic Quest": "ffmq",
+    "Final Fantasy Tactics Advance": "ffta",
+    "Final Fantasy V Career Day": "ffvcd",
+    "Yu-Gi-Oh! Forbidden Memories": "fm",
+    "Funi Raccoon Game": "funi_raccoon",
+    "Getting Over It": "getting_over_it",
+    "Gauntlet Legends": "gl",
+    "The Grinch": "grinch",
+    "Golden Sun The Lost Age": "gstla",
+    "Hades": "hades",
+    "Hades2Rogue": "hades2rogue",
+    "Here Comes Niko!": "hcniko",
+    "Heretic (Beta)": "heretic_beta",
+    "Hollow Knight": "hk",
+    "Inscryption Beta": "inscryption_beta",
+    "Into the Breach": "into_the_breach",
+    "Jak and Daxter: The Precursor Legacy": "jakanddaxter",
+    "Jigsaw": "jigsaw",
+    "Kirby 64 - The Crystal Shards": "k64",
+    "Kirby's Dream Land 3": "kdl3",
+    "Kingdom Hearts": "kh1",
+    "Kingdom Hearts 2": "kh2",
+    "Links Awakening DX Beta": "ladx_beta",
+    "Landstalker - The Treasures of King Nole": "landstalker",
+    "Lego Star Wars: The Complete Saga": "lego_star_wars_tcs",
+    "Lufia II Ancient Cave": "lufia2ac",
+    "Luigi's Mansion": "luigismansion",
+    "Mario Kart Double Dash": "mario_kart_double_dash",
+    "Super Mario Land 2": "marioland2",
+    "Hatsune Miku Project Diva Mega Mix+": "megamix",
+    "Super Smash Bros. Melee": "melee",
+    "The Messenger": "messenger",
+    "Metroid Fusion": "metroidfusion",
+    "Metroid Prime": "metroidprime",
+    "Minecraft": "minecraft",
+    "Mario Kart 64": "mk64",
+    "Mario & Luigi Superstar Saga": "mlss",
+    "Mega Man 2": "mm2",
+    "Mega Man 3": "mm3",
+    "Majora's Mask Recompiled": "mm_recomp",
+    "MegaMan Battle Network 3": "mmbn3",
+    "Mega Man X3": "mmx3",
+    "Momodora Moonlit Farewell": "momodoramoonlitfarewell",
+    "Monster Sanctuary": "monster_sanctuary",
+    "Muse Dash": "musedash",
+    "Metroid: Zero Mission": "mzm",
+    "Nine Sols": "nine_sols",
+    "Ocarina of Time": "oot",
+    "Ori and the Will of the Wisps": "ori_wotw",
+    "Ori and the Blind Forest": "oribf",
+    "Old School Runescape": "osrs",
+    "Outer Wilds": "outer_wilds",
+    "Overcooked! 2": "overcooked2",
+    "Paint": "paint",
+    "Paper Mario": "papermario",
+    "Peggle Nights": "peggle_nights",
+    "Phoenotopia: Awakening": "phoa",
+    "Pikuniku": "pikuniku",
+    "Pinball FX3": "pinball_fx3",
+    "Placid Plastic Duck Simulator": "placidplasticducksim",
+    "Pokemon Mystery Dungeon Explorers of Sky": "pmd_eos",
+    "Pokemon Crystal": "pokemon_crystal",
+    "Pokemon Emerald": "pokemon_emerald",
+    "Pokemon FireRed and LeafGreen": "pokemon_frlg",
+    "Pokemon Red and Blue": "pokemon_rb",
+    "Portal 2": "portal2",
+    "Powerwash Simulator": "powerwashsimulator",
+    "Quake 1": "quake",
+    "Rabi-Ribi": "rabi_ribi",
+    "Ratchet & Clank 2": "rac2",
+    "Ratchet and Clank 3": "rac3",
+    "Raft": "raft",
+    "Refunct": "refunct",
+    "Rimworld": "rimworld",
+    "Rogue Legacy": "rogue_legacy",
+    "Risk of Rain": "ror1",
+    "Risk of Rain 2": "ror2",
+    "Rift of the Necrodancer": "rotn",
+    "Sonic Adventure 2 Battle": "sa2b",
+    "Sonic Adventure DX": "sadx",
+    "Satisfactory": "satisfactory",
+    "Starcraft 2": "sc2",
+    "Shivers": "shivers",
+    "A Short Hike": "shorthike",
+    "The Simpsons Hit And Run": "simpsonshitnrun",
+    "The Sims 4": "sims4",
+    "Skul: The Hero Slayer": "skul",
+    "Sly Cooper and the Thievius Raccoonus": "sly1",
+    "Super Metroid": "sm",
+    "Super Mario 64": "sm64ex",
+    "SM64 Romhack": "sm64hacks",
+    "Super Metroid Map Rando": "sm_map_rando",
+    "Super Mario Odyssey": "smo",
+    "Super Mario Sunshine": "sms",
+    "Super Mario World": "smw",
+    "Secret of Evermore": "soe",
+    "Sonic Heroes": "sonic_heroes",
+    "Symphony of the Night": "sotn",
+    "Spyro 3": "spyro3",
+    "Skyward Sword": "ss",
+    "Star Fox 64": "star_fox_64",
+    "Stardew Valley": "stardew_valley",
+    "Subnautica": "subnautica",
+    "Star Wars Episode I Racer": "swr",
+    "Taylor Swift Discography": "taylorswift",
+    "The Binding of Isaac Repentance": "tboir",
+    "Terraria": "terraria",
+    "Tetris Attack": "tetrisattack",
+    "Timespinner": "timespinner",
+    "The Legend of Zelda": "tloz",
+    "The Legend of Zelda - Oracle of Ages": "tloz_ooa",
+    "The Legend of Zelda - Oracle of Seasons": "tloz_oos",
+    "The Legend of Zelda - Phantom Hourglass": "tloz_ph",
+    "Spirit Tracks": "tloz_st",
+    "The Minish Cap": "tmc",
+    "Toontown": "toontown",
+    "Twilight Princess": "tp",
+    "Trackmania": "trackmania",
+    "Paper Mario: The Thousand-Year Door": "ttyd",
+    "TUNIC": "tunic",
+    "The Wind Waker": "tww",
+    "Tyrian": "tyrian",
+    "UFO 50": "ufo50",
+    "Undertale": "undertale",
+    "VVVVVV": "v6",
+    "Vampire Survivors": "vampire_survivors",
+    "SMW: Spicy Mycena Waffles": "waffles",
+    "Wargroove": "wargroove",
+    "Wargroove 2": "wargroove2",
+    "The Witness": "witness",
+    "Wario Land": "wl",
+    "Wario Land 4": "wl4",
+    "Wordipelago": "wordipelago",
+    "Xenoblade X": "xenobladex",
+    "Yacht Dice": "yachtdice",
+    "Yoshi's Island": "yoshisisland",
+    "Yu-Gi-Oh! 2006": "yugioh06",
+    "Yu-Gi-Oh! Dungeon Dice Monsters": "yugiohddm",
+    "Zelda II: The Adventure of Link": "zelda2",
+    "Zork Grand Inquisitor": "zork_grand_inquisitor"
+}  # type: ignore  # noqa: F821
+
+SEARCH_INDEX = {
+    "popular": {
+        "alttp",
+        "hk",
+        "kh2",
+        "oot",
+        "sc2",
+        "sm64ex"
+    },
+    "2048": {
+        "2048"
+    },
+    "multiplayer": {
+        "2048",
+        "alttpr",
+        "apgo",
+        "apquest",
+        "archipelaballs",
+        "archipidle",
+        "banjo_tooie",
+        "bksim",
+        "chatipelago",
+        "checksfinder",
+        "clique",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc2_trivia",
+        "dktoluca",
+        "dontstarvetogether",
+        "doom_1993_beta",
+        "doom_ii",
+        "doom_ii_beta",
+        "duke3d",
+        "ffvcd",
+        "funi_raccoon",
+        "gl",
+        "grinch",
+        "hades2rogue",
+        "heretic_beta",
+        "jigsaw",
+        "melee",
+        "minecraft",
+        "mk64",
+        "paint",
+        "pikuniku",
+        "pinball_fx3",
+        "quake",
+        "simpsonshitnrun",
+        "skul",
+        "sonic_heroes",
+        "star_fox_64",
+        "swr",
+        "taylorswift",
+        "terraria",
+        "tloz_ph",
+        "wordipelago",
+        "yachtdice"
+    },
+    "archipelago": {
+        "2048",
+        "alttpr",
+        "apgo",
+        "apquest",
+        "archipelaballs",
+        "archipidle",
+        "bksim",
+        "chatipelago",
+        "checksfinder",
+        "clique",
+        "dkc2_trivia",
+        "dktoluca",
+        "doom_1993_beta",
+        "doom_ii_beta",
+        "ffvcd",
+        "funi_raccoon",
+        "gl",
+        "grinch",
+        "hades2rogue",
+        "heretic_beta",
+        "jigsaw",
+        "melee",
+        "paint",
+        "pikuniku",
+        "skul",
+        "taylorswift",
+        "wordipelago",
+        "yachtdice"
+    },
+    "hints": {
+        "2048",
+        "alttpr",
+        "apgo",
+        "apquest",
+        "archipelaballs",
+        "archipidle",
+        "bksim",
+        "chatipelago",
+        "checksfinder",
+        "clique",
+        "dkc2_trivia",
+        "dktoluca",
+        "doom_1993_beta",
+        "doom_ii_beta",
+        "ffvcd",
+        "funi_raccoon",
+        "gl",
+        "grinch",
+        "hades2rogue",
+        "heretic_beta",
+        "jigsaw",
+        "melee",
+        "paint",
+        "pikuniku",
+        "skul",
+        "taylorswift",
+        "wordipelago",
+        "yachtdice"
+    },
+    "multiworld": {
+        "2048",
+        "alttpr",
+        "apgo",
+        "apquest",
+        "archipelaballs",
+        "archipidle",
+        "bksim",
+        "chatipelago",
+        "checksfinder",
+        "clique",
+        "dkc2_trivia",
+        "dktoluca",
+        "doom_1993_beta",
+        "doom_ii_beta",
+        "ffvcd",
+        "funi_raccoon",
+        "gl",
+        "grinch",
+        "hades2rogue",
+        "heretic_beta",
+        "jigsaw",
+        "melee",
+        "paint",
+        "pikuniku",
+        "skul",
+        "taylorswift",
+        "wordipelago",
+        "yachtdice"
+    },
+    "against the storm": {
+        "against_the_storm"
+    },
+    "against": {
+        "against_the_storm"
+    },
+    "the": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "balatro",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "enderlilies",
+        "ffta",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "into_the_breach",
+        "jakanddaxter",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "lufia2ac",
+        "luigismansion",
+        "messenger",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "overcooked2",
+        "papermario",
+        "quake",
+        "rac3",
+        "rogue_legacy",
+        "rotn",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "stardew_valley",
+        "tboir",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "ttyd",
+        "tww",
+        "undertale",
+        "witness",
+        "xenobladex",
+        "zelda2"
+    },
+    "storm": {
+        "against_the_storm"
+    },
+    "bird view / isometric": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "balatro",
+        "brotato",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "deltarune",
+        "diddy_kong_racing",
+        "dontstarvetogether",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hades",
+        "inscryption_beta",
+        "into_the_breach",
+        "ladx_beta",
+        "landstalker",
+        "mmbn3",
+        "osrs",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rimworld",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "stardew_valley",
+        "tboir",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tyrian",
+        "ufo50",
+        "undertale",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "bird": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "balatro",
+        "banjo_tooie",
+        "brotato",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "cv_dos",
+        "deltarune",
+        "diddy_kong_racing",
+        "dontstarvetogether",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hades",
+        "inscryption_beta",
+        "into_the_breach",
+        "ladx_beta",
+        "landstalker",
+        "minecraft",
+        "mmbn3",
+        "osrs",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rimworld",
+        "rogue_legacy",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "stardew_valley",
+        "tboir",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tyrian",
+        "ufo50",
+        "undertale",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "view": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "animal_well",
+        "balatro",
+        "blasphemous",
+        "brotato",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "deltarune",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "enderlilies",
+        "factorio",
+        "factorio_saws",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "getting_over_it",
+        "gstla",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "landstalker",
+        "lufia2ac",
+        "marioland2",
+        "megamix",
+        "messenger",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "osrs",
+        "overcooked2",
+        "papermario",
+        "peggle_nights",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rabi_ribi",
+        "rimworld",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "soe",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "stardew_valley",
+        "tboir",
+        "terraria",
+        "tetrisattack",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tyrian",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "wl",
+        "wl4",
+        "yoshisisland",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "/": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "balatro",
+        "brotato",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "deltarune",
+        "diddy_kong_racing",
+        "dontstarvetogether",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hades",
+        "inscryption_beta",
+        "into_the_breach",
+        "ladx_beta",
+        "landstalker",
+        "mmbn3",
+        "osrs",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rimworld",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "stardew_valley",
+        "tboir",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tyrian",
+        "ufo50",
+        "undertale",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "isometric": {
+        "against_the_storm",
+        "albw",
+        "alttp",
+        "balatro",
+        "brotato",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "deltarune",
+        "diddy_kong_racing",
+        "dontstarvetogether",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hades",
+        "inscryption_beta",
+        "into_the_breach",
+        "ladx_beta",
+        "landstalker",
+        "mmbn3",
+        "osrs",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rimworld",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "stardew_valley",
+        "tboir",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tyrian",
+        "ufo50",
+        "undertale",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "strategy": {
+        "against_the_storm",
+        "balatro",
+        "chainedechoes",
+        "civ_6",
+        "crystal_project",
+        "dontstarvetogether",
+        "factorio",
+        "factorio_saws",
+        "fm",
+        "inscryption_beta",
+        "into_the_breach",
+        "monster_sanctuary",
+        "overcooked2",
+        "rimworld",
+        "satisfactory",
+        "sc2",
+        "stardew_valley",
+        "terraria",
+        "ufo50",
+        "wargroove",
+        "wargroove2",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "indie": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "enderlilies",
+        "factorio",
+        "factorio_saws",
+        "getting_over_it",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "nine_sols",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "raft",
+        "refunct",
+        "rimworld",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "shivers",
+        "shorthike",
+        "stardew_valley",
+        "subnautica",
+        "tboir",
+        "terraria",
+        "timespinner",
+        "tunic",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "simulator": {
+        "against_the_storm",
+        "civ_6",
+        "dontstarvetogether",
+        "doronko_wanko",
+        "dredge",
+        "factorio",
+        "factorio_saws",
+        "getting_over_it",
+        "into_the_breach",
+        "minecraft",
+        "outer_wilds",
+        "overcooked2",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "rimworld",
+        "satisfactory",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "terraria"
+    },
+    "fantasy": {
+        "against_the_storm",
+        "ahit",
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "blasphemous",
+        "cat_quest",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "civ_6",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dkc2",
+        "dsr",
+        "earthbound",
+        "enderlilies",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "fm",
+        "gstla",
+        "hades",
+        "hk",
+        "kh1",
+        "kh2",
+        "ladx_beta",
+        "landstalker",
+        "lufia2ac",
+        "minecraft",
+        "mlss",
+        "mm_recomp",
+        "monster_sanctuary",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "osrs",
+        "papermario",
+        "phoa",
+        "pinball_fx3",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "sims4",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "smw",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "tloz",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "ttyd",
+        "tunic",
+        "tww",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "yoshisisland",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2",
+        "zork_grand_inquisitor"
+    },
+    "playstation 4": {
+        "against_the_storm",
+        "ahit",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "cuphead",
+        "dark_souls_3",
+        "deltarune",
+        "dredge",
+        "dsr",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "jakanddaxter",
+        "messenger",
+        "monster_sanctuary",
+        "nine_sols",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "playstation": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "apeescape",
+        "balatro",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "dark_souls_2",
+        "dark_souls_3",
+        "deltarune",
+        "dredge",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "fm",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "lego_star_wars_tcs",
+        "messenger",
+        "mm2",
+        "mm3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "nine_sols",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "portal2",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "rac2",
+        "rac3",
+        "raft",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "satisfactory",
+        "shorthike",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "4": {
+        "against_the_storm",
+        "ahit",
+        "alttp",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "cuphead",
+        "dark_souls_3",
+        "deltarune",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "jakanddaxter",
+        "messenger",
+        "monster_sanctuary",
+        "nine_sols",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness",
+        "wl4",
+        "xenobladex"
+    },
+    "nintendo switch": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "doronko_wanko",
+        "dredge",
+        "dsr",
+        "enderlilies",
+        "factorio",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "megamix",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pokemon_frlg",
+        "portal2",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "shorthike",
+        "smo",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "tboir",
+        "terraria",
+        "timespinner",
+        "tunic",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2"
+    },
+    "nintendo": {
+        "against_the_storm",
+        "ahit",
+        "albw",
+        "alttp",
+        "animal_well",
+        "balatro",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "ctjot",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "deltarune",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doronko_wanko",
+        "dredge",
+        "dsr",
+        "dw1",
+        "earthbound",
+        "enderlilies",
+        "factorio",
+        "factorio_saws",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "landstalker",
+        "lufia2ac",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "megamix",
+        "messenger",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "papermario",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "portal2",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "soe",
+        "sonic_heroes",
+        "star_fox_64",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "tboir",
+        "terraria",
+        "tetrisattack",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "tww",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "wl",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "zelda2"
+    },
+    "switch": {
+        "against_the_storm",
+        "ahit",
+        "alttp",
+        "animal_well",
+        "balatro",
+        "banjo_tooie",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "deltarune",
+        "dk64",
+        "dontstarvetogether",
+        "doronko_wanko",
+        "dredge",
+        "dsr",
+        "enderlilies",
+        "factorio",
+        "factorio_saws",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "luigismansion",
+        "marioland2",
+        "megamix",
+        "messenger",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm_recomp",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "papermario",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "pokemon_frlg",
+        "portal2",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "shorthike",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "tboir",
+        "terraria",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "tunic",
+        "tww",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "wl4",
+        "yoshisisland",
+        "zelda2"
+    },
+    "xbox series x|s": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "dredge",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "momodoramoonlitfarewell",
+        "nine_sols",
+        "ori_wotw",
+        "outer_wilds",
+        "phoa",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "ror2",
+        "satisfactory",
+        "subnautica",
+        "trackmania",
+        "tunic",
+        "vampire_survivors"
+    },
+    "xbox": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "cuphead",
+        "dark_souls_2",
+        "dark_souls_3",
+        "deltarune",
+        "dredge",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "lego_star_wars_tcs",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "portal2",
+        "powerwashsimulator",
+        "raft",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "satisfactory",
+        "shorthike",
+        "simpsonshitnrun",
+        "sims4",
+        "sonic_heroes",
+        "sotn",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "series": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "doom_1993",
+        "doom_ii",
+        "dredge",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "momodoramoonlitfarewell",
+        "nine_sols",
+        "ori_wotw",
+        "outer_wilds",
+        "phoa",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "ror2",
+        "satisfactory",
+        "subnautica",
+        "trackmania",
+        "tunic",
+        "vampire_survivors"
+    },
+    "x|s": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "dredge",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "momodoramoonlitfarewell",
+        "nine_sols",
+        "ori_wotw",
+        "outer_wilds",
+        "phoa",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "ror2",
+        "satisfactory",
+        "subnautica",
+        "trackmania",
+        "tunic",
+        "vampire_survivors"
+    },
+    "playstation 5": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "crosscode",
+        "crystal_project",
+        "deltarune",
+        "dredge",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "nine_sols",
+        "outer_wilds",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "ror2",
+        "satisfactory",
+        "subnautica",
+        "trackmania",
+        "tunic",
+        "vampire_survivors"
+    },
+    "5": {
+        "against_the_storm",
+        "ahit",
+        "animal_well",
+        "balatro",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "crosscode",
+        "crystal_project",
+        "deltarune",
+        "dredge",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "nine_sols",
+        "outer_wilds",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "raft",
+        "ror2",
+        "satisfactory",
+        "subnautica",
+        "trackmania",
+        "tunic",
+        "vampire_survivors"
+    },
+    "colony simulator": {
+        "against_the_storm",
+        "rimworld"
+    },
+    "colony": {
+        "against_the_storm",
+        "civ_6",
+        "rimworld"
+    },
+    "roguelite": {
+        "against_the_storm",
+        "brotato",
+        "hades",
+        "ror1",
+        "ror2",
+        "vampire_survivors"
+    },
+    "base building": {
+        "against_the_storm",
+        "rimworld",
+        "satisfactory"
+    },
+    "base": {
+        "against_the_storm",
+        "rimworld",
+        "satisfactory"
+    },
+    "building": {
+        "against_the_storm",
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "rac3",
+        "rimworld",
+        "satisfactory",
+        "sims4",
+        "sly1"
+    },
+    "city builder": {
+        "against_the_storm",
+        "civ_6"
+    },
+    "city": {
+        "against_the_storm",
+        "civ_6"
+    },
+    "builder": {
+        "against_the_storm",
+        "civ_6"
+    },
+    "a hat in time": {
+        "ahit"
+    },
+    "a": {
+        "ahit",
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "dark_souls_3",
+        "dk64",
+        "duke3d",
+        "hcniko",
+        "marioland2",
+        "metroidprime",
+        "shorthike",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "zelda2"
+    },
+    "hat": {
+        "ahit"
+    },
+    "in": {
+        "ahit",
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "bfbb",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "dark_souls_3",
+        "dk64",
+        "dkc",
+        "duke3d",
+        "earthbound",
+        "jakanddaxter",
+        "kdl3",
+        "kh1",
+        "luigismansion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "rac3",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "sonic_heroes",
+        "spyro3",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "waffles",
+        "zelda2"
+    },
+    "time": {
+        "ahit",
+        "alttp",
+        "apeescape",
+        "ctjot",
+        "cv64",
+        "diddy_kong_racing",
+        "earthbound",
+        "faxanadu",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "mm_recomp",
+        "oot",
+        "outer_wilds",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "spyro3",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "trackmania",
+        "v6",
+        "witness",
+        "wl4"
+    },
+    "third person": {
+        "ahit",
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "bomb_rush_cyberfunk",
+        "cat_quest",
+        "crystal_project",
+        "cv64",
+        "dark_souls_2",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "dsr",
+        "dw1",
+        "getting_over_it",
+        "gstla",
+        "hcniko",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "megamix",
+        "minecraft",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "placidplasticducksim",
+        "rac2",
+        "rac3",
+        "raft",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "swr",
+        "toontown",
+        "tp",
+        "trackmania",
+        "ttyd",
+        "tww",
+        "xenobladex"
+    },
+    "third": {
+        "ahit",
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "bomb_rush_cyberfunk",
+        "cat_quest",
+        "crystal_project",
+        "cv64",
+        "dark_souls_2",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "dsr",
+        "dw1",
+        "getting_over_it",
+        "gstla",
+        "hcniko",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "megamix",
+        "minecraft",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "placidplasticducksim",
+        "rac2",
+        "rac3",
+        "raft",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "swr",
+        "toontown",
+        "tp",
+        "trackmania",
+        "ttyd",
+        "tww",
+        "xenobladex"
+    },
+    "person": {
+        "ahit",
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "bomb_rush_cyberfunk",
+        "cat_quest",
+        "cccharles",
+        "crystal_project",
+        "cv64",
+        "dark_souls_2",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "doom_1993",
+        "doom_ii",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "earthbound",
+        "fm",
+        "getting_over_it",
+        "gstla",
+        "hcniko",
+        "inscryption_beta",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "megamix",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "outer_wilds",
+        "papermario",
+        "placidplasticducksim",
+        "portal2",
+        "powerwashsimulator",
+        "quake",
+        "rac2",
+        "rac3",
+        "raft",
+        "refunct",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "satisfactory",
+        "shivers",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "soe",
+        "sonic_heroes",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "tloz_ph",
+        "tloz_st",
+        "toontown",
+        "tp",
+        "trackmania",
+        "ttyd",
+        "tww",
+        "v6",
+        "witness",
+        "xenobladex",
+        "yugiohddm",
+        "zork_grand_inquisitor"
+    },
+    "first person": {
+        "ahit",
+        "cccharles",
+        "cv64",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "fm",
+        "inscryption_beta",
+        "metroidprime",
+        "minecraft",
+        "outer_wilds",
+        "portal2",
+        "powerwashsimulator",
+        "quake",
+        "raft",
+        "refunct",
+        "satisfactory",
+        "shivers",
+        "sims4",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "trackmania",
+        "witness",
+        "yugiohddm",
+        "zork_grand_inquisitor"
+    },
+    "first": {
+        "ahit",
+        "cccharles",
+        "cv64",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "fm",
+        "inscryption_beta",
+        "metroidprime",
+        "minecraft",
+        "outer_wilds",
+        "portal2",
+        "powerwashsimulator",
+        "quake",
+        "raft",
+        "refunct",
+        "satisfactory",
+        "shivers",
+        "sims4",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "trackmania",
+        "witness",
+        "yugiohddm",
+        "zork_grand_inquisitor"
+    },
+    "platform": {
+        "ahit",
+        "animal_well",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "celeste",
+        "celeste_open_world",
+        "crystal_project",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "enderlilies",
+        "faxanadu",
+        "getting_over_it",
+        "hcniko",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kdl3",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "marioland2",
+        "messenger",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "mzm",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "phoa",
+        "portal2",
+        "rabi_ribi",
+        "rac2",
+        "rac3",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "sa2b",
+        "sadx",
+        "simpsonshitnrun",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "terraria",
+        "timespinner",
+        "ttyd",
+        "ufo50",
+        "v6",
+        "waffles",
+        "wl",
+        "wl4",
+        "yoshisisland",
+        "yugiohddm",
+        "zelda2"
+    },
+    "adventure": {
+        "ahit",
+        "albw",
+        "alttp",
+        "animal_well",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "deltarune",
+        "dk64",
+        "dontstarvetogether",
+        "dredge",
+        "dsr",
+        "dw1",
+        "earthbound",
+        "enderlilies",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "getting_over_it",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "jakanddaxter",
+        "k64",
+        "kdl3",
+        "kh1",
+        "kh2",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "messenger",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mlss",
+        "mm2",
+        "mm_recomp",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "mzm",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "osrs",
+        "outer_wilds",
+        "papermario",
+        "phoa",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "portal2",
+        "rabi_ribi",
+        "rac2",
+        "rac3",
+        "raft",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "sa2b",
+        "sadx",
+        "satisfactory",
+        "shivers",
+        "shorthike",
+        "simpsonshitnrun",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "stardew_valley",
+        "subnautica",
+        "terraria",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "ttyd",
+        "tunic",
+        "tww",
+        "ufo50",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "witness",
+        "wl4",
+        "xenobladex",
+        "zelda2",
+        "zork_grand_inquisitor"
+    },
+    "action": {
+        "ahit",
+        "albw",
+        "alttp",
+        "animal_well",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cat_quest",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "ctjot",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "deltarune",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_1993",
+        "doom_ii",
+        "doronko_wanko",
+        "dredge",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "earthbound",
+        "enderlilies",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "getting_over_it",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kdl3",
+        "kh1",
+        "kh2",
+        "ladx_beta",
+        "landstalker",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "messenger",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmbn3",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "papermario",
+        "phoa",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "portal2",
+        "quake",
+        "rabi_ribi",
+        "rac2",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "sa2b",
+        "sadx",
+        "sc2",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "soe",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "swr",
+        "terraria",
+        "tetrisattack",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "trackmania",
+        "ttyd",
+        "tunic",
+        "tww",
+        "tyrian",
+        "ufo50",
+        "v6",
+        "vampire_survivors",
+        "waffles",
+        "wl",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "zelda2"
+    },
+    "xbox one": {
+        "ahit",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "cuphead",
+        "dark_souls_3",
+        "dredge",
+        "dsr",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "messenger",
+        "monster_sanctuary",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "one": {
+        "ahit",
+        "balatro",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "cccharles",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "cuphead",
+        "dark_souls_3",
+        "dredge",
+        "dsr",
+        "enderlilies",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "lego_star_wars_tcs",
+        "messenger",
+        "monster_sanctuary",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "outer_wilds",
+        "overcooked2",
+        "phoa",
+        "pinball_fx3",
+        "placidplasticducksim",
+        "portal2",
+        "powerwashsimulator",
+        "refunct",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "shorthike",
+        "sims4",
+        "sotn",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "trackmania",
+        "tunic",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "witness"
+    },
+    "mac": {
+        "ahit",
+        "balatro",
+        "blasphemous",
+        "brotato",
+        "cat_quest",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "civ_6",
+        "crosscode",
+        "crystal_project",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "factorio",
+        "factorio_saws",
+        "getting_over_it",
+        "hades",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "landstalker",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "monster_sanctuary",
+        "musedash",
+        "nine_sols",
+        "osrs",
+        "overcooked2",
+        "peggle_nights",
+        "phoa",
+        "portal2",
+        "quake",
+        "refunct",
+        "rimworld",
+        "rogue_legacy",
+        "ror1",
+        "sc2",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "subnautica",
+        "swr",
+        "terraria",
+        "timespinner",
+        "toontown",
+        "tunic",
+        "tyrian",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "witness",
+        "zork_grand_inquisitor"
+    },
+    "spaceship": {
+        "ahit",
+        "civ_6",
+        "duke3d",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "star_fox_64",
+        "v6"
+    },
+    "mafia": {
+        "ahit"
+    },
+    "crowdfunding - kickstarter": {
+        "ahit",
+        "crosscode",
+        "factorio",
+        "hk",
+        "rimworld",
+        "ror1",
+        "timespinner",
+        "undertale"
+    },
+    "crowdfunding": {
+        "ahit",
+        "crosscode",
+        "factorio",
+        "hk",
+        "rabi_ribi",
+        "rimworld",
+        "ror1",
+        "timespinner",
+        "undertale"
+    },
+    "-": {
+        "ahit",
+        "alttp",
+        "apeescape",
+        "balatro",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "crosscode",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dredge",
+        "dw1",
+        "earthbound",
+        "factorio",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "fm",
+        "gstla",
+        "hades",
+        "hk",
+        "into_the_breach",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "overcooked2",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "rimworld",
+        "ror1",
+        "ror2",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "smw",
+        "sotn",
+        "star_fox_64",
+        "stardew_valley",
+        "swr",
+        "terraria",
+        "timespinner",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "trackmania",
+        "tww",
+        "undertale",
+        "waffles",
+        "witness",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "yugiohddm",
+        "zelda2"
+    },
+    "kickstarter": {
+        "ahit",
+        "crosscode",
+        "factorio",
+        "hk",
+        "rimworld",
+        "ror1",
+        "timespinner",
+        "undertale"
+    },
+    "collectibles": {
+        "ahit",
+        "albw",
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "ladx_beta",
+        "mlss",
+        "oot",
+        "papermario",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "spyro3",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "v6",
+        "wl4"
+    },
+    "wall jump": {
+        "ahit",
+        "cvcotm",
+        "metroidfusion",
+        "mmx3",
+        "mzm",
+        "oribf",
+        "rac3",
+        "simpsonshitnrun",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms"
+    },
+    "wall": {
+        "ahit",
+        "banjo_tooie",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mmx3",
+        "mzm",
+        "oot",
+        "oribf",
+        "papermario",
+        "rac3",
+        "rogue_legacy",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "tmc",
+        "ttyd",
+        "undertale"
+    },
+    "jump": {
+        "ahit",
+        "cvcotm",
+        "doom_ii",
+        "metroidfusion",
+        "mmx3",
+        "mzm",
+        "oribf",
+        "rac3",
+        "simpsonshitnrun",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms"
+    },
+    "action-adventure": {
+        "ahit",
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "crosscode",
+        "cv64",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dontstarvetogether",
+        "hk",
+        "kh1",
+        "ladx_beta",
+        "landstalker",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "rabi_ribi",
+        "rac3",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "sotn",
+        "ss",
+        "terraria",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tww",
+        "xenobladex",
+        "zelda2"
+    },
+    "collection marathon": {
+        "ahit",
+        "banjo_tooie",
+        "dk64",
+        "k64",
+        "sms"
+    },
+    "collection": {
+        "ahit",
+        "banjo_tooie",
+        "dk64",
+        "fm",
+        "k64",
+        "shorthike",
+        "sms",
+        "stardew_valley",
+        "toontown",
+        "ufo50",
+        "yugiohddm"
+    },
+    "marathon": {
+        "ahit",
+        "banjo_tooie",
+        "dk64",
+        "k64",
+        "sms"
+    },
+    "snow": {
+        "ahit",
+        "albw",
+        "celeste",
+        "celeste_open_world",
+        "cv_dos",
+        "diddy_kong_racing",
+        "dkc",
+        "ffta",
+        "gstla",
+        "hcniko",
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "shorthike",
+        "sm64ex",
+        "sm64hacks",
+        "stardew_valley",
+        "terraria"
+    },
+    "steam greenlight": {
+        "ahit",
+        "ror1",
+        "timespinner"
+    },
+    "steam": {
+        "ahit",
+        "blasphemous",
+        "civ_6",
+        "cuphead",
+        "dark_souls_2",
+        "deltarune",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "factorio",
+        "getting_over_it",
+        "hcniko",
+        "hk",
+        "landstalker",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "musedash",
+        "nine_sols",
+        "oribf",
+        "peggle_nights",
+        "pinball_fx3",
+        "portal2",
+        "quake",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "tunic",
+        "v6",
+        "witness"
+    },
+    "greenlight": {
+        "ahit",
+        "ror1",
+        "timespinner"
+    },
+    "3d platformer": {
+        "ahit",
+        "bfbb",
+        "bomb_rush_cyberfunk",
+        "hcniko",
+        "refunct",
+        "shorthike",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "sonic_heroes"
+    },
+    "3d": {
+        "ahit",
+        "albw",
+        "apeescape",
+        "bfbb",
+        "bomb_rush_cyberfunk",
+        "crystal_project",
+        "cv64",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dk64",
+        "dredge",
+        "dsr",
+        "duke3d",
+        "dw1",
+        "hcniko",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oot",
+        "powerwashsimulator",
+        "quake",
+        "rac3",
+        "refunct",
+        "shorthike",
+        "simpsonshitnrun",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "tloz_ph",
+        "tloz_st",
+        "trackmania",
+        "ttyd",
+        "tunic",
+        "v6",
+        "witness",
+        "xenobladex"
+    },
+    "platformer": {
+        "ahit",
+        "bfbb",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "hcniko",
+        "hk",
+        "jakanddaxter",
+        "oribf",
+        "rac3",
+        "refunct",
+        "shorthike",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "v6"
+    },
+    "swimming": {
+        "ahit",
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "hcniko",
+        "jakanddaxter",
+        "kh1",
+        "minecraft",
+        "oot",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "spyro3",
+        "subnautica",
+        "terraria",
+        "tloz_ooa",
+        "tmc",
+        "wl4"
+    },
+    "pax east 2014": {
+        "ahit",
+        "subnautica"
+    },
+    "pax": {
+        "ahit",
+        "albw",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dark_souls_3",
+        "dontstarvetogether",
+        "duke3d",
+        "mario_kart_double_dash",
+        "minecraft",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "smo",
+        "ss",
+        "stardew_valley",
+        "subnautica",
+        "terraria",
+        "timespinner",
+        "tloz_st",
+        "tunic",
+        "ufo50",
+        "witness",
+        "xenobladex"
+    },
+    "east": {
+        "ahit",
+        "cuphead",
+        "minecraft",
+        "oribf",
+        "subnautica"
+    },
+    "2014": {
+        "ahit",
+        "albw",
+        "mario_kart_double_dash",
+        "minecraft",
+        "oribf",
+        "ror1",
+        "subnautica"
+    },
+    "time travel": {
+        "ahit",
+        "apeescape",
+        "ctjot",
+        "earthbound",
+        "mm_recomp",
+        "oot",
+        "outer_wilds",
+        "pmd_eos",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "travel": {
+        "ahit",
+        "albw",
+        "alttp",
+        "apeescape",
+        "ctjot",
+        "doom_ii",
+        "earthbound",
+        "mm_recomp",
+        "oot",
+        "outer_wilds",
+        "pmd_eos",
+        "portal2",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "cute": {
+        "ahit",
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "hcniko",
+        "musedash",
+        "rabi_ribi",
+        "rotn",
+        "shorthike",
+        "sims4",
+        "tunic",
+        "undertale"
+    },
+    "female protagonist": {
+        "ahit",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "cv_dos",
+        "dkc2",
+        "earthbound",
+        "enderlilies",
+        "hcniko",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "portal2",
+        "rabi_ribi",
+        "rogue_legacy",
+        "rotn",
+        "shorthike",
+        "sm",
+        "sm_map_rando",
+        "timespinner"
+    },
+    "female": {
+        "ahit",
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "enderlilies",
+        "ffta",
+        "hcniko",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "portal2",
+        "rabi_ribi",
+        "rogue_legacy",
+        "rotn",
+        "shorthike",
+        "sm",
+        "sm_map_rando",
+        "timespinner",
+        "tloz_ooa",
+        "wl4"
+    },
+    "protagonist": {
+        "ahit",
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc",
+        "dkc2",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "enderlilies",
+        "faxanadu",
+        "ffta",
+        "getting_over_it",
+        "gstla",
+        "hcniko",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "portal2",
+        "quake",
+        "rabi_ribi",
+        "rac3",
+        "rogue_legacy",
+        "rotn",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "ss",
+        "stardew_valley",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "v6",
+        "wl4",
+        "zelda2",
+        "zork_grand_inquisitor"
+    },
+    "crowd funded": {
+        "ahit",
+        "crosscode",
+        "hk",
+        "ror1",
+        "timespinner"
+    },
+    "crowd": {
+        "ahit",
+        "crosscode",
+        "hk",
+        "ror1",
+        "timespinner"
+    },
+    "funded": {
+        "ahit",
+        "crosscode",
+        "hk",
+        "ror1",
+        "timespinner"
+    },
+    "a link between worlds": {
+        "albw"
+    },
+    "the legend of zelda: a link between worlds": {
+        "albw"
+    },
+    "legend": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "tww"
+    },
+    "of": {
+        "albw",
+        "alttp",
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "earthbound",
+        "enderlilies",
+        "ffta",
+        "hades",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "lufia2ac",
+        "luigismansion",
+        "metroidprime",
+        "mm_recomp",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "ror1",
+        "ror2",
+        "rotn",
+        "sc2",
+        "sly1",
+        "smo",
+        "sms",
+        "soe",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "tboir",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "tww",
+        "zelda2"
+    },
+    "zelda:": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "tww"
+    },
+    "link": {
+        "albw",
+        "alttp",
+        "mlss",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "tloz_ph",
+        "zelda2"
+    },
+    "between": {
+        "albw"
+    },
+    "worlds": {
+        "albw",
+        "alttp",
+        "oot"
+    },
+    "puzzle": {
+        "albw",
+        "alttp",
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "crosscode",
+        "cv64",
+        "deltarune",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "inscryption_beta",
+        "into_the_breach",
+        "ladx_beta",
+        "lufia2ac",
+        "mm3",
+        "mm_recomp",
+        "oot",
+        "oribf",
+        "outer_wilds",
+        "peggle_nights",
+        "placidplasticducksim",
+        "portal2",
+        "refunct",
+        "rogue_legacy",
+        "shivers",
+        "spyro3",
+        "ss",
+        "tetrisattack",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "tunic",
+        "tww",
+        "ufo50",
+        "undertale",
+        "v6",
+        "witness",
+        "wl4",
+        "yugiohddm",
+        "zork_grand_inquisitor"
+    },
+    "historical": {
+        "albw",
+        "civ_6",
+        "fm",
+        "soe",
+        "ss"
+    },
+    "open world": {
+        "albw",
+        "cccharles",
+        "dontstarvetogether",
+        "dredge",
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "osrs",
+        "outer_wilds",
+        "phoa",
+        "pokemon_rb",
+        "satisfactory",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sotn",
+        "ss",
+        "subnautica",
+        "terraria",
+        "tloz",
+        "toontown",
+        "witness",
+        "xenobladex"
+    },
+    "open": {
+        "albw",
+        "cccharles",
+        "dontstarvetogether",
+        "dredge",
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "osrs",
+        "outer_wilds",
+        "phoa",
+        "pokemon_rb",
+        "satisfactory",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sotn",
+        "ss",
+        "subnautica",
+        "terraria",
+        "tloz",
+        "toontown",
+        "witness",
+        "xenobladex"
+    },
+    "world": {
+        "albw",
+        "alttp",
+        "cccharles",
+        "civ_6",
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "dw1",
+        "earthbound",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "osrs",
+        "outer_wilds",
+        "phoa",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "portal2",
+        "satisfactory",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "smw",
+        "sotn",
+        "ss",
+        "subnautica",
+        "terraria",
+        "tloz",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "toontown",
+        "v6",
+        "waffles",
+        "witness",
+        "xenobladex",
+        "yoshisisland",
+        "yugioh06",
+        "zelda2"
+    },
+    "sandbox": {
+        "albw",
+        "dontstarvetogether",
+        "factorio",
+        "factorio_saws",
+        "faxanadu",
+        "landstalker",
+        "minecraft",
+        "oot",
+        "osrs",
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "satisfactory",
+        "sims4",
+        "smo",
+        "sms",
+        "stardew_valley",
+        "terraria",
+        "xenobladex"
+    },
+    "nintendo 3ds": {
+        "albw",
+        "ff1",
+        "luigismansion",
+        "marioland2",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "v6",
+        "wl",
+        "wl4",
+        "zelda2"
+    },
+    "3ds": {
+        "albw",
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "luigismansion",
+        "marioland2",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "v6",
+        "waffles",
+        "wl",
+        "wl4",
+        "zelda2"
+    },
+    "anthropomorphism": {
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "mk64",
+        "mlss",
+        "papermario",
+        "portal2",
+        "rac3",
+        "shorthike",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "spyro3",
+        "star_fox_64",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "undertale"
+    },
+    "real-time combat": {
+        "albw",
+        "alttp",
+        "cv64",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "kh1",
+        "ladx_beta",
+        "landstalker",
+        "metroidprime",
+        "minecraft",
+        "oot",
+        "quake",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "xenobladex",
+        "zelda2"
+    },
+    "real-time": {
+        "albw",
+        "alttp",
+        "cv64",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "kh1",
+        "ladx_beta",
+        "landstalker",
+        "metroidprime",
+        "minecraft",
+        "oot",
+        "quake",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "xenobladex",
+        "zelda2"
+    },
+    "combat": {
+        "albw",
+        "alttp",
+        "blasphemous",
+        "crystal_project",
+        "cv64",
+        "dark_souls_2",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "ffmq",
+        "ffta",
+        "fm",
+        "gstla",
+        "kh1",
+        "ladx_beta",
+        "landstalker",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oot",
+        "papermario",
+        "quake",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "undertale",
+        "xenobladex",
+        "zelda2"
+    },
+    "in-game achievements": {
+        "albw",
+        "ror1"
+    },
+    "in-game": {
+        "albw",
+        "civ_6",
+        "cv_dos",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "minecraft",
+        "ror1",
+        "simpsonshitnrun",
+        "spyro3",
+        "tloz_st",
+        "trackmania",
+        "ttyd"
+    },
+    "achievements": {
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "blasphemous",
+        "cuphead",
+        "dark_souls_2",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "hcniko",
+        "hk",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "musedash",
+        "nine_sols",
+        "oot",
+        "oribf",
+        "pinball_fx3",
+        "portal2",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "shorthike",
+        "sonic_heroes",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "tunic",
+        "v6",
+        "witness"
+    },
+    "infinite ammo": {
+        "albw",
+        "metroidfusion"
+    },
+    "infinite": {
+        "albw",
+        "metroidfusion",
+        "ror1"
+    },
+    "ammo": {
+        "albw",
+        "metroidfusion"
+    },
+    "archery": {
+        "albw",
+        "alttp",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tww"
+    },
+    "2.5d": {
+        "albw",
+        "dkc",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "k64",
+        "ttyd"
+    },
+    "damsel in distress": {
+        "albw",
+        "alttp",
+        "earthbound",
+        "kh1",
+        "metroidprime",
+        "oot",
+        "papermario",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "waffles",
+        "zelda2"
+    },
+    "damsel": {
+        "albw",
+        "alttp",
+        "earthbound",
+        "kh1",
+        "metroidprime",
+        "oot",
+        "papermario",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "waffles",
+        "zelda2"
+    },
+    "distress": {
+        "albw",
+        "alttp",
+        "earthbound",
+        "kh1",
+        "metroidprime",
+        "oot",
+        "papermario",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "waffles",
+        "zelda2"
+    },
+    "princess": {
+        "albw",
+        "alttp",
+        "kh1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "mario_kart_double_dash",
+        "mk64",
+        "mlss",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "smw",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "ttyd",
+        "waffles"
+    },
+    "unlockable difficulty level": {
+        "albw",
+        "cuphead",
+        "gstla",
+        "metroidprime",
+        "mk64",
+        "musedash",
+        "mzm"
+    },
+    "unlockable": {
+        "albw",
+        "cuphead",
+        "gstla",
+        "metroidprime",
+        "mk64",
+        "musedash",
+        "mzm"
+    },
+    "difficulty": {
+        "albw",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm2",
+        "musedash",
+        "mzm",
+        "star_fox_64",
+        "vampire_survivors"
+    },
+    "level": {
+        "albw",
+        "alttp",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "gstla",
+        "kh1",
+        "ladx_beta",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "musedash",
+        "mzm",
+        "oot",
+        "papermario",
+        "peggle_nights",
+        "rabi_ribi",
+        "ror1",
+        "rotn",
+        "sms",
+        "spyro3",
+        "star_fox_64",
+        "tloz_ooa",
+        "tloz_oos",
+        "trackmania",
+        "ttyd",
+        "v6",
+        "wargroove",
+        "wargroove2"
+    },
+    "treasure chest": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "gstla",
+        "ladx_beta",
+        "luigismansion",
+        "minecraft",
+        "rogue_legacy",
+        "shorthike",
+        "smo",
+        "spyro3",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "treasure": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "gstla",
+        "ladx_beta",
+        "landstalker",
+        "luigismansion",
+        "minecraft",
+        "rogue_legacy",
+        "shorthike",
+        "smo",
+        "spyro3",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "chest": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "gstla",
+        "ladx_beta",
+        "luigismansion",
+        "minecraft",
+        "rogue_legacy",
+        "shorthike",
+        "smo",
+        "spyro3",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "digital distribution": {
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "crosscode",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "factorio",
+        "getting_over_it",
+        "minecraft",
+        "mlss",
+        "musedash",
+        "oot",
+        "oribf",
+        "pinball_fx3",
+        "portal2",
+        "quake",
+        "rogue_legacy",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "sotn",
+        "terraria",
+        "timespinner",
+        "tloz_oos",
+        "tmc",
+        "tunic",
+        "ufo50",
+        "v6",
+        "waffles",
+        "witness",
+        "wl4",
+        "yoshisisland"
+    },
+    "digital": {
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "crosscode",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "factorio",
+        "getting_over_it",
+        "minecraft",
+        "mlss",
+        "musedash",
+        "oot",
+        "oribf",
+        "pinball_fx3",
+        "portal2",
+        "quake",
+        "rogue_legacy",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "sotn",
+        "terraria",
+        "timespinner",
+        "tloz",
+        "tloz_oos",
+        "tmc",
+        "tunic",
+        "ufo50",
+        "v6",
+        "waffles",
+        "witness",
+        "wl4",
+        "yoshisisland"
+    },
+    "distribution": {
+        "albw",
+        "apeescape",
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "crosscode",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_ii",
+        "dredge",
+        "duke3d",
+        "factorio",
+        "getting_over_it",
+        "minecraft",
+        "mlss",
+        "musedash",
+        "oot",
+        "oribf",
+        "pinball_fx3",
+        "portal2",
+        "quake",
+        "rogue_legacy",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "sotn",
+        "terraria",
+        "timespinner",
+        "tloz_oos",
+        "tmc",
+        "tunic",
+        "ufo50",
+        "v6",
+        "waffles",
+        "witness",
+        "wl4",
+        "yoshisisland"
+    },
+    "save point": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "gstla",
+        "jakanddaxter",
+        "kh1",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mzm",
+        "papermario",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "ttyd",
+        "v6"
+    },
+    "save": {
+        "albw",
+        "alttp",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "gstla",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "papermario",
+        "rac3",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "sotn",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd",
+        "v6",
+        "waffles",
+        "yoshisisland",
+        "zelda2"
+    },
+    "point": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "gstla",
+        "jakanddaxter",
+        "kh1",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mzm",
+        "papermario",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "ttyd",
+        "v6"
+    },
+    "rpg elements": {
+        "albw",
+        "banjo_tooie",
+        "cv_dos",
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "minecraft",
+        "mlss",
+        "mzm",
+        "oribf",
+        "sotn",
+        "zelda2"
+    },
+    "rpg": {
+        "albw",
+        "banjo_tooie",
+        "chainedechoes",
+        "crystal_project",
+        "cv_dos",
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "minecraft",
+        "mlss",
+        "mzm",
+        "oribf",
+        "papermario",
+        "sotn",
+        "ttyd",
+        "zelda2"
+    },
+    "elements": {
+        "albw",
+        "banjo_tooie",
+        "cv_dos",
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "minecraft",
+        "mlss",
+        "mzm",
+        "oribf",
+        "sotn",
+        "zelda2"
+    },
+    "minigames": {
+        "albw",
+        "apeescape",
+        "dk64",
+        "gstla",
+        "hcniko",
+        "k64",
+        "kh1",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "rotn",
+        "spyro3",
+        "stardew_valley",
+        "tloz_ooa",
+        "tloz_ph",
+        "toontown",
+        "wl4"
+    },
+    "self-referential humor": {
+        "albw",
+        "deltarune",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "metroidfusion",
+        "mlss",
+        "papermario",
+        "ttyd"
+    },
+    "self-referential": {
+        "albw",
+        "deltarune",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "metroidfusion",
+        "mlss",
+        "papermario",
+        "ttyd"
+    },
+    "humor": {
+        "albw",
+        "deltarune",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "getting_over_it",
+        "metroidfusion",
+        "mlss",
+        "papermario",
+        "ttyd"
+    },
+    "medieval": {
+        "albw",
+        "dark_souls_2",
+        "dark_souls_3",
+        "quake",
+        "rogue_legacy",
+        "soe",
+        "ss"
+    },
+    "pax prime 2013": {
+        "albw",
+        "rogue_legacy",
+        "terraria"
+    },
+    "prime": {
+        "albw",
+        "dark_souls_3",
+        "dredge",
+        "mario_kart_double_dash",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "ss",
+        "terraria",
+        "timespinner",
+        "witness",
+        "xenobladex"
+    },
+    "2013": {
+        "albw",
+        "dark_souls_2",
+        "rogue_legacy",
+        "terraria"
+    },
+    "prequel": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "disorientation zone": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc"
+    },
+    "disorientation": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "oot",
+        "rogue_legacy",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc",
+        "wl4"
+    },
+    "zone": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc"
+    },
+    "gamescom 2013": {
+        "albw"
+    },
+    "gamescom": {
+        "albw",
+        "minecraft",
+        "oribf",
+        "ss",
+        "terraria",
+        "tloz_st",
+        "xenobladex"
+    },
+    "sword & sorcery": {
+        "albw",
+        "dark_souls_2",
+        "dark_souls_3",
+        "ffmq",
+        "kh1",
+        "ladx_beta",
+        "mm_recomp",
+        "oot",
+        "spyro3",
+        "ss",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "tww"
+    },
+    "sword": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "dark_souls_3",
+        "ffmq",
+        "hk",
+        "kh1",
+        "ladx_beta",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "spyro3",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc",
+        "tunic",
+        "tww",
+        "zelda2"
+    },
+    "&": {
+        "albw",
+        "balatro",
+        "dark_souls_2",
+        "dark_souls_3",
+        "ffmq",
+        "fm",
+        "inscryption_beta",
+        "kh1",
+        "ladx_beta",
+        "mlss",
+        "mm_recomp",
+        "oot",
+        "rac2",
+        "rac3",
+        "simpsonshitnrun",
+        "spyro3",
+        "ss",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "tww",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "sorcery": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "dark_souls_3",
+        "ffmq",
+        "kh1",
+        "ladx_beta",
+        "mm_recomp",
+        "oot",
+        "spyro3",
+        "ss",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc",
+        "tww",
+        "zelda2"
+    },
+    "sequel": {
+        "albw",
+        "alttp",
+        "banjo_tooie",
+        "civ_6",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dk64",
+        "dkc2",
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "earthbound",
+        "ffta",
+        "gstla",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "oot",
+        "portal2",
+        "smo",
+        "sms",
+        "ttyd",
+        "wl4",
+        "zelda2"
+    },
+    "polygonal 3d": {
+        "albw",
+        "apeescape",
+        "cv64",
+        "dk64",
+        "duke3d",
+        "dw1",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oot",
+        "quake",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "tloz_ph",
+        "tloz_st",
+        "trackmania",
+        "ttyd",
+        "witness",
+        "xenobladex"
+    },
+    "polygonal": {
+        "albw",
+        "apeescape",
+        "cv64",
+        "dk64",
+        "duke3d",
+        "dw1",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oot",
+        "quake",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sotn",
+        "spyro3",
+        "ss",
+        "star_fox_64",
+        "tloz_ph",
+        "tloz_st",
+        "trackmania",
+        "ttyd",
+        "witness",
+        "xenobladex"
+    },
+    "reversible cover art": {
+        "albw",
+        "metroidprime",
+        "xenobladex"
+    },
+    "reversible": {
+        "albw",
+        "metroidprime",
+        "xenobladex"
+    },
+    "cover": {
+        "albw",
+        "civ_6",
+        "metroidprime",
+        "xenobladex"
+    },
+    "art": {
+        "albw",
+        "alttp",
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "crosscode",
+        "cuphead",
+        "deltarune",
+        "duke3d",
+        "hades",
+        "hcniko",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mzm",
+        "rogue_legacy",
+        "ror1",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "tloz_oos",
+        "tmc",
+        "tyrian",
+        "undertale",
+        "v6",
+        "wargroove",
+        "wargroove2",
+        "wl4",
+        "xenobladex",
+        "zelda2"
+    },
+    "multiple gameplay perspectives": {
+        "albw",
+        "metroidprime",
+        "minecraft",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "multiple": {
+        "albw",
+        "alttp",
+        "apeescape",
+        "bfbb",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "earthbound",
+        "k64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "mario_kart_double_dash",
+        "metroidprime",
+        "minecraft",
+        "mlss",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "rogue_legacy",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc",
+        "undertale",
+        "witness",
+        "wl4"
+    },
+    "gameplay": {
+        "albw",
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "pokemon_emerald",
+        "portal2",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "star_fox_64",
+        "subnautica",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "trackmania",
+        "ttyd",
+        "v6"
+    },
+    "perspectives": {
+        "albw",
+        "metroidprime",
+        "minecraft",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "mercenary": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "metroidprime",
+        "oot",
+        "quake",
+        "sc2",
+        "sm",
+        "sm_map_rando",
+        "ss"
+    },
+    "coming of age": {
+        "albw",
+        "alttp",
+        "ffta",
+        "jakanddaxter",
+        "oot",
+        "oribf",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_st",
+        "tmc"
+    },
+    "coming": {
+        "albw",
+        "alttp",
+        "ffta",
+        "jakanddaxter",
+        "oot",
+        "oribf",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_st",
+        "tmc"
+    },
+    "age": {
+        "albw",
+        "alttp",
+        "civ_6",
+        "factorio_saws",
+        "ffta",
+        "gstla",
+        "jakanddaxter",
+        "oot",
+        "oribf",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ss",
+        "tloz_st",
+        "tmc"
+    },
+    "androgyny": {
+        "albw",
+        "ffta",
+        "gstla",
+        "oot",
+        "sotn",
+        "ss"
+    },
+    "dimension travel": {
+        "albw",
+        "alttp",
+        "doom_ii",
+        "mm_recomp",
+        "portal2"
+    },
+    "dimension": {
+        "albw",
+        "alttp",
+        "doom_ii",
+        "mm_recomp",
+        "portal2"
+    },
+    "magic": {
+        "albw",
+        "alttp",
+        "ctjot",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dsr",
+        "earthbound",
+        "faxanadu",
+        "ffta",
+        "gstla",
+        "kh1",
+        "ladx_beta",
+        "rabi_ribi",
+        "rogue_legacy",
+        "sotn",
+        "terraria",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "zelda2",
+        "zork_grand_inquisitor"
+    },
+    "potion": {
+        "albw",
+        "alttp",
+        "cv_dos",
+        "gstla",
+        "kh1",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "ss",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "zelda2"
+    },
+    "living inventory": {
+        "albw",
+        "alttp",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tmc",
+        "tww"
+    },
+    "living": {
+        "albw",
+        "alttp",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tmc",
+        "tww"
+    },
+    "inventory": {
+        "albw",
+        "alttp",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "ss",
+        "tmc",
+        "tww"
+    },
+    "parallel worlds": {
+        "albw",
+        "alttp",
+        "oot"
+    },
+    "parallel": {
+        "albw",
+        "alttp",
+        "oot"
+    },
+    "descendants of other characters": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "jakanddaxter",
+        "luigismansion",
+        "mm_recomp",
+        "oot",
+        "rogue_legacy",
+        "sly1",
+        "sms",
+        "sotn",
+        "star_fox_64",
+        "tloz_ooa",
+        "tmc"
+    },
+    "descendants": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "jakanddaxter",
+        "luigismansion",
+        "mm_recomp",
+        "oot",
+        "rogue_legacy",
+        "sly1",
+        "sms",
+        "sotn",
+        "star_fox_64",
+        "tloz_ooa",
+        "tmc"
+    },
+    "other": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "jakanddaxter",
+        "luigismansion",
+        "mm_recomp",
+        "oot",
+        "rogue_legacy",
+        "sly1",
+        "sms",
+        "sotn",
+        "star_fox_64",
+        "tloz_ooa",
+        "tmc"
+    },
+    "characters": {
+        "albw",
+        "bfbb",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "mlss",
+        "mm_recomp",
+        "musedash",
+        "oot",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sotn",
+        "star_fox_64",
+        "stardew_valley",
+        "terraria",
+        "tloz_ooa",
+        "tmc",
+        "xenobladex"
+    },
+    "play coin support": {
+        "albw"
+    },
+    "play": {
+        "albw",
+        "blasphemous",
+        "civ_6",
+        "cuphead",
+        "dk64",
+        "duke3d",
+        "ori_wotw",
+        "peggle_nights",
+        "pinball_fx3",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "stardew_valley",
+        "terraria",
+        "v6",
+        "xenobladex"
+    },
+    "coin": {
+        "albw"
+    },
+    "support": {
+        "albw",
+        "animal_well",
+        "apeescape",
+        "blasphemous",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "deltarune",
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d",
+        "factorio",
+        "ffta",
+        "fm",
+        "gstla",
+        "hcniko",
+        "hk",
+        "kh1",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "mlss",
+        "mm2",
+        "mm3",
+        "oribf",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "quake",
+        "rimworld",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "sotn",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "trackmania",
+        "tunic",
+        "v6",
+        "xenobladex",
+        "zelda2"
+    },
+    "fairy": {
+        "albw",
+        "alttp",
+        "dk64",
+        "k64",
+        "landstalker",
+        "mm_recomp",
+        "oot",
+        "portal2",
+        "rabi_ribi",
+        "stardew_valley",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tww",
+        "zelda2"
+    },
+    "bow and arrow": {
+        "albw",
+        "alttp",
+        "cuphead",
+        "cv_dos",
+        "dark_souls_2",
+        "ffta",
+        "ladx_beta",
+        "minecraft",
+        "oot",
+        "rogue_legacy",
+        "ror1",
+        "ss",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "bow": {
+        "albw",
+        "alttp",
+        "cuphead",
+        "cv_dos",
+        "dark_souls_2",
+        "ffta",
+        "ladx_beta",
+        "minecraft",
+        "oot",
+        "rogue_legacy",
+        "ror1",
+        "ss",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "and": {
+        "albw",
+        "alttp",
+        "blasphemous",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "hades",
+        "jakanddaxter",
+        "ladx_beta",
+        "minecraft",
+        "mmx3",
+        "musedash",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "quake",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "sly1",
+        "ss",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "xenobladex"
+    },
+    "arrow": {
+        "albw",
+        "alttp",
+        "cuphead",
+        "cv_dos",
+        "dark_souls_2",
+        "ffta",
+        "ladx_beta",
+        "minecraft",
+        "oot",
+        "rogue_legacy",
+        "ror1",
+        "ss",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "upgradeable weapons": {
+        "albw",
+        "cv64",
+        "dark_souls_2",
+        "dk64",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mmx3",
+        "mzm",
+        "rac3",
+        "tmc",
+        "ttyd"
+    },
+    "upgradeable": {
+        "albw",
+        "cv64",
+        "dark_souls_2",
+        "dk64",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "mmx3",
+        "mzm",
+        "rac3",
+        "tmc",
+        "ttyd"
+    },
+    "weapons": {
+        "albw",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "hades",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "mmx3",
+        "mzm",
+        "rac2",
+        "rac3",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "ttyd"
+    },
+    "side quests": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "ladx_beta",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sc2",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "xenobladex"
+    },
+    "side": {
+        "albw",
+        "alttp",
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "deltarune",
+        "dkc",
+        "dkc2",
+        "enderlilies",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "getting_over_it",
+        "hk",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "lufia2ac",
+        "marioland2",
+        "megamix",
+        "messenger",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "oot",
+        "ori_wotw",
+        "oribf",
+        "papermario",
+        "peggle_nights",
+        "phoa",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "sc2",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "sotn",
+        "terraria",
+        "tetrisattack",
+        "timespinner",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "ufo50",
+        "undertale",
+        "v6",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "wl",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "zelda2"
+    },
+    "quests": {
+        "albw",
+        "alttp",
+        "dark_souls_2",
+        "ladx_beta",
+        "metroidprime",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sc2",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "xenobladex",
+        "zelda2"
+    },
+    "fast traveling": {
+        "albw",
+        "alttp",
+        "cv_dos",
+        "hk",
+        "oot",
+        "pokemon_emerald",
+        "tloz_ph",
+        "tmc",
+        "undertale"
+    },
+    "fast": {
+        "albw",
+        "alttp",
+        "cv_dos",
+        "hk",
+        "oot",
+        "pokemon_emerald",
+        "tloz_ph",
+        "tmc",
+        "undertale"
+    },
+    "traveling": {
+        "albw",
+        "alttp",
+        "cv_dos",
+        "hk",
+        "oot",
+        "pokemon_emerald",
+        "tloz_ph",
+        "tmc",
+        "undertale"
+    },
+    "context sensitive": {
+        "albw",
+        "alttp",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph"
+    },
+    "context": {
+        "albw",
+        "alttp",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph"
+    },
+    "sensitive": {
+        "albw",
+        "alttp",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph"
+    },
+    "game developers choice awards 2014": {
+        "albw"
+    },
+    "game": {
+        "albw",
+        "balatro",
+        "banjo_tooie",
+        "bfbb",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "deltarune",
+        "dk64",
+        "dkc2",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ffta",
+        "fm",
+        "gstla",
+        "hades",
+        "hcniko",
+        "hk",
+        "inscryption_beta",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mzm",
+        "oot",
+        "oribf",
+        "overcooked2",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rabi_ribi",
+        "rac3",
+        "rogue_legacy",
+        "shorthike",
+        "simpsonshitnrun",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "spyro3",
+        "ss",
+        "stardew_valley",
+        "swr",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "toontown",
+        "tunic",
+        "ufo50",
+        "v6",
+        "witness",
+        "wl",
+        "wl4",
+        "xenobladex",
+        "yugioh06",
+        "yugiohddm",
+        "zelda2"
+    },
+    "developers": {
+        "albw",
+        "jakanddaxter",
+        "kh1",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "sly1",
+        "tloz_ph"
+    },
+    "choice": {
+        "albw",
+        "alttp",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "kh1",
+        "luigismansion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oribf",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "tloz_ph",
+        "tww",
+        "waffles",
+        "yoshisisland"
+    },
+    "awards": {
+        "albw",
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "cuphead",
+        "dark_souls_3",
+        "diddy_kong_racing",
+        "dk64",
+        "doom_ii",
+        "dredge",
+        "ffta",
+        "hades",
+        "hk",
+        "jakanddaxter",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mzm",
+        "oribf",
+        "overcooked2",
+        "portal2",
+        "ror1",
+        "sly1",
+        "smo",
+        "ss",
+        "stardew_valley",
+        "swr",
+        "tloz_ph",
+        "ttyd",
+        "witness",
+        "xenobladex"
+    },
+    "bees": {
+        "albw",
+        "alttp",
+        "dontstarvetogether",
+        "ladx_beta",
+        "minecraft",
+        "raft",
+        "terraria",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "d.i.c.e. awards 2014": {
+        "albw"
+    },
+    "d.i.c.e.": {
+        "albw",
+        "dark_souls_3",
+        "oribf"
+    },
+    "darkness": {
+        "albw",
+        "alttp",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "minecraft",
+        "mm3",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "terraria",
+        "tmc",
+        "witness",
+        "zelda2"
+    },
+    "interquel": {
+        "albw",
+        "alttp",
+        "ladx_beta",
+        "mm_recomp",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "stereoscopic 3d": {
+        "albw",
+        "luigismansion",
+        "minecraft",
+        "sly1",
+        "v6"
+    },
+    "stereoscopic": {
+        "albw",
+        "luigismansion",
+        "minecraft",
+        "sly1",
+        "v6"
+    },
+    "kingdom": {
+        "albw",
+        "kh1",
+        "kh2"
+    },
+    "streetpass support": {
+        "albw"
+    },
+    "streetpass": {
+        "albw"
+    },
+    "a link to the past": {
+        "alttp"
+    },
+    "the legend of zelda: a link to the past": {
+        "alttp",
+        "alttpr"
+    },
+    "to": {
+        "alttp",
+        "apeescape",
+        "dkc",
+        "doom_ii",
+        "duke3d",
+        "lego_star_wars_tcs",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "quake",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd",
+        "undertale",
+        "zelda2"
+    },
+    "past": {
+        "alttp",
+        "kh1"
+    },
+    "wii": {
+        "alttp",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hk",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pmd_eos",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "ss",
+        "star_fox_64",
+        "stardew_valley",
+        "terraria",
+        "tloz",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "tp",
+        "waffles",
+        "wl4",
+        "xenobladex",
+        "zelda2"
+    },
+    "satellaview": {
+        "alttp",
+        "yoshisisland"
+    },
+    "wii u": {
+        "alttp",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hk",
+        "k64",
+        "kdl3",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pmd_eos",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "ss",
+        "star_fox_64",
+        "stardew_valley",
+        "terraria",
+        "tloz",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "waffles",
+        "wl4",
+        "xenobladex",
+        "zelda2"
+    },
+    "u": {
+        "alttp",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hk",
+        "k64",
+        "kdl3",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pmd_eos",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "ss",
+        "star_fox_64",
+        "stardew_valley",
+        "terraria",
+        "tloz",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "waffles",
+        "wl4",
+        "xenobladex",
+        "zelda2"
+    },
+    "super famicom": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ffmq",
+        "kdl3",
+        "lufia2ac",
+        "mmx3",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "waffles",
+        "yoshisisland"
+    },
+    "super": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff4fe",
+        "ffmq",
+        "kdl3",
+        "ladx_beta",
+        "lufia2ac",
+        "marioland2",
+        "metroidfusion",
+        "mm2",
+        "mmx3",
+        "pokemon_rb",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smo",
+        "sms",
+        "smw",
+        "soe",
+        "sonic_heroes",
+        "tetrisattack",
+        "waffles",
+        "wl",
+        "wl4",
+        "yoshisisland"
+    },
+    "famicom": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ffmq",
+        "kdl3",
+        "lufia2ac",
+        "mmx3",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "tloz",
+        "waffles",
+        "yoshisisland"
+    },
+    "super nintendo entertainment system": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff4fe",
+        "ffmq",
+        "kdl3",
+        "lufia2ac",
+        "mmx3",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "soe",
+        "tetrisattack",
+        "waffles",
+        "yoshisisland"
+    },
+    "entertainment": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "kdl3",
+        "lufia2ac",
+        "mm3",
+        "mmx3",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "soe",
+        "tetrisattack",
+        "tloz",
+        "waffles",
+        "yoshisisland",
+        "zelda2"
+    },
+    "system": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "k64",
+        "kdl3",
+        "kh1",
+        "ladx_beta",
+        "lufia2ac",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "metroidprime",
+        "mk64",
+        "mlss",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "quake",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "soe",
+        "star_fox_64",
+        "tetrisattack",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "trackmania",
+        "ttyd",
+        "tww",
+        "undertale",
+        "waffles",
+        "wl",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "zelda2"
+    },
+    "new nintendo 3ds": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "mmx3",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "waffles"
+    },
+    "new": {
+        "alttp",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "gstla",
+        "luigismansion",
+        "mmx3",
+        "rac3",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "ss",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tunic",
+        "waffles",
+        "zelda2"
+    },
+    "technical feature - snes mode 7": {
+        "alttp"
+    },
+    "technical": {
+        "alttp"
+    },
+    "feature": {
+        "alttp"
+    },
+    "snes": {
+        "alttp",
+        "kdl3"
+    },
+    "mode": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "jakanddaxter",
+        "kh1",
+        "mario_kart_double_dash",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "quake",
+        "rac3",
+        "smo",
+        "spyro3",
+        "timespinner",
+        "tloz_ph",
+        "tloz_st",
+        "toontown",
+        "tunic"
+    },
+    "7": {
+        "alttp"
+    },
+    "teleportation": {
+        "alttp",
+        "cv64",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "jakanddaxter",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "terraria",
+        "tloz_oos",
+        "tmc",
+        "v6"
+    },
+    "villain": {
+        "alttp",
+        "banjo_tooie",
+        "cv_dos",
+        "cvcotm",
+        "dkc",
+        "gstla",
+        "kh1",
+        "lego_star_wars_tcs",
+        "marioland2",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "oot",
+        "papermario",
+        "sotn",
+        "star_fox_64",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "zelda2"
+    },
+    "greatest hits": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "papermario",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "swr",
+        "ttyd"
+    },
+    "greatest": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "papermario",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "swr",
+        "ttyd"
+    },
+    "hits": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "mm2",
+        "papermario",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "swr",
+        "ttyd"
+    },
+    "plane shifting": {
+        "alttp",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "plane": {
+        "alttp",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "shifting": {
+        "alttp",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "timeskip": {
+        "alttp",
+        "oot"
+    },
+    "wii u virtual console": {
+        "alttp",
+        "cvcotm",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "k64",
+        "kdl3",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "star_fox_64",
+        "tloz",
+        "tloz_st",
+        "waffles",
+        "wl4",
+        "zelda2"
+    },
+    "virtual": {
+        "alttp",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dw1",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hcniko",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "marioland2",
+        "metroidfusion",
+        "minecraft",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "star_fox_64",
+        "subnautica",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "waffles",
+        "wl",
+        "wl4",
+        "zelda2"
+    },
+    "console": {
+        "alttp",
+        "banjo_tooie",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "mario_kart_double_dash",
+        "marioland2",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "quake",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "star_fox_64",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "waffles",
+        "wl",
+        "wl4",
+        "zelda2"
+    },
+    "backtracking": {
+        "alttp",
+        "banjo_tooie",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "faxanadu",
+        "ffta",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "oot",
+        "quake",
+        "rac3",
+        "sotn",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "witness"
+    },
+    "wizards": {
+        "alttp",
+        "rabi_ribi"
+    },
+    "grapple": {
+        "alttp",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oot",
+        "tloz_ph",
+        "tmc"
+    },
+    "no wrong choice": {
+        "alttp"
+    },
+    "no": {
+        "alttp",
+        "doom_1993",
+        "doom_ii",
+        "kh1",
+        "metroidprime",
+        "quake",
+        "v6",
+        "witness"
+    },
+    "wrong": {
+        "alttp"
+    },
+    "sleeping": {
+        "alttp",
+        "gstla",
+        "minecraft",
+        "papermario",
+        "pokemon_crystal",
+        "sms",
+        "tmc",
+        "ttyd"
+    },
+    "been here before": {
+        "alttp",
+        "ffta",
+        "gstla",
+        "oot",
+        "pokemon_crystal",
+        "simpsonshitnrun",
+        "sms",
+        "tloz_ph",
+        "tmc"
+    },
+    "been": {
+        "alttp",
+        "ffta",
+        "gstla",
+        "oot",
+        "pokemon_crystal",
+        "simpsonshitnrun",
+        "sms",
+        "tloz_ph",
+        "tmc"
+    },
+    "here": {
+        "alttp",
+        "ffta",
+        "gstla",
+        "hcniko",
+        "oot",
+        "pokemon_crystal",
+        "simpsonshitnrun",
+        "sms",
+        "tloz_ph",
+        "tmc"
+    },
+    "before": {
+        "alttp",
+        "ffta",
+        "gstla",
+        "oot",
+        "pokemon_crystal",
+        "simpsonshitnrun",
+        "sms",
+        "tloz_ph",
+        "tmc"
+    },
+    "multiple enemy boss fights": {
+        "alttp",
+        "cuphead",
+        "dark_souls_2",
+        "mm3",
+        "tmc"
+    },
+    "enemy": {
+        "alttp",
+        "cuphead",
+        "dark_souls_2",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mm3",
+        "oot",
+        "papermario",
+        "rogue_legacy",
+        "tmc",
+        "ttyd"
+    },
+    "boss": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "ffmq",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "wl4",
+        "zelda2"
+    },
+    "fights": {
+        "alttp",
+        "cuphead",
+        "dark_souls_2",
+        "mm3",
+        "tmc"
+    },
+    "campaign": {
+        "alttp",
+        "ladx_beta",
+        "oot",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "trackmania",
+        "zelda2"
+    },
+    "recurring boss": {
+        "alttp",
+        "banjo_tooie",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "kh1",
+        "metroidfusion",
+        "mm3",
+        "papermario",
+        "pokemon_emerald",
+        "ttyd"
+    },
+    "recurring": {
+        "alttp",
+        "banjo_tooie",
+        "cv64",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "kh1",
+        "metroidfusion",
+        "mm3",
+        "papermario",
+        "pokemon_emerald",
+        "tmc",
+        "ttyd"
+    },
+    "walking through walls": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "walking": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "oot",
+        "shorthike",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "through": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "minecraft",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "walls": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "nintendo 3ds virtual console": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "marioland2",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "waffles",
+        "wl",
+        "zelda2"
+    },
+    "falling object": {
+        "alttp",
+        "metroidfusion",
+        "mk64",
+        "mm3",
+        "tmc"
+    },
+    "falling": {
+        "alttp",
+        "cv64",
+        "duke3d",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm3",
+        "oot",
+        "rac3",
+        "sms",
+        "terraria",
+        "tmc"
+    },
+    "object": {
+        "alttp",
+        "metroidfusion",
+        "mk64",
+        "mm3",
+        "tmc"
+    },
+    "conveyor belt": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "mm2",
+        "tloz_ooa"
+    },
+    "conveyor": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "mm2",
+        "tloz_ooa"
+    },
+    "belt": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "mm2",
+        "tloz_ooa"
+    },
+    "retroachievements": {
+        "alttp",
+        "banjo_tooie",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff4fe",
+        "ffmq",
+        "k64",
+        "kdl3",
+        "lufia2ac",
+        "metroidprime",
+        "mk64",
+        "mm_recomp",
+        "mmx3",
+        "oot",
+        "papermario",
+        "pmd_eos",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "smw",
+        "sonic_heroes",
+        "star_fox_64",
+        "swr",
+        "tetrisattack",
+        "tloz",
+        "tww",
+        "waffles"
+    },
+    "time paradox": {
+        "alttp",
+        "cv64",
+        "jakanddaxter",
+        "oot",
+        "tloz_ooa"
+    },
+    "paradox": {
+        "alttp",
+        "cv64",
+        "jakanddaxter",
+        "oot",
+        "tloz_ooa"
+    },
+    "slideshow cutscene": {
+        "alttp",
+        "metroidfusion"
+    },
+    "slideshow": {
+        "alttp",
+        "metroidfusion"
+    },
+    "cutscene": {
+        "alttp",
+        "kh1",
+        "metroidfusion",
+        "rac3",
+        "sc2",
+        "sly1",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "monkey": {
+        "alttp",
+        "apeescape",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "ladx_beta",
+        "mk64"
+    },
+    "power glove": {
+        "alttp"
+    },
+    "power": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "kh1",
+        "metroidprime",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "ss",
+        "zelda2"
+    },
+    "glove": {
+        "alttp",
+        "zelda2"
+    },
+    "virtual console": {
+        "alttp",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "marioland2",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "star_fox_64",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "waffles",
+        "wl",
+        "wl4",
+        "zelda2"
+    },
+    "escort mission": {
+        "alttp",
+        "v6"
+    },
+    "escort": {
+        "alttp",
+        "v6"
+    },
+    "mission": {
+        "alttp",
+        "metroidfusion",
+        "mzm",
+        "tmc",
+        "v6"
+    },
+    "buddy system": {
+        "alttp",
+        "dkc",
+        "dkc2"
+    },
+    "buddy": {
+        "alttp",
+        "dkc",
+        "dkc2"
+    },
+    "player's choice": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "tww",
+        "waffles",
+        "yoshisisland"
+    },
+    "player's": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "tww",
+        "waffles",
+        "yoshisisland"
+    },
+    "saving the world": {
+        "alttp",
+        "dark_souls_2",
+        "duke3d",
+        "earthbound",
+        "tloz_ph",
+        "tmc",
+        "zelda2"
+    },
+    "saving": {
+        "alttp",
+        "dark_souls_2",
+        "duke3d",
+        "earthbound",
+        "tloz_ph",
+        "tmc",
+        "zelda2"
+    },
+    "satellaview view-limited games": {
+        "alttp"
+    },
+    "view-limited": {
+        "alttp"
+    },
+    "games": {
+        "alttp",
+        "banjo_tooie",
+        "civ_6",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dontstarvetogether",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oot",
+        "rac3",
+        "simpsonshitnrun",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "witness"
+    },
+    "block puzzle": {
+        "alttp",
+        "oot",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "block": {
+        "alttp",
+        "mlss",
+        "oot",
+        "sm64ex",
+        "sm64hacks",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "wii virtual console": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "mk64",
+        "mm3",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "star_fox_64",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "giant insects": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hk",
+        "mlss",
+        "pokemon_emerald",
+        "sms",
+        "soe"
+    },
+    "giant": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hk",
+        "mlss",
+        "pokemon_emerald",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "soe"
+    },
+    "insects": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hk",
+        "mlss",
+        "pokemon_emerald",
+        "sms",
+        "soe"
+    },
+    "sword sorcery": {
+        "alttp",
+        "tloz_st",
+        "zelda2"
+    },
+    "level selection": {
+        "alttp",
+        "dk64",
+        "dkc2",
+        "mm3",
+        "mmx3",
+        "sms",
+        "spyro3"
+    },
+    "selection": {
+        "alttp",
+        "dk64",
+        "dkc2",
+        "jakanddaxter",
+        "marioland2",
+        "minecraft",
+        "mm3",
+        "mmx3",
+        "sly1",
+        "sms",
+        "spyro3",
+        "tmc",
+        "yugiohddm"
+    },
+    "vision obstruction": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "metroidprime"
+    },
+    "vision": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "metroidprime"
+    },
+    "obstruction": {
+        "alttp",
+        "cuphead",
+        "duke3d",
+        "metroidprime"
+    },
+    "status effects": {
+        "alttp",
+        "cv_dos",
+        "dark_souls_2",
+        "earthbound",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "zelda2"
+    },
+    "status": {
+        "alttp",
+        "cv_dos",
+        "dark_souls_2",
+        "earthbound",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "zelda2"
+    },
+    "effects": {
+        "alttp",
+        "cv_dos",
+        "dark_souls_2",
+        "dkc2",
+        "earthbound",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "spyro3",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_st",
+        "tmc",
+        "zelda2"
+    },
+    "broadcast": {
+        "alttp",
+        "yoshisisland"
+    },
+    "male protagonist": {
+        "alttp",
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "luigismansion",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "sotn",
+        "spyro3",
+        "tloz_ooa",
+        "tloz_st",
+        "tmc",
+        "v6",
+        "wl4",
+        "zelda2"
+    },
+    "male": {
+        "alttp",
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "luigismansion",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "portal2",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "sotn",
+        "spyro3",
+        "tloz_ooa",
+        "tloz_st",
+        "tmc",
+        "v6",
+        "wl4",
+        "zelda2"
+    },
+    "poisoning": {
+        "alttp",
+        "cv64",
+        "ladx_beta",
+        "minecraft",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_oos",
+        "tmc",
+        "ttyd"
+    },
+    "pixel art": {
+        "alttp",
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "crosscode",
+        "deltarune",
+        "hcniko",
+        "ladx_beta",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "mzm",
+        "rogue_legacy",
+        "ror1",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "tloz_oos",
+        "tmc",
+        "tyrian",
+        "undertale",
+        "v6",
+        "wargroove",
+        "wargroove2",
+        "wl4",
+        "zelda2"
+    },
+    "pixel": {
+        "alttp",
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "crosscode",
+        "crystal_project",
+        "deltarune",
+        "hcniko",
+        "ladx_beta",
+        "messenger",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "momodoramoonlitfarewell",
+        "mzm",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "tloz_oos",
+        "tmc",
+        "tyrian",
+        "undertale",
+        "v6",
+        "vampire_survivors",
+        "wargroove",
+        "wargroove2",
+        "wl4",
+        "zelda2"
+    },
+    "ghosts": {
+        "alttp",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dkc2",
+        "earthbound",
+        "ffmq",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidprime",
+        "mlss",
+        "papermario",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sotn",
+        "tloz_ooa",
+        "tmc",
+        "ttyd",
+        "v6",
+        "wl4"
+    },
+    "shielded enemies": {
+        "alttp",
+        "hk",
+        "rogue_legacy",
+        "tloz_ooa",
+        "tmc"
+    },
+    "shielded": {
+        "alttp",
+        "hk",
+        "rogue_legacy",
+        "tloz_ooa",
+        "tmc"
+    },
+    "enemies": {
+        "alttp",
+        "cv_dos",
+        "hk",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "papermario",
+        "rogue_legacy",
+        "sms",
+        "tloz_ooa",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "boss fight": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "ffmq",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "wl4",
+        "zelda2"
+    },
+    "fight": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "enderlilies",
+        "ffmq",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "kh1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "ror1",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "spyro3",
+        "star_fox_64",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "wl4",
+        "zelda2"
+    },
+    "dwarves": {
+        "alttp"
+    },
+    "undead": {
+        "alttp",
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dsr",
+        "ffmq",
+        "ladx_beta",
+        "mlss",
+        "oot",
+        "papermario",
+        "sotn",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "ttyd"
+    },
+    "merchants": {
+        "alttp",
+        "cv_dos",
+        "faxanadu",
+        "hk",
+        "terraria",
+        "timespinner",
+        "yugiohddm"
+    },
+    "hidden room": {
+        "alttp",
+        "dark_souls_2",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "ttyd"
+    },
+    "hidden": {
+        "alttp",
+        "dark_souls_2",
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "hcniko",
+        "mario_kart_double_dash",
+        "metroidfusion",
+        "shorthike",
+        "ttyd",
+        "tunic"
+    },
+    "room": {
+        "alttp",
+        "dark_souls_2",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "ttyd"
+    },
+    "nintendo gateway system": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "k64",
+        "ladx_beta",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "metroidprime",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "pokemon_rb",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "tetrisattack",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd",
+        "tww",
+        "waffles",
+        "wl",
+        "wl4"
+    },
+    "gateway": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "k64",
+        "ladx_beta",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "marioland2",
+        "metroidprime",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "pokemon_rb",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "tetrisattack",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd",
+        "tww",
+        "waffles",
+        "wl",
+        "wl4"
+    },
+    "shopping": {
+        "alttp",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dw1",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "mlss",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sotn",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "yugiohddm"
+    },
+    "human": {
+        "alttp",
+        "apeescape",
+        "cv64",
+        "dark_souls_2",
+        "dark_souls_3",
+        "doom_ii",
+        "gstla",
+        "ladx_beta",
+        "metroidfusion",
+        "papermario",
+        "quake",
+        "sc2",
+        "simpsonshitnrun",
+        "sms",
+        "sotn",
+        "ss",
+        "terraria",
+        "tloz_ph",
+        "tloz_st",
+        "ttyd",
+        "zelda2"
+    },
+    "fan translation - portuguese": {
+        "alttp",
+        "cv_dos",
+        "cvcotm",
+        "diddy_kong_racing",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "tloz",
+        "tloz_ph",
+        "tmc",
+        "tww",
+        "waffles",
+        "wl4",
+        "yoshisisland"
+    },
+    "fan": {
+        "alttp",
+        "banjo_tooie",
+        "cv_dos",
+        "cvcotm",
+        "diddy_kong_racing",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "landstalker",
+        "luigismansion",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "sotn",
+        "tloz",
+        "tloz_ph",
+        "tmc",
+        "tww",
+        "waffles",
+        "wl4",
+        "yoshisisland",
+        "zelda2"
+    },
+    "translation": {
+        "alttp",
+        "cv_dos",
+        "cvcotm",
+        "diddy_kong_racing",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "landstalker",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "sotn",
+        "tloz",
+        "tloz_ph",
+        "tmc",
+        "tww",
+        "waffles",
+        "wl4",
+        "yoshisisland",
+        "zelda2"
+    },
+    "portuguese": {
+        "alttp",
+        "cv_dos",
+        "cvcotm",
+        "diddy_kong_racing",
+        "dkc2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mm_recomp",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "pokemon_emerald",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "smw",
+        "tloz",
+        "tloz_ph",
+        "tmc",
+        "tww",
+        "waffles",
+        "wl4",
+        "yoshisisland"
+    },
+    "explosion": {
+        "alttp",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffmq",
+        "ffta",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "quake",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "terraria",
+        "tloz_ooa",
+        "tloz_st",
+        "tmc",
+        "zelda2"
+    },
+    "fetch quests": {
+        "alttp",
+        "ladx_beta",
+        "metroidprime",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "zelda2"
+    },
+    "fetch": {
+        "alttp",
+        "ladx_beta",
+        "metroidprime",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "zelda2"
+    },
+    "rat": {
+        "alttp",
+        "duke3d"
+    },
+    "nintendo power": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "sm",
+        "sm_map_rando"
+    },
+    "battery save": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "ff4fe",
+        "k64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "tloz",
+        "waffles",
+        "yoshisisland",
+        "zelda2"
+    },
+    "battery": {
+        "alttp",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "ff1",
+        "ff4fe",
+        "k64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "smw",
+        "tloz",
+        "waffles",
+        "yoshisisland",
+        "zelda2"
+    },
+    "death": {
+        "alttp",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dk64",
+        "dkc",
+        "doom_ii",
+        "ffta",
+        "gstla",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "quake",
+        "rogue_legacy",
+        "sly1",
+        "sms",
+        "sotn",
+        "star_fox_64",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "v6",
+        "zelda2"
+    },
+    "non-player character": {
+        "alttp",
+        "civ_6",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dw1",
+        "ffta",
+        "fm",
+        "k64",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "papermario",
+        "pokemon_crystal",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sotn",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd"
+    },
+    "non-player": {
+        "alttp",
+        "civ_6",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dw1",
+        "ffta",
+        "fm",
+        "k64",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "papermario",
+        "pokemon_crystal",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sotn",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "ttyd"
+    },
+    "character": {
+        "alttp",
+        "banjo_tooie",
+        "blasphemous",
+        "civ_6",
+        "crystal_project",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dw1",
+        "ffta",
+        "fm",
+        "gstla",
+        "k64",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "mario_kart_double_dash",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "shorthike",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "smw",
+        "sonic_heroes",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "trackmania",
+        "ttyd",
+        "waffles",
+        "wl4"
+    },
+    "griefing": {
+        "alttp",
+        "doom_ii",
+        "quake"
+    },
+    "damage over time": {
+        "alttp",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "damage": {
+        "alttp",
+        "cuphead",
+        "cv64",
+        "duke3d",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "quake",
+        "rac3",
+        "terraria",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "over": {
+        "alttp",
+        "dk64",
+        "dkc",
+        "doom_ii",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "ladx_beta",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "sotn",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc"
+    },
+    "4 player co-op": {
+        "alttp",
+        "doom_ii",
+        "duke3d",
+        "xenobladex"
+    },
+    "player": {
+        "alttp",
+        "dark_souls_2",
+        "diddy_kong_racing",
+        "doom_ii",
+        "duke3d",
+        "mlss",
+        "quake",
+        "swr",
+        "xenobladex"
+    },
+    "co-op": {
+        "alttp",
+        "cuphead",
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d",
+        "kdl3",
+        "mm3",
+        "powerwashsimulator",
+        "trackmania",
+        "xenobladex"
+    },
+    "ice stage": {
+        "alttp",
+        "banjo_tooie",
+        "cv64",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "oot",
+        "terraria",
+        "tmc",
+        "wl4"
+    },
+    "ice": {
+        "alttp",
+        "banjo_tooie",
+        "cv64",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "jakanddaxter",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "oot",
+        "terraria",
+        "tmc",
+        "wl4"
+    },
+    "stage": {
+        "alttp",
+        "banjo_tooie",
+        "cuphead",
+        "cv64",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "marioland2",
+        "metroidfusion",
+        "metroidprime",
+        "mk64",
+        "oot",
+        "smw",
+        "sonic_heroes",
+        "spyro3",
+        "terraria",
+        "tmc",
+        "waffles",
+        "wl4"
+    },
+    "mascot": {
+        "alttp",
+        "diddy_kong_racing",
+        "duke3d",
+        "jakanddaxter",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "mk64",
+        "mm2",
+        "mm3",
+        "papermario",
+        "rac3",
+        "sly1",
+        "spyro3",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd"
+    },
+    "easter egg": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "papermario",
+        "rogue_legacy",
+        "ttyd"
+    },
+    "easter": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "papermario",
+        "rogue_legacy",
+        "stardew_valley",
+        "ttyd"
+    },
+    "egg": {
+        "alttp",
+        "apeescape",
+        "banjo_tooie",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "papermario",
+        "rogue_legacy",
+        "ttyd"
+    },
+    "maze": {
+        "alttp",
+        "cv64",
+        "doom_1993",
+        "ladx_beta",
+        "mzm",
+        "papermario",
+        "tmc",
+        "ttyd",
+        "witness"
+    },
+    "contest-driven development": {
+        "alttp",
+        "mm2",
+        "mm3"
+    },
+    "contest-driven": {
+        "alttp",
+        "mm2",
+        "mm3"
+    },
+    "development": {
+        "alttp",
+        "mm2",
+        "mm3"
+    },
+    "nintendo switch online": {
+        "alttp",
+        "kdl3",
+        "marioland2",
+        "mm2",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "waffles",
+        "yoshisisland",
+        "zelda2"
+    },
+    "online": {
+        "alttp",
+        "banjo_tooie",
+        "dark_souls_3",
+        "dk64",
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d",
+        "gstla",
+        "k64",
+        "kdl3",
+        "landstalker",
+        "luigismansion",
+        "marioland2",
+        "metroidfusion",
+        "minecraft",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "papermario",
+        "pinball_fx3",
+        "powerwashsimulator",
+        "rac3",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "smw",
+        "star_fox_64",
+        "terraria",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "toontown",
+        "trackmania",
+        "tww",
+        "waffles",
+        "wl4",
+        "xenobladex",
+        "yoshisisland",
+        "zelda2"
+    },
+    "portals": {
+        "alttp",
+        "quake",
+        "tloz_oos",
+        "wl4"
+    },
+    "valuable garbage": {
+        "alttp"
+    },
+    "valuable": {
+        "alttp"
+    },
+    "garbage": {
+        "alttp"
+    },
+    "secret area": {
+        "alttp",
+        "cv_dos",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "metroidfusion",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "witness",
+        "zelda2"
+    },
+    "secret": {
+        "alttp",
+        "cv_dos",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "dsr",
+        "duke3d",
+        "hcniko",
+        "metroidfusion",
+        "quake",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "soe",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "witness",
+        "zelda2"
+    },
+    "area": {
+        "alttp",
+        "cv_dos",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "metroidfusion",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "witness",
+        "zelda2"
+    },
+    "liberation": {
+        "alttp",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "sm",
+        "sm_map_rando"
+    },
+    "single-player only": {
+        "alttp",
+        "blasphemous",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mzm",
+        "oot",
+        "oribf",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "v6",
+        "witness",
+        "zelda2"
+    },
+    "single-player": {
+        "alttp",
+        "blasphemous",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mzm",
+        "oot",
+        "oribf",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "v6",
+        "witness",
+        "zelda2"
+    },
+    "only": {
+        "alttp",
+        "blasphemous",
+        "ffta",
+        "getting_over_it",
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "luigismansion",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mzm",
+        "oot",
+        "oribf",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "v6",
+        "witness",
+        "zelda2"
+    },
+    "competitive co-op": {
+        "alttp"
+    },
+    "competitive": {
+        "alttp",
+        "sc2",
+        "tetrisattack",
+        "trackmania"
+    },
+    "kidnapping": {
+        "alttp",
+        "earthbound",
+        "ladx_beta",
+        "sms",
+        "ttyd",
+        "yoshisisland"
+    },
+    "world map": {
+        "alttp",
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "metroidprime",
+        "oot",
+        "phoa",
+        "pokemon_crystal",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "v6"
+    },
+    "map": {
+        "alttp",
+        "civ_6",
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "jakanddaxter",
+        "metroidprime",
+        "oot",
+        "phoa",
+        "pokemon_crystal",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "trackmania",
+        "v6"
+    },
+    "shaky camera": {
+        "alttp",
+        "duke3d",
+        "tloz_ooa",
+        "tmc"
+    },
+    "shaky": {
+        "alttp",
+        "duke3d",
+        "tloz_ooa",
+        "tmc"
+    },
+    "camera": {
+        "alttp",
+        "banjo_tooie",
+        "dark_souls_3",
+        "dk64",
+        "duke3d",
+        "hcniko",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tmc"
+    },
+    "young protagonist": {
+        "alttp",
+        "dkc2",
+        "earthbound",
+        "kh1",
+        "mm_recomp",
+        "oot",
+        "portal2",
+        "shorthike",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "zelda2"
+    },
+    "young": {
+        "alttp",
+        "dkc2",
+        "earthbound",
+        "kh1",
+        "mm_recomp",
+        "oot",
+        "portal2",
+        "shorthike",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "zelda2"
+    },
+    "silent protagonist": {
+        "alttp",
+        "blasphemous",
+        "dkc",
+        "dkc2",
+        "doom_1993",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "ladx_beta",
+        "mlss",
+        "oot",
+        "papermario",
+        "pokemon_emerald",
+        "quake",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "zelda2"
+    },
+    "silent": {
+        "alttp",
+        "blasphemous",
+        "dkc",
+        "dkc2",
+        "doom_1993",
+        "gstla",
+        "hk",
+        "jakanddaxter",
+        "k64",
+        "ladx_beta",
+        "mlss",
+        "oot",
+        "papermario",
+        "pokemon_emerald",
+        "quake",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "ttyd",
+        "zelda2"
+    },
+    "retroactive achievements": {
+        "alttp",
+        "oot"
+    },
+    "retroactive": {
+        "alttp",
+        "oot"
+    },
+    "satellaview demo/trial release": {
+        "alttp"
+    },
+    "demo/trial": {
+        "alttp"
+    },
+    "release": {
+        "alttp",
+        "apeescape",
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dredge",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "quake",
+        "sonic_heroes",
+        "sotn",
+        "star_fox_64",
+        "terraria",
+        "undertale",
+        "v6"
+    },
+    "monomyth": {
+        "alttp",
+        "ladx_beta",
+        "mm2",
+        "mm3",
+        "ss",
+        "tloz_ph",
+        "tloz_st",
+        "tmc",
+        "zelda2"
+    },
+    "another world": {
+        "alttp",
+        "doom_ii",
+        "ladx_beta",
+        "mm_recomp",
+        "portal2"
+    },
+    "another": {
+        "alttp",
+        "doom_ii",
+        "ladx_beta",
+        "mm_recomp",
+        "portal2"
+    },
+    "played for charity": {
+        "alttp",
+        "minecraft",
+        "oot",
+        "sms",
+        "tmc",
+        "zelda2"
+    },
+    "played": {
+        "alttp",
+        "minecraft",
+        "oot",
+        "sms",
+        "tmc",
+        "zelda2"
+    },
+    "for": {
+        "alttp",
+        "banjo_tooie",
+        "bfbb",
+        "blasphemous",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "doom_ii",
+        "hcniko",
+        "hk",
+        "minecraft",
+        "oot",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "sms",
+        "stardew_valley",
+        "swr",
+        "tmc",
+        "trackmania",
+        "tunic",
+        "v6",
+        "xenobladex",
+        "zelda2"
+    },
+    "charity": {
+        "alttp",
+        "minecraft",
+        "oot",
+        "sms",
+        "tmc",
+        "zelda2"
+    },
+    "multi-phase boss": {
+        "alttp",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "dkc2",
+        "ffmq",
+        "kh1",
+        "metroidfusion",
+        "mlss",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "tloz_oos",
+        "tmc"
+    },
+    "multi-phase": {
+        "alttp",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "dkc2",
+        "ffmq",
+        "kh1",
+        "metroidfusion",
+        "mlss",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "tloz_oos",
+        "tmc"
+    },
+    "animal well": {
+        "animal_well"
+    },
+    "animal": {
+        "animal_well",
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "shorthike",
+        "sly1"
+    },
+    "well": {
+        "animal_well"
+    },
+    "side view": {
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cv_dos",
+        "cvcotm",
+        "deltarune",
+        "dkc",
+        "dkc2",
+        "enderlilies",
+        "faxanadu",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "getting_over_it",
+        "hk",
+        "k64",
+        "kdl3",
+        "ladx_beta",
+        "lufia2ac",
+        "marioland2",
+        "megamix",
+        "messenger",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "musedash",
+        "mzm",
+        "nine_sols",
+        "ori_wotw",
+        "oribf",
+        "papermario",
+        "peggle_nights",
+        "phoa",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "sm",
+        "sm_map_rando",
+        "smw",
+        "sotn",
+        "terraria",
+        "tetrisattack",
+        "timespinner",
+        "ufo50",
+        "undertale",
+        "v6",
+        "waffles",
+        "wargroove",
+        "wargroove2",
+        "wl",
+        "wl4",
+        "yoshisisland",
+        "zelda2"
+    },
+    "horror": {
+        "animal_well",
+        "blasphemous",
+        "cccharles",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dontstarvetogether",
+        "doom_1993",
+        "doom_ii",
+        "dredge",
+        "getting_over_it",
+        "inscryption_beta",
+        "luigismansion",
+        "mm_recomp",
+        "quake",
+        "shivers",
+        "sotn",
+        "terraria",
+        "undertale"
+    },
+    "mystery": {
+        "animal_well",
+        "crystal_project",
+        "deltarune",
+        "dredge",
+        "inscryption_beta",
+        "outer_wilds",
+        "pmd_eos",
+        "witness"
+    },
+    "survival": {
+        "animal_well",
+        "brotato",
+        "cccharles",
+        "dontstarvetogether",
+        "factorio",
+        "factorio_saws",
+        "minecraft",
+        "raft",
+        "rimworld",
+        "ror1",
+        "ror2",
+        "subnautica",
+        "terraria",
+        "vampire_survivors",
+        "yugioh06"
+    },
+    "atmospheric": {
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "crystal_project",
+        "dontstarvetogether",
+        "hk",
+        "powerwashsimulator",
+        "shorthike",
+        "tunic"
+    },
+    "dark": {
+        "animal_well",
+        "blasphemous",
+        "cccharles",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dkc2",
+        "dsr",
+        "enderlilies",
+        "getting_over_it",
+        "hk",
+        "kh1",
+        "mm_recomp",
+        "ttyd",
+        "undertale",
+        "zelda2"
+    },
+    "pixel graphics": {
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "crystal_project",
+        "deltarune",
+        "messenger",
+        "momodoramoonlitfarewell",
+        "rabi_ribi",
+        "rogue_legacy",
+        "shorthike",
+        "stardew_valley",
+        "undertale",
+        "v6",
+        "vampire_survivors"
+    },
+    "graphics": {
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "crystal_project",
+        "deltarune",
+        "hcniko",
+        "messenger",
+        "minecraft",
+        "momodoramoonlitfarewell",
+        "rabi_ribi",
+        "rogue_legacy",
+        "rotn",
+        "shorthike",
+        "simpsonshitnrun",
+        "stardew_valley",
+        "undertale",
+        "v6",
+        "vampire_survivors"
+    },
+    "controller support": {
+        "animal_well",
+        "deltarune",
+        "hcniko",
+        "hk",
+        "shorthike",
+        "stardew_valley",
+        "trackmania",
+        "tunic",
+        "v6"
+    },
+    "controller": {
+        "animal_well",
+        "blasphemous",
+        "cv64",
+        "deltarune",
+        "diddy_kong_racing",
+        "dk64",
+        "hcniko",
+        "hk",
+        "oot",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "trackmania",
+        "tunic",
+        "v6",
+        "xenobladex"
+    },
+    "2d": {
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "earthbound",
+        "hcniko",
+        "hk",
+        "messenger",
+        "musedash",
+        "nine_sols",
+        "rabi_ribi",
+        "sm",
+        "sm_map_rando",
+        "smo",
+        "sotn",
+        "stardew_valley",
+        "terraria",
+        "undertale",
+        "v6",
+        "zelda2"
+    },
+    "exploration": {
+        "animal_well",
+        "celeste",
+        "celeste_open_world",
+        "cv64",
+        "dredge",
+        "hcniko",
+        "jakanddaxter",
+        "metroidfusion",
+        "metroidprime",
+        "oot",
+        "outer_wilds",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rabi_ribi",
+        "rac3",
+        "rogue_legacy",
+        "shorthike",
+        "sm",
+        "sm_map_rando",
+        "subnautica",
+        "terraria",
+        "tloz_ph",
+        "tunic",
+        "v6",
+        "witness"
+    },
+    "relaxing": {
+        "animal_well",
+        "hcniko",
+        "powerwashsimulator",
+        "refunct",
+        "shorthike",
+        "sims4",
+        "stardew_valley"
+    },
+    "retro": {
+        "animal_well",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "messenger",
+        "minecraft",
+        "smo",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "ufo50",
+        "undertale",
+        "v6"
+    },
+    "surreal": {
+        "animal_well",
+        "undertale"
+    },
+    "metroidvania": {
+        "animal_well",
+        "blasphemous",
+        "crystal_project",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "enderlilies",
+        "faxanadu",
+        "hk",
+        "messenger",
+        "metroidfusion",
+        "metroidprime",
+        "momodoramoonlitfarewell",
+        "monster_sanctuary",
+        "mzm",
+        "nine_sols",
+        "oribf",
+        "phoa",
+        "rabi_ribi",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "timespinner",
+        "v6",
+        "zelda2"
+    },
+    "ape escape": {
+        "apeescape"
+    },
+    "ape": {
+        "apeescape",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "mk64"
+    },
+    "escape": {
+        "apeescape",
+        "duke3d",
+        "metroidprime"
+    },
+    "playstation portable": {
+        "apeescape",
+        "sotn",
+        "spyro3"
+    },
+    "portable": {
+        "apeescape",
+        "sotn",
+        "spyro3"
+    },
+    "playstation 3": {
+        "apeescape",
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "portal2",
+        "rogue_legacy",
+        "sa2b",
+        "sadx",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "terraria"
+    },
+    "3": {
+        "apeescape",
+        "dark_souls_2",
+        "kdl3",
+        "lego_star_wars_tcs",
+        "mm3",
+        "mmbn3",
+        "portal2",
+        "rogue_legacy",
+        "sa2b",
+        "sadx",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "terraria",
+        "wl"
+    },
+    "pocketstation support": {
+        "apeescape"
+    },
+    "pocketstation": {
+        "apeescape"
+    },
+    "mind control": {
+        "apeescape"
+    },
+    "mind": {
+        "apeescape"
+    },
+    "control": {
+        "apeescape",
+        "crosscode",
+        "dark_souls_3",
+        "lego_star_wars_tcs",
+        "mmx3",
+        "smo",
+        "ss",
+        "tp",
+        "v6",
+        "xenobladex"
+    },
+    "playstation network": {
+        "apeescape",
+        "duke3d",
+        "jakanddaxter",
+        "sotn",
+        "terraria"
+    },
+    "network": {
+        "apeescape",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "jakanddaxter",
+        "mmbn3",
+        "sotn",
+        "terraria",
+        "xenobladex"
+    },
+    "collecting": {
+        "apeescape",
+        "balatro",
+        "banjo_tooie",
+        "cv_dos",
+        "mzm",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "zelda2"
+    },
+    "dinosaurs": {
+        "apeescape",
+        "banjo_tooie",
+        "earthbound",
+        "smo",
+        "sms",
+        "smw",
+        "ttyd",
+        "waffles",
+        "yoshisisland"
+    },
+    "original soundtrack release": {
+        "apeescape",
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "quake",
+        "sonic_heroes",
+        "sotn",
+        "star_fox_64",
+        "terraria",
+        "undertale",
+        "v6"
+    },
+    "original": {
+        "apeescape",
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "getting_over_it",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "quake",
+        "sonic_heroes",
+        "sotn",
+        "star_fox_64",
+        "terraria",
+        "undertale",
+        "v6"
+    },
+    "soundtrack": {
+        "apeescape",
+        "banjo_tooie",
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "getting_over_it",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "oribf",
+        "quake",
+        "rabi_ribi",
+        "refunct",
+        "shorthike",
+        "sly1",
+        "sonic_heroes",
+        "sotn",
+        "star_fox_64",
+        "terraria",
+        "tunic",
+        "undertale",
+        "v6"
+    },
+    "spiky-haired protagonist": {
+        "apeescape",
+        "jakanddaxter",
+        "kh1",
+        "simpsonshitnrun",
+        "sonic_heroes"
+    },
+    "spiky-haired": {
+        "apeescape",
+        "jakanddaxter",
+        "kh1",
+        "simpsonshitnrun",
+        "sonic_heroes"
+    },
+    "moving platforms": {
+        "apeescape",
+        "bfbb",
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "jakanddaxter",
+        "k64",
+        "ladx_beta",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "quake",
+        "rac3",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "v6",
+        "wl4"
+    },
+    "moving": {
+        "apeescape",
+        "bfbb",
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "jakanddaxter",
+        "k64",
+        "ladx_beta",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "quake",
+        "rac3",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "v6",
+        "wl4"
+    },
+    "platforms": {
+        "apeescape",
+        "bfbb",
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "doom_ii",
+        "jakanddaxter",
+        "k64",
+        "ladx_beta",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oribf",
+        "papermario",
+        "quake",
+        "rac3",
+        "sly1",
+        "sm",
+        "sm64ex",
+        "sm64hacks",
+        "sm_map_rando",
+        "sms",
+        "sonic_heroes",
+        "sotn",
+        "spyro3",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "v6",
+        "wl4",
+        "zelda2"
+    },
+    "playstation underground": {
+        "apeescape",
+        "sotn",
+        "spyro3"
+    },
+    "underground": {
+        "apeescape",
+        "hcniko",
+        "sotn",
+        "spyro3",
+        "stardew_valley"
+    },
+    "backwards compatibility": {
+        "apeescape",
+        "sotn"
+    },
+    "backwards": {
+        "apeescape",
+        "bfbb",
+        "lego_star_wars_tcs",
+        "portal2",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "sotn"
+    },
+    "compatibility": {
+        "apeescape",
+        "bfbb",
+        "lego_star_wars_tcs",
+        "portal2",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "sotn"
+    },
+    "amnesia": {
+        "apeescape",
+        "ladx_beta",
+        "sonic_heroes",
+        "tloz_ph",
+        "witness",
+        "xenobladex"
+    },
+    "multiple endings": {
+        "apeescape",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc2",
+        "doom_ii",
+        "k64",
+        "kh1",
+        "metroidprime",
+        "mmx3",
+        "mzm",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tloz_st",
+        "undertale",
+        "witness",
+        "wl4"
+    },
+    "endings": {
+        "apeescape",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc2",
+        "doom_ii",
+        "k64",
+        "kh1",
+        "metroidprime",
+        "mmx3",
+        "mzm",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tloz_st",
+        "undertale",
+        "witness",
+        "wl4"
+    },
+    "voice acting": {
+        "apeescape",
+        "bfbb",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "jakanddaxter",
+        "kh1",
+        "pinball_fx3",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "star_fox_64",
+        "witness",
+        "xenobladex"
+    },
+    "voice": {
+        "apeescape",
+        "bfbb",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "getting_over_it",
+        "jakanddaxter",
+        "kh1",
+        "minecraft",
+        "pinball_fx3",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "star_fox_64",
+        "witness",
+        "xenobladex"
+    },
+    "acting": {
+        "apeescape",
+        "bfbb",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "dw1",
+        "getting_over_it",
+        "jakanddaxter",
+        "kh1",
+        "pinball_fx3",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sms",
+        "sonic_heroes",
+        "star_fox_64",
+        "witness",
+        "xenobladex"
+    },
+    "time trials": {
+        "apeescape",
+        "diddy_kong_racing",
+        "mk64",
+        "sly1",
+        "spyro3",
+        "trackmania",
+        "v6"
+    },
+    "trials": {
+        "apeescape",
+        "diddy_kong_racing",
+        "mk64",
+        "sly1",
+        "spyro3",
+        "trackmania",
+        "v6"
+    },
+    "psone classics": {
+        "apeescape",
+        "mm2",
+        "mm3",
+        "sotn",
+        "spyro3"
+    },
+    "psone": {
+        "apeescape",
+        "mm2",
+        "mm3",
+        "sotn",
+        "spyro3"
+    },
+    "classics": {
+        "apeescape",
+        "jakanddaxter",
+        "mm2",
+        "mm3",
+        "sotn",
+        "spyro3"
+    },
+    "vore": {
+        "apeescape",
+        "banjo_tooie",
+        "jakanddaxter",
+        "k64",
+        "mlss",
+        "papermario",
+        "quake",
+        "spyro3",
+        "tmc",
+        "ttyd"
+    },
+    "anime": {
+        "apeescape",
+        "dw1",
+        "fm",
+        "gstla",
+        "musedash",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rabi_ribi",
+        "wl4",
+        "yugiohddm"
+    },
+    "rc vehicle": {
+        "apeescape",
+        "sly1"
+    },
+    "rc": {
+        "apeescape",
+        "sly1"
+    },
+    "vehicle": {
+        "apeescape",
+        "diddy_kong_racing",
+        "kh1",
+        "mk64",
+        "sly1",
+        "trackmania"
+    },
+    "playstation tv support": {
+        "apeescape",
+        "mm2",
+        "mm3",
+        "rogue_legacy",
+        "sotn"
+    },
+    "tv": {
+        "apeescape",
+        "bfbb",
+        "dkc",
+        "dw1",
+        "fm",
+        "mm2",
+        "mm3",
+        "rogue_legacy",
+        "sotn",
+        "yugiohddm"
+    },
+    "adapted to - anime": {
+        "apeescape",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "adapted": {
+        "apeescape",
+        "dkc",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_ooa",
+        "tloz_oos",
+        "zelda2"
+    },
+    "second person perspective": {
+        "apeescape",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "second": {
+        "apeescape",
+        "dkc2",
+        "mm_recomp",
+        "tloz_ph",
+        "tloz_st",
+        "ttyd",
+        "zelda2"
+    },
+    "perspective": {
+        "apeescape",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "archipela-go!": {
+        "apgo"
+    },
+    "apquest": {
+        "apquest"
+    },
+    "archipelaballs": {
+        "archipelaballs"
+    },
+    "archipidle": {
+        "archipidle"
+    },
+    "balatro": {
+        "balatro"
+    },
+    "card & board game": {
+        "balatro",
+        "fm",
+        "inscryption_beta",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "card": {
+        "balatro",
+        "fm",
+        "inscryption_beta",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "board": {
+        "balatro",
+        "fm",
+        "inscryption_beta",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "android": {
+        "balatro",
+        "blasphemous",
+        "brotato",
+        "cat_quest",
+        "dontstarvetogether",
+        "dredge",
+        "getting_over_it",
+        "into_the_breach",
+        "lego_star_wars_tcs",
+        "musedash",
+        "osrs",
+        "stardew_valley",
+        "subnautica",
+        "terraria",
+        "v6",
+        "vampire_survivors"
+    },
+    "ios": {
+        "balatro",
+        "blasphemous",
+        "brotato",
+        "cat_quest",
+        "dontstarvetogether",
+        "dredge",
+        "getting_over_it",
+        "hades",
+        "into_the_breach",
+        "lego_star_wars_tcs",
+        "musedash",
+        "osrs",
+        "powerwashsimulator",
+        "stardew_valley",
+        "subnautica",
+        "terraria",
+        "v6",
+        "vampire_survivors",
+        "witness"
+    },
+    "nintendo switch 2": {
+        "balatro",
+        "deltarune",
+        "factorio",
+        "factorio_saws",
+        "hk",
+        "overcooked2",
+        "smo",
+        "stardew_valley",
+        "subnautica",
+        "tunic"
+    },
+    "2": {
+        "balatro",
+        "bfbb",
+        "deltarune",
+        "dw1",
+        "factorio",
+        "factorio_saws",
+        "hk",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "overcooked2",
+        "portal2",
+        "rac2",
+        "rac3",
+        "ror2",
+        "simpsonshitnrun",
+        "sly1",
+        "smo",
+        "sonic_heroes",
+        "stardew_valley",
+        "subnautica",
+        "tunic"
+    },
+    "clowns": {
+        "balatro",
+        "cv_dos",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "terraria"
+    },
+    "the game awards - best mobile game - winner": {
+        "balatro"
+    },
+    "best": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dark_souls_3",
+        "hades",
+        "hk",
+        "overcooked2",
+        "smo",
+        "stardew_valley",
+        "witness",
+        "xenobladex"
+    },
+    "mobile": {
+        "balatro",
+        "doom_1993",
+        "mmx3",
+        "quake"
+    },
+    "winner": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "hades",
+        "overcooked2",
+        "smo"
+    },
+    "the game awards - game of the year - nominee": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "hades",
+        "smo"
+    },
+    "year": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "earthbound",
+        "hades",
+        "mm2",
+        "mm3",
+        "smo",
+        "spyro3"
+    },
+    "nominee": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dark_souls_3",
+        "hades",
+        "hk",
+        "smo",
+        "stardew_valley",
+        "witness",
+        "xenobladex"
+    },
+    "the game awards - best game direction - nominee": {
+        "balatro",
+        "hades",
+        "smo"
+    },
+    "direction": {
+        "balatro",
+        "cuphead",
+        "hades",
+        "smo"
+    },
+    "collaboration": {
+        "balatro"
+    },
+    "collecting card game - ccg": {
+        "balatro"
+    },
+    "ccg": {
+        "balatro"
+    },
+    "available on - apple arcade": {
+        "balatro"
+    },
+    "available": {
+        "balatro",
+        "blasphemous",
+        "dredge",
+        "hk",
+        "overcooked2",
+        "stardew_valley",
+        "trackmania"
+    },
+    "on": {
+        "balatro",
+        "bfbb",
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "dredge",
+        "dw1",
+        "fm",
+        "hk",
+        "into_the_breach",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oribf",
+        "overcooked2",
+        "rac3",
+        "rogue_legacy",
+        "ror2",
+        "sly1",
+        "sonic_heroes",
+        "stardew_valley",
+        "swr",
+        "terraria",
+        "trackmania",
+        "yugiohddm"
+    },
+    "apple": {
+        "balatro",
+        "dredge"
+    },
+    "arcade": {
+        "balatro",
+        "brotato",
+        "cuphead",
+        "duke3d",
+        "mario_kart_double_dash",
+        "megamix",
+        "messenger",
+        "mk64",
+        "mm3",
+        "overcooked2",
+        "pinball_fx3",
+        "rabi_ribi",
+        "refunct",
+        "rotn",
+        "smw",
+        "stardew_valley",
+        "trackmania",
+        "tyrian",
+        "ufo50",
+        "v6",
+        "vampire_survivors",
+        "waffles"
+    },
+    "the game awards - best debut indie game - winner": {
+        "balatro",
+        "cuphead"
+    },
+    "debut": {
+        "balatro",
+        "cuphead",
+        "hk"
+    },
+    "the game awards - best independent game - winner": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "hades"
+    },
+    "independent": {
+        "balatro",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "hades",
+        "stardew_valley",
+        "witness"
+    },
+    "poker": {
+        "balatro",
+        "pokemon_crystal"
+    },
+    "roguelike": {
+        "balatro",
+        "hades",
+        "inscryption_beta",
+        "into_the_breach",
+        "pmd_eos",
+        "rogue_legacy",
+        "ror1"
+    },
+    "banjo-tooie": {
+        "banjo_tooie"
+    },
+    "quiz/trivia": {
+        "banjo_tooie"
+    },
+    "comedy": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "deltarune",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc2",
+        "doronko_wanko",
+        "duke3d",
+        "dw1",
+        "getting_over_it",
+        "hcniko",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "messenger",
+        "mlss",
+        "musedash",
+        "overcooked2",
+        "papermario",
+        "placidplasticducksim",
+        "portal2",
+        "rac2",
+        "rac3",
+        "rogue_legacy",
+        "rotn",
+        "simpsonshitnrun",
+        "sims4",
+        "sly1",
+        "spyro3",
+        "toontown",
+        "ttyd",
+        "undertale",
+        "zork_grand_inquisitor"
+    },
+    "nintendo 64": {
+        "banjo_tooie",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "k64",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "star_fox_64",
+        "swr"
+    },
+    "64": {
+        "banjo_tooie",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "k64",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "star_fox_64",
+        "swr"
+    },
+    "nintendo switch online - expansion pack": {
+        "banjo_tooie",
+        "dk64",
+        "gstla",
+        "k64",
+        "landstalker",
+        "luigismansion",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "star_fox_64",
+        "tmc",
+        "tww",
+        "wl4"
+    },
+    "expansion": {
+        "banjo_tooie",
+        "dk64",
+        "gstla",
+        "k64",
+        "landstalker",
+        "luigismansion",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "star_fox_64",
+        "tmc",
+        "tww",
+        "wl4"
+    },
+    "pack": {
+        "banjo_tooie",
+        "dk64",
+        "gstla",
+        "k64",
+        "landstalker",
+        "luigismansion",
+        "metroidfusion",
+        "mk64",
+        "mlss",
+        "mm_recomp",
+        "mzm",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "star_fox_64",
+        "tmc",
+        "tww",
+        "wl4"
+    },
+    "game console": {
+        "banjo_tooie",
+        "mario_kart_double_dash",
+        "pokemon_emerald"
+    },
+    "underwater gameplay": {
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "subnautica",
+        "terraria",
+        "trackmania"
+    },
+    "underwater": {
+        "banjo_tooie",
+        "bfbb",
+        "dkc",
+        "dkc2",
+        "duke3d",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "oot",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "subnautica",
+        "terraria",
+        "trackmania"
+    },
+    "promo vhs": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dkc",
+        "duke3d",
+        "star_fox_64"
+    },
+    "promo": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dkc",
+        "duke3d",
+        "star_fox_64"
+    },
+    "vhs": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dkc",
+        "duke3d",
+        "star_fox_64"
+    },
+    "aggressive door-opening": {
+        "banjo_tooie"
+    },
+    "aggressive": {
+        "banjo_tooie"
+    },
+    "door-opening": {
+        "banjo_tooie"
+    },
+    "split-screen multiplayer": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dk64",
+        "minecraft",
+        "mk64",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "star_fox_64",
+        "swr",
+        "terraria"
+    },
+    "split-screen": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dk64",
+        "minecraft",
+        "mk64",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "star_fox_64",
+        "swr",
+        "terraria"
+    },
+    "cameo appearance": {
+        "banjo_tooie",
+        "dkc2",
+        "jakanddaxter",
+        "oot",
+        "rac3",
+        "spyro3"
+    },
+    "cameo": {
+        "banjo_tooie",
+        "civ_6",
+        "dkc2",
+        "doom_1993",
+        "doom_ii",
+        "jakanddaxter",
+        "oot",
+        "rac3",
+        "spyro3"
+    },
+    "appearance": {
+        "banjo_tooie",
+        "dkc2",
+        "jakanddaxter",
+        "oot",
+        "rac3",
+        "spyro3"
+    },
+    "temporary invincibility": {
+        "banjo_tooie",
+        "cuphead",
+        "dkc2",
+        "doom_ii",
+        "faxanadu",
+        "jakanddaxter",
+        "mk64",
+        "papermario",
+        "quake",
+        "rogue_legacy",
+        "sonic_heroes",
+        "ttyd"
+    },
+    "temporary": {
+        "banjo_tooie",
+        "cuphead",
+        "dkc2",
+        "doom_ii",
+        "faxanadu",
+        "jakanddaxter",
+        "mk64",
+        "papermario",
+        "quake",
+        "rogue_legacy",
+        "sonic_heroes",
+        "ttyd"
+    },
+    "invincibility": {
+        "banjo_tooie",
+        "cuphead",
+        "dkc2",
+        "doom_ii",
+        "faxanadu",
+        "jakanddaxter",
+        "mk64",
+        "mm2",
+        "papermario",
+        "quake",
+        "rogue_legacy",
+        "sonic_heroes",
+        "tmc",
+        "ttyd"
+    },
+    "food-themed stage": {
+        "banjo_tooie",
+        "cuphead"
+    },
+    "food-themed": {
+        "banjo_tooie",
+        "cuphead"
+    },
+    "character growth": {
+        "banjo_tooie",
+        "dk64",
+        "oot",
+        "pokemon_crystal",
+        "ttyd"
+    },
+    "growth": {
+        "banjo_tooie",
+        "dk64",
+        "oot",
+        "pokemon_crystal",
+        "ttyd"
+    },
+    "gibberish": {
+        "banjo_tooie"
+    },
+    "breaking the fourth wall": {
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidfusion",
+        "mlss",
+        "papermario",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tmc",
+        "ttyd",
+        "undertale"
+    },
+    "breaking": {
+        "banjo_tooie",
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mlss",
+        "mzm",
+        "oot",
+        "papermario",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "tloz_ooa",
+        "tmc",
+        "ttyd",
+        "undertale",
+        "wl4"
+    },
+    "fourth": {
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "jakanddaxter",
+        "ladx_beta",
+        "metroidfusion",
+        "mlss",
+        "papermario",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tmc",
+        "ttyd",
+        "undertale"
+    },
+    "female antagonist": {
+        "banjo_tooie",
+        "cvcotm",
+        "duke3d",
+        "ffta",
+        "tloz_ooa",
+        "wl4"
+    },
+    "antagonist": {
+        "banjo_tooie",
+        "cv64",
+        "cvcotm",
+        "duke3d",
+        "earthbound",
+        "ffta",
+        "metroidprime",
+        "mm2",
+        "portal2",
+        "sly1",
+        "sms",
+        "tloz_ooa",
+        "wl4"
+    },
+    "fan service": {
+        "banjo_tooie",
+        "luigismansion",
+        "metroidfusion"
+    },
+    "service": {
+        "banjo_tooie",
+        "luigismansion",
+        "metroidfusion"
+    },
+    "rumble pak": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "star_fox_64"
+    },
+    "rumble": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "mlss",
+        "oot",
+        "star_fox_64",
+        "swr"
+    },
+    "pak": {
+        "banjo_tooie",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "mm3",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_rb",
+        "sm64ex",
+        "sm64hacks",
+        "star_fox_64",
+        "tloz"
+    },
+    "regenerating health": {
+        "banjo_tooie",
+        "cv_dos",
+        "sms"
+    },
+    "regenerating": {
+        "banjo_tooie",
+        "cv_dos",
+        "sms"
+    },
+    "health": {
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "cv_dos",
+        "hcniko",
+        "sms",
+        "stardew_valley",
+        "tunic"
+    },
+    "aliens": {
+        "banjo_tooie",
+        "duke3d",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "hcniko",
+        "into_the_breach",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "quake",
+        "sc2",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "xenobladex"
+    },
+    "shape-shifting": {
+        "banjo_tooie",
+        "k64",
+        "kdl3",
+        "metroidprime",
+        "mm_recomp",
+        "sotn"
+    },
+    "dynamic soundtrack": {
+        "banjo_tooie",
+        "sly1"
+    },
+    "dynamic": {
+        "banjo_tooie",
+        "jakanddaxter",
+        "minecraft",
+        "sly1"
+    },
+    "talking animals": {
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "peggle_nights",
+        "sly1",
+        "star_fox_64"
+    },
+    "talking": {
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "peggle_nights",
+        "sly1",
+        "star_fox_64"
+    },
+    "animals": {
+        "banjo_tooie",
+        "bfbb",
+        "diddy_kong_racing",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "minecraft",
+        "peggle_nights",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "star_fox_64",
+        "stardew_valley"
+    },
+    "button mashing": {
+        "banjo_tooie",
+        "kh1"
+    },
+    "button": {
+        "banjo_tooie",
+        "kh1"
+    },
+    "mashing": {
+        "banjo_tooie",
+        "kh1"
+    },
+    "camel": {
+        "banjo_tooie",
+        "minecraft",
+        "papermario"
+    },
+    "inconvenient malfunction": {
+        "banjo_tooie",
+        "duke3d",
+        "metroidfusion",
+        "mlss",
+        "witness"
+    },
+    "inconvenient": {
+        "banjo_tooie",
+        "duke3d",
+        "metroidfusion",
+        "mlss",
+        "witness"
+    },
+    "malfunction": {
+        "banjo_tooie",
+        "duke3d",
+        "metroidfusion",
+        "mlss",
+        "witness"
+    },
+    "flight": {
+        "banjo_tooie",
+        "diddy_kong_racing",
+        "dkc",
+        "duke3d",
+        "lego_star_wars_tcs",
+        "mm2",
+        "mm3",
+        "rogue_legacy",
+        "shorthike",
+        "spyro3",
+        "star_fox_64",
+        "terraria",
+        "trackmania",
+        "wl4",
+        "xenobladex"
+    },
+    "witches": {
+        "banjo_tooie",
+        "cv64",
+        "cv_dos",
+        "enderlilies",
+        "minecraft",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "game cartridge": {
+        "banjo_tooie",
+        "simpsonshitnrun"
+    },
+    "cartridge": {
+        "banjo_tooie",
+        "oot",
+        "simpsonshitnrun",
+        "sm64ex",
+        "sm64hacks",
+        "swr",
+        "tloz"
+    },
+    "cheat code": {
+        "banjo_tooie",
+        "duke3d",
+        "faxanadu",
+        "mm2",
+        "mm3",
+        "rac3",
+        "tunic"
+    },
+    "cheat": {
+        "banjo_tooie",
+        "duke3d",
+        "faxanadu",
+        "mm2",
+        "mm3",
+        "rac3",
+        "tunic"
+    },
+    "code": {
+        "banjo_tooie",
+        "duke3d",
+        "faxanadu",
+        "mm2",
+        "mm3",
+        "rac3",
+        "tunic"
+    },
+    "invisible wall": {
+        "banjo_tooie",
+        "dk64",
+        "kh1",
+        "mk64",
+        "oot"
+    },
+    "invisible": {
+        "banjo_tooie",
+        "dk64",
+        "doom_ii",
+        "kh1",
+        "luigismansion",
+        "metroidprime",
+        "mk64",
+        "oot"
+    },
+    "lgbtq+": {
+        "banjo_tooie",
+        "celeste",
+        "celeste_open_world",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sims4",
+        "timespinner"
+    },
+    "animal protagonist": {
+        "banjo_tooie",
+        "dkc2",
+        "shorthike"
+    },
+    "nintendo 64 exclusive": {
+        "banjo_tooie",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "k64",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "star_fox_64"
+    },
+    "exclusive": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "cv64",
+        "diddy_kong_racing",
+        "dk64",
+        "ffta",
+        "gstla",
+        "jakanddaxter",
+        "k64",
+        "luigismansion",
+        "mk64",
+        "mm_recomp",
+        "oot",
+        "oribf",
+        "papermario",
+        "rac3",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "ss",
+        "star_fox_64",
+        "terraria",
+        "ttyd",
+        "yugiohddm"
+    },
+    "cross-dressing": {
+        "banjo_tooie",
+        "oot"
+    },
+    "fictional currencies": {
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "ffmq",
+        "ffta",
+        "kh1",
+        "lego_star_wars_tcs",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3"
+    },
+    "fictional": {
+        "banjo_tooie",
+        "civ_6",
+        "dkc",
+        "dkc2",
+        "ffmq",
+        "ffta",
+        "kh1",
+        "lego_star_wars_tcs",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3"
+    },
+    "currencies": {
+        "banjo_tooie",
+        "dkc",
+        "dkc2",
+        "ffmq",
+        "ffta",
+        "kh1",
+        "lego_star_wars_tcs",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3"
+    },
+    "protagonist's name in the title": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "duke3d",
+        "jakanddaxter",
+        "kdl3",
+        "luigismansion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "rac3",
+        "sly1",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "spyro3"
+    },
+    "protagonist's": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "duke3d",
+        "jakanddaxter",
+        "kdl3",
+        "luigismansion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "rac3",
+        "sly1",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "spyro3"
+    },
+    "name": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "duke3d",
+        "jakanddaxter",
+        "kdl3",
+        "luigismansion",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "rac3",
+        "sly1",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "spyro3"
+    },
+    "title": {
+        "banjo_tooie",
+        "bfbb",
+        "cuphead",
+        "dk64",
+        "dkc",
+        "duke3d",
+        "jakanddaxter",
+        "kdl3",
+        "luigismansion",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "rac3",
+        "rogue_legacy",
+        "sly1",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "spyro3"
+    },
+    "skull for a head": {
+        "banjo_tooie"
+    },
+    "skull": {
+        "banjo_tooie"
+    },
+    "head": {
+        "banjo_tooie",
+        "cv_dos",
+        "jakanddaxter",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "spyro3",
+        "tloz_ooa",
+        "tmc",
+        "toontown"
+    },
+    "games with gold": {
+        "banjo_tooie",
+        "lego_star_wars_tcs",
+        "terraria"
+    },
+    "with": {
+        "banjo_tooie",
+        "dark_souls_2",
+        "deltarune",
+        "dk64",
+        "getting_over_it",
+        "lego_star_wars_tcs",
+        "star_fox_64",
+        "terraria",
+        "witness"
+    },
+    "gold": {
+        "banjo_tooie",
+        "lego_star_wars_tcs",
+        "terraria"
+    },
+    "gliding": {
+        "banjo_tooie",
+        "kh1",
+        "rac3",
+        "shorthike",
+        "sly1",
+        "sms",
+        "spyro3",
+        "tmc",
+        "ttyd"
+    },
+    "game boy camera": {
+        "banjo_tooie"
+    },
+    "boy": {
+        "banjo_tooie",
+        "cvcotm",
+        "earthbound",
+        "ffta",
+        "gstla",
+        "ladx_beta",
+        "marioland2",
+        "metroidfusion",
+        "mlss",
+        "mm2",
+        "mmbn3",
+        "mzm",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc",
+        "wl",
+        "wl4",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "battle for bikini bottom": {
+        "bfbb"
+    },
+    "spongebob squarepants: battle for bikini bottom": {
+        "bfbb"
+    },
+    "spongebob": {
+        "bfbb"
+    },
+    "squarepants:": {
+        "bfbb"
+    },
+    "battle": {
+        "bfbb",
+        "gstla",
+        "mario_kart_double_dash",
+        "marioland2",
+        "mlss",
+        "mmbn3",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rabi_ribi",
+        "sa2b",
+        "star_fox_64",
+        "ttyd",
+        "tunic",
+        "undertale"
+    },
+    "bikini": {
+        "bfbb"
+    },
+    "bottom": {
+        "bfbb"
+    },
+    "playstation 2": {
+        "bfbb",
+        "dw1",
+        "jakanddaxter",
+        "kh1",
+        "kh2",
+        "rac2",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sonic_heroes"
+    },
+    "nintendo gamecube": {
+        "bfbb",
+        "dw1",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "metroidprime",
+        "simpsonshitnrun",
+        "sms",
+        "sonic_heroes",
+        "ttyd",
+        "tww"
+    },
+    "gamecube": {
+        "bfbb",
+        "dw1",
+        "luigismansion",
+        "mario_kart_double_dash",
+        "metroidprime",
+        "pokemon_emerald",
+        "simpsonshitnrun",
+        "sms",
+        "sonic_heroes",
+        "ttyd",
+        "tww"
+    },
+    "robots": {
+        "bfbb",
+        "cuphead",
+        "earthbound",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "portal2",
+        "rac3",
+        "sms",
+        "sonic_heroes",
+        "star_fox_64",
+        "swr",
+        "xenobladex"
+    },
+    "tie-in": {
+        "bfbb",
+        "dw1",
+        "fm",
+        "lego_star_wars_tcs",
+        "simpsonshitnrun"
+    },
+    "based on - cartoons": {
+        "bfbb"
+    },
+    "based": {
+        "bfbb",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "dw1",
+        "fm",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "swr",
+        "yugiohddm"
+    },
+    "cartoons": {
+        "bfbb"
+    },
+    "kid friendly": {
+        "bfbb",
+        "k64",
+        "lego_star_wars_tcs",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "kid": {
+        "bfbb",
+        "k64",
+        "lego_star_wars_tcs",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "friendly": {
+        "bfbb",
+        "k64",
+        "lego_star_wars_tcs",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "powerwashsimulator",
+        "shorthike",
+        "sims4",
+        "tunic"
+    },
+    "cartoony": {
+        "bfbb",
+        "kh1",
+        "simpsonshitnrun",
+        "sims4"
+    },
+    "licensed game": {
+        "bfbb",
+        "dw1",
+        "faxanadu",
+        "ff1",
+        "fm",
+        "lego_star_wars_tcs",
+        "simpsonshitnrun",
+        "swr",
+        "toontown",
+        "yugiohddm"
+    },
+    "licensed": {
+        "bfbb",
+        "dw1",
+        "faxanadu",
+        "ff1",
+        "fm",
+        "kh1",
+        "lego_star_wars_tcs",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "swr",
+        "toontown",
+        "yugiohddm"
+    },
+    "bink video": {
+        "bfbb",
+        "civ_6",
+        "dark_souls_3",
+        "portal2",
+        "simpsonshitnrun",
+        "witness"
+    },
+    "bink": {
+        "bfbb",
+        "civ_6",
+        "dark_souls_3",
+        "portal2",
+        "simpsonshitnrun",
+        "witness"
+    },
+    "video": {
+        "bfbb",
+        "civ_6",
+        "dark_souls_3",
+        "dk64",
+        "mzm",
+        "portal2",
+        "rac3",
+        "simpsonshitnrun",
+        "ss",
+        "stardew_valley",
+        "tloz_ph",
+        "witness",
+        "zork_grand_inquisitor"
+    },
+    "starfish": {
+        "bfbb",
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc2"
+    },
+    "multiple playable characters": {
+        "bfbb",
+        "mario_kart_double_dash",
+        "mlss"
+    },
+    "playable": {
+        "bfbb",
+        "lego_star_wars_tcs",
+        "mario_kart_double_dash",
+        "mlss",
+        "smw",
+        "waffles"
+    },
+    "platform exclusive": {
+        "bfbb",
+        "cuphead",
+        "jakanddaxter",
+        "luigismansion",
+        "oribf",
+        "rac3",
+        "sly1",
+        "smo",
+        "sms",
+        "ss",
+        "terraria",
+        "ttyd",
+        "yugiohddm"
+    },
+    "xbox 360 backwards compatibility": {
+        "bfbb",
+        "simpsonshitnrun",
+        "sonic_heroes"
+    },
+    "360": {
+        "bfbb",
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "portal2",
+        "sa2b",
+        "sadx",
+        "simpsonshitnrun",
+        "sonic_heroes",
+        "sotn",
+        "terraria"
+    },
+    "compilation": {
+        "bfbb",
+        "doom_1993",
+        "ufo50"
+    },
+    "octopus": {
+        "bfbb",
+        "cuphead",
+        "minecraft",
+        "pinball_fx3"
+    },
+    "renderware": {
+        "bfbb",
+        "portal2",
+        "sonic_heroes"
+    },
+    "based on - tv show": {
+        "bfbb",
+        "dw1",
+        "fm",
+        "yugiohddm"
+    },
+    "show": {
+        "bfbb",
+        "dark_souls_2",
+        "dkc",
+        "dw1",
+        "fm",
+        "yugiohddm"
+    },
+    "2000s": {
+        "bfbb"
+    },
+    "squirrel": {
+        "bfbb",
+        "terraria"
+    },
+    "crab": {
+        "bfbb",
+        "civ_6",
+        "dark_souls_3",
+        "hcniko"
+    },
+    "bksimulator": {
+        "bksim"
+    },
+    "blasphemous": {
+        "blasphemous"
+    },
+    "hack and slash/beat 'em up": {
+        "blasphemous",
+        "cv64",
+        "hades",
+        "nine_sols",
+        "ror1"
+    },
+    "hack": {
+        "blasphemous",
+        "cv64",
+        "hades",
+        "nine_sols",
+        "ror1"
+    },
+    "slash/beat": {
+        "blasphemous",
+        "cv64",
+        "hades",
+        "nine_sols",
+        "ror1"
+    },
+    "'em": {
+        "blasphemous",
+        "cuphead",
+        "cv64",
+        "hades",
+        "nine_sols",
+        "ror1",
+        "tyrian"
+    },
+    "up": {
+        "blasphemous",
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dw1",
+        "earthbound",
+        "gstla",
+        "hades",
+        "kh1",
+        "landstalker",
+        "mk64",
+        "mm_recomp",
+        "nine_sols",
+        "papermario",
+        "pinball_fx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rabi_ribi",
+        "rac3",
+        "ror1",
+        "sotn",
+        "ttyd",
+        "tyrian",
+        "undertale",
+        "zelda2"
+    },
+    "linux": {
+        "blasphemous",
+        "cat_quest",
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "crosscode",
+        "crystal_project",
+        "dontstarvetogether",
+        "doom_1993",
+        "factorio",
+        "factorio_saws",
+        "getting_over_it",
+        "hk",
+        "inscryption_beta",
+        "into_the_breach",
+        "landstalker",
+        "minecraft",
+        "monster_sanctuary",
+        "overcooked2",
+        "portal2",
+        "quake",
+        "refunct",
+        "rimworld",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "undertale",
+        "v6",
+        "vampire_survivors"
+    },
+    "crossover": {
+        "blasphemous",
+        "diddy_kong_racing",
+        "hcniko",
+        "kh1",
+        "mk64"
+    },
+    "religious": {
+        "blasphemous"
+    },
+    "religion": {
+        "blasphemous",
+        "civ_6",
+        "cv64",
+        "earthbound",
+        "oot"
+    },
+    "character skin": {
+        "blasphemous",
+        "trackmania"
+    },
+    "skin": {
+        "blasphemous",
+        "trackmania"
+    },
+    "xbox controller support for pc": {
+        "blasphemous",
+        "deltarune",
+        "hcniko",
+        "hk",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "stardew_valley",
+        "trackmania",
+        "tunic",
+        "v6"
+    },
+    "pc": {
+        "blasphemous",
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "hk",
+        "oribf",
+        "quake",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "stardew_valley",
+        "trackmania",
+        "tunic",
+        "v6"
+    },
+    "remote play": {
+        "blasphemous",
+        "peggle_nights",
+        "v6"
+    },
+    "remote": {
+        "blasphemous",
+        "peggle_nights",
+        "ss",
+        "terraria",
+        "v6"
+    },
+    "interconnected-world": {
+        "blasphemous",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dsr",
+        "hk",
+        "luigismansion",
+        "mzm",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "ttyd"
+    },
+    "sidescroller": {
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "hk"
+    },
+    "parrying": {
+        "blasphemous",
+        "cuphead",
+        "dark_souls_2",
+        "dark_souls_3",
+        "hk"
+    },
+    "gothic horror": {
+        "blasphemous"
+    },
+    "gothic": {
+        "blasphemous"
+    },
+    "nudity": {
+        "blasphemous",
+        "cv_dos",
+        "duke3d",
+        "musedash",
+        "sotn"
+    },
+    "steam families": {
+        "blasphemous",
+        "deltarune",
+        "hcniko",
+        "nine_sols",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "tunic",
+        "v6"
+    },
+    "families": {
+        "blasphemous",
+        "deltarune",
+        "hcniko",
+        "nine_sols",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "tunic",
+        "v6"
+    },
+    "dark fantasy": {
+        "blasphemous",
+        "dark_souls_3",
+        "enderlilies"
+    },
+    "difficult": {
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "dontstarvetogether",
+        "getting_over_it",
+        "hades",
+        "messenger",
+        "rabi_ribi",
+        "ror1",
+        "tunic",
+        "zelda2"
+    },
+    "steam deck": {
+        "blasphemous",
+        "shorthike"
+    },
+    "deck": {
+        "blasphemous",
+        "shorthike",
+        "ttyd"
+    },
+    "gore": {
+        "blasphemous",
+        "duke3d",
+        "quake"
+    },
+    "religious themes": {
+        "blasphemous"
+    },
+    "themes": {
+        "blasphemous",
+        "simpsonshitnrun"
+    },
+    "soulslike": {
+        "blasphemous",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dsr",
+        "enderlilies",
+        "nine_sols",
+        "tunic"
+    },
+    "you can pet the dog": {
+        "blasphemous",
+        "hades",
+        "overcooked2",
+        "sims4",
+        "terraria",
+        "undertale"
+    },
+    "you": {
+        "blasphemous",
+        "hades",
+        "overcooked2",
+        "sims4",
+        "terraria",
+        "undertale"
+    },
+    "can": {
+        "blasphemous",
+        "hades",
+        "overcooked2",
+        "sims4",
+        "terraria",
+        "undertale"
+    },
+    "pet": {
+        "blasphemous",
+        "dw1",
+        "hades",
+        "hcniko",
+        "overcooked2",
+        "sims4",
+        "terraria",
+        "undertale"
+    },
+    "dog": {
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "deltarune",
+        "doronko_wanko",
+        "duke3d",
+        "hades",
+        "hcniko",
+        "minecraft",
+        "mm3",
+        "oot",
+        "overcooked2",
+        "sims4",
+        "sly1",
+        "smo",
+        "soe",
+        "star_fox_64",
+        "terraria",
+        "tloz_oos",
+        "tmc",
+        "undertale"
+    },
+    "steam achievements": {
+        "blasphemous",
+        "dredge",
+        "duke3d",
+        "hcniko",
+        "hk",
+        "musedash",
+        "nine_sols",
+        "oribf",
+        "pinball_fx3",
+        "portal2",
+        "rabi_ribi",
+        "rogue_legacy",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "tunic",
+        "v6",
+        "witness"
+    },
+    "lore rich": {
+        "blasphemous"
+    },
+    "lore": {
+        "blasphemous",
+        "metroidprime"
+    },
+    "rich": {
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "dredge",
+        "getting_over_it",
+        "hades",
+        "powerwashsimulator",
+        "undertale"
+    },
+    "steam trading cards": {
+        "blasphemous",
+        "duke3d",
+        "hk",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "stardew_valley",
+        "terraria",
+        "v6"
+    },
+    "trading": {
+        "blasphemous",
+        "duke3d",
+        "hk",
+        "minecraft",
+        "oribf",
+        "pokemon_frlg",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "soe",
+        "stardew_valley",
+        "terraria",
+        "v6"
+    },
+    "cards": {
+        "blasphemous",
+        "cuphead",
+        "cv_dos",
+        "duke3d",
+        "hk",
+        "oribf",
+        "rogue_legacy",
+        "ror1",
+        "rotn",
+        "stardew_valley",
+        "terraria",
+        "v6"
+    },
+    "great soundtrack": {
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "celeste",
+        "celeste_open_world",
+        "getting_over_it",
+        "rabi_ribi",
+        "refunct",
+        "shorthike",
+        "tunic",
+        "undertale"
+    },
+    "great": {
+        "blasphemous",
+        "bomb_rush_cyberfunk",
+        "celeste",
+        "celeste_open_world",
+        "getting_over_it",
+        "rabi_ribi",
+        "refunct",
+        "shorthike",
+        "tunic",
+        "undertale"
+    },
+    "bloody": {
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidprime",
+        "quake",
+        "sotn"
+    },
+    "side-scrolling": {
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "k64",
+        "kdl3",
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "musedash",
+        "mzm",
+        "phoa",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "yoshisisland",
+        "zelda2"
+    },
+    "2d platformer": {
+        "blasphemous",
+        "hk",
+        "smo",
+        "v6"
+    },
+    "previously on - utomik": {
+        "blasphemous"
+    },
+    "previously": {
+        "blasphemous",
+        "celeste",
+        "celeste_open_world",
+        "dredge",
+        "into_the_breach",
+        "lego_star_wars_tcs",
+        "ror2",
+        "terraria"
+    },
+    "utomik": {
+        "blasphemous"
+    },
+    "violent": {
+        "blasphemous",
+        "cuphead",
+        "cv_dos",
+        "metroidfusion",
+        "metroidprime",
+        "rogue_legacy",
+        "sms",
+        "ss",
+        "terraria",
+        "ttyd"
+    },
+    "available on - blacknut": {
+        "blasphemous"
+    },
+    "blacknut": {
+        "blasphemous"
+    },
+    "steam cloud": {
+        "blasphemous",
+        "deltarune",
+        "factorio",
+        "hcniko",
+        "musedash",
+        "nine_sols",
+        "oribf",
+        "pinball_fx3",
+        "quake",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "tunic",
+        "v6"
+    },
+    "cloud": {
+        "blasphemous",
+        "deltarune",
+        "factorio",
+        "hcniko",
+        "musedash",
+        "nine_sols",
+        "oribf",
+        "pinball_fx3",
+        "quake",
+        "rotn",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "tunic",
+        "v6"
+    },
+    "brutality": {
+        "blasphemous"
+    },
+    "melee combat": {
+        "blasphemous",
+        "tunic"
+    },
+    "melee": {
+        "blasphemous",
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "gstla",
+        "k64",
+        "kdl3",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "quake",
+        "sly1",
+        "sotn",
+        "terraria",
+        "tmc",
+        "ttyd",
+        "tunic",
+        "wl4"
+    },
+    "bomb rush cyberfunk": {
+        "bomb_rush_cyberfunk"
+    },
+    "bomb": {
+        "bomb_rush_cyberfunk",
+        "civ_6",
+        "metroidprime",
+        "mzm",
+        "sonic_heroes"
+    },
+    "rush": {
+        "bomb_rush_cyberfunk"
+    },
+    "cyberfunk": {
+        "bomb_rush_cyberfunk"
+    },
+    "sport": {
+        "bomb_rush_cyberfunk",
+        "swr",
+        "trackmania"
+    },
+    "science fiction": {
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "crosscode",
+        "ctjot",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "into_the_breach",
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3",
+        "mzm",
+        "nine_sols",
+        "outer_wilds",
+        "pinball_fx3",
+        "pokemon_frlg",
+        "portal2",
+        "quake",
+        "rac2",
+        "rac3",
+        "rimworld",
+        "ror1",
+        "ror2",
+        "satisfactory",
+        "sc2",
+        "sm",
+        "sm_map_rando",
+        "soe",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "terraria",
+        "ttyd",
+        "tyrian",
+        "v6",
+        "witness",
+        "xenobladex"
+    },
+    "science": {
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "crosscode",
+        "ctjot",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "into_the_breach",
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3",
+        "mzm",
+        "nine_sols",
+        "outer_wilds",
+        "pinball_fx3",
+        "pokemon_frlg",
+        "portal2",
+        "quake",
+        "rac2",
+        "rac3",
+        "rimworld",
+        "ror1",
+        "ror2",
+        "satisfactory",
+        "sc2",
+        "sm",
+        "sm_map_rando",
+        "soe",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "terraria",
+        "ttyd",
+        "tyrian",
+        "v6",
+        "witness",
+        "xenobladex"
+    },
+    "fiction": {
+        "bomb_rush_cyberfunk",
+        "brotato",
+        "crosscode",
+        "ctjot",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "earthbound",
+        "factorio",
+        "factorio_saws",
+        "into_the_breach",
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3",
+        "mzm",
+        "nine_sols",
+        "outer_wilds",
+        "pinball_fx3",
+        "pokemon_frlg",
+        "portal2",
+        "quake",
+        "rac2",
+        "rac3",
+        "rimworld",
+        "ror1",
+        "ror2",
+        "satisfactory",
+        "sc2",
+        "sm",
+        "sm_map_rando",
+        "soe",
+        "star_fox_64",
+        "subnautica",
+        "swr",
+        "terraria",
+        "ttyd",
+        "tyrian",
+        "v6",
+        "witness",
+        "xenobladex"
+    },
+    "spiritual successor": {
+        "bomb_rush_cyberfunk",
+        "mlss",
+        "papermario",
+        "quake",
+        "xenobladex"
+    },
+    "spiritual": {
+        "bomb_rush_cyberfunk",
+        "mlss",
+        "papermario",
+        "quake",
+        "xenobladex"
+    },
+    "successor": {
+        "bomb_rush_cyberfunk",
+        "mlss",
+        "papermario",
+        "quake",
+        "xenobladex"
+    },
+    "skating": {
+        "bomb_rush_cyberfunk"
+    },
+    "brotato": {
+        "brotato"
+    },
+    "shooter": {
+        "brotato",
+        "cccharles",
+        "crosscode",
+        "cuphead",
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "metroidprime",
+        "mm3",
+        "mmx3",
+        "mzm",
+        "quake",
+        "rabi_ribi",
+        "rac2",
+        "rac3",
+        "ror1",
+        "ror2",
+        "sm",
+        "sm_map_rando",
+        "star_fox_64",
+        "tboir",
+        "tyrian",
+        "ufo50",
+        "undertale"
+    },
+    "fighting": {
+        "brotato"
+    },
+    "arena shooter": {
+        "brotato",
+        "quake"
+    },
+    "arena": {
+        "brotato",
+        "quake"
+    },
+    "cat quest": {
+        "cat_quest"
+    },
+    "cat": {
+        "cat_quest",
+        "cuphead",
+        "cv_dos",
+        "dkc2",
+        "kh1",
+        "minecraft",
+        "tloz_oos",
+        "tmc",
+        "wl4"
+    },
+    "quest": {
+        "cat_quest",
+        "dkc2",
+        "ffmq",
+        "xenobladex"
+    },
+    "choo-choo charles": {
+        "cccharles"
+    },
+    "choo-choo": {
+        "cccharles"
+    },
+    "charles": {
+        "cccharles"
+    },
+    "forest": {
+        "cccharles",
+        "enderlilies",
+        "hcniko",
+        "oribf",
+        "shorthike",
+        "tunic"
+    },
+    "celeste": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "google stadia": {
+        "celeste",
+        "celeste_open_world",
+        "into_the_breach",
+        "ror2",
+        "terraria"
+    },
+    "google": {
+        "celeste",
+        "celeste_open_world",
+        "into_the_breach",
+        "ror2",
+        "stardew_valley",
+        "terraria"
+    },
+    "stadia": {
+        "celeste",
+        "celeste_open_world",
+        "into_the_breach",
+        "ror2",
+        "terraria"
+    },
+    "depression": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "previously on - stadia pro": {
+        "celeste",
+        "celeste_open_world",
+        "into_the_breach",
+        "ror2",
+        "terraria"
+    },
+    "pro": {
+        "celeste",
+        "celeste_open_world",
+        "into_the_breach",
+        "ror2",
+        "terraria",
+        "xenobladex"
+    },
+    "psychological exploration": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "psychological": {
+        "celeste",
+        "celeste_open_world",
+        "dredge",
+        "getting_over_it",
+        "mm_recomp",
+        "undertale"
+    },
+    "story rich": {
+        "celeste",
+        "celeste_open_world",
+        "dredge",
+        "getting_over_it",
+        "hades",
+        "powerwashsimulator",
+        "undertale"
+    },
+    "story": {
+        "celeste",
+        "celeste_open_world",
+        "chainedechoes",
+        "dredge",
+        "getting_over_it",
+        "hades",
+        "powerwashsimulator",
+        "undertale"
+    },
+    "transgender protagonist": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "transgender": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "conversation": {
+        "celeste",
+        "celeste_open_world",
+        "enderlilies",
+        "rabi_ribi",
+        "undertale",
+        "v6"
+    },
+    "lgbtq": {
+        "celeste",
+        "celeste_open_world",
+        "hcniko"
+    },
+    "pax west 2017": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dontstarvetogether",
+        "minecraft",
+        "smo",
+        "tunic",
+        "ufo50"
+    },
+    "west": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dontstarvetogether",
+        "duke3d",
+        "minecraft",
+        "smo",
+        "stardew_valley",
+        "tunic",
+        "ufo50"
+    },
+    "2017": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "dark_souls_3",
+        "dontstarvetogether",
+        "hk",
+        "minecraft",
+        "smo",
+        "tunic",
+        "ufo50"
+    },
+    "puzzle platformer": {
+        "celeste",
+        "celeste_open_world",
+        "oribf"
+    },
+    "the game awards - best score or music - nominee": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "hades",
+        "smo"
+    },
+    "score": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hades",
+        "hcniko",
+        "lego_star_wars_tcs",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "peggle_nights",
+        "smo",
+        "sms",
+        "sonic_heroes",
+        "ttyd",
+        "wl4"
+    },
+    "or": {
+        "celeste",
+        "celeste_open_world",
+        "cuphead",
+        "hades",
+        "smo"
+    },
+    "music": {
+        "celeste",
+        "celeste_open_world",
+        "civ_6",
+        "cuphead",
+        "cv64",
+        "deltarune",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "hades",
+        "megamix",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm_recomp",
+        "musedash",
+        "mzm",
+        "placidplasticducksim",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "portal2",
+        "rotn",
+        "smo",
+        "soe",
+        "sonic_heroes",
+        "sotn"
+    },
+    "precision platforming": {
+        "celeste",
+        "celeste_open_world",
+        "v6"
+    },
+    "precision": {
+        "celeste",
+        "celeste_open_world",
+        "v6"
+    },
+    "platforming": {
+        "celeste",
+        "celeste_open_world",
+        "doom_ii",
+        "getting_over_it",
+        "metroidprime",
+        "portal2",
+        "quake",
+        "v6"
+    },
+    "rock climbing": {
+        "celeste",
+        "celeste_open_world",
+        "shorthike"
+    },
+    "rock": {
+        "celeste",
+        "celeste_open_world",
+        "doom_ii",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "shorthike",
+        "sonic_heroes",
+        "sotn"
+    },
+    "climbing": {
+        "celeste",
+        "celeste_open_world",
+        "dkc2",
+        "jakanddaxter",
+        "shorthike",
+        "sly1",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "tmc"
+    },
+    "anxiety": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "mental health": {
+        "celeste",
+        "celeste_open_world",
+        "hcniko"
+    },
+    "mental": {
+        "celeste",
+        "celeste_open_world",
+        "hcniko"
+    },
+    "precision platformer": {
+        "celeste",
+        "celeste_open_world"
+    },
+    "celeste (open world)": {
+        "celeste_open_world"
+    },
+    "chained echoes": {
+        "chainedechoes"
+    },
+    "chained": {
+        "chainedechoes"
+    },
+    "echoes": {
+        "chainedechoes"
+    },
+    "turn-based rpg": {
+        "chainedechoes",
+        "papermario",
+        "ttyd"
+    },
+    "turn-based": {
+        "chainedechoes",
+        "civ_6",
+        "crystal_project",
+        "earthbound",
+        "ffmq",
+        "ffta",
+        "fm",
+        "gstla",
+        "mlss",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ttyd",
+        "undertale"
+    },
+    "jrpg": {
+        "chainedechoes",
+        "crystal_project",
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta",
+        "pmd_eos"
+    },
+    "party-based rpg": {
+        "chainedechoes",
+        "crystal_project"
+    },
+    "party-based": {
+        "chainedechoes",
+        "crystal_project",
+        "ffmq",
+        "ffta",
+        "gstla"
+    },
+    "story driven": {
+        "chainedechoes"
+    },
+    "driven": {
+        "chainedechoes"
+    },
+    "chatipelago": {
+        "chatipelago"
+    },
+    "checksfinder": {
+        "checksfinder"
+    },
+    "civilization vi": {
+        "civ_6"
+    },
+    "sid meier's civilization iv": {
+        "civ_6"
+    },
+    "sid": {
+        "civ_6"
+    },
+    "meier's": {
+        "civ_6"
+    },
+    "civilization": {
+        "civ_6",
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "ss"
+    },
+    "iv": {
+        "civ_6"
+    },
+    "educational": {
+        "civ_6"
+    },
+    "buddhism": {
+        "civ_6"
+    },
+    "management": {
+        "civ_6",
+        "dkc",
+        "doom_ii",
+        "ffta",
+        "minecraft",
+        "rimworld",
+        "sims4",
+        "sotn"
+    },
+    "slavery": {
+        "civ_6",
+        "papermario",
+        "ttyd"
+    },
+    "content editor": {
+        "civ_6"
+    },
+    "content": {
+        "civ_6",
+        "dark_souls_2",
+        "dark_souls_3",
+        "duke3d",
+        "factorio",
+        "minecraft",
+        "pinball_fx3",
+        "quake",
+        "smo",
+        "trackmania",
+        "xenobladex"
+    },
+    "editor": {
+        "civ_6",
+        "cv_dos",
+        "duke3d",
+        "rotn",
+        "trackmania",
+        "v6",
+        "wargroove",
+        "wargroove2"
+    },
+    "ambient music": {
+        "civ_6",
+        "cv64",
+        "dkc",
+        "dkc2",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "portal2",
+        "soe"
+    },
+    "ambient": {
+        "civ_6",
+        "cv64",
+        "dkc",
+        "dkc2",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "portal2",
+        "soe"
+    },
+    "loot gathering": {
+        "civ_6",
+        "cv64",
+        "dk64",
+        "minecraft",
+        "terraria",
+        "xenobladex"
+    },
+    "loot": {
+        "civ_6",
+        "cv64",
+        "dk64",
+        "minecraft",
+        "terraria",
+        "xenobladex"
+    },
+    "gathering": {
+        "civ_6",
+        "cv64",
+        "dk64",
+        "factorio",
+        "minecraft",
+        "terraria",
+        "xenobladex"
+    },
+    "wraparound world": {
+        "civ_6",
+        "v6"
+    },
+    "wraparound": {
+        "civ_6",
+        "v6"
+    },
+    "historical figures in fictional settings": {
+        "civ_6"
+    },
+    "figures": {
+        "civ_6"
+    },
+    "settings": {
+        "civ_6"
+    },
+    "macromanagement": {
+        "civ_6"
+    },
+    "resource gathering": {
+        "civ_6",
+        "factorio",
+        "minecraft"
+    },
+    "resource": {
+        "civ_6",
+        "factorio",
+        "minecraft"
+    },
+    "supply and demand": {
+        "civ_6"
+    },
+    "supply": {
+        "civ_6"
+    },
+    "demand": {
+        "civ_6",
+        "lego_star_wars_tcs"
+    },
+    "atheism": {
+        "civ_6"
+    },
+    "nomads": {
+        "civ_6"
+    },
+    "war": {
+        "civ_6",
+        "lego_star_wars_tcs"
+    },
+    "biblical quotes": {
+        "civ_6",
+        "sotn"
+    },
+    "biblical": {
+        "civ_6",
+        "sotn"
+    },
+    "quotes": {
+        "civ_6",
+        "sotn",
+        "witness"
+    },
+    "slip cover packaging": {
+        "civ_6"
+    },
+    "slip": {
+        "civ_6"
+    },
+    "packaging": {
+        "civ_6"
+    },
+    "catapult": {
+        "civ_6"
+    },
+    "invented language": {
+        "civ_6",
+        "jakanddaxter"
+    },
+    "invented": {
+        "civ_6",
+        "jakanddaxter"
+    },
+    "language": {
+        "civ_6",
+        "jakanddaxter",
+        "minecraft",
+        "sly1",
+        "tmc",
+        "yugiohddm"
+    },
+    "communism": {
+        "civ_6"
+    },
+    "capitalism": {
+        "civ_6"
+    },
+    "games on demand": {
+        "civ_6",
+        "lego_star_wars_tcs"
+    },
+    "anarchism": {
+        "civ_6"
+    },
+    "world domination": {
+        "civ_6"
+    },
+    "domination": {
+        "civ_6"
+    },
+    "taoism": {
+        "civ_6"
+    },
+    "royalty": {
+        "civ_6",
+        "earthbound",
+        "mlss",
+        "rogue_legacy",
+        "tmc",
+        "ttyd"
+    },
+    "steam play": {
+        "civ_6",
+        "duke3d",
+        "peggle_nights",
+        "v6"
+    },
+    "hinduism": {
+        "civ_6"
+    },
+    "interactive achievement awards 2006": {
+        "civ_6"
+    },
+    "interactive": {
+        "civ_6",
+        "diddy_kong_racing",
+        "duke3d",
+        "ffta",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm_recomp",
+        "mzm",
+        "papermario",
+        "sly1",
+        "swr",
+        "tloz_ph",
+        "ttyd"
+    },
+    "achievement": {
+        "civ_6",
+        "diddy_kong_racing",
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "metroidfusion",
+        "metroidprime",
+        "minecraft",
+        "mzm",
+        "ror1",
+        "sly1",
+        "swr",
+        "tloz_ph",
+        "ttyd"
+    },
+    "2006": {
+        "civ_6",
+        "yugioh06"
+    },
+    "grid-based movement": {
+        "civ_6",
+        "ffta"
+    },
+    "grid-based": {
+        "civ_6",
+        "ffta"
+    },
+    "movement": {
+        "civ_6",
+        "doom_ii",
+        "ffta",
+        "minecraft",
+        "quake"
+    },
+    "mod support": {
+        "civ_6",
+        "doom_ii",
+        "duke3d",
+        "factorio",
+        "minecraft",
+        "quake",
+        "rimworld"
+    },
+    "mod": {
+        "civ_6",
+        "doom_ii",
+        "duke3d",
+        "factorio",
+        "minecraft",
+        "quake",
+        "rimworld"
+    },
+    "famous quotes": {
+        "civ_6",
+        "witness"
+    },
+    "famous": {
+        "civ_6",
+        "witness"
+    },
+    "mining": {
+        "civ_6",
+        "minecraft",
+        "stardew_valley",
+        "terraria"
+    },
+    "nuclear war": {
+        "civ_6"
+    },
+    "nuclear": {
+        "civ_6"
+    },
+    "barbarians": {
+        "civ_6"
+    },
+    "judaism": {
+        "civ_6"
+    },
+    "bronze age": {
+        "civ_6"
+    },
+    "bronze": {
+        "civ_6"
+    },
+    "moral decisions": {
+        "civ_6",
+        "cuphead",
+        "undertale"
+    },
+    "moral": {
+        "civ_6",
+        "cuphead",
+        "undertale"
+    },
+    "decisions": {
+        "civ_6",
+        "cuphead",
+        "undertale"
+    },
+    "gamersgate": {
+        "civ_6"
+    },
+    "historical inaccuracy": {
+        "civ_6"
+    },
+    "inaccuracy": {
+        "civ_6"
+    },
+    "alternate reality": {
+        "civ_6",
+        "oot"
+    },
+    "alternate": {
+        "civ_6",
+        "cv64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "oot",
+        "portal2",
+        "simpsonshitnrun",
+        "smo",
+        "sms",
+        "ttyd"
+    },
+    "reality": {
+        "civ_6",
+        "minecraft",
+        "oot",
+        "subnautica"
+    },
+    "political": {
+        "civ_6"
+    },
+    "developer cameo": {
+        "civ_6",
+        "doom_1993",
+        "doom_ii"
+    },
+    "developer": {
+        "civ_6",
+        "dk64",
+        "doom_1993",
+        "doom_ii",
+        "getting_over_it",
+        "metroidprime",
+        "portal2",
+        "sly1"
+    },
+    "diplomacy": {
+        "civ_6"
+    },
+    "tech trees": {
+        "civ_6"
+    },
+    "tech": {
+        "civ_6"
+    },
+    "trees": {
+        "civ_6",
+        "papermario",
+        "ttyd"
+    },
+    "christianity": {
+        "civ_6",
+        "cv64"
+    },
+    "murder": {
+        "civ_6",
+        "xenobladex"
+    },
+    "commerce": {
+        "civ_6",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "naval warfare": {
+        "civ_6",
+        "tloz_ph"
+    },
+    "naval": {
+        "civ_6",
+        "tloz_ph"
+    },
+    "warfare": {
+        "civ_6",
+        "sc2",
+        "tloz_ph",
+        "wargroove",
+        "wargroove2"
+    },
+    "construction": {
+        "civ_6",
+        "minecraft",
+        "terraria",
+        "xenobladex"
+    },
+    "farming": {
+        "civ_6",
+        "minecraft",
+        "stardew_valley"
+    },
+    "in-game map editor": {
+        "civ_6",
+        "cv_dos",
+        "duke3d",
+        "trackmania"
+    },
+    "micromanagement": {
+        "civ_6"
+    },
+    "deer": {
+        "civ_6",
+        "hcniko"
+    },
+    "tank": {
+        "civ_6"
+    },
+    "economy": {
+        "civ_6"
+    },
+    "military": {
+        "civ_6"
+    },
+    "nuclear bomb": {
+        "civ_6"
+    },
+    "clique": {
+        "clique"
+    },
+    "crosscode": {
+        "crosscode"
+    },
+    "twin stick control": {
+        "crosscode"
+    },
+    "twin": {
+        "crosscode"
+    },
+    "stick": {
+        "crosscode"
+    },
+    "pre-release public testing": {
+        "crosscode",
+        "factorio",
+        "minecraft",
+        "rimworld",
+        "timespinner"
+    },
+    "pre-release": {
+        "crosscode",
+        "factorio",
+        "minecraft",
+        "rimworld",
+        "timespinner"
+    },
+    "public": {
+        "crosscode",
+        "factorio",
+        "minecraft",
+        "rimworld",
+        "timespinner"
+    },
+    "testing": {
+        "crosscode",
+        "factorio",
+        "minecraft",
+        "rimworld",
+        "timespinner"
+    },
+    "16-bit": {
+        "crosscode",
+        "earthbound",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando"
+    },
+    "cyberpunk": {
+        "crosscode",
+        "mmx3"
+    },
+    "a.i. companion": {
+        "crosscode",
+        "kh1",
+        "oot",
+        "portal2",
+        "sotn",
+        "star_fox_64"
+    },
+    "a.i.": {
+        "crosscode",
+        "kh1",
+        "metroidfusion",
+        "oot",
+        "portal2",
+        "sotn",
+        "star_fox_64"
+    },
+    "companion": {
+        "crosscode",
+        "kh1",
+        "oot",
+        "portal2",
+        "sotn",
+        "star_fox_64"
+    },
+    "crystal project": {
+        "crystal_project"
+    },
+    "crystal": {
+        "crystal_project",
+        "k64",
+        "pokemon_crystal"
+    },
+    "project": {
+        "crystal_project",
+        "megamix"
+    },
+    "tactical": {
+        "crystal_project",
+        "ffta",
+        "mmbn3",
+        "overcooked2",
+        "wargroove",
+        "wargroove2"
+    },
+    "class-based": {
+        "crystal_project",
+        "ffta"
+    },
+    "character customization": {
+        "crystal_project",
+        "minecraft",
+        "shorthike",
+        "sims4",
+        "stardew_valley"
+    },
+    "customization": {
+        "crystal_project",
+        "dark_souls_2",
+        "kh1",
+        "minecraft",
+        "papermario",
+        "shorthike",
+        "sims4",
+        "stardew_valley",
+        "trackmania"
+    },
+    "collectathon": {
+        "crystal_project",
+        "hcniko"
+    },
+    "non-linear": {
+        "crystal_project",
+        "tunic"
+    },
+    "turn-based combat": {
+        "crystal_project",
+        "papermario",
+        "ttyd"
+    },
+    "voxel": {
+        "crystal_project",
+        "minecraft",
+        "quake"
+    },
+    "chrono trigger jets of time": {
+        "ctjot"
+    },
+    "chrono trigger": {
+        "ctjot"
+    },
+    "chrono": {
+        "ctjot"
+    },
+    "trigger": {
+        "ctjot"
+    },
+    "nintendo ds": {
+        "ctjot",
+        "cv_dos",
+        "pmd_eos",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "ds": {
+        "ctjot",
+        "cv_dos",
+        "pmd_eos",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "touch controls": {
+        "ctjot",
+        "cv_dos",
+        "tloz_ph",
+        "tloz_st",
+        "xenobladex"
+    },
+    "touch": {
+        "ctjot",
+        "cv_dos",
+        "tloz_ph",
+        "tloz_st",
+        "xenobladex"
+    },
+    "controls": {
+        "ctjot",
+        "cv_dos",
+        "minecraft",
+        "shorthike",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st",
+        "xenobladex"
+    },
+    "time machine": {
+        "ctjot",
+        "earthbound"
+    },
+    "machine": {
+        "ctjot",
+        "duke3d",
+        "earthbound",
+        "hcniko",
+        "marioland2",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "simpsonshitnrun"
+    },
+    "science-fantasy": {
+        "ctjot"
+    },
+    "cuphead": {
+        "cuphead"
+    },
+    "the game awards - best art direction - winner": {
+        "cuphead"
+    },
+    "auto-scrolling levels": {
+        "cuphead",
+        "dkc",
+        "dkc2",
+        "k64",
+        "star_fox_64",
+        "v6"
+    },
+    "auto-scrolling": {
+        "cuphead",
+        "dkc",
+        "dkc2",
+        "k64",
+        "star_fox_64",
+        "v6"
+    },
+    "levels": {
+        "cuphead",
+        "dkc",
+        "dkc2",
+        "k64",
+        "sotn",
+        "star_fox_64",
+        "v6"
+    },
+    "xbox one x enhanced": {
+        "cuphead",
+        "ori_wotw"
+    },
+    "x": {
+        "cuphead",
+        "earthbound",
+        "mm2",
+        "mm3",
+        "ori_wotw",
+        "xenobladex"
+    },
+    "enhanced": {
+        "cuphead",
+        "ori_wotw",
+        "terraria"
+    },
+    "the game awards - best debut indie game - nominee": {
+        "cuphead",
+        "hk"
+    },
+    "dancing": {
+        "cuphead",
+        "cv_dos",
+        "dkc2",
+        "duke3d",
+        "tloz_ooa"
+    },
+    "xbox live": {
+        "cuphead",
+        "duke3d",
+        "pinball_fx3",
+        "rogue_legacy"
+    },
+    "live": {
+        "cuphead",
+        "duke3d",
+        "pinball_fx3",
+        "rogue_legacy"
+    },
+    "dice": {
+        "cuphead",
+        "yugiohddm"
+    },
+    "skeleton": {
+        "cuphead",
+        "minecraft"
+    },
+    "singing": {
+        "cuphead"
+    },
+    "pirates": {
+        "cuphead",
+        "dark_souls_2",
+        "dkc2",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "rac3",
+        "tloz_ooa",
+        "tloz_oos",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "the game awards - best independent game - nominee": {
+        "cuphead",
+        "stardew_valley",
+        "witness"
+    },
+    "x-ray damage": {
+        "cuphead"
+    },
+    "x-ray": {
+        "cuphead"
+    },
+    "cartoon violence": {
+        "cuphead"
+    },
+    "cartoon": {
+        "cuphead",
+        "hcniko",
+        "rotn",
+        "simpsonshitnrun"
+    },
+    "violence": {
+        "cuphead",
+        "quake"
+    },
+    "violent plants": {
+        "cuphead",
+        "cv_dos",
+        "metroidfusion",
+        "metroidprime",
+        "rogue_legacy",
+        "sms",
+        "ss",
+        "terraria",
+        "ttyd"
+    },
+    "plants": {
+        "cuphead",
+        "cv_dos",
+        "metroidfusion",
+        "metroidprime",
+        "rogue_legacy",
+        "sms",
+        "ss",
+        "terraria",
+        "ttyd"
+    },
+    "pax east 2016": {
+        "cuphead"
+    },
+    "2016": {
+        "cuphead",
+        "dark_souls_3",
+        "dontstarvetogether",
+        "duke3d",
+        "oribf",
+        "stardew_valley",
+        "tunic",
+        "witness",
+        "xenobladex"
+    },
+    "train level": {
+        "cuphead",
+        "ttyd"
+    },
+    "train": {
+        "cuphead",
+        "ttyd"
+    },
+    "unlockables": {
+        "cuphead",
+        "cv64",
+        "musedash",
+        "mzm",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tloz_oos",
+        "v6"
+    },
+    "xbox play anywhere": {
+        "cuphead",
+        "ori_wotw",
+        "pinball_fx3"
+    },
+    "anywhere": {
+        "cuphead",
+        "ori_wotw",
+        "pinball_fx3"
+    },
+    "dualshock 4 support for pc": {
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "shorthike"
+    },
+    "dualshock": {
+        "cuphead",
+        "deltarune",
+        "dontstarvetogether",
+        "shorthike"
+    },
+    "the game awards 2017": {
+        "cuphead",
+        "hk",
+        "smo"
+    },
+    "1930s": {
+        "cuphead"
+    },
+    "run and gun": {
+        "cuphead",
+        "doom_ii",
+        "duke3d",
+        "mmx3",
+        "quake",
+        "rac3"
+    },
+    "run": {
+        "cuphead",
+        "doom_ii",
+        "duke3d",
+        "mmx3",
+        "quake",
+        "rac3",
+        "simpsonshitnrun"
+    },
+    "gun": {
+        "cuphead",
+        "doom_ii",
+        "duke3d",
+        "mmx3",
+        "quake",
+        "rac3"
+    },
+    "local co-op": {
+        "cuphead",
+        "trackmania"
+    },
+    "local": {
+        "cuphead",
+        "pinball_fx3",
+        "terraria",
+        "trackmania"
+    },
+    "windows store": {
+        "cuphead",
+        "minecraft",
+        "oribf"
+    },
+    "windows": {
+        "cuphead",
+        "doom_1993",
+        "minecraft",
+        "oribf",
+        "terraria"
+    },
+    "store": {
+        "cuphead",
+        "minecraft",
+        "oribf"
+    },
+    "hand-drawn": {
+        "cuphead",
+        "hk",
+        "nine_sols"
+    },
+    "boss assistance": {
+        "cuphead",
+        "dark_souls_2",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "metroidprime",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "rogue_legacy",
+        "sms",
+        "tloz_ph",
+        "tmc",
+        "ttyd"
+    },
+    "assistance": {
+        "cuphead",
+        "dark_souls_2",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "metroidprime",
+        "mm_recomp",
+        "oot",
+        "papermario",
+        "rogue_legacy",
+        "sms",
+        "tloz_ph",
+        "tmc",
+        "ttyd"
+    },
+    "the game awards - best action game - nominee": {
+        "cuphead"
+    },
+    "snake": {
+        "cuphead",
+        "dkc",
+        "sly1"
+    },
+    "playing cards": {
+        "cuphead",
+        "cv_dos"
+    },
+    "playing": {
+        "cuphead",
+        "cv_dos",
+        "dk64",
+        "dkc2"
+    },
+    "shark": {
+        "cuphead",
+        "dkc",
+        "jakanddaxter",
+        "raft"
+    },
+    "transforming boss": {
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "ffmq",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "transforming": {
+        "cuphead",
+        "cv64",
+        "cv_dos",
+        "ffmq",
+        "metroidfusion",
+        "metroidprime",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "sotn",
+        "star_fox_64",
+        "tloz_oos",
+        "tloz_ph",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "color separation": {
+        "cuphead"
+    },
+    "color": {
+        "cuphead",
+        "dk64",
+        "oot",
+        "peggle_nights",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "tloz_ooa",
+        "tloz_oos",
+        "zelda2"
+    },
+    "separation": {
+        "cuphead"
+    },
+    "the game awards - nominee": {
+        "cuphead",
+        "dark_souls_3",
+        "hk",
+        "smo",
+        "stardew_valley",
+        "witness",
+        "xenobladex"
+    },
+    "shoot 'em up": {
+        "cuphead",
+        "tyrian"
+    },
+    "shoot": {
+        "cuphead",
+        "star_fox_64",
+        "tyrian"
+    },
+    "the game awards - best art direction - nominee": {
+        "cuphead",
+        "hades"
+    },
+    "castlevania 64": {
+        "cv64"
+    },
+    "castlevania": {
+        "cv64"
+    },
+    "combat-based platformer": {
+        "cv64",
+        "jakanddaxter",
+        "rac3"
+    },
+    "combat-based": {
+        "cv64",
+        "jakanddaxter",
+        "rac3"
+    },
+    "controller pak": {
+        "cv64",
+        "diddy_kong_racing",
+        "dk64"
+    },
+    "day/night cycle": {
+        "cv64",
+        "dk64",
+        "jakanddaxter",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "sotn",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "tww",
+        "xenobladex"
+    },
+    "day/night": {
+        "cv64",
+        "dk64",
+        "jakanddaxter",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "sotn",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "tww",
+        "xenobladex"
+    },
+    "cycle": {
+        "cv64",
+        "dk64",
+        "jakanddaxter",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "sotn",
+        "ss",
+        "stardew_valley",
+        "terraria",
+        "tww",
+        "xenobladex"
+    },
+    "plot twist": {
+        "cv64",
+        "kh1",
+        "metroidfusion",
+        "oot",
+        "undertale"
+    },
+    "plot": {
+        "cv64",
+        "gstla",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "mmx3",
+        "oot",
+        "star_fox_64",
+        "undertale"
+    },
+    "twist": {
+        "cv64",
+        "gstla",
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "mmx3",
+        "oot",
+        "star_fox_64",
+        "undertale"
+    },
+    "difficulty level": {
+        "cv64",
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "mk64",
+        "mm2",
+        "musedash",
+        "mzm",
+        "star_fox_64"
+    },
+    "rotating platforms": {
+        "cv64",
+        "sly1",
+        "sms"
+    },
+    "rotating": {
+        "cv64",
+        "sly1",
+        "sms"
+    },
+    "good vs evil": {
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "earthbound",
+        "rac3"
+    },
+    "good": {
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "dkc",
+        "earthbound",
+        "gstla",
+        "kh1",
+        "rac3",
+        "sotn"
+    },
+    "vs": {
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "diddy_kong_racing",
+        "earthbound",
+        "quake",
+        "rac3"
+    },
+    "evil": {
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "earthbound",
+        "lego_star_wars_tcs",
+        "pokemon_emerald",
+        "rac3",
+        "timespinner",
+        "ttyd"
+    },
+    "frankenstein's monster": {
+        "cv64",
+        "cv_dos"
+    },
+    "frankenstein's": {
+        "cv64",
+        "cv_dos"
+    },
+    "monster": {
+        "cv64",
+        "cv_dos",
+        "monster_sanctuary",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "portal2",
+        "sms",
+        "stardew_valley"
+    },
+    "skeletons": {
+        "cv64",
+        "cvcotm",
+        "minecraft",
+        "sly1",
+        "sotn",
+        "terraria",
+        "undertale"
+    },
+    "weapons swap": {
+        "cv64"
+    },
+    "swap": {
+        "cv64"
+    },
+    "motorcycle": {
+        "cv64"
+    },
+    "male antagonist": {
+        "cv64",
+        "earthbound",
+        "mm2",
+        "portal2",
+        "sms"
+    },
+    "new protagonist in sequel": {
+        "cv64",
+        "earthbound"
+    },
+    "vampire": {
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "sotn",
+        "vampire_survivors"
+    },
+    "vampire hunter": {
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "sotn"
+    },
+    "hunter": {
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "sotn"
+    },
+    "alternate costumes": {
+        "cv64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "portal2",
+        "simpsonshitnrun",
+        "smo",
+        "sms",
+        "ttyd"
+    },
+    "costumes": {
+        "cv64",
+        "kh1",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "portal2",
+        "simpsonshitnrun",
+        "smo",
+        "sms",
+        "ttyd"
+    },
+    "special attacks": {
+        "cv64",
+        "sotn"
+    },
+    "special": {
+        "cv64",
+        "sotn"
+    },
+    "attacks": {
+        "cv64",
+        "sotn"
+    },
+    "scary children": {
+        "cv64"
+    },
+    "scary": {
+        "cv64"
+    },
+    "children": {
+        "cv64"
+    },
+    "recurring character": {
+        "cv64",
+        "tmc"
+    },
+    "horse": {
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "minecraft",
+        "oot",
+        "rogue_legacy",
+        "sotn"
+    },
+    "character select screen": {
+        "cv64",
+        "dk64",
+        "lego_star_wars_tcs",
+        "mk64"
+    },
+    "select": {
+        "cv64",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "mk64"
+    },
+    "screen": {
+        "cv64",
+        "dk64",
+        "gstla",
+        "jakanddaxter",
+        "ladx_beta",
+        "lego_star_wars_tcs",
+        "mk64",
+        "mlss",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "smo",
+        "ss",
+        "terraria",
+        "ttyd",
+        "v6"
+    },
+    "revenge": {
+        "cv64",
+        "timespinner"
+    },
+    "controller pak required": {
+        "cv64"
+    },
+    "required": {
+        "cv64",
+        "dk64",
+        "mm_recomp",
+        "ss"
+    },
+    "falling damage": {
+        "cv64",
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "oot",
+        "terraria"
+    },
+    "werewolves": {
+        "cv64",
+        "cv_dos",
+        "gstla"
+    },
+    "unstable platforms": {
+        "cv64",
+        "cvcotm",
+        "dkc",
+        "doom_ii",
+        "metroidprime",
+        "oribf",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "tmc",
+        "v6",
+        "zelda2"
+    },
+    "unstable": {
+        "cv64",
+        "cvcotm",
+        "dkc",
+        "doom_ii",
+        "metroidprime",
+        "oribf",
+        "sly1",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "tmc",
+        "v6",
+        "zelda2"
+    },
+    "optional boss": {
+        "cv64",
+        "cv_dos",
+        "dkc2",
+        "doom_ii",
+        "gstla",
+        "kh1",
+        "sotn",
+        "terraria",
+        "undertale"
+    },
+    "optional": {
+        "cv64",
+        "cv_dos",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "gstla",
+        "kh1",
+        "metroidprime",
+        "sotn",
+        "terraria",
+        "undertale",
+        "xenobladex"
+    },
+    "sadism": {
+        "cv64"
+    },
+    "drawbridge": {
+        "cv64",
+        "oot",
+        "rogue_legacy",
+        "tmc"
+    },
+    "orphan": {
+        "cv64",
+        "sly1",
+        "tmc"
+    },
+    "instant kill": {
+        "cv64",
+        "dkc",
+        "dkc2",
+        "metroidfusion",
+        "mm2",
+        "v6"
+    },
+    "instant": {
+        "cv64",
+        "dkc",
+        "dkc2",
+        "metroidfusion",
+        "mm2",
+        "v6"
+    },
+    "kill": {
+        "cv64",
+        "dkc",
+        "dkc2",
+        "metroidfusion",
+        "mm2",
+        "sly1",
+        "v6"
+    },
+    "bats": {
+        "cv64",
+        "cv_dos",
+        "cvcotm",
+        "mk64",
+        "pokemon_crystal",
+        "sotn",
+        "terraria",
+        "ttyd",
+        "zelda2"
+    },
+    "summoning support": {
+        "cv64",
+        "cv_dos",
+        "ffta",
+        "fm",
+        "gstla",
+        "kh1"
+    },
+    "summoning": {
+        "cv64",
+        "cv_dos",
+        "ffta",
+        "fm",
+        "gstla",
+        "kh1"
+    },
+    "traps": {
+        "cv64",
+        "cv_dos",
+        "dark_souls_2",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "minecraft",
+        "rogue_legacy",
+        "tmc"
+    },
+    "multiple protagonists": {
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "lego_star_wars_tcs",
+        "mlss",
+        "mmx3",
+        "rogue_legacy",
+        "sonic_heroes",
+        "sotn",
+        "spyro3"
+    },
+    "protagonists": {
+        "cv64",
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "earthbound",
+        "lego_star_wars_tcs",
+        "mlss",
+        "mmx3",
+        "rogue_legacy",
+        "sonic_heroes",
+        "sotn",
+        "spyro3"
+    },
+    "castlevania: dawn of sorrow": {
+        "cv_dos"
+    },
+    "castlevania:": {
+        "cv_dos",
+        "cvcotm",
+        "sotn"
+    },
+    "dawn": {
+        "cv_dos"
+    },
+    "sorrow": {
+        "cv_dos"
+    },
+    "iron maiden": {
+        "cv_dos",
+        "rogue_legacy"
+    },
+    "iron": {
+        "cv_dos",
+        "rogue_legacy"
+    },
+    "maiden": {
+        "cv_dos",
+        "rogue_legacy"
+    },
+    "gravity": {
+        "cv_dos",
+        "cvcotm",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "metroidfusion",
+        "metroidprime",
+        "mmx3",
+        "mzm",
+        "oot",
+        "papermario",
+        "sotn",
+        "star_fox_64",
+        "ttyd",
+        "v6"
+    },
+    "new game plus": {
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "gstla",
+        "luigismansion",
+        "rac3",
+        "rogue_legacy",
+        "ss",
+        "tloz_ooa",
+        "tloz_oos",
+        "tunic",
+        "zelda2"
+    },
+    "plus": {
+        "cv_dos",
+        "dark_souls_2",
+        "dark_souls_3",
+        "dredge",
+        "gstla",
+        "hk",
+        "luigismansion",
+        "overcooked2",
+        "rac3",
+        "rogue_legacy",
+        "sotn",
+        "spyro3",
+        "ss",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos",
+        "trackmania",
+        "tunic",
+        "v6",
+        "zelda2"
+    },
+    "wolf": {
+        "cv_dos",
+        "cvcotm",
+        "minecraft",
+        "rogue_legacy",
+        "sotn",
+        "star_fox_64"
+    },
+    "puppet": {
+        "cv_dos"
+    },
+    "blocks": {
+        "cv_dos",
+        "minecraft",
+        "mm2",
+        "mm3",
+        "peggle_nights",
+        "ttyd",
+        "wl4"
+    },
+    "sex change": {
+        "cv_dos",
+        "dark_souls_2"
+    },
+    "sex": {
+        "cv_dos",
+        "dark_souls_2"
+    },
+    "change": {
+        "cv_dos",
+        "dark_souls_2",
+        "ffta",
+        "gstla",
+        "xenobladex"
+    },
+    "subtitled silence": {
+        "cv_dos",
+        "metroidfusion",
+        "ss"
+    },
+    "subtitled": {
+        "cv_dos",
+        "metroidfusion",
+        "ss"
+    },
+    "silence": {
+        "cv_dos",
+        "metroidfusion",
+        "ss"
+    },
+    "punctuation mark above head": {
+        "cv_dos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tmc"
+    },
+    "punctuation": {
+        "cv_dos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tmc"
+    },
+    "mark": {
+        "cv_dos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tmc"
+    },
+    "above": {
+        "cv_dos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tloz_ooa",
+        "tmc"
+    },
+    "sequence breaking": {
+        "cv_dos",
+        "doom_ii",
+        "duke3d",
+        "metroidprime",
+        "mzm",
+        "oot",
+        "sm",
+        "sm_map_rando",
+        "sotn",
+        "tloz_ooa",
+        "tmc",
+        "wl4"
+    },
+    "sequence": {
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "ladx_beta",
+        "metroidprime",
+        "mm3",
+        "mzm",
+        "oot",
+        "rac3",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tmc",
+        "wl4"
+    },
+    "completion percentage": {
+        "cv_dos",
+        "dk64",
+        "dkc2",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "sotn"
+    },
+    "completion": {
+        "cv_dos",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "doom_ii",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "sotn"
+    },
+    "percentage": {
+        "cv_dos",
+        "dk64",
+        "dkc2",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "sotn"
+    },
+    "grinding": {
+        "cv_dos",
+        "ffta",
+        "kh1",
+        "osrs",
+        "tloz_oos"
+    },
+    "yeti": {
+        "cv_dos"
+    },
+    "rituals": {
+        "cv_dos",
+        "sotn"
+    },
+    "swarming enemies": {
+        "cv_dos",
+        "metroidprime"
+    },
+    "swarming": {
+        "cv_dos",
+        "metroidprime"
+    },
+    "leveling up": {
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dw1",
+        "earthbound",
+        "gstla",
+        "kh1",
+        "landstalker",
+        "papermario",
+        "pinball_fx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sotn",
+        "ttyd",
+        "undertale",
+        "zelda2"
+    },
+    "leveling": {
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "dw1",
+        "earthbound",
+        "gstla",
+        "kh1",
+        "landstalker",
+        "papermario",
+        "pinball_fx3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sotn",
+        "ttyd",
+        "undertale",
+        "zelda2"
+    },
+    "throwing weapons": {
+        "cv_dos",
+        "dark_souls_2",
+        "dkc",
+        "mk64"
+    },
+    "throwing": {
+        "cv_dos",
+        "dark_souls_2",
+        "dkc",
+        "mk64"
+    },
+    "panther": {
+        "cv_dos",
+        "sotn"
+    },
+    "soul steal": {
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "sotn"
+    },
+    "soul": {
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "doom_1993",
+        "doom_ii",
+        "sotn"
+    },
+    "steal": {
+        "cv_dos",
+        "cvcotm",
+        "dark_souls_2",
+        "sotn"
+    },
+    "on-the-fly character switching": {
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "sonic_heroes"
+    },
+    "on-the-fly": {
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "sonic_heroes"
+    },
+    "switching": {
+        "cv_dos",
+        "dkc",
+        "dkc2",
+        "lego_star_wars_tcs",
+        "sonic_heroes"
+    },
+    "mud": {
+        "cv_dos",
+        "sms"
+    },
+    "tentacles": {
+        "cv_dos",
+        "ladx_beta",
+        "metroidprime",
+        "mlss",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sms",
+        "ttyd"
+    },
+    "monsters": {
+        "cv_dos",
+        "into_the_breach",
+        "minecraft",
+        "pokemon_frlg",
+        "stardew_valley",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "collective conciousness": {
+        "cv_dos"
+    },
+    "collective": {
+        "cv_dos"
+    },
+    "conciousness": {
+        "cv_dos"
+    },
+    "dracula": {
+        "cv_dos",
+        "sotn"
+    },
+    "castlevania - circle of the moon": {
+        "cvcotm"
+    },
+    "castlevania: circle of the moon": {
+        "cvcotm"
+    },
+    "circle": {
+        "cvcotm"
+    },
+    "moon": {
+        "cvcotm"
+    },
+    "game boy advance": {
+        "cvcotm",
+        "earthbound",
+        "ffta",
+        "gstla",
+        "metroidfusion",
+        "mlss",
+        "mmbn3",
+        "mzm",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "tmc",
+        "wl4",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "advance": {
+        "cvcotm",
+        "earthbound",
+        "ffta",
+        "gstla",
+        "metroidfusion",
+        "mlss",
+        "mmbn3",
+        "mzm",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "tmc",
+        "wl4",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "launch titles": {
+        "cvcotm",
+        "luigismansion"
+    },
+    "launch": {
+        "cvcotm",
+        "luigismansion"
+    },
+    "titles": {
+        "cvcotm",
+        "luigismansion"
+    },
+    "roman mythology": {
+        "cvcotm"
+    },
+    "roman": {
+        "cvcotm"
+    },
+    "mythology": {
+        "cvcotm",
+        "hades"
+    },
+    "minotaurs": {
+        "cvcotm",
+        "ffmq",
+        "sotn"
+    },
+    "dark souls ii": {
+        "dark_souls_2"
+    },
+    "souls": {
+        "dark_souls_2",
+        "dark_souls_3"
+    },
+    "ii": {
+        "dark_souls_2",
+        "ff4fe",
+        "kh2",
+        "mm2"
+    },
+    "xbox 360": {
+        "dark_souls_2",
+        "lego_star_wars_tcs",
+        "portal2",
+        "sa2b",
+        "sadx",
+        "sotn",
+        "terraria"
+    },
+    "souls as currency": {
+        "dark_souls_2"
+    },
+    "as": {
+        "dark_souls_2",
+        "marioland2"
+    },
+    "currency": {
+        "dark_souls_2"
+    },
+    "checkpoints": {
+        "dark_souls_2",
+        "dkc",
+        "dkc2",
+        "jakanddaxter",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "rac3",
+        "sly1",
+        "smo",
+        "sonic_heroes",
+        "v6"
+    },
+    "undead pirates": {
+        "dark_souls_2"
+    },
+    "tokyo game show 2013": {
+        "dark_souls_2"
+    },
+    "tokyo": {
+        "dark_souls_2"
+    },
+    "fire manipulation": {
+        "dark_souls_2",
+        "earthbound",
+        "gstla",
+        "minecraft",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "ttyd"
+    },
+    "fire": {
+        "dark_souls_2",
+        "earthbound",
+        "gstla",
+        "minecraft",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "ttyd"
+    },
+    "manipulation": {
+        "dark_souls_2",
+        "earthbound",
+        "gstla",
+        "minecraft",
+        "oot",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "timespinner",
+        "ttyd"
+    },
+    "brutal": {
+        "dark_souls_2"
+    },
+    "customizable characters": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "lego_star_wars_tcs",
+        "stardew_valley",
+        "terraria",
+        "xenobladex"
+    },
+    "customizable": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "shorthike",
+        "stardew_valley",
+        "terraria",
+        "xenobladex"
+    },
+    "realtime 3d": {
+        "dark_souls_2",
+        "dark_souls_3"
+    },
+    "realtime": {
+        "dark_souls_2",
+        "dark_souls_3"
+    },
+    "canonical death": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "rogue_legacy"
+    },
+    "canonical": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "rogue_legacy"
+    },
+    "old-fashioned english": {
+        "dark_souls_2",
+        "oot"
+    },
+    "old-fashioned": {
+        "dark_souls_2",
+        "oot"
+    },
+    "english": {
+        "dark_souls_2",
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "mlss",
+        "mmx3",
+        "oot",
+        "sms",
+        "sotn",
+        "tloz"
+    },
+    "sliding down ladders": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "k64",
+        "wl4"
+    },
+    "sliding": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "k64",
+        "wl4"
+    },
+    "down": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "k64",
+        "wl4"
+    },
+    "ladders": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "k64",
+        "wl4"
+    },
+    "playstation trophies": {
+        "dark_souls_2",
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3",
+        "terraria"
+    },
+    "trophies": {
+        "dark_souls_2",
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "mk64",
+        "rac3",
+        "terraria",
+        "trackmania"
+    },
+    "pyromancer": {
+        "dark_souls_2"
+    },
+    "player vs player": {
+        "dark_souls_2",
+        "diddy_kong_racing",
+        "quake"
+    },
+    "giants": {
+        "dark_souls_2"
+    },
+    "persistent world": {
+        "dark_souls_2",
+        "toontown",
+        "zelda2"
+    },
+    "persistent": {
+        "dark_souls_2",
+        "metroidfusion",
+        "papermario",
+        "toontown",
+        "zelda2"
+    },
+    "consolation achievements": {
+        "dark_souls_2",
+        "ror1"
+    },
+    "consolation": {
+        "dark_souls_2",
+        "ror1"
+    },
+    "spider": {
+        "dark_souls_2",
+        "dkc2",
+        "minecraft",
+        "oribf",
+        "sly1",
+        "zelda2"
+    },
+    "blacksmith": {
+        "dark_souls_2",
+        "rogue_legacy"
+    },
+    "downloadable content": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "factorio",
+        "minecraft",
+        "pinball_fx3",
+        "smo"
+    },
+    "downloadable": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "factorio",
+        "minecraft",
+        "pinball_fx3",
+        "smo"
+    },
+    "dual wielding": {
+        "dark_souls_2",
+        "duke3d"
+    },
+    "dual": {
+        "dark_souls_2",
+        "duke3d"
+    },
+    "wielding": {
+        "dark_souls_2",
+        "duke3d"
+    },
+    "british accent": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "oot"
+    },
+    "british": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "oot"
+    },
+    "accent": {
+        "dark_souls_2",
+        "dark_souls_3",
+        "luigismansion",
+        "mk64",
+        "mlss",
+        "oot",
+        "sms"
+    },
+    "retail games with steam activation": {
+        "dark_souls_2"
+    },
+    "retail": {
+        "dark_souls_2"
+    },
+    "activation": {
+        "dark_souls_2"
+    },
+    "dark souls iii": {
+        "dark_souls_3"
+    },
+    "iii": {
+        "dark_souls_3"
+    },
+    "camera control": {
+        "dark_souls_3"
+    },
+    "the game awards 2016": {
+        "dark_souls_3",
+        "stardew_valley",
+        "witness",
+        "xenobladex"
+    },
+    "d.i.c.e. awards 2017": {
+        "dark_souls_3"
+    },
+    "pick your gender": {
+        "dark_souls_3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "terraria"
+    },
+    "pick": {
+        "dark_souls_3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "terraria"
+    },
+    "your": {
+        "dark_souls_3",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3",
+        "terraria",
+        "ttyd"
+    },
+    "gender": {
+        "dark_souls_3",
+        "ffta",
+        "gstla",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "terraria"
+    },
+    "pax prime 2015": {
+        "dark_souls_3",
+        "timespinner",
+        "xenobladex"
+    },
+    "2015": {
+        "dark_souls_3",
+        "oribf",
+        "terraria",
+        "timespinner",
+        "xenobladex"
+    },
+    "playstation experience 2015": {
+        "dark_souls_3"
+    },
+    "experience": {
+        "dark_souls_3"
+    },
+    "entering world in a painting": {
+        "dark_souls_3",
+        "sm64ex",
+        "sm64hacks",
+        "smo"
+    },
+    "entering": {
+        "dark_souls_3",
+        "sm64ex",
+        "sm64hacks",
+        "smo"
+    },
+    "painting": {
+        "dark_souls_3",
+        "sm64ex",
+        "sm64hacks",
+        "smo"
+    },
+    "the game awards - best roleplaying game - nominee": {
+        "dark_souls_3",
+        "xenobladex"
+    },
+    "roleplaying": {
+        "dark_souls_3",
+        "xenobladex"
+    },
+    "deltarune": {
+        "deltarune"
+    },
+    "drama": {
+        "deltarune",
+        "earthbound",
+        "hades",
+        "undertale"
+    },
+    "game with chapters": {
+        "deltarune"
+    },
+    "chapters": {
+        "deltarune"
+    },
+    "bullet grazing": {
+        "deltarune"
+    },
+    "bullet": {
+        "deltarune",
+        "rabi_ribi",
+        "ror2",
+        "sly1",
+        "undertale",
+        "vampire_survivors"
+    },
+    "grazing": {
+        "deltarune"
+    },
+    "dualsense support for pc": {
+        "deltarune",
+        "shorthike"
+    },
+    "dualsense": {
+        "deltarune",
+        "shorthike"
+    },
+    "bullet hell": {
+        "deltarune",
+        "rabi_ribi",
+        "ror2",
+        "undertale"
+    },
+    "hell": {
+        "deltarune",
+        "doom_ii",
+        "rabi_ribi",
+        "ror2",
+        "undertale"
+    },
+    "branching storyline": {
+        "deltarune",
+        "star_fox_64"
+    },
+    "branching": {
+        "deltarune",
+        "star_fox_64"
+    },
+    "storyline": {
+        "deltarune",
+        "star_fox_64"
+    },
+    "diddy kong racing": {
+        "diddy_kong_racing"
+    },
+    "diddy": {
+        "diddy_kong_racing",
+        "dkc",
+        "mario_kart_double_dash"
+    },
+    "kong": {
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "mario_kart_double_dash",
+        "smo"
+    },
+    "racing": {
+        "diddy_kong_racing",
+        "jakanddaxter",
+        "mario_kart_double_dash",
+        "mk64",
+        "oot",
+        "shorthike",
+        "simpsonshitnrun",
+        "swr",
+        "trackmania"
+    },
+    "go-kart": {
+        "diddy_kong_racing",
+        "mario_kart_double_dash",
+        "mk64",
+        "toontown"
+    },
+    "bots": {
+        "diddy_kong_racing",
+        "duke3d",
+        "mk64"
+    },
+    "grand prix": {
+        "diddy_kong_racing",
+        "mario_kart_double_dash",
+        "mk64"
+    },
+    "grand": {
+        "diddy_kong_racing",
+        "mario_kart_double_dash",
+        "mk64",
+        "zork_grand_inquisitor"
+    },
+    "prix": {
+        "diddy_kong_racing",
+        "mario_kart_double_dash",
+        "mk64"
+    },
+    "vehicular combat": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "vehicular": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "diddy kong": {
+        "diddy_kong_racing",
+        "dkc",
+        "mario_kart_double_dash"
+    },
+    "high score": {
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "lego_star_wars_tcs",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "peggle_nights",
+        "sms",
+        "sonic_heroes",
+        "ttyd",
+        "wl4"
+    },
+    "high": {
+        "diddy_kong_racing",
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "mk64",
+        "mlss",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "papermario",
+        "peggle_nights",
+        "sms",
+        "sonic_heroes",
+        "ttyd",
+        "wl4"
+    },
+    "behind the waterfall": {
+        "diddy_kong_racing",
+        "duke3d",
+        "gstla",
+        "hcniko",
+        "smo",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tmc"
+    },
+    "behind": {
+        "diddy_kong_racing",
+        "duke3d",
+        "gstla",
+        "hcniko",
+        "smo",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tmc"
+    },
+    "waterfall": {
+        "diddy_kong_racing",
+        "duke3d",
+        "gstla",
+        "hcniko",
+        "smo",
+        "sotn",
+        "ss",
+        "tloz_ooa",
+        "tmc"
+    },
+    "starting grid": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "starting": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "grid": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "mascot sports": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "sports": {
+        "diddy_kong_racing",
+        "mk64",
+        "spyro3"
+    },
+    "combat racing": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "mid-development ip split": {
+        "diddy_kong_racing"
+    },
+    "mid-development": {
+        "diddy_kong_racing"
+    },
+    "ip": {
+        "diddy_kong_racing"
+    },
+    "split": {
+        "diddy_kong_racing"
+    },
+    "airplane": {
+        "diddy_kong_racing"
+    },
+    "interactive achievement awards 1998": {
+        "diddy_kong_racing"
+    },
+    "1998": {
+        "diddy_kong_racing"
+    },
+    "vehicle combat": {
+        "diddy_kong_racing",
+        "mk64"
+    },
+    "mirrored maps": {
+        "diddy_kong_racing",
+        "mk64",
+        "sotn"
+    },
+    "mirrored": {
+        "diddy_kong_racing",
+        "mk64",
+        "sotn"
+    },
+    "maps": {
+        "diddy_kong_racing",
+        "minecraft",
+        "mk64",
+        "rogue_legacy",
+        "sotn"
+    },
+    "donkey kong 64": {
+        "dk64"
+    },
+    "donkey": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "mario_kart_double_dash"
+    },
+    "musicians": {
+        "dk64"
+    },
+    "nintendo 64 expansion pak required": {
+        "dk64",
+        "mm_recomp"
+    },
+    "sequel is in a different genre": {
+        "dk64",
+        "duke3d",
+        "metroidprime",
+        "zelda2"
+    },
+    "is": {
+        "dk64",
+        "duke3d",
+        "metroidprime",
+        "zelda2"
+    },
+    "different": {
+        "dk64",
+        "duke3d",
+        "metroidprime",
+        "zelda2"
+    },
+    "genre": {
+        "dk64",
+        "duke3d",
+        "metroidprime",
+        "zelda2"
+    },
+    "metagame": {
+        "dk64",
+        "rac3",
+        "sotn"
+    },
+    "hip-hop": {
+        "dk64"
+    },
+    "over 100% completion": {
+        "dk64",
+        "dkc",
+        "doom_ii",
+        "sotn"
+    },
+    "100%": {
+        "dk64",
+        "dkc",
+        "doom_ii",
+        "sotn"
+    },
+    "color cartridges": {
+        "dk64",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "zelda2"
+    },
+    "cartridges": {
+        "dk64",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "zelda2"
+    },
+    "photography": {
+        "dk64",
+        "mm_recomp"
+    },
+    "gorilla": {
+        "dk64",
+        "dkc",
+        "dkc2"
+    },
+    "pack-in game": {
+        "dk64",
+        "metroidprime",
+        "tloz_ph"
+    },
+    "pack-in": {
+        "dk64",
+        "metroidprime",
+        "tloz_ph"
+    },
+    "invisibility": {
+        "dk64",
+        "doom_1993",
+        "doom_ii",
+        "papermario",
+        "quake",
+        "sly1"
+    },
+    "game critics awards": {
+        "dk64",
+        "smo",
+        "ss",
+        "tloz_ph"
+    },
+    "critics": {
+        "dk64",
+        "smo",
+        "ss",
+        "tloz_ph"
+    },
+    "predecessor included": {
+        "dk64",
+        "metroidprime",
+        "mzm"
+    },
+    "predecessor": {
+        "dk64",
+        "metroidprime",
+        "mzm"
+    },
+    "included": {
+        "dk64",
+        "metroidprime",
+        "mzm"
+    },
+    "hidden character": {
+        "dk64",
+        "ffta",
+        "mario_kart_double_dash"
+    },
+    "franchise reboot": {
+        "dk64",
+        "dkc",
+        "ffmq",
+        "ffta"
+    },
+    "franchise": {
+        "dk64",
+        "dkc",
+        "ffmq",
+        "ffta"
+    },
+    "reboot": {
+        "dk64",
+        "dkc",
+        "ffmq",
+        "ffta"
+    },
+    "tomboy": {
+        "dk64",
+        "kh1"
+    },
+    "boxer": {
+        "dk64"
+    },
+    "artificial intelligence": {
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "jakanddaxter",
+        "metroidprime",
+        "mk64",
+        "portal2",
+        "rac3",
+        "sly1",
+        "star_fox_64"
+    },
+    "artificial": {
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "jakanddaxter",
+        "metroidprime",
+        "mk64",
+        "portal2",
+        "rac3",
+        "sly1",
+        "star_fox_64"
+    },
+    "intelligence": {
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "jakanddaxter",
+        "metroidprime",
+        "mk64",
+        "portal2",
+        "rac3",
+        "sly1",
+        "star_fox_64"
+    },
+    "developer voice acting": {
+        "dk64",
+        "doom_ii",
+        "getting_over_it"
+    },
+    "video game characters that play video games": {
+        "dk64",
+        "rac3",
+        "simpsonshitnrun",
+        "stardew_valley"
+    },
+    "that": {
+        "dk64",
+        "metroidprime",
+        "rac3",
+        "simpsonshitnrun",
+        "stardew_valley"
+    },
+    "death match": {
+        "dk64",
+        "doom_ii",
+        "mk64",
+        "quake"
+    },
+    "match": {
+        "dk64",
+        "doom_ii",
+        "duke3d",
+        "mk64",
+        "quake"
+    },
+    "bundled with peripherals": {
+        "dk64",
+        "star_fox_64"
+    },
+    "bundled": {
+        "dk64",
+        "star_fox_64"
+    },
+    "peripherals": {
+        "dk64",
+        "star_fox_64"
+    },
+    "mine cart sequence": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "ss"
+    },
+    "mine": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "ss"
+    },
+    "cart": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "ss"
+    },
+    "foreshadowing": {
+        "dk64",
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "sms",
+        "tmc",
+        "ttyd"
+    },
+    "western games based on japanese ips": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "metroidprime"
+    },
+    "western": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "kh1",
+        "metroidprime",
+        "rimworld"
+    },
+    "japanese": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "kh1",
+        "metroidprime"
+    },
+    "ips": {
+        "dk64",
+        "dkc",
+        "dkc2",
+        "kh1",
+        "metroidprime"
+    },
+    "guitar playing": {
+        "dk64",
+        "dkc2"
+    },
+    "guitar": {
+        "dk64",
+        "dkc2"
+    },
+    "jungle": {
+        "dk64",
+        "dkc"
+    },
+    "donkey kong country": {
+        "dkc"
+    },
+    "country": {
+        "dkc",
+        "dkc2"
+    },
+    "animal weaponry": {
+        "dkc",
+        "dkc2"
+    },
+    "weaponry": {
+        "dkc",
+        "dkc2"
+    },
+    "secret areas within secret areas": {
+        "dkc",
+        "doom_ii",
+        "dsr",
+        "duke3d",
+        "quake"
+    },
+    "areas": {
+        "dkc",
+        "doom_ii",
+        "dsr",
+        "duke3d",
+        "quake"
+    },
+    "within": {
+        "dkc",
+        "doom_ii",
+        "dsr",
+        "duke3d",
+        "hcniko",
+        "quake"
+    },
+    "armadillo": {
+        "dkc"
+    },
+    "overworld": {
+        "dkc",
+        "dkc2",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "tloz",
+        "zelda2"
+    },
+    "speedrun": {
+        "dkc",
+        "metroidfusion",
+        "metroidprime",
+        "quake",
+        "sm64ex",
+        "sm64hacks",
+        "sotn",
+        "timespinner",
+        "tunic"
+    },
+    "monarchy": {
+        "dkc"
+    },
+    "rhinoceros": {
+        "dkc",
+        "dkc2",
+        "mmx3"
+    },
+    "cliffhanger": {
+        "dkc",
+        "metroidprime"
+    },
+    "villain turned good": {
+        "dkc",
+        "gstla",
+        "kh1",
+        "sotn"
+    },
+    "turned": {
+        "dkc",
+        "gstla",
+        "kh1",
+        "lego_star_wars_tcs",
+        "sotn"
+    },
+    "adapted to - tv show": {
+        "dkc"
+    },
+    "water level": {
+        "dkc",
+        "dkc2",
+        "kh1",
+        "mm2",
+        "oot",
+        "sms"
+    },
+    "water": {
+        "dkc",
+        "dkc2",
+        "kh1",
+        "mm2",
+        "oot",
+        "sms"
+    },
+    "pre-rendered backgrounds": {
+        "dkc",
+        "dkc2"
+    },
+    "pre-rendered": {
+        "dkc",
+        "dkc2"
+    },
+    "backgrounds": {
+        "dkc",
+        "dkc2"
+    },
+    "fuel management": {
+        "dkc"
+    },
+    "fuel": {
+        "dkc"
+    },
+    "false death": {
+        "dkc"
+    },
+    "false": {
+        "dkc"
+    },
+    "frog": {
+        "dkc",
+        "dkc2",
+        "hcniko",
+        "jakanddaxter",
+        "star_fox_64"
+    },
+    "tropical": {
+        "dkc"
+    },
+    "trilogy": {
+        "dkc",
+        "dkc2",
+        "gstla",
+        "jakanddaxter",
+        "kdl3",
+        "metroidprime",
+        "sly1",
+        "spyro3"
+    },
+    "resized enemy": {
+        "dkc",
+        "dkc2",
+        "oot",
+        "rogue_legacy",
+        "tmc",
+        "ttyd"
+    },
+    "resized": {
+        "dkc",
+        "dkc2",
+        "oot",
+        "rogue_legacy",
+        "tmc",
+        "ttyd"
+    },
+    "cranky kong": {
+        "dkc",
+        "smo"
+    },
+    "cranky": {
+        "dkc",
+        "smo"
+    },
+    "animal companions": {
+        "dkc",
+        "dkc2"
+    },
+    "companions": {
+        "dkc",
+        "dkc2"
+    },
+    "jellyfish": {
+        "dkc"
+    },
+    "animal-based": {
+        "dkc",
+        "dkc2"
+    },
+    "bonus stage": {
+        "dkc",
+        "dkc2",
+        "smw",
+        "sonic_heroes",
+        "spyro3",
+        "waffles"
+    },
+    "bonus": {
+        "dkc",
+        "dkc2",
+        "smw",
+        "sonic_heroes",
+        "spyro3",
+        "waffles"
+    },
+    "crocodile": {
+        "dkc",
+        "dkc2",
+        "sly1"
+    },
+    "donkey kong": {
+        "dkc",
+        "mario_kart_double_dash"
+    },
+    "not-so-bad guys": {
+        "dkc",
+        "gstla",
+        "papermario",
+        "ttyd"
+    },
+    "not-so-bad": {
+        "dkc",
+        "gstla",
+        "papermario",
+        "ttyd"
+    },
+    "guys": {
+        "dkc",
+        "gstla",
+        "papermario",
+        "ttyd"
+    },
+    "level select map": {
+        "dkc",
+        "dkc2"
+    },
+    "donkey kong country 2": {
+        "dkc2"
+    },
+    "donkey kong country 2: diddy's kong quest": {
+        "dkc2"
+    },
+    "2:": {
+        "dkc2",
+        "marioland2",
+        "sa2b",
+        "yoshisisland"
+    },
+    "diddy's": {
+        "dkc2"
+    },
+    "dark second act": {
+        "dkc2",
+        "mm_recomp",
+        "ttyd",
+        "zelda2"
+    },
+    "act": {
+        "dkc2",
+        "mm_recomp",
+        "ttyd",
+        "zelda2"
+    },
+    "porcupine": {
+        "dkc2"
+    },
+    "in-game anti-piracy effects": {
+        "dkc2",
+        "earthbound",
+        "spyro3",
+        "tloz_st"
+    },
+    "anti-piracy": {
+        "dkc2",
+        "earthbound",
+        "spyro3",
+        "tloz_st"
+    },
+    "game reference": {
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "oot",
+        "rogue_legacy",
+        "spyro3",
+        "tmc",
+        "witness"
+    },
+    "reference": {
+        "dkc2",
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "minecraft",
+        "oot",
+        "placidplasticducksim",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "spyro3",
+        "tmc",
+        "witness"
+    },
+    "amusement park": {
+        "dkc2"
+    },
+    "amusement": {
+        "dkc2"
+    },
+    "park": {
+        "dkc2"
+    },
+    "sprinting mechanics": {
+        "dkc2",
+        "duke3d",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "soe",
+        "wl4"
+    },
+    "sprinting": {
+        "dkc2",
+        "duke3d",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "soe",
+        "wl4"
+    },
+    "mechanics": {
+        "dkc2",
+        "duke3d",
+        "minecraft",
+        "mm_recomp",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "soe",
+        "terraria",
+        "wl4"
+    },
+    "fireworks": {
+        "dkc2",
+        "k64",
+        "mlss",
+        "peggle_nights",
+        "simpsonshitnrun",
+        "sly1"
+    },
+    "bonus game": {
+        "dkc2"
+    },
+    "dkc2 trivia database": {
+        "dkc2_trivia"
+    },
+    "donkey kong toluca": {
+        "dktoluca"
+    },
+    "don't starve together": {
+        "dontstarvetogether"
+    },
+    "don't": {
+        "dontstarvetogether"
+    },
+    "starve": {
+        "dontstarvetogether"
+    },
+    "together": {
+        "dontstarvetogether",
+        "terraria"
+    },
+    "crafting": {
+        "dontstarvetogether",
+        "factorio",
+        "factorio_saws",
+        "minecraft",
+        "raft",
+        "satisfactory",
+        "stardew_valley",
+        "terraria"
+    },
+    "open world survival craft": {
+        "dontstarvetogether"
+    },
+    "craft": {
+        "dontstarvetogether"
+    },
+    "netflix games": {
+        "dontstarvetogether"
+    },
+    "netflix": {
+        "dontstarvetogether",
+        "hades"
+    },
+    "online co-op": {
+        "dontstarvetogether",
+        "powerwashsimulator"
+    },
+    "online multiplayer achievements": {
+        "dontstarvetogether",
+        "doom_ii",
+        "duke3d"
+    },
+    "pax west 2016": {
+        "dontstarvetogether",
+        "duke3d",
+        "stardew_valley",
+        "tunic"
+    },
+    "steampunk": {
+        "dontstarvetogether"
+    },
+    "funny": {
+        "dontstarvetogether",
+        "getting_over_it",
+        "powerwashsimulator",
+        "shorthike",
+        "sims4",
+        "undertale"
+    },
+    "survival horror": {
+        "dontstarvetogether"
+    },
+    "doom 1993": {
+        "doom_1993"
+    },
+    "doom": {
+        "doom_1993",
+        "doom_ii"
+    },
+    "pc-9800 series": {
+        "doom_1993",
+        "doom_ii"
+    },
+    "pc-9800": {
+        "doom_1993",
+        "doom_ii"
+    },
+    "windows mobile": {
+        "doom_1993"
+    },
+    "dos": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "quake",
+        "tyrian"
+    },
+    "lost soul": {
+        "doom_1993",
+        "doom_ii"
+    },
+    "lost": {
+        "doom_1993",
+        "doom_ii",
+        "gstla",
+        "pokemon_crystal"
+    },
+    "demons": {
+        "doom_1993",
+        "doom_ii"
+    },
+    "no longer banned": {
+        "doom_1993",
+        "quake"
+    },
+    "longer": {
+        "doom_1993",
+        "quake"
+    },
+    "banned": {
+        "doom_1993",
+        "duke3d",
+        "quake"
+    },
+    "shareware": {
+        "doom_1993",
+        "duke3d",
+        "quake"
+    },
+    "one-man army": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "quake"
+    },
+    "one-man": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "quake"
+    },
+    "army": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "quake"
+    },
+    "futuristic": {
+        "doom_1993",
+        "mmbn3",
+        "mmx3",
+        "soe"
+    },
+    "dial-up wide area network game operation": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d"
+    },
+    "dial-up": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d"
+    },
+    "wide": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d"
+    },
+    "operation": {
+        "doom_1993",
+        "doom_ii",
+        "duke3d"
+    },
+    "doom 1993 (beta)": {
+        "doom_1993_beta"
+    },
+    "doom ii": {
+        "doom_ii"
+    },
+    "doom ii: hell on earth": {
+        "doom_ii"
+    },
+    "ii:": {
+        "doom_ii",
+        "lufia2ac",
+        "sc2",
+        "zelda2"
+    },
+    "earth": {
+        "doom_ii",
+        "gstla",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "tapwave zodiac": {
+        "doom_ii"
+    },
+    "tapwave": {
+        "doom_ii"
+    },
+    "zodiac": {
+        "doom_ii"
+    },
+    "no-reticle aiming": {
+        "doom_ii",
+        "quake"
+    },
+    "no-reticle": {
+        "doom_ii",
+        "quake"
+    },
+    "aiming": {
+        "doom_ii",
+        "quake"
+    },
+    "nazis": {
+        "doom_ii"
+    },
+    "pc to console port": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "port": {
+        "doom_ii",
+        "duke3d",
+        "ff4fe",
+        "quake"
+    },
+    "source port": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "source": {
+        "doom_ii",
+        "duke3d",
+        "metroidfusion",
+        "quake",
+        "rogue_legacy",
+        "tmc"
+    },
+    "camping": {
+        "doom_ii",
+        "quake",
+        "shorthike"
+    },
+    "invisible enemy": {
+        "doom_ii",
+        "luigismansion",
+        "metroidprime"
+    },
+    "selective invincibility": {
+        "doom_ii",
+        "mm2",
+        "tmc"
+    },
+    "selective": {
+        "doom_ii",
+        "mm2",
+        "tmc"
+    },
+    "corpse": {
+        "doom_ii",
+        "duke3d",
+        "metroidfusion"
+    },
+    "heavy metal": {
+        "doom_ii"
+    },
+    "heavy": {
+        "doom_ii"
+    },
+    "metal": {
+        "doom_ii",
+        "sonic_heroes"
+    },
+    "easy mode": {
+        "doom_ii",
+        "kh1"
+    },
+    "easy": {
+        "doom_ii",
+        "kh1",
+        "mlss",
+        "oot",
+        "tloz_ph",
+        "witness"
+    },
+    "difficulty achievement": {
+        "doom_ii",
+        "duke3d"
+    },
+    "satanism": {
+        "doom_ii"
+    },
+    "hand-to-hand combat": {
+        "doom_ii",
+        "minecraft"
+    },
+    "hand-to-hand": {
+        "doom_ii",
+        "minecraft"
+    },
+    "radiation": {
+        "doom_ii"
+    },
+    "god mode": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "god": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "pop culture reference": {
+        "doom_ii",
+        "duke3d",
+        "placidplasticducksim",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tmc",
+        "witness"
+    },
+    "pop": {
+        "doom_ii",
+        "duke3d",
+        "placidplasticducksim",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tmc",
+        "witness"
+    },
+    "culture": {
+        "doom_ii",
+        "duke3d",
+        "hcniko",
+        "minecraft",
+        "placidplasticducksim",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "tmc",
+        "witness"
+    },
+    "wasd movement": {
+        "doom_ii",
+        "minecraft",
+        "quake"
+    },
+    "wasd": {
+        "doom_ii",
+        "minecraft",
+        "quake"
+    },
+    "nonexistent light source": {
+        "doom_ii",
+        "metroidfusion",
+        "rogue_legacy",
+        "tmc"
+    },
+    "nonexistent": {
+        "doom_ii",
+        "metroidfusion",
+        "rogue_legacy",
+        "tmc"
+    },
+    "light": {
+        "doom_ii",
+        "metroidfusion",
+        "rogue_legacy",
+        "tmc"
+    },
+    "ranked match": {
+        "doom_ii",
+        "duke3d"
+    },
+    "ranked": {
+        "doom_ii",
+        "duke3d"
+    },
+    "stat tracking": {
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "kh1",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "witness"
+    },
+    "stat": {
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "kh1",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "witness"
+    },
+    "tracking": {
+        "doom_ii",
+        "duke3d",
+        "ffta",
+        "kh1",
+        "rac3",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "witness",
+        "xenobladex"
+    },
+    "jumping puzzle": {
+        "doom_ii",
+        "mm3",
+        "rogue_legacy",
+        "tloz_ooa"
+    },
+    "jumping": {
+        "doom_ii",
+        "lego_star_wars_tcs",
+        "mm3",
+        "rogue_legacy",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "tloz_ooa",
+        "v6"
+    },
+    "first-person platforming": {
+        "doom_ii",
+        "metroidprime",
+        "portal2",
+        "quake"
+    },
+    "first-person": {
+        "doom_ii",
+        "metroidprime",
+        "portal2",
+        "quake"
+    },
+    "digital rights management": {
+        "doom_ii",
+        "sotn"
+    },
+    "rights": {
+        "doom_ii",
+        "sotn"
+    },
+    "voice chat": {
+        "doom_ii",
+        "duke3d",
+        "minecraft"
+    },
+    "chat": {
+        "doom_ii",
+        "duke3d",
+        "minecraft"
+    },
+    "multiplayer via serial cable": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "via": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "serial": {
+        "doom_ii",
+        "duke3d",
+        "quake"
+    },
+    "cable": {
+        "doom_ii",
+        "duke3d",
+        "mlss",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "quake"
+    },
+    "leaderboard": {
+        "doom_ii",
+        "minecraft",
+        "pinball_fx3",
+        "sotn",
+        "trackmania"
+    },
+    "quicksaving": {
+        "doom_ii",
+        "duke3d",
+        "oot",
+        "quake"
+    },
+    "controversy": {
+        "doom_ii",
+        "duke3d",
+        "oot",
+        "simpsonshitnrun"
+    },
+    "avatar awards": {
+        "doom_ii",
+        "portal2"
+    },
+    "avatar": {
+        "doom_ii",
+        "portal2"
+    },
+    "blamed for real life murders": {
+        "doom_ii"
+    },
+    "blamed": {
+        "doom_ii"
+    },
+    "real": {
+        "doom_ii",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "life": {
+        "doom_ii",
+        "sims4"
+    },
+    "murders": {
+        "doom_ii"
+    },
+    "outside of the map": {
+        "doom_ii"
+    },
+    "outside": {
+        "doom_ii"
+    },
+    "no jumping": {
+        "doom_ii",
+        "v6"
+    },
+    "demon invasion": {
+        "doom_ii"
+    },
+    "demon": {
+        "doom_ii"
+    },
+    "invasion": {
+        "doom_ii",
+        "duke3d",
+        "earthbound"
+    },
+    "rock music": {
+        "doom_ii",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "sonic_heroes",
+        "sotn"
+    },
+    "jump scare moment": {
+        "doom_ii"
+    },
+    "scare": {
+        "doom_ii"
+    },
+    "moment": {
+        "doom_ii"
+    },
+    "post-apocalyptic": {
+        "doom_ii",
+        "enderlilies"
+    },
+    "doom ii (beta)": {
+        "doom_ii_beta"
+    },
+    "doronko wanko": {
+        "doronko_wanko"
+    },
+    "doronko": {
+        "doronko_wanko"
+    },
+    "wanko": {
+        "doronko_wanko"
+    },
+    "pomeranian": {
+        "doronko_wanko"
+    },
+    "dredge": {
+        "dredge"
+    },
+    "available on - luna plus": {
+        "dredge",
+        "hk",
+        "overcooked2",
+        "trackmania"
+    },
+    "luna": {
+        "dredge",
+        "hk",
+        "overcooked2",
+        "stardew_valley",
+        "trackmania"
+    },
+    "boat": {
+        "dredge",
+        "minecraft",
+        "shorthike"
+    },
+    "physical release": {
+        "dredge"
+    },
+    "physical": {
+        "dredge"
+    },
+    "previously on - prime gaming": {
+        "dredge"
+    },
+    "gaming": {
+        "dredge"
+    },
+    "lovecraftian": {
+        "dredge",
+        "quake"
+    },
+    "trawling": {
+        "dredge"
+    },
+    "available on - luna gog": {
+        "dredge",
+        "hk",
+        "overcooked2",
+        "stardew_valley"
+    },
+    "gog": {
+        "dredge",
+        "hk",
+        "overcooked2",
+        "stardew_valley",
+        "tyrian"
+    },
+    "psychological horror": {
+        "dredge",
+        "getting_over_it",
+        "mm_recomp",
+        "undertale"
+    },
+    "sailing": {
+        "dredge",
+        "tloz_ph",
+        "tww"
+    },
+    "fishing": {
+        "dredge",
+        "hcniko",
+        "minecraft",
+        "phoa",
+        "shorthike",
+        "stardew_valley",
+        "terraria"
+    },
+    "stylized": {
+        "dredge",
+        "hades",
+        "hcniko",
+        "shorthike",
+        "trackmania",
+        "tunic"
+    },
+    "apple design awards": {
+        "dredge"
+    },
+    "design": {
+        "dredge",
+        "ladx_beta",
+        "minecraft",
+        "peggle_nights",
+        "smo",
+        "stardew_valley",
+        "terraria",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "upgradable equipment": {
+        "dredge",
+        "stardew_valley"
+    },
+    "upgradable": {
+        "dredge",
+        "mzm",
+        "rac2",
+        "rac3",
+        "stardew_valley"
+    },
+    "equipment": {
+        "dredge",
+        "ffta",
+        "gstla",
+        "stardew_valley"
+    },
+    "dark souls remastered": {
+        "dsr"
+    },
+    "dark souls: remastered": {
+        "dsr"
+    },
+    "souls:": {
+        "dsr"
+    },
+    "remastered": {
+        "dsr"
+    },
+    "dragon": {
+        "dsr",
+        "hcniko",
+        "smo",
+        "spyro3"
+    },
+    "duke nukem 3d": {
+        "duke3d"
+    },
+    "duke": {
+        "duke3d"
+    },
+    "nukem": {
+        "duke3d"
+    },
+    "vent crawling": {
+        "duke3d"
+    },
+    "vent": {
+        "duke3d"
+    },
+    "crawling": {
+        "duke3d"
+    },
+    "falling sequence": {
+        "duke3d",
+        "mm3",
+        "rac3",
+        "sms",
+        "tmc"
+    },
+    "movie reference": {
+        "duke3d",
+        "minecraft",
+        "rogue_legacy"
+    },
+    "movie": {
+        "duke3d",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "rogue_legacy",
+        "swr"
+    },
+    "submarine": {
+        "duke3d",
+        "earthbound",
+        "subnautica"
+    },
+    "arcade cabinet": {
+        "duke3d",
+        "stardew_valley"
+    },
+    "cabinet": {
+        "duke3d",
+        "stardew_valley"
+    },
+    "anti-hero": {
+        "duke3d",
+        "rac3",
+        "sotn",
+        "wl4"
+    },
+    "white noise": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "white": {
+        "duke3d",
+        "earthbound",
+        "ffta",
+        "kh1",
+        "simpsonshitnrun"
+    },
+    "noise": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "parody": {
+        "duke3d",
+        "undertale"
+    },
+    "zoom platform": {
+        "duke3d"
+    },
+    "zoom": {
+        "duke3d"
+    },
+    "scatological humor": {
+        "duke3d"
+    },
+    "scatological": {
+        "duke3d"
+    },
+    "karaoke": {
+        "duke3d"
+    },
+    "open-source": {
+        "duke3d",
+        "quake"
+    },
+    "quickloading": {
+        "duke3d"
+    },
+    "multiplayer lan": {
+        "duke3d",
+        "quake"
+    },
+    "lan": {
+        "duke3d",
+        "quake"
+    },
+    "profanity": {
+        "duke3d",
+        "rogue_legacy"
+    },
+    "team deathmatch": {
+        "duke3d",
+        "mk64"
+    },
+    "team": {
+        "duke3d",
+        "mk64"
+    },
+    "deathmatch": {
+        "duke3d",
+        "mk64"
+    },
+    "severed limbs": {
+        "duke3d"
+    },
+    "severed": {
+        "duke3d"
+    },
+    "limbs": {
+        "duke3d"
+    },
+    "secret achievements": {
+        "duke3d"
+    },
+    "pinball machine": {
+        "duke3d"
+    },
+    "pinball": {
+        "duke3d",
+        "pinball_fx3",
+        "wl4"
+    },
+    "sexual content": {
+        "duke3d"
+    },
+    "sexual": {
+        "duke3d"
+    },
+    "destructible environment": {
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1"
+    },
+    "destructible": {
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1"
+    },
+    "environment": {
+        "duke3d",
+        "jakanddaxter",
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3",
+        "simpsonshitnrun",
+        "sly1",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "scripted events": {
+        "duke3d",
+        "metroidfusion",
+        "sm",
+        "sm_map_rando"
+    },
+    "scripted": {
+        "duke3d",
+        "metroidfusion",
+        "sm",
+        "sm_map_rando"
+    },
+    "events": {
+        "duke3d",
+        "metroidfusion",
+        "sm",
+        "sm_map_rando"
+    },
+    "escape from exploding building": {
+        "duke3d",
+        "metroidprime"
+    },
+    "from": {
+        "duke3d",
+        "metroidprime"
+    },
+    "exploding": {
+        "duke3d",
+        "metroidprime"
+    },
+    "missile launcher": {
+        "duke3d"
+    },
+    "missile": {
+        "duke3d"
+    },
+    "launcher": {
+        "duke3d"
+    },
+    "dolphin": {
+        "duke3d",
+        "minecraft"
+    },
+    "worm": {
+        "duke3d",
+        "terraria"
+    },
+    "optional censorship": {
+        "duke3d"
+    },
+    "censorship": {
+        "duke3d"
+    },
+    "in-game advertising": {
+        "duke3d"
+    },
+    "advertising": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "reciting movie lines": {
+        "duke3d"
+    },
+    "reciting": {
+        "duke3d"
+    },
+    "lines": {
+        "duke3d"
+    },
+    "homage box art": {
+        "duke3d"
+    },
+    "homage": {
+        "duke3d"
+    },
+    "box": {
+        "duke3d",
+        "mm2"
+    },
+    "surveillance camera": {
+        "duke3d",
+        "metroidfusion",
+        "simpsonshitnrun"
+    },
+    "surveillance": {
+        "duke3d",
+        "metroidfusion",
+        "simpsonshitnrun"
+    },
+    "pregnancy": {
+        "duke3d",
+        "lego_star_wars_tcs"
+    },
+    "fake in-game advertising": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "fake": {
+        "duke3d",
+        "oot",
+        "simpsonshitnrun"
+    },
+    "hologram": {
+        "duke3d",
+        "metroidprime"
+    },
+    "gore system": {
+        "duke3d",
+        "quake"
+    },
+    "interactive environments": {
+        "duke3d",
+        "mm_recomp"
+    },
+    "environments": {
+        "duke3d",
+        "mm_recomp"
+    },
+    "chicken": {
+        "duke3d",
+        "ladx_beta",
+        "minecraft",
+        "oot",
+        "stardew_valley"
+    },
+    "helicopter": {
+        "duke3d"
+    },
+    "alien abduction": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "alien": {
+        "duke3d",
+        "earthbound",
+        "hcniko",
+        "quake",
+        "simpsonshitnrun"
+    },
+    "abduction": {
+        "duke3d",
+        "simpsonshitnrun"
+    },
+    "meme origin": {
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "sotn",
+        "star_fox_64",
+        "tloz",
+        "zelda2"
+    },
+    "meme": {
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "sotn",
+        "star_fox_64",
+        "tloz",
+        "zelda2"
+    },
+    "origin": {
+        "duke3d",
+        "metroidprime",
+        "minecraft",
+        "mm_recomp",
+        "sotn",
+        "star_fox_64",
+        "tloz",
+        "v6",
+        "zelda2"
+    },
+    "alien invasion": {
+        "duke3d",
+        "earthbound"
+    },
+    "removed from gog.com": {
+        "duke3d"
+    },
+    "removed": {
+        "duke3d"
+    },
+    "gog.com": {
+        "duke3d"
+    },
+    "ufo": {
+        "duke3d",
+        "earthbound",
+        "ufo50"
+    },
+    "arrival by crash landing": {
+        "duke3d",
+        "ror1"
+    },
+    "arrival": {
+        "duke3d",
+        "ror1"
+    },
+    "by": {
+        "duke3d",
+        "metroidprime",
+        "ror1",
+        "v6"
+    },
+    "crash": {
+        "duke3d",
+        "ror1"
+    },
+    "landing": {
+        "duke3d",
+        "ror1"
+    },
+    "crash landing": {
+        "duke3d"
+    },
+    "retrievable traps": {
+        "duke3d"
+    },
+    "retrievable": {
+        "duke3d"
+    },
+    "digimon world": {
+        "dw1"
+    },
+    "digimon world 4": {
+        "dw1"
+    },
+    "digimon": {
+        "dw1"
+    },
+    "breeding": {
+        "dw1",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "evolution": {
+        "dw1",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "based on - anime": {
+        "dw1",
+        "yugiohddm"
+    },
+    "digivolution": {
+        "dw1"
+    },
+    "virtual pet": {
+        "dw1"
+    },
+    "earthbound": {
+        "earthbound"
+    },
+    "real-time waiting": {
+        "earthbound",
+        "ttyd"
+    },
+    "waiting": {
+        "earthbound",
+        "ttyd"
+    },
+    "corruption": {
+        "earthbound"
+    },
+    "psychic abilities": {
+        "earthbound",
+        "gstla"
+    },
+    "psychic": {
+        "earthbound",
+        "gstla"
+    },
+    "abilities": {
+        "earthbound",
+        "gstla"
+    },
+    "fan translation - polish": {
+        "earthbound",
+        "smw",
+        "tloz",
+        "tmc",
+        "waffles",
+        "zelda2"
+    },
+    "polish": {
+        "earthbound",
+        "smw",
+        "tloz",
+        "tmc",
+        "waffles",
+        "zelda2"
+    },
+    "robot protagonist": {
+        "earthbound",
+        "mm2",
+        "mm3",
+        "mmx3"
+    },
+    "robot": {
+        "earthbound",
+        "mm2",
+        "mm3",
+        "mmx3",
+        "soe"
+    },
+    "fan translation - russian": {
+        "earthbound",
+        "tmc"
+    },
+    "russian": {
+        "earthbound",
+        "tmc"
+    },
+    "psychics": {
+        "earthbound",
+        "pokemon_emerald"
+    },
+    "party system": {
+        "earthbound",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "kh1",
+        "mlss",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ttyd",
+        "xenobladex"
+    },
+    "party": {
+        "earthbound",
+        "ffmq",
+        "ffta",
+        "gstla",
+        "kh1",
+        "mk64",
+        "mlss",
+        "overcooked2",
+        "papermario",
+        "placidplasticducksim",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tmc",
+        "ttyd",
+        "xenobladex"
+    },
+    "escaping imprisonment": {
+        "earthbound",
+        "papermario",
+        "tww"
+    },
+    "escaping": {
+        "earthbound",
+        "papermario",
+        "tww"
+    },
+    "imprisonment": {
+        "earthbound",
+        "papermario",
+        "tww"
+    },
+    "insanity": {
+        "earthbound"
+    },
+    "fan translation - english": {
+        "earthbound",
+        "faxanadu",
+        "ff1",
+        "mmx3",
+        "sotn",
+        "tloz"
+    },
+    "cult": {
+        "earthbound"
+    },
+    "shigesato itoi": {
+        "earthbound"
+    },
+    "shigesato": {
+        "earthbound"
+    },
+    "itoi": {
+        "earthbound"
+    },
+    "pizza": {
+        "earthbound",
+        "sotn"
+    },
+    "fan translation - brazilian portuguese": {
+        "earthbound",
+        "tloz",
+        "tmc"
+    },
+    "brazilian": {
+        "earthbound",
+        "sm64ex",
+        "sm64hacks",
+        "tloz",
+        "tmc"
+    },
+    "fan translation - spanish": {
+        "earthbound",
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "spanish": {
+        "earthbound",
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "martial arts": {
+        "earthbound"
+    },
+    "martial": {
+        "earthbound"
+    },
+    "arts": {
+        "earthbound"
+    },
+    "fan translation - italian": {
+        "earthbound",
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "italian": {
+        "earthbound",
+        "landstalker",
+        "luigismansion",
+        "mk64",
+        "mlss",
+        "sms",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "mummy": {
+        "earthbound",
+        "ffmq",
+        "terraria",
+        "tmc"
+    },
+    "corrupt government": {
+        "earthbound",
+        "simpsonshitnrun"
+    },
+    "corrupt": {
+        "earthbound",
+        "simpsonshitnrun"
+    },
+    "government": {
+        "earthbound",
+        "simpsonshitnrun"
+    },
+    "prince": {
+        "earthbound",
+        "mlss"
+    },
+    "year x": {
+        "earthbound",
+        "mm2",
+        "mm3"
+    },
+    "fan translation - french": {
+        "earthbound",
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "french": {
+        "earthbound",
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "meditation": {
+        "earthbound"
+    },
+    "1990s": {
+        "earthbound",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "censored version": {
+        "earthbound",
+        "oot",
+        "xenobladex"
+    },
+    "censored": {
+        "earthbound",
+        "oot",
+        "xenobladex"
+    },
+    "version": {
+        "earthbound",
+        "kh1",
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "xenobladex"
+    },
+    "exploring yourself": {
+        "earthbound"
+    },
+    "exploring": {
+        "earthbound"
+    },
+    "yourself": {
+        "earthbound"
+    },
+    "cryokinesis": {
+        "earthbound",
+        "gstla"
+    },
+    "20th century": {
+        "earthbound"
+    },
+    "20th": {
+        "earthbound"
+    },
+    "century": {
+        "earthbound"
+    },
+    "white magic": {
+        "earthbound",
+        "ffta",
+        "kh1"
+    },
+    "fan translation - german": {
+        "earthbound",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "german": {
+        "earthbound",
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "apocalypse": {
+        "earthbound",
+        "oot"
+    },
+    "satire": {
+        "earthbound",
+        "undertale"
+    },
+    "ender lilies": {
+        "enderlilies"
+    },
+    "ender lilies: quietus of the knights": {
+        "enderlilies"
+    },
+    "ender": {
+        "enderlilies"
+    },
+    "lilies:": {
+        "enderlilies"
+    },
+    "quietus": {
+        "enderlilies"
+    },
+    "knights": {
+        "enderlilies"
+    },
+    "castle": {
+        "enderlilies",
+        "marioland2",
+        "quake"
+    },
+    "factorio": {
+        "factorio"
+    },
+    "automation": {
+        "factorio",
+        "factorio_saws",
+        "minecraft"
+    },
+    "indiegogo": {
+        "factorio"
+    },
+    "factorio - space age without space": {
+        "factorio_saws"
+    },
+    "factorio: space age": {
+        "factorio_saws"
+    },
+    "factorio:": {
+        "factorio_saws"
+    },
+    "space": {
+        "factorio_saws",
+        "getting_over_it",
+        "marioland2",
+        "outer_wilds",
+        "sc2",
+        "star_fox_64",
+        "v6"
+    },
+    "faxanadu": {
+        "faxanadu"
+    },
+    "family computer": {
+        "faxanadu",
+        "ff1",
+        "mm3",
+        "tloz"
+    },
+    "family": {
+        "faxanadu",
+        "ff1",
+        "mm3",
+        "overcooked2",
+        "powerwashsimulator",
+        "shorthike",
+        "sims4",
+        "smo",
+        "tloz",
+        "tunic",
+        "zelda2"
+    },
+    "computer": {
+        "faxanadu",
+        "ff1",
+        "mm3",
+        "tloz",
+        "zelda2"
+    },
+    "nintendo entertainment system": {
+        "faxanadu",
+        "ff1",
+        "mm3",
+        "tloz",
+        "zelda2"
+    },
+    "black magic": {
+        "faxanadu",
+        "kh1"
+    },
+    "black": {
+        "faxanadu",
+        "kh1",
+        "rac3",
+        "terraria"
+    },
+    "time stopping": {
+        "faxanadu",
+        "mm2",
+        "tloz_ph"
+    },
+    "stopping": {
+        "faxanadu",
+        "mm2",
+        "tloz_ph"
+    },
+    "spellcaster": {
+        "faxanadu"
+    },
+    "nameless protagonist": {
+        "faxanadu",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_ph"
+    },
+    "nameless": {
+        "faxanadu",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "tloz_ph"
+    },
+    "bread": {
+        "faxanadu",
+        "minecraft",
+        "tmc"
+    },
+    "final fantasy": {
+        "ff1"
+    },
+    "final": {
+        "ff1",
+        "ff4fe",
+        "ffmq",
+        "ffta"
+    },
+    "kids": {
+        "ff1",
+        "lego_star_wars_tcs",
+        "mario_kart_double_dash",
+        "minecraft",
+        "mk64",
+        "overcooked2",
+        "placidplasticducksim",
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb",
+        "tetrisattack",
+        "yoshisisland"
+    },
+    "fan translation - esperanto": {
+        "ff1",
+        "tloz",
+        "zelda2"
+    },
+    "esperanto": {
+        "ff1",
+        "tloz",
+        "zelda2"
+    },
+    "fan translation - latin": {
+        "ff1",
+        "oot",
+        "tloz",
+        "zelda2"
+    },
+    "latin": {
+        "ff1",
+        "oot",
+        "tloz",
+        "zelda2"
+    },
+    "final fantasy iv free enterprise": {
+        "ff4fe"
+    },
+    "final fantasy ii": {
+        "ff4fe"
+    },
+    "fan translation - thai": {
+        "ff4fe"
+    },
+    "thai": {
+        "ff4fe"
+    },
+    "regional port": {
+        "ff4fe"
+    },
+    "regional": {
+        "ff4fe"
+    },
+    "final fantasy mystic quest": {
+        "ffmq"
+    },
+    "final fantasy: mystic quest": {
+        "ffmq"
+    },
+    "fantasy:": {
+        "ffmq"
+    },
+    "mystic": {
+        "ffmq"
+    },
+    "possession": {
+        "ffmq",
+        "tloz_ooa",
+        "tmc"
+    },
+    "ninja": {
+        "ffmq",
+        "ffta",
+        "messenger",
+        "rogue_legacy"
+    },
+    "basilisks": {
+        "ffmq",
+        "ffta"
+    },
+    "party-based combat": {
+        "ffmq",
+        "ffta",
+        "gstla"
+    },
+    "linear overworld": {
+        "ffmq"
+    },
+    "linear": {
+        "ffmq",
+        "metroidprime",
+        "portal2",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "ttyd"
+    },
+    "casual": {
+        "ffmq",
+        "getting_over_it",
+        "musedash",
+        "placidplasticducksim",
+        "shorthike",
+        "sims4"
+    },
+    "final fantasy tactics advance": {
+        "ffta"
+    },
+    "tactics": {
+        "ffta",
+        "xenobladex"
+    },
+    "turn-based tactics": {
+        "ffta"
+    },
+    "interactive achievement awards 2004": {
+        "ffta"
+    },
+    "2004": {
+        "ffta",
+        "mzm"
+    },
+    "gender exclusive equipment": {
+        "ffta",
+        "gstla"
+    },
+    "pom-pom": {
+        "ffta",
+        "kh1"
+    },
+    "summoners": {
+        "ffta",
+        "kh1"
+    },
+    "elementalist": {
+        "ffta"
+    },
+    "tactical turn-based combat": {
+        "ffta"
+    },
+    "permadeath": {
+        "ffta",
+        "minecraft",
+        "rogue_legacy",
+        "ror1"
+    },
+    "mana": {
+        "ffta",
+        "soe",
+        "terraria"
+    },
+    "airship": {
+        "ffta"
+    },
+    "random encounter": {
+        "ffta",
+        "gstla",
+        "kh1",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "random": {
+        "ffta",
+        "gstla",
+        "kh1",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ror1"
+    },
+    "encounter": {
+        "ffta",
+        "gstla",
+        "kh1",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "warriors": {
+        "ffta"
+    },
+    "law": {
+        "ffta"
+    },
+    "level scaling": {
+        "ffta"
+    },
+    "scaling": {
+        "ffta"
+    },
+    "blindness": {
+        "ffta",
+        "rogue_legacy"
+    },
+    "healer": {
+        "ffta"
+    },
+    "class change": {
+        "ffta",
+        "gstla",
+        "xenobladex"
+    },
+    "class": {
+        "ffta",
+        "gstla",
+        "xenobladex"
+    },
+    "final fantasy v career day": {
+        "ffvcd"
+    },
+    "yu-gi-oh! forbidden memories": {
+        "fm"
+    },
+    "yu-gi-oh!": {
+        "fm",
+        "yugioh06",
+        "yugiohddm"
+    },
+    "forbidden": {
+        "fm"
+    },
+    "memories": {
+        "fm"
+    },
+    "card based combat": {
+        "fm"
+    },
+    "card collection": {
+        "fm",
+        "yugiohddm"
+    },
+    "fusion": {
+        "fm",
+        "metroidfusion"
+    },
+    "funi raccoon game": {
+        "funi_raccoon"
+    },
+    "getting over it": {
+        "getting_over_it"
+    },
+    "getting over it with bennett foddy": {
+        "getting_over_it"
+    },
+    "getting": {
+        "getting_over_it"
+    },
+    "it": {
+        "getting_over_it"
+    },
+    "bennett": {
+        "getting_over_it"
+    },
+    "foddy": {
+        "getting_over_it"
+    },
+    "replayability": {
+        "getting_over_it",
+        "undertale"
+    },
+    "humble original": {
+        "getting_over_it"
+    },
+    "humble": {
+        "getting_over_it",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "v6"
+    },
+    "vertical platforming": {
+        "getting_over_it"
+    },
+    "vertical": {
+        "getting_over_it",
+        "tyrian"
+    },
+    "physics": {
+        "getting_over_it",
+        "mk64",
+        "placidplasticducksim",
+        "trackmania"
+    },
+    "qwoplike": {
+        "getting_over_it"
+    },
+    "dark humor": {
+        "getting_over_it"
+    },
+    "humble bundle": {
+        "getting_over_it",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "v6"
+    },
+    "bundle": {
+        "getting_over_it",
+        "lego_star_wars_tcs",
+        "minecraft",
+        "v6"
+    },
+    "philosophical": {
+        "getting_over_it"
+    },
+    "gauntlet legends": {
+        "gl"
+    },
+    "the grinch": {
+        "grinch"
+    },
+    "golden sun the lost age": {
+        "gstla"
+    },
+    "golden sun: the lost age": {
+        "gstla"
+    },
+    "golden": {
+        "gstla",
+        "marioland2"
+    },
+    "sun:": {
+        "gstla"
+    },
+    "alchemy": {
+        "gstla",
+        "terraria"
+    },
+    "ancient advanced civilization technology": {
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "ss"
+    },
+    "ancient": {
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "ss",
+        "tloz"
+    },
+    "advanced": {
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "ss"
+    },
+    "technology": {
+        "gstla",
+        "jakanddaxter",
+        "metroidprime",
+        "ss"
+    },
+    "battle screen": {
+        "gstla",
+        "mlss",
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ttyd"
+    },
+    "earth manipulation": {
+        "gstla",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "character import": {
+        "gstla"
+    },
+    "import": {
+        "gstla"
+    },
+    "rogue protagonist": {
+        "gstla"
+    },
+    "rogue": {
+        "gstla",
+        "rogue_legacy"
+    },
+    "explorable world": {
+        "gstla",
+        "hk"
+    },
+    "explorable": {
+        "gstla",
+        "hk"
+    },
+    "post-credits plot twist": {
+        "gstla",
+        "metroidprime",
+        "mmx3",
+        "star_fox_64"
+    },
+    "post-credits": {
+        "gstla",
+        "metroidprime",
+        "mmx3",
+        "star_fox_64"
+    },
+    "hades": {
+        "hades"
+    },
+    "the game awards - best narrative - nominee": {
+        "hades"
+    },
+    "narrative": {
+        "hades",
+        "mm_recomp"
+    },
+    "the game awards - best performance - nominee": {
+        "hades"
+    },
+    "performance": {
+        "hades"
+    },
+    "the game awards - best action game - winner": {
+        "hades"
+    },
+    "dungeon crawler": {
+        "hades",
+        "pmd_eos"
+    },
+    "dungeon": {
+        "hades",
+        "ladx_beta",
+        "pmd_eos",
+        "tloz",
+        "tww",
+        "yugiohddm"
+    },
+    "crawler": {
+        "hades",
+        "pmd_eos"
+    },
+    "greek mythology": {
+        "hades"
+    },
+    "greek": {
+        "hades",
+        "smw",
+        "sonic_heroes",
+        "tloz",
+        "waffles"
+    },
+    "supernatural": {
+        "hades",
+        "luigismansion"
+    },
+    "hades2rogue": {
+        "hades2rogue"
+    },
+    "here comes niko!": {
+        "hcniko"
+    },
+    "comes": {
+        "hcniko"
+    },
+    "niko!": {
+        "hcniko"
+    },
+    "corporation": {
+        "hcniko"
+    },
+    "game within a game": {
+        "hcniko"
+    },
+    "mushroom": {
+        "hcniko",
+        "minecraft"
+    },
+    "fish": {
+        "hcniko",
+        "shorthike",
+        "stardew_valley"
+    },
+    "hidden secrets": {
+        "hcniko",
+        "shorthike",
+        "tunic"
+    },
+    "secrets": {
+        "hcniko",
+        "shorthike",
+        "tunic"
+    },
+    "season summer": {
+        "hcniko",
+        "shorthike",
+        "stardew_valley"
+    },
+    "season": {
+        "hcniko",
+        "shorthike",
+        "stardew_valley"
+    },
+    "summer": {
+        "hcniko",
+        "shorthike",
+        "stardew_valley"
+    },
+    "lighthouse": {
+        "hcniko",
+        "shorthike"
+    },
+    "highscore": {
+        "hcniko",
+        "musedash"
+    },
+    "butterfly": {
+        "hcniko"
+    },
+    "beach volleyball": {
+        "hcniko",
+        "shorthike"
+    },
+    "beach": {
+        "hcniko",
+        "minecraft",
+        "shorthike",
+        "smo",
+        "sms",
+        "stardew_valley"
+    },
+    "volleyball": {
+        "hcniko",
+        "shorthike"
+    },
+    "puns": {
+        "hcniko"
+    },
+    "japanese culture": {
+        "hcniko"
+    },
+    "vending machine interaction": {
+        "hcniko",
+        "simpsonshitnrun"
+    },
+    "vending": {
+        "hcniko",
+        "simpsonshitnrun"
+    },
+    "interaction": {
+        "hcniko",
+        "simpsonshitnrun"
+    },
+    "pool": {
+        "hcniko",
+        "placidplasticducksim"
+    },
+    "virtual pet simulation": {
+        "hcniko"
+    },
+    "simulation": {
+        "hcniko",
+        "outer_wilds",
+        "sims4",
+        "stardew_valley",
+        "trackmania"
+    },
+    "trains": {
+        "hcniko"
+    },
+    "cartoon graphics": {
+        "hcniko",
+        "rotn",
+        "simpsonshitnrun"
+    },
+    "flowers": {
+        "hcniko"
+    },
+    "single ending": {
+        "hcniko"
+    },
+    "single": {
+        "hcniko"
+    },
+    "ending": {
+        "hcniko"
+    },
+    "giraffe": {
+        "hcniko"
+    },
+    "2d art": {
+        "hcniko"
+    },
+    "ice cream": {
+        "hcniko"
+    },
+    "cream": {
+        "hcniko",
+        "sonic_heroes"
+    },
+    "graffiti": {
+        "hcniko"
+    },
+    "social media": {
+        "hcniko"
+    },
+    "social": {
+        "hcniko",
+        "sims4"
+    },
+    "media": {
+        "hcniko",
+        "oot",
+        "sm64ex",
+        "sm64hacks",
+        "tloz"
+    },
+    "detective": {
+        "hcniko",
+        "mm_recomp",
+        "oot",
+        "ttyd"
+    },
+    "nature": {
+        "hcniko",
+        "shorthike"
+    },
+    "fruits": {
+        "hcniko",
+        "minecraft"
+    },
+    "social issues": {
+        "hcniko"
+    },
+    "issues": {
+        "hcniko"
+    },
+    "photo mode": {
+        "hcniko",
+        "smo"
+    },
+    "photo": {
+        "hcniko",
+        "smo"
+    },
+    "possum": {
+        "hcniko",
+        "shorthike"
+    },
+    "capybara": {
+        "hcniko"
+    },
+    "season winter": {
+        "hcniko",
+        "stardew_valley"
+    },
+    "winter": {
+        "hcniko",
+        "stardew_valley"
+    },
+    "axolotl": {
+        "hcniko"
+    },
+    "colorful": {
+        "hcniko",
+        "powerwashsimulator",
+        "rabi_ribi",
+        "rotn",
+        "tunic"
+    },
+    "memes": {
+        "hcniko"
+    },
+    "air dasher": {
+        "hcniko"
+    },
+    "air": {
+        "hcniko"
+    },
+    "dasher": {
+        "hcniko"
+    },
+    "heretic (beta)": {
+        "heretic_beta"
+    },
+    "hollow knight": {
+        "hk"
+    },
+    "hollow": {
+        "hk"
+    },
+    "knight": {
+        "hk"
+    },
+    "shop keeper": {
+        "hk"
+    },
+    "shop": {
+        "hk"
+    },
+    "keeper": {
+        "hk"
+    },
+    "skill-based": {
+        "hk",
+        "sc2"
+    },
+    "armed bugs": {
+        "hk"
+    },
+    "armed": {
+        "hk"
+    },
+    "bugs": {
+        "hk"
+    },
+    "money": {
+        "hk",
+        "stardew_valley"
+    },
+    "creature compendium": {
+        "hk",
+        "metroidprime",
+        "pokemon_emerald",
+        "sotn",
+        "ttyd"
+    },
+    "creature": {
+        "hk",
+        "metroidprime",
+        "pokemon_emerald",
+        "sotn",
+        "ttyd"
+    },
+    "compendium": {
+        "hk",
+        "metroidprime",
+        "pokemon_emerald",
+        "sotn",
+        "ttyd"
+    },
+    "controller recommendation": {
+        "hk",
+        "oribf",
+        "shorthike"
+    },
+    "recommendation": {
+        "hk",
+        "oribf",
+        "shorthike"
+    },
+    "inscryption beta": {
+        "inscryption_beta"
+    },
+    "inscryption": {
+        "inscryption_beta"
+    },
+    "deck-building": {
+        "inscryption_beta"
+    },
+    "weird": {
+        "inscryption_beta"
+    },
+    "roguelike deckbuilder": {
+        "inscryption_beta"
+    },
+    "deckbuilder": {
+        "inscryption_beta"
+    },
+    "into the breach": {
+        "into_the_breach"
+    },
+    "into": {
+        "into_the_breach"
+    },
+    "breach": {
+        "into_the_breach"
+    },
+    "mech": {
+        "into_the_breach",
+        "xenobladex"
+    },
+    "randomly generated dungeons": {
+        "into_the_breach",
+        "rogue_legacy",
+        "terraria"
+    },
+    "randomly": {
+        "into_the_breach",
+        "minecraft",
+        "rogue_legacy",
+        "terraria"
+    },
+    "generated": {
+        "into_the_breach",
+        "minecraft",
+        "quake",
+        "rogue_legacy",
+        "terraria",
+        "trackmania"
+    },
+    "dungeons": {
+        "into_the_breach",
+        "rogue_legacy",
+        "terraria"
+    },
+    "mecha": {
+        "into_the_breach",
+        "xenobladex"
+    },
+    "jak and daxter: the precursor legacy": {
+        "jakanddaxter"
+    },
+    "jak": {
+        "jakanddaxter"
+    },
+    "daxter:": {
+        "jakanddaxter"
+    },
+    "precursor": {
+        "jakanddaxter"
+    },
+    "legacy": {
+        "jakanddaxter",
+        "mmx3",
+        "quake",
+        "rogue_legacy"
+    },
+    "superpowers": {
+        "jakanddaxter"
+    },
+    "useable vehicles": {
+        "jakanddaxter",
+        "simpsonshitnrun",
+        "witness",
+        "xenobladex"
+    },
+    "useable": {
+        "jakanddaxter",
+        "simpsonshitnrun",
+        "witness",
+        "xenobladex"
+    },
+    "vehicles": {
+        "jakanddaxter",
+        "mk64",
+        "powerwashsimulator",
+        "simpsonshitnrun",
+        "trackmania",
+        "witness",
+        "xenobladex"
+    },
+    "dynamic difficulty": {
+        "jakanddaxter",
+        "minecraft"
+    },
+    "game developers choice awards 2002": {
+        "jakanddaxter"
+    },
+    "2002": {
+        "jakanddaxter"
+    },
+    "big head mode": {
+        "jakanddaxter",
+        "rac3",
+        "spyro3",
+        "toontown"
+    },
+    "big": {
+        "jakanddaxter",
+        "rac3",
+        "spyro3",
+        "toontown"
+    },
+    "running towards the screen": {
+        "jakanddaxter",
+        "smo",
+        "ss"
+    },
+    "running": {
+        "jakanddaxter",
+        "rac3",
+        "smo",
+        "ss"
+    },
+    "towards": {
+        "jakanddaxter",
+        "smo",
+        "ss"
+    },
+    "comic relief": {
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "rac3",
+        "tloz_ph"
+    },
+    "comic": {
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "rac3",
+        "sly1",
+        "tloz_ph"
+    },
+    "relief": {
+        "jakanddaxter",
+        "kh1",
+        "ladx_beta",
+        "rac3",
+        "tloz_ph"
+    },
+    "ps2 classics": {
+        "jakanddaxter"
+    },
+    "ps2": {
+        "jakanddaxter"
+    },
+    "running gag": {
+        "jakanddaxter",
+        "rac3"
+    },
+    "gag": {
+        "jakanddaxter",
+        "rac3"
+    },
+    "language selection": {
+        "jakanddaxter",
+        "minecraft",
+        "sly1",
+        "tmc",
+        "yugiohddm"
+    },
+    "auto-saving": {
+        "jakanddaxter",
+        "minecraft",
+        "spyro3",
+        "witness"
+    },
+    "60 fps on consoles": {
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oribf",
+        "rac3",
+        "rogue_legacy",
+        "sly1",
+        "sonic_heroes"
+    },
+    "60": {
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oribf",
+        "rac3",
+        "rogue_legacy",
+        "sly1",
+        "sonic_heroes"
+    },
+    "fps": {
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oribf",
+        "rac3",
+        "rogue_legacy",
+        "sly1",
+        "sonic_heroes"
+    },
+    "consoles": {
+        "jakanddaxter",
+        "lego_star_wars_tcs",
+        "metroidprime",
+        "oribf",
+        "rac3",
+        "rogue_legacy",
+        "sly1",
+        "sonic_heroes",
+        "xenobladex"
+    },
+    "jigsaw": {
+        "jigsaw"
+    },
+    "kirby 64 - the crystal shards": {
+        "k64"
+    },
+    "kirby 64: the crystal shards": {
+        "k64"
+    },
+    "kirby": {
+        "k64"
+    },
+    "64:": {
+        "k64"
+    },
+    "shards": {
+        "k64"
+    },
+    "hamster": {
+        "k64",
+        "kdl3"
+    },
+    "whale": {
+        "k64",
+        "kdl3",
+        "kh1",
+        "marioland2"
+    },
+    "kirby's dream land 3": {
+        "kdl3"
+    },
+    "kirby's": {
+        "kdl3"
+    },
+    "dream": {
+        "kdl3",
+        "ladx_beta"
+    },
+    "land": {
+        "kdl3",
+        "marioland2",
+        "wl",
+        "wl4"
+    },
+    "dreams": {
+        "kdl3",
+        "ladx_beta"
+    },
+    "asymmetric co-op": {
+        "kdl3",
+        "mm3",
+        "xenobladex"
+    },
+    "asymmetric": {
+        "kdl3",
+        "mm3",
+        "xenobladex"
+    },
+    "snes enhancement chip - sa1": {
+        "kdl3"
+    },
+    "enhancement": {
+        "kdl3",
+        "ladx_beta",
+        "marioland2",
+        "mm2",
+        "pokemon_rb"
+    },
+    "chip": {
+        "kdl3"
+    },
+    "sa1": {
+        "kdl3"
+    },
+    "kingdom hearts": {
+        "kh1"
+    },
+    "hearts": {
+        "kh1",
+        "kh2"
+    },
+    "planet destruction": {
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3"
+    },
+    "planet": {
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3"
+    },
+    "destruction": {
+        "kh1",
+        "lego_star_wars_tcs",
+        "rac3"
+    },
+    "vehicle customization": {
+        "kh1",
+        "trackmania"
+    },
+    "weapon workshops": {
+        "kh1"
+    },
+    "weapon": {
+        "kh1",
+        "metroidfusion"
+    },
+    "workshops": {
+        "kh1"
+    },
+    "reluctant hero": {
+        "kh1",
+        "luigismansion",
+        "mlss"
+    },
+    "reluctant": {
+        "kh1",
+        "luigismansion",
+        "mlss"
+    },
+    "hero": {
+        "kh1",
+        "lego_star_wars_tcs",
+        "luigismansion",
+        "mlss",
+        "oot",
+        "sotn"
+    },
+    "point of no return": {
+        "kh1"
+    },
+    "return": {
+        "kh1"
+    },
+    "halloween": {
+        "kh1",
+        "simpsonshitnrun"
+    },
+    "love triangle": {
+        "kh1"
+    },
+    "love": {
+        "kh1",
+        "rac3"
+    },
+    "triangle": {
+        "kh1"
+    },
+    "item combination": {
+        "kh1",
+        "terraria"
+    },
+    "item": {
+        "kh1",
+        "terraria"
+    },
+    "combination": {
+        "kh1",
+        "terraria"
+    },
+    "unbeatable enemies": {
+        "kh1",
+        "metroidfusion",
+        "papermario",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "unbeatable": {
+        "kh1",
+        "metroidfusion",
+        "papermario",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "power of friendship": {
+        "kh1",
+        "ss"
+    },
+    "friendship": {
+        "kh1",
+        "ss"
+    },
+    "unskippable cutscene": {
+        "kh1",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "unskippable": {
+        "kh1",
+        "mlss",
+        "tmc",
+        "ttyd",
+        "wl4"
+    },
+    "international version": {
+        "kh1"
+    },
+    "international": {
+        "kh1"
+    },
+    "licensed soundtrack": {
+        "kh1",
+        "sonic_heroes"
+    },
+    "japanese games based on western ips": {
+        "kh1"
+    },
+    "teenager": {
+        "kh1",
+        "oot",
+        "sonic_heroes"
+    },
+    "finishing move": {
+        "kh1"
+    },
+    "finishing": {
+        "kh1"
+    },
+    "move": {
+        "kh1"
+    },
+    "cricket": {
+        "kh1"
+    },
+    "j-pop": {
+        "kh1"
+    },
+    "dark past": {
+        "kh1"
+    },
+    "megaphone": {
+        "kh1"
+    },
+    "game developers choice awards 2003": {
+        "kh1",
+        "metroidprime",
+        "sly1"
+    },
+    "2003": {
+        "kh1",
+        "metroidfusion",
+        "metroidprime",
+        "sly1"
+    },
+    "kingdom hearts 2": {
+        "kh2"
+    },
+    "kingdom hearts ii": {
+        "kh2"
+    },
+    "goofy": {
+        "kh2"
+    },
+    "mickey mouse": {
+        "kh2"
+    },
+    "mickey": {
+        "kh2"
+    },
+    "mouse": {
+        "kh2",
+        "xenobladex"
+    },
+    "donald duck": {
+        "kh2"
+    },
+    "donald": {
+        "kh2"
+    },
+    "duck": {
+        "kh2",
+        "placidplasticducksim",
+        "stardew_valley"
+    },
+    "links awakening dx beta": {
+        "ladx_beta"
+    },
+    "the legend of zelda: link's awakening": {
+        "ladx_beta"
+    },
+    "link's": {
+        "ladx_beta"
+    },
+    "awakening": {
+        "ladx_beta",
+        "phoa"
+    },
+    "game boy": {
+        "ladx_beta",
+        "marioland2",
+        "mm2",
+        "pokemon_rb",
+        "wl"
+    },
+    "dream sequence": {
+        "ladx_beta"
+    },
+    "owl": {
+        "ladx_beta",
+        "mm_recomp",
+        "oot"
+    },
+    "robbery": {
+        "ladx_beta"
+    },
+    "theft": {
+        "ladx_beta",
+        "sly1",
+        "tmc"
+    },
+    "pictographic level design": {
+        "ladx_beta",
+        "peggle_nights",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "pictographic": {
+        "ladx_beta",
+        "peggle_nights",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "super game boy enhancement": {
+        "ladx_beta",
+        "marioland2",
+        "mm2",
+        "pokemon_rb"
+    },
+    "flip screen": {
+        "ladx_beta",
+        "v6"
+    },
+    "flip": {
+        "ladx_beta",
+        "v6"
+    },
+    "castaway": {
+        "ladx_beta"
+    },
+    "landstalker - the treasures of king nole": {
+        "landstalker"
+    },
+    "landstalker": {
+        "landstalker"
+    },
+    "sega mega drive/genesis": {
+        "landstalker"
+    },
+    "sega": {
+        "landstalker",
+        "quake"
+    },
+    "mega": {
+        "landstalker",
+        "megamix",
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3"
+    },
+    "drive/genesis": {
+        "landstalker"
+    },
+    "treasure hunt": {
+        "landstalker",
+        "shorthike"
+    },
+    "hunt": {
+        "landstalker",
+        "shorthike"
+    },
+    "fan translation - korean": {
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "korean": {
+        "landstalker",
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "sega channel": {
+        "landstalker"
+    },
+    "channel": {
+        "landstalker"
+    },
+    "onlive": {
+        "landstalker",
+        "rogue_legacy"
+    },
+    "archeology": {
+        "landstalker"
+    },
+    "lego star wars: the complete saga": {
+        "lego_star_wars_tcs"
+    },
+    "lego": {
+        "lego_star_wars_tcs"
+    },
+    "star": {
+        "lego_star_wars_tcs",
+        "star_fox_64",
+        "swr"
+    },
+    "wars:": {
+        "lego_star_wars_tcs",
+        "swr"
+    },
+    "complete": {
+        "lego_star_wars_tcs"
+    },
+    "saga": {
+        "lego_star_wars_tcs",
+        "mlss"
+    },
+    "b-wing": {
+        "lego_star_wars_tcs"
+    },
+    "previously on - xbox gamepass": {
+        "lego_star_wars_tcs"
+    },
+    "gamepass": {
+        "lego_star_wars_tcs"
+    },
+    "sixaxis support": {
+        "lego_star_wars_tcs"
+    },
+    "sixaxis": {
+        "lego_star_wars_tcs"
+    },
+    "character creation": {
+        "lego_star_wars_tcs",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "creation": {
+        "lego_star_wars_tcs",
+        "minecraft",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "trackmania"
+    },
+    "bounty hunting": {
+        "lego_star_wars_tcs"
+    },
+    "bounty": {
+        "lego_star_wars_tcs"
+    },
+    "hunting": {
+        "lego_star_wars_tcs"
+    },
+    "star wars": {
+        "lego_star_wars_tcs",
+        "swr"
+    },
+    "wars": {
+        "lego_star_wars_tcs",
+        "swr"
+    },
+    "based on - movie": {
+        "lego_star_wars_tcs",
+        "swr"
+    },
+    "respawning": {
+        "lego_star_wars_tcs",
+        "v6"
+    },
+    "respawn justification": {
+        "lego_star_wars_tcs"
+    },
+    "respawn": {
+        "lego_star_wars_tcs"
+    },
+    "justification": {
+        "lego_star_wars_tcs"
+    },
+    "evil empire": {
+        "lego_star_wars_tcs",
+        "timespinner"
+    },
+    "empire": {
+        "lego_star_wars_tcs",
+        "timespinner"
+    },
+    "hero turned evil": {
+        "lego_star_wars_tcs"
+    },
+    "planet jumping": {
+        "lego_star_wars_tcs"
+    },
+    "impossible to lose": {
+        "lego_star_wars_tcs"
+    },
+    "impossible": {
+        "lego_star_wars_tcs"
+    },
+    "lose": {
+        "lego_star_wars_tcs"
+    },
+    "galactic empire": {
+        "lego_star_wars_tcs"
+    },
+    "galactic": {
+        "lego_star_wars_tcs"
+    },
+    "motion control": {
+        "lego_star_wars_tcs",
+        "smo",
+        "ss",
+        "tp"
+    },
+    "motion": {
+        "lego_star_wars_tcs",
+        "mm_recomp",
+        "portal2",
+        "smo",
+        "ss",
+        "tp",
+        "tww",
+        "witness",
+        "zork_grand_inquisitor"
+    },
+    "galactic civil war": {
+        "lego_star_wars_tcs"
+    },
+    "civil": {
+        "lego_star_wars_tcs"
+    },
+    "changing sides": {
+        "lego_star_wars_tcs"
+    },
+    "changing": {
+        "lego_star_wars_tcs"
+    },
+    "sides": {
+        "lego_star_wars_tcs"
+    },
+    "xbox one backwards compatibility": {
+        "lego_star_wars_tcs",
+        "portal2",
+        "sotn"
+    },
+    "x-wing": {
+        "lego_star_wars_tcs"
+    },
+    "stormtrooper": {
+        "lego_star_wars_tcs"
+    },
+    "wilhelm scream": {
+        "lego_star_wars_tcs",
+        "oribf"
+    },
+    "wilhelm": {
+        "lego_star_wars_tcs",
+        "oribf"
+    },
+    "scream": {
+        "lego_star_wars_tcs",
+        "oribf"
+    },
+    "based on - brand": {
+        "lego_star_wars_tcs"
+    },
+    "brand": {
+        "lego_star_wars_tcs"
+    },
+    "playable boss": {
+        "lego_star_wars_tcs"
+    },
+    "drop-in drop-out": {
+        "lego_star_wars_tcs"
+    },
+    "drop-in": {
+        "lego_star_wars_tcs"
+    },
+    "drop-out": {
+        "lego_star_wars_tcs"
+    },
+    "lufia ii ancient cave": {
+        "lufia2ac"
+    },
+    "lufia ii: rise of the sinistrals": {
+        "lufia2ac"
+    },
+    "lufia": {
+        "lufia2ac"
+    },
+    "rise": {
+        "lufia2ac"
+    },
+    "sinistrals": {
+        "lufia2ac"
+    },
+    "luigi's mansion": {
+        "luigismansion"
+    },
+    "luigi's": {
+        "luigismansion"
+    },
+    "mansion": {
+        "luigismansion"
+    },
+    "ghostbusting": {
+        "luigismansion"
+    },
+    "ghost": {
+        "luigismansion"
+    },
+    "haunted house": {
+        "luigismansion"
+    },
+    "haunted": {
+        "luigismansion"
+    },
+    "house": {
+        "luigismansion"
+    },
+    "italian accent": {
+        "luigismansion",
+        "mk64",
+        "mlss",
+        "sms"
+    },
+    "exorcism": {
+        "luigismansion"
+    },
+    "mario kart double dash": {
+        "mario_kart_double_dash"
+    },
+    "mario kart: double dash!!": {
+        "mario_kart_double_dash"
+    },
+    "mario": {
+        "mario_kart_double_dash",
+        "marioland2",
+        "mk64",
+        "mlss",
+        "papermario",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms",
+        "smw",
+        "waffles",
+        "wl",
+        "yoshisisland"
+    },
+    "kart:": {
+        "mario_kart_double_dash"
+    },
+    "double": {
+        "mario_kart_double_dash"
+    },
+    "dash!!": {
+        "mario_kart_double_dash"
+    },
+    "king boo": {
+        "mario_kart_double_dash"
+    },
+    "king": {
+        "mario_kart_double_dash"
+    },
+    "boo": {
+        "mario_kart_double_dash"
+    },
+    "yoshi": {
+        "mario_kart_double_dash",
+        "sms",
+        "smw",
+        "ttyd",
+        "waffles",
+        "yoshisisland"
+    },
+    "battle mode": {
+        "mario_kart_double_dash"
+    },
+    "princess peach": {
+        "mario_kart_double_dash",
+        "mlss",
+        "sm64ex",
+        "sm64hacks",
+        "sms"
+    },
+    "peach": {
+        "mario_kart_double_dash",
+        "mlss",
+        "sm64ex",
+        "sm64hacks",
+        "sms"
+    },
+    "luigi": {
+        "mario_kart_double_dash",
+        "mlss",
+        "smw",
+        "waffles"
+    },
+    "pax prime 2014": {
+        "mario_kart_double_dash",
+        "minecraft",
+        "oribf",
+        "ror1"
+    },
+    "wario": {
+        "mario_kart_double_dash",
+        "marioland2",
+        "wl",
+        "wl4"
+    },
+    "super mario land 2": {
+        "marioland2"
+    },
+    "super mario land 2: 6 golden coins": {
+        "marioland2"
+    },
+    "6": {
+        "marioland2"
+    },
+    "coins": {
+        "marioland2",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "slot machine": {
+        "marioland2",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3"
+    },
+    "slot": {
+        "marioland2",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rac3"
+    },
+    "turtle": {
+        "marioland2",
+        "mk64",
+        "mlss",
+        "papermario",
+        "sly1",
+        "sms",
+        "ttyd"
+    },
+    "bunny": {
+        "marioland2",
+        "minecraft",
+        "rabi_ribi"
+    },
+    "stage selection": {
+        "marioland2"
+    },
+    "wario as a villain": {
+        "marioland2"
+    },
+    "hatsune miku project diva mega mix+": {
+        "megamix"
+    },
+    "hatsune miku: project diva mega mix": {
+        "megamix"
+    },
+    "hatsune": {
+        "megamix"
+    },
+    "miku:": {
+        "megamix"
+    },
+    "diva": {
+        "megamix"
+    },
+    "mix": {
+        "megamix"
+    },
+    "super smash bros. melee": {
+        "melee"
+    },
+    "the messenger": {
+        "messenger"
+    },
+    "messenger": {
+        "messenger"
+    },
+    "8-bit": {
+        "messenger",
+        "mm2",
+        "mm3",
+        "ror1",
+        "tloz",
+        "ufo50",
+        "zelda2"
+    },
+    "metroid fusion": {
+        "metroidfusion"
+    },
+    "metroid": {
+        "metroidfusion",
+        "metroidprime",
+        "sm",
+        "sm_map_rando"
+    },
+    "mission briefing": {
+        "metroidfusion"
+    },
+    "briefing": {
+        "metroidfusion"
+    },
+    "connectivity": {
+        "metroidfusion",
+        "metroidprime",
+        "pokemon_emerald",
+        "tww"
+    },
+    "interactive achievement awards 2003": {
+        "metroidfusion",
+        "metroidprime",
+        "sly1"
+    },
+    "weapon modification": {
+        "metroidfusion"
+    },
+    "modification": {
+        "metroidfusion"
+    },
+    "monologue": {
+        "metroidfusion"
+    },
+    "isolation": {
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "sm",
+        "sm_map_rando",
+        "sotn"
+    },
+    "persistent enemy": {
+        "metroidfusion",
+        "papermario"
+    },
+    "nintendo 3ds ambassador program": {
+        "metroidfusion",
+        "tmc",
+        "wl4",
+        "zelda2"
+    },
+    "ambassador": {
+        "metroidfusion",
+        "tmc",
+        "wl4",
+        "zelda2"
+    },
+    "program": {
+        "metroidfusion",
+        "tmc",
+        "tyrian",
+        "wl4",
+        "zelda2"
+    },
+    "time limit": {
+        "metroidfusion",
+        "metroidprime",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "tloz_ph",
+        "tmc",
+        "witness",
+        "wl4"
+    },
+    "limit": {
+        "metroidfusion",
+        "metroidprime",
+        "rogue_legacy",
+        "ror1",
+        "shorthike",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "sms",
+        "tloz_ph",
+        "tmc",
+        "witness",
+        "wl4"
+    },
+    "splash damage": {
+        "metroidfusion",
+        "minecraft",
+        "quake"
+    },
+    "splash": {
+        "metroidfusion",
+        "minecraft",
+        "quake"
+    },
+    "a.i. construct": {
+        "metroidfusion",
+        "portal2"
+    },
+    "construct": {
+        "metroidfusion",
+        "portal2"
+    },
+    "my nintendo": {
+        "metroidfusion",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "my": {
+        "metroidfusion",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "super speed": {
+        "metroidfusion",
+        "sms",
+        "sonic_heroes"
+    },
+    "speed": {
+        "metroidfusion",
+        "mk64",
+        "mm_recomp",
+        "sms",
+        "sonic_heroes"
+    },
+    "countdown timer": {
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "oot",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "tloz_ph",
+        "tmc",
+        "wl4"
+    },
+    "countdown": {
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "oot",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "tloz_ph",
+        "tmc",
+        "wl4"
+    },
+    "timer": {
+        "metroidfusion",
+        "metroidprime",
+        "mzm",
+        "oot",
+        "rogue_legacy",
+        "simpsonshitnrun",
+        "sm",
+        "sm_map_rando",
+        "terraria",
+        "tloz_ph",
+        "tmc",
+        "trackmania",
+        "wl4"
+    },
+    "bull": {
+        "metroidfusion"
+    },
+    "scientist": {
+        "metroidfusion",
+        "mm2",
+        "mm3",
+        "pokemon_crystal",
+        "wl4"
+    },
+    "metroid prime": {
+        "metroidprime"
+    },
+    "wave attack": {
+        "metroidprime",
+        "mlss"
+    },
+    "wave": {
+        "metroidprime",
+        "mlss"
+    },
+    "attack": {
+        "metroidprime",
+        "mlss",
+        "tetrisattack",
+        "trackmania"
+    },
+    "linear gameplay": {
+        "metroidprime",
+        "portal2",
+        "sm64ex",
+        "sm64hacks",
+        "sms",
+        "ttyd"
+    },
+    "optional lore": {
+        "metroidprime"
+    },
+    "visor reflection": {
+        "metroidprime"
+    },
+    "visor": {
+        "metroidprime"
+    },
+    "reflection": {
+        "metroidprime"
+    },
+    "no dialogue": {
+        "metroidprime"
+    },
+    "dialogue": {
+        "metroidprime",
+        "minecraft",
+        "papermario",
+        "shorthike",
+        "ttyd",
+        "undertale",
+        "xenobladex"
+    },
+    "rivalry": {
+        "metroidprime",
+        "mzm",
+        "swr"
+    },
+    "beetle": {
+        "metroidprime"
+    },
+    "particle system": {
+        "metroidprime"
+    },
+    "particle": {
+        "metroidprime"
+    },
+    "elevators that mask loading times": {
+        "metroidprime"
+    },
+    "elevators": {
+        "metroidprime"
+    },
+    "mask": {
+        "metroidprime",
+        "mm_recomp"
+    },
+    "loading": {
+        "metroidprime"
+    },
+    "times": {
+        "metroidprime"
+    },
+    "disc streaming": {
+        "metroidprime"
+    },
+    "disc": {
+        "metroidprime"
+    },
+    "streaming": {
+        "metroidprime"
+    },
+    "taste of power": {
+        "metroidprime",
+        "sotn"
+    },
+    "taste": {
+        "metroidprime",
+        "sotn"
+    },
+    "auto-aim": {
+        "metroidprime",
+        "mm_recomp",
+        "oot",
+        "quake",
+        "rac3",
+        "ss",
+        "tww"
+    },
+    "camera shift": {
+        "metroidprime"
+    },
+    "shift": {
+        "metroidprime"
+    },
+    "motion-sensor bomb": {
+        "metroidprime",
+        "mzm",
+        "sonic_heroes"
+    },
+    "motion-sensor": {
+        "metroidprime",
+        "mzm",
+        "sonic_heroes"
+    },
+    "bafta games award": {
+        "metroidprime",
+        "oot"
+    },
+    "bafta": {
+        "metroidprime",
+        "oot"
+    },
+    "award": {
+        "metroidprime",
+        "oot"
+    },
+    "acrobatics": {
+        "metroidprime",
+        "oot",
+        "sms"
+    },
+    "environmental puzzles": {
+        "metroidprime",
+        "rac3",
+        "witness"
+    },
+    "environmental": {
+        "metroidprime",
+        "rac3",
+        "witness"
+    },
+    "puzzles": {
+        "metroidprime",
+        "rac3",
+        "witness"
+    },
+    "titular antagonist": {
+        "metroidprime"
+    },
+    "titular": {
+        "metroidprime"
+    },
+    "sequel by a different developer": {
+        "metroidprime"
+    },
+    "minecraft": {
+        "minecraft"
+    },
+    "minecraft: java edition": {
+        "minecraft"
+    },
+    "minecraft:": {
+        "minecraft"
+    },
+    "java": {
+        "minecraft"
+    },
+    "edition": {
+        "minecraft"
+    },
+    "virtual reality": {
+        "minecraft",
+        "subnautica"
+    },
+    "billiards": {
+        "minecraft",
+        "stardew_valley"
+    },
+    "breaking through windows": {
+        "minecraft"
+    },
+    "copyright infringement": {
+        "minecraft"
+    },
+    "copyright": {
+        "minecraft"
+    },
+    "infringement": {
+        "minecraft"
+    },
+    "procedural generation": {
+        "minecraft",
+        "rogue_legacy",
+        "terraria",
+        "witness"
+    },
+    "procedural": {
+        "minecraft",
+        "rogue_legacy",
+        "terraria",
+        "witness"
+    },
+    "generation": {
+        "minecraft",
+        "rogue_legacy",
+        "ror1",
+        "terraria",
+        "witness"
+    },
+    "pvp": {
+        "minecraft",
+        "quake",
+        "trackmania"
+    },
+    "text dialogue": {
+        "minecraft",
+        "shorthike",
+        "xenobladex"
+    },
+    "text": {
+        "minecraft",
+        "osrs",
+        "shorthike",
+        "xenobladex",
+        "yugioh06"
+    },
+    "lunar cycle": {
+        "minecraft"
+    },
+    "lunar": {
+        "minecraft"
+    },
+    "game developers choice awards 2011": {
+        "minecraft"
+    },
+    "2011": {
+        "minecraft",
+        "ss"
+    },
+    "internet culture reference": {
+        "minecraft"
+    },
+    "internet": {
+        "minecraft"
+    },
+    "snowman": {
+        "minecraft",
+        "papermario",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "dynamic weather": {
+        "minecraft"
+    },
+    "weather": {
+        "minecraft"
+    },
+    "books": {
+        "minecraft"
+    },
+    "high definition graphics": {
+        "minecraft"
+    },
+    "definition": {
+        "minecraft"
+    },
+    "lumberjack": {
+        "minecraft"
+    },
+    "logic": {
+        "minecraft"
+    },
+    "pax prime 2012": {
+        "minecraft"
+    },
+    "2012": {
+        "minecraft"
+    },
+    "inventory management": {
+        "minecraft"
+    },
+    "never-ending": {
+        "minecraft",
+        "sc2",
+        "terraria"
+    },
+    "creative": {
+        "minecraft"
+    },
+    "falling blocks": {
+        "minecraft"
+    },
+    "axe": {
+        "minecraft"
+    },
+    "deliberately retro": {
+        "minecraft",
+        "smo",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "ufo50",
+        "v6"
+    },
+    "deliberately": {
+        "minecraft",
+        "smo",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "ufo50",
+        "v6"
+    },
+    "ocean": {
+        "minecraft",
+        "stardew_valley"
+    },
+    "vegetables": {
+        "minecraft",
+        "stardew_valley"
+    },
+    "randomly generated maps": {
+        "minecraft",
+        "rogue_legacy"
+    },
+    "pax prime 2011": {
+        "minecraft",
+        "ss"
+    },
+    "cow": {
+        "minecraft",
+        "stardew_valley"
+    },
+    "food": {
+        "minecraft",
+        "stardew_valley"
+    },
+    "potions": {
+        "minecraft"
+    },
+    "sheep": {
+        "minecraft",
+        "spyro3"
+    },
+    "suicide": {
+        "minecraft"
+    },
+    "coral": {
+        "minecraft"
+    },
+    "interior design": {
+        "minecraft",
+        "stardew_valley",
+        "terraria"
+    },
+    "interior": {
+        "minecraft",
+        "stardew_valley",
+        "terraria"
+    },
+    "workbench mechanics": {
+        "minecraft",
+        "terraria"
+    },
+    "workbench": {
+        "minecraft",
+        "terraria"
+    },
+    "resource management": {
+        "minecraft"
+    },
+    "zombies": {
+        "minecraft"
+    },
+    "in-game achievement menu": {
+        "minecraft",
+        "ror1"
+    },
+    "menu": {
+        "minecraft",
+        "rac3",
+        "ror1",
+        "sc2"
+    },
+    "world building": {
+        "minecraft"
+    },
+    "igf awards": {
+        "minecraft",
+        "ror1"
+    },
+    "igf": {
+        "minecraft",
+        "ror1"
+    },
+    "pax east 2012": {
+        "minecraft"
+    },
+    "cross-platform multiplayer": {
+        "minecraft"
+    },
+    "cross-platform": {
+        "minecraft"
+    },
+    "fully customizable controls": {
+        "minecraft",
+        "shorthike"
+    },
+    "fully": {
+        "minecraft",
+        "shorthike"
+    },
+    "twitch integration": {
+        "minecraft"
+    },
+    "twitch": {
+        "minecraft"
+    },
+    "integration": {
+        "minecraft"
+    },
+    "gamescom 2014": {
+        "minecraft",
+        "oribf"
+    },
+    "thunderstorm": {
+        "minecraft"
+    },
+    "anaglyph 3d": {
+        "minecraft"
+    },
+    "anaglyph": {
+        "minecraft"
+    },
+    "coral reef": {
+        "minecraft"
+    },
+    "reef": {
+        "minecraft"
+    },
+    "pig": {
+        "minecraft",
+        "star_fox_64",
+        "stardew_valley"
+    },
+    "music creation": {
+        "minecraft"
+    },
+    "rabbits": {
+        "minecraft"
+    },
+    "dolphins": {
+        "minecraft"
+    },
+    "samsung gear vr support": {
+        "minecraft"
+    },
+    "samsung": {
+        "minecraft"
+    },
+    "gear": {
+        "minecraft"
+    },
+    "vr": {
+        "minecraft"
+    },
+    "floating island": {
+        "minecraft",
+        "ss",
+        "terraria",
+        "ttyd"
+    },
+    "floating": {
+        "minecraft",
+        "mm2",
+        "mm3",
+        "peggle_nights",
+        "ss",
+        "terraria",
+        "ttyd"
+    },
+    "island": {
+        "minecraft",
+        "ss",
+        "terraria",
+        "ttyd",
+        "yoshisisland"
+    },
+    "mario kart 64": {
+        "mk64"
+    },
+    "kart": {
+        "mk64"
+    },
+    "upgradeable vehicles": {
+        "mk64"
+    },
+    "game title announcer": {
+        "mk64"
+    },
+    "announcer": {
+        "mk64"
+    },
+    "mirror mode": {
+        "mk64",
+        "oot",
+        "rac3"
+    },
+    "mirror": {
+        "mk64",
+        "oot",
+        "rac3"
+    },
+    "drifting": {
+        "mk64",
+        "simpsonshitnrun",
+        "trackmania"
+    },
+    "ranking system": {
+        "mk64"
+    },
+    "ranking": {
+        "mk64"
+    },
+    "sudden death": {
+        "mk64"
+    },
+    "sudden": {
+        "mk64"
+    },
+    "overweight character": {
+        "mk64",
+        "simpsonshitnrun",
+        "wl4"
+    },
+    "overweight": {
+        "mk64",
+        "simpsonshitnrun",
+        "wl4"
+    },
+    "arcade driving physics": {
+        "mk64"
+    },
+    "driving": {
+        "mk64",
+        "simpsonshitnrun",
+        "trackmania"
+    },
+    "music speed up": {
+        "mk64",
+        "mm_recomp"
+    },
+    "mario & luigi superstar saga": {
+        "mlss"
+    },
+    "mario & luigi: superstar saga": {
+        "mlss"
+    },
+    "luigi:": {
+        "mlss"
+    },
+    "superstar": {
+        "mlss"
+    },
+    "bromance": {
+        "mlss"
+    },
+    "game boy player rumble support": {
+        "mlss"
+    },
+    "interactive battle system": {
+        "mlss",
+        "papermario",
+        "ttyd"
+    },
+    "tag teaming": {
+        "mlss",
+        "pokemon_emerald"
+    },
+    "tag": {
+        "mlss",
+        "pokemon_emerald",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "teaming": {
+        "mlss",
+        "pokemon_emerald"
+    },
+    "broken english": {
+        "mlss",
+        "sms",
+        "sotn"
+    },
+    "broken": {
+        "mlss",
+        "sms",
+        "sotn"
+    },
+    "donut block": {
+        "mlss",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "donut": {
+        "mlss",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "super-ness": {
+        "mlss",
+        "sm64ex",
+        "sm64hacks",
+        "sms"
+    },
+    "maple syrup": {
+        "mlss"
+    },
+    "maple": {
+        "mlss"
+    },
+    "syrup": {
+        "mlss"
+    },
+    "wiggler": {
+        "mlss",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sms"
+    },
+    "hammer bros.": {
+        "mlss",
+        "papermario",
+        "smo",
+        "ttyd"
+    },
+    "hammer": {
+        "mlss",
+        "papermario",
+        "smo",
+        "ttyd"
+    },
+    "bros.": {
+        "mlss",
+        "papermario",
+        "smo",
+        "ttyd"
+    },
+    "unskippable tutorial": {
+        "mlss"
+    },
+    "tutorial": {
+        "mlss"
+    },
+    "boomerang bros.": {
+        "mlss",
+        "ttyd"
+    },
+    "boomerang": {
+        "mlss",
+        "ttyd"
+    },
+    "virus": {
+        "mlss"
+    },
+    "game boy advance link cable support": {
+        "mlss",
+        "pokemon_emerald",
+        "pokemon_frlg"
+    },
+    "mega man 2": {
+        "mm2"
+    },
+    "mega man ii": {
+        "mm2"
+    },
+    "man": {
+        "mm2",
+        "mm3",
+        "mmbn3",
+        "mmx3"
+    },
+    "future": {
+        "mm2",
+        "swr"
+    },
+    "misrepresentative box art": {
+        "mm2"
+    },
+    "misrepresentative": {
+        "mm2"
+    },
+    "mad scientist": {
+        "mm2",
+        "mm3",
+        "wl4"
+    },
+    "mad": {
+        "mm2",
+        "mm3",
+        "wl4"
+    },
+    "floating blocks": {
+        "mm2",
+        "mm3",
+        "peggle_nights"
+    },
+    "book adaptation": {
+        "mm2",
+        "wl4"
+    },
+    "book": {
+        "mm2",
+        "sly1",
+        "wl4"
+    },
+    "adaptation": {
+        "mm2",
+        "wl4"
+    },
+    "mega man 3": {
+        "mm3"
+    },
+    "fan translation - tagalog": {
+        "mm3",
+        "tloz",
+        "zelda2"
+    },
+    "tagalog": {
+        "mm3",
+        "tloz",
+        "zelda2"
+    },
+    "doctor": {
+        "mm3"
+    },
+    "nes game pak - mmc3": {
+        "mm3"
+    },
+    "nes": {
+        "mm3",
+        "tloz"
+    },
+    "mmc3": {
+        "mm3"
+    },
+    "robot dog": {
+        "mm3",
+        "soe"
+    },
+    "on-site procurement": {
+        "mm3"
+    },
+    "on-site": {
+        "mm3"
+    },
+    "procurement": {
+        "mm3"
+    },
+    "majora's mask recompiled": {
+        "mm_recomp"
+    },
+    "the legend of zelda: majora's mask": {
+        "mm_recomp"
+    },
+    "majora's": {
+        "mm_recomp"
+    },
+    "64dd": {
+        "mm_recomp",
+        "oot"
+    },
+    "surrealism": {
+        "mm_recomp"
+    },
+    "detective mode": {
+        "mm_recomp",
+        "oot"
+    },
+    "motion blur": {
+        "mm_recomp",
+        "portal2",
+        "ss",
+        "tww"
+    },
+    "blur": {
+        "mm_recomp",
+        "portal2",
+        "ss",
+        "tww"
+    },
+    "day-based narrative": {
+        "mm_recomp"
+    },
+    "day-based": {
+        "mm_recomp"
+    },
+    "tragedy": {
+        "mm_recomp"
+    },
+    "megaman battle network 3": {
+        "mmbn3"
+    },
+    "mega man battle network 3 blue": {
+        "mmbn3"
+    },
+    "blue": {
+        "mmbn3"
+    },
+    "mega man x3": {
+        "mmx3"
+    },
+    "x3": {
+        "mmx3"
+    },
+    "legacy mobile device": {
+        "mmx3",
+        "quake"
+    },
+    "device": {
+        "mmx3",
+        "quake"
+    },
+    "gravity control": {
+        "mmx3",
+        "v6"
+    },
+    "betrayal": {
+        "mmx3",
+        "xenobladex"
+    },
+    "momodora moonlit farewell": {
+        "momodoramoonlitfarewell"
+    },
+    "momodora: moonlit farewell": {
+        "momodoramoonlitfarewell"
+    },
+    "momodora:": {
+        "momodoramoonlitfarewell"
+    },
+    "moonlit": {
+        "momodoramoonlitfarewell"
+    },
+    "farewell": {
+        "momodoramoonlitfarewell"
+    },
+    "monster sanctuary": {
+        "monster_sanctuary"
+    },
+    "sanctuary": {
+        "monster_sanctuary"
+    },
+    "muse dash": {
+        "musedash"
+    },
+    "muse": {
+        "musedash"
+    },
+    "dash": {
+        "musedash"
+    },
+    "music and rhythm": {
+        "musedash",
+        "rotn"
+    },
+    "rhythm": {
+        "musedash",
+        "rotn"
+    },
+    "nintendo switch eshop": {
+        "musedash"
+    },
+    "eshop": {
+        "musedash"
+    },
+    "unlockable characters": {
+        "musedash"
+    },
+    "metroid: zero mission": {
+        "mzm"
+    },
+    "metroid:": {
+        "mzm"
+    },
+    "zero": {
+        "mzm"
+    },
+    "interactive achievement awards 2005": {
+        "mzm",
+        "ttyd"
+    },
+    "2005": {
+        "mzm",
+        "ttyd"
+    },
+    "spike video game awards 2004": {
+        "mzm"
+    },
+    "spike": {
+        "mzm",
+        "ss",
+        "tloz_ph"
+    },
+    "upgradable weapons": {
+        "mzm",
+        "rac2",
+        "rac3"
+    },
+    "nine sols": {
+        "nine_sols"
+    },
+    "nine": {
+        "nine_sols"
+    },
+    "sols": {
+        "nine_sols"
+    },
+    "steam leaderboards": {
+        "nine_sols",
+        "shorthike"
+    },
+    "leaderboards": {
+        "nine_sols",
+        "rotn",
+        "shorthike",
+        "trackmania"
+    },
+    "ocarina of time": {
+        "oot"
+    },
+    "the legend of zelda: ocarina of time": {
+        "oot"
+    },
+    "ocarina": {
+        "oot"
+    },
+    "animal cruelty": {
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "cruelty": {
+        "oot",
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "media type - digital file": {
+        "oot",
+        "sm64ex",
+        "sm64hacks",
+        "tloz"
+    },
+    "type": {
+        "oot",
+        "sm64ex",
+        "sm64hacks",
+        "tloz"
+    },
+    "file": {
+        "oot",
+        "rac3",
+        "sm64ex",
+        "sm64hacks",
+        "tloz",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "time manipulation": {
+        "oot",
+        "rogue_legacy",
+        "sm",
+        "sm_map_rando",
+        "timespinner"
+    },
+    "horse racing": {
+        "oot"
+    },
+    "age progression": {
+        "oot",
+        "ss"
+    },
+    "progression": {
+        "oot",
+        "ss"
+    },
+    "horse riding": {
+        "oot"
+    },
+    "riding": {
+        "oot",
+        "sms",
+        "smw",
+        "ttyd",
+        "waffles"
+    },
+    "women in refrigerators syndrome": {
+        "oot"
+    },
+    "women": {
+        "oot"
+    },
+    "refrigerators": {
+        "oot"
+    },
+    "syndrome": {
+        "oot"
+    },
+    "contextual controller rumble": {
+        "oot"
+    },
+    "contextual": {
+        "oot"
+    },
+    "islam": {
+        "oot"
+    },
+    "trail of death": {
+        "oot",
+        "rogue_legacy",
+        "tloz_oos"
+    },
+    "trail": {
+        "oot",
+        "rogue_legacy",
+        "tloz_oos"
+    },
+    "media - nintendo 64 game pak": {
+        "oot",
+        "sm64ex",
+        "sm64hacks"
+    },
+    "media type - cartridge": {
+        "oot",
+        "sm64ex",
+        "sm64hacks",
+        "tloz"
+    },
+    "fake interactivity": {
+        "oot"
+    },
+    "interactivity": {
+        "oot"
+    },
+    "elves": {
+        "oot",
+        "portal2",
+        "rogue_legacy"
+    },
+    "horse archery": {
+        "oot"
+    },
+    "strafe-jumping": {
+        "oot",
+        "quake"
+    },
+    "tragic hero": {
+        "oot",
+        "sotn"
+    },
+    "tragic": {
+        "oot",
+        "sotn"
+    },
+    "heroes": {
+        "oot",
+        "sonic_heroes"
+    },
+    "emulation": {
+        "oot"
+    },
+    "tiered exploration": {
+        "oot"
+    },
+    "tiered": {
+        "oot"
+    },
+    "ori and the will of the wisps": {
+        "ori_wotw"
+    },
+    "ori": {
+        "ori_wotw",
+        "oribf"
+    },
+    "will": {
+        "ori_wotw"
+    },
+    "wisps": {
+        "ori_wotw"
+    },
+    "ori and the blind forest": {
+        "oribf"
+    },
+    "blind": {
+        "oribf",
+        "peggle_nights"
+    },
+    "thriller": {
+        "oribf",
+        "sm",
+        "sm_map_rando"
+    },
+    "balance platforms": {
+        "oribf"
+    },
+    "balance": {
+        "oribf"
+    },
+    "pax east 2015": {
+        "oribf"
+    },
+    "game developers choice awards 2016": {
+        "oribf"
+    },
+    "d.i.c.e. awards 2016": {
+        "oribf"
+    },
+    "old school runescape": {
+        "osrs"
+    },
+    "old": {
+        "osrs",
+        "v6"
+    },
+    "school": {
+        "osrs",
+        "v6"
+    },
+    "runescape": {
+        "osrs"
+    },
+    "raiding": {
+        "osrs"
+    },
+    "outer wilds": {
+        "outer_wilds"
+    },
+    "outer": {
+        "outer_wilds"
+    },
+    "wilds": {
+        "outer_wilds"
+    },
+    "space simulation": {
+        "outer_wilds"
+    },
+    "astronaut": {
+        "outer_wilds"
+    },
+    "overcooked! 2": {
+        "overcooked2"
+    },
+    "overcooked!": {
+        "overcooked2"
+    },
+    "cooking": {
+        "overcooked2",
+        "phoa",
+        "stardew_valley",
+        "ttyd"
+    },
+    "the game awards - best family game - winner": {
+        "overcooked2",
+        "smo"
+    },
+    "paint": {
+        "paint"
+    },
+    "paper mario": {
+        "papermario"
+    },
+    "paper": {
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "ttyd"
+    },
+    "gambling": {
+        "papermario",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "rogue_legacy",
+        "tmc"
+    },
+    "dialogue trees": {
+        "papermario",
+        "ttyd"
+    },
+    "surprising character switches": {
+        "papermario",
+        "sly1",
+        "sotn",
+        "ttyd"
+    },
+    "surprising": {
+        "papermario",
+        "sly1",
+        "sotn",
+        "ttyd"
+    },
+    "switches": {
+        "papermario",
+        "sly1",
+        "sotn",
+        "ttyd"
+    },
+    "restoration": {
+        "papermario",
+        "tmc",
+        "ttyd"
+    },
+    "level cap": {
+        "papermario",
+        "ttyd"
+    },
+    "cap": {
+        "papermario",
+        "tmc",
+        "ttyd"
+    },
+    "peggle nights": {
+        "peggle_nights"
+    },
+    "peggle": {
+        "peggle_nights"
+    },
+    "nights": {
+        "peggle_nights"
+    },
+    "abstract": {
+        "peggle_nights",
+        "refunct"
+    },
+    "block-breaking": {
+        "peggle_nights"
+    },
+    "color blind assist": {
+        "peggle_nights"
+    },
+    "assist": {
+        "peggle_nights"
+    },
+    "ea app": {
+        "peggle_nights"
+    },
+    "ea": {
+        "peggle_nights"
+    },
+    "app": {
+        "peggle_nights"
+    },
+    "phoenotopia: awakening": {
+        "phoa"
+    },
+    "phoenotopia:": {
+        "phoa"
+    },
+    "zelda-like": {
+        "phoa"
+    },
+    "pikuniku": {
+        "pikuniku"
+    },
+    "pinball fx3": {
+        "pinball_fx3"
+    },
+    "fx3": {
+        "pinball_fx3"
+    },
+    "predator": {
+        "pinball_fx3"
+    },
+    "xbox live local multiplayer": {
+        "pinball_fx3"
+    },
+    "genie": {
+        "pinball_fx3"
+    },
+    "xenomorph": {
+        "pinball_fx3"
+    },
+    "digital pinball": {
+        "pinball_fx3"
+    },
+    "tournament": {
+        "pinball_fx3",
+        "trackmania",
+        "yugioh06"
+    },
+    "free-to-play": {
+        "pinball_fx3",
+        "toontown",
+        "trackmania"
+    },
+    "placid plastic duck simulator": {
+        "placidplasticducksim"
+    },
+    "placid": {
+        "placidplasticducksim"
+    },
+    "plastic": {
+        "placidplasticducksim"
+    },
+    "immersive": {
+        "placidplasticducksim",
+        "powerwashsimulator",
+        "sims4"
+    },
+    "pokemon mystery dungeon explorers of sky": {
+        "pmd_eos"
+    },
+    "pok\u00e9mon mystery dungeon: explorers of sky": {
+        "pmd_eos"
+    },
+    "pok\u00e9mon": {
+        "pmd_eos",
+        "pokemon_crystal",
+        "pokemon_emerald",
+        "pokemon_frlg",
+        "pokemon_rb"
+    },
+    "dungeon:": {
+        "pmd_eos"
+    },
+    "explorers": {
+        "pmd_eos"
+    },
+    "sky": {
+        "pmd_eos"
+    },
+    "monster capturing": {
+        "pmd_eos",
+        "pokemon_emerald",
+        "portal2"
+    },
+    "capturing": {
+        "pmd_eos",
+        "pokemon_emerald",
+        "portal2"
+    },
+    "pokemon crystal": {
+        "pokemon_crystal"
+    },
+    "pok\u00e9mon crystal version": {
+        "pokemon_crystal"
+    },
+    "game boy color": {
+        "pokemon_crystal",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "rock paper scissors": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "scissors": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "totodile": {
+        "pokemon_crystal"
+    },
+    "parasect": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "lost in translation": {
+        "pokemon_crystal"
+    },
+    "octillery": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "legendary pok\u00e9mon": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "legendary": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "weezing": {
+        "pokemon_crystal"
+    },
+    "monster tamer": {
+        "pokemon_crystal"
+    },
+    "tamer": {
+        "pokemon_crystal"
+    },
+    "nintendo 64 transfer pak": {
+        "pokemon_crystal",
+        "pokemon_rb"
+    },
+    "transfer": {
+        "pokemon_crystal",
+        "pokemon_rb"
+    },
+    "seadra": {
+        "pokemon_crystal"
+    },
+    "clefable": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "fisherman": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "drowzee": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "attributes": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "snorlax": {
+        "pokemon_crystal"
+    },
+    "custom ui": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "custom": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "ui": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "chansey": {
+        "pokemon_crystal"
+    },
+    "rhydon": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "pikachu": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "unknown species": {
+        "pokemon_crystal"
+    },
+    "unknown": {
+        "pokemon_crystal"
+    },
+    "species": {
+        "pokemon_crystal"
+    },
+    "nurse": {
+        "pokemon_crystal"
+    },
+    "real time game clock": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "clock": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "victory music": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "victory": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "gym leader": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "gym": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "leader": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "rhyhorn": {
+        "pokemon_crystal",
+        "pokemon_emerald"
+    },
+    "wigglytuff": {
+        "pokemon_crystal"
+    },
+    "pokemon emerald": {
+        "pokemon_emerald"
+    },
+    "pok\u00e9mon emerald version": {
+        "pokemon_emerald"
+    },
+    "emerald": {
+        "pokemon_emerald"
+    },
+    "evil organization": {
+        "pokemon_emerald",
+        "ttyd"
+    },
+    "organization": {
+        "pokemon_emerald",
+        "ttyd"
+    },
+    "rattata": {
+        "pokemon_emerald"
+    },
+    "one-handed gameplay": {
+        "pokemon_emerald",
+        "v6"
+    },
+    "one-handed": {
+        "pokemon_emerald",
+        "v6"
+    },
+    "nintendo e-reader": {
+        "pokemon_emerald",
+        "pokemon_frlg"
+    },
+    "e-reader": {
+        "pokemon_emerald",
+        "pokemon_frlg"
+    },
+    "burning": {
+        "pokemon_emerald",
+        "sms"
+    },
+    "pokemon firered and leafgreen": {
+        "pokemon_frlg"
+    },
+    "pok\u00e9mon leafgreen version": {
+        "pokemon_frlg"
+    },
+    "leafgreen": {
+        "pokemon_frlg"
+    },
+    "pokemon red and blue": {
+        "pokemon_rb"
+    },
+    "pok\u00e9mon red version": {
+        "pokemon_rb"
+    },
+    "red": {
+        "pokemon_rb"
+    },
+    "game boy link cable support": {
+        "pokemon_rb"
+    },
+    "portal 2": {
+        "portal2"
+    },
+    "portal": {
+        "portal2"
+    },
+    "developer commentary": {
+        "portal2",
+        "sly1"
+    },
+    "commentary": {
+        "portal2",
+        "sly1"
+    },
+    "powerwash simulator": {
+        "powerwashsimulator"
+    },
+    "powerwash": {
+        "powerwashsimulator"
+    },
+    "business": {
+        "powerwashsimulator",
+        "stardew_valley"
+    },
+    "cozy": {
+        "powerwashsimulator",
+        "shorthike"
+    },
+    "realism": {
+        "powerwashsimulator",
+        "sims4"
+    },
+    "family friendly": {
+        "powerwashsimulator",
+        "shorthike",
+        "sims4",
+        "tunic"
+    },
+    "wholesome": {
+        "powerwashsimulator"
+    },
+    "quake 1": {
+        "quake"
+    },
+    "quake": {
+        "quake"
+    },
+    "zeebo": {
+        "quake"
+    },
+    "sega saturn": {
+        "quake"
+    },
+    "saturn": {
+        "quake"
+    },
+    "amiga": {
+        "quake"
+    },
+    "elevator ambush": {
+        "quake"
+    },
+    "elevator": {
+        "quake"
+    },
+    "ambush": {
+        "quake"
+    },
+    "novint falcon support": {
+        "quake"
+    },
+    "novint": {
+        "quake"
+    },
+    "falcon": {
+        "quake"
+    },
+    "eldritch horror": {
+        "quake"
+    },
+    "eldritch": {
+        "quake"
+    },
+    "capture the flag": {
+        "quake"
+    },
+    "capture": {
+        "quake"
+    },
+    "flag": {
+        "quake"
+    },
+    "machinima": {
+        "quake"
+    },
+    "extreme violence": {
+        "quake"
+    },
+    "extreme": {
+        "quake",
+        "spyro3"
+    },
+    "ogres": {
+        "quake"
+    },
+    "clan": {
+        "quake"
+    },
+    "alien languages": {
+        "quake"
+    },
+    "languages": {
+        "quake"
+    },
+    "geometry": {
+        "quake"
+    },
+    "user generated content": {
+        "quake",
+        "trackmania"
+    },
+    "user": {
+        "quake",
+        "trackmania"
+    },
+    "rabi-ribi": {
+        "rabi_ribi"
+    },
+    "playstation vita": {
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "undertale",
+        "v6"
+    },
+    "vita": {
+        "rabi_ribi",
+        "rogue_legacy",
+        "ror1",
+        "stardew_valley",
+        "terraria",
+        "timespinner",
+        "undertale",
+        "v6"
+    },
+    "rabbit": {
+        "rabi_ribi",
+        "sm64ex",
+        "sm64hacks",
+        "smo",
+        "sonic_heroes",
+        "terraria",
+        "tloz_ooa"
+    },
+    "labyrinth": {
+        "rabi_ribi",
+        "v6"
+    },
+    "doujin game": {
+        "rabi_ribi"
+    },
+    "doujin": {
+        "rabi_ribi"
+    },
+    "level up": {
+        "rabi_ribi"
+    },
+    "magician": {
+        "rabi_ribi"
+    },
+    "manic shooter": {
+        "rabi_ribi",
+        "undertale"
+    },
+    "manic": {
+        "rabi_ribi",
+        "undertale"
+    },
+    "magical girl": {
+        "rabi_ribi"
+    },
+    "magical": {
+        "rabi_ribi"
+    },
+    "girl": {
+        "rabi_ribi"
+    },
+    "ratchet & clank 2": {
+        "rac2"
+    },
+    "ratchet & clank: going commando": {
+        "rac2"
+    },
+    "ratchet": {
+        "rac2",
+        "rac3"
+    },
+    "clank:": {
+        "rac2",
+        "rac3"
+    },
+    "going": {
+        "rac2"
+    },
+    "commando": {
+        "rac2"
+    },
+    "ratchet and clank 3": {
+        "rac3"
+    },
+    "ratchet & clank: up your arsenal": {
+        "rac3"
+    },
+    "arsenal": {
+        "rac3"
+    },
+    "konami code": {
+        "rac3"
+    },
+    "konami": {
+        "rac3"
+    },
+    "potential love interest": {
+        "rac3"
+    },
+    "potential": {
+        "rac3"
+    },
+    "interest": {
+        "rac3"
+    },
+    "black market": {
+        "rac3",
+        "terraria"
+    },
+    "market": {
+        "rac3",
+        "terraria"
+    },
+    "hacking": {
+        "rac3"
+    },
+    "save file unlockables": {
+        "rac3",
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "cutscene menu": {
+        "rac3",
+        "sc2"
+    },
+    "skill points in game": {
+        "rac3",
+        "spyro3"
+    },
+    "skill": {
+        "rac3",
+        "spyro3"
+    },
+    "points": {
+        "rac3",
+        "spyro3"
+    },
+    "adamantium": {
+        "rac3"
+    },
+    "rail shooting segment": {
+        "rac3"
+    },
+    "rail": {
+        "rac3",
+        "star_fox_64"
+    },
+    "shooting": {
+        "rac3"
+    },
+    "segment": {
+        "rac3"
+    },
+    "unreliable narrator": {
+        "rac3"
+    },
+    "unreliable": {
+        "rac3"
+    },
+    "narrator": {
+        "rac3"
+    },
+    "raft": {
+        "raft"
+    },
+    "refunct": {
+        "refunct"
+    },
+    "parkour": {
+        "refunct",
+        "sms",
+        "sonic_heroes"
+    },
+    "rimworld": {
+        "rimworld"
+    },
+    "rogue legacy": {
+        "rogue_legacy"
+    },
+    "cross-save": {
+        "rogue_legacy"
+    },
+    "color blindness": {
+        "rogue_legacy"
+    },
+    "cross buy": {
+        "rogue_legacy"
+    },
+    "cross": {
+        "rogue_legacy"
+    },
+    "buy": {
+        "rogue_legacy"
+    },
+    "evolving title screen": {
+        "rogue_legacy"
+    },
+    "evolving": {
+        "rogue_legacy"
+    },
+    "paladins": {
+        "rogue_legacy"
+    },
+    "runes": {
+        "rogue_legacy"
+    },
+    "psn play": {
+        "rogue_legacy"
+    },
+    "psn": {
+        "rogue_legacy"
+    },
+    "phobia": {
+        "rogue_legacy"
+    },
+    "risk of rain": {
+        "ror1"
+    },
+    "risk": {
+        "ror1",
+        "ror2"
+    },
+    "rain": {
+        "ror1",
+        "ror2"
+    },
+    "infinite spawn": {
+        "ror1"
+    },
+    "spawn": {
+        "ror1"
+    },
+    "8-bit style": {
+        "ror1",
+        "tloz",
+        "ufo50"
+    },
+    "style": {
+        "ror1",
+        "tloz",
+        "ufo50"
+    },
+    "random level generation": {
+        "ror1"
+    },
+    "risk of rain 2": {
+        "ror2"
+    },
+    "looter shooter": {
+        "ror2"
+    },
+    "looter": {
+        "ror2"
+    },
+    "rift of the necrodancer": {
+        "rotn"
+    },
+    "rift": {
+        "rotn",
+        "subnautica"
+    },
+    "necrodancer": {
+        "rotn"
+    },
+    "auditory": {
+        "rotn"
+    },
+    "global leaderboards": {
+        "rotn",
+        "trackmania"
+    },
+    "global": {
+        "rotn",
+        "trackmania"
+    },
+    "steam workshop": {
+        "rotn"
+    },
+    "workshop": {
+        "rotn"
+    },
+    "level editor": {
+        "rotn",
+        "trackmania",
+        "v6",
+        "wargroove",
+        "wargroove2"
+    },
+    "nextfest october 2024": {
+        "rotn"
+    },
+    "nextfest": {
+        "rotn"
+    },
+    "october": {
+        "rotn"
+    },
+    "2024": {
+        "rotn"
+    },
+    "sonic adventure 2 battle": {
+        "sa2b"
+    },
+    "sonic adventure 2: battle": {
+        "sa2b"
+    },
+    "sonic": {
+        "sa2b",
+        "sadx",
+        "sonic_heroes"
+    },
+    "sonic adventure dx": {
+        "sadx"
+    },
+    "sonic adventure: sonic adventure dx upgrade": {
+        "sadx"
+    },
+    "adventure:": {
+        "sadx"
+    },
+    "dx": {
+        "sadx"
+    },
+    "upgrade": {
+        "sadx",
+        "stardew_valley"
+    },
+    "satisfactory": {
+        "satisfactory"
+    },
+    "factory": {
+        "satisfactory"
+    },
+    "starcraft 2": {
+        "sc2"
+    },
+    "starcraft ii: wings of liberty": {
+        "sc2"
+    },
+    "starcraft": {
+        "sc2"
+    },
+    "wings": {
+        "sc2"
+    },
+    "liberty": {
+        "sc2"
+    },
+    "esports": {
+        "sc2",
+        "trackmania"
+    },
+    "battle.net": {
+        "sc2"
+    },
+    "phoenix": {
+        "sc2"
+    },
+    "shivers": {
+        "shivers"
+    },
+    "point-and-click": {
+        "shivers",
+        "zork_grand_inquisitor"
+    },
+    "scummvm compatible": {
+        "shivers",
+        "zork_grand_inquisitor"
+    },
+    "scummvm": {
+        "shivers",
+        "zork_grand_inquisitor"
+    },
+    "compatible": {
+        "shivers",
+        "zork_grand_inquisitor"
+    },
+    "a short hike": {
+        "shorthike"
+    },
+    "short": {
+        "shorthike"
+    },
+    "hike": {
+        "shorthike"
+    },
+    "child protagonist": {
+        "shorthike",
+        "undertale"
+    },
+    "child": {
+        "shorthike",
+        "undertale"
+    },
+    "subtitles": {
+        "shorthike"
+    },
+    "low-poly": {
+        "shorthike",
+        "witness"
+    },
+    "boat racing": {
+        "shorthike"
+    },
+    "beautiful": {
+        "shorthike"
+    },
+    "short game": {
+        "shorthike"
+    },
+    "goat": {
+        "shorthike"
+    },
+    "wall climbing": {
+        "shorthike"
+    },
+    "cozy adventure": {
+        "shorthike"
+    },
+    "walking simulator": {
+        "shorthike"
+    },
+    "closed captions": {
+        "shorthike"
+    },
+    "closed": {
+        "shorthike"
+    },
+    "captions": {
+        "shorthike"
+    },
+    "flying": {
+        "shorthike",
+        "sm64ex",
+        "sm64hacks",
+        "trackmania"
+    },
+    "pixelated": {
+        "shorthike"
+    },
+    "digging": {
+        "shorthike"
+    },
+    "emotional": {
+        "shorthike"
+    },
+    "collection log": {
+        "shorthike",
+        "stardew_valley"
+    },
+    "log": {
+        "shorthike",
+        "stardew_valley"
+    },
+    "cloud saves": {
+        "shorthike",
+        "tunic"
+    },
+    "saves": {
+        "shorthike",
+        "tunic"
+    },
+    "the simpsons hit and run": {
+        "simpsonshitnrun"
+    },
+    "the simpsons: hit & run": {
+        "simpsonshitnrun"
+    },
+    "simpsons:": {
+        "simpsonshitnrun"
+    },
+    "hit": {
+        "simpsonshitnrun"
+    },
+    "fixed camera": {
+        "simpsonshitnrun"
+    },
+    "fixed": {
+        "simpsonshitnrun"
+    },
+    "holiday themes": {
+        "simpsonshitnrun"
+    },
+    "holiday": {
+        "simpsonshitnrun"
+    },
+    "propaganda": {
+        "simpsonshitnrun"
+    },
+    "car accident": {
+        "simpsonshitnrun"
+    },
+    "car": {
+        "simpsonshitnrun"
+    },
+    "accident": {
+        "simpsonshitnrun"
+    },
+    "car chase": {
+        "simpsonshitnrun"
+    },
+    "chase": {
+        "simpsonshitnrun"
+    },
+    "catch phrase": {
+        "simpsonshitnrun"
+    },
+    "catch": {
+        "simpsonshitnrun"
+    },
+    "phrase": {
+        "simpsonshitnrun"
+    },
+    "christmas": {
+        "simpsonshitnrun",
+        "tyrian"
+    },
+    "police chase": {
+        "simpsonshitnrun"
+    },
+    "police": {
+        "simpsonshitnrun"
+    },
+    "the sims 4": {
+        "sims4"
+    },
+    "sims": {
+        "sims4"
+    },
+    "romance": {
+        "sims4",
+        "stardew_valley"
+    },
+    "life simulation": {
+        "sims4"
+    },
+    "time management": {
+        "sims4"
+    },
+    "social simulation": {
+        "sims4"
+    },
+    "skul: the hero slayer": {
+        "skul"
+    },
+    "sly cooper and the thievius raccoonus": {
+        "sly1"
+    },
+    "sly": {
+        "sly1"
+    },
+    "cooper": {
+        "sly1"
+    },
+    "thievius": {
+        "sly1"
+    },
+    "raccoonus": {
+        "sly1"
+    },
+    "stealth": {
+        "sly1"
+    },
+    "thief": {
+        "sly1"
+    },
+    "comic book cutscene": {
+        "sly1"
+    },
+    "grind": {
+        "sly1",
+        "sonic_heroes"
+    },
+    "fox": {
+        "sly1",
+        "star_fox_64",
+        "tunic"
+    },
+    "animal antagonist": {
+        "sly1"
+    },
+    "mosquito": {
+        "sly1"
+    },
+    "espionage": {
+        "sly1"
+    },
+    "crime": {
+        "sly1"
+    },
+    "stealth kill": {
+        "sly1"
+    },
+    "hippopotamus": {
+        "sly1"
+    },
+    "bullet time": {
+        "sly1"
+    },
+    "super metroid": {
+        "sm",
+        "sm_map_rando"
+    },
+    "super mario 64": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "penguin": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "jump game": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "fandub - brazilian portuguese": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "fandub": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "giant environment": {
+        "sm64ex",
+        "sm64hacks"
+    },
+    "sm64 romhack": {
+        "sm64hacks"
+    },
+    "super metroid map rando": {
+        "sm_map_rando"
+    },
+    "super mario odyssey": {
+        "smo"
+    },
+    "odyssey": {
+        "smo"
+    },
+    "the game awards - best audio design - nominee": {
+        "smo"
+    },
+    "audio": {
+        "smo",
+        "witness"
+    },
+    "the game awards - best action-adventure game - nominee": {
+        "smo"
+    },
+    "desert": {
+        "smo"
+    },
+    "swimsuits": {
+        "smo"
+    },
+    "tyrannosaurus rex": {
+        "smo"
+    },
+    "tyrannosaurus": {
+        "smo"
+    },
+    "rex": {
+        "smo"
+    },
+    "sphinx": {
+        "smo"
+    },
+    "amiibo": {
+        "smo"
+    },
+    "the game awards - best family game - nominee": {
+        "smo"
+    },
+    "super mario sunshine": {
+        "sms"
+    },
+    "sunshine": {
+        "sms"
+    },
+    "framing": {
+        "sms"
+    },
+    "verticality": {
+        "sms",
+        "xenobladex"
+    },
+    "surgery in game": {
+        "sms"
+    },
+    "surgery": {
+        "sms"
+    },
+    "sea monster": {
+        "sms"
+    },
+    "sea": {
+        "sms",
+        "stardew_valley"
+    },
+    "swinging platforms": {
+        "sms"
+    },
+    "swinging": {
+        "sms"
+    },
+    "dinosaur riding": {
+        "sms",
+        "smw",
+        "ttyd",
+        "waffles"
+    },
+    "dinosaur": {
+        "sms",
+        "smw",
+        "ttyd",
+        "waffles"
+    },
+    "giant squid": {
+        "sms"
+    },
+    "squid": {
+        "sms"
+    },
+    "parrot": {
+        "sms",
+        "ttyd"
+    },
+    "speech synthesis": {
+        "sms"
+    },
+    "speech": {
+        "sms"
+    },
+    "synthesis": {
+        "sms"
+    },
+    "clouds": {
+        "sms"
+    },
+    "sleeping enemies": {
+        "sms",
+        "ttyd"
+    },
+    "super mario world": {
+        "smw",
+        "waffles"
+    },
+    "playable character - luigi": {
+        "smw",
+        "waffles"
+    },
+    "fan translation - welsh": {
+        "smw",
+        "waffles"
+    },
+    "welsh": {
+        "smw",
+        "waffles"
+    },
+    "nintendo super system": {
+        "smw",
+        "waffles"
+    },
+    "fan translation - indonesian": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "indonesian": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "fan translation - finnish": {
+        "smw",
+        "waffles"
+    },
+    "finnish": {
+        "smw",
+        "waffles"
+    },
+    "fan translation - galician": {
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "galician": {
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "fan translation - dutch": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "dutch": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "fan translation - catalan": {
+        "smw",
+        "waffles"
+    },
+    "catalan": {
+        "smw",
+        "waffles"
+    },
+    "fan translation - romanian": {
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "romanian": {
+        "smw",
+        "tloz",
+        "waffles",
+        "zelda2"
+    },
+    "fan translation - chinese": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "chinese": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "fan translation - greek": {
+        "smw",
+        "tloz",
+        "waffles"
+    },
+    "secret of evermore": {
+        "soe"
+    },
+    "evermore": {
+        "soe"
+    },
+    "egypt": {
+        "soe",
+        "wl4"
+    },
+    "prehistoric": {
+        "soe"
+    },
+    "sonic heroes": {
+        "sonic_heroes"
+    },
+    "clone": {
+        "sonic_heroes",
+        "tmc"
+    },
+    "shadow the hedgehog": {
+        "sonic_heroes"
+    },
+    "shadow": {
+        "sonic_heroes"
+    },
+    "hedgehog": {
+        "sonic_heroes"
+    },
+    "transformation": {
+        "sonic_heroes"
+    },
+    "greek alphabet": {
+        "sonic_heroes"
+    },
+    "alphabet": {
+        "sonic_heroes"
+    },
+    "cream the rabbit": {
+        "sonic_heroes"
+    },
+    "multiple storylines": {
+        "sonic_heroes"
+    },
+    "storylines": {
+        "sonic_heroes"
+    },
+    "metal sonic": {
+        "sonic_heroes"
+    },
+    "symphony of the night": {
+        "sotn"
+    },
+    "castlevania: symphony of the night": {
+        "sotn"
+    },
+    "symphony": {
+        "sotn"
+    },
+    "night": {
+        "sotn"
+    },
+    "playstation plus": {
+        "sotn",
+        "spyro3",
+        "terraria",
+        "v6"
+    },
+    "crucifix": {
+        "sotn"
+    },
+    "petrification": {
+        "sotn"
+    },
+    "bad parents": {
+        "sotn"
+    },
+    "bad": {
+        "sotn"
+    },
+    "parents": {
+        "sotn"
+    },
+    "harder versions of earlier levels": {
+        "sotn"
+    },
+    "harder": {
+        "sotn"
+    },
+    "versions": {
+        "sotn"
+    },
+    "earlier": {
+        "sotn"
+    },
+    "direct continuation": {
+        "sotn"
+    },
+    "direct": {
+        "sotn"
+    },
+    "continuation": {
+        "sotn"
+    },
+    "spyro 3": {
+        "spyro3"
+    },
+    "spyro: year of the dragon": {
+        "spyro3"
+    },
+    "spyro:": {
+        "spyro3"
+    },
+    "extreme sports": {
+        "spyro3"
+    },
+    "non-humanoid protagonist": {
+        "spyro3"
+    },
+    "non-humanoid": {
+        "spyro3"
+    },
+    "skyward sword": {
+        "ss"
+    },
+    "the legend of zelda: skyward sword": {
+        "ss"
+    },
+    "skyward": {
+        "ss"
+    },
+    "1-to-1 motion control": {
+        "ss"
+    },
+    "1-to-1": {
+        "ss"
+    },
+    "motion plus support": {
+        "ss"
+    },
+    "voices in the wii remote": {
+        "ss"
+    },
+    "voices": {
+        "ss"
+    },
+    "eb games expo australia": {
+        "ss"
+    },
+    "eb": {
+        "ss"
+    },
+    "expo": {
+        "ss"
+    },
+    "australia": {
+        "ss"
+    },
+    "motion plus required": {
+        "ss"
+    },
+    "gamescom 2010": {
+        "ss"
+    },
+    "2010": {
+        "ss",
+        "witness"
+    },
+    "spike video game awards 2011": {
+        "ss"
+    },
+    "star fox 64": {
+        "star_fox_64"
+    },
+    "space battle": {
+        "star_fox_64"
+    },
+    "on-rails": {
+        "star_fox_64"
+    },
+    "pilot": {
+        "star_fox_64"
+    },
+    "rail shooter": {
+        "star_fox_64"
+    },
+    "banter during gameplay": {
+        "star_fox_64"
+    },
+    "banter": {
+        "star_fox_64"
+    },
+    "during": {
+        "star_fox_64"
+    },
+    "shoot the core": {
+        "star_fox_64"
+    },
+    "core": {
+        "star_fox_64"
+    },
+    "stardew valley": {
+        "stardew_valley"
+    },
+    "stardew": {
+        "stardew_valley"
+    },
+    "valley": {
+        "stardew_valley"
+    },
+    "mermaid": {
+        "stardew_valley"
+    },
+    "coffee": {
+        "stardew_valley"
+    },
+    "stamina": {
+        "stardew_valley",
+        "tunic"
+    },
+    "aquarium": {
+        "stardew_valley"
+    },
+    "season spring": {
+        "stardew_valley"
+    },
+    "spring": {
+        "stardew_valley"
+    },
+    "plant": {
+        "stardew_valley"
+    },
+    "adult protagonist": {
+        "stardew_valley"
+    },
+    "adult": {
+        "stardew_valley"
+    },
+    "agriculture": {
+        "stardew_valley"
+    },
+    "alcohol": {
+        "stardew_valley"
+    },
+    "cave": {
+        "stardew_valley"
+    },
+    "seasons": {
+        "stardew_valley",
+        "tloz_oos"
+    },
+    "planting": {
+        "stardew_valley"
+    },
+    "foraging": {
+        "stardew_valley"
+    },
+    "festival": {
+        "stardew_valley"
+    },
+    "upgrades": {
+        "stardew_valley"
+    },
+    "available on - google play pass": {
+        "stardew_valley"
+    },
+    "pass": {
+        "stardew_valley"
+    },
+    "pixel art game": {
+        "stardew_valley"
+    },
+    "dating simulation": {
+        "stardew_valley"
+    },
+    "dating": {
+        "stardew_valley"
+    },
+    "season fall": {
+        "stardew_valley"
+    },
+    "fall": {
+        "stardew_valley"
+    },
+    "subnautica": {
+        "subnautica"
+    },
+    "oculus rift": {
+        "subnautica"
+    },
+    "oculus": {
+        "subnautica"
+    },
+    "steamvr": {
+        "subnautica"
+    },
+    "aquatic": {
+        "subnautica"
+    },
+    "star wars episode i racer": {
+        "swr"
+    },
+    "star wars: episode i - racer": {
+        "swr"
+    },
+    "episode": {
+        "swr"
+    },
+    "i": {
+        "swr"
+    },
+    "racer": {
+        "swr"
+    },
+    "dreamcast": {
+        "swr"
+    },
+    "rumble cartridge": {
+        "swr"
+    },
+    "future sport": {
+        "swr"
+    },
+    "two controllers for one player": {
+        "swr"
+    },
+    "two": {
+        "swr",
+        "terraria"
+    },
+    "controllers": {
+        "swr"
+    },
+    "anti-gravity racing": {
+        "swr"
+    },
+    "anti-gravity": {
+        "swr"
+    },
+    "interactive achievement awards 2000": {
+        "swr"
+    },
+    "2000": {
+        "swr",
+        "tyrian"
+    },
+    "taylor swift discography": {
+        "taylorswift"
+    },
+    "the binding of isaac repentance": {
+        "tboir"
+    },
+    "the binding of isaac: repentance": {
+        "tboir"
+    },
+    "binding": {
+        "tboir"
+    },
+    "isaac:": {
+        "tboir"
+    },
+    "repentance": {
+        "tboir"
+    },
+    "terraria": {
+        "terraria"
+    },
+    "windows phone": {
+        "terraria"
+    },
+    "phone": {
+        "terraria"
+    },
+    "new nintendo 3ds enhanced": {
+        "terraria"
+    },
+    "ps3 & vita cross-play": {
+        "terraria"
+    },
+    "ps3": {
+        "terraria"
+    },
+    "cross-play": {
+        "terraria"
+    },
+    "local and online players together": {
+        "terraria"
+    },
+    "players": {
+        "terraria"
+    },
+    "off-tv play": {
+        "terraria",
+        "xenobladex"
+    },
+    "off-tv": {
+        "terraria",
+        "xenobladex"
+    },
+    "wii u pro controller support": {
+        "terraria",
+        "xenobladex"
+    },
+    "two screen multiplayer": {
+        "terraria"
+    },
+    "wii nunchuk support on wii u": {
+        "terraria"
+    },
+    "nunchuk": {
+        "terraria"
+    },
+    "goblins": {
+        "terraria"
+    },
+    "wii remote support on wii u": {
+        "terraria"
+    },
+    "nintendo network": {
+        "terraria",
+        "xenobladex"
+    },
+    "gamescom 2015": {
+        "terraria",
+        "xenobladex"
+    },
+    "google play game services": {
+        "terraria"
+    },
+    "services": {
+        "terraria"
+    },
+    "tetris attack": {
+        "tetrisattack"
+    },
+    "tetris": {
+        "tetrisattack"
+    },
+    "timespinner": {
+        "timespinner"
+    },
+    "speedrun mode": {
+        "timespinner",
+        "tunic"
+    },
+    "the legend of zelda": {
+        "tloz"
+    },
+    "zelda": {
+        "tloz",
+        "tp",
+        "zelda2"
+    },
+    "family computer disk system": {
+        "tloz",
+        "zelda2"
+    },
+    "disk": {
+        "tloz",
+        "zelda2"
+    },
+    "fan translation - ancient greek": {
+        "tloz"
+    },
+    "famicom microphone": {
+        "tloz"
+    },
+    "microphone": {
+        "tloz",
+        "tloz_ph",
+        "tloz_st"
+    },
+    "fan translation - toki pona": {
+        "tloz"
+    },
+    "toki": {
+        "tloz"
+    },
+    "pona": {
+        "tloz"
+    },
+    "fan translation - irish": {
+        "tloz"
+    },
+    "irish": {
+        "tloz"
+    },
+    "media type - floppy disk": {
+        "tloz"
+    },
+    "floppy": {
+        "tloz"
+    },
+    "fan translation - swedish": {
+        "tloz"
+    },
+    "swedish": {
+        "tloz"
+    },
+    "fan translation - norwegian": {
+        "tloz",
+        "zelda2"
+    },
+    "norwegian": {
+        "tloz",
+        "zelda2"
+    },
+    "media - nes game pak": {
+        "tloz"
+    },
+    "fan translation - arabic": {
+        "tloz"
+    },
+    "arabic": {
+        "tloz"
+    },
+    "media - family computer cassette": {
+        "tloz"
+    },
+    "cassette": {
+        "tloz"
+    },
+    "nes game pak - mmc1": {
+        "tloz"
+    },
+    "mmc1": {
+        "tloz"
+    },
+    "the legend of zelda - oracle of ages": {
+        "tloz_ooa"
+    },
+    "the legend of zelda: oracle of ages": {
+        "tloz_ooa"
+    },
+    "oracle": {
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "ages": {
+        "tloz_ooa"
+    },
+    "adapted to - manga": {
+        "tloz_ooa",
+        "tloz_oos",
+        "zelda2"
+    },
+    "manga": {
+        "tloz_ooa",
+        "tloz_oos",
+        "zelda2"
+    },
+    "two-handed weapons": {
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "two-handed": {
+        "tloz_ooa",
+        "tloz_oos"
+    },
+    "the legend of zelda - oracle of seasons": {
+        "tloz_oos"
+    },
+    "the legend of zelda: oracle of seasons": {
+        "tloz_oos"
+    },
+    "reversed controls": {
+        "tloz_oos"
+    },
+    "reversed": {
+        "tloz_oos"
+    },
+    "gardening": {
+        "tloz_oos"
+    },
+    "the legend of zelda - phantom hourglass": {
+        "tloz_ph"
+    },
+    "the legend of zelda: phantom hourglass": {
+        "tloz_ph"
+    },
+    "phantom": {
+        "tloz_ph"
+    },
+    "hourglass": {
+        "tloz_ph"
+    },
+    "nintendo wi-fi connection": {
+        "tloz_ph"
+    },
+    "wi-fi": {
+        "tloz_ph"
+    },
+    "connection": {
+        "tloz_ph"
+    },
+    "game developers choice awards 2008": {
+        "tloz_ph"
+    },
+    "2008": {
+        "tloz_ph"
+    },
+    "nintendo ds tag mode": {
+        "tloz_ph",
+        "tloz_st"
+    },
+    "dead multiplayer": {
+        "tloz_ph"
+    },
+    "dead": {
+        "tloz_ph"
+    },
+    "ds microphone use": {
+        "tloz_ph",
+        "tloz_st"
+    },
+    "use": {
+        "tloz_ph",
+        "tloz_st"
+    },
+    "friend codes": {
+        "tloz_ph"
+    },
+    "friend": {
+        "tloz_ph"
+    },
+    "codes": {
+        "tloz_ph"
+    },
+    "spike video game awards 2007": {
+        "tloz_ph"
+    },
+    "2007": {
+        "tloz_ph"
+    },
+    "interactive achievement awards 2008": {
+        "tloz_ph"
+    },
+    "cartography": {
+        "tloz_ph",
+        "tloz_st"
+    },
+    "gesture-based controls": {
+        "tloz_ph"
+    },
+    "gesture-based": {
+        "tloz_ph"
+    },
+    "spirit tracks": {
+        "tloz_st"
+    },
+    "the legend of zelda: spirit tracks": {
+        "tloz_st"
+    },
+    "spirit": {
+        "tloz_st"
+    },
+    "tracks": {
+        "tloz_st"
+    },
+    "pax 2009": {
+        "tloz_st"
+    },
+    "2009": {
+        "tloz_st"
+    },
+    "gamescom 2009": {
+        "tloz_st"
+    },
+    "the minish cap": {
+        "tmc"
+    },
+    "the legend of zelda: the minish cap": {
+        "tmc"
+    },
+    "minish": {
+        "tmc"
+    },
+    "conga line party": {
+        "tmc"
+    },
+    "conga": {
+        "tmc"
+    },
+    "line": {
+        "tmc"
+    },
+    "trainer": {
+        "tmc"
+    },
+    "sneaking mission": {
+        "tmc"
+    },
+    "sneaking": {
+        "tmc"
+    },
+    "flashback": {
+        "tmc"
+    },
+    "toontown": {
+        "toontown"
+    },
+    "toontown online": {
+        "toontown"
+    },
+    "minigame collection": {
+        "toontown"
+    },
+    "minigame": {
+        "toontown"
+    },
+    "discontinued mmo": {
+        "toontown"
+    },
+    "discontinued": {
+        "toontown"
+    },
+    "mmo": {
+        "toontown"
+    },
+    "twilight princess": {
+        "tp"
+    },
+    "the legend of zelda: twilight princess": {
+        "tp"
+    },
+    "twilight": {
+        "tp"
+    },
+    "trackmania": {
+        "trackmania"
+    },
+    "vehicle simulation": {
+        "trackmania"
+    },
+    "trophy system": {
+        "trackmania"
+    },
+    "trophy": {
+        "trackmania"
+    },
+    "cars": {
+        "trackmania"
+    },
+    "time attack": {
+        "trackmania"
+    },
+    "competitve": {
+        "trackmania"
+    },
+    "time trial": {
+        "trackmania"
+    },
+    "trial": {
+        "trackmania"
+    },
+    "esport": {
+        "trackmania"
+    },
+    "map creation": {
+        "trackmania"
+    },
+    "jets": {
+        "trackmania"
+    },
+    "tournaments": {
+        "trackmania"
+    },
+    "paper mario: the thousand-year door": {
+        "ttyd"
+    },
+    "mario:": {
+        "ttyd"
+    },
+    "thousand-year": {
+        "ttyd"
+    },
+    "door": {
+        "ttyd"
+    },
+    "using dialogue to avoid combat": {
+        "ttyd",
+        "undertale"
+    },
+    "using": {
+        "ttyd",
+        "undertale"
+    },
+    "avoid": {
+        "ttyd",
+        "undertale"
+    },
+    "professional wrestler": {
+        "ttyd"
+    },
+    "professional": {
+        "ttyd"
+    },
+    "wrestler": {
+        "ttyd"
+    },
+    "sealing your own fate": {
+        "ttyd"
+    },
+    "sealing": {
+        "ttyd"
+    },
+    "own": {
+        "ttyd"
+    },
+    "fate": {
+        "ttyd"
+    },
+    "counter system": {
+        "ttyd"
+    },
+    "counter": {
+        "ttyd"
+    },
+    "moat": {
+        "ttyd"
+    },
+    "ship deck battle": {
+        "ttyd"
+    },
+    "ship": {
+        "ttyd"
+    },
+    "in-game e-mail": {
+        "ttyd"
+    },
+    "e-mail": {
+        "ttyd"
+    },
+    "tunic": {
+        "tunic"
+    },
+    "shield": {
+        "tunic"
+    },
+    "bombs": {
+        "tunic"
+    },
+    "the wind waker": {
+        "tww"
+    },
+    "the legend of zelda: the wind waker": {
+        "tww"
+    },
+    "wind": {
+        "tww"
+    },
+    "waker": {
+        "tww"
+    },
+    "tyrian": {
+        "tyrian"
+    },
+    "tyrian 2000": {
+        "tyrian"
+    },
+    "freeware": {
+        "tyrian"
+    },
+    "gog preservation program": {
+        "tyrian"
+    },
+    "preservation": {
+        "tyrian"
+    },
+    "vertical scrolling": {
+        "tyrian"
+    },
+    "scrolling": {
+        "tyrian"
+    },
+    "ufo 50": {
+        "ufo50"
+    },
+    "50": {
+        "ufo50"
+    },
+    "game collection": {
+        "ufo50"
+    },
+    "undertale": {
+        "undertale"
+    },
+    "shmup": {
+        "undertale"
+    },
+    "unique battle system": {
+        "undertale"
+    },
+    "unique": {
+        "undertale"
+    },
+    "defense": {
+        "undertale"
+    },
+    "pacifist playthrough": {
+        "undertale"
+    },
+    "pacifist": {
+        "undertale"
+    },
+    "playthrough": {
+        "undertale"
+    },
+    "surreal comedy": {
+        "undertale"
+    },
+    "choices matter": {
+        "undertale"
+    },
+    "choices": {
+        "undertale"
+    },
+    "matter": {
+        "undertale"
+    },
+    "genocide": {
+        "undertale"
+    },
+    "postmodernism": {
+        "undertale"
+    },
+    "village": {
+        "undertale"
+    },
+    "vvvvvv": {
+        "v6"
+    },
+    "ouya": {
+        "v6"
+    },
+    "old school": {
+        "v6"
+    },
+    "elephant": {
+        "v6"
+    },
+    "warping": {
+        "v6"
+    },
+    "minimalist": {
+        "v6"
+    },
+    "flash game origin": {
+        "v6"
+    },
+    "flash": {
+        "v6"
+    },
+    "developed by one person": {
+        "v6"
+    },
+    "developed": {
+        "v6"
+    },
+    "vampire survivors": {
+        "vampire_survivors"
+    },
+    "survivors": {
+        "vampire_survivors"
+    },
+    "danmaku": {
+        "vampire_survivors"
+    },
+    "bullet heaven": {
+        "vampire_survivors"
+    },
+    "heaven": {
+        "vampire_survivors"
+    },
+    "increasing difficulty": {
+        "vampire_survivors"
+    },
+    "increasing": {
+        "vampire_survivors"
+    },
+    "smw: spicy mycena waffles": {
+        "waffles"
+    },
+    "wargroove": {
+        "wargroove",
+        "wargroove2"
+    },
+    "wargroove 2": {
+        "wargroove2"
+    },
+    "the witness": {
+        "witness"
+    },
+    "witness": {
+        "witness"
+    },
+    "no hud": {
+        "witness"
+    },
+    "hud": {
+        "witness"
+    },
+    "puzzle games with stories": {
+        "witness"
+    },
+    "stories": {
+        "witness"
+    },
+    "pax prime 2010": {
+        "witness"
+    },
+    "hexagon": {
+        "witness"
+    },
+    "full motion video": {
+        "witness",
+        "zork_grand_inquisitor"
+    },
+    "full": {
+        "witness",
+        "zork_grand_inquisitor"
+    },
+    "audio logs": {
+        "witness"
+    },
+    "logs": {
+        "witness"
+    },
+    "simon says": {
+        "witness"
+    },
+    "simon": {
+        "witness"
+    },
+    "says": {
+        "witness"
+    },
+    "wario land": {
+        "wl"
+    },
+    "wario land: super mario land 3": {
+        "wl"
+    },
+    "land:": {
+        "wl"
+    },
+    "wario land 4": {
+        "wl4"
+    },
+    "domino": {
+        "wl4"
+    },
+    "pinball stage": {
+        "wl4"
+    },
+    "super strength": {
+        "wl4"
+    },
+    "strength": {
+        "wl4"
+    },
+    "wordipelago": {
+        "wordipelago"
+    },
+    "xenoblade x": {
+        "xenobladex"
+    },
+    "xenoblade chronicles x": {
+        "xenobladex"
+    },
+    "xenoblade": {
+        "xenobladex"
+    },
+    "chronicles": {
+        "xenobladex"
+    },
+    "daily content": {
+        "xenobladex"
+    },
+    "daily": {
+        "xenobladex"
+    },
+    "keyboard and mouse support for consoles": {
+        "xenobladex"
+    },
+    "keyboard": {
+        "xenobladex"
+    },
+    "optional touch control": {
+        "xenobladex"
+    },
+    "quest tracking": {
+        "xenobladex"
+    },
+    "quest hub": {
+        "xenobladex"
+    },
+    "hub": {
+        "xenobladex"
+    },
+    "squad tactics": {
+        "xenobladex"
+    },
+    "squad": {
+        "xenobladex"
+    },
+    "questing": {
+        "xenobladex"
+    },
+    "yacht dice": {
+        "yachtdice"
+    },
+    "yoshi's island": {
+        "yoshisisland"
+    },
+    "super mario world 2: yoshi's island": {
+        "yoshisisland"
+    },
+    "yoshi's": {
+        "yoshisisland"
+    },
+    "super fx": {
+        "yoshisisland"
+    },
+    "fx": {
+        "yoshisisland"
+    },
+    "yu-gi-oh! 2006": {
+        "yugioh06"
+    },
+    "yu-gi-oh! ultimate masters: world championship tournament 2006": {
+        "yugioh06"
+    },
+    "ultimate": {
+        "yugioh06"
+    },
+    "masters:": {
+        "yugioh06"
+    },
+    "championship": {
+        "yugioh06"
+    },
+    "duel": {
+        "yugioh06"
+    },
+    "yu-gi-oh! dungeon dice monsters": {
+        "yugiohddm"
+    },
+    "zelda ii: the adventure of link": {
+        "zelda2"
+    },
+    "power glove support": {
+        "zelda2"
+    },
+    "fan translation - turkish": {
+        "zelda2"
+    },
+    "turkish": {
+        "zelda2"
+    },
+    "zork grand inquisitor": {
+        "zork_grand_inquisitor"
+    },
+    "zork: grand inquisitor": {
+        "zork_grand_inquisitor"
+    },
+    "zork:": {
+        "zork_grand_inquisitor"
+    },
+    "inquisitor": {
+        "zork_grand_inquisitor"
+    },
+    "faceless protagonist": {
+        "zork_grand_inquisitor"
+    },
+    "faceless": {
+        "zork_grand_inquisitor"
+    }
+}  # type: ignore  # noqa: F821
+
+class _GameIndexClass(object):
+    """
+    Pre-generated search index for games. This index is built separately via a tool and contains the basic
+    game information for each game within the specified rating category.
+    
+    Attributes:
+        _game_names: Dictionary with game names as keys and module names as values
+        _search_index: Dictionary with search terms as keys and sets of module names as values
+        _games: Dictionary with module names as keys and all available game data as values
+    """
+    _instance: '_GameIndexClass' = None
+    _initialized: bool = False
+
+    def __new__(cls, *args, **kwargs):
+        if cls._initialized:
+            return cls._instance
+        else:
+            cls._instance = super().__new__(cls)
+            return cls._instance
+
+    def __init__(self, *args, **kwargs):
+        if self._initialized:
+            return
+        self._initialized = True
+        self._game_names = GAMES_NAMES
+        self._search_index = SEARCH_INDEX
+        self._games = GAMES_DATA
+        self._module_to_name = {module: name for name, module in self._game_names.items()}
+
+    @property
+    def game_names(self) -> dict:
+        return self._game_names
+    @game_names.setter
+    def game_names(self, item: tuple[str, str]) -> None:
+        key, value = item
+        self._game_names[key] = value
+
+    @property
+    def search_index(self) -> dict:
+        return self._search_index
+    @search_index.setter
+    def search_index(self, item: tuple[str, str]) -> None:
+        key, value = item
+        if key in self._search_index:
+            self._search_index[key].add(value)
+        else:
+            self._search_index[key] = {value}
+
+    @property
+    def games(self) -> dict:
+        return self._games
+    @games.setter
+    def games(self, item: tuple[str, dict]) -> None:
+        key, value = item
+        self._games[key] = value
+
+    def search(self, query: str) -> dict:
+        """
+        Search for games matching the query.
+        
+        Args:
+            query: The search query string
+            
+        Returns:
+            Dictionary of matching games
+        """
+        if not query:
+            return {}
+            
+        query_terms = query.lower().split()
+        matching_games = None
+        
+        # First try exact matches from the search index (AND logic - all terms must match)
+        exact_match_sets = []
+        for term in query_terms:
+            try:
+                exact_match_sets.append(self.search_index[term])
+            except KeyError:
+                pass
+        
+        if exact_match_sets:
+            # Intersect all sets to find games matching all terms
+            matching_games = exact_match_sets[0].copy()
+            for match_set in exact_match_sets[1:]:
+                matching_games &= match_set
+        
+        # If no exact matches or we want to include partial matches, search index keys
+        if not matching_games or len(matching_games) == 0:
+            partial_match_games = set()
+            # Use set view of search_index keys for efficient iteration
+            index_keys = self.search_index.keys()
+            
+            for term in query_terms:
+                # Find all indexed terms that contain this query term as a substring
+                for indexed_term in index_keys:
+                    if term in indexed_term:
+                        # Union with games from matching indexed terms
+                        partial_match_games |= self.search_index[indexed_term]
+            
+            if matching_games is None:
+                matching_games = partial_match_games
+            else:
+                # Combine exact and partial matches (OR logic between exact and partial)
+                matching_games |= partial_match_games
+        
+        # Return only matching games using dict view for efficiency
+        if not matching_games:
+            return {}
+        return {name: self.games[name] for name in matching_games}
+
+    def get_game(self, game_module: str) -> dict:
+        """
+        Get full game data for a specific game.
+        
+        Args:
+            game_module: The module name of the game to retrieve
+            
+        Returns:
+            Dictionary containing all game data
+        """
+        return self.games.get(game_module, {})
+
+    _SEARCHABLE_FIELDS = (
+        "igdb_name", "platforms", "genres", "themes", "keywords", "player_perspectives",
+    )
+
+    def _index_value(self, game_module: str, value) -> None:
+        if value is None:
+            return
+        cleaned = str(value).lower()
+        if not cleaned:
+            return
+        self.search_index = cleaned, game_module
+        for word in cleaned.split():
+            self.search_index = word, game_module
+
+    def add_game(self, game_module: str, game_data: dict):
+        """Add a game to the game index.
+
+        Mirrors build_variants.build_search_index so a runtime-added custom
+        world is searchable on the same surface as build-time indexed games.
+        Also adds the module to the "popular" set so it shows up when the
+        launcher's search bar is empty (popular is the fallback query).
+
+        TODO: replace "popular" here with a dedicated "always_search" term,
+        and have the empty-search-bar fallback union "popular" + "always_search".
+        """
+        self.games = game_module, game_data
+        self.game_names = game_data['game_name'], game_module
+        self._module_to_name[game_module] = game_data['game_name']
+
+        # Empty-search-bar fallback — see TODO above for the proper term.
+        self.search_index = "popular", game_module
+
+        # Display name (full lowercased + each whitespace-split word).
+        self._index_value(game_module, game_data.get('game_name', ''))
+
+        # IGDB-style fields, if the manifest carries them.
+        for field in self._SEARCHABLE_FIELDS:
+            value = game_data.get(field)
+            if isinstance(value, list):
+                for item in value:
+                    if item and not any(c in str(item) for c in "():"):
+                        self._index_value(game_module, item)
+            elif isinstance(value, (str, int, float, bool)) and value:
+                self._index_value(game_module, value)
+
+    def get_module_for_game(self, game_name: str, worlds: bool = False):
+        """Resolve a display game name to its module apworld.
+
+        With worlds=True, returns the dotted package path (e.g. "worlds.alttp")
+        suitable for sys.modules lookup; otherwise returns the bare apworld.
+        Returns None if the game name is unknown.
+        """
+        module = self._game_names.get(game_name)
+        if module and worlds:
+            return f"worlds.{module}"
+        return module
+
+    def get_game_name_for_module(self, module_name: str):
+        """Resolve a module apworld (with or without 'worlds.' prefix) to its display name.
+        Returns None if the apworld is unknown."""
+        if module_name.startswith("worlds."):
+            module_name = module_name[len("worlds."):]
+        return self._module_to_name.get(module_name)
+
+    def get_all_games(self) -> dict:
+        """Return the full GAMES_DATA dict (apworld -> game data)."""
+        return self._games
+
+    def get_all_game_names(self) -> list:
+        """Return all known display game names as a list."""
+        return list(self._game_names.keys())
+
+GameIndex = _GameIndexClass()
