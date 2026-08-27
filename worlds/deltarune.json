@@ -1,19 +1,25 @@
 {
-  "game": "DELTARUNE",
-  "world_version": "2.1.3",
-  "minimum_ap_version": "0.6.7",
-  "authors": [
-    "Mewlif",
-    "theemeraldsword85",
-    "Tenebrosful",
-    "Vintagix",
-    "Deadzi",
-    "Charaster",
-    "Potato"
-  ],
-  "compatible_version": 7,
-  "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_deltarune-2.1.3-py3-none-any.whl#sha256=1f43b19d839c4712dab58fe0565c9d5fe0b174f92293ad356b4fd341c93aedfc",
-  "disk_space_mb": 2,
-  "igdb_id": 171233
+    "game": "DELTARUNE",
+    "world_version": "2.1.3",
+    "minimum_ap_version": "0.6.7",
+    "authors": [
+        "Mewlif",
+        "theemeraldsword85",
+        "Tenebrosful",
+        "Vintagix",
+        "Deadzi",
+        "Charaster",
+        "Potato"
+    ],
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_deltarune-2.1.3-py3-none-any.whl#sha256=1f43b19d839c4712dab58fe0565c9d5fe0b174f92293ad356b4fd341c93aedfc",
+    "disk_space_mb": 2,
+    "igdb_id": 171233,
+    "components": [
+        {
+            "name": "DELTARUNE Client",
+            "type": "client"
+        }
+    ]
 }

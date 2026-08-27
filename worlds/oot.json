@@ -11,5 +11,15 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_oot-9.1.0-py3-none-any.whl#sha256=e76765ca700a24816901db86d1019156c6c71e2514c28279f70a84d376193128",
     "disk_space_mb": 3,
-    "igdb_id": 1029
+    "igdb_id": 1029,
+    "components": [
+        {
+            "name": "Ocarina of Time Client",
+            "type": "client"
+        },
+        {
+            "name": "Ocarina of Time Adjuster",
+            "type": "adjuster"
+        }
+    ]
 }

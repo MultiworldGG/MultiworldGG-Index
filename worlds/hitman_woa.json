@@ -8,5 +8,11 @@
     "igdb_id": 233571,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_hitman_woa-0.8.2-py3-none-any.whl#sha256=2cae73e2ae01e9221bb544984d7ccd365d8a0bc9dbae316a892bad0a04b109d2"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_hitman_woa-0.8.2-py3-none-any.whl#sha256=2cae73e2ae01e9221bb544984d7ccd365d8a0bc9dbae316a892bad0a04b109d2",
+    "components": [
+        {
+            "name": "HITMAN World of Assassination Client",
+            "type": "client"
+        }
+    ]
 }

@@ -8,5 +8,11 @@
     "compatible_version": 7,
     "version": 7,
     "igdb_id": 1090,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dkc-1.2.2-py3-none-any.whl#sha256=de03adf975ba63ef8f32a5dde36f639c3a28ca841013f20da5f77f88e5c56bc0"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_dkc-1.2.2-py3-none-any.whl#sha256=de03adf975ba63ef8f32a5dde36f639c3a28ca841013f20da5f77f88e5c56bc0",
+    "components": [
+        {
+            "name": "DKC Manager",
+            "type": "adjuster"
+        }
+    ]
 }

@@ -6,5 +6,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_sly1-0.3.5-py3-none-any.whl#sha256=092265c4346f431fbc6fb78f0a109bcdc65145e679dd100992ce10f6a2247486",
     "disk_space_mb": 1,
-    "igdb_id": 1798
+    "igdb_id": 1798,
+    "components": [
+        {
+            "name": "Sly 1 Client",
+            "type": "client"
+        }
+    ]
 }

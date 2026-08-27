@@ -1,12 +1,18 @@
 {
-  "game": "Super Smash Bros. Melee",
-  "authors": [
-    "Pink Switch"
-  ],
-  "minimum_ap_version": "0.6.7",
-  "world_version": "2.0.0",
-  "compatible_version": 7,
-  "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_melee-2.0.0-py3-none-any.whl#sha256=2d4e8b388471b20efbb9d2a7c73bbe3db21a7faa0d8a3cfcac452a3512c51b44",
-  "disk_space_mb": 1
+    "game": "Super Smash Bros. Melee",
+    "authors": [
+        "Pink Switch"
+    ],
+    "minimum_ap_version": "0.6.7",
+    "world_version": "2.0.0",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_melee-2.0.0-py3-none-any.whl#sha256=2d4e8b388471b20efbb9d2a7c73bbe3db21a7faa0d8a3cfcac452a3512c51b44",
+    "disk_space_mb": 1,
+    "components": [
+        {
+            "name": "Super Smash Bros. Melee Client",
+            "type": "client"
+        }
+    ]
 }

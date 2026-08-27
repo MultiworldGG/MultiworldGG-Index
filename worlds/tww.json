@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tww-3.0.0-py3-none-any.whl#sha256=cc94783a6bf705dde625c7d1a58f8fc87c6431df720a7c2716f1351573a17f98",
     "disk_space_mb": 1,
-    "igdb_id": 1033
+    "igdb_id": 1033,
+    "components": [
+        {
+            "name": "The Wind Waker Client",
+            "type": "client"
+        }
+    ]
 }

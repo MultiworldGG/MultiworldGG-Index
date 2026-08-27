@@ -7,5 +7,11 @@
     ],
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_apquest-2.0.0-py3-none-any.whl#sha256=e524ef1de484bee70788293511390b53c1421f86ae98cbce5d52d95955b40d9e",
     "disk_space_mb": 6,
-    "igdb_id": 0
+    "igdb_id": 0,
+    "components": [
+        {
+            "name": "APQuest Client",
+            "type": "client"
+        }
+    ]
 }

@@ -10,5 +10,11 @@
     "world_version": "7.4.25",
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_stardew_valley-7.4.25-py3-none-any.whl#sha256=2dd45d81c9712ef905142acf8c2162c72b618f83574053218b08f099373fbb40",
     "disk_space_mb": 1,
-    "igdb_id": 17000
+    "igdb_id": 17000,
+    "components": [
+        {
+            "name": "Stardew Valley Tracker",
+            "type": "client"
+        }
+    ]
 }

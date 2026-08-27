@@ -12,5 +12,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_animal_well-0.5.3-py3-none-any.whl#sha256=0ca29ede2bb9f179f837f22c538863c1eb80c3db9cb420386e5ca9aefded2759",
     "disk_space_mb": 1,
-    "igdb_id": 191435
+    "igdb_id": 191435,
+    "components": [
+        {
+            "name": "ANIMAL WELL Client",
+            "type": "client"
+        }
+    ]
 }

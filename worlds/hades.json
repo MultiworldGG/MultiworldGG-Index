@@ -9,5 +9,11 @@
     "compatible_version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_hades-0.16.3-py3-none-any.whl#sha256=c238ac38625e4f9e3b4f9281df6cca7dfcd15b679f696232cbb66729877e18ed",
     "disk_space_mb": 1,
-    "igdb_id": 113112
+    "igdb_id": 113112,
+    "components": [
+        {
+            "name": "Hades Client",
+            "type": "client"
+        }
+    ]
 }

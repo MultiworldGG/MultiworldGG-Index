@@ -7,5 +7,11 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_2048-1.1.2-py3-none-any.whl#sha256=bf5f71614f8697bf3ad3f4d5fbdbc0b9be97ddfa18d51c7bde81cff81ee1ac31"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_2048-1.1.2-py3-none-any.whl#sha256=bf5f71614f8697bf3ad3f4d5fbdbc0b9be97ddfa18d51c7bde81cff81ee1ac31",
+    "components": [
+        {
+            "name": "2048 Client",
+            "type": "client"
+        }
+    ]
 }

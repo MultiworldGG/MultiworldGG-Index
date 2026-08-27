@@ -16,5 +16,11 @@
     "game": "Donkey Kong 64",
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_dk64-1.5.8-py3-none-any.whl#sha256=d5028fee6630551307b83c6229ed432e5dbe4aa29154bff1ec4e006392e26eae",
     "disk_space_mb": 28,
-    "igdb_id": 1096
+    "igdb_id": 1096,
+    "components": [
+        {
+            "name": "DK64 Client",
+            "type": "client"
+        }
+    ]
 }

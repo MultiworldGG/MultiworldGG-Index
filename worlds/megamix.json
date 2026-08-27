@@ -10,5 +10,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_megamix-1.5.1-py3-none-any.whl#sha256=f83f246d93b96e06e89983b50032d5c50340cb0aeb6b95a3d4238dd6d6471bfe",
     "disk_space_mb": 1,
-    "igdb_id": 120278
+    "igdb_id": 120278,
+    "components": [
+        {
+            "name": "Mega Mix JSON Generator",
+            "type": "adjuster"
+        }
+    ]
 }

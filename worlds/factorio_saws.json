@@ -31,5 +31,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_factorio_saws-0.9.4-py3-none-any.whl#sha256=5636ec9b6cf502136560356143b2977ec37074272802362fd1fad6ddea0596e3",
     "disk_space_mb": 1,
-    "igdb_id": 263344
+    "igdb_id": 263344,
+    "components": [
+        {
+            "name": "Factorio - Space Age Without Space Client",
+            "type": "client"
+        }
+    ]
 }

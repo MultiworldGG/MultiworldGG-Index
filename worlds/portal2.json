@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_portal2-0.8.0-py3-none-any.whl#sha256=0856be169884176dd041271b82402be4688e5cb0392528f767e506da7d006bc0",
     "disk_space_mb": 1,
-    "igdb_id": 72
+    "igdb_id": 72,
+    "components": [
+        {
+            "name": "Portal 2 Client",
+            "type": "client"
+        }
+    ]
 }

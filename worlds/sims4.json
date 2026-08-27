@@ -1,13 +1,19 @@
 {
-  "game": "The Sims 4",
-  "world_version": "2.0.1",
-  "world_version_full": "2.0.1",
-  "contributors": [
-    "mrsummer360",
-    "itsmisscactus",
-    "silasary"
-  ],
-  "module_location": "https://github.com/Simsipelago/Archipelago/releases/download/2.0.1/worlds_sims4-2.0.1-py3-none-any.whl#sha256=60843c28740747adcbc9d7ebb0d4fae47aaba2bf827e1b1e662874df6f09e7e5",
-  "disk_space_mb": 1,
-  "igdb_id": 3212
+    "game": "The Sims 4",
+    "world_version": "2.0.1",
+    "world_version_full": "2.0.1",
+    "contributors": [
+        "mrsummer360",
+        "itsmisscactus",
+        "silasary"
+    ],
+    "module_location": "https://github.com/Simsipelago/Archipelago/releases/download/2.0.1/worlds_sims4-2.0.1-py3-none-any.whl#sha256=60843c28740747adcbc9d7ebb0d4fae47aaba2bf827e1b1e662874df6f09e7e5",
+    "disk_space_mb": 1,
+    "igdb_id": 3212,
+    "components": [
+        {
+            "name": "The Sims 4 Client",
+            "type": "client"
+        }
+    ]
 }

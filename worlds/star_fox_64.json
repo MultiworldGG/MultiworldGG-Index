@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_star_fox_64-0.4.1-py3-none-any.whl#sha256=c6f3cf23bbf724dc772dca887a3bc9ce43d046c602943d8b709d0a23ea792249",
     "disk_space_mb": 1,
-    "igdb_id": 2591
+    "igdb_id": 2591,
+    "components": [
+        {
+            "name": "Star Fox 64 Client",
+            "type": "client"
+        }
+    ]
 }

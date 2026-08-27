@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_factorio-0.0.1-py3-none-any.whl#sha256=b5897fdea8eaef1074215e71c18bfc3e1cdebb8b1ccb5f09f39857ffc5affe00",
     "disk_space_mb": 2,
-    "igdb_id": 7046
+    "igdb_id": 7046,
+    "components": [
+        {
+            "name": "Factorio Client",
+            "type": "client"
+        }
+    ]
 }

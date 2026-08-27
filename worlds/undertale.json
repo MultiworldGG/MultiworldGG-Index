@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_undertale-0.0.1-py3-none-any.whl#sha256=db3371309328a69ce4a991f3d1b798af6ef7373b716f935003d2123fd672f3ed",
     "disk_space_mb": 1,
-    "igdb_id": 12517
+    "igdb_id": 12517,
+    "components": [
+        {
+            "name": "Undertale Client",
+            "type": "client"
+        }
+    ]
 }

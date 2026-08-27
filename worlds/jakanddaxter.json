@@ -9,5 +9,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_jakanddaxter-1.2.0-py3-none-any.whl#sha256=8bb2338710fcaa9e583bc202409229786c499a54902ff5897609ce69464e5e35",
     "disk_space_mb": 1,
-    "igdb_id": 1528
+    "igdb_id": 1528,
+    "components": [
+        {
+            "name": "Jak and Daxter Client",
+            "type": "client"
+        }
+    ]
 }

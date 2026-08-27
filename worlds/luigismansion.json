@@ -12,5 +12,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_luigismansion-0.6.4-py3-none-any.whl#sha256=70948bf2e8cea8c703a60ee2bbe9d8baa97b367e6d719a2ea363ab2ffd2588f2",
     "disk_space_mb": 1,
-    "igdb_id": 2485
+    "igdb_id": 2485,
+    "components": [
+        {
+            "name": "Luigi's Mansion Client",
+            "type": "client"
+        }
+    ]
 }

@@ -10,5 +10,11 @@
     "version": 7,
     "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ladx_beta-13.4.5-py3-none-any.whl#sha256=d4bb02185973def8308a432b1c98be01f310f10c5b11abaf808d07e558a2362a",
     "disk_space_mb": 1,
-    "igdb_id": 1028
+    "igdb_id": 1028,
+    "components": [
+        {
+            "name": "Links Awakening DX Beta Client",
+            "type": "client"
+        }
+    ]
 }
