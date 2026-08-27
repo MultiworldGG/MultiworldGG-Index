@@ -27,6 +27,36 @@
             "minLength": 1,
             "pattern": "^v?[0-9]+(\\.[0-9]+)*([._-][A-Za-z0-9]+)*$",
             "description": "Semver-shape version of the world implementation. Used for the .apworld vs index precedence rule (higher wins; tiebreaker: installed wheel)."
+        },
+        "components": {
+            "type": "array",
+            "description": "Mirror of the world's launcher Component registrations, read import-free by LauncherComponents.world_manifest_components. Each entry names one component; 'type' is the core Type enum value lowercased (MISC and HIDDEN are never declared).",
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "type"
+                ],
+                "additionalProperties": true,
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Must match the registered Component.display_name exactly (case-sensitive)."
+                    },
+                    "type": {
+                        "enum": [
+                            "client",
+                            "tool",
+                            "adjuster"
+                        ]
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Shown on the launcher card."
+                    }
+                }
+            }
         }
     }
 }

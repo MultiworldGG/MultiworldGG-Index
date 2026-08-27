@@ -158,6 +158,8 @@ def assemble_games_data(
             }
         if "module_location" in manifest:
             entry["module_location"] = manifest["module_location"]
+        if "components" in manifest:
+            entry["components"] = manifest["components"]
         result[apworld] = entry
     return result
 
