@@ -531,7 +531,7 @@
         "igdb_id": "191435",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4hdh.png",
         "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar67fm.png",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64ln.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6hqf.png",
         "game_name": "ANIMAL WELL",
         "igdb_name": "Animal Well",
         "age_rating": "7",
@@ -2557,10 +2557,15 @@
             "pixel art",
             "pixel graphics",
             "dog",
+            "humor",
             "xbox controller support for pc",
             "steam cloud",
             "dualshock 4 support for pc",
+            "branching storyline",
+            "self-referential humor",
+            "game with chapters",
             "controller support",
+            "bullet grazing",
             "steam families",
             "dualsense support for pc"
         ],
@@ -2569,7 +2574,7 @@
     "diddy_kong_racing": {
         "igdb_id": "2723",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wgj.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21yi.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6bjr.png",
         "key_art_url": "",
         "game_name": "Diddy Kong Racing",
         "igdb_name": "Diddy Kong Racing",
@@ -2727,7 +2732,7 @@
     "dkc": {
         "igdb_id": "1090",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co70qn.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar407r.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar407k.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar407t.png",
         "game_name": "Donkey Kong Country",
         "igdb_name": "Donkey Kong Country",
@@ -3153,7 +3158,9 @@
         ],
         "platforms": [
             "Linux",
+            "Android",
             "PC (Microsoft Windows)",
+            "iOS",
             "Mac",
             "Nintendo Switch"
         ],
@@ -5738,7 +5745,7 @@
             "international version",
             "game developers choice awards 2003"
         ],
-        "release_date": 1017273600
+        "release_date": 1032220800
     },
     "kh2": {
         "igdb_id": "1221",
@@ -5898,7 +5905,7 @@
     "ladx_beta": {
         "igdb_id": "1028",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nnt.png",
-        "artwork_url": "",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar6dmu.png",
         "key_art_url": "",
         "game_name": "Links Awakening DX Beta",
         "igdb_name": "The Legend of Zelda: Link's Awakening",
@@ -6063,7 +6070,7 @@
             "Mac",
             "Xbox 360"
         ],
-        "storyline": "",
+        "storyline": "The game retells the story of the six-film Skywalker Saga through comedic, dialogue-free cutscenes rendered in Lego form. Its levels span the full arc of the saga, beginning with the Trade Federation's blockade and negotiations above the planet Naboo and continuing through to the Rebel assault on the second Death Star near the forest moon of Endor. Along the way, players step into the roles of the saga's many heroes and villains as the conflict between the galaxy's factions unfolds.",
         "keywords": [
             "aliens",
             "ghosts",
@@ -6562,7 +6569,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "In a village of ninjas, an ancient prophecy foretells that a \"Western Hero\" will one day arrive to save them from the demons that plague the land. When the Demon King attacks, the promised hero appears and repels him, then entrusts a young ninja with a sacred scroll — naming him the Messenger and charging him to carry it east, to the top of a distant mountain. Aided along the way by a mysterious blue-robed shopkeeper, the Messenger sets out across a perilous world, his simple delivery gradually drawing him into a far greater struggle that spans centuries and bends time itself.",
         "keywords": [
             "retro",
             "ninja",
@@ -10461,7 +10468,7 @@
         "igdb_id": "2844",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2uk7.png",
         "artwork_url": "",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6gap.png",
         "game_name": "The Simpsons Hit And Run",
         "igdb_name": "The Simpsons: Hit & Run",
         "age_rating": "T",
@@ -13019,7 +13026,7 @@
     "trackmania": {
         "igdb_id": "133807",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobh9g.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5jk3.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar58yt.png",
         "key_art_url": "",
         "game_name": "Trackmania",
         "igdb_name": "Trackmania",
@@ -13319,8 +13326,7 @@
             "Fantasy"
         ],
         "platforms": [
-            "Nintendo GameCube",
-            "Wii U"
+            "Nintendo GameCube"
         ],
         "storyline": "Set hundreds of years after the events of Ocarina of Time, The Wind Waker finds the hero Link living with his grandmother on the Outset Island, one of the many small islands lost amidst the waters of the Great Sea. On his tenth birthday, Link encounters a giant bird carrying a girl. He rescues the girl, but as a result his own sister is taken away by the bird. The girl is a pirate captain named Tetra, who agrees to help Link find and rescue his sister. During the course of their journey, the two of them realize that a powerful, legendary evil is active again, and must find a way to stop him.",
         "keywords": [
