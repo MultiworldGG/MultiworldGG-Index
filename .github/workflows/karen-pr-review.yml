@@ -5,16 +5,15 @@ name: Karen's PR review
 # posts a sticky PR comment summarising the results, and requests human review
 # only when all checks are green.
 #
-# Triggers on changes to worlds/** or schema/**.
+# Runs on every PR against main (no paths filter): `review` and
+# `Isolated QA Checks` are required statuses on main, so both must report on
+# every PR or it can never merge. PRs with nothing in scope take the
+# skip-trivial path and pass both contexts.
 #
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
     branches: [main]
-    paths:
-      - "worlds/**"
-      - "schema/**"
-      - "scripts/karen_review.py"
 
 permissions:
   contents: read
@@ -255,6 +254,24 @@ jobs:
             -f name='Isolated QA Checks' \
             -f head_sha='${{ github.event.pull_request.head.sha }}' \
             -f status=queued
+
+      - name: Complete fuzz Check Run when nothing was dispatched
+        if: steps.detect.outputs.target_count == '0' || steps.build_payload.outputs.world_count == '0'
+        env:
+          GH_TOKEN: ${{ steps.karen_token.outputs.token }}
+        run: |
+          set -euo pipefail
+          # `Isolated QA Checks` is a required status on main, so it must
+          # report on every PR — including ones that dispatch nothing to the
+          # bot. Must come from Karen's app token: the required context is
+          # pinned to her integration id.
+          gh api -X POST repos/${{ github.repository }}/check-runs \
+            -f name='Isolated QA Checks' \
+            -f head_sha='${{ github.event.pull_request.head.sha }}' \
+            -f status=completed \
+            -f conclusion=success \
+            -f 'output[title]=Skipped: no fuzzable worlds in this PR' \
+            -f 'output[summary]=No changed `worlds/*.json` with a wheel `module_location`; nothing was dispatched to the isolated QA bot.'
 
       - name: Upload Karen artifacts
         if: always()
