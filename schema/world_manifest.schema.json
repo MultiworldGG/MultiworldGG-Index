@@ -28,6 +28,11 @@
             "pattern": "^v?[0-9]+(\\.[0-9]+)*([._-][A-Za-z0-9]+)*$",
             "description": "Semver-shape version of the world implementation. Used for the .apworld vs index precedence rule (higher wins; tiebreaker: installed wheel)."
         },
+        "disk_space_mb": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Wheel size in megabytes, rounded up; stamped by gen-pymod-release. Carried into the variant packages and consumed by the monorepo installer regen (ExtraDiskSpaceRequired)."
+        },
         "components": {
             "type": "array",
             "description": "Mirror of the world's launcher Component registrations, read import-free by LauncherComponents.world_manifest_components. Each entry names one component; 'type' is the core Type enum value lowercased (MISC and HIDDEN are never declared).",
