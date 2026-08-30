@@ -8,6 +8,7 @@
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_pikuniku-0.3.1-py3-none-any.whl#sha256=2de336c8c67821902b539266ef2ab604b9c93ad3872576216f01134aa9fb3b08",
-  "disk_space_mb": 1
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_pikuniku-0.3.1-py3-none-any.whl#sha256=40e0de406af0c56553ef51892549b4912fa2690a1277354b6ecf1b446047616e",
+  "disk_space_mb": 1,
+  "igdb_id": 55190
 }

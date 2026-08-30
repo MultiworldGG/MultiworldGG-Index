@@ -5,8 +5,8 @@
     "authors": [
         "T0r1nn"
     ],
-    "world_version": "0.7.12",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_lethal_company-0.7.12-py3-none-any.whl#sha256=1f5b7119a238bfbbe1e5af6837f9f1441c00a978bfebc8b85246fa61e2a99abb",
+    "world_version": "0.7.13",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_lethal_company-0.7.13-py3-none-any.whl#sha256=86030da26581a47a7a9bc8a64650ea0b37647f2d0c8e734c4d2752681f468c25",
     "disk_space_mb": 1,
     "igdb_id": 212089
 }

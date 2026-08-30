@@ -7,6 +7,7 @@
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_funi_raccoon-1.6.1-py3-none-any.whl#sha256=ab92a7008dcc0473505dabbb4a7d3caef667e7cbfcdd54bd17f30609ba38eff8",
-  "disk_space_mb": 1
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_funi_raccoon-1.6.1-py3-none-any.whl#sha256=42eccd051a785d96aeb4fa47505f58f9a22846538237ad4c81273a3f8479eb9e",
+  "disk_space_mb": 1,
+  "igdb_id": 333975
 }

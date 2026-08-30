@@ -5,12 +5,13 @@
     ],
     "minimum_ap_version": "0.6.6",
     "world_version": "2.1.7",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_gl-2.1.7-py3-none-any.whl#sha256=ad59a3e279461b70cd964affa152487b2f6d2da3ba7a81e751ff353bd3173d01",
-    "disk_space_mb": 1,
     "components": [
         {
             "name": "Gauntlet Legends Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_gl-2.1.7-py3-none-any.whl#sha256=c3f07ec6af1973afa8c07c6a6fb9239afca9a8fe6bb41142cd1bab31c366eaf4",
+    "disk_space_mb": 1,
+    "igdb_id": 3501
 }

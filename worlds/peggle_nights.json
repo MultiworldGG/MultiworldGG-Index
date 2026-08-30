@@ -9,13 +9,13 @@
     "minimum_ap_version": "0.6.7",
     "version": 7,
     "world_version": "1.2.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_peggle_nights-1.2.0-py3-none-any.whl#sha256=fbe61e28a84ccb9ea013b88ed8f01a1f68ca8d8f237b74d8e0e48f262193656c",
-    "disk_space_mb": 3,
-    "igdb_id": 14813,
     "components": [
         {
             "name": "Peggle Nights Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_peggle_nights-1.2.0-py3-none-any.whl#sha256=f6549223f46cbe8ee6d586b456a4d31fb8a4a17e79a4f20e31e49129466d49a1",
+    "disk_space_mb": 3,
+    "igdb_id": 14813
 }

@@ -1,6 +1,5 @@
 {
     "game": "Pokemon Mystery Dungeon Explorers of Sky",
-    "igdb_id": 2323,
     "minimum_ap_version": "0.6.3",
     "world_version": "0.3.2",
     "authors": [
@@ -11,5 +10,7 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_pmd_eos-0.3.2-py3-none-any.whl#sha256=7da3737a5b0b5d6dc68a1edcfdfdf9d92c5a4ce5d0ab4ebb6e06750f5e0aa929"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_pmd_eos-0.3.2-py3-none-any.whl#sha256=2d01d47b215c0c673e72808c2a53a207599eb207452cdf0df0e0622219f657ee",
+    "disk_space_mb": 1,
+    "igdb_id": 2323
 }

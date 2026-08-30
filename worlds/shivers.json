@@ -6,6 +6,7 @@
         "GodlFire",
         "Cynbel_Terreus"
     ],
-    "igdb_id": 12477,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_shivers-2.7.5-py3-none-any.whl#sha256=f3525170d999d24d579400d299dd36e81b49b6dd5dac050a1aab5acf01de6331"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_shivers-2.7.5-py3-none-any.whl#sha256=aacc4fd600d1b12b25ff25146118f7cf03229955fde19be76e2d36adde6c01c0",
+    "disk_space_mb": 1,
+    "igdb_id": 12477
 }

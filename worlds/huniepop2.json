@@ -4,8 +4,9 @@
     "authors": [
         "Dotsofdarkness"
     ],
-    "igdb_id": 72472,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_huniepop2-3.1.0-py3-none-any.whl#sha256=83d5ea55d425380d6833a48fe95da69a725f1ae37e4b78ce626811cbc2292dda"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_huniepop2-3.1.0-py3-none-any.whl#sha256=cf9e9ead2aca7593de303a86b6ea0842d45797c106c4b67752f7270db3c7be15",
+    "disk_space_mb": 1,
+    "igdb_id": 72472
 }

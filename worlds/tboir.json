@@ -7,13 +7,13 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_tboir-0.4.3-py3-none-any.whl#sha256=6b95b5fcf28db23cf50f005c287c5e28e49d8ef5ac880e6262f79133e3231d8e",
-    "disk_space_mb": 1,
-    "igdb_id": 310643,
     "components": [
         {
             "name": "Isaac Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tboir-0.4.3-py3-none-any.whl#sha256=c5178d3c923558e106a544712d6ec70f17407d31601e73622bcdc23e5faaaba8",
+    "disk_space_mb": 1,
+    "igdb_id": 310643
 }

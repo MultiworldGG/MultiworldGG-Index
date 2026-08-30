@@ -11,14 +11,14 @@
         "yuxia228",
         "1theory"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_rac3-0.6.0-py3-none-any.whl#sha256=d4caa77ac01fc636a644ee3546cacda197f19d2807a560eb56a3d818a6e7cbfe",
-    "disk_space_mb": 3,
-    "igdb_id": 1773,
     "components": [
         {
             "name": "Ratchet and Clank 3 Client",
             "type": "client",
             "description": "Launch the Client for connecting to Ratchet and Clank 3 [PlayStation 2]"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_rac3-0.6.0-py3-none-any.whl#sha256=bdd34f02b3c2abd3fce495bb89bf4ba0f020d0d7a8a7cf597f787c43f34df215",
+    "disk_space_mb": 3,
+    "igdb_id": 1773
 }

@@ -7,13 +7,13 @@
     "minimum_ap_version": "0.3.9",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_adventure-0.0.1-py3-none-any.whl#sha256=84f244ea290db0fa9a76ca9d0e97a26ee9baf5f542fdbed94427a88d4d4d9e55",
-    "disk_space_mb": 1,
-    "igdb_id": 12239,
     "components": [
         {
             "name": "Adventure Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_adventure-0.0.1-py3-none-any.whl#sha256=f23094e89b480bcac870f907fae2a167c2bf41eacefb0ff92e1ef78717a6ce94",
+    "disk_space_mb": 1,
+    "igdb_id": 12239
 }

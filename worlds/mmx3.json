@@ -1,10 +1,13 @@
 {
     "game": "Mega Man X3",
+    "world_version": "1.5.2",
+    "minimum_ap_version": "0.6.7",
     "authors": [
         "lx5"
     ],
-    "igdb_id": 1743,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mmx3-0.0.1-py3-none-any.whl#sha256=2de76f65c567b5bc1e1c56f333764d3c95153be5ccc9a564d0bcdfef0fa16814"
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_mmx3-1.5.2-py3-none-any.whl#sha256=5ad2e8e09d81a27db16692f6ff5ed77424c3ee79e67af1b162897ff92d9d5a59",
+    "disk_space_mb": 1,
+    "igdb_id": 1743
 }

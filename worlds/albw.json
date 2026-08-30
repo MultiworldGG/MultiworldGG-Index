@@ -1,19 +1,19 @@
 {
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.3.2",
+    "world_version": "0.3.3",
     "authors": [
         "randomsalience"
     ],
     "version": 7,
     "compatible_version": 7,
     "game": "A Link Between Worlds",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_albw-0.3.2-py3-none-any.whl#sha256=21fd107c24b0fb11dd35fbd89c3076d8d65feeb403944c2a6157050daf878ba8",
-    "disk_space_mb": 6,
-    "igdb_id": 2909,
     "components": [
         {
             "name": "A Link Between Worlds Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_albw-0.3.3-py3-none-any.whl#sha256=c692a2b38cd2a27ef0a640875b5d55df5c8fb38fc91595e785021ae0d384e46a",
+    "disk_space_mb": 9,
+    "igdb_id": 2909
 }

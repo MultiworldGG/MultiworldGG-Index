@@ -13,13 +13,13 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_deltarune-2.1.3-py3-none-any.whl#sha256=1f43b19d839c4712dab58fe0565c9d5fe0b174f92293ad356b4fd341c93aedfc",
-    "disk_space_mb": 2,
-    "igdb_id": 171233,
     "components": [
         {
             "name": "DELTARUNE Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_deltarune-2.1.3-py3-none-any.whl#sha256=69d5fc372e223b4a96634440fadb41093debf24c1ae9ac6b5a5f63a2330d2cfc",
+    "disk_space_mb": 2,
+    "igdb_id": 171233
 }

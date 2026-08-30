@@ -6,16 +6,16 @@
         "Austin"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "4.13.0",
+    "world_version": "4.13.1",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_banjo_tooie-4.13.0-py3-none-any.whl#sha256=d2338c819b78896d8bb9d0ba2f1f796f557d76d78ab305d5a6dae2d78f4a8ff2",
-    "disk_space_mb": 1,
-    "igdb_id": 3418,
     "components": [
         {
             "name": "Banjo-Tooie Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_banjo_tooie-4.13.1-py3-none-any.whl#sha256=10b03c67eb570be299e13478a0e8a805032d0df700641d5378c95eac404150ef",
+    "disk_space_mb": 1,
+    "igdb_id": 3418
 }

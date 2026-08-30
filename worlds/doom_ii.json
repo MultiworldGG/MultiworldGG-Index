@@ -1,11 +1,11 @@
 {
     "game": "DOOM II",
+    "world_version": "0.0.1",
     "authors": [
         "Daivuk",
         "Kaito Sinclaire"
     ],
-    "igdb_id": 312,
-    "minimum_ap_version": "0.6.4",
-    "world_version": "0.0.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_doom_ii-0.0.1-py3-none-any.whl#sha256=4f8fed42b9d2d48924301f646b8f983be14a8d622a05b658c66681054a1e6822"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_doom_ii-0.0.1-py3-none-any.whl#sha256=73617438a4e5d14d20bddb983dd811d5c1ab9d6935e37d5cb4cbb6be24f5b665",
+    "disk_space_mb": 1,
+    "igdb_id": 312
 }

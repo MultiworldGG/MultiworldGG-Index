@@ -4,16 +4,17 @@
         "MrsMarinaRose",
         "Joshark"
     ],
-    "igdb_id": 1075,
     "minimum_ap_version": "0.6.5",
     "world_version": "0.6.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_sms-0.6.2-py3-none-any.whl#sha256=59239e989a8b5645baf66dcba0deea7b81199dd8d4ceed8ee31dcfed97e93a8f",
     "components": [
         {
             "name": "Super Mario Sunshine Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_sms-0.6.2-py3-none-any.whl#sha256=8d9a124062f7cf46fe685c436ff8747c19dc43a55a9ff220bdeda9497f1e112c",
+    "disk_space_mb": 1,
+    "igdb_id": 1075
 }

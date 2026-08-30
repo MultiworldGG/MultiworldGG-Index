@@ -8,13 +8,13 @@
     "world_version": "1.7.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_smo-1.7.4-py3-none-any.whl#sha256=1b8959822100d5a28091078cb59698fe689def611a154ee72d3ef8e148f8e61b",
-    "disk_space_mb": 1,
-    "igdb_id": 26758,
     "components": [
         {
             "name": "Adi's Unofficial Super Mario Odyssey Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_smo-1.7.4-py3-none-any.whl#sha256=2efde96aa41649fc50e8ee4273c531a68255596e4e19a0b8161e1ad1ca714146",
+    "disk_space_mb": 1,
+    "igdb_id": 26758
 }

@@ -1,12 +1,13 @@
 {
     "game": "Final Fantasy V Career Day",
     "world_version": "0.0.1",
-    "version": 7,
-    "compatible_version": 7,
     "authors": [
         "Junglechief",
         "cleartonic"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ffvcd-0.0.1-py3-none-any.whl#sha256=c6e3309293e65479db35350088b40db477b5c9c9698aa48a82241f1562120363",
-    "disk_space_mb": 2
+    "version": 7,
+    "compatible_version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ffvcd-0.0.1-py3-none-any.whl#sha256=8a25cf22eb2040a55807ee5fc77016273891eed386fe2291d69569dfa3e46354",
+    "disk_space_mb": 2,
+    "igdb_id": 419
 }

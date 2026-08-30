@@ -4,8 +4,9 @@
         "MarioManTAW"
     ],
     "world_version": "0.6.1",
-    "igdb_id": 0,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_paint-0.6.1-py3-none-any.whl#sha256=97aa91ce00e0a546a1d2eba6225ae916734904d869003a70284e5494cb8efa5b"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_paint-0.6.1-py3-none-any.whl#sha256=ee2ffe9fd1d8781ef64050d6da95599c0b5539e2027f7864000a318b04ff099d",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }

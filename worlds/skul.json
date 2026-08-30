@@ -8,6 +8,7 @@
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_skul-1.0.2-py3-none-any.whl#sha256=f72052f9d2e441f1d15d2b2ff7f7f31ee35809889e8486489cf1a76d4d4bb754",
-  "disk_space_mb": 1
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_skul-1.0.2-py3-none-any.whl#sha256=777f2254c82822de15b4a97f6b63341d03cb279ed2d8536739791c23af89768c",
+  "disk_space_mb": 1,
+  "igdb_id": 127842
 }

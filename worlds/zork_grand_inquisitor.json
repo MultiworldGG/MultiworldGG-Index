@@ -11,13 +11,13 @@
     "minimum_ap_version": "0.6.7",
     "version": 7,
     "world_version": "2.2.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_zork_grand_inquisitor-2.2.0-py3-none-any.whl#sha256=807d4d2f8c5258d4a063fcb9d09dc5d9eb03dfb698962c9cf9a19e82693cb06d",
-    "disk_space_mb": 2,
-    "igdb_id": 1955,
     "components": [
         {
             "name": "Zork Grand Inquisitor Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_zork_grand_inquisitor-2.2.0-py3-none-any.whl#sha256=8581c4ceb831c8eb6f9aec333c6c3e87f80d2607c9f1e5e60bc8ec6eba77ce1d",
+    "disk_space_mb": 2,
+    "igdb_id": 1955
 }

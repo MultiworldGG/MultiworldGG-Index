@@ -7,13 +7,13 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_bfbb-1.2.5-py3-none-any.whl#sha256=764bffd1545554e043e658fbb0b56dc9763aa8385b9c7f5ac1ee1bd139cc6d70",
-    "disk_space_mb": 24,
-    "igdb_id": 2765,
     "components": [
         {
             "name": "Battle for Bikini Bottom Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_bfbb-1.2.5-py3-none-any.whl#sha256=3ac7649666bb2793b2e581ce3f7a363b1b64486eaafa2a5e370511d3d5c7b064",
+    "disk_space_mb": 24,
+    "igdb_id": 2765
 }

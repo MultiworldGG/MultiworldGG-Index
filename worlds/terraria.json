@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_terraria-0.0.1-py3-none-any.whl#sha256=5f3afe6114367a4d7e7dd5544fa0be4498d8e499b207544adc0863c168c4bcfa",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_terraria-0.0.1-py3-none-any.whl#sha256=db05d050d66568742bb95deb958b861b97ffaf75e7a5dac77dd944f008e69a9c",
     "disk_space_mb": 1,
     "igdb_id": 1879
 }

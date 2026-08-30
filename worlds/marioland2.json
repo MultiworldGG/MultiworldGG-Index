@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=b671b166c7b72ba2acc28bc98dbe88adfe1c3083aa1e427060199229041086c6",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_marioland2-0.0.1-py3-none-any.whl#sha256=bc9796ad6cd57c7573c2c72908edbdb062aa8d683f263a1e226334cb209b554a",
     "disk_space_mb": 1,
     "igdb_id": 1071
 }

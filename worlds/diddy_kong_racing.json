@@ -4,16 +4,17 @@
         "zakwiz",
         "jjjj12212"
     ],
-    "igdb_id": 2723,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.1.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_diddy_kong_racing-1.1.4-py3-none-any.whl#sha256=1d241edf355fd8f2ca88c71f809e45eb1ccdab7554f4f53121d57c543d2d71c1",
     "components": [
         {
             "name": "Diddy Kong Racing Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_diddy_kong_racing-1.1.4-py3-none-any.whl#sha256=3e45fae86c4dfdac24530a046ebc7dcaaac110794ae481159fb3885c8ac6fad0",
+    "disk_space_mb": 1,
+    "igdb_id": 2723
 }

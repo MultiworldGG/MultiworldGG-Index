@@ -1,18 +1,19 @@
 {
     "game": "HITMAN World of Assassination",
-    "minimum_ap_version": "0.6.3",
+    "minimum_ap_version": "0.6.7",
     "world_version": "0.8.2",
     "authors": [
         "BenDipp"
     ],
-    "igdb_id": 233571,
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-06-02/worlds_hitman_woa-0.8.2-py3-none-any.whl#sha256=2cae73e2ae01e9221bb544984d7ccd365d8a0bc9dbae316a892bad0a04b109d2",
     "components": [
         {
             "name": "HITMAN World of Assassination Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_hitman_woa-0.8.2-py3-none-any.whl#sha256=7a62be45f0c055ee6509231e4297ef688e483d10d8d2fd5e45aacd41da5c448b",
+    "disk_space_mb": 8,
+    "igdb_id": 233571
 }
