@@ -1,11 +1,12 @@
 {
     "game": "Resident Evil 3 Remake",
+    "world_version": "0.2.7",
     "authors": [
         "TheRealSolidusSnake"
     ],
-    "igdb_id": 115115,
-    "world_version": "0.2.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_residentevil3remake-0.2.7-py3-none-any.whl#sha256=06b7a712717472abc817686196a233c15204646ff7e78f4f49eb83403a449fd6"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_residentevil3remake-0.2.7-py3-none-any.whl#sha256=e7f5693a90333832dfa4eda5c2279961c89e69aee2defb5ba85f44d2a40d70e4",
+    "disk_space_mb": 1,
+    "igdb_id": 115115
 }
