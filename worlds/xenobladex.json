@@ -5,16 +5,16 @@
         "Nina"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.2.4",
+    "world_version": "0.2.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_xenobladex-0.2.4-py3-none-any.whl#sha256=d2250cc575fd86b02ec03275a30a1ae87460487020fd845697f3506c9d2e49cc",
-    "disk_space_mb": 1,
-    "igdb_id": 2366,
     "components": [
         {
             "name": "Xenoblade X Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_xenobladex-0.2.5-py3-none-any.whl#sha256=dac10e27ece35353a2683913787fd5dbcc5be6361a0c84c4de44de84ee0b5fbb",
+    "disk_space_mb": 1,
+    "igdb_id": 2366
 }
