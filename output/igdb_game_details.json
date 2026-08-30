@@ -4572,6 +4572,31 @@
         ],
         "release_date": ""
     },
+    "glassanimals": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Glass Animals Discography",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "grinch": {
         "igdb_id": "",
         "cover_url": "",
