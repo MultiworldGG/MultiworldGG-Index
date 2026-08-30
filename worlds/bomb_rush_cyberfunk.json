@@ -4,6 +4,7 @@
     "authors": [
         "TRPG"
     ],
-    "igdb_id": 135940,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_bomb_rush_cyberfunk-1.0.6-py3-none-any.whl#sha256=1c331a94f93c0255edeba17ffdf64ab657daaedd33e298f64cb7aba78cdfed6a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_bomb_rush_cyberfunk-1.0.6-py3-none-any.whl#sha256=e855b61e1b10b406719411c6cff7f1e234dbc862f3df3307e9038959a5c91f85",
+    "disk_space_mb": 1,
+    "igdb_id": 135940
 }
