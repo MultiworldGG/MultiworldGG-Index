@@ -5,7 +5,7 @@
     "minimum_ap_version": "0.5.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_outer_wilds-1.2.2-py3-none-any.whl#sha256=210302935c6019b46000cf56902d8afc2d47f3bbc21fe5e0cbc27e681c6bf81c",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_outer_wilds-1.2.2-py3-none-any.whl#sha256=eda51337e46fef057675e82ec0d5e71fbe348c80338d9b7f236cb1556865199b",
     "disk_space_mb": 1,
     "igdb_id": 11737
 }
