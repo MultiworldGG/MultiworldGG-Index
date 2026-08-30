@@ -6,7 +6,7 @@
     ],
     "minimum_ap_version": "0.6.3",
     "world_version": "2.3.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_satisfactory-2.3.1-py3-none-any.whl#sha256=2da06b971872b703af74e08602033043a1e3ddc7a45fd05490f155e957408d51",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_satisfactory-2.3.1-py3-none-any.whl#sha256=63a0a303d59a21bf36851d6016fc66c69cc25ab06656079c727a27f08e6bed68",
     "disk_space_mb": 1,
     "igdb_id": 90558
 }
