@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_cccharles-0.0.1-py3-none-any.whl#sha256=d8be1a24b18f730e1f365ee29d6fe9d37f758cf11071a9c7e512f091b5f133ef",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_cccharles-0.0.1-py3-none-any.whl#sha256=2546b317badaca43d0f9566629ecb6f165e3e38218e360aa5892add3b65b4d55",
     "disk_space_mb": 1,
     "igdb_id": 173432
 }
