@@ -5,13 +5,13 @@
     ],
     "minimum_ap_version": "0.6.3",
     "world_version": "2.0.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_kh2-2.0.0-py3-none-any.whl#sha256=948df8aac6d4e9cccace31df448165b1179c1adda458cf06707c9701a90c5b23",
-    "disk_space_mb": 1,
-    "igdb_id": 1221,
     "components": [
         {
             "name": "KH2 Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_kh2-2.0.0-py3-none-any.whl#sha256=0a739aab5346cff29b0f5d62901321b27292107229cb4ad079da50477c542557",
+    "disk_space_mb": 1,
+    "igdb_id": 1221
 }
