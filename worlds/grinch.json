@@ -9,5 +9,6 @@
   "version": 7,
   "compatible_version": 7,
   "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_grinch-1.6.1-py3-none-any.whl#sha256=46627bfe7f41df6cd3af227f8760b945fd13b2fe5c58cefac3710876fc9c3ae0",
-  "disk_space_mb": 1
+  "disk_space_mb": 1,
+  "igdb_id": 15487
 }
