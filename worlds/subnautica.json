@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_subnautica-0.0.1-py3-none-any.whl#sha256=7b17cbf7303b167a85c4e4228290c3cda568784df821c8155b2aa319f9f157a5",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_subnautica-0.0.1-py3-none-any.whl#sha256=638bf29089dd12c0194c119735506973b4b25dc38f497665637067550ce3ee48",
     "disk_space_mb": 1,
     "igdb_id": 9254
 }
