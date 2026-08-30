@@ -3,8 +3,11 @@
     "authors": [
         "Jarno"
     ],
-    "igdb_id": 28952,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.38.1",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_timespinner-1.38.1-py3-none-any.whl#sha256=f13cf9edb19f4239c9e850933fc28e57997499f290e8488a79f194ba1e63d813"
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_timespinner-1.38.1-py3-none-any.whl#sha256=4a458320f0ddcc916cce8f2e459bd369749c2d66470b8f3e329a058154dac938",
+    "disk_space_mb": 1,
+    "igdb_id": 28952
 }
