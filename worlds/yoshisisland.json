@@ -3,8 +3,9 @@
     "authors": [
         "Pink Switch"
     ],
-    "igdb_id": 1073,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.0.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yoshisisland-1.0.0-py3-none-any.whl#sha256=ebdfd5d3fa0d8e1b9290aa1321884a4083555715c4b2ae1440fd6e871aa4c637"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_yoshisisland-1.0.0-py3-none-any.whl#sha256=dab947d2e283c0bf36dbf01991335c2e3cc856587641757794856c53095cfc64",
+    "disk_space_mb": 1,
+    "igdb_id": 1073
 }

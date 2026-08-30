@@ -5,6 +5,7 @@
     "authors": [
         "Nikkilite"
     ],
-    "igdb_id": 36597,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_cat_quest-0.3.0-py3-none-any.whl#sha256=4352408c6294bcec966e42014cc070f6771834892e9e994e27c2ae829b9cec1c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_cat_quest-0.3.0-py3-none-any.whl#sha256=5827dcbf63f5830b610707c76dd733dcd7b05ece756211a240cc2693a6ad51a8",
+    "disk_space_mb": 1,
+    "igdb_id": 36597
 }

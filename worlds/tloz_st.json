@@ -1,6 +1,6 @@
 {
     "game": "Spirit Tracks",
-    "world_version": "0.8.2",
+    "world_version": "0.8.3",
     "authors": [
         "DayKat",
         "1313e",
@@ -12,7 +12,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tloz_st-0.8.2-py3-none-any.whl#sha256=7197a0f1c34451229cbffaedc0b372543847e4500596b81085300b2e2804ebad",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tloz_st-0.8.3-py3-none-any.whl#sha256=e9378c7bfbfd704d520028d6a5036353cad0d434e3a8ac271f1608163bf90c88",
     "disk_space_mb": 5,
     "igdb_id": 1038
 }

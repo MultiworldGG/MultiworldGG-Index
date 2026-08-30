@@ -7,5 +7,6 @@
     "world_version": "1.0.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_bksim-1.0.2-py3-none-any.whl#sha256=b33611c7acc81e35347ed9b11c4c40dc2f54fa7cf952b63836def08f6eb5b306"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_bksim-1.0.2-py3-none-any.whl#sha256=f5c3d15a31a5435b627a5639c011578fe0800a6981ba2a195bbacd012aef88ea",
+    "disk_space_mb": 1
 }

@@ -4,6 +4,7 @@
     "authors": [
         "Rosalie"
     ],
-    "igdb_id": 1022,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz-1.0.0-py3-none-any.whl#sha256=b45b672410764c2d638fd210452e07385409e84239e0491a8a4424502a562168"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tloz-1.0.0-py3-none-any.whl#sha256=3273844506618054c28e58e9da35c0974d56ccd234caef425fa938e116be7560",
+    "disk_space_mb": 1,
+    "igdb_id": 1022
 }

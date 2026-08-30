@@ -5,12 +5,12 @@
     "authors": [
         "BrittisH39"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_hades2rogue-0.9.3-py3-none-any.whl#sha256=6bc552b613add3d39a061d855bb1243debafa03790f9e1067e614d1f63164d73",
-    "disk_space_mb": 1,
     "components": [
         {
             "name": "Hades 2 Rogue Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_hades2rogue-0.9.3-py3-none-any.whl#sha256=98c867620ce32ea8de52522cba002614775f4637be05729bb3fd054be06f93ec",
+    "disk_space_mb": 1
 }

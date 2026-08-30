@@ -1,12 +1,11 @@
 {
-    "version": 6,
-    "compatible_version": 5,
     "game": "Bumper Stickers",
     "authors": [
         "KewlioMZX"
     ],
-    "igdb_id": 271950,
     "world_version": "1.0.0",
     "minimum_ap_version": "0.6.4",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_bumpstik-1.0.0-py3-none-any.whl#sha256=6190e0d639df78993ffd45e1c0cb818ef8519efa17308ad016dcac953711d55c"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_bumpstik-1.0.0-py3-none-any.whl#sha256=a5b268e6286491b2ada941085c9a587a2ab6085c538dbf89b7a107bad1e3b596",
+    "disk_space_mb": 1,
+    "igdb_id": 271950
 }

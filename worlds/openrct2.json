@@ -7,13 +7,13 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_openrct2-0.1.22-py3-none-any.whl#sha256=dd479e69383ecf7a2a11601f6129344d7b145718aefcbca2bdb627a527dbb7bc",
-    "disk_space_mb": 2,
-    "igdb_id": 80720,
     "components": [
         {
             "name": "OpenRCT2 Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_openrct2-0.1.22-py3-none-any.whl#sha256=2f373fec842b8ac6c5de0b4d203dfe9227f64805b080fa271b6e7788f992e4d7",
+    "disk_space_mb": 2,
+    "igdb_id": 80720
 }

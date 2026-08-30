@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.3.8",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=e75c2d63d09f2d2f063cf4223eb49c41791440d001e62ba198ac9a9cccffad5e",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_overcooked2-0.0.1-py3-none-any.whl#sha256=b70d029b21bd3973e70e80dfcc291379d3cd9b09e6743cb774971bcb47643994",
     "disk_space_mb": 1,
     "igdb_id": 103341
 }

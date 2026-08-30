@@ -15,6 +15,7 @@
   "minimum_ap_version": "0.6.3",
   "version": 7,
   "world_version": "2.0.20260629",
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-16/worlds_doom_ii_beta-2.0.20260629-py3-none-any.whl#sha256=acd257d1aa9149d1a2e4580ffe721cfc26d3bf41e984bdad5cba806f711a7374",
-  "disk_space_mb": 1
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_doom_ii_beta-2.0.20260629-py3-none-any.whl#sha256=9275a360c8dd05d9dac3b127239208b49196099bac40d5c81d5d11c83ce3aa27",
+  "disk_space_mb": 1,
+  "igdb_id": 312
 }

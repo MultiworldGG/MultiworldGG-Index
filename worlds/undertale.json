@@ -7,13 +7,13 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_undertale-0.0.1-py3-none-any.whl#sha256=db3371309328a69ce4a991f3d1b798af6ef7373b716f935003d2123fd672f3ed",
-    "disk_space_mb": 1,
-    "igdb_id": 12517,
     "components": [
         {
             "name": "Undertale Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_undertale-0.0.1-py3-none-any.whl#sha256=b1059ad1ac932a555f163f7f6710c67849d195d2f8e034fd1ab45c9da3e20c27",
+    "disk_space_mb": 1,
+    "igdb_id": 12517
 }

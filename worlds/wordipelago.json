@@ -3,10 +3,11 @@
     "authors": [
         "ProfDeCube"
     ],
-    "igdb_id": 0,
     "minimum_ap_version": "0.6.4",
     "world_version": "1.0.1",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_wordipelago-1.0.1-py3-none-any.whl#sha256=05b3a78e91480ffbe48e0b78f3025240b7f04287b0aa980f8abeb4f5a218fbb2"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_wordipelago-1.0.1-py3-none-any.whl#sha256=3376e58b254fb29371e3788993b1e6a009ae77c5ae44bbb0910cf6a0265ee4b3",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }

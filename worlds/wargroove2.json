@@ -10,13 +10,13 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_wargroove2-1.1.10-py3-none-any.whl#sha256=450fddd63394ddc40a6c4a2351d1bb59ce105e3a43c983349e7761e412b6c833",
-    "disk_space_mb": 2,
-    "igdb_id": 27441,
     "components": [
         {
             "name": "Wargroove 2 Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_wargroove2-1.1.10-py3-none-any.whl#sha256=65f22cfba69898ab4f2c45f12618e5e59c49d5b3d0f363702f5a317ec66faa7b",
+    "disk_space_mb": 2,
+    "igdb_id": 27441
 }
