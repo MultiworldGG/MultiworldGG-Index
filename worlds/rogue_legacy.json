@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.3.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_rogue_legacy-0.0.1-py3-none-any.whl#sha256=161e0c44c909d501c0e313a1ee043c2e1940ef72870fdff4ad271d4b5125a8a8",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_rogue_legacy-0.0.1-py3-none-any.whl#sha256=a5291497ba949007ff9f4b49db3760443ee44902df0605f0bc011e6c8aeeaf9d",
     "disk_space_mb": 1,
     "igdb_id": 3221
 }
