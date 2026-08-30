@@ -3,8 +3,9 @@
     "authors": [
         "jamesbrq"
     ],
-    "igdb_id": 3351,
     "minimum_ap_version": "0.6.3",
     "world_version": "1.10.2",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_mlss-1.10.2-py3-none-any.whl#sha256=cc3b50d0e5ce4d81d4cdefe1ca34e02ca6af7846e207fae54c3634abe0ebb85a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_mlss-1.10.2-py3-none-any.whl#sha256=34c518b9289c0ba21403b3d019f49f87c9dfcce8e18a4ad431a6c37f7c21c8b8",
+    "disk_space_mb": 1,
+    "igdb_id": 3351
 }
