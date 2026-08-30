@@ -3,10 +3,11 @@
     "authors": [
         "Spineraks"
     ],
-    "igdb_id": 0,
     "minimum_ap_version": "0.6.1",
     "world_version": "2.3.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yachtdice-2.3.3-py3-none-any.whl#sha256=64979343c743fc377f9dc1e6673fa1632fb81a96b848c08a305637c0fdde8b72"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_yachtdice-2.3.3-py3-none-any.whl#sha256=46ea4b75885d0849f1277faa1c515b9e77ae390fba397e4f4c8de85b824e4314",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }
