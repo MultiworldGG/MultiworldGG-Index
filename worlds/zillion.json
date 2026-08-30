@@ -7,13 +7,13 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_zillion-0.0.1-py3-none-any.whl#sha256=11a04e4a5172a3e71b12835e19db5e2baee3ea7d440d53b147f7aec7c5d1022f",
-    "disk_space_mb": 1,
-    "igdb_id": 18141,
     "components": [
         {
             "name": "Zillion Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_zillion-0.0.1-py3-none-any.whl#sha256=d9f83c7ce73b226fb0c0d04138e6d7d3368b14b2299477496de999f4b1030f5c",
+    "disk_space_mb": 1,
+    "igdb_id": 18141
 }
