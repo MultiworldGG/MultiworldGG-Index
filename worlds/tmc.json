@@ -1,12 +1,14 @@
 {
     "game": "The Minish Cap",
-    "authors": [
-        "EternalCode"
-    ],
-    "igdb_id": 1035,
-    "minimum_ap_version": "0.6.4",
+    "minimum_ap_version": "0.6.3",
     "world_version": "0.3.1",
+    "authors": [
+        "EternalCode",
+        "Myth197"
+    ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tmc-0.3.1-py3-none-any.whl#sha256=8925d1433ce52e516bbc143702221694684feb8f99c91fd1b5c43a2546ee320e"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tmc-0.3.1-py3-none-any.whl#sha256=1c549d98f0f917d1f6fdd8e1f565164cfb134a0f00775218037a4238a5030640",
+    "disk_space_mb": 1,
+    "igdb_id": 1035
 }
