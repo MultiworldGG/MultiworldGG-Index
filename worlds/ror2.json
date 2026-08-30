@@ -5,6 +5,7 @@
     "authors": [
         "Kindasneaki"
     ],
-    "igdb_id": 28512,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_ror2-1.5.0-py3-none-any.whl#sha256=aa0a71319bddf4276956e5e64c7c04f466f05c56a317569c639f25806c2fd3b7"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ror2-1.5.0-py3-none-any.whl#sha256=bd72c2859410de2a1c0e17ad9bac1f9d377ad114f129d9e217bb81097508e4c9",
+    "disk_space_mb": 1,
+    "igdb_id": 28512
 }
