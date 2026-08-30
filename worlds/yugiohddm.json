@@ -4,7 +4,8 @@
     "authors": [
         "Jumza"
     ],
-    "igdb_id": 49211,
     "compatible_version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_yugiohddm-0.3.3-py3-none-any.whl#sha256=46de08b56bf441ee6edd60d4363ee48e4f5c3ffb509a192eac0155be3e55835f"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_yugiohddm-0.3.3-py3-none-any.whl#sha256=b18ed21cfafe2bc100e0e232a962df8cc6b6f7f1a6e387ba9e149365292418b3",
+    "disk_space_mb": 1,
+    "igdb_id": 49211
 }
