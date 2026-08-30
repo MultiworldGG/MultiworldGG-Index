@@ -7,13 +7,13 @@
     "world_version": "0.3.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_tp-0.3.0-py3-none-any.whl#sha256=71ac869a77ca0dff1764c8de1d676c0089b363db0e3b0aaa556e45533a128071",
-    "disk_space_mb": 1,
-    "igdb_id": 134014,
     "components": [
         {
             "name": "Twilight Princess Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tp-0.3.0-py3-none-any.whl#sha256=8f2c23c553f3de009a60c6922179d99623a97f8920c53c27b31a5766e043823c",
+    "disk_space_mb": 1,
+    "igdb_id": 134014
 }
