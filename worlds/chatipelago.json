@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_chatipelago-0.0.1-py3-none-any.whl#sha256=b6c7af456c9ca88b8d323f3b249a493e18505863321ae1a7647fc8dd8439709b",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_chatipelago-0.0.1-py3-none-any.whl#sha256=3fb2c4701ae8b6e65a711eda4fe8dbb5a67493f7a065cd243eabf14762ac48c5",
     "disk_space_mb": 1,
     "igdb_id": 0
 }
