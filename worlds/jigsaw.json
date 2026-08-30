@@ -3,10 +3,11 @@
     "authors": [
         "Spineraks"
     ],
-    "igdb_id": 0,
     "minimum_ap_version": "0.6.0",
     "world_version": "0.10.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_jigsaw-0.10.0-py3-none-any.whl#sha256=a7980b4e2746118e001ddd20797de228c609c99cc35cfcdc24aabf8a5d1d7553"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_jigsaw-0.10.0-py3-none-any.whl#sha256=6b12b0d35923e0cdb8888de05278bbd01654806e51a0ca1ce10d1225090b89ef",
+    "disk_space_mb": 1,
+    "igdb_id": 0
 }
