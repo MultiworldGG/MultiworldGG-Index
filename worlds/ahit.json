@@ -7,13 +7,13 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ahit-0.0.1-py3-none-any.whl#sha256=20d659fbfa7478cc14b43618d48cdf9d5e589ac9c3c84435003060faf16e286b",
-    "disk_space_mb": 1,
-    "igdb_id": 6705,
     "components": [
         {
             "name": "A Hat in Time Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ahit-0.0.1-py3-none-any.whl#sha256=ccc5d28f806618eb85bdb635f8f1de58e55ad83aff49897971a6023edbe55bd8",
+    "disk_space_mb": 1,
+    "igdb_id": 6705
 }
