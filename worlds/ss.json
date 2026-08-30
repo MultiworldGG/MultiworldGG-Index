@@ -7,13 +7,13 @@
     "world_version": "0.5.6",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_ss-0.5.6-py3-none-any.whl#sha256=fd43242273c6c600b0c06283433db899bf6c534b3e35dc85d1bad3536afe22e6",
-    "disk_space_mb": 1,
-    "igdb_id": 534,
     "components": [
         {
             "name": "Skyward Sword Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ss-0.5.6-py3-none-any.whl#sha256=9d3aaad54cfc1e5995cab2c9d3f62a2a66f5647162bd9525645060c03b62adf6",
+    "disk_space_mb": 1,
+    "igdb_id": 534
 }
