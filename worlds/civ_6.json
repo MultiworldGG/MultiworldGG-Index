@@ -7,13 +7,13 @@
     "minimum_ap_version": "0.4.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-24/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=bfacb2ef21c2a7b83a72cc67e1c3eca731c5f5b535d09c50dcdf9edb575c2610",
-    "disk_space_mb": 1,
-    "igdb_id": 293,
     "components": [
         {
             "name": "Civ6 Client",
             "type": "client"
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=6f5901659203ec4e80c0b96aae0b5c945a77c4efd4dfd9cea979337af18825bf",
+    "disk_space_mb": 1,
+    "igdb_id": 293
 }
