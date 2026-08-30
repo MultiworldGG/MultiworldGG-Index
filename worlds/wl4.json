@@ -3,10 +3,11 @@
     "authors": [
         "lil David"
     ],
-    "igdb_id": 1699,
-    "world_version": "3.3.3",
-    "minimum_ap_version": "0.6.0",
+    "world_version": "3.4.0",
+    "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_wl4-3.3.3-py3-none-any.whl#sha256=9b3f3d229aeed1f5fdf3fb78edd1a5fe35d482bf225e31cc6cd12bfb6b00c46a"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_wl4-3.4.0-py3-none-any.whl#sha256=7a90b8659528b403b11b0caf08b2c3702527f8fd86e065cdf719034edeeb4f8a",
+    "disk_space_mb": 1,
+    "igdb_id": 1699
 }
