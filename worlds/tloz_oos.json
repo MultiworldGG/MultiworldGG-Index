@@ -4,17 +4,18 @@
         "Dinopony",
         "Ishigh"
     ],
-    "igdb_id": 1032,
     "minimum_ap_version": "0.6.7",
     "world_version": "20.1.13",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_tloz_oos-20.1.13-py3-none-any.whl#sha256=987e73ce3b4640febc04f274fc35d06119491142a051fbdd90f0dda8df8dbfa9",
     "components": [
         {
             "name": "TLOZ Oracle sprite editor",
             "type": "tool",
             "description": "An UI to extract and manipulates Link's sprite in Oracle of Seasons and Ages.\nEditing the sprite should be done with an external program."
         }
-    ]
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tloz_oos-20.1.13-py3-none-any.whl#sha256=8269a5e23c966c476ebd118076c9ab5d37daec87ed965a975b68a4270c489bf2",
+    "disk_space_mb": 1,
+    "igdb_id": 1032
 }
