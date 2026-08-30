@@ -3,10 +3,11 @@
     "authors": [
         "RoobyRoo"
     ],
-    "igdb_id": 187372,
     "world_version": "0.2.5",
     "minimum_ap_version": "0.6.5",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-05-16/worlds_frogmonster-0.2.5-py3-none-any.whl#sha256=2b6693b23612fb05dca35c436668a5bc5335cb8038843dba8eb295bdc31f0308"
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_frogmonster-0.2.5-py3-none-any.whl#sha256=fd311490599e841410b6fdfdcb037b1802138ff5c97a3795631ae97e4b98c553",
+    "disk_space_mb": 1,
+    "igdb_id": 187372
 }
