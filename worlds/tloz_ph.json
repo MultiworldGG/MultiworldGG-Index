@@ -13,7 +13,7 @@
     "minimum_ap_version": "0.6.3",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_tloz_ph-0.9.7-py3-none-any.whl#sha256=14ab6b6d7fdf76f0bcd1dd7b71c67996d3d4cfab65ea78cb2853c033c3f3cfae",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_tloz_ph-0.9.7-py3-none-any.whl#sha256=09d9c3316bed036d96435c8382067656807b74b0db1b7914d876f5f238085d5e",
     "disk_space_mb": 3,
     "igdb_id": 1037
 }
