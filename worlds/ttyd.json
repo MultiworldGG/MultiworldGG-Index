@@ -14,7 +14,7 @@
             "description": "Open the Paper Mario: The Thousand-Year Door client."
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ttyd-0.13.0-py3-none-any.whl#sha256=d92c355d5e173fc44aae65a7e4b477d349e8c7347c0b0ef47263ec2f7729b567",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_ttyd-0.13.0-py3-none-any.whl#sha256=5006905bd86e76009e3338cf25fec0769720d27be7fda82fa6ee0997b71e6185",
     "disk_space_mb": 2,
     "igdb_id": 3349
 }
