@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_xenobladex-0.2.5-py3-none-any.whl#sha256=dac10e27ece35353a2683913787fd5dbcc5be6361a0c84c4de44de84ee0b5fbb",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_xenobladex-0.2.5-py3-none-any.whl#sha256=b16ea93e070508b9198f49537f5b6fb343f6996082fb16ffe48f7b326c9b84a2",
     "disk_space_mb": 1,
     "igdb_id": 2366
 }
