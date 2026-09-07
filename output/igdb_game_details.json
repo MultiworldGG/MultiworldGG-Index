@@ -463,29 +463,152 @@
         "release_date": 690681600
     },
     "alttpr": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
-        "key_art_url": "",
+        "igdb_id": "1026",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3vzn.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1t8c.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2x.png",
         "game_name": "The Legend of Zelda: A Link to the Past",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "The Legend of Zelda: A Link to the Past",
+        "age_rating": "7",
+        "rating": [
+            "Mild Violence",
+            "Mild Animated Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric"
+        ],
         "genres": [
-            "Multiplayer"
+            "Puzzle",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
         "platforms": [
-            "Archipelago"
+            "Satellaview",
+            "Super Nintendo Entertainment System",
+            "Wii",
+            "Wii U",
+            "New Nintendo 3DS",
+            "Super Famicom"
         ],
-        "storyline": "",
+        "storyline": "The wizard Agahnim has been abducting descendants of the seven sages, intent on using their power to obliterate the barrier leading to the Dark World. One of the descendants happens to be Princess Zelda, who informs Link of her plight. Armed with a trusty sword and shield, Link begins a journey that will take him through treacherous territory.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "ghosts",
+            "wizards",
+            "magic",
+            "mascot",
+            "prequel",
+            "death",
+            "maze",
+            "archery",
+            "action-adventure",
+            "fairy",
+            "parallel worlds",
+            "backtracking",
+            "undead",
+            "campaign",
+            "princess",
+            "portals",
+            "pixel art",
+            "easter egg",
+            "teleportation",
+            "dwarves",
+            "sequel",
+            "level selection",
+            "giant insects",
+            "silent protagonist",
+            "swimming",
+            "darkness",
+            "boss fight",
+            "explosion",
+            "power glove",
+            "block puzzle",
+            "single-player only",
+            "monkey",
+            "nintendo power",
+            "world map",
+            "human",
+            "shopping",
+            "bow and arrow",
+            "damsel in distress",
+            "rat",
+            "collectibles",
+            "virtual console",
+            "disorientation zone",
+            "non-player character",
+            "4 player co-op",
+            "young protagonist",
+            "ice stage",
+            "escort mission",
+            "treasure chest",
+            "saving the world",
+            "side quests",
+            "potion",
+            "grapple",
+            "real-time combat",
+            "secret area",
+            "vision obstruction",
+            "shielded enemies",
+            "walking through walls",
+            "shaky camera",
+            "multi-phase boss",
+            "liberation",
+            "mercenary",
+            "coming of age",
+            "conveyor belt",
+            "villain",
+            "recurring boss",
+            "been here before",
+            "sleeping",
+            "merchants",
+            "multiple enemy boss fights",
+            "interquel",
+            "dimension travel",
+            "valuable garbage",
+            "fetch quests",
+            "competitive co-op",
+            "griefing",
+            "kidnapping",
+            "poisoning",
+            "time paradox",
+            "fast traveling",
+            "context sensitive",
+            "living inventory",
+            "falling object",
+            "status effects",
+            "slideshow cutscene",
+            "hidden room",
+            "no wrong choice",
+            "timeskip",
+            "another world",
+            "plane shifting",
+            "retroactive achievements",
+            "greatest hits",
+            "damage over time",
+            "monomyth",
+            "buddy system",
+            "contest-driven development",
+            "played for charity",
+            "male protagonist",
+            "broadcast",
+            "nintendo switch online",
+            "retroachievements",
+            "wii virtual console",
+            "satellaview view-limited games",
+            "satellaview demo/trial release",
+            "nintendo 3ds virtual console",
+            "wii u virtual console",
+            "fan translation - portuguese",
+            "nintendo gateway system",
+            "battery save",
+            "bees",
+            "player's choice",
+            "sword sorcery",
+            "technical feature - snes mode 7"
         ],
-        "release_date": ""
+        "release_date": 690681600
     },
     "am2r": {
         "igdb_id": "27238",
@@ -10665,6 +10788,57 @@
         ],
         "release_date": ""
     },
+    "slime_rancher": {
+        "igdb_id": "16287",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co73i2.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar5ub7.png",
+        "game_name": "Slime Rancher",
+        "igdb_name": "Slime Rancher",
+        "age_rating": "3",
+        "rating": [
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Shooter",
+            "Simulator",
+            "Strategy",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Open world"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "Xbox One"
+        ],
+        "storyline": "Slime Rancher is the tale of Beatrix LeBeau, a plucky, young rancher who sets out for a life a thousand light years away from Earth on the ‘Far, Far Range’ where she tries her hand at making a living wrangling slimes.",
+        "keywords": [
+            "exploration",
+            "female protagonist",
+            "steam",
+            "cute",
+            "pre-release public testing",
+            "xbox one x enhanced",
+            "games with gold",
+            "the game awards 2017",
+            "best debut indie game: nominee - 2017 (the game awards)",
+            "the game awards - nominee",
+            "4k ultra hd",
+            "farming simulator",
+            "the game awards - best debut indie game - nominee"
+        ],
+        "release_date": 1501545600
+    },
     "sly1": {
         "igdb_id": "1798",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1p0r.png",
@@ -14241,6 +14415,40 @@
             "multiworld"
         ],
         "release_date": ""
+    },
+    "yellowtaxi": {
+        "igdb_id": "216805",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7tvj.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1uqb.png",
+        "key_art_url": "",
+        "game_name": "Yellow Taxi Goes Vroom",
+        "igdb_name": "Yellow Taxi Goes Vroom",
+        "age_rating": "NR",
+        "rating": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Racing",
+            "Adventure",
+            "Indie",
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "PC (Microsoft Windows)"
+        ],
+        "storyline": "Pizza King, Morio and Ultra Chad are only a few of the weirdos you'll interact with as you piece together the narrative puzzle and unravel the grand conspiracy happening on Granny's Island!",
+        "keywords": [
+            "collectathon",
+            "taxi",
+            "moai"
+        ],
+        "release_date": 1712620800
     },
     "yoshisisland": {
         "igdb_id": "1073",
