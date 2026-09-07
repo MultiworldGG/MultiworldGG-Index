@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_openrct2-0.1.22-py3-none-any.whl#sha256=2f373fec842b8ac6c5de0b4d203dfe9227f64805b080fa271b6e7788f992e4d7",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_openrct2-0.1.22-py3-none-any.whl#sha256=093cfacb3fafc4478a1db1e3b7b20105bf6525b4b82761a21afc77d7e167c98d",
     "disk_space_mb": 2,
     "igdb_id": 80720
 }
