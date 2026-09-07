@@ -13,7 +13,7 @@
             "description": "Launch The Messenger.\nInstalls and checks for updates for the randomizer."
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_messenger-0.16.0-py3-none-any.whl#sha256=eb721375858356c51b46b89e2a0d26e914ec80016283e0a5c5cd0e70177145b9",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_messenger-0.16.0-py3-none-any.whl#sha256=dce16000a609079b66ddb191a06c2fe20adb5eb87fa24999dc88ce2d2bd48aa8",
     "disk_space_mb": 1,
     "igdb_id": 71628
 }

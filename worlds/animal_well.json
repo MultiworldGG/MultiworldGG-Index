@@ -16,7 +16,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_animal_well-0.5.3-py3-none-any.whl#sha256=5e04606738e11a5c457f512dd9684404b2bdb7c2e6e53050da23536929ca8cae",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_animal_well-0.5.3-py3-none-any.whl#sha256=b0cc3778221eadcf460011ac90ca8875eb12168ac5172390193b4c74ced39845",
     "disk_space_mb": 1,
     "igdb_id": 191435
 }

@@ -5,7 +5,7 @@
     "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_nine_sols-0.6.3-py3-none-any.whl#sha256=b7411558032b4e21b326dc53e4649fa9cc8929bc58a437d922ed5d51dcc16517",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_nine_sols-0.6.3-py3-none-any.whl#sha256=5601a55b3d8fffdfd0c3e8c5668f4060cc5829ef52d2a5126cd73aa10f0b753b",
     "disk_space_mb": 5,
     "igdb_id": 194821
 }

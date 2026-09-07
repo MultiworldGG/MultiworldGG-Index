@@ -1,13 +1,13 @@
 {
     "game": "Final Fantasy IV Free Enterprise",
-    "world_version": "0.0.1",
     "authors": [
         "Rosalie"
     ],
     "minimum_ap_version": "0.6.7",
+    "world_version": "0.0.1",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ff4fe-0.0.1-py3-none-any.whl#sha256=08138023445da1d16007512fe660b6eebd539394b52ec38ceb26b4c70a5198a6",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_ff4fe-0.0.1-py3-none-any.whl#sha256=5b585fc111ec4327fc7f6d7ea0eaf858875e2ccc30d1212152b2e9f4d9b55297",
     "disk_space_mb": 1,
     "igdb_id": 387
 }
