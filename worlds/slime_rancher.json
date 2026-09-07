@@ -8,5 +8,6 @@
   "compatible_version": 7,
   "version": 7,
   "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_slime_rancher-0.3.2-py3-none-any.whl#sha256=df7b044f1988a4029608cb67331990c5541aac5ed1dd05b98eb413ddd9557d80",
-  "disk_space_mb": 1
+  "disk_space_mb": 1,
+  "igdb_id": 16287
 }
