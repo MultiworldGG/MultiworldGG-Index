@@ -1,0 +1,20 @@
+{
+  "game": "Yellow Taxi Goes Vroom",
+  "minimum_ap_version": "0.6.7",
+  "world_version": "0.7.0",
+  "authors": [
+    "soopercool101"
+  ],
+  "igdb_id": 216805,
+  "license": "MIT",
+  "repo_url": "https://github.com/soopercool101/Archipelago/tree/YTGV",
+  "ai_disclosure": "Hint",
+  "flags": [
+    "supports_deathlink",
+    "supports_ringlink"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_yellowtaxi-0.7.0-py3-none-any.whl#sha256=b65f6b53c6488e1b3bdb08ef6a9d90253ae64cd20025fe4ad18312c3a508fcad",
+  "disk_space_mb": 1
+}
