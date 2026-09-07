@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_rac2-0.6.4-py3-none-any.whl#sha256=514a183a25460745f24b28dfeb72dd9f5b26f1d725331933b3a78e54c9e5c38c",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_rac2-0.6.4-py3-none-any.whl#sha256=7971480e870cd1d0cf49421e8cd72820cb4ca385016b87a268b50eb9f84b7255",
     "disk_space_mb": 1,
     "igdb_id": 1770
 }
