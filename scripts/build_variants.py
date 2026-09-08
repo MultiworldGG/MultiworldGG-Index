@@ -38,6 +38,7 @@ import shutil
 import sys
 from pathlib import Path
 from re import match
+from string import punctuation
 from typing import Any, Iterable, Optional
 
 
@@ -185,16 +186,26 @@ def _add_to_index(index: dict[str, set[str]], term: str, world_name: str) -> Non
         index[term].add(world_name)
 
 
+def _index_words(index: dict[str, set[str]], value: str, world_name: str) -> None:
+    """Index each whitespace-split word without its edge punctuation, so the
+    `zelda:` of a subtitled name still answers a `zelda` query."""
+    for word in value.split():
+        _add_to_index(index, word.strip(punctuation), world_name)
+
+
 def build_search_index(games_data: dict) -> dict[str, set[str]]:
     """Build the search index from game data. Mirrors the old pipeline:
-    seeds a curated `popular` set, indexes the display name plus a fixed set of
-    IGDB-derived fields, skips items containing `(`/`)`/`:`, and indexes both
-    the full lowercased value and each whitespace-split word."""
+    seeds a curated `popular` set, indexes the module slug and the display name
+    plus a fixed set of IGDB-derived fields, skips list items containing
+    `(`/`)`/`:`, and indexes both the full lowercased value and each
+    whitespace-split word. Keep in lockstep with the template's add_game."""
     search_index: dict[str, set[str]] = {
         "popular": {s for s in POPULAR_APWORLDS if s in games_data}
     }
     for world_name, game_data in games_data.items():
+        _add_to_index(search_index, world_name, world_name)
         _add_to_index(search_index, game_data["game_name"], world_name)
+        _index_words(search_index, clean_value(game_data["game_name"]), world_name)
         for field, value in game_data.items():
             if field not in SEARCHABLE_FIELDS:
                 continue
@@ -204,14 +215,12 @@ def build_search_index(games_data: dict) -> dict[str, set[str]]:
                     if item and not match(r".*[():].*", item):
                         cleaned = clean_value(item)
                         _add_to_index(search_index, cleaned, world_name)
-                        for word in cleaned.split():
-                            _add_to_index(search_index, word, world_name)
+                        _index_words(search_index, cleaned, world_name)
             elif isinstance(value, (str, int, float, bool)):
                 if value:
                     value_str = clean_value(value)
                     _add_to_index(search_index, value_str, world_name)
-                    for word in value_str.split():
-                        _add_to_index(search_index, word, world_name)
+                    _index_words(search_index, value_str, world_name)
     return search_index
 
 
