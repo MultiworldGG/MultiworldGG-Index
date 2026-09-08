@@ -1,10 +1,10 @@
 {
     "game": "Paper Mario",
-    "world_version": "0.0.1",
+    "world_version": "0.0.2",
     "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_papermario-0.0.1-py3-none-any.whl#sha256=60d1dff154563bd0832e40b4a4a7f8ead626c3c9545b851061ba83375d08aabd",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-08/worlds_papermario-0.0.2-py3-none-any.whl#sha256=dac157bcfc4330d764f5d62eae49665298ddd153a856b9f38298976147dc8346",
     "disk_space_mb": 2,
     "igdb_id": 3340
 }
