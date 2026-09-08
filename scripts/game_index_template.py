@@ -1,3 +1,5 @@
+from string import punctuation
+
 # These constants will be generated during build
 __variant__ = "VARIANT_PLACEHOLDER"  # age-rating variant: nr | ao | twelve | sixteen
 
@@ -141,7 +143,9 @@ class _GameIndexClass(object):
             return
         self.search_index = cleaned, game_module
         for word in cleaned.split():
-            self.search_index = word, game_module
+            word = word.strip(punctuation)
+            if word:
+                self.search_index = word, game_module
 
     def add_game(self, game_module: str, game_data: dict):
         """Add a game to the game index.
@@ -160,6 +164,8 @@ class _GameIndexClass(object):
 
         # Empty-search-bar fallback — see TODO above for the proper term.
         self.search_index = "popular", game_module
+
+        self.search_index = game_module, game_module
 
         # Display name (full lowercased + each whitespace-split word).
         self._index_value(game_module, game_data.get('game_name', ''))
