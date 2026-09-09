@@ -28,10 +28,15 @@
             "pattern": "^v?[0-9]+(\\.[0-9]+)*([._-][A-Za-z0-9]+)*$",
             "description": "Semver-shape version of the world implementation. Used for the .apworld vs index precedence rule (higher wins; tiebreaker: installed wheel)."
         },
+        "disk_space_kb": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Wheel asset size in KiB, rounded up; stamped by the Index bot (Oliver) on every release. Carried into the variant packages and consumed by the monorepo installer regen (ExtraDiskSpaceRequired)."
+        },
         "disk_space_mb": {
             "type": "integer",
             "minimum": 1,
-            "description": "Wheel size in megabytes, rounded up; stamped by gen-pymod-release. Carried into the variant packages and consumed by the monorepo installer regen (ExtraDiskSpaceRequired)."
+            "description": "Retired predecessor of disk_space_kb (wheel size in MiB, rounded up). No longer stamped; lingers on manifests until their next release."
         },
         "components": {
             "type": "array",

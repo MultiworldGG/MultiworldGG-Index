@@ -161,6 +161,8 @@ def assemble_games_data(
             entry["module_location"] = manifest["module_location"]
         if "components" in manifest:
             entry["components"] = manifest["components"]
+        if "disk_space_kb" in manifest:
+            entry["disk_space_kb"] = manifest["disk_space_kb"]
         if "disk_space_mb" in manifest:
             entry["disk_space_mb"] = manifest["disk_space_mb"]
         result[apworld] = entry
