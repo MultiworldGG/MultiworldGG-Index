@@ -154,7 +154,7 @@ def assemble_games_data(
                 "platforms": ["Archipelago"],
                 "storyline": "",
                 "keywords": ["hints", "archipelago", "multiworld"],
-                "release_date": "2025",
+                "release_date": "",
                 "entry_point_module": f"worlds.{apworld}",
             }
         if "module_location" in manifest:
