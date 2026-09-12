@@ -1,13 +1,13 @@
 {
     "game": "Kirby 64 - The Crystal Shards",
-    "world_version": "0.3.2",
-    "minimum_ap_version": "0.6.4",
+    "world_version": "0.4.0",
+    "minimum_ap_version": "0.6.7",
     "authors": [
         "Silvris"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_k64-0.3.2-py3-none-any.whl#sha256=9e4616b0ea77f57eb2f394c90634a7b57679f19d6dc34815f03d2763ce2a918f",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_k64-0.4.0-py3-none-any.whl#sha256=9d7e9b583bed1699228bb546f408cc7af5f5330b11af079ae7a4481e56834dd6",
+    "disk_space_kb": 54,
     "igdb_id": 2713
 }
