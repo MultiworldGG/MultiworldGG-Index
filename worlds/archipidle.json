@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_archipidle-0.0.1-py3-none-any.whl#sha256=4534f596d0f425a26d8443585360b2a91b2350b255a73686f3a4b265946918d6",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_archipidle-0.0.1-py3-none-any.whl#sha256=3d8c8939423cf17cf6ed7be7b7b605efdb18ea98b46add58e68ec2c6bb8c267b",
+    "disk_space_kb": 9,
     "igdb_id": 0
 }
