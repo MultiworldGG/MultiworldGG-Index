@@ -1,0 +1,16 @@
+{
+  "game": "Universal Tracker",
+  "world_version": "0.0.1",
+  "authors": [],
+  "version": 7,
+  "compatible_version": 7,
+  "minimum_ap_version": "0.6.2",
+  "components": [
+    {
+      "name": "Universal Tracker",
+      "type": "client"
+    }
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_tracker-0.0.1-py3-none-any.whl#sha256=014a8f9db1fe9c6334d11ffb07df29b3df8e8ee3ad0afd0072c5d65cdc276a40",
+  "disk_space_kb": 93
+}
