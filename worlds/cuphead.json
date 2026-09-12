@@ -12,8 +12,8 @@
     ],
     "igdb_id": 9061,
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.2.20020810",
-    "world_friendly_version": "alpha03i",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_cuphead-0.2.20020810-py3-none-any.whl#sha256=f58520858a8420c954c203022ed7e54afdd0b9f37ae33b7764f2004bb271c695",
-    "disk_space_mb": 1
+    "world_version": "0.2.20021010",
+    "world_friendly_version": "alpha03k",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_cuphead-0.2.20021010-py3-none-any.whl#sha256=c9e82c91f25380947ca22ed05b747bb77ca041846c09f3068be674991754a658",
+    "disk_space_kb": 112
 }
