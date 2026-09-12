@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_doronko_wanko-0.0.1-py3-none-any.whl#sha256=7f60ee19c080c19c1d106bafbeafd5ccdacb2f9e6b40f2ef80e768a71adf4230",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_doronko_wanko-0.0.1-py3-none-any.whl#sha256=1d5db19640f2d0ed4ecb0d458aacb8fe59262197e73ec6a8ce3bc783f67f6fbd",
+    "disk_space_kb": 10,
     "igdb_id": 290647
 }
