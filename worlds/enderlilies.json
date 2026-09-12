@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_enderlilies-0.0.1-py3-none-any.whl#sha256=7df30067176dcb7c4698c9717a5c45fd9135e131982f4a4cfed4c5e499d83960",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_enderlilies-0.0.1-py3-none-any.whl#sha256=39d9431a80d81ace131ac71b794d914989630248c2cf259a4ff4b5338601a433",
+    "disk_space_kb": 90,
     "igdb_id": 138858
 }
