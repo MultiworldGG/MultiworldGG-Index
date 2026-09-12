@@ -4,7 +4,7 @@
     "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_pokemon_rb-0.0.1-py3-none-any.whl#sha256=aec340d0f9f9ab3c07122da28999b43796522fd16564cea3cfee82390bbfd7bc",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_pokemon_rb-0.0.1-py3-none-any.whl#sha256=801573e1316e674cdf377f4e4fb04c3de50302cf409e1734751ff3871ea484c3",
+    "disk_space_kb": 250,
     "igdb_id": 1561
 }
