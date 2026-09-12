@@ -3182,29 +3182,43 @@
         "release_date": 2003
     },
     "ffvcd": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "419",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co9p6d.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/q2kwczviqdpy5jsy3nkc.png",
         "key_art_url": "",
         "game_name": "Final Fantasy V Career Day",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Final Fantasy V",
+        "age_rating": "T",
+        "rating": [
+            "Mild Fantasy Violence",
+            "Partial Nudity"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
         "genres": [
-            "Multiplayer"
+            "Role-playing (RPG)",
+            "Adventure"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Fantasy",
+            "Open world"
+        ],
         "platforms": [
-            "Archipelago"
+            "Wii",
+            "Super Famicom"
         ],
-        "storyline": "",
+        "storyline": "Embark on an epic adventure as four heroes are driven together by fate: Bartz and his chocobo companion, Princess Lenna of Castle Tycoon, the mysterious Galuf, and the pirate captain Faris. The crystals that bring peace and prosperity to the world – earth, water, fire, and wind – have lost their power and are on the verge of destruction. These Crystals acted as a seal on Exdeath, an evil sorcerer. Bartz and his party must keep the Crystals from being exploited by Exdeath's influence and prevent his resurgence.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "2d",
+            "jrpg",
+            "mercenary",
+            "androgyny",
+            "retroachievements"
         ],
-        "release_date": ""
+        "release_date": 1992
     },
     "flipwitch": {
         "igdb_id": "361419",
@@ -3446,29 +3460,38 @@
         "release_date": ""
     },
     "grinch": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "15487",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7t1v.png",
         "artwork_url": "",
         "key_art_url": "",
         "game_name": "The Grinch",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
-        "genres": [
-            "Multiplayer"
+        "igdb_name": "The Grinch",
+        "age_rating": "E",
+        "rating": [
+            "Comic Mischief"
         ],
-        "themes": [],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Kids"
+        ],
         "platforms": [
-            "Archipelago"
+            "PC (Microsoft Windows)",
+            "PlayStation",
+            "Dreamcast"
         ],
         "storyline": "",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "action-adventure"
         ],
-        "release_date": ""
+        "release_date": 2000
     },
     "gstla": {
         "igdb_id": "1173",
@@ -4315,6 +4338,68 @@
         "storyline": "",
         "keywords": [],
         "release_date": 2019
+    },
+    "ladx": {
+        "igdb_id": "1027",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4o47.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1kl1.png",
+        "key_art_url": "",
+        "game_name": "Links Awakening DX",
+        "igdb_name": "The Legend of Zelda: Link's Awakening DX",
+        "age_rating": "7",
+        "rating": [],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Game Boy Color",
+            "Nintendo 3DS"
+        ],
+        "storyline": "After the events of A Link to the Past, the hero Link travels by ship to other countries to train for further threats. After being attacked at sea, Link's ship sinks and he finds himself stranded on Koholint Island. He awakens to see a beautiful woman looking down at him and soon learns the island has a giant egg on top of a mountain that the Wind Fish inhabits deep inside. Link is told to awaken the wind fish and all will be answered, so he sets out on another quest.",
+        "keywords": [
+            "magic",
+            "mascot",
+            "fishing",
+            "death",
+            "maze",
+            "action-adventure",
+            "fairy",
+            "backtracking",
+            "undead",
+            "campaign",
+            "princess",
+            "pixel art",
+            "easter egg",
+            "silent protagonist",
+            "sword & sorcery",
+            "darkness",
+            "digital distribution",
+            "monkey",
+            "world map",
+            "human",
+            "bow and arrow",
+            "breaking the fourth wall",
+            "disorientation zone",
+            "side quests",
+            "potion",
+            "real-time combat",
+            "walking through walls",
+            "moving platforms",
+            "tentacles",
+            "fetch quests",
+            "status effects",
+            "another world"
+        ],
+        "release_date": 1998
     },
     "ladx_beta": {
         "igdb_id": "1028",
@@ -7209,7 +7294,7 @@
             "Xbox One",
             "Nintendo Switch"
         ],
-        "storyline": "",
+        "storyline": "A cursed and ever-shifting castle looms over the land, its halls rumored to hold untold treasure and terrible secrets. Generation after generation, a single family sends its bravest members through the gates in search of glory, fortune, and answers, only for each adventurer to fall to the dungeon's traps, monsters, and guardians. But death is never the end of the family's quest. When one hero perishes, a descendant takes up the fight, inheriting the gold, gear, and hard-won knowledge of those who came before, and adding their own quirks to the bloodline. Each heir is unique, shaped by peculiar traits passed down through the generations, and every journey into the castle looks different from the last. Building up their ancestral manor and growing stronger with each fallen relative, this endless lineage of knights, mages, and rogues presses ever deeper into the shifting halls, determined to conquer the castle at last.",
         "keywords": [
             "ghosts",
             "exploration",
@@ -9545,6 +9630,56 @@
         "storyline": "Link, a young farm boy whose tasks consist of herding goats to watching children in Ordon village, is asked by the mayor to run an errand in Castle Town. But things went strange that day: the land becomes dark and strange creatures appear from another world called the Twilight Realm which turns most people into ghosts. Unlike the others, Link transforms into a wolf but is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.",
         "keywords": [],
         "release_date": 2006
+    },
+    "tracker": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Universal Tracker",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
+    "tracker_addons": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Universal Tracker Addons",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "trackmania": {
         "igdb_id": "133807",
