@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=6f5901659203ec4e80c0b96aae0b5c945a77c4efd4dfd9cea979337af18825bf",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_civ_6-0.0.1-py3-none-any.whl#sha256=fee7376fc7d4ab2ff2b6da4664bf1ec4b033de2780cc88fdbad5cc51e5af66a3",
+    "disk_space_kb": 51,
     "igdb_id": 293
 }
