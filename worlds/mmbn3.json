@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_mmbn3-0.0.1-py3-none-any.whl#sha256=b868ab18f0f2f58e0e34052534f50203b28245bef9519a27fb4e87474ca764d4",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_mmbn3-0.0.1-py3-none-any.whl#sha256=32224cf897587f6e234ca7d0a453d8f728e3807a635e865d36c4e2f9229586a3",
+    "disk_space_kb": 113,
     "igdb_id": 1758
 }
