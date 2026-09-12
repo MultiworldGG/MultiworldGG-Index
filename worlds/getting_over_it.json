@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_getting_over_it-0.0.1-py3-none-any.whl#sha256=79c89894c5b05bf63c7158cbf833e6071c85c89133f1544fbf7afead20a1cb91",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_getting_over_it-0.0.1-py3-none-any.whl#sha256=37de8b74cf3a60fa73ca7bf0e90611295fc1468cc3b84ec7fe0d9c2d7b78aae6",
+    "disk_space_kb": 8,
     "igdb_id": 72373
 }
