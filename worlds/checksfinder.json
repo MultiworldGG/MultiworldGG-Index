@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=57c7eb4bc434587922398e30b972aa2d488e3084ff12972640b9ebfdedd25f08",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_checksfinder-0.0.1-py3-none-any.whl#sha256=db2fd07b9e08f5320282ec267169830fbb4105fa5cfa22b919e87759af8cefc0",
+    "disk_space_kb": 9,
     "igdb_id": 0
 }
