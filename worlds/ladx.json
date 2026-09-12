@@ -6,6 +6,7 @@
   ],
   "minimum_ap_version": "0.6.4",
   "world_version": "2.0.2",
+  "igdb_id": 1027,
   "components": [
     {
       "name": "Links Awakening DX Client",
