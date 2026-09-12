@@ -4,11 +4,13 @@
         "Kaito Kid",
         "Jouramie",
         "Witchybun (Mod Support)",
-        "Exempt-Medic (Proofreading)"
+        "Noa (Entrance Randomizer)"
     ],
-    "minimum_ap_version": "0.6.4",
-    "world_version": "7.4.25",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_stardew_valley-7.4.25-py3-none-any.whl#sha256=cd8493dbca37951631183119d377d5d8eb15f1502f8b12f8c6e3dea686b83ad9",
-    "disk_space_mb": 1,
+    "minimum_ap_version": "0.6.7",
+    "world_version": "8.1.5",
+    "compatible_version": 7,
+    "version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_stardew_valley-8.1.5-py3-none-any.whl#sha256=8f5a917459aa8ef8caf6b53d98ae5924a85ff556cd920068aafecd8ec4763d4f",
+    "disk_space_kb": 593,
     "igdb_id": 17000
 }
