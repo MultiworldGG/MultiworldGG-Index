@@ -4,7 +4,7 @@
     "authors": [],
     "version": 7,
     "compatible_version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_sa2b-0.0.1-py3-none-any.whl#sha256=1b32ea87a6d54a5fa1e4222794f82c8d47987ee84ad72692502fa2ef45c603b3",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_sa2b-0.0.1-py3-none-any.whl#sha256=c2846a83403dcd660ddf200f6a774b0185e125b0bc1eece625816d2dc791822d",
+    "disk_space_kb": 92,
     "igdb_id": 192194
 }
