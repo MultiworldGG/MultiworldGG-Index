@@ -1,15 +1,15 @@
 {
     "game": "PEAK",
+    "minimum_ap_version": "0.6.7",
     "world_version": "0.0.1",
     "authors": [
         "ArchipelagoBrad",
         "ManNamedGarbo",
         "Mickemoose"
     ],
-    "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_peak-0.0.1-py3-none-any.whl#sha256=710a720fa2c48d22748530fd164dc47d843ba7bad9ac58430bcbe624f7972bae",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_peak-0.0.1-py3-none-any.whl#sha256=e963ed16b4bcf2d05b2ae29cbe92339931e3bc7df26b6b6e8b977d244606e143",
+    "disk_space_kb": 34,
     "igdb_id": 360757
 }

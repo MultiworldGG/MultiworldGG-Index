@@ -4,10 +4,10 @@
         "Dragons but also Rabbits, FabulaFey, Emerassi"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.17.0",
+    "world_version": "0.18.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_crystal_project-0.17.0-py3-none-any.whl#sha256=2f6f21abb6b4b008c8972cb306e3405f4289369fef8cb1792cfaa36826a60b24",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_crystal_project-0.18.0-py3-none-any.whl#sha256=fcd06a8a6dc2e7607711bef7c57002176a3d36c82d330f4aa11a8e73a82ef1e7",
+    "disk_space_kb": 154,
     "igdb_id": 181444
 }

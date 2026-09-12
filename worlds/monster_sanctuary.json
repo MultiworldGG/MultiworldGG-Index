@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_monster_sanctuary-0.0.1-py3-none-any.whl#sha256=4357bd41c922ad33656686daff25dfbfad1875a38c4d399f8f9d0030e2bc85e3",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_monster_sanctuary-0.0.1-py3-none-any.whl#sha256=0380c90eb3a5cfc2cc7b798a8b08ebc32a8a8a4a12217f395b5bce5630aa6e90",
+    "disk_space_kb": 162,
     "igdb_id": 89594
 }

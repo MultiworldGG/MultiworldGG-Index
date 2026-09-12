@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_peaks_of_yore-0.0.1-py3-none-any.whl#sha256=fe1222c306910513c83aa431263205a649fbe80441c394d6b4eca0f3313c5763",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_peaks_of_yore-0.0.1-py3-none-any.whl#sha256=da2f8ab3622e14b3fcf9d3e01eb09d051ed0fbbc81d473782b0e6166de8ead57",
+    "disk_space_kb": 14,
     "igdb_id": 238690
 }

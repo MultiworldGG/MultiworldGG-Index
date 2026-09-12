@@ -1,13 +1,13 @@
 {
     "game": "Dark Souls II",
     "world_version": "0.0.1",
+    "minimum_ap_version": "0.6.4",
     "authors": [
         "WildBunnie"
     ],
-    "minimum_ap_version": "0.6.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_dark_souls_2-0.0.1-py3-none-any.whl#sha256=e605e360e67763a4a041117e719fc0fbbc127f98fe0815dfc0c572c280196718",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_dark_souls_2-0.0.1-py3-none-any.whl#sha256=6bca30d44036490b86942dff72bb0390707e29e10110eb868defac8e459b2292",
+    "disk_space_kb": 87,
     "igdb_id": 2368
 }

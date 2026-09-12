@@ -8,7 +8,7 @@
     "minimum_ap_version": "0.4.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_shorthike-0.0.1-py3-none-any.whl#sha256=c35faf91bd4105899b0d1345a3765c50499f371341b98b47e055dff5fc6ad29d",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_shorthike-0.0.1-py3-none-any.whl#sha256=b94a03339bb0b291b291db253d3af85e135538bbab0235d33ff0364e2a838637",
+    "disk_space_kb": 13,
     "igdb_id": 116753
 }

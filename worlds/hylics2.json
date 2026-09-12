@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_hylics2-0.0.1-py3-none-any.whl#sha256=f48c2a735fcfb8eef2a95db3680148eedbfca289b46191c0c51db335b914bbd7",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_hylics2-0.0.1-py3-none-any.whl#sha256=44d1112a24cc662ac59af242f21e46f1c834173570aba05e9f47e21226093936",
+    "disk_space_kb": 14,
     "igdb_id": 98469
 }

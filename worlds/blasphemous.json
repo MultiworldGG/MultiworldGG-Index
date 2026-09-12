@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.4.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=166d2c36f5afb24231f2a1b64dcf27fbbaa98aff6d3d208bf7fa3956e9e95950",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_blasphemous-0.0.1-py3-none-any.whl#sha256=d78d13db0894e6a885e0e0ef7fbc799298d91e92f2d4b274922ea003a27a25fa",
+    "disk_space_kb": 78,
     "igdb_id": 26820
 }

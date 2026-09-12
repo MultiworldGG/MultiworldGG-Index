@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_clique-0.0.1-py3-none-any.whl#sha256=23394e76261b721000b0ea824cf519c0ba3c3c8ffb43e8ccde742de120affd0e",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_clique-0.0.1-py3-none-any.whl#sha256=dd0f0bcad1dc15c0023e763469dce251a723e96d8893d696f3e5bd8dd367c007",
+    "disk_space_kb": 7,
     "igdb_id": 0
 }

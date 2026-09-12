@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ladx_beta-13.4.5-py3-none-any.whl#sha256=d492916758c849ceb0752711f7d7ef877908266b303a9f29b26201c5a6460b35",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_ladx_beta-13.4.5-py3-none-any.whl#sha256=4bad747876917bbe57b2b54fbc2df8304ec4e9e5d37008b007086d88a8208bbb",
+    "disk_space_kb": 375,
     "igdb_id": 1028
 }

@@ -7,7 +7,7 @@
     "minimum_ap_version": "0.5.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_ror1-0.0.1-py3-none-any.whl#sha256=afa393a5b7b870add419ebe2c348f75257b2280ffda8e0a90b44b4d0c21dd94f",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_ror1-0.0.1-py3-none-any.whl#sha256=68ca0cbd69203a624fe9372a5f7ba4f70d58ea11bc845f591ec32c4a17533b16",
+    "disk_space_kb": 14,
     "igdb_id": 3173
 }

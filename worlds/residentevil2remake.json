@@ -1,12 +1,12 @@
 {
     "game": "Resident Evil 2 Remake",
-    "world_version": "0.3.3",
+    "world_version": "0.3.5",
     "authors": [
         "Fuzzy"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_residentevil2remake-0.3.3-py3-none-any.whl#sha256=ba09c3c26649c125b86f297081191abf0b8f7e79df2f474c0f57b3dbdfca2440",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_residentevil2remake-0.3.5-py3-none-any.whl#sha256=a713d96c84ff23eccb4c01bcddeae2d5ba46c254345eb41a5f06c9bc6123832d",
+    "disk_space_kb": 103,
     "igdb_id": 19686
 }

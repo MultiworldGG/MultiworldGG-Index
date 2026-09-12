@@ -1,0 +1,18 @@
+{
+  "game": "Links Awakening DX",
+  "authors": [
+    "zig",
+    "threeandthree"
+  ],
+  "minimum_ap_version": "0.6.4",
+  "world_version": "2.0.2",
+  "igdb_id": 1027,
+  "components": [
+    {
+      "name": "Links Awakening DX Client",
+      "type": "client"
+    }
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_ladx-2.0.2-py3-none-any.whl#sha256=79b610b95d63d6f44a394867a81f7969d154218d6ae348f7b6c5889dc5897a1a",
+  "disk_space_kb": 356
+}

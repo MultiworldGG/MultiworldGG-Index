@@ -8,7 +8,7 @@
     "minimum_ap_version": "0.4.4",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_lufia2ac-0.0.1-py3-none-any.whl#sha256=12a01304d151187d1f816a168b1be80665c04a5c11bf99a6dceed5627c396197",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_lufia2ac-0.0.1-py3-none-any.whl#sha256=29bf8d14adfa804eea995cb52583ceb073be2a2647ecd857ea00d463675703ac",
+    "disk_space_kb": 58,
     "igdb_id": 1178
 }
