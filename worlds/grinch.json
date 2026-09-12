@@ -4,11 +4,11 @@
     "MarioSpore",
     "SomeJakeGuy"
   ],
-  "world_version": "1.6.1",
+  "world_version": "1.6.2",
   "minimum_ap_version": "0.6.7",
   "version": 7,
   "compatible_version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_grinch-1.6.1-py3-none-any.whl#sha256=46627bfe7f41df6cd3af227f8760b945fd13b2fe5c58cefac3710876fc9c3ae0",
-  "disk_space_mb": 1,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_grinch-1.6.2-py3-none-any.whl#sha256=ee0ca24482e8a3d2db189f3c9e7ed93d8e3e6b21562870737f4a723697f9e95c",
+  "disk_space_kb": 60,
   "igdb_id": 15487
 }
