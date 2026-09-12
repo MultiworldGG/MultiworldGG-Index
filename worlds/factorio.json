@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_factorio-0.0.1-py3-none-any.whl#sha256=a6b71f63466a763d15f6762d39b96874023d319b2c70e3754a83767e80fbc5bb",
-    "disk_space_mb": 2,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_factorio-0.0.1-py3-none-any.whl#sha256=be97282e6309ebb69e3957b8157415212f1bcd3817b8bc4ec9f21b11875eaa11",
+    "disk_space_kb": 1061,
     "igdb_id": 7046
 }
