@@ -7,7 +7,7 @@
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_alttpr-1.5.0-py3-none-any.whl#sha256=f17ea8adbe29cc7ff6edb98bf74b99e26f32594fc8f3c718dc9e72891cb2a7a4",
-  "disk_space_mb": 2,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-13/worlds_alttpr-1.5.0-py3-none-any.whl#sha256=0fa12f2e9b5b27c03d02fa204fcaf68cd684a1d88315bad1188fc447f18e980e",
+  "disk_space_kb": 1116,
   "igdb_id": 1026
 }
