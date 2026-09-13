@@ -15,7 +15,7 @@
   "minimum_ap_version": "0.6.3",
   "version": 7,
   "world_version": "2.0.20260629",
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_heretic_beta-2.0.20260629-py3-none-any.whl#sha256=68085dc6c3f51cd996cdd3369c027f99c512dcbdacfef9ecc619e55cb4b42581",
-  "disk_space_mb": 1,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-13/worlds_heretic_beta-2.0.20260629-py3-none-any.whl#sha256=6b20e776e480de78699931dac84953d0a687fd7af0d7aff4de3b403e0b629a4f",
+  "disk_space_kb": 74,
   "igdb_id": 6362
 }
