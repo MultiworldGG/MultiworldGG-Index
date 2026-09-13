@@ -2437,29 +2437,47 @@
         "release_date": 1993
     },
     "doom_1993_beta": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
+        "igdb_id": "673",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5rav.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar2fxj.png",
         "key_art_url": "",
         "game_name": "DOOM 1993 (Beta)",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Doom",
+        "age_rating": "16",
+        "rating": [
+            "Intense Violence",
+            "Blood and Gore",
+            "Violence",
+            "Animated Violence",
+            "Animated Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
         "genres": [
-            "Multiplayer"
+            "Shooter"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Horror"
+        ],
         "platforms": [
-            "Archipelago"
+            "Windows Mobile",
+            "PC-9800 Series",
+            "Linux",
+            "DOS"
         ],
-        "storyline": "",
+        "storyline": "The player takes the role of a marine (unnamed to further represent the person playing), \"one of Earth's toughest, hardened in combat and trained for action\", who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless.\n\nSuddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies\n\nA military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "2.5d",
+            "maze",
+            "silent protagonist",
+            "melee",
+            "real-time combat",
+            "invisibility"
         ],
-        "release_date": ""
+        "release_date": 1993
     },
     "doom_ii": {
         "igdb_id": "312",
@@ -2531,29 +2549,73 @@
         "release_date": 1994
     },
     "doom_ii_beta": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
-        "key_art_url": "",
+        "igdb_id": "312",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6iip.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar68g.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nqk.png",
         "game_name": "DOOM II (Beta)",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
+        "igdb_name": "Doom II: Hell on Earth",
+        "age_rating": "16",
+        "rating": [
+            "Violence",
+            "Blood and Gore"
+        ],
+        "player_perspectives": [
+            "First person"
+        ],
         "genres": [
-            "Multiplayer"
+            "Shooter"
         ],
-        "themes": [],
+        "themes": [
+            "Action",
+            "Science fiction",
+            "Horror"
+        ],
         "platforms": [
-            "Archipelago"
+            "PC-9800 Series",
+            "Tapwave Zodiac",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
         ],
-        "storyline": "",
+        "storyline": "Immediately following the events in Doom, the player once again assumes the role of the unnamed space marine. After defeating the demon invasion of the Mars moon bases and returning from Hell, Doomguy finds that Earth has also been invaded by the demons, who have killed billions of people.\n\nThe humans who survived the attack have developed a plan to build massive spaceships which will carry the remaining survivors into space. Once the ships are ready, the survivors prepare to evacuate Earth. Unfortunately, Earth's only ground spaceport gets taken over by the demons, who place a flame barrier over it, preventing any ships from leaving.",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "bloody",
+            "death",
+            "2.5d",
+            "run and gun",
+            "achievements",
+            "multiple endings",
+            "traps",
+            "artificial intelligence",
+            "easter egg",
+            "teleportation",
+            "sequel",
+            "darkness",
+            "explosion",
+            "digital distribution",
+            "voice acting",
+            "human",
+            "breaking the fourth wall",
+            "pop culture reference",
+            "game reference",
+            "unstable platforms",
+            "melee",
+            "real-time combat",
+            "stat tracking",
+            "secret area",
+            "walking through walls",
+            "difficulty level",
+            "rock music",
+            "sequence breaking",
+            "temporary invincibility",
+            "dimension travel",
+            "boss assistance",
+            "invisibility",
+            "hidden room",
+            "another world"
         ],
-        "release_date": ""
+        "release_date": 1994
     },
     "doronko_wanko": {
         "igdb_id": "290647",
@@ -3720,29 +3782,45 @@
         "release_date": 1994
     },
     "heretic_beta": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "6362",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1mwz.png",
         "artwork_url": "",
         "key_art_url": "",
         "game_name": "Heretic (Beta)",
-        "igdb_name": "",
-        "age_rating": "MW",
+        "igdb_name": "Heretic",
+        "age_rating": "M",
         "rating": [],
-        "player_perspectives": [],
-        "genres": [
-            "Multiplayer"
+        "player_perspectives": [
+            "First person"
         ],
-        "themes": [],
+        "genres": [
+            "Shooter"
+        ],
+        "themes": [
+            "Fantasy",
+            "Historical"
+        ],
         "platforms": [
-            "Archipelago"
+            "PC (Microsoft Windows)",
+            "Mac",
+            "DOS"
         ],
         "storyline": "",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "bloody",
+            "medieval",
+            "magic",
+            "death",
+            "2.5d",
+            "undead",
+            "sword & sorcery",
+            "digital distribution",
+            "skeletons",
+            "melee",
+            "secret area",
+            "hidden room"
         ],
-        "release_date": ""
+        "release_date": 1994
     },
     "hitman_woa": {
         "igdb_id": "233571",
