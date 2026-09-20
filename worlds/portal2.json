@@ -4,7 +4,7 @@
         "GlassToadstool"
     ],
     "minimum_ap_version": "0.6.5",
-    "world_version": "0.8.0",
+    "world_version": "0.8.2",
     "compatible_version": 7,
     "version": 7,
     "components": [
@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_portal2-0.8.0-py3-none-any.whl#sha256=5bf5f280f642ecc398f95310381c6171a5bd33661d661537d161058153875339",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_portal2-0.8.2-py3-none-any.whl#sha256=2d4454e5a07238b0417f5ffb3df6a3c7b3d3c0a7ea197decefd9ab67afebf785",
+    "disk_space_kb": 57,
     "igdb_id": 72
 }
