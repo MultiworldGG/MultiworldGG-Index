@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.2.5",
+    "world_version": "0.2.6",
     "authors": [
         "Noka",
         "ArsonAssassin"
@@ -8,7 +8,7 @@
     "game": "Dark Souls Remastered",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_dsr-0.2.5-py3-none-any.whl#sha256=9af3616380ab114b2954be48a38c9cb007437707e09d70f7aedb19d44587a23d",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_dsr-0.2.6-py3-none-any.whl#sha256=740e4b49bddd59b3f40ea4fc5754ef81ebf1ed538402dbd87c5687d02cb438db",
+    "disk_space_kb": 71,
     "igdb_id": 81085
 }
