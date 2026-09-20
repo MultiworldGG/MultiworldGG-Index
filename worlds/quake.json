@@ -1,12 +1,12 @@
 {
     "game": "Quake 1",
-    "version": 7,
-    "compatible_version": 7,
-    "world_version": "1.2.2",
+    "world_version": "1.2.3",
     "authors": [
         "Rando"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_quake-1.2.2-py3-none-any.whl#sha256=b0f924cdd85e2d9c549ebb8756cc40c939912654d4949c7076438fe7f99eddfa",
-    "disk_space_kb": 538,
+    "version": 7,
+    "compatible_version": 7,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_quake-1.2.3-py3-none-any.whl#sha256=88f299d84bd7f2078c05a3b210dbce4e3017cae9513a071f640aebe3b6dfacbe",
+    "disk_space_kb": 537,
     "igdb_id": 333
 }
