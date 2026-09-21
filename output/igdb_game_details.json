@@ -3405,29 +3405,38 @@
         "release_date": 2024
     },
     "funi_raccoon": {
-        "igdb_id": "",
-        "cover_url": "",
+        "igdb_id": "333975",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobep6.png",
         "artwork_url": "",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar57e3.png",
         "game_name": "Funi Raccoon Game",
-        "igdb_name": "",
-        "age_rating": "MW",
+        "igdb_name": "Funi Raccoon Game",
+        "age_rating": "NR",
         "rating": [],
-        "player_perspectives": [],
-        "genres": [
-            "Multiplayer"
+        "player_perspectives": [
+            "First person",
+            "Third person"
         ],
-        "themes": [],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Comedy",
+            "Sandbox"
+        ],
         "platforms": [
-            "Archipelago"
+            "Linux",
+            "PC (Microsoft Windows)"
         ],
         "storyline": "",
         "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
+            "funny",
+            "interconnected-world"
         ],
-        "release_date": ""
+        "release_date": 2026
     },
     "getting_over_it": {
         "igdb_id": "72373",
@@ -10021,10 +10030,12 @@
         "age_rating": "NR",
         "rating": [],
         "player_perspectives": [
-            "Bird view / Isometric"
+            "Bird view / Isometric",
+            "Side view"
         ],
         "genres": [
-            "Sport"
+            "Sport",
+            "Indie"
         ],
         "themes": [
             "Action",
