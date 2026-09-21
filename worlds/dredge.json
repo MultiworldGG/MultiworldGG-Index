@@ -1,13 +1,14 @@
 {
     "game": "DREDGE",
     "minimum_ap_version": "0.6.4",
-    "world_version": "0.5.0",
+    "world_version": "0.6.0",
     "authors": [
-        "Alextric"
+        "Alextric",
+        "fight4day"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_dredge-0.5.0-py3-none-any.whl#sha256=dab8c77893fdf2b016e66d65af95b3d40ee0dacd88955be4171511242c621b1a",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_dredge-0.6.0-py3-none-any.whl#sha256=5b84e1ba4491d31bcd37f36a353fc6e8f901f84473b3fc36be67c45593602fee",
+    "disk_space_kb": 28,
     "igdb_id": 164867
 }

@@ -1,7 +1,7 @@
 {
     "game": "Hatsune Miku Project Diva Mega Mix+",
     "minimum_ap_version": "0.6.7",
-    "world_version": "1.5.1",
+    "world_version": "1.5.2",
     "authors": [
         "Cynichill",
         "repod"
@@ -14,7 +14,7 @@
             "type": "adjuster"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_megamix-1.5.1-py3-none-any.whl#sha256=c0945d01b077fa0e9de34e2a4b4fbec7ca49982c9fe507522c8166362ca105ce",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_megamix-1.5.2-py3-none-any.whl#sha256=e5fc79bb2f8485db78966368ceafc1500c3cadb86b97058c31cfab591e97cde8",
+    "disk_space_kb": 45,
     "igdb_id": 120278
 }
