@@ -5,7 +5,7 @@
     ],
     "minimum_ap_version": "0.6.3",
     "world_version": "5.0.0",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_lingo-5.0.0-py3-none-any.whl#sha256=09d67f2b092e8fa2d2e8fb39d437550f0121e490b303d55bb8889cac1d32a20c",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_lingo-5.0.0-py3-none-any.whl#sha256=c980b1b74018b19c628c9423be927ae9c58938d008ba4df62515ca08bfa3aaba",
+    "disk_space_kb": 119,
     "igdb_id": 189169
 }
