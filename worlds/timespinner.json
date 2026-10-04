@@ -5,9 +5,7 @@
     ],
     "minimum_ap_version": "0.6.3",
     "world_version": "1.38.1",
-    "compatible_version": 7,
-    "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_timespinner-1.38.1-py3-none-any.whl#sha256=4a458320f0ddcc916cce8f2e459bd369749c2d66470b8f3e329a058154dac938",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_timespinner-1.38.1-py3-none-any.whl#sha256=08d98f8d1f1554c4f350a6783d1fc41d6ee8f308482a5452fc41500189782e9e",
+    "disk_space_kb": 37,
     "igdb_id": 28952
 }

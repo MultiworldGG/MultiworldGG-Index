@@ -1,16 +1,18 @@
 {
     "game": "Hades2Rogue",
     "minimum_ap_version": "0.6.4",
-    "world_version": "0.9.3",
+    "world_version": "0.10.0",
     "authors": [
         "BrittisH39"
     ],
+    "version": 7,
+    "compatible_version": 7,
     "components": [
         {
             "name": "Hades 2 Rogue Client",
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_hades2rogue-0.9.3-py3-none-any.whl#sha256=98c867620ce32ea8de52522cba002614775f4637be05729bb3fd054be06f93ec",
-    "disk_space_mb": 1
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_hades2rogue-0.10.0-py3-none-any.whl#sha256=3c48bfe31bcb61168a7875600cda2e6360bfcc38c1edb1745107058711c18d95",
+    "disk_space_kb": 144
 }

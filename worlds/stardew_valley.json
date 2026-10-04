@@ -7,10 +7,10 @@
         "Noa (Entrance Randomizer)"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "8.1.5",
+    "world_version": "8.1.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_stardew_valley-8.1.5-py3-none-any.whl#sha256=8f5a917459aa8ef8caf6b53d98ae5924a85ff556cd920068aafecd8ec4763d4f",
-    "disk_space_kb": 593,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_stardew_valley-8.1.7-py3-none-any.whl#sha256=4797f9cbfafdc7f5ad4bb07f67c23a79fdb21df224dbcdb14b4a6b305395bf58",
+    "disk_space_kb": 596,
     "igdb_id": 17000
 }

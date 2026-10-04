@@ -3,21 +3,18 @@
         "SerpentAI"
     ],
     "compatible_version": 7,
-    "flags": [
-        "tracker_included"
-    ],
+    "flags": [],
     "game": "Zork Grand Inquisitor",
-    "idgb_id": 1955,
+    "igdb_id": 1955,
     "minimum_ap_version": "0.6.7",
     "version": 7,
-    "world_version": "2.2.0",
+    "world_version": "3.0.0",
     "components": [
         {
             "name": "Zork Grand Inquisitor Client",
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_zork_grand_inquisitor-2.2.0-py3-none-any.whl#sha256=8581c4ceb831c8eb6f9aec333c6c3e87f80d2607c9f1e5e60bc8ec6eba77ce1d",
-    "disk_space_mb": 2,
-    "igdb_id": 1955
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_zork_grand_inquisitor-3.0.0-py3-none-any.whl#sha256=91558b45f2e160317b0f0909decee13e5a8e19765792a4e0d47571daca263a1e",
+    "disk_space_kb": 1142
 }

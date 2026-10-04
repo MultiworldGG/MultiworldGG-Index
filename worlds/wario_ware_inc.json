@@ -1,0 +1,13 @@
+{
+  "game": "WarioWare, Inc. - Mega Microgame$!",
+  "world_version": "1.1.1",
+  "minimum_ap_version": "0.6.7",
+  "authors": [
+    "lx5"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_wario_ware_inc-1.1.1-py3-none-any.whl#sha256=b1de68755d7fefb9c47f00125fc3766a405f6f8a068f8f8653ec8c19c7a59ae7",
+  "disk_space_kb": 35,
+  "igdb_id": 1703
+}

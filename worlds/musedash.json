@@ -3,11 +3,9 @@
     "authors": [
         "DeamonHunter"
     ],
-    "world_version": "1.5.35",
+    "world_version": "1.5.37",
     "minimum_ap_version": "0.6.3",
-    "compatible_version": 7,
-    "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_musedash-1.5.35-py3-none-any.whl#sha256=c5eefcf6fd5c63041c408c550c0ce24e518910869ed0710323ab1ccbe7967a4d",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_musedash-1.5.37-py3-none-any.whl#sha256=acf76daaf07b768b289764e703db6c6deb7c232a88049929297343805ff2fbd0",
+    "disk_space_kb": 40,
     "igdb_id": 86316
 }

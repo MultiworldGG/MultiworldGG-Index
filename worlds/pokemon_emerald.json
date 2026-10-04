@@ -1,11 +1,11 @@
 {
     "game": "Pokemon Emerald",
-    "world_version": "2.5.0",
+    "world_version": "2.6.0",
     "minimum_ap_version": "0.6.1",
     "authors": [
         "Zunawe"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_pokemon_emerald-2.5.0-py3-none-any.whl#sha256=fdcf3a919f7370562c021466362e1a5e5f4807d111db4bfc2f9f98cb437bd02b",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_pokemon_emerald-2.6.0-py3-none-any.whl#sha256=39a08a7e221a72b9fbc5f5af51a217d2af8513d1a51500b85b2eec39c5a44b2c",
+    "disk_space_kb": 531,
     "igdb_id": 1517
 }

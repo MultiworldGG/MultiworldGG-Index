@@ -1,10 +1,12 @@
 {
-    "game": "CrossCode",
-    "world_version": "0.9.7",
-    "authors": [],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_crosscode-0.9.7-py3-none-any.whl#sha256=71dc707637d7bf345ac37e1a281066828e2e60ce5cff98c85a89e050f8b0239f",
-    "disk_space_mb": 1,
+    "game": "CrossCode",
+    "world_version": "0.9.8",
+    "authors": [
+        "CodeTriangle"
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_crosscode-0.9.8-py3-none-any.whl#sha256=ff4d9c10c62f2e025efa753e998a16aafd7d539e56955159e8639f78d1192391",
+    "disk_space_kb": 154,
     "igdb_id": 35282
 }
