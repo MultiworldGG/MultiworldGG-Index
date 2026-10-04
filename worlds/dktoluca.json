@@ -1,12 +1,12 @@
 {
     "game": "Donkey Kong Toluca",
-    "world_version": "1.0.1",
+    "world_version": "1.0.4",
     "minimum_ap_version": "0.6.7",
     "authors": [
         "lx5"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_dktoluca-1.0.1-py3-none-any.whl#sha256=70a496df18f32fa0c5d175d3130361fd0ecd04567fb3bce65baec4f3c54d769f",
-    "disk_space_mb": 1
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_dktoluca-1.0.4-py3-none-any.whl#sha256=72f4de0e1a0c17abfd37c11fef524642b147bbfe50e2d9a033a13f9add9232a3",
+    "disk_space_kb": 76
 }
