@@ -1,19 +1,17 @@
 {
     "game": "Jak and Daxter: The Precursor Legacy",
-    "world_version": "1.2.0",
+    "world_version": "1.1.6",
     "minimum_ap_version": "0.6.2",
     "authors": [
         "markustulliuscicero"
     ],
-    "compatible_version": 7,
-    "version": 7,
     "components": [
         {
             "name": "Jak and Daxter Client",
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_jakanddaxter-1.2.0-py3-none-any.whl#sha256=f8abfb8ba6cc149eea296dc39cf5650caaf3051cbba4626d36317c8dafc32238",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_jakanddaxter-1.1.6-py3-none-any.whl#sha256=8d2747863086dd87f804a050dc654cdc7c59069503ae8f3c790e0ca802782447",
+    "disk_space_kb": 111,
     "igdb_id": 1528
 }
