@@ -11,7 +11,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_apquest-2.0.0-py3-none-any.whl#sha256=b16d37bc49b9713be2722cce754826ab4b1627c020e119ba4c51993d69bd9be0",
-    "disk_space_mb": 6,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_apquest-2.0.0-py3-none-any.whl#sha256=92da0af4c5b6dafb6898b5f013108025fd79421d9cd6a01802cf54805d703c7f",
+    "disk_space_kb": 5162,
     "igdb_id": 0
 }
