@@ -1,0 +1,12 @@
+{
+  "game": "Mega Man Zero 3",
+  "world_version": "0.3.6",
+  "minimum_ap_version": "0.6.7",
+  "authors": [
+    "Stingrays110"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_mmzero3-0.3.6-py3-none-any.whl#sha256=92b76c78e19b9cc25d9538b3852dc4bf76f5b85c37227da037e3aa68335d0f9c",
+  "disk_space_kb": 114
+}
