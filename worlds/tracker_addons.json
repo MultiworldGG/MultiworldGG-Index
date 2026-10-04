@@ -5,6 +5,6 @@
   "version": 7,
   "compatible_version": 7,
   "minimum_ap_version": "0.6.2",
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_tracker_addons-0.0.1-py3-none-any.whl#sha256=e648277dbb3096b8dda745f36f9803f34e27862db6b6708975f1ba7e1478877c",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_tracker_addons-0.0.1-py3-none-any.whl#sha256=200e0bbd0536197170456d093466756adde264726555912714a5c97d672b5d57",
   "disk_space_kb": 4
 }
