@@ -3010,6 +3010,7 @@
             "Bird view / Isometric"
         ],
         "genres": [
+            "Real Time Strategy (RTS)",
             "Simulator",
             "Strategy",
             "Indie"
@@ -3411,8 +3412,11 @@
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar57e3.png",
         "game_name": "Funi Raccoon Game",
         "igdb_name": "Funi Raccoon Game",
-        "age_rating": "NR",
-        "rating": [],
+        "age_rating": "16",
+        "rating": [
+            "Sexual Themes",
+            "Strong Language"
+        ],
         "player_perspectives": [
             "First person",
             "Third person"
@@ -3429,7 +3433,8 @@
         ],
         "platforms": [
             "Linux",
-            "PC (Microsoft Windows)"
+            "PC (Microsoft Windows)",
+            "Nintendo Switch"
         ],
         "storyline": "",
         "keywords": [
@@ -5578,6 +5583,37 @@
         ],
         "release_date": 1995
     },
+    "mmzero3": {
+        "igdb_id": "1777",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co204h.png",
+        "artwork_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar64t9.png",
+        "game_name": "Mega Man Zero 3",
+        "igdb_name": "Mega Man Zero 3",
+        "age_rating": "3",
+        "rating": [
+            "Cartoon Violence"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Shooter",
+            "Platform",
+            "Hack and slash/Beat 'em up"
+        ],
+        "themes": [
+            "Action",
+            "Science fiction"
+        ],
+        "platforms": [
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "With Ciel's Resistance he defeated Copy X, the ruler of Neo Arcadia.\nThe terror of the Neo Arcadian regime ended,\nbut the energy shortage remained a constant problem.\nCiel devoted herself to researching new forms of energy.\nAnd Elpizo became the newly appointed Resistance leader.\nHowever, overcome by his desire for power,\nElpizo awakened the Dark Elf, whose magic had once nearly destroyed the world.\nElpizo, thirsting for the power of the Dark Elf, lost sight of his true duty,\nand was finally defeated after a fierce battle.\nHowever, the Dark Elf fled, her destination unknown...\nThe battle over the Dark Elf had only just begun.\n\nTwo months after the events of Mega Man Zero 2, a spaceship that crashed only recently emits energy similar to the Dark Elf. Zero, Ciel and a pair of Resistance members set out to investigate. Not long into the mission Ciel and the two Resistance members are captured by Neo Arcadia as Zero enters the ship. However, they are not harmed, nor are they held prisoner, as an incident breaks out involving a giant Reploid named Omega that not even Leviathan and Fefnir combined can handle. Zero interrupts the battle and is left to handle things on his own. Soon thereafter Dr. Weil is introduced, with a seemingly ressurected Copy X in tow, who then reclaims leadership of Neo Arcadia, much to the chagrin of Harpuia.",
+        "keywords": [],
+        "release_date": 2004
+    },
     "momodoramoonlitfarewell": {
         "igdb_id": "188088",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7mxs.png",
@@ -5658,9 +5694,9 @@
     },
     "musedash": {
         "igdb_id": "86316",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co6h43.png",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cocq09.png",
         "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar5um.png",
-        "key_art_url": "",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6gav.png",
         "game_name": "Muse Dash",
         "igdb_name": "Muse Dash",
         "age_rating": "12",
@@ -6657,7 +6693,7 @@
             "Game Boy Color",
             "Nintendo 3DS"
         ],
-        "storyline": "",
+        "storyline": "In Pokemon Crystal, the player begins as a young Trainer in the Johto region, receiving a first partner Pokemon from Professor Elm before setting out on a journey. Traveling through Johto's towns and wilds, the player catches and trains Pokemon while aiming to earn the region's eight Gym Badges and take on its most skilled Trainers. A determined rival, who took one of Professor Elm's Pokemon, resurfaces throughout the adventure to challenge the player, and the criminal organization Team Rocket reappears with plans of its own. The player explores a world full of wild Pokemon while uncovering the region's secrets.",
         "keywords": [
             "exploration",
             "anime",
@@ -7172,7 +7208,9 @@
             "Indie"
         ],
         "themes": [
-            "Survival"
+            "Survival",
+            "Sandbox",
+            "Open world"
         ],
         "platforms": [
             "Xbox Series X|S",
@@ -7878,7 +7916,7 @@
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co2uk7.png",
         "artwork_url": "",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6gap.png",
-        "game_name": "The Simpsons Hit And Run",
+        "game_name": "Simpsons Hit and Run",
         "igdb_name": "The Simpsons: Hit & Run",
         "age_rating": "T",
         "rating": [
@@ -9269,7 +9307,7 @@
     "tloz": {
         "igdb_id": "1022",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1uii.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar14l3.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar14l0.png",
         "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p2o.png",
         "game_name": "The Legend of Zelda",
         "igdb_name": "The Legend of Zelda",
@@ -9717,56 +9755,6 @@
         "storyline": "Link, a young farm boy whose tasks consist of herding goats to watching children in Ordon village, is asked by the mayor to run an errand in Castle Town. But things went strange that day: the land becomes dark and strange creatures appear from another world called the Twilight Realm which turns most people into ghosts. Unlike the others, Link transforms into a wolf but is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.",
         "keywords": [],
         "release_date": 2006
-    },
-    "tracker": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
-        "key_art_url": "",
-        "game_name": "Universal Tracker",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
-        "genres": [
-            "Multiplayer"
-        ],
-        "themes": [],
-        "platforms": [
-            "Archipelago"
-        ],
-        "storyline": "",
-        "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
-        ],
-        "release_date": ""
-    },
-    "tracker_addons": {
-        "igdb_id": "",
-        "cover_url": "",
-        "artwork_url": "",
-        "key_art_url": "",
-        "game_name": "Universal Tracker Addons",
-        "igdb_name": "",
-        "age_rating": "MW",
-        "rating": [],
-        "player_perspectives": [],
-        "genres": [
-            "Multiplayer"
-        ],
-        "themes": [],
-        "platforms": [
-            "Archipelago"
-        ],
-        "storyline": "",
-        "keywords": [
-            "hints",
-            "archipelago",
-            "multiworld"
-        ],
-        "release_date": ""
     },
     "trackmania": {
         "igdb_id": "133807",
@@ -10423,6 +10411,47 @@
             "pixel art"
         ],
         "release_date": 2019
+    },
+    "wario_ware_inc": {
+        "igdb_id": "1703",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wpz.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "WarioWare, Inc. - Mega Microgame$!",
+        "igdb_name": "WarioWare, Inc.: Mega Microgame$!",
+        "age_rating": "7",
+        "rating": [
+            "Comic Mischief"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Arcade"
+        ],
+        "themes": [
+            "Action",
+            "Comedy"
+        ],
+        "platforms": [
+            "Nintendo 3DS",
+            "Wii U",
+            "Game Boy Advance"
+        ],
+        "storyline": "",
+        "keywords": [
+            "aliens",
+            "minigames",
+            "time limit",
+            "pixel art",
+            "dog",
+            "digital distribution",
+            "countdown timer",
+            "cat",
+            "self-referential humor",
+            "auto-scrolling levels"
+        ],
+        "release_date": 2003
     },
     "witness": {
         "igdb_id": "5601",
