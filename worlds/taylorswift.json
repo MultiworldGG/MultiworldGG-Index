@@ -1,12 +1,12 @@
 {
   "game": "Taylor Swift Discography",
-  "world_version": "1.2.5",
-  "world_version_full": "1.2.5",
+  "world_version": "1.2.6",
+  "world_version_full": "1.2.6",
   "contributors": [
     "benny-dreamly"
   ],
   "license": "MPL",
   "ai_disclosure": "assist",
-  "module_location": "https://github.com/benny-dreamly/Archipelago/releases/download/ts-1.2.5/worlds_taylorswift-1.2.5-py3-none-any.whl#sha256=e940306ec054a0e241b511bf8bea3fd99f33b286bb63bba0e7bf36ce3522aa12",
+  "module_location": "https://github.com/benny-dreamly/Archipelago/releases/download/ts-1.2.6/worlds_taylorswift-1.2.6-py3-none-any.whl#sha256=b3b63dc2f5ac7ff38cb4296d862182205c9fff0ce99b0d0fa0ec84043b6eb4f0",
   "disk_space_kb": 30
 }
