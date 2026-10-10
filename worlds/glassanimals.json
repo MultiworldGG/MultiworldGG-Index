@@ -1,10 +1,12 @@
 {
   "game": "Glass Animals Discography",
-  "world_version": "1.0.1",
-  "world_version_full": "1.0.1",
+  "world_version": "1.1.0",
+  "world_version_full": "1.1.0",
   "contributors": [
     "benny-dreamly"
   ],
-  "module_location": "https://github.com/benny-dreamly/Archipelago/releases/download/ga-1.0.1/worlds_glassanimals-1.0.1-py3-none-any.whl#sha256=21aa4fffafaabd2b7d07eb71fb7c705b40375f4bf9c4279cdcfc27fa2d792b8b",
-  "disk_space_kb": 16
+  "license": "MPL",
+  "ai_disclosure": "assist",
+  "module_location": "https://github.com/benny-dreamly/Archipelago/releases/download/ga-1.1.0/worlds_glassanimals-1.1.0-py3-none-any.whl#sha256=e80b2e05d7adf2d8937c6d6bce7bd3bbe64f93e7dca7c35f17aa1beb95fc8acd",
+  "disk_space_kb": 17
 }
