@@ -1,14 +1,14 @@
 {
     "game": "Spyro 3",
-    "world_version": "1.3.5",
-    "minimum_ap_version": "0.6.1",
+    "world_version": "1.4.0",
+    "minimum_ap_version": "0.6.6",
     "authors": [
         "ArsonAssassin",
         "Uroogla"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_spyro3-1.3.5-py3-none-any.whl#sha256=e14a267af76d19b45dbb3a619ff26091d647754e3f79543b2e739e345e42e560",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_spyro3-1.4.0-py3-none-any.whl#sha256=3b9dc0c311f974610f19af1fc66927c5e96f127e46dc72868c2e93cb108d0fb1",
+    "disk_space_kb": 73,
     "igdb_id": 1578
 }
