@@ -1,13 +1,13 @@
 {
   "game": "Uncanny Cat Golf",
   "minimum_ap_version": "0.6.7",
-  "world_version": "1.3.0",
+  "world_version": "1.4.1",
   "authors": [
     "Jeffdev"
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_ucg-1.3.0-py3-none-any.whl#sha256=8251152c04f9c11d9b8150210509d13a4483dce0793811cad700d9aff4629eed",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_ucg-1.4.1-py3-none-any.whl#sha256=2168080f0170d3ed4ac74b376f30f4ee1996c7fc6dbdfdc8717f10ecb0f822cb",
   "disk_space_kb": 39,
   "igdb_id": 323318
 }
