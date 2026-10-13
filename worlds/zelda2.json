@@ -4,10 +4,10 @@
         "Pink Switch"
     ],
     "minimum_ap_version": "0.5.0",
-    "world_version": "1.0.1",
+    "world_version": "1.1.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_zelda2-1.0.1-py3-none-any.whl#sha256=4d4ac489b3cbdf8b6ae472c473f241978dd2328553ba42a4caf5faf44ade13cc",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_zelda2-1.1.0-py3-none-any.whl#sha256=5ad6b0894c3b56f016ab4abb29ae3e99da69d96068e892ddd024c713c55e31dc",
+    "disk_space_kb": 27,
     "igdb_id": 1025
 }
