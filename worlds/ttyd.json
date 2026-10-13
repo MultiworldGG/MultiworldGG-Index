@@ -4,17 +4,17 @@
         "jamesbrq"
     ],
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.13.0",
+    "world_version": "0.14.0",
     "compatible_version": 7,
     "version": 7,
     "components": [
         {
-            "name": "TTYD Client",
+            "name": "TTYDClient",
             "type": "client",
             "description": "Open the Paper Mario: The Thousand-Year Door client."
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_ttyd-0.13.0-py3-none-any.whl#sha256=5006905bd86e76009e3338cf25fec0769720d27be7fda82fa6ee0997b71e6185",
-    "disk_space_mb": 2,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_ttyd-0.14.0-py3-none-any.whl#sha256=c49aa28a4b6a1690f34f1ff694beaf413f78697335b6dd125ee00e36c6be0318",
+    "disk_space_kb": 1573,
     "igdb_id": 3349
 }
