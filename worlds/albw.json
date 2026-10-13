@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.3",
-    "world_version": "0.3.5",
+    "world_version": "0.3.6",
     "authors": [
         "randomsalience"
     ],
@@ -13,7 +13,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_albw-0.3.5-py3-none-any.whl#sha256=be329d89d5f6b5f397bb2f998f1bb3d3f76f6c18746bff8767d72b40a0ccd966",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_albw-0.3.6-py3-none-any.whl#sha256=8f1bf492fd051addac28c797ebed4203efeb19cafab1a5bdd2afd467a727a502",
     "disk_space_kb": 8643,
     "igdb_id": 2909
 }
