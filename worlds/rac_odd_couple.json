@@ -1,0 +1,14 @@
+{
+  "game": "rac_odd_couple",
+  "world_version": "0.0.1",
+  "authors": [],
+  "components": [
+    {
+      "name": "Ratchet & Clank: The Odd Couple Client",
+      "type": "client",
+      "description": "Launch the Client for connecting to Ratchet & Clank: The Odd Couple"
+    }
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_rac_odd_couple-0.0.1-py3-none-any.whl#sha256=1ddea244ec63ab4d0bc4420ed5e4532894a9010a5304e6dac10e2a188b7a92ff",
+  "disk_space_kb": 28
+}
