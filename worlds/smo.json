@@ -5,16 +5,16 @@
         "Adi"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "1.7.4",
+    "world_version": "1.7.6",
     "compatible_version": 7,
     "version": 7,
     "components": [
         {
-            "name": "Adi's Unofficial Super Mario Odyssey Client",
+            "name": "Super Mario Odyssey (Adi)",
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_smo-1.7.4-py3-none-any.whl#sha256=2efde96aa41649fc50e8ee4273c531a68255596e4e19a0b8161e1ad1ca714146",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_smo-1.7.6-py3-none-any.whl#sha256=f29685e9ed5fd55fa30134a8da26acf2d9a53128d0cd3da24478ea86e0180370",
+    "disk_space_kb": 72,
     "igdb_id": 26758
 }
