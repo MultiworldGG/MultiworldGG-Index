@@ -1,8 +1,8 @@
 {
     "game": "Pokemon FireRed and LeafGreen",
-    "world_version": "1.1.4",
+    "world_version": "1.1.5",
     "minimum_ap_version": "0.6.7",
-    "pokemon_frlg_version": "1.1.4",
+    "pokemon_frlg_version": "1.1.5",
     "firered_extension": ".apfirered",
     "leafgreen_extension": ".apleafgreen",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_pokemon_frlg-1.1.4-py3-none-any.whl#sha256=c9aaaa8ffe6853168d34c3809e602887ad403ec68ed1ea19d6fae16474a38706",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-17/worlds_pokemon_frlg-1.1.5-py3-none-any.whl#sha256=55d56ad6b5dea953dd04dc76acee8afd6a2dd61c6cf1755d7c7e334d3c6f33b5",
     "disk_space_kb": 1544,
     "igdb_id": 1516
 }
