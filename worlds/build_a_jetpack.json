@@ -1,0 +1,12 @@
+{
+  "game": "Build a Jetpack",
+  "minimum_ap_version": "0.6.7",
+  "world_version": "0.2.0",
+  "authors": [
+    "ChromaNyan"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-17/worlds_build_a_jetpack-0.2.0-py3-none-any.whl#sha256=8abfefbe9f3ceb50c3f637485478c46692428ac4ef4b9a668d13d0fafcc95a7c",
+  "disk_space_kb": 9
+}
