@@ -8,5 +8,6 @@
   "version": 7,
   "minimum_ap_version": "0.6.7",
   "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-17/worlds_silksong-0.5.1-py3-none-any.whl#sha256=9602fe1dc344452b7b26a839d2960ecbe347a3f5baf5bc426c50fd9f0982a1b6",
-  "disk_space_kb": 1569
+  "disk_space_kb": 1569,
+  "igdb_id": 115289
 }
