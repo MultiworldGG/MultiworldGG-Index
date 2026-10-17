@@ -1023,6 +1023,31 @@
         ],
         "release_date": 2023
     },
+    "build_a_jetpack": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Build a Jetpack",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
+    },
     "bumpstik": {
         "igdb_id": "271950",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob2f4.png",
@@ -2662,7 +2687,8 @@
         "genres": [
             "Role-playing (RPG)",
             "Simulator",
-            "Adventure"
+            "Adventure",
+            "Indie"
         ],
         "themes": [
             "Action",
@@ -4147,6 +4173,31 @@
             "roguelike"
         ],
         "release_date": 2018
+    },
+    "isles_of_trials": {
+        "igdb_id": "",
+        "cover_url": "",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Isles of Trials",
+        "igdb_name": "",
+        "age_rating": "MW",
+        "rating": [],
+        "player_perspectives": [],
+        "genres": [
+            "Multiplayer"
+        ],
+        "themes": [],
+        "platforms": [
+            "Archipelago"
+        ],
+        "storyline": "",
+        "keywords": [
+            "hints",
+            "archipelago",
+            "multiworld"
+        ],
+        "release_date": ""
     },
     "jakanddaxter": {
         "igdb_id": "1528",
@@ -7995,6 +8046,59 @@
             "controller support"
         ],
         "release_date": 2019
+    },
+    "silksong": {
+        "igdb_id": "115289",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobebu.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar41sh.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar4pri.png",
+        "game_name": "Hollow Knight: Silksong",
+        "igdb_name": "Hollow Knight: Silksong",
+        "age_rating": "7",
+        "rating": [
+            "Animated Blood",
+            "Mild Language",
+            "Fantasy Violence",
+            "Mild Blood"
+        ],
+        "player_perspectives": [
+            "Side view"
+        ],
+        "genres": [
+            "Platform",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Xbox Series X|S",
+            "PlayStation 4",
+            "Linux",
+            "Nintendo Switch 2",
+            "PC (Microsoft Windows)",
+            "PlayStation 5",
+            "Mac",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "Play as Hornet, princess-protector of Hallownest, and adventure through a whole new kingdom ruled by silk and song! Captured and brought to this unfamiliar world, Hornet must battle foes and solve mysteries as she ascends on a deadly pilgrimage to the kingdom’s peak.",
+        "keywords": [
+            "exploration",
+            "2d",
+            "metroidvania",
+            "female protagonist",
+            "side-scrolling",
+            "achievements",
+            "atmospheric",
+            "sequel",
+            "melee",
+            "controller support",
+            "interconnected-world"
+        ],
+        "release_date": 2025
     },
     "simpsonshitnrun": {
         "igdb_id": "2844",
