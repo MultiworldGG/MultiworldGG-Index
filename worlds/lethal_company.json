@@ -3,10 +3,10 @@
     "version": 7,
     "game": "Lethal Company",
     "authors": [
-        "T0r1nn"
+        "T0r1nn, ThisGuyHere"
     ],
-    "world_version": "0.7.13",
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_lethal_company-0.7.13-py3-none-any.whl#sha256=5453c26ba4f11346d5a9623ccb73695412244b023d096a136ee4b2aabe93de3e",
-    "disk_space_mb": 1,
+    "world_version": "0.8.0",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_lethal_company-0.8.0-py3-none-any.whl#sha256=cfe555c3cebcca40fa2d205fea61dd12b105a7cde33c9dd41cc3a9e5e4531737",
+    "disk_space_kb": 34,
     "igdb_id": 212089
 }
