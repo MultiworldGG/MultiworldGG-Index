@@ -995,7 +995,6 @@
             "Bird view / Isometric"
         ],
         "genres": [
-            "Fighting",
             "Shooter",
             "Role-playing (RPG)",
             "Indie",
@@ -1009,6 +1008,7 @@
         "platforms": [
             "Xbox Series X|S",
             "PlayStation 4",
+            "Nintendo Switch 2",
             "Android",
             "PC (Microsoft Windows)",
             "iOS",
@@ -1228,93 +1228,7 @@
             "story rich",
             "great soundtrack",
             "digital distribution",
-            "lgbtq+",
-            "conversation"
-        ],
-        "release_date": 2018
-    },
-    "celeste64": {
-        "igdb_id": "284430",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co7oz4.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar2pw4.png",
-        "key_art_url": "",
-        "game_name": "Celeste 64",
-        "igdb_name": "Celeste 64: Fragments of the Mountain",
-        "age_rating": "NR",
-        "rating": [],
-        "player_perspectives": [
-            "Third person"
-        ],
-        "genres": [
-            "Platform",
-            "Adventure",
-            "Indie"
-        ],
-        "themes": [
-            "Action"
-        ],
-        "platforms": [
-            "Linux",
-            "PC (Microsoft Windows)"
-        ],
-        "storyline": "",
-        "keywords": [
-            "female protagonist",
             "lgbtq+"
-        ],
-        "release_date": 2024
-    },
-    "celeste_open_world": {
-        "igdb_id": "26226",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob9dh.png",
-        "artwork_url": "",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar6ga3.png",
-        "game_name": "Celeste (Open World)",
-        "igdb_name": "Celeste",
-        "age_rating": "7",
-        "rating": [
-            "Alcohol Reference",
-            "Fantasy Violence",
-            "Mild Language"
-        ],
-        "player_perspectives": [
-            "Side view"
-        ],
-        "genres": [
-            "Platform",
-            "Adventure",
-            "Indie"
-        ],
-        "themes": [
-            "Action",
-            "Fantasy"
-        ],
-        "platforms": [
-            "Google Stadia",
-            "PlayStation 4",
-            "Linux",
-            "PC (Microsoft Windows)",
-            "Mac",
-            "Xbox One",
-            "Nintendo Switch"
-        ],
-        "storyline": "Set on a fictional version of Mount Celeste, it follows a young woman named Madeline who attempts to climb the mountain, and must face her inner demons in her quest to reach the summit.",
-        "keywords": [
-            "exploration",
-            "retro",
-            "2d",
-            "difficult",
-            "female protagonist",
-            "side-scrolling",
-            "cute",
-            "atmospheric",
-            "pixel art",
-            "snow",
-            "story rich",
-            "great soundtrack",
-            "digital distribution",
-            "lgbtq+",
-            "conversation"
         ],
         "release_date": 2018
     },
@@ -1526,7 +1440,7 @@
     "crystal_project": {
         "igdb_id": "181444",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co48fv.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar19k4.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar19k5.png",
         "key_art_url": "",
         "game_name": "Crystal Project",
         "igdb_name": "Crystal Project",
@@ -2176,7 +2090,6 @@
             "darkness",
             "digital distribution",
             "anthropomorphism",
-            "bonus stage",
             "monkey",
             "nintendo power",
             "world map",
@@ -2251,7 +2164,6 @@
             "explosion",
             "digital distribution",
             "anthropomorphism",
-            "bonus stage",
             "monkey",
             "spider",
             "nintendo power",
@@ -2975,8 +2887,7 @@
             "female protagonist",
             "forest",
             "witches",
-            "soulslike",
-            "conversation"
+            "soulslike"
         ],
         "release_date": 2021
     },
@@ -2996,6 +2907,7 @@
             "Bird view / Isometric"
         ],
         "genres": [
+            "Real Time Strategy (RTS)",
             "Simulator",
             "Strategy",
             "Indie"
@@ -4918,10 +4830,7 @@
             "Nintendo GameCube"
         ],
         "storyline": "",
-        "keywords": [
-            "yoshi",
-            "mario"
-        ],
+        "keywords": [],
         "release_date": 2003
     },
     "marioland2": {
@@ -4948,7 +4857,6 @@
         ],
         "storyline": "Danger! Danger!\n\nWhile I was away crusading against the mystery alien Tatanga in Sarasa Land, an evil creep took over my castle and put the people of Mario Land under his control with a magic spell. This intruder goes by the name of Wario. He mimics my appearance, and has tried to steal my castle many times. It seems he has succeeded this time.\n\nWario has scattered the 6 Golden Coins from my castle all over Mario Land. These Golden Coins are guarded by those under Wario's spell. Without these coins, we can't get into the castle to deal with Wario. We must collect the 6 coins, attack Wario in the castle, and save everybody!\n\nIt’s time to set out on our mission!!",
         "keywords": [
-            "mario",
             "turtle"
         ],
         "release_date": 1992
@@ -5386,7 +5294,6 @@
             "princess",
             "giant insects",
             "silent protagonist",
-            "mario",
             "turtle",
             "digital distribution",
             "anthropomorphism",
@@ -6908,6 +6815,44 @@
         ],
         "release_date": 1996
     },
+    "pokemon_snap": {
+        "igdb_id": "2324",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4qiz.png",
+        "artwork_url": "",
+        "key_art_url": "",
+        "game_name": "Pokemon Snap",
+        "igdb_name": "Pokémon Snap",
+        "age_rating": "3",
+        "rating": [],
+        "player_perspectives": [
+            "First person"
+        ],
+        "genres": [
+            "Simulator"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii",
+            "Nintendo 64",
+            "64DD",
+            "Wii U"
+        ],
+        "storyline": "Todd Snap, a fledgling Pokémon photographer, is summoned by Professor Oak to Pokémon Island to help him with a report. Oak needs quality pictures to accompany his scientific findings, and knows from past experience that Todd is the right person for the job. Pokémon Island, which contains a variety of climatic and geographic regions, is a place where Pokémon live relatively undisturbed by humans. Using a motorized, amphibious buggy named the ZERO-ONE, Todd explores the island and takes photographs of the wide variety of Pokémon that inhabit its environments.",
+        "keywords": [
+            "anime",
+            "kid friendly",
+            "silent protagonist",
+            "bats",
+            "explosion",
+            "polygonal 3d",
+            "auto-scrolling levels",
+            "retroachievements"
+        ],
+        "release_date": 1999
+    },
     "portal2": {
         "igdb_id": "72",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rs4.png",
@@ -7137,8 +7082,7 @@
             "fairy",
             "cute",
             "crowdfunding",
-            "great soundtrack",
-            "conversation"
+            "great soundtrack"
         ],
         "release_date": 2016
     },
@@ -7730,37 +7674,6 @@
             "cute"
         ],
         "release_date": 2025
-    },
-    "sa2b": {
-        "igdb_id": "192194",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co5p3o.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar1h09.png",
-        "key_art_url": "",
-        "game_name": "Sonic Adventure 2 Battle",
-        "igdb_name": "Sonic Adventure 2: Battle",
-        "age_rating": "E",
-        "rating": [
-            "Mild Lyrics",
-            "Violence"
-        ],
-        "player_perspectives": [
-            "Third person"
-        ],
-        "genres": [
-            "Platform",
-            "Adventure"
-        ],
-        "themes": [
-            "Action"
-        ],
-        "platforms": [
-            "PlayStation 3",
-            "PC (Microsoft Windows)",
-            "Xbox 360"
-        ],
-        "storyline": "",
-        "keywords": [],
-        "release_date": 2012
     },
     "sadx": {
         "igdb_id": "192114",
@@ -8625,11 +8538,9 @@
             "sequel",
             "giant insects",
             "wall jump",
-            "yoshi",
             "3d platformer",
             "climbing",
             "swimming",
-            "mario",
             "turtle",
             "explosion",
             "anthropomorphism",
@@ -8657,47 +8568,6 @@
             "retroachievements"
         ],
         "release_date": 2002
-    },
-    "smw": {
-        "igdb_id": "1070",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co8lo8.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar3nai.png",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3nae.png",
-        "game_name": "Super Mario World",
-        "igdb_name": "Super Mario World",
-        "age_rating": "7",
-        "rating": [],
-        "player_perspectives": [
-            "Side view"
-        ],
-        "genres": [
-            "Platform",
-            "Adventure"
-        ],
-        "themes": [
-            "Action",
-            "Fantasy"
-        ],
-        "platforms": [
-            "Arcade",
-            "Super Nintendo Entertainment System",
-            "Wii",
-            "Wii U",
-            "New Nintendo 3DS",
-            "Super Famicom"
-        ],
-        "storyline": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
-        "keywords": [
-            "dinosaurs",
-            "princess",
-            "yoshi",
-            "mario",
-            "digital distribution",
-            "bonus stage",
-            "damsel in distress",
-            "retroachievements"
-        ],
-        "release_date": 1990
     },
     "smz3": {
         "igdb_id": "210231",
@@ -8803,7 +8673,6 @@
             "3d platformer",
             "explosion",
             "anthropomorphism",
-            "bonus stage",
             "voice acting",
             "checkpoints",
             "rock music",
@@ -8967,7 +8836,6 @@
             "swimming",
             "sword & sorcery",
             "anthropomorphism",
-            "bonus stage",
             "polygonal 3d",
             "game reference",
             "cameo appearance",
@@ -9915,36 +9783,6 @@
         ],
         "release_date": 2003
     },
-    "tp": {
-        "igdb_id": "134014",
-        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3w1h.png",
-        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21yd.png",
-        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p34.png",
-        "game_name": "Twilight Princess",
-        "igdb_name": "The Legend of Zelda: Twilight Princess",
-        "age_rating": "12",
-        "rating": [
-            "Fantasy Violence",
-            "Animated Blood"
-        ],
-        "player_perspectives": [
-            "Third person"
-        ],
-        "genres": [
-            "Puzzle",
-            "Adventure"
-        ],
-        "themes": [
-            "Action",
-            "Fantasy"
-        ],
-        "platforms": [
-            "Wii"
-        ],
-        "storyline": "Link, a young farm boy whose tasks consist of herding goats to watching children in Ordon village, is asked by the mayor to run an errand in Castle Town. But things went strange that day: the land becomes dark and strange creatures appear from another world called the Twilight Realm which turns most people into ghosts. Unlike the others, Link transforms into a wolf but is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.",
-        "keywords": [],
-        "release_date": 2006
-    },
     "trackmania": {
         "igdb_id": "133807",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cobh9g.png",
@@ -10030,7 +9868,6 @@
             "princess",
             "easter egg",
             "sequel",
-            "yoshi",
             "silent protagonist",
             "bats",
             "turtle",
@@ -10125,6 +9962,36 @@
             "soulslike"
         ],
         "release_date": 2022
+    },
+    "twilight_princess": {
+        "igdb_id": "134014",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co3w1h.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar21yd.png",
+        "key_art_url": "https://images.igdb.com/igdb/image/upload/t_cover_big/ar3p34.png",
+        "game_name": "Twilight Princess",
+        "igdb_name": "The Legend of Zelda: Twilight Princess",
+        "age_rating": "12",
+        "rating": [
+            "Fantasy Violence",
+            "Animated Blood"
+        ],
+        "player_perspectives": [
+            "Third person"
+        ],
+        "genres": [
+            "Puzzle",
+            "Adventure"
+        ],
+        "themes": [
+            "Action",
+            "Fantasy"
+        ],
+        "platforms": [
+            "Wii"
+        ],
+        "storyline": "Link, a young farm boy whose tasks consist of herding goats to watching children in Ordon village, is asked by the mayor to run an errand in Castle Town. But things went strange that day: the land becomes dark and strange creatures appear from another world called the Twilight Realm which turns most people into ghosts. Unlike the others, Link transforms into a wolf but is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.",
+        "keywords": [],
+        "release_date": 2006
     },
     "tww": {
         "igdb_id": "1033",
@@ -10370,7 +10237,6 @@
             "skeletons",
             "plot twist",
             "fast traveling",
-            "conversation",
             "you can pet the dog"
         ],
         "release_date": 2015
@@ -10437,8 +10303,7 @@
             "moving platforms",
             "auto-scrolling levels",
             "time trials",
-            "controller support",
-            "conversation"
+            "controller support"
         ],
         "release_date": 2010
     },
@@ -10518,10 +10383,7 @@
         "keywords": [
             "dinosaurs",
             "princess",
-            "yoshi",
-            "mario",
             "digital distribution",
-            "bonus stage",
             "damsel in distress",
             "retroachievements"
         ],
@@ -10827,7 +10689,7 @@
         "platforms": [
             "Wii U"
         ],
-        "storyline": "Xenoblade Chronicles X opens as humanity, warned of its impending destruction in the crossfire between two warring alien races, constructs interstellar arks to escape Earth. However, only a few arks escape the destruction, including the White Whale ark. Two years after launching, the White Whale is attacked and transported to Mira. During the crash-landing, the Lifehold—a device containing the majority of the human colonists—is separated from the White Whale, with lifepods containing colonists being scattered across Mira. The avatar is awoken from a lifepod by Elma and brought back to New Los Angeles. While suffering from amnesia, the avatar joins BLADE, working with Elma and Lin to recover more lifepods and search for the Lifehold. During their missions across Mira, BLADE encounters multiple alien races, learning that those attacking them are part of the Ganglion coalition, an alliance of races led by the Ganglion race, who are intent on destroying humanity.",
+        "storyline": "Xenoblade Chronicles X opens as humanity, warned of its impending destruction in the crossfire between two warring alien races, constructs interstellar arks to escape Earth. However, only a few arks escape the destruction, including the White Whale ark. Two years after launching, the White Whale is attacked and transported to Mira. During the crash-landing, the Lifehold—a device housing most of the human colonists—is separated from the White Whale, and lifepods carrying colonists are scattered across Mira. The avatar is awoken from a lifepod by Elma and brought back to New Los Angeles. While suffering from amnesia, the avatar joins BLADE, working with Elma and Lin to recover more lifepods and search for the Lifehold. During their missions across Mira, BLADE encounters multiple alien races and learns that those attacking them are part of the Ganglion coalition, an alliance led by the Ganglion, who are intent on destroying humanity.",
         "keywords": [
             "aliens",
             "robots",
@@ -10929,7 +10791,6 @@
         "keywords": [
             "dinosaurs",
             "side-scrolling",
-            "yoshi",
             "digital distribution",
             "kidnapping"
         ],
