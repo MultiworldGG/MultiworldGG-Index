@@ -18,5 +18,6 @@
     }
   ],
   "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_pokemon_snap-0.10.0-py3-none-any.whl#sha256=396070001cb69c1eeb5ca97548a05bb0500edab31dede140f160e3d6660527db",
-  "disk_space_kb": 90
+  "disk_space_kb": 90,
+  "igdb_id": 2324
 }
