@@ -1,9 +1,8 @@
 {
     "game": "The Sims 4",
     "world_version": "2.0.1",
-    "authors": [],
     "world_version_full": "2.0.1",
-    "contributors": [
+    "authors": [
         "mrsummer360",
         "itsmisscactus",
         "silasary"
@@ -16,7 +15,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_sims4-2.0.1-py3-none-any.whl#sha256=90d04eb79ba8b5eca0b153f7ee4932f49fe2a32d244a341c0e13394ac43b58d6",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_sims4-2.0.1-py3-none-any.whl#sha256=75db31b0754bfacdaded50e5d7ddc47feb2661d66024af8b375e5c1fa8f97eff",
+    "disk_space_kb": 250,
     "igdb_id": 3212
 }
