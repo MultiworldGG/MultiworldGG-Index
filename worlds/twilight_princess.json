@@ -1,0 +1,19 @@
+{
+  "game": "Twilight Princess",
+  "authors": [
+    "Hash"
+  ],
+  "world_version": "0.4.0",
+  "minimum_ap_version": "0.6.5",
+  "compatible_version": 7,
+  "version": 7,
+  "components": [
+    {
+      "name": "Twilight Princess Client",
+      "type": "client"
+    }
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_twilight_princess-0.4.0-py3-none-any.whl#sha256=7f8ea85fedf61508c3ee664c1ba62f05d9f5155187a4d2083c119bc645125c9d",
+  "disk_space_kb": 134,
+  "igdb_id": 134014
+}

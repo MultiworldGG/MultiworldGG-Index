@@ -2,7 +2,7 @@
   "compatible_version": 7,
   "version": 7,
   "game": "Ratchet & Clank: Size Matters",
-  "world_version": "0.5.6",
+  "world_version": "0.5.8",
   "authors": [
     "Pangu",
     "Amondo",
@@ -16,7 +16,7 @@
       "description": "Launch the Client for connecting to Ratchet & Clank: Size Matters"
     }
   ],
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_rac_size_matters-0.5.6-py3-none-any.whl#sha256=7632b6e5d4372f6f160bd4a55f9a36bbbfa3dbada38dfe87c9b07a632b172382",
-  "disk_space_kb": 1739,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_rac_size_matters-0.5.8-py3-none-any.whl#sha256=249320cd5198914233a2dfd3c8a7240d6a8102d5c9d9929742e162418bf8d55e",
+  "disk_space_kb": 1749,
   "igdb_id": 1791
 }

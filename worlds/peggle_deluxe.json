@@ -8,14 +8,14 @@
     "idgb_id": 28975,
     "minimum_ap_version": "0.6.7",
     "version": 7,
-    "world_version": "2.2.0",
+    "world_version": "2.2.1",
     "components": [
         {
             "name": "Peggle Deluxe Client",
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_peggle_deluxe-2.2.0-py3-none-any.whl#sha256=e41a34dd8a602cd24111bbc0a31f06c852736a7129c120bf91cebc713939f278",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_peggle_deluxe-2.2.1-py3-none-any.whl#sha256=9e13645e6efbf2bb0f529d73eb94bda0e7ef8193f180b618eefd21ab425cdc6f",
     "disk_space_kb": 1869,
     "igdb_id": 28975
 }

@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.3",
-    "world_version": "1.1.10",
+    "world_version": "1.1.14",
     "game": "Wargroove 2",
     "authors": [
         "Fly Hyping",
@@ -16,7 +16,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_wargroove2-1.1.10-py3-none-any.whl#sha256=65f22cfba69898ab4f2c45f12618e5e59c49d5b3d0f363702f5a317ec66faa7b",
-    "disk_space_mb": 2,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_wargroove2-1.1.14-py3-none-any.whl#sha256=e2a4ad7ca368d01a4846fbe9b4664b031a9214ee121de1be78ecc11a26cb5fbd",
+    "disk_space_kb": 1894,
     "igdb_id": 27441
 }
