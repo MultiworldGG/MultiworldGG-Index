@@ -3,11 +3,18 @@
     "authors": [
         "lil David"
     ],
-    "world_version": "3.4.0",
+    "world_version": "3.5.1",
     "minimum_ap_version": "0.6.7",
+    "flags": [
+        "supports_deathlink"
+    ],
+    "license": "MIT",
+    "ai_disclosure": "none",
+    "repo_url": "https://github.com/lilDavid/Archipelago-Wario-Land-4",
+    "tracker": "https://github.com/JackTHerbert/wl4_jth/releases/latest",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_wl4-3.4.0-py3-none-any.whl#sha256=7a90b8659528b403b11b0caf08b2c3702527f8fd86e065cdf719034edeeb4f8a",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_wl4-3.5.1-py3-none-any.whl#sha256=ea855d2ea5535ec399c579d005571443ca465d4a5301daf8fb21cb52917288c7",
+    "disk_space_kb": 67,
     "igdb_id": 1699
 }
