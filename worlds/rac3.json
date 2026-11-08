@@ -2,7 +2,7 @@
     "compatible_version": 7,
     "version": 7,
     "game": "Ratchet and Clank 3",
-    "world_version": "0.6.3",
+    "world_version": "0.7.0",
     "minimum_ap_version": "0.5.0",
     "authors": [
         "Taoshi",
@@ -18,7 +18,7 @@
             "description": "Launch the Client for connecting to Ratchet and Clank 3 [PlayStation 2]"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-17/worlds_rac3-0.6.3-py3-none-any.whl#sha256=86daa544c13955836e286bab0bdc4c0be6e0cf9aadf980e0a0b6cb1aadb4f36b",
-    "disk_space_kb": 2850,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_rac3-0.7.0-py3-none-any.whl#sha256=92dd47359710b99d9762e9a7e8a6ad15c0447541cf1497cc04d3ec3299ac9aea",
+    "disk_space_kb": 2889,
     "igdb_id": 1773
 }
