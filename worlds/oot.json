@@ -1,7 +1,7 @@
 {
     "game": "Ocarina of Time",
     "world_version": "9.1.0",
-    "world_version_full": "9.1.0-release6",
+    "world_version_full": "9.1.0-release10",
     "authors": [
         "espeon65536",
         "TreZ"
@@ -19,7 +19,7 @@
             "type": "adjuster"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-04/worlds_oot-9.1.0-py3-none-any.whl#sha256=06021e96bf1564d5d3af934205e3938a3cc8a543d1a26b0da74de06bb8adc3e0",
-    "disk_space_kb": 3445,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_oot-9.1.0-py3-none-any.whl#sha256=db8ee4db57328e9e65edc374cc91daa65b694c33c2a96c7b7ae975e0cf06c55e",
+    "disk_space_kb": 3464,
     "igdb_id": 1029
 }
