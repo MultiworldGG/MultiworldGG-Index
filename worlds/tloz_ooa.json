@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.5.1",
-    "world_version": "1.1.2",
+    "world_version": "2.0.1",
     "authors": [
         "josephanimate2021",
         "Glan9",
@@ -10,7 +10,7 @@
     "game": "The Legend of Zelda - Oracle of Ages",
     "version": 7,
     "compatible_version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_tloz_ooa-1.1.2-py3-none-any.whl#sha256=5e8ccb7f24ce14fa3eff3dde55307d782d7625ef6114e7c0c6e5d0a804d7bc6d",
-    "disk_space_kb": 207,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_tloz_ooa-2.0.1-py3-none-any.whl#sha256=a58130750ba6d04e3d98d37477d37c1bfd5dd9299efe7e5cded6428a51d67781",
+    "disk_space_kb": 227,
     "igdb_id": 1041
 }
