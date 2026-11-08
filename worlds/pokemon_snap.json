@@ -1,0 +1,22 @@
+{
+  "game": "Pokemon Snap",
+  "world_version": "0.10.0",
+  "minimum_ap_version": "0.6.7",
+  "authors": [
+    "ArsonAssassin",
+    "SomeJakeGuy",
+    "gerbiljames",
+    "nielrenned",
+    "cobyw"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "components": [
+    {
+      "name": "Pokemon Snap Client",
+      "type": "client"
+    }
+  ],
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_pokemon_snap-0.10.0-py3-none-any.whl#sha256=396070001cb69c1eeb5ca97548a05bb0500edab31dede140f160e3d6660527db",
+  "disk_space_kb": 90
+}
