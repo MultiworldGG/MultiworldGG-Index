@@ -3,12 +3,12 @@
     "version": 7,
     "game": "Toontown",
     "repo_url": "https://github.com/toontown-archipelago/toontown-archipelago",
-    "world_version": "0.20.2",
+    "world_version": "0.21.0",
     "authors": [
         "DevvyDont",
         "PIEisFANTASTIC"
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_toontown-0.20.2-py3-none-any.whl#sha256=14612903913654195b1c48addc0221950640cb21136c627391492ed59a0028dd",
-    "disk_space_kb": 75,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_toontown-0.21.0-py3-none-any.whl#sha256=e33d2d8b23af897d3a2f64fc7fff8079c925e3f23511dec8b4102aabd983e950",
+    "disk_space_kb": 76,
     "igdb_id": 25326
 }
