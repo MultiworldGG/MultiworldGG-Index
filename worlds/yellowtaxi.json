@@ -1,7 +1,7 @@
 {
   "game": "Yellow Taxi Goes Vroom",
   "minimum_ap_version": "0.6.7",
-  "world_version": "0.7.0",
+  "world_version": "0.8.1",
   "authors": [
     "soopercool101"
   ],
@@ -15,6 +15,6 @@
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-07/worlds_yellowtaxi-0.7.0-py3-none-any.whl#sha256=b65f6b53c6488e1b3bdb08ef6a9d90253ae64cd20025fe4ad18312c3a508fcad",
-  "disk_space_mb": 1
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_yellowtaxi-0.8.1-py3-none-any.whl#sha256=2a9d5d1b799905e6e7ef1a2b1a906e181c7daad78e277ab630c07b25257bba96",
+  "disk_space_kb": 192
 }
