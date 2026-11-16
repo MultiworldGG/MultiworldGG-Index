@@ -1,13 +1,13 @@
 {
   "game": "Hollow Knight: Silksong",
-  "world_version": "0.5.4",
+  "world_version": "0.5.5",
   "authors": [
     "BatAtVideoGames"
   ],
   "compatible_version": 7,
   "version": 7,
-  "minimum_ap_version": "0.6.7",
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_silksong-0.5.4-py3-none-any.whl#sha256=b122457dfab0117a9a52290f7e61721ff89455161b453acc3ad23f4038bb4b6e",
-  "disk_space_kb": 2057,
+  "minimum_ap_version": "0.6.8",
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_silksong-0.5.5-py3-none-any.whl#sha256=89633dcfcac107fbdcffae185db5856406812cfee83e5620e413f480f8ba60b5",
+  "disk_space_kb": 2146,
   "igdb_id": 115289
 }
