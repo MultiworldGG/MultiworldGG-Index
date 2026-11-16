@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.2.6",
+    "world_version": "0.3.0",
     "authors": [
         "Noka",
         "ArsonAssassin"
@@ -8,7 +8,13 @@
     "game": "Dark Souls Remastered",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-20/worlds_dsr-0.2.6-py3-none-any.whl#sha256=740e4b49bddd59b3f40ea4fc5754ef81ebf1ed538402dbd87c5687d02cb438db",
-    "disk_space_kb": 71,
+    "components": [
+        {
+            "name": "Revert DSR Patch",
+            "type": "client"
+        }
+    ],
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_dsr-0.3.0-py3-none-any.whl#sha256=8f88ad6119586266d4623af2db36aa70c9679cf55e8b5d075a68cb3825cf3404",
+    "disk_space_kb": 77,
     "igdb_id": 81085
 }
