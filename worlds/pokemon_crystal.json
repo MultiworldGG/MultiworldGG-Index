@@ -4,11 +4,11 @@
         "gerbiljames"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "6.0.5",
+    "world_version": "6.0.6",
     "minimum_patch_version": "6.0.0",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_pokemon_crystal-6.0.5-py3-none-any.whl#sha256=a1b094f3e97f812bcd0075146590cf7724e12d186b9071c65125a73e42836b99",
-    "disk_space_kb": 985,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_pokemon_crystal-6.0.6-py3-none-any.whl#sha256=cb9b0ecc01ab88120d6f252e151ed5863361e5d031a0dc7d1dfeb973324e55a9",
+    "disk_space_kb": 986,
     "igdb_id": 1514
 }
