@@ -3,14 +3,15 @@
     "authors": [
         "Dragion",
         "Platano Bailando",
-        "Karanum"
+        "Karanum",
+        "Dracador"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.2.3",
+    "world_version": "0.2.4",
     "tracker": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_gstla-0.2.3-py3-none-any.whl#sha256=2af4547fdcc9b81bb194574ee5103ab16bbc6500a1cfba8cb2024bb232d67cf5",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_gstla-0.2.4-py3-none-any.whl#sha256=226848640e1091d5473053eb414fbf165d3fab875c1f2d37acb72f6fc8e496e1",
+    "disk_space_kb": 250,
     "igdb_id": 1173
 }
