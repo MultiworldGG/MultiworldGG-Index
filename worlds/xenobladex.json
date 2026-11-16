@@ -5,7 +5,7 @@
         "Nina"
     ],
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.3.0",
+    "world_version": "0.3.1",
     "compatible_version": 7,
     "version": 7,
     "components": [
@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_xenobladex-0.3.0-py3-none-any.whl#sha256=adce07cffd51403d1514ec9b52d8673b4873114fb51674eb3f50d04ae72eb4f0",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_xenobladex-0.3.1-py3-none-any.whl#sha256=ae2ae393687b24493dac9b9e8d42e4d0dd667242dd329fd222bef410b129fbce",
     "disk_space_kb": 342,
     "igdb_id": 2366
 }

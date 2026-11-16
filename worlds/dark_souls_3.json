@@ -1,14 +1,14 @@
 {
     "game": "Dark Souls III",
-    "world_version": "0.0.1",
     "authors": [
         "Marech",
         "nex3"
     ],
     "minimum_ap_version": "0.4.2",
+    "world_version": "4.0.2",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-09-12/worlds_dark_souls_3-0.0.1-py3-none-any.whl#sha256=0d8d63fc8f2cb22b11c69d9a5e6261ec30ae0b349eaefa911828ab19950d592c",
-    "disk_space_kb": 144,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_dark_souls_3-4.0.2-py3-none-any.whl#sha256=b5b6704483c67d8932b1896c5136c324c3ae1a505e7221b58fcd44a8e83798c9",
+    "disk_space_kb": 148,
     "igdb_id": 11133
 }
