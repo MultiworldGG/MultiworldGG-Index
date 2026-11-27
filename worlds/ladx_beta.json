@@ -5,7 +5,7 @@
         "threeandthree"
     ],
     "minimum_ap_version": "0.6.4",
-    "world_version": "13.6.6",
+    "world_version": "14.0.2",
     "compatible_version": 7,
     "version": 7,
     "components": [
@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_ladx_beta-13.6.6-py3-none-any.whl#sha256=67e8517b7cb08833c491370219042a6eec9a30c8f646a5065e805cbbdce3750a",
-    "disk_space_kb": 379,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_ladx_beta-14.0.2-py3-none-any.whl#sha256=1c5109b7ad0c2120d14d636858855db8b78aef54cdbdcbe40b28965e0625d56d",
+    "disk_space_kb": 392,
     "igdb_id": 1028
 }
