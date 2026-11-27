@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.7",
-    "world_version": "0.3.0",
+    "world_version": "0.3.1",
     "authors": [
         "Noka",
         "ArsonAssassin"
@@ -14,7 +14,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_dsr-0.3.0-py3-none-any.whl#sha256=8f88ad6119586266d4623af2db36aa70c9679cf55e8b5d075a68cb3825cf3404",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_dsr-0.3.1-py3-none-any.whl#sha256=0b62b9ff103679aaa9632f685d1bce539c8b36fb9153ec4902e568ef6f2cf3d6",
     "disk_space_kb": 77,
     "igdb_id": 81085
 }
