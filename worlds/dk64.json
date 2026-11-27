@@ -1,6 +1,6 @@
 {
     "minimum_ap_version": "0.6.5",
-    "world_version": "2.0.8",
+    "world_version": "2.0.9",
     "authors": [
         "2dos",
         "AlmostSeagull",
@@ -20,7 +20,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_dk64-2.0.8-py3-none-any.whl#sha256=4b347f9426213f76a7ba9a71d7a97496564b3bf1619d65e13d8578ffe92d2929",
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_dk64-2.0.9-py3-none-any.whl#sha256=968d8d1203ceb3e4dacc8081d19a54ee5991df0f60564ffc4e043fce9bf06696",
     "disk_space_kb": 1870,
     "igdb_id": 1096
 }

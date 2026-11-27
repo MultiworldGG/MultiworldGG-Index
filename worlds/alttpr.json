@@ -1,13 +1,13 @@
 {
   "game": "The Legend of Zelda: A Link to the Past",
   "minimum_ap_version": "0.6.6",
-  "world_version": "1.8.1",
+  "world_version": "1.8.2",
   "authors": [
     "aurabot"
   ],
   "compatible_version": 7,
   "version": 7,
-  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-16/worlds_alttpr-1.8.1-py3-none-any.whl#sha256=fee15e0c911592ddaf111cc2a8995e86804b100caf8856b2c6efabea1c3e0026",
-  "disk_space_kb": 1208,
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_alttpr-1.8.2-py3-none-any.whl#sha256=aeeb637a605bec737354a5582cb12a8a784030d128cafec2cc819e44196c4799",
+  "disk_space_kb": 1209,
   "igdb_id": 1026
 }

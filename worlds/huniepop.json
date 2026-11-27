@@ -1,12 +1,12 @@
 {
     "game": "Hunie Pop",
-    "world_version": "2.3.1",
+    "world_version": "3.0.0",
     "authors": [
         "Dotsofdarkness"
     ],
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_huniepop-2.3.1-py3-none-any.whl#sha256=9e6d15faa993bf2b84e5da115e61628283eed7536fc3e0fa30fbf9956ddac423",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_huniepop-3.0.0-py3-none-any.whl#sha256=3bf831a5812e4f343818ba7bd430e7deabaf0c6299070a55f957f2e46ca091c4",
+    "disk_space_kb": 38,
     "igdb_id": 9655
 }

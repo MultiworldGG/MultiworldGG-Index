@@ -1,0 +1,19 @@
+{
+  "game": "Undertale Beta",
+  "minimum_ap_version": "0.6.7",
+  "world_version": "2.0.0",
+  "authors": [
+    "Mewlif"
+  ],
+  "compatible_version": 7,
+  "version": 7,
+  "components": [
+    {
+      "name": "Undertale Beta Client",
+      "type": "client"
+    }
+  ],
+  "igdb_id": 12517
+  "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_undertale_beta-2.0.0-py3-none-any.whl#sha256=8cb24297db6eee31960e2f826637f38b631943e7bb8dc42f858556bff9e4e608",
+  "disk_space_kb": 725
+}

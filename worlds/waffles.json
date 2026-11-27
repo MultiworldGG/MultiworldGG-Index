@@ -1,6 +1,6 @@
 {
     "game": "SMW: Spicy Mycena Waffles",
-    "world_version": "1.3.10",
+    "world_version": "1.3.11",
     "minimum_ap_version": "0.6.7",
     "authors": [
         "lx5",
@@ -14,7 +14,7 @@
             "type": "adjuster"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_waffles-1.3.10-py3-none-any.whl#sha256=d821453dbca2a0a4c7bbcd37b8c7bf69354573f813531668e1f96066c5c48ee2",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_waffles-1.3.11-py3-none-any.whl#sha256=638aee0d4bb4f38b2884d731e17a0542bd868e31c02df0d92a3f27207012f39f",
+    "disk_space_kb": 273,
     "igdb_id": 1070
 }
