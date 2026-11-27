@@ -1,6 +1,6 @@
 {
     "game": "DELTARUNE",
-    "world_version": "2.3.0",
+    "world_version": "2.3.1",
     "minimum_ap_version": "0.6.7",
     "authors": [
         "Mewlif",
@@ -20,7 +20,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_deltarune-2.3.0-py3-none-any.whl#sha256=b5c9ab659eb5743a7e3610bba2586eff5d4190f318d17a04eb5a452d9a9d468d",
-    "disk_space_kb": 568,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_deltarune-2.3.1-py3-none-any.whl#sha256=ac35bf77434baa1ec9fb5931d6fffff0b4fb7b36377b54dd18f35d38b7601904",
+    "disk_space_kb": 569,
     "igdb_id": 171233
 }
