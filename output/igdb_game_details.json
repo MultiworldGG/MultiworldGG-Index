@@ -10241,6 +10241,68 @@
         ],
         "release_date": 2015
     },
+    "undertale_beta": {
+        "igdb_id": "12517",
+        "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/cob1t2.png",
+        "artwork_url": "https://images.igdb.com/igdb/image/upload/t_logo_med/ar4vc.png",
+        "key_art_url": "",
+        "game_name": "Undertale Beta",
+        "igdb_name": "Undertale",
+        "age_rating": "12",
+        "rating": [
+            "Mild Blood",
+            "Mild Language",
+            "Use of Tobacco",
+            "Simulated Gambling",
+            "Fantasy Violence"
+        ],
+        "player_perspectives": [
+            "Bird view / Isometric",
+            "Side view"
+        ],
+        "genres": [
+            "Puzzle",
+            "Role-playing (RPG)",
+            "Adventure",
+            "Indie"
+        ],
+        "themes": [
+            "Fantasy",
+            "Horror",
+            "Comedy",
+            "Drama"
+        ],
+        "platforms": [
+            "PlayStation 4",
+            "Linux",
+            "PC (Microsoft Windows)",
+            "Mac",
+            "PlayStation Vita",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "storyline": "\"A long time ago, two races ruled peacefully over the Earth: HUMANS and MONSTERS. One day, a terrible war broke out between the two races. After a long battle, the humans were victorious. They sealed the monsters underground with a magical spell.\n\nIn the year 201X, a small child scales Mt. Ebott. It is said that those who climb the mountain never return.\n\nSeeking refuge from the rainy weather, the child enters a cave and discovers an enormous hole.\n\nMoving closer to get a better look... the child falls in.\n\nNow, our story begins.\"",
+        "keywords": [
+            "retro",
+            "2d",
+            "turn-based",
+            "backtracking",
+            "multiple endings",
+            "cute",
+            "funny",
+            "pixel art",
+            "story rich",
+            "great soundtrack",
+            "anthropomorphism",
+            "leveling up",
+            "breaking the fourth wall",
+            "skeletons",
+            "plot twist",
+            "fast traveling",
+            "you can pet the dog"
+        ],
+        "release_date": 2015
+    },
     "v6": {
         "igdb_id": "1990",
         "cover_url": "https://images.igdb.com/igdb/image/upload/t_thumb/co4ieg.png",
