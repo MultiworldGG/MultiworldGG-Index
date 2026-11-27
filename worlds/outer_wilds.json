@@ -1,11 +1,11 @@
 {
     "game": "Outer Wilds",
-    "world_version": "1.4.1",
+    "world_version": "1.4.2",
     "authors": [],
     "minimum_ap_version": "0.6.7",
     "compatible_version": 7,
     "version": 7,
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-08/worlds_outer_wilds-1.4.1-py3-none-any.whl#sha256=7eed0569d7e745fa62cdb33ae8cc574c32c1f0cf6216118d2b295d3a0b4ce818",
-    "disk_space_kb": 104,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_outer_wilds-1.4.2-py3-none-any.whl#sha256=a127359d14cd9faef4ca361b408a56aa320674aab5f3544f3a54cd0bfe9f71ad",
+    "disk_space_kb": 105,
     "igdb_id": 11737
 }
