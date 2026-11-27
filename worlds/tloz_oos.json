@@ -4,8 +4,8 @@
         "Dinopony",
         "Ishigh"
     ],
-    "minimum_ap_version": "0.6.8",
-    "world_version": "24.2.4",
+    "minimum_ap_version": "0.6.7",
+    "world_version": "26.2.3",
     "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
     "igdb_id": 1032,
     "license": "MIT",
@@ -23,6 +23,6 @@
             "description": "An UI to extract and manipulates Link's sprite in Oracle of Seasons and Ages.\nEditing the sprite should be done with an external program."
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-10-13/worlds_tloz_oos-24.2.4-py3-none-any.whl#sha256=40b938d135fbd088d10ac66ddb64877c00177a7eeca8ee7b62f2c00af43375cd",
-    "disk_space_kb": 278
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_tloz_oos-26.2.3-py3-none-any.whl#sha256=16fe47933dfec0c639165a7c927d4868af20d85b42770fbdded8ac64f4a7a536",
+    "disk_space_kb": 313
 }
