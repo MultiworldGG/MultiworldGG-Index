@@ -1,12 +1,9 @@
 {
     "game": "Lego Star Wars: The Complete Saga",
-    "world_version": "1.4.4",
-    "minimum_ap_version": "0.6.1",
+    "world_version": "2.0.0",
+    "minimum_ap_version": "0.6.8",
     "_comment_minimum_ap_version": [
-        "The apworld uses `World.push_precollected()`, which was added in 0.6.1.",
-        "Deprioritized ItemClassification (AP 0.6.3) is used in a backwards compatible manner through `getattr()`",
-        "Manifest files for specifying the game name and apworld version (AP 0.6.4) are used in a version independent",
-        " manner through `pkgutil.get_data()`"
+        "Empty And() rules are bugged in AP 0.6.7, and fixed in AP 0.6.8"
     ],
     "authors": [
         "Mysteryem"
@@ -19,7 +16,7 @@
             "type": "client"
         }
     ],
-    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-08-30/worlds_lego_star_wars_tcs-1.4.4-py3-none-any.whl#sha256=006b4cea9f2e4f8b320962fe32c0454868a1191c22d9c52e7fcc1a7e69dfcdce",
-    "disk_space_mb": 1,
+    "module_location": "https://github.com/MultiworldGG/MultiworldGG-Beta/releases/download/worlds-wheels-2026-11-27/worlds_lego_star_wars_tcs-2.0.0-py3-none-any.whl#sha256=7567ab570411868d3a88ba0fd9ee95c6ea30f3dd06aa027757bf15e1c639ff1b",
+    "disk_space_kb": 502,
     "igdb_id": 2682
 }
